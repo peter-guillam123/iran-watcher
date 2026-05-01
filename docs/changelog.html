@@ -1,63 +1,91 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<title>Changelog — Iran watcher</title>
+<title>Changelog — Iran &amp; Watcher</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="style.css">
 <style>
-*{box-sizing:border-box}
-body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
-main{max-width:680px;margin:0 auto;padding:32px 20px 80px}
-h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
-h2{font-size:18px;margin:28px 0 4px}
-h2 .date{color:#888;font-weight:400;font-size:14px;margin-left:8px}
-.meta{color:#666;font-size:14px;margin-bottom:24px}
-nav{margin:16px 0 24px;font-size:14px}
-nav a{color:#0a4f8f;text-decoration:none;margin-right:16px}
-nav a:hover{text-decoration:underline}
-p{margin:8px 0}
-ul{margin:6px 0 12px;padding-left:24px}
-li{margin:3px 0}
-.entry{padding:18px 0;border-top:1px solid #e2e2e2}
-.entry:first-of-type{border-top:none}
-.milestone h2{font-size:20px}
-code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#eee;padding:1px 5px;border-radius:3px}
+  /* Page-specific tweak: changelog entries get a subtle date-stamp treatment */
+  .entry { padding: 24px 0; border-top: 1px solid var(--rule-soft); }
+  .entry:first-of-type { border-top: none; padding-top: 8px; }
+  .entry h2 { margin-top: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
+  .entry .date {
+    font-family: var(--body); font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--accent); font-weight: 700;
+  }
+  .entry p { font-size: 15.5px; line-height: 1.65; }
+  .entry.milestone h2 { font-size: 26px; }
 </style>
-</head><body><main>
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<main class="prose" id="main">
 
-<h1>Changelog</h1>
-<div class="meta">What's been built and why. Most recent first.</div>
-<nav><a href="./">All days</a> <a href="about.html">About</a></nav>
+<header class="masthead">
+  <a class="wordmark" href="./">Iran <span class="ampersand">&amp;</span> Watcher</a>
+  <span class="dateline">Daily aggregator · est. 2026</span>
+</header>
+
+<nav class="site-nav">
+  <a href="./">Home</a>
+  <a href="about.html">About</a>
+  <a href="changelog.html" class="current">Changelog</a>
+</nav>
+
+<header class="page-header">
+  <h1>Changelog</h1>
+  <div class="meta">What's been built and why. Most recent first.</div>
+</header>
 
 <div class="entry milestone">
-<h2>Comparison vs. ISW Iran Update — 30 April 2026 <span class="date">1 May 2026 (evening)</span></h2>
-<p>Reran the collector against the same calendar window as the ISW Iran Update Special Report dated 30 April 2026 — added an <code>--until</code> argument so we can reconstruct historical 24-or-48-hour windows. 48 hours ending end-of-day 30 April produced 18 items, against ISW's roughly 3,000-word synthesis covering the same horizon. The comparison page lays our 18 items against ISW's themes, theme by theme.</p>
-<p>Verdict: we caught the geopolitical core (Strait of Hormuz, US-led maritime coalition, internal Iran politics, Iran's economic decline), partially caught the regime-domestic-life angle (more strongly than ISW does, because Iran International is leaning into it), and went silent on the tactical military layer — Khamenei's direct quotes via Telegram, Hezbollah's drone strikes, IDF strike counts on Lebanon, Israeli casualties. All three of those silences are Telegram and X gaps that the v1 scope already flagged. Nothing surprising, but useful to be precise about.</p>
-<p>For a UK newsroom, the upshot reads as "complementary rather than substitute" — ISW remains the only source for the tactical military beat, and we add timely UK Parliament, OFAC sanctions, FCDO statements, and a denser inside-Iran view via Iran International. The Telegram gap is the single biggest lever for a v2 jump.</p>
-<p>Caveat I want to be clean about: 18 items isn't a full day's tip-sheet at scale. 30 April was thin on UK Parliament because of Prorogation and on Federal Register because no Iran-specific notices were published that day. A different sample day — particularly one when the Commons is sitting — would shift the balance.</p>
+  <h2>Editorial redesign <span class="date">1 May 2026 (evening)</span></h2>
+  <p>Visual overhaul. Every page now shares a single stylesheet (<code>docs/style.css</code>) and a wire-service masthead — Playfair Display headlines, Public Sans body, JetBrains Mono for metadata, deep editorial red as the signature accent and a paper-tone background. The homepage is now the most recent daily brief inline, with the archive listed below and the comparison pages featured in their own panel. Tier signalling moved from coloured pills to small coloured squares in the source-line, which is quieter on the page. Section breaks use a small ❦ ornament to mark transitions.</p>
+  <p>Mobile: tap targets bumped to 40px+, type ladder reduces sensibly, filter pills wrap. Accessibility: skip link, focus rings, semantic landmarks, no relying on colour alone for tier signalling (the source-line text already carries the source family).</p>
 </div>
 
 <div class="entry milestone">
-<h2>Daily window, filter pills, rich Parliament layout <span class="date">1 May 2026 (later)</span></h2>
-<p>Three changes on the back of Chris's review. (1) The brief is now actually a brief — we were running with a 14-day backfill window when we should have been running 24 hours. The page header now reads "window 30 Apr 08:14Z to 01 May 08:14Z" and on a quiet day like today's that's six items. On a busy day it'll be a couple of dozen. The first run after Parliament returns from prorogation will tell us properly.</p>
-<p>(2) Filter pills along the top group items by source family with live counts ("UK Parliament 3 · US State Department 5 · Iran International 45") and toggle individual sources on/off. Click two and you get the union — "show me Parliament <em>and</em> State Department". Click "All" to clear. Vanilla JS, no framework.</p>
-<p>(3) Parliament events now render with a proper Q&amp;A layout: asking member with party tag and house, the department asked, the date tabled, the full question text, and — when the answer has landed — the answering minister with party, the date, and the full answer. Lord Alton (Crossbench, Lords) → FCDO, Ruth Jones (Labour, Commons) → FCDO on the Bahá'í community, Lee Barron (Labour, Commons) → Home Office on UAE returnees. The kind of richness that makes the items actually scannable instead of opaque.</p>
-<p>Also: cleaned the "Thomas Pigott, Department Spokesperson, Press Statement [date]" boilerplate that the State Department RSS prepends to every body, so the summary actually starts with the news.</p>
-<p>The list at <code>docs/index.html</code> currently shows two pages: today's daily 24-hour brief, and a one-time "last 7 days demo" so anyone who wants to see what the layout does at scale (54 items, all sources represented) has somewhere to look. The demo file goes away once the daily cron has run a few times.</p>
+  <h2>Three ISW comparisons (April 21, 24, 30) <span class="date">1 May 2026 (afternoon)</span></h2>
+  <p>Two more like-for-like comparisons against ISW Iran Update reports. Each maps ISW's themes to our coverage with green/amber/red badges, and calls out items we caught that ISW didn't.</p>
+  <p>21 April: 19 matched items. The State Department's Mahan Air sanctions designation lands the same day, directly matching ISW's proliferation-networks theme. UK Parliament API was returning 500s during the run so any tabled questions on 20–21 April are missing — diagnostics record the failure honestly.</p>
+  <p>24 April: 22 matched items, the strongest UK case of the three. We catch the Vahidi-Ghalibaf delegation breakdown via Iran International, the State Dept China-oil sanctions on the day, the OFAC Federal Register notice, and a substantial UK political layer ISW doesn't touch — Starmer's IRGC-ban pledge, the LBC sabotage investigation, the Old Bailey spying case, and five Parliament Q&amp;As on Arms Trade.</p>
 </div>
 
 <div class="entry milestone">
-<h2>Iran International added; double-escape fix <span class="date">1 May 2026 (afternoon)</span></h2>
-<p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. The brief jumped from 38 items to 126 over the same 14-day window, with the new 88 covering the politics-of-pink propaganda piece, the IRGC firing on an Indian vessel in Hormuz, the dispute within the leadership that blocked the negotiators' trip to Islamabad, the Mashhad protest crackdown. None of which were going to land via FCDO written answers.</p>
-<p>Tier-3 badge is the right home for it — the editorial slant is real and worth signalling. A future job is a parallel triangulation feed (Tasnim or IRNA via mirror, or BBC Monitoring if we ever pay for it) so the brief presents a left-and-right-of-Tehran read rather than a left-only one.</p>
-<p>Also: small render fix — State Department summaries arrive with HTML entities pre-encoded (<code>&amp;quot;</code>, <code>&amp;#8217;</code>), and we were re-escaping them. <code>html.unescape</code> first, then re-escape, so quotes and apostrophes render properly.</p>
-<p>Tried and dropped from this round: the IDF press page (<code>idf.il</code>) is a JavaScript SPA that returns a 212-byte shell — needs Playwright or a headless browser, which is a chunk of work and a chunk of dependencies for one source. Deferred to v2.</p>
+  <h2>April 19–30 daily archive backfilled <span class="date">1 May 2026</span></h2>
+  <p>Twelve days of dated briefs, each with a 24-hour calendar-day window. Total: 89 events across the period, range from 2 items (19 April — feed-history floor) to 13 items (21 April — IRGC firing on Indian vessel, US-led blockade, Tehran moderates piece). Earlier April days aren't backfilled because the RSS feeds underneath most of our sources only retain ~10–150 recent items and don't reach further back.</p>
+  <p>Each daily page got prev/next navigation top and bottom, so the editor can step through the chain without bouncing back to the index.</p>
 </div>
 
 <div class="entry milestone">
-<h2>v1 prototype <span class="date">1 May 2026</span></h2>
-<p>First end-to-end run. Six source adapters wired up, filter and de-dup working, daily HTML page rendering. The morning brief for 1 May has 38 items across UK Parliament, Federal Register / OFAC, US State Department, UN Press, IAEA and the UK FCDO / No 10 / MoD via gov.uk's Atom feeds.</p>
-<p>Honest gaps from day one: ReliefWeb is wired but waits on an <code>appname</code> registration that ReliefWeb tightened in November 2025. The US Department of War (the rebranded DoD) and CENTCOM are 403-blocked at the WAF level — most of what we'd want from them is duplicated through State and the Federal Register, but the gap is real. Telegram, X and Iranian state media are firmly out of scope for v1, with the Iran blackout being the strongest argument that the last of those isn't really available right now anyway.</p>
-<p>The biggest surprise on the first run was how much UK Parliament was already pulling its weight: the MoD was being asked about the origin of the drone that struck RAF Akrotiri, the Home Office about British nationals leaving the UAE, the FCDO about UN committee nominations. That's exactly the kind of national-record-of-record material a UK tip-sheet should be surfacing, and most of it never makes the wires.</p>
+  <h2>Comparison vs. ISW Iran Update — 30 April 2026 <span class="date">1 May 2026</span></h2>
+  <p>Reran the collector against the same calendar window as the ISW Iran Update Special Report dated 30 April 2026 — added an <code>--until</code> argument so we can reconstruct historical 24-or-48-hour windows. 48 hours ending end-of-day 30 April produced 18 items, against ISW's roughly 3,000-word synthesis covering the same horizon. The comparison page lays our 18 items against ISW's themes, theme by theme.</p>
+  <p>Verdict: we caught the geopolitical core (Strait of Hormuz, US-led maritime coalition, internal Iran politics, Iran's economic decline), partially caught the regime-domestic-life angle (more strongly than ISW does, because Iran International is leaning into it), and went silent on the tactical military layer — Khamenei's direct quotes via Telegram, Hezbollah's drone strikes, IDF strike counts on Lebanon, Israeli casualties. All three of those silences are Telegram and X gaps that the v1 scope already flagged. Nothing surprising, but useful to be precise about.</p>
 </div>
 
-</main></body></html>
+<div class="entry milestone">
+  <h2>Daily window, filter pills, rich Parliament layout <span class="date">1 May 2026</span></h2>
+  <p>Three changes on the back of an editorial review. (1) The brief is now actually a brief — we were running with a 14-day backfill window when we should have been running 24 hours. (2) Filter pills along the top group items by source family with live counts and toggle individual sources on/off. (3) Parliament events render with a proper Q&amp;A layout: asking member with party tag and house, the department asked, the date tabled, the full question text, and — when the answer has landed — the answering minister with party, the date, and the full answer.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>Iran International added; double-escape fix <span class="date">1 May 2026</span></h2>
+  <p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. The brief jumped from 38 items to 126 over the same 14-day window, with the new 88 covering the politics-of-pink propaganda piece, the IRGC firing on an Indian vessel in Hormuz, the dispute within the leadership that blocked the negotiators' trip to Islamabad, the Mashhad protest crackdown. None of which were going to land via FCDO written answers.</p>
+  <p>Tier-3 badge is the right home for it — the editorial slant is real and worth signalling. A future job is a parallel triangulation feed (Tasnim or IRNA via mirror, or BBC Monitoring if we ever pay for it) so the brief presents a left-and-right-of-Tehran read rather than a left-only one.</p>
+  <p>Tried and dropped from this round: the IDF press page (<code>idf.il</code>) is a JavaScript SPA that returns a 212-byte shell — needs Playwright or a headless browser, which is a chunk of work and a chunk of dependencies for one source. Deferred to v2.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>v1 prototype <span class="date">1 May 2026</span></h2>
+  <p>First end-to-end run. Six source adapters wired up, filter and de-dup working, daily HTML page rendering. The morning brief for 1 May has 38 items across UK Parliament, Federal Register / OFAC, US State Department, UN Press, IAEA and the UK FCDO / No 10 / MoD via gov.uk's Atom feeds.</p>
+  <p>Honest gaps from day one: ReliefWeb is wired but waits on an <code>appname</code> registration that ReliefWeb tightened in November 2025. The US Department of War (the rebranded DoD) and CENTCOM are 403-blocked at the WAF level — most of what we'd want from them is duplicated through State and the Federal Register, but the gap is real. Telegram, X and Iranian state media are firmly out of scope for v1.</p>
+  <p>The biggest surprise on the first run was how much UK Parliament was already pulling its weight: the MoD was being asked about the origin of the drone that struck RAF Akrotiri, the Home Office about British nationals leaving the UAE, the FCDO about UN committee nominations. That's exactly the kind of national-record-of-record material a UK tip-sheet should be surfacing, and most of it never makes the wires.</p>
+</div>
+
+<footer class="site">
+  <span>Iran &amp; Watcher · primary-source aggregator for the Iran / Middle East beat</span>
+  <span><a href="https://github.com/peter-guillam123/iran-watcher" rel="noopener">Source on GitHub</a></span>
+</footer>
+
+</main>
+</body></html>

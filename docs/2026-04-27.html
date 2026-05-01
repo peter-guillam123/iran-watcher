@@ -1,115 +1,26 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<title>Iran watcher — Monday 27 April 2026</title>
+<title>Iran watcher · Monday 27 April 2026</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>*{box-sizing:border-box}
-body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
-main{max-width:780px;margin:0 auto;padding:32px 20px 80px}
-header{margin-bottom:24px}
-header h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
-header .meta{color:#666;font-size:14px}
-nav.top{margin:12px 0 0;font-size:14px}
-nav.top a{color:#0a4f8f;text-decoration:none;margin-right:16px}
-nav.top a:hover{text-decoration:underline}
-
-.filters{margin:24px 0 16px;padding:14px 14px 8px;background:#fff;border:1px solid #e2e2e2;border-radius:8px}
-.filter-row{margin-bottom:8px}
-.filter-row:last-child{margin-bottom:0}
-.sort-row{padding-top:8px;border-top:1px solid #f0f0f0}
-.filters h4{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:0 0 8px;font-weight:600}
-.pill,.sort-pill{display:inline-flex;align-items:baseline;gap:6px;padding:5px 12px;margin:0 6px 6px 0;border:1px solid #d0d0d0;border-radius:18px;background:#fff;color:#333;font-size:14px;cursor:pointer;user-select:none;transition:background .12s,color .12s,border-color .12s;font-family:inherit}
-.pill:hover,.sort-pill:hover{border-color:#888}
-.pill .n,.sort-pill .n{font-variant-numeric:tabular-nums;color:#666;font-size:12px}
-.pill[data-active="1"],.sort-pill[data-active="1"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
-.pill[data-active="1"] .n,.sort-pill[data-active="1"] .n{color:#bbb}
-.pill.all{background:#f0f0f0}
-.pill.all[data-active="1"]{background:#1a1a1a;color:#fff}
-
-.tier-header{font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin:28px 0 4px;padding-bottom:4px;border-bottom:1px solid #eee}
-.tier-header:first-child{margin-top:8px}
-.tier-header.hidden{display:none}
-.tier-header.t1{color:#2a672a}
-.tier-header.t2{color:#3a55a8}
-.tier-header.t3{color:#8a4a17}
-
-.day-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 4px;padding:10px 14px;background:#fff;border:1px solid #e2e2e2;border-radius:8px;font-size:14px}
-.day-nav.bottom{margin-top:32px}
-.day-nav a{color:#0a4f8f;text-decoration:none;flex:1}
-.day-nav a:hover{text-decoration:underline}
-.day-nav a.next{text-align:right}
-.day-nav a.hub{flex:0;color:#666;font-size:13px;text-align:center;padding:0 12px}
-.day-nav .disabled{color:#ccc;flex:1}
-.day-nav .next.disabled{text-align:right}
-
-.event{padding:18px 0;border-top:1px solid #e2e2e2}
-.event:first-of-type{border-top:none}
-.event .head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
-.event .source-line{font-size:13px;color:#555;flex:1;min-width:0}
-.event .source-line .src{font-weight:600;color:#1a1a1a}
-.event .time{color:#888;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
-.event h3{margin:0 0 6px;font-size:18px;line-height:1.35}
-.event h3 a{color:#1a1a1a;text-decoration:none}
-.event h3 a:hover{color:#0a4f8f;text-decoration:underline}
-.event .summary{color:#333;margin:6px 0 0;font-size:15px}
-.event .tags{margin-top:8px}
-.tag{display:inline-block;padding:1px 8px;font-size:11px;background:#eef;color:#3a55a8;border-radius:10px;margin-right:6px;letter-spacing:.02em;text-transform:lowercase}
-.tag.tier{background:#f0f0f0;color:#555}
-.tag.tier-1{background:#e6f3e6;color:#2a672a}
-.tag.tier-2{background:#eef;color:#3a55a8}
-.tag.tier-3{background:#fbeede;color:#8a4a17}
-
-/* Parliament rich layout */
-.parl{background:#fff;border:1px solid #e2e2e2;border-radius:8px;padding:14px 16px;margin-top:6px}
-.parl .meta{font-size:13px;color:#555;margin-bottom:8px}
-.parl .meta .actor{color:#1a1a1a;font-weight:600}
-.parl .meta .arrow{color:#bbb;margin:0 6px}
-.parl .qa{font-size:15px;line-height:1.5}
-.parl .qa-block{margin:8px 0}
-.parl .qa-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:4px;font-weight:600}
-.parl .qa-text{color:#222}
-.parl .answer-meta{font-size:12px;color:#777;margin-top:2px;font-style:italic}
-
-.diag{margin-top:48px;padding:14px 16px;background:#f4f4f4;border-radius:6px;font-size:13px;color:#555}
-.diag h4{margin:0 0 6px;font-size:13px;color:#333}
-.diag code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:12px}
-footer{margin-top:48px;padding-top:24px;border-top:1px solid #e2e2e2;color:#888;font-size:13px}
-footer a{color:#666}
-.empty{padding:32px 0;text-align:center;color:#666;font-style:italic}
-.hidden{display:none}
-.party{font-size:11px;padding:1px 6px;border-radius:8px;margin-left:4px;color:#fff;background:#777;font-weight:500;letter-spacing:.02em;text-transform:none}
-.party.lab{background:#d40000}
-.party.con{background:#0087dc}
-.party.ld{background:#faa61a;color:#000}
-.party.snp{background:#fff95d;color:#000}
-.party.xb{background:#888}
-.party.gov{background:#00558e}
-</style>
-</head><body><main>
-<header>
-  <h1>Iran watcher · Monday 27 April 2026</h1>
-  <div class="meta">9 items · window 2026-04-26 23:59Z to 2026-04-27 23:59Z</div>
-  <nav class="top"><a href="./">All days</a> <a href="about.html">About</a> <a href="changelog.html">Changelog</a></nav>
-</header>
-<nav class="day-nav"><a class="prev" href="2026-04-26.html">← Sun 26 Apr</a><a class="hub" href="./">All days</a><a class="next" href="2026-04-28.html">Tue 28 Apr →</a></nav>
-<section class="filters"><div class="filter-row"><h4>Filter by source</h4><button class="pill all" data-active="1" type="button">All <span class="n">9</span></button><button class="pill" data-source="Iran International" data-active="0" type="button">Iran International <span class="n">9</span></button></div><div class="filter-row sort-row"><h4>Sort by</h4><button class="sort-pill" data-sort="date" data-active="1" type="button">Date <span class="n">newest first</span></button><button class="sort-pill" data-sort="tier" data-active="0" type="button">Tier <span class="n">1 → 3</span></button></div></section>
-<section class="events"><article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 23:53Z</div></div><h3><a href="https://www.iranintl.com/en/202604279149" rel="noopener">Why a blockade would not halt Iran’s oil overnight</a></h3><p class="summary">Amid Iran’s closure of the Strait of Hormuz and the ensuing US blockade, an old energy fantasy has resurfaced that cutting off a country’s oil exports works like flipping a switch. But reality is less cinematic and far more uncomfortable.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 22:15Z</div></div><h3><a href="https://www.iranintl.com/en/202604270285" rel="noopener">Iran, US clash at UN over Strait of Hormuz closure</a></h3><p class="summary">Iran and the United States traded accusations at the United Nations on Monday over the Strait of Hormuz, as the archfoes’ weeks-long standoff over the strategic waterway continued to disrupt global energy supplies and world trade.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 20:25Z</div></div><h3><a href="https://www.iranintl.com/en/202604277966" rel="noopener">Iran football chief with IRGC past to visit Canada for FIFA event</a></h3><p class="summary">A Revolutionary Guards commander turned Iran&#x27;s football chief has been granted special permission to enter Canada for a FIFA event despite being otherwise inadmissible, according to government sources who spoke to Iran International.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 17:55Z</div></div><h3><a href="https://www.iranintl.com/en/202604279001" rel="noopener">Iran&#x27;s top security council holds meeting over fears of renewed protests</a></h3><p class="summary">Iran’s Supreme National Security Council has held a meeting to address growing concerns among security agencies over a possible resurgence of protests, sources familiar with the discussions told Iran International.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 16:17Z</div></div><h3><a href="https://www.iranintl.com/en/202604273705" rel="noopener">New intelligence exposes IRGC-linked network targeting Israeli, Western sites</a></h3><p class="summary">New intelligence obtained by Iran International reveals the identities of operatives in an IRGC-linked espionage and assassination network, including a foreign cleric trained in Qom who allegedly coordinated attacks targeting Israeli and Western interests.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 07:48Z</div></div><h3><a href="https://www.iranintl.com/en/202604271846" rel="noopener">Iran designers reject ‘discriminatory’ tiered internet access</a></h3><p class="summary">Iran’s Graphic Designers Society refused to make a collective request for the so-called “Internet Pro” access for its members, calling the tiered internet plan “discriminatory.”</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 03:06Z</div></div><h3><a href="https://www.iranintl.com/en/202604277225" rel="noopener">Is Ghalibaf becoming Iran’s Khrushchev?</a></h3><p class="summary">Reports that Mohammad Bagher Ghalibaf may have been sidelined from Iran’s negotiations with the United States have revived an old question from Soviet history: can an insider reform a rigid ideological system without becoming one of its casualties?</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 01:40Z</div></div><h3><a href="https://www.iranintl.com/en/202604274029" rel="noopener">Iran’s new military-led order may mean greater dangers abroad</a></h3><p class="summary">The Islamic Republic that has emerged from the killing of Iran&#x27;s Supreme Leader Ali Khamenei may prove more operationally aggressive than the one it replaces, analysts say.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
-<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 00:25Z</div></div><h3><a href="https://www.iranintl.com/en/202604273992" rel="noopener">Is the US blockade working? It depends who you ask</a></h3><p class="summary">Recent tracking data suggesting Iran is still moving millions of barrels of crude despite a US naval blockade has raised fresh questions about the effectiveness of Washington’s effort to choke off Tehran’s oil exports.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article></section>
-<nav class="day-nav bottom"><a class="prev" href="2026-04-26.html">← Sun 26 Apr</a><a class="hub" href="./">All days</a><a class="next" href="2026-04-28.html">Tue 28 Apr →</a></nav>
-<section class="diag">
-  <h4>Source run</h4>
-  <ul><li><code>federal_register</code> — fetched 0, kept 0</li><li><code>uk_parliament</code> — error: The read operation timed out</li><li><code>un_press</code> — fetched 10, kept 0</li><li><code>iaea</code> — fetched 5, kept 0</li><li><code>state_dept</code> — fetched 16, kept 0</li><li><code>gov_uk</code> — fetched 77, kept 0</li><li><code>iran_international</code> — fetched 32, kept 9</li><li><code>reliefweb</code> — error: RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form.</li></ul>
-</section>
-<footer>
-  Generated 2026-05-01 09:33:28Z. See <a href="about.html">About</a> for what's in and what isn't.
-</footer>
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<main class="" id="main">
+<header class="masthead"><a class="wordmark" href="./">Iran <span class="ampersand">&amp;</span> Watcher</a><span class="dateline">Daily aggregator · est. 2026</span></header>
+<nav class="site-nav"><a class="nav-item" href="./">Home</a><a class="nav-item" href="about.html">About</a><a class="nav-item" href="changelog.html">Changelog</a></nav>
+<header class="page-header"><h1>Monday 27 April 2026</h1><div class="meta">9 items · window 2026-04-26 23:59Z to 2026-04-27 23:59Z · generated 2026-05-01 09:33:28Z</div></header><nav class="day-nav" aria-label="Day navigation"><a class="prev" href="2026-04-26.html">← Sun 26 Apr</a><a class="hub" href="./">Archive</a><a class="next" href="2026-04-28.html">Tue 28 Apr →</a></nav><section class="filters" aria-label="Filter and sort"><div class="filter-row"><h4>Filter by source</h4><button class="pill all" data-active="1" type="button">All <span class="n">9</span></button><button class="pill" data-source="Iran International" data-active="0" type="button">Iran International <span class="n">9</span></button></div><div class="filter-row sort-row"><h4>Sort by</h4><button class="sort-pill" data-sort="date" data-active="1" type="button">Date <span class="n">newest first</span></button><button class="sort-pill" data-sort="tier" data-active="0" type="button">Tier <span class="n">1 → 3</span></button></div></section><section class="events"><article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 23:53Z</div></div><h3><a href="https://www.iranintl.com/en/202604279149" rel="noopener">Why a blockade would not halt Iran’s oil overnight</a></h3><p class="summary">Amid Iran’s closure of the Strait of Hormuz and the ensuing US blockade, an old energy fantasy has resurfaced that cutting off a country’s oil exports works like flipping a switch. But reality is less cinematic and far more uncomfortable.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 22:15Z</div></div><h3><a href="https://www.iranintl.com/en/202604270285" rel="noopener">Iran, US clash at UN over Strait of Hormuz closure</a></h3><p class="summary">Iran and the United States traded accusations at the United Nations on Monday over the Strait of Hormuz, as the archfoes’ weeks-long standoff over the strategic waterway continued to disrupt global energy supplies and world trade.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 20:25Z</div></div><h3><a href="https://www.iranintl.com/en/202604277966" rel="noopener">Iran football chief with IRGC past to visit Canada for FIFA event</a></h3><p class="summary">A Revolutionary Guards commander turned Iran&#x27;s football chief has been granted special permission to enter Canada for a FIFA event despite being otherwise inadmissible, according to government sources who spoke to Iran International.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 17:55Z</div></div><h3><a href="https://www.iranintl.com/en/202604279001" rel="noopener">Iran&#x27;s top security council holds meeting over fears of renewed protests</a></h3><p class="summary">Iran’s Supreme National Security Council has held a meeting to address growing concerns among security agencies over a possible resurgence of protests, sources familiar with the discussions told Iran International.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 16:17Z</div></div><h3><a href="https://www.iranintl.com/en/202604273705" rel="noopener">New intelligence exposes IRGC-linked network targeting Israeli, Western sites</a></h3><p class="summary">New intelligence obtained by Iran International reveals the identities of operatives in an IRGC-linked espionage and assassination network, including a foreign cleric trained in Qom who allegedly coordinated attacks targeting Israeli and Western interests.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 07:48Z</div></div><h3><a href="https://www.iranintl.com/en/202604271846" rel="noopener">Iran designers reject ‘discriminatory’ tiered internet access</a></h3><p class="summary">Iran’s Graphic Designers Society refused to make a collective request for the so-called “Internet Pro” access for its members, calling the tiered internet plan “discriminatory.”</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 03:06Z</div></div><h3><a href="https://www.iranintl.com/en/202604277225" rel="noopener">Is Ghalibaf becoming Iran’s Khrushchev?</a></h3><p class="summary">Reports that Mohammad Bagher Ghalibaf may have been sidelined from Iran’s negotiations with the United States have revived an old question from Soviet history: can an insider reform a rigid ideological system without becoming one of its casualties?</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 01:40Z</div></div><h3><a href="https://www.iranintl.com/en/202604274029" rel="noopener">Iran’s new military-led order may mean greater dangers abroad</a></h3><p class="summary">The Islamic Republic that has emerged from the killing of Iran&#x27;s Supreme Leader Ali Khamenei may prove more operationally aggressive than the one it replaces, analysts say.</p><div class="tags"><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="tier-mark t3" aria-hidden="true"></span><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-27 00:25Z</div></div><h3><a href="https://www.iranintl.com/en/202604273992" rel="noopener">Is the US blockade working? It depends who you ask</a></h3><p class="summary">Recent tracking data suggesting Iran is still moving millions of barrels of crude despite a US naval blockade has raised fresh questions about the effectiveness of Washington’s effort to choke off Tehran’s oil exports.</p><div class="tags"><span class="tag">iran-domestic</span></div></article></section><section class="diag" aria-label="Source run diagnostics"><h4>Source run</h4><ul><li><code>federal_register</code> — fetched 0, kept 0</li><li><code>uk_parliament</code> — error: The read operation timed out</li><li><code>un_press</code> — fetched 10, kept 0</li><li><code>iaea</code> — fetched 5, kept 0</li><li><code>state_dept</code> — fetched 16, kept 0</li><li><code>gov_uk</code> — fetched 77, kept 0</li><li><code>iran_international</code> — fetched 32, kept 9</li><li><code>reliefweb</code> — error: RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form.</li></ul></section><nav class="day-nav bottom" aria-label="Day navigation"><a class="prev" href="2026-04-26.html">← Sun 26 Apr</a><a class="hub" href="./">Archive</a><a class="next" href="2026-04-28.html">Tue 28 Apr →</a></nav>
+<footer class="site"><span>Iran &amp; Watcher · primary-source aggregator for the Iran / Middle East beat</span><span><a href="https://github.com/peter-guillam123/iran-watcher" rel="noopener">Source on GitHub</a></span></footer>
+</main>
 <script>
 (function(){
   var pills = document.querySelectorAll('.pill[data-source]');
@@ -117,27 +28,25 @@ footer a{color:#666}
   var eventsBox = document.querySelector('.events');
   var sortDate = document.querySelector('.sort-pill[data-sort="date"]');
   var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
-  var originalHTML = eventsBox ? eventsBox.innerHTML : '';
+  if(!eventsBox) return;
+  var originalHTML = eventsBox.innerHTML;
 
   function activeSources(){
     var s = new Set();
     pills.forEach(function(p){ if(p.dataset.active === '1') s.add(p.dataset.source); });
     return s;
   }
-
   function applyFilter(){
-    if(!eventsBox) return;
     var s = activeSources();
     var events = eventsBox.querySelectorAll('.event');
     var headers = eventsBox.querySelectorAll('.tier-header');
     if(s.size === 0){
       events.forEach(function(e){ e.classList.remove('hidden'); });
       headers.forEach(function(h){ h.classList.remove('hidden'); });
-      allPill.dataset.active = '1';
+      if(allPill) allPill.dataset.active = '1';
     } else {
-      allPill.dataset.active = '0';
+      if(allPill) allPill.dataset.active = '0';
       events.forEach(function(e){ e.classList.toggle('hidden', !s.has(e.dataset.source)); });
-      // Hide tier headers whose group has no visible events.
       headers.forEach(function(h){
         var hasVisible = false;
         var n = h.nextElementSibling;
@@ -151,19 +60,16 @@ footer a{color:#666}
       });
     }
   }
-
   function setActiveSort(btn){
     [sortDate, sortTier].forEach(function(b){
       if(b) b.dataset.active = (b === btn) ? '1' : '0';
     });
   }
-
   function sortByDate(){
     eventsBox.innerHTML = originalHTML;
     setActiveSort(sortDate);
     applyFilter();
   }
-
   function sortByTier(){
     eventsBox.innerHTML = originalHTML;
     var events = Array.from(eventsBox.querySelectorAll('.event'));
@@ -186,7 +92,6 @@ footer a{color:#666}
     setActiveSort(sortTier);
     applyFilter();
   }
-
   pills.forEach(function(p){
     p.addEventListener('click', function(){
       p.dataset.active = p.dataset.active === '1' ? '0' : '1';
@@ -201,4 +106,4 @@ footer a{color:#666}
   if(sortTier) sortTier.addEventListener('click', sortByTier);
 })();
 </script>
-</main></body></html>
+</body></html>

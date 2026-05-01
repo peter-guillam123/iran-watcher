@@ -1,29 +1,29 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<title>About — Iran watcher</title>
+<title>About — Iran &amp; Watcher</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>
-*{box-sizing:border-box}
-body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
-main{max-width:680px;margin:0 auto;padding:32px 20px 80px}
-h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
-h2{font-size:20px;margin:32px 0 8px}
-.meta{color:#666;font-size:14px;margin-bottom:24px}
-nav{margin:16px 0 24px;font-size:14px}
-nav a{color:#0a4f8f;text-decoration:none;margin-right:16px}
-nav a:hover{text-decoration:underline}
-p{margin:12px 0}
-ul{margin:8px 0 16px;padding-left:24px}
-li{margin:4px 0}
-.tier{font-size:13px;color:#555;font-style:italic}
-code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#eee;padding:1px 5px;border-radius:3px}
-</style>
-</head><body><main>
+<meta name="color-scheme" content="light">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<main class="prose" id="main">
 
-<h1>About</h1>
-<div class="meta">A tip sheet, not a report. Built for a defence correspondent; left public so anyone can read.</div>
-<nav><a href="./">All days</a> <a href="changelog.html">Changelog</a></nav>
+<header class="masthead">
+  <a class="wordmark" href="./">Iran <span class="ampersand">&amp;</span> Watcher</a>
+  <span class="dateline">Daily aggregator · est. 2026</span>
+</header>
+
+<nav class="site-nav">
+  <a href="./">Home</a>
+  <a href="about.html" class="current">About</a>
+  <a href="changelog.html">Changelog</a>
+</nav>
+
+<header class="page-header">
+  <h1>About</h1>
+  <div class="meta">A tip sheet, not a report. Built for a defence correspondent; left public so anyone can read.</div>
+</header>
 
 <p>This is a daily aggregator of primary governmental and multilateral sources on Iran and the Middle East crisis. It pulls from public APIs and RSS feeds, filters for Iran-relevant items, de-duplicates them, and publishes a per-day page. The point is to surface the documentary record — what governments and multilateral bodies are saying officially — fast, with permalinks, before the wires do their thing.</p>
 
@@ -32,18 +32,22 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 <h2>What's in</h2>
 
 <ul>
-<li><strong>UK Parliament</strong> — every written question and ministerial statement that mentions Iran. Tabled questions and answered questions emit separately, so you catch both the signal of an MP asking and the substance when a minister responds. <span class="tier">Tier 1: official API.</span></li>
+<li><strong>UK Parliament</strong> — every written question and ministerial statement that mentions Iran. Tabled questions and answered questions emit separately, so you catch both the signal of an MP asking and the substance when a minister responds. <em>Tier 1: official API.</em></li>
 
-<li><strong>US Federal Register</strong> — executive orders, proclamations, agency rules, and (crucially) OFAC sanctions notices. Filtered for "Iran". <span class="tier">Tier 1: official API.</span></li>
+<li><strong>US Federal Register</strong> — executive orders, proclamations, agency rules, and (crucially) OFAC sanctions notices. Filtered for "Iran". <em>Tier 1: official API.</em></li>
 
-<li><strong>UN press releases</strong> — Security Council, General Assembly, Secretary-General. Global feed; filtered locally. <span class="tier">Tier 2: RSS.</span></li>
+<li><strong>UN press releases</strong> — Security Council, General Assembly, Secretary-General. Global feed; filtered locally. <em>Tier 2: RSS.</em></li>
 
-<li><strong>IAEA</strong> — the agency's news feed. Mostly noise from a Tehran-watching point of view (a lot of capacity-building in Vietnam etc.) but Iran-specific updates land here first. <span class="tier">Tier 2: RSS.</span></li>
+<li><strong>IAEA</strong> — the agency's news feed. Mostly noise from a Tehran-watching point of view (a lot of capacity-building in Vietnam etc.) but Iran-specific updates land here first. <em>Tier 2: RSS.</em></li>
 
-<li><strong>US State Department</strong> — three feeds: press releases, the Near East regional feed, and Secretary's remarks. The Near East feed is the strongest signal; the press release feed catches the rest. <span class="tier">Tier 2: RSS.</span></li>
+<li><strong>US State Department</strong> — three feeds: press releases, the Near East regional feed, and Secretary's remarks. The Near East feed is the strongest signal; the press release feed catches the rest. <em>Tier 2: RSS.</em></li>
 
-<li><strong>UK Government departments via gov.uk Atom</strong> — FCDO, MoD, No 10, HM Treasury, Cabinet Office. Department-wide feeds; filtered locally for Iran-relevance. <span class="tier">Tier 2: Atom.</span></li>
+<li><strong>UK Government departments via gov.uk Atom</strong> — FCDO, MoD, No 10, HM Treasury, Cabinet Office. Department-wide feeds; filtered locally for Iran-relevance. <em>Tier 2: Atom.</em></li>
+
+<li><strong>Iran International</strong> — London-based opposition outlet, English-language RSS. Used as a triangulation layer for what's happening inside Iran while direct access to IRNA / Tasnim / IRIB is impractical (Iran has been in a 53-plus-day nationwide internet blackout under what the regime calls "Absolute Digital Isolation"). The editorial slant is real and visible; it sits at tier 3 deliberately. <em>Tier 3: RSS, opposition outlet.</em></li>
 </ul>
+
+<div class="ornament"></div>
 
 <h2>What's not in (yet, or ever)</h2>
 
@@ -52,7 +56,7 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 
 <li><strong>X / Twitter.</strong> CENTCOM, the IDF spokesperson, named OSINT analysts. Possible but expensive (the API tier is paid and awkward), and adjacent to the Telegram gap.</li>
 
-<li><strong>Iranian state media.</strong> IRNA, Tasnim, IRIB, defapress, Khamenei's office. Iran is currently in a 53-plus-day nationwide internet blackout under what the regime calls "Absolute Digital Isolation"; even with proxies the sites are unreliable. A near-term workaround would be Iran International (London-based opposition outlet, in English) as a triangulation layer, but it isn't wired in yet.</li>
+<li><strong>Iranian state media.</strong> IRNA, Tasnim, IRIB, defapress, Khamenei's office. Iran's domestic internet remains blackouted; even with proxies the sites are unreliable. A near-term workaround would be Iran International (London-based opposition outlet, in English) as a triangulation layer, which is wired in.</li>
 
 <li><strong>US Department of War (war.gov) and CENTCOM (centcom.mil).</strong> Both sit behind aggressive WAFs that 403 anything that doesn't look like a residential browser. Solvable with a proxy; not solved here. Some of their press content surfaces via the State Department or Federal Register feeds anyway.</li>
 
@@ -60,8 +64,10 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 
 <li><strong>Wires (Reuters, AFP, BBC Monitoring) and analyst products.</strong> Out of scope. The point is the documentary record, not the reporting on it.</li>
 
-<li><strong>Israeli government sources beyond UK/US/UN refractions.</strong> The IDF press page has no RSS and would need a polite scrape; gov.il is fragmented across SharePoint sites. Realistic v2.</li>
+<li><strong>Israeli government sources beyond UK/US/UN refractions.</strong> The IDF press page has no RSS and would need a polite scrape with Playwright; gov.il is fragmented across SharePoint sites. Realistic v2.</li>
 </ul>
+
+<div class="ornament"></div>
 
 <h2>How it works</h2>
 
@@ -71,4 +77,10 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 
 <p>The whole thing is open source and small enough to read in one sitting.</p>
 
-</main></body></html>
+<footer class="site">
+  <span>Iran &amp; Watcher · primary-source aggregator for the Iran / Middle East beat</span>
+  <span><a href="https://github.com/peter-guillam123/iran-watcher" rel="noopener">Source on GitHub</a></span>
+</footer>
+
+</main>
+</body></html>
