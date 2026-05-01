@@ -188,14 +188,41 @@ def _site_footer() -> str:
     )
 
 
-def _page(title: str, body: str, *, body_class: str = "", current_nav: str = "") -> str:
+DEFAULT_DESCRIPTION = (
+    "Primary-source aggregator for the Iran & Middle East beat — "
+    "what governments and multilateral bodies actually said today."
+)
+
+
+def _page(
+    title: str,
+    body: str,
+    *,
+    body_class: str = "",
+    current_nav: str = "",
+    description: str = DEFAULT_DESCRIPTION,
+) -> str:
+    desc = html.escape(description)
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
 <title>{html.escape(title)}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
+<meta name="description" content="{desc}">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="alternate icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<meta property="og:title" content="{html.escape(title)}">
+<meta property="og:description" content="{desc}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{html.escape(title)}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="og-image.png">
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <main class="{body_class}" id="main">
