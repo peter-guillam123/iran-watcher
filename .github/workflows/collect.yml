@@ -2,8 +2,9 @@ name: collect
 
 on:
   schedule:
-    # 06:00 and 18:00 UTC — morning and evening run
-    - cron: "0 6,18 * * *"
+    # 08:00 UTC — 09:00 BST (UK summer) / 08:00 GMT (UK winter, an hour
+    # earlier than 09:00 UK because GitHub cron does not follow DST).
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
