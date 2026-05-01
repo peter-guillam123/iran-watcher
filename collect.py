@@ -52,9 +52,14 @@ ADAPTERS = [
 ]
 
 
-def main(window_days: int = 1, label: str | None = None) -> int:
-    since = datetime.now(timezone.utc) - timedelta(days=window_days)
-    today = label or datetime.now(timezone.utc).date().isoformat()
+def main(
+    window_days: int = 1,
+    label: str | None = None,
+    until: datetime | None = None,
+) -> int:
+    until_dt = until or datetime.now(timezone.utc)
+    since = until_dt - timedelta(days=window_days)
+    today = label or until_dt.date().isoformat()
 
     all_events: list[dict] = []
     diagnostics: list[dict] = []
@@ -62,7 +67,11 @@ def main(window_days: int = 1, label: str | None = None) -> int:
     for name, fn, needs_local_filter in ADAPTERS:
         try:
             raw = fn(since)
-            kept = [e for e in raw if not needs_local_filter or _matches(e)]
+            kept = [
+                e for e in raw
+                if (not needs_local_filter or _matches(e))
+                and _within_until(e, until_dt)
+            ]
             all_events.extend(kept)
             diagnostics.append({"source": name, "fetched": len(raw), "kept": len(kept), "ok": True})
             print(f"  {name}: fetched={len(raw)} kept={len(kept)}", file=sys.stderr)
@@ -81,13 +90,27 @@ def main(window_days: int = 1, label: str | None = None) -> int:
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "window_since": since.isoformat().replace("+00:00", "Z"),
-        "window_until": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "window_until": until_dt.isoformat().replace("+00:00", "Z"),
         "diagnostics": diagnostics,
         "events": events,
     }
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
     print(f"\nwrote {out_path} ({len(events)} events)", file=sys.stderr)
     return 0
+
+
+def _within_until(event: dict, until_dt: datetime) -> bool:
+    """Drop events published after `until_dt`. Lets us reconstruct historical
+    windows for like-for-like comparisons (e.g. matching the publication
+    window of an ISW Iran Update)."""
+    pub = event.get("published_at") or ""
+    if not pub:
+        return True
+    try:
+        dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
+    except ValueError:
+        return True
+    return dt <= until_dt
 
 
 def _matches(event: dict) -> bool:
@@ -104,4 +127,8 @@ def _matches(event: dict) -> bool:
 if __name__ == "__main__":
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     label = sys.argv[2] if len(sys.argv) > 2 else None
-    raise SystemExit(main(days, label))
+    until_arg = sys.argv[3] if len(sys.argv) > 3 else None
+    until_dt = (
+        datetime.fromisoformat(until_arg.replace("Z", "+00:00")) if until_arg else None
+    )
+    raise SystemExit(main(days, label, until_dt))
