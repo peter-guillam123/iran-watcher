@@ -131,6 +131,27 @@ main.wide, main.prose { max-width: var(--measure-page); }
 .site-nav a:hover { color: var(--accent); text-decoration: none; }
 .site-nav a.current { color: var(--ink); border-bottom: 2px solid var(--accent); }
 
+/* On narrow screens the nav becomes a single-row horizontal scroll strip
+   so it can never wrap to multiple lines. */
+@media (max-width: 640px) {
+  .site-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    /* Soft fade on the right edge to hint at scrollable content. */
+    -webkit-mask-image: linear-gradient(to right, black calc(100% - 24px), transparent 100%);
+            mask-image: linear-gradient(to right, black calc(100% - 24px), transparent 100%);
+    gap: 20px;
+  }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a {
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+}
+
 /* ----- Page header ---------------------------------------------------- */
 
 .page-header { margin-bottom: 24px; }
@@ -430,38 +451,10 @@ footer.site {
 footer.site a { color: var(--ink-faint); border: none; }
 footer.site a:hover { color: var(--accent); }
 
-/* ----- Previous-entry CTA at end of homepage ----------------------- */
+/* ----- Page header meta dot separator ------------------------------ */
 
-.prev-entry {
-  display: flex; align-items: baseline; justify-content: space-between;
-  gap: 12px; margin: 40px 0 0;
-  padding: 16px 20px;
-  background: var(--paper-card);
-  border: 1px solid var(--rule);
-  border-left: 4px solid var(--accent);
-  text-decoration: none; color: inherit;
-  transition: background 120ms;
-}
-.prev-entry:hover { background: var(--paper); text-decoration: none; }
-.prev-entry .label {
-  font-family: var(--body); font-size: 11px;
-  text-transform: uppercase; letter-spacing: 0.14em;
-  color: var(--accent); font-weight: 700;
-  margin-bottom: 4px;
-}
-.prev-entry .title {
-  font-family: var(--display); font-weight: 700;
-  font-size: 20px; line-height: 1.2; color: var(--ink);
-}
-.prev-entry .arrow {
-  font-family: var(--display); font-size: 22px;
-  color: var(--accent); flex: 0 0 auto;
-}
-.prev-entry:hover .title { color: var(--accent); }
-@media (max-width: 600px) {
-  .prev-entry { padding: 14px 16px; }
-  .prev-entry .title { font-size: 18px; }
-}
+.page-header .meta .dot { color: var(--ink-vfaint); padding: 0 4px; }
+.page-header .meta .last-updated { font-variant-numeric: tabular-nums; }
 
 /* ----- Index — archive list ----------------------------------------- */
 

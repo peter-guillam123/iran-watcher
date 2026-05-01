@@ -30,6 +30,41 @@ SOURCE_ORDER = [
     "Iran International",
 ]
 
+RELATIVE_TIME_JS = r"""
+(function(){
+  var els = document.querySelectorAll('.last-updated[data-generated-at]');
+  if(!els.length) return;
+  function fmt(generated){
+    var ms = Date.now() - generated.getTime();
+    if(ms < 0) return 'just now';
+    var mins = Math.floor(ms / 60000);
+    if(mins < 1) return 'just now';
+    if(mins === 1) return '1 minute ago';
+    if(mins < 60) return mins + ' minutes ago';
+    var hours = Math.floor(mins / 60);
+    if(hours === 1) return '1 hour ago';
+    if(hours < 24) return hours + ' hours ago';
+    var days = Math.floor(hours / 24);
+    if(days === 1) return '1 day ago';
+    if(days < 14) return days + ' days ago';
+    var weeks = Math.floor(days / 7);
+    return weeks + ' weeks ago';
+  }
+  function update(){
+    els.forEach(function(el){
+      var iso = el.dataset.generatedAt;
+      if(!iso) return;
+      var d = new Date(iso);
+      if(isNaN(d.getTime())) return;
+      el.textContent = fmt(d);
+      el.title = iso;
+    });
+  }
+  update();
+  setInterval(update, 60000);  /* refresh once a minute while page is open */
+})();
+"""
+
 FILTER_JS = r"""
 (function(){
   var pills = document.querySelectorAll('.pill[data-source]');
@@ -168,7 +203,7 @@ def _page(title: str, body: str, *, body_class: str = "", current_nav: str = "")
 {body}
 {_site_footer()}
 </main>
-<script>{FILTER_JS}</script>
+<script>{RELATIVE_TIME_JS}{FILTER_JS}</script>
 </body></html>
 """
 
@@ -482,9 +517,8 @@ DEMO_ENTRY = {
 }
 
 
-def render_home(latest_stem: str | None, prev_stem: str | None) -> str:
-    """The homepage: most recent brief shown inline, with a Previous-entry
-    CTA at the bottom. Archive lives at /archive.html."""
+def render_home(latest_stem: str | None) -> str:
+    """The homepage: most recent brief shown inline, framed as 'Today's report'."""
     if latest_stem:
         payload = json.loads((DATA_DIR / f"{latest_stem}.json").read_text())
         events = payload.get("events", [])
@@ -492,44 +526,31 @@ def render_home(latest_stem: str | None, prev_stem: str | None) -> str:
             pretty_date = datetime.fromisoformat(latest_stem).strftime("%A %d %B %Y")
         except ValueError:
             pretty_date = latest_stem
-        window_since = (payload.get("window_since") or "")[:16].replace("T", " ")
-        window_until = (payload.get("window_until") or "")[:16].replace("T", " ")
+        generated_at = payload.get("generated_at") or ""
 
         intro = (
             f'<header class="page-header">'
-            f'<h1>{html.escape(pretty_date)}</h1>'
-            f'<div class="meta">{len(events)} items · '
-            f'window {window_since}Z to {window_until}Z</div>'
+            f'<h1>Today’s report</h1>'
+            f'<div class="meta">'
+            f'{html.escape(pretty_date)}'
+            f' <span class="dot">·</span> {len(events)} items'
+            f' <span class="dot">·</span> last updated '
+            f'<time class="last-updated" datetime="{html.escape(generated_at)}" '
+            f'data-generated-at="{html.escape(generated_at)}">{html.escape(generated_at[:16].replace("T", " "))}Z</time>'
+            f'</div>'
             f'</header>'
         )
         brief = _brief_body(payload, include_diagnostics=False)
     else:
         intro = (
             '<header class="page-header">'
-            '<h1>No briefs yet</h1>'
-            '<div class="meta">The daily cron will fill these in.</div>'
+            '<h1>Today’s report</h1>'
+            '<div class="meta">No briefs yet — the daily cron will fill these in.</div>'
             '</header>'
         )
         brief = ""
 
-    if prev_stem:
-        try:
-            prev_pretty = datetime.fromisoformat(prev_stem).strftime("%A %d %B %Y")
-        except ValueError:
-            prev_pretty = prev_stem
-        prev_button = (
-            f'<a class="prev-entry" href="{prev_stem}.html">'
-            f'<div>'
-            f'<div class="label">← Previous entry</div>'
-            f'<div class="title">{html.escape(prev_pretty)}</div>'
-            f'</div>'
-            f'<span class="arrow">→</span>'
-            f'</a>'
-        )
-    else:
-        prev_button = ""
-
-    body = intro + brief + prev_button
+    body = intro + brief
     return _page("Iran Watcher", body, current_nav="home")
 
 
@@ -636,9 +657,8 @@ def main() -> int:
         print(f"  wrote {out.name} ({count} items)", file=sys.stderr)
 
     latest_dated = dated[-1] if dated else None
-    prev_for_home = dated[-2] if len(dated) >= 2 else None
-    (DOCS_DIR / "index.html").write_text(render_home(latest_dated, prev_for_home))
-    print(f"  wrote index.html (latest={latest_dated}, prev={prev_for_home})", file=sys.stderr)
+    (DOCS_DIR / "index.html").write_text(render_home(latest_dated))
+    print(f"  wrote index.html (latest={latest_dated})", file=sys.stderr)
 
     (DOCS_DIR / "archive.html").write_text(render_archive(days_for_archive))
     print(f"  wrote archive.html ({len(days_for_archive)} entries)", file=sys.stderr)
