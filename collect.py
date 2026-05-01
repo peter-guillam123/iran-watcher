@@ -52,9 +52,9 @@ ADAPTERS = [
 ]
 
 
-def main(window_days: int = 1) -> int:
+def main(window_days: int = 1, label: str | None = None) -> int:
     since = datetime.now(timezone.utc) - timedelta(days=window_days)
-    today = datetime.now(timezone.utc).date().isoformat()
+    today = label or datetime.now(timezone.utc).date().isoformat()
 
     all_events: list[dict] = []
     diagnostics: list[dict] = []
@@ -103,4 +103,5 @@ def _matches(event: dict) -> bool:
 
 if __name__ == "__main__":
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    raise SystemExit(main(days))
+    label = sys.argv[2] if len(sys.argv) > 2 else None
+    raise SystemExit(main(days, label))
