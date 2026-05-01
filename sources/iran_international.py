@@ -29,12 +29,15 @@ def fetch(since: datetime) -> list[dict]:
         link = e.get("link") or ""
         out.append({
             "id": f"iranintl:{e.get('id') or link}",
-            "source": "Iran International (opposition outlet, London)",
+            "source": "Iran International",
+            "source_detail": "Opposition outlet, London",
             "source_tier": 3,
+            "category": "iran-news",
             "published_at": pub.isoformat().replace("+00:00", "Z"),
             "title": (e.get("title") or "").strip(),
             "url": link,
             "summary": _strip_html(e.get("summary") or "")[:500],
+            "details": {},
             "tags": ["iran-domestic"],
         })
     return out

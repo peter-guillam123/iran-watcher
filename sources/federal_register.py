@@ -40,23 +40,34 @@ def fetch(since: datetime) -> list[dict]:
     for item in payload.get("results", []):
         agencies = ", ".join(a.get("name", "") for a in item.get("agencies", []) if a.get("name"))
         doc_type = item.get("type", "Document")
-        source_label = "US Federal Register"
+        title = item.get("title", "")
+
         if doc_type in ("Presidential Document", "Executive Order", "Proclamation"):
-            source_label = "White House (Federal Register)"
-        elif "Treasury" in agencies or "OFAC" in (item.get("title") or ""):
-            source_label = "US Treasury / OFAC (Federal Register)"
-        elif agencies:
-            source_label = f"{agencies.split(',')[0].strip()} (Federal Register)"
+            source_detail = f"White House — {doc_type}"
+            category = "executive-order"
+        elif "Treasury" in agencies or "OFAC" in title:
+            source_detail = "US Treasury / OFAC"
+            category = "ofac-sanctions"
+        else:
+            source_detail = agencies.split(",")[0].strip() if agencies else "Federal Register"
+            category = "agency-rule"
 
         out.append({
             "id": f"fedreg:{item['document_number']}",
-            "source": source_label,
+            "source": "US Federal Register",
+            "source_detail": source_detail,
             "source_tier": 1,
+            "category": category,
             "published_at": item["publication_date"] + "T00:00:00Z",
-            "title": item["title"],
+            "title": title,
             "url": item["html_url"],
             "summary": (item.get("abstract") or "").strip(),
-            "tags": _tags(doc_type, item.get("title", "")),
+            "details": {
+                "document_type": doc_type,
+                "agencies": agencies,
+                "document_number": item.get("document_number"),
+            },
+            "tags": _tags(doc_type, title),
         })
     return out
 

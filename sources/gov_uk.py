@@ -52,12 +52,15 @@ def _fetch_one(label: str, url: str, since: datetime) -> list[dict]:
         title = (e.get("title") or "").strip()
         out.append({
             "id": f"govuk:{e.get('id') or link}",
-            "source": f"UK Government — {label}",
+            "source": "UK Government",
+            "source_detail": label,
             "source_tier": 2,
+            "category": "uk-govt",
             "published_at": pub.isoformat().replace("+00:00", "Z"),
             "title": title,
             "url": link,
             "summary": _strip_html(e.get("summary") or "")[:500],
+            "details": {},
             "tags": ["uk-government"],
         })
     return out

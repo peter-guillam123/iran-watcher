@@ -48,12 +48,15 @@ def fetch(since: datetime) -> list[dict]:
         f = item["fields"]
         out.append({
             "id": f"reliefweb:{item['id']}",
-            "source": "UN OCHA / ReliefWeb",
+            "source": "ReliefWeb",
+            "source_detail": "UN OCHA",
             "source_tier": 1,
+            "category": "reliefweb",
             "published_at": f["date"]["created"],
             "title": f["title"],
             "url": f.get("url") or f"https://reliefweb.int/node/{item['id']}",
             "summary": _short(f.get("body-html", "")),
+            "details": {},
             "tags": ["humanitarian"],
         })
     return out

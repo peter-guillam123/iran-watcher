@@ -29,11 +29,14 @@ def fetch(since: datetime) -> list[dict]:
         out.append({
             "id": f"iaea:{e.get('id') or link}",
             "source": "IAEA",
+            "source_detail": "News",
             "source_tier": 2,
+            "category": "iaea-news",
             "published_at": pub.isoformat().replace("+00:00", "Z"),
             "title": title,
             "url": link,
             "summary": _strip_html(e.get("summary") or e.get("description") or "")[:500],
+            "details": {},
             "tags": ["nuclear"],
         })
     return out

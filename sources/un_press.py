@@ -29,28 +29,32 @@ def fetch(since: datetime) -> list[dict]:
             continue
         title = (e.get("title") or "").strip()
         link = e.get("link") or ""
+        body, category = _classify(title, link)
         out.append({
             "id": f"unpress:{e.get('id') or link}",
-            "source": _classify(title, link),
+            "source": "UN Press",
+            "source_detail": body,
             "source_tier": 2,
+            "category": category,
             "published_at": pub.isoformat().replace("+00:00", "Z"),
             "title": title,
             "url": link,
             "summary": _strip_html(e.get("summary") or e.get("description") or "")[:500],
+            "details": {},
             "tags": _tags(title),
         })
     return out
 
 
-def _classify(title: str, link: str) -> str:
+def _classify(title: str, link: str) -> tuple[str, str]:
     t = title.lower()
     if "security council" in t or "/sc" in link.lower():
-        return "UN Security Council"
+        return "Security Council", "un-security-council"
     if "general assembly" in t or "/ga" in link.lower():
-        return "UN General Assembly"
+        return "General Assembly", "un-general-assembly"
     if "secretary-general" in t or "/sgsm" in link.lower():
-        return "UN Secretary-General"
-    return "UN Press"
+        return "Secretary-General", "un-secretary-general"
+    return "Press release", "un-press"
 
 
 def _tags(title: str) -> list[str]:

@@ -44,17 +44,38 @@ def _fetch_one(label: str, url: str, since: datetime, seen: set[str]) -> list[di
         if ev_id in seen:
             continue
         seen.add(ev_id)
+        title = (e.get("title") or "").strip()
+        raw_summary = _strip_html(e.get("summary") or e.get("description") or "")
+        summary = _clean_state_summary(raw_summary, title)[:500]
         out.append({
             "id": ev_id,
-            "source": f"US State Department ({label})",
+            "source": "US State Department",
+            "source_detail": label,
             "source_tier": 2,
+            "category": "state-press",
             "published_at": pub.isoformat().replace("+00:00", "Z"),
-            "title": (e.get("title") or "").strip(),
+            "title": title,
             "url": link,
-            "summary": _strip_html(e.get("summary") or e.get("description") or "")[:500],
+            "summary": summary,
+            "details": {},
             "tags": ["diplomatic"],
         })
     return out
+
+
+# State Dept RSS bodies start with the same boilerplate as the headline:
+#   "Tommy Pigott, Department Spokesperson  <Title>  Press Statement <Date>  <real text>"
+# We want only the <real text>. Strip the prefix.
+def _clean_state_summary(s: str, title: str) -> str:
+    import re
+    # Drop common spokesperson-byline prefixes.
+    s = re.sub(r"^\s*(Office of the Spokesperson|Thomas\s+\S+\s+Pigott,\s+Department Spokesperson|[A-Z][a-zA-Z\s\.]+,\s+(?:Department Spokesperson|Spokesperson))\s*", "", s)
+    # If the headline is repeated verbatim in the body, drop that copy.
+    if title and title in s:
+        s = s.replace(title, "", 1).strip()
+    # Drop "Press Statement DATE" or "Readout DATE" lead-ins.
+    s = re.sub(r"^\s*(Press Statement|Readout|Statement|Media Note)\s+(?:[A-Z][a-z]+\s+\d{1,2},\s+\d{4}\s*)?", "", s)
+    return s.strip(" :;-—\n\t")
 
 
 def _parse_date(s: str):
