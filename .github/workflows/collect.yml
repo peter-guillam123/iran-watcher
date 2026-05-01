@@ -30,6 +30,7 @@ jobs:
       - name: Collect
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: uv run python collect.py 1
 
       - name: Render

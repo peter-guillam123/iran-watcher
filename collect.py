@@ -8,6 +8,8 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from core import threads as _threads
+from core import translate as _translate
 from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press
 
 ROOT = Path(__file__).parent
@@ -86,6 +88,14 @@ def main(
         by_id[e["id"]] = e
     events = sorted(by_id.values(), key=lambda e: e["published_at"], reverse=True)
 
+    # Translation pass — adds title_en / summary_en to non-English events.
+    # Cached on disk; no-op if ANTHROPIC_API_KEY is unset.
+    events = _translate.translate_events(events)
+
+    # Five-threads synthesis — one Opus call clustering the day into themes.
+    # Empty list on missing key or thin volume.
+    threads = _threads.synthesise_threads(events)
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     out_path = DATA_DIR / f"{today}.json"
     payload = {
@@ -93,10 +103,11 @@ def main(
         "window_since": since.isoformat().replace("+00:00", "Z"),
         "window_until": until_dt.isoformat().replace("+00:00", "Z"),
         "diagnostics": diagnostics,
+        "threads": threads,
         "events": events,
     }
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
-    print(f"\nwrote {out_path} ({len(events)} events)", file=sys.stderr)
+    print(f"\nwrote {out_path} ({len(events)} events, {len(threads)} threads)", file=sys.stderr)
     return 0
 
 

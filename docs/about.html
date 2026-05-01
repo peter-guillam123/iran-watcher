@@ -90,6 +90,8 @@
 
 <p>Each source is a small Python module that returns a list of normalised event dicts. A collector runs every adapter, applies a keyword filter to the ones whose feeds aren't already Iran-filtered server-side, de-duplicates by stable id, time-orders, and writes a JSON dump. A renderer turns the JSON into a static HTML page. Both run twice a day on a GitHub Actions cron.</p>
 
+<p>Two Claude API passes layer on top of the collected events. The first translates Persian, Arabic, and Hebrew Telegram posts into English using <code>claude-haiku-4-5</code> with a structured-output schema, cached on disk by event id so re-runs don't pay twice for the same post. The second is a single <code>claude-opus-4-7</code> call per run that clusters the day's events into up to five thematic threads, with a strict editorial-rules system prompt: no interpretation, no "this suggests", no editorial framing, every claim from a regime channel phrased as a claim. The threads sit at the top of the daily brief; the original events sit below. The synthesis costs roughly £0.04 a day all-in.</p>
+
 <p>The keyword filter is intentionally cautious. Strong terms ("Iran", "IRGC", "Hezbollah", "Strait of Hormuz", named nuclear sites) trigger inclusion on their own. Weaker proximity terms ("Saudi Arabia", "Jordan", "IAEA", "nuclear deal") are only kept when they appear with a strong term, or alongside another proximity term. False positives are cheap — you skim past them. False negatives are invisible and worse.</p>
 
 <p>The whole thing is open source and small enough to read in one sitting.</p>

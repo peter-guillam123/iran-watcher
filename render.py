@@ -324,7 +324,15 @@ def _render_parliament(e: dict) -> str:
 # Event card ---------------------------------------------------------------
 
 def _render_event(e: dict) -> str:
-    title = html.escape(html.unescape(e.get("title") or "(untitled)"))
+    # Prefer English translations when present (Telegram channels are
+    # collected in their original Persian/Arabic; the translate pass
+    # writes back title_en / summary_en).
+    title_en = e.get("title_en")
+    summary_en = e.get("summary_en")
+    raw_title = title_en or e.get("title") or "(untitled)"
+    raw_summary = summary_en or e.get("summary") or ""
+
+    title = html.escape(html.unescape(raw_title))
     url = html.escape(e.get("url") or "#")
     source = e.get("source") or "Other"
     source_h = html.escape(source)
@@ -332,7 +340,8 @@ def _render_event(e: dict) -> str:
     tier = e.get("source_tier") or 2
     cat = e.get("category", "")
     published = (e.get("published_at") or "")[:16].replace("T", " ")
-    summary = html.escape(html.unescape(e.get("summary") or ""))
+    summary = html.escape(html.unescape(raw_summary))
+    is_translated = bool(title_en)
     tags = e.get("tags") or []
 
     detail_html = (
@@ -355,7 +364,11 @@ def _render_event(e: dict) -> str:
     if cat.startswith("parliament-"):
         body = _render_parliament(e)
     elif summary:
-        body = f'<p class="summary">{summary}</p>'
+        translated_note = (
+            '<span class="translated" title="Auto-translated by Claude — original via the source link">translated</span>'
+            if is_translated else ""
+        )
+        body = f'<p class="summary">{summary} {translated_note}</p>' if translated_note else f'<p class="summary">{summary}</p>'
     else:
         body = ""
 
@@ -412,6 +425,7 @@ def _render_pills(events: list[dict]) -> str:
 
 def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
     events = payload.get("events", [])
+    threads_html = _render_threads(payload.get("threads") or [])
     pills_html = _render_pills(events)
     items_html = "\n".join(_render_event(e) for e in events)
     if not items_html:
@@ -437,7 +451,40 @@ def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
                 '<h4>Source run</h4><ul>' + "".join(rows) + '</ul></section>'
             )
 
-    return f"{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+    return f"{threads_html}{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+
+
+def _render_threads(threads: list[dict]) -> str:
+    if not threads:
+        return ""
+    items = []
+    for i, t in enumerate(threads, 1):
+        label = html.escape(html.unescape(t.get("label") or ""))
+        summary = html.escape(html.unescape(t.get("summary") or ""))
+        n = len(t.get("event_ids") or [])
+        tier4 = t.get("tier4_present")
+        tier4_badge = (
+            ' <span class="thread-tier4" title="Includes regime-channel claims">includes claims</span>'
+            if tier4 else ""
+        )
+        items.append(
+            f'<li class="thread">'
+            f'<div class="thread-num">{i:02d}</div>'
+            f'<div class="thread-body">'
+            f'<h3 class="thread-label">{label}{tier4_badge}</h3>'
+            f'<p class="thread-summary">{summary}</p>'
+            f'<div class="thread-foot">{n} item{"s" if n != 1 else ""}</div>'
+            f'</div>'
+            f'</li>'
+        )
+    return (
+        '<section class="threads" aria-label="Five threads">'
+        '<div class="threads-head"><h4>Five threads today</h4>'
+        '<span class="threads-disclaimer">Auto-clustered by Claude. No analysis — just what was reported.</span>'
+        '</div>'
+        f'<ol>{"".join(items)}</ol>'
+        '</section>'
+    )
 
 
 # Dated daily brief --------------------------------------------------------
