@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T07:38:49.716384Z",
-  "window_since": "2026-04-17T07:38:37.473146Z",
-  "window_until": "2026-05-01T07:38:49.716392Z",
+  "generated_at": "2026-05-01T07:46:20.949842Z",
+  "window_since": "2026-04-17T07:46:18.977458Z",
+  "window_until": "2026-05-01T07:46:20.949852Z",
   "diagnostics": [
     {
       "source": "federal_register",
@@ -18,7 +18,25 @@
     {
       "source": "un_press",
       "fetched": 10,
-      "kept": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 13,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 26,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 94,
+      "kept": 2,
       "ok": true
     },
     {
@@ -29,13 +47,37 @@
   ],
   "events": [
     {
-      "id": "unpress:https://press.un.org/en/blog/5",
-      "source": "UN Press",
+      "id": "state:https://www.state.gov/releases/preview/680660/",
+      "source": "US State Department (press-releases)",
       "source_tier": 2,
-      "published_at": "2026-04-30T11:41:54Z",
-      "title": "SC 10147th Meeting (AM) Democratic People's Republic of Korea",
-      "url": "https://press.un.org/en/blog/5",
-      "summary": "The Security Council will convene for an open briefing under the agenda item “Non-proliferation\", concerning the Democratic People’s Republic of Korea. The meeting was requested by Council members Bahrain, Denmark, France, Latvia, the UK, and the US, as well as non-Council members Japan and the Republic of Korea to discuss the Democratic People's Republic of Korea's “continued violations of multiple Security Council resolutions” two years after the disbandment of the Panel of Experts assisting t",
+      "published_at": "2026-04-30T20:59:42Z",
+      "title": "United States Condemns the Pro-Hamas Global Sumud Flotilla",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-condemns-the-pro-hamas-global-sumud-flotilla/",
+      "summary": "Thomas &quot;Tommy&quot; Pigott, Department Spokesperson United States Condemns the Pro-Hamas Global Sumud Flotilla Press Statement April 30, 2026 The United States condemns the Global Sumud Flotilla, a pro-Hamas initiative and a baseless, counterproductive effort to undermine President Trump’s Peace Plan. This Pro-Hamas Flotilla is organized by an OFAC-sanctioned entity, the Popular Conference for Palestinians Abroad, which was designated as a specially designated global terrorist in January fo",
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680534/",
+      "source": "US State Department (press-releases)",
+      "source_tier": 2,
+      "published_at": "2026-04-29T18:37:39Z",
+      "title": "Secretary Rubio’s Call with German Foreign Minister Wadephul",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubios-call-with-german-foreign-minister-wadephul-6/",
+      "summary": "Office of the Spokesperson Secretary Rubio’s Call with German Foreign Minister Wadephul Readout April 29, 2026 The below is attributable to Spokesperson Tommy Pigott: Secretary of State Marco Rubio spoke today with German Foreign Minister Johann Wadephul on the ongoing situation with Iran. The Secretary and Foreign Minister discussed the security situation in the region and underscored the importance of securing freedom of navigation in the Strait of Hormuz.",
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680503/",
+      "source": "US State Department (press-releases)",
+      "source_tier": 2,
+      "published_at": "2026-04-29T17:07:48Z",
+      "title": "Secretary Rubio’s Meeting with UK Foreign Secretary Cooper",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubios-meeting-with-uk-foreign-secretary-cooper-3/",
+      "summary": "Office of the Spokesperson Secretary Rubio’s Meeting with UK Foreign Secretary Cooper Readout April 29, 2026 The below is attributable to Spokesperson Tommy Pigott: Secretary of State Marco Rubio met with UK Foreign Secretary Yvette Cooper on the occasion of King Charles III and Queen Camilla’s visit to the United States.&nbsp; The Secretary and Foreign Secretary discussed the urgent need to restore freedom of navigation in the Strait of Hormuz.",
       "tags": [
         "diplomatic"
       ]
@@ -64,6 +106,18 @@
       "tags": [
         "uk-parliament",
         "written-answer"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680325/",
+      "source": "US State Department (near-east)",
+      "source_tier": 2,
+      "published_at": "2026-04-28T19:08:00Z",
+      "title": "United States Cuts Off Billions in Illicit Funding to Iranian Regime",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-cuts-off-billions-in-illicit-funding-to-iranian-regime/",
+      "summary": "Thomas &quot;Tommy&quot; Pigott, Department Spokesperson United States Cuts Off Billions in Illicit Funding to Iranian Regime Press Statement April 28, 2026 The United States exerts maximum pressure across every domain to stop the Iranian regime from threatening American interests and to hold it accountable. Today, the United States is acting against 35 entities and individuals who operate Iran&#8217;s covert financial network. Shadow banking networks enable the transfer of tens of billions of d",
+      "tags": [
+        "diplomatic"
       ]
     },
     {
@@ -236,6 +290,18 @@
       ]
     },
     {
+      "id": "state:https://www.state.gov/releases/preview/679667/",
+      "source": "US State Department (near-east)",
+      "source_tier": 2,
+      "published_at": "2026-04-24T19:20:43Z",
+      "title": "U.S. Sanctions Intensify Pressure on Iran’s Oil Trade Network in China",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/u-s-sanctions-intensify-pressure-on-irans-oil-trade-network-in-china/",
+      "summary": "Thomas &quot;Tommy&quot; Pigott, Department Spokesperson U.S. Sanctions Intensify Pressure on Iran’s Oil Trade Network in China Press Statement April 24, 2026 The United States is taking decisive action to disrupt Iran’s illicit oil trade, the Iranian regime&#8217;s primary revenue streams that fund its terrorism and destabilization of the region. The Department of the Treasury imposed sanctions today on a major, independent Chinese refinery and nearly 40 other targets &#8211; vessels and their ",
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
       "id": "fedreg:2026-07994",
       "source": "US Treasury / OFAC (Federal Register)",
       "source_tier": 1,
@@ -258,6 +324,18 @@
       "tags": [
         "uk-parliament",
         "written-question"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/news/joint-statement-by-president-macron-and-prime-minister-starmer-co-chairs-of-the-international-summit-on-the-strait-of-hormuz-17-april-2026#2026-04-22T19:57:42Z",
+      "source": "UK Government — Prime Minister's Office, 10 Downing Street",
+      "source_tier": 2,
+      "published_at": "2026-04-22T19:57:42Z",
+      "title": "Joint Statement by President Macron and Prime Minister Starmer, Co-chairs of the International Summit on the Strait of Hormuz: 17 April 2026",
+      "url": "https://www.gov.uk/government/news/joint-statement-by-president-macron-and-prime-minister-starmer-co-chairs-of-the-international-summit-on-the-strait-of-hormuz-17-april-2026",
+      "summary": "Today, France and the United Kingdom convened 51 countries for an international summit on the Strait of Hormuz. The meeting underlined the determination of the international community to support freedom of navigation, to stand up for international law, and to protect global economic stability and energy security.",
+      "tags": [
+        "uk-government"
       ]
     },
     {
@@ -310,6 +388,18 @@
       "tags": [
         "uk-parliament",
         "written-question"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/678764/",
+      "source": "US State Department (near-east)",
+      "source_tier": 2,
+      "published_at": "2026-04-21T18:19:02Z",
+      "title": "Disrupting Procurement Networks Supporting Iran’s Unmanned Aerial Vehicle (UAV) and Ballistic Missile Programs and Mahan Air",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/disrupting-procurement-networks-supporting-irans-unmanned-aerial-vehicle-uav-and-ballistic-missile-programs-and-mahan-air/",
+      "summary": "Thomas &quot;Tommy&quot; Pigott, Principal Deputy Spokesperson Disrupting Procurement Networks Supporting Iran’s Unmanned Aerial Vehicle (UAV) and Ballistic Missile Programs and Mahan Air Press Statement April 21, 2026 Today, the United States is imposing sanctions on eight individuals and four entities that operate multiple procurement networks supporting Iran’s UAV and ballistic missile programs and U.S.-designated Mahan Air. The United States is also identifying two aircraft as blocked proper",
+      "tags": [
+        "diplomatic"
       ]
     },
     {
@@ -401,6 +491,30 @@
       "tags": [
         "uk-parliament",
         "written-question"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/678324/",
+      "source": "US State Department (near-east)",
+      "source_tier": 2,
+      "published_at": "2026-04-18T17:43:31Z",
+      "title": "Joint Statement on Libya Unified Budget Agreement",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/joint-statement-on-libya-unified-budget-agreement/",
+      "summary": "Office of the Spokesperson Joint Statement on Libya Unified Budget Agreement Media Note April 18, 2026 The text of the following statement was released by the Governments of the United States of America, Egypt, France, Germany, Italy, Qatar, Saudi Arabia, Türkiye, the United Arab Emirates, and the United Kingdom. Begin Text Egypt, France, Germany, Italy, Qatar, Saudi Arabia, Türkiye, the United Arab Emirates, the United Kingdom, and the United States of America welcome the signing on April 11 of",
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/news/pm-meeting-with-president-macron-of-france-17-april-2026#2026-04-17T17:01:10Z",
+      "source": "UK Government — Prime Minister's Office, 10 Downing Street",
+      "source_tier": 2,
+      "published_at": "2026-04-17T17:01:10Z",
+      "title": "PM meeting with President Macron of France: 17 April 2026",
+      "url": "https://www.gov.uk/government/news/pm-meeting-with-president-macron-of-france-17-april-2026",
+      "summary": "The Prime Minister met the President of France, Emmanuel Macron, in Paris this morning, ahead of talks with partners on the Strait of Hormuz.",
+      "tags": [
+        "uk-government"
       ]
     },
     {
