@@ -1,0 +1,10 @@
+[project]
+name = "iran-watcher"
+version = "0.1.0"
+description = "Aggregator of primary governmental and multilateral sources on Iran and the Middle East crisis."
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27",
+    "feedparser>=6.0",
+    "python-dateutil>=2.9",
+]
