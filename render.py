@@ -407,7 +407,7 @@ def _render_pills(events: list[dict]) -> str:
         '<button class="sort-pill" data-sort="date" data-active="1" type="button">'
         'Date <span class="n">newest first</span></button>'
         '<button class="sort-pill" data-sort="tier" data-active="0" type="button">'
-        'Tier <span class="n">1 → 3</span></button>'
+        'Tier <span class="n">primary first</span></button>'
     )
     return (
         '<section class="filters" aria-label="Filter and sort">'
