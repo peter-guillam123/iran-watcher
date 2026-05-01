@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-05-01T09:34:33.695846Z",
+  "window_since": "2026-04-28T23:59:59Z",
+  "window_until": "2026-04-29T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 5,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 10,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 66,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 16,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604298398",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T20:21:53Z",
+      "title": "As Tehran praises Moscow, critics ask where Russia was",
+      "url": "https://www.iranintl.com/en/202604298398",
+      "summary": "As Iranian officials continue to tout a “strategic partnership” with Russia, rare public criticism has emerged over Moscow’s muted response to the recent war.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680534/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-04-29T18:37:39Z",
+      "title": "Secretary Rubio’s Call with German Foreign Minister Wadephul",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubios-call-with-german-foreign-minister-wadephul-6/",
+      "summary": "The below is attributable to Spokesperson Tommy Pigott: Secretary of State Marco Rubio spoke today with German Foreign Minister Johann Wadephul on the ongoing situation with Iran. The Secretary and Foreign Minister discussed the security situation in the region and underscored the importance of securing freedom of navigation in the Strait of Hormuz.",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604294039",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T18:35:00Z",
+      "title": "Iran football chief with IRGC ties sent back by Canada after arrival",
+      "url": "https://www.iranintl.com/en/202604294039",
+      "summary": "Iran's football chief Mehdi Taj, once a commander in the Islamic Revolutionary Guard Corps, was sent back from Canada just hours after landing, according to a government source who spoke to Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680503/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-04-29T17:07:48Z",
+      "title": "Secretary Rubio’s Meeting with UK Foreign Secretary Cooper",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/secretary-rubios-meeting-with-uk-foreign-secretary-cooper-3/",
+      "summary": "The below is attributable to Spokesperson Tommy Pigott: Secretary of State Marco Rubio met with UK Foreign Secretary Yvette Cooper on the occasion of King Charles III and Queen Camilla’s visit to the United States.&nbsp; The Secretary and Foreign Secretary discussed the urgent need to restore freedom of navigation in the Strait of Hormuz.",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604294396",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T16:43:00Z",
+      "title": "Even state media sounds alarm as Iran’s economy sinks",
+      "url": "https://www.iranintl.com/en/202604294396",
+      "summary": "Iran’s worsening economic crisis is drawing unusually blunt warnings from state media and establishment voices as war, inflation and shortages squeeze households and expose the limits of the government’s response.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604291673",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T10:58:16Z",
+      "title": "Iran currency plunges as dollar crosses 1.8 million in open market",
+      "url": "https://www.iranintl.com/en/202604291673",
+      "summary": "The US dollar passed 1.81 million rials on Iran’s open market on Wednesday, rising nearly 8% in a single day as the country’s economic crisis worsened under the strain of maritime blockade, stalled diplomacy and mounting pressure on households.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604286760",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T09:52:21Z",
+      "title": "Tehran is pricing out its daughters",
+      "url": "https://www.iranintl.com/en/202604286760",
+      "summary": "For years, young women from smaller cities and conservative families came to Tehran to study, to work, to breathe. Now, one by one, many are being forced to leave.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604293977",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T06:16:28Z",
+      "title": "Iran war clouds summer travel as jet fuel costs soar",
+      "url": "https://www.iranintl.com/en/202604293977",
+      "summary": "European airlines are facing their biggest test since the COVID-19 pandemic as the Iran war drives up jet fuel prices, disrupts Middle East routes and raises concerns about possible fuel shortages ahead of the summer holiday season.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604289119",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-29T04:37:56Z",
+      "title": "Iran taps reserves again as inflation bites and layoffs mount",
+      "url": "https://www.iranintl.com/en/202604289119",
+      "summary": "Iran has once again tapped its sovereign wealth reserves to fund essential imports, highlighting the growing strain on an economy battered by war, inflation and a rapidly weakening currency.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-05-01T09:29:09.924001Z",
+  "window_since": "2026-04-18T23:59:59Z",
+  "window_until": "2026-04-19T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 12,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 24,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 91,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 82,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604199471",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-19T22:03:00Z",
+      "title": "Ghalibaf defends Iran-US talks amid hardline backlash",
+      "url": "https://www.iranintl.com/en/202604199471",
+      "summary": "Iran’s lead negotiator and parliament speaker Mohammad-Bagher Ghalibaf defended indirect talks with the United States in a televised interview Saturday after hardline critics accused him of “betrayal” and even hinted at a “coup” over the negotiations in Islamabad.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604191069",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-19T10:16:41Z",
+      "title": "From instability to influence: Pakistan’s pivotal role in US-Iran diplomacy",
+      "url": "https://www.iranintl.com/en/202604191069",
+      "summary": "Despite deep political turmoil, economic distress, militant violence, and a fraying security landscape at home, Pakistan has unexpectedly emerged as the publicly acknowledged central mediator between Washington and Tehran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

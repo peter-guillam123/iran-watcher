@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-05-01T09:35:07.516069Z",
+  "window_since": "2026-04-29T23:59:59Z",
+  "window_until": "2026-04-30T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 9,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 5,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 57,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 9,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307863",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T21:31:00Z",
+      "title": "Economics may decide outcome of Iran-US standoff",
+      "url": "https://www.iranintl.com/en/202604307863",
+      "summary": "The next phase of the Iran–US standoff may be decided not on the battlefield, but by how much economic pressure each side can withstand.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680660/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-04-30T20:59:42Z",
+      "title": "United States Condemns the Pro-Hamas Global Sumud Flotilla",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-condemns-the-pro-hamas-global-sumud-flotilla/",
+      "summary": "The United States condemns the Global Sumud Flotilla, a pro-Hamas initiative and a baseless, counterproductive effort to undermine President Trump’s Peace Plan. This Pro-Hamas Flotilla is organized by an OFAC-sanctioned entity, the Popular Conference for Palestinians Abroad, which was designated as a specially designated global terrorist in January for operating at Hamas’ behest. The founder of the Global Sumud Flotilla has publicly expressed support for the Iranian regime and its terror proxies",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604302117",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T18:15:00Z",
+      "title": "Pezeshkian, Ghalibaf seek Araghchi’s ouster over 'subservience' to Guards",
+      "url": "https://www.iranintl.com/en/202604302117",
+      "summary": "Iran's president and parliament speaker are seeking Foreign Minister Abbas Araghchi’s removal, accusing him of following the Revolutionary Guard chief’s instructions in nuclear talks without informing the president, two sources familiar with the matter told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307152",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T16:50:15Z",
+      "title": "US forms new coalition to secure Hormuz, asks partners to join",
+      "url": "https://www.iranintl.com/en/202604307152",
+      "summary": "The United States has asked partner countries to join its newly formed Maritime Freedom Coalition to help secure passage through the Strait of Hormuz and Persian Gulf waterways, according to a State Department cable.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604300766",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T13:05:07Z",
+      "title": "Iranians denounce tiered internet plan as discriminatory and corrupt",
+      "url": "https://www.iranintl.com/en/202604300766",
+      "summary": "Iranians condemned selective access to restricted internet services as discriminatory and corrupt in messages to Iran International, urging others to reject the scheme in recent days.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307788",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T09:22:23Z",
+      "title": "How the Taliban tilted toward Iran during wartime tensions",
+      "url": "https://www.iranintl.com/en/202604307788",
+      "summary": "Taliban leaders and affiliated figures voiced support for Iran after Israeli strikes in June 2025 and later US threats, signaling a limited and conditional alignment despite longstanding disputes with Tehran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604289304",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T06:00:38Z",
+      "title": "Iran ranks near bottom as press curbs deepen worldwide",
+      "url": "https://www.iranintl.com/en/202604289304",
+      "summary": "Iran ranked among the world’s worst countries for press freedom in 2026 as global conditions hit a 25-year low, with legal pressure on journalists intensifying across multiple regions, Reporters Without Borders said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604290137",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T02:53:36Z",
+      "title": "Soaring prices push medicine beyond Iranians' reach",
+      "url": "https://www.iranintl.com/en/202604290137",
+      "summary": "Medicine prices in Iran have surged sharply in recent weeks, with some drugs rising by as much as 380%, according to reports received by Iran International, as the country grapples with soaring inflation, a collapsing currency and worsening wartime disruption.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

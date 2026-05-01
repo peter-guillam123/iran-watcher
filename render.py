@@ -61,6 +61,15 @@ nav.top a:hover{text-decoration:underline}
 .tier-header.t2{color:#3a55a8}
 .tier-header.t3{color:#8a4a17}
 
+.day-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 4px;padding:10px 14px;background:#fff;border:1px solid #e2e2e2;border-radius:8px;font-size:14px}
+.day-nav.bottom{margin-top:32px}
+.day-nav a{color:#0a4f8f;text-decoration:none;flex:1}
+.day-nav a:hover{text-decoration:underline}
+.day-nav a.next{text-align:right}
+.day-nav a.hub{flex:0;color:#666;font-size:13px;text-align:center;padding:0 12px}
+.day-nav .disabled{color:#ccc;flex:1}
+.day-nav .next.disabled{text-align:right}
+
 .event{padding:18px 0;border-top:1px solid #e2e2e2}
 .event:first-of-type{border-top:none}
 .event .head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
@@ -380,7 +389,11 @@ def _render_pills(events: list[dict]) -> str:
     )
 
 
-def render_day(date_str: str) -> str:
+def render_day(
+    date_str: str,
+    prev_stem: str | None = None,
+    next_stem: str | None = None,
+) -> str:
     payload = json.loads((DATA_DIR / f"{date_str}.json").read_text())
     events = payload.get("events", [])
     diagnostics = payload.get("diagnostics", [])
@@ -411,6 +424,20 @@ def render_day(date_str: str) -> str:
     window_since = (payload.get("window_since") or "")[:16].replace("T", " ")
     window_until = (payload.get("window_until") or "")[:16].replace("T", " ")
 
+    def _pretty(stem: str) -> str:
+        try:
+            return datetime.fromisoformat(stem).strftime("%a %d %b")
+        except ValueError:
+            return stem
+    prev_link = (
+        f'<a class="prev" href="{prev_stem}.html">← {_pretty(prev_stem)}</a>'
+        if prev_stem else '<span class="prev disabled">← earlier</span>'
+    )
+    next_link = (
+        f'<a class="next" href="{next_stem}.html">{_pretty(next_stem)} →</a>'
+        if next_stem else '<span class="next disabled">later →</span>'
+    )
+
     return f"""<!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
@@ -423,8 +450,10 @@ def render_day(date_str: str) -> str:
   <div class="meta">{len(events)} items · window {window_since}Z to {window_until}Z</div>
   <nav class="top"><a href="./">All days</a> <a href="about.html">About</a> <a href="changelog.html">Changelog</a></nav>
 </header>
+<nav class="day-nav">{prev_link}<a class="hub" href="./">All days</a>{next_link}</nav>
 {pills_html}
 <section class="events">{items_html}</section>
+<nav class="day-nav bottom">{prev_link}<a class="hub" href="./">All days</a>{next_link}</nav>
 <section class="diag">
   <h4>Source run</h4>
   {diag_html}
@@ -497,18 +526,36 @@ def render_index(days: list[tuple[str, int]]) -> str:
 def main() -> int:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Build the list of all dated stems (sorted ascending) so we can compute
+    # prev/next nav. Non-date stems (demos, comparisons) are excluded from
+    # prev/next chaining but still rendered.
+    all_stems = [p.stem for p in sorted(DATA_DIR.glob("*.json"))]
+    dated = []
+    for stem in all_stems:
+        try:
+            datetime.fromisoformat(stem)
+            dated.append(stem)
+        except ValueError:
+            continue
+    # Map each stem to its older/newer neighbour by date (ascending list).
+    prev_of: dict[str, str | None] = {}
+    next_of: dict[str, str | None] = {}
+    for i, stem in enumerate(dated):
+        prev_of[stem] = dated[i - 1] if i > 0 else None
+        next_of[stem] = dated[i + 1] if i + 1 < len(dated) else None
+
     days: list[tuple[str, int]] = []
-    for path in sorted(DATA_DIR.glob("*.json"), reverse=True):
-        date_str = path.stem
-        payload = json.loads(path.read_text())
+    # Render newest-first for nicer console output.
+    for stem in reversed(all_stems):
+        payload = json.loads((DATA_DIR / f"{stem}.json").read_text())
         count = len(payload.get("events", []))
-        out = DOCS_DIR / f"{date_str}.html"
-        out.write_text(render_day(date_str))
-        days.append((date_str, count))
+        out = DOCS_DIR / f"{stem}.html"
+        out.write_text(render_day(stem, prev_of.get(stem), next_of.get(stem)))
+        days.append((stem, count))
         print(f"  wrote {out.name} ({count} items)", file=sys.stderr)
 
     (DOCS_DIR / "index.html").write_text(render_index(days))
-    print(f"  wrote index.html ({len(days)} days)", file=sys.stderr)
+    print(f"  wrote index.html ({len(days)} entries)", file=sys.stderr)
     return 0
 
 

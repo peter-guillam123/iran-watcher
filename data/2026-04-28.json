@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-05-01T09:34:00.803942Z",
+  "window_since": "2026-04-27T23:59:59Z",
+  "window_until": "2026-04-28T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 5,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 11,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 70,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 23,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604288898",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T20:12:17Z",
+      "title": "US talks trigger unprecedented rift in Iran’s hardline camp",
+      "url": "https://www.iranintl.com/en/202604288898",
+      "summary": "A widening split over how to deal with the United States has reached the deepest layers of Iran’s hardline establishment, surfacing in state-linked media and among factions that have long presented a united front under the banner of revolutionary loyalty.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680325/",
+      "source": "US State Department",
+      "source_detail": "near-east",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-04-28T19:08:00Z",
+      "title": "United States Cuts Off Billions in Illicit Funding to Iranian Regime",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-cuts-off-billions-in-illicit-funding-to-iranian-regime/",
+      "summary": "The United States exerts maximum pressure across every domain to stop the Iranian regime from threatening American interests and to hold it accountable. Today, the United States is acting against 35 entities and individuals who operate Iran&#8217;s covert financial network. Shadow banking networks enable the transfer of tens of billions of dollars to evade sanctions. They enable Iran&#8217;s military forces, such as the Islamic Revolutionary Guard Corps, to illicitly access the international fin",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604288397",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T17:08:21Z",
+      "title": "Calls for secrecy in Tehran reflect divisions over US talks",
+      "url": "https://www.iranintl.com/en/202604288397",
+      "summary": "As efforts continue to revive talks with the United States, Iranian lawmakers and state-linked outlets are increasingly calling for secrecy around negotiations.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604284203",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T14:53:24Z",
+      "title": "Three layers of mistrust behind US-Iran deadlock",
+      "url": "https://www.iranintl.com/en/202604284203",
+      "summary": "Deep-rooted mistrust continues to stand in the way of any meaningful thaw between Iran and the United States despite renewed diplomacy after weeks of war.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://content.iranintl.com/irans-water-crisis-mafia-or-system/index.html",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T13:24:23Z",
+      "title": "Iran’s water crisis: Mafia or destruction by design?",
+      "url": "https://content.iranintl.com/irans-water-crisis-mafia-or-system/index.html",
+      "summary": "Iran’s water crisis did not begin with a “water mafia,” but with a state model built on self-sufficiency, laws that gave the government broad control over water, subsidized water, and mega-projects that turned scarcity into a map of conflict.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604287032",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T09:27:07Z",
+      "title": "Two months offline: Iran blackout drives losses, access splits",
+      "url": "https://www.iranintl.com/en/202604287032",
+      "summary": "Iran’s near-total shutdown of the global internet reached 60 days on Tuesday, worsening economic losses and social restrictions as authorities move toward selective access for some users and businesses.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604284103",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T03:36:27Z",
+      "title": "Iran’s foreign trade suffers wartime collapse",
+      "url": "https://www.iranintl.com/en/202604284103",
+      "summary": "Iran’s foreign trade has suffered a sharp contraction in the first month of war with the United States and Israel, newly released customs data show, signaling a severe blow to the country’s already fragile economy.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604280094",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-28T02:01:17Z",
+      "title": "Did Araghchi’s tour signal leverage or isolation?",
+      "url": "https://www.iranintl.com/en/202604280094",
+      "summary": "In Tehran, Abbas Araghchi’s whirlwind regional tour is being presented as evidence that Iran still has diplomatic options and regional leverage.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

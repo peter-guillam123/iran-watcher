@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-05-01T09:32:56.606467Z",
+  "window_since": "2026-04-25T23:59:59Z",
+  "window_until": "2026-04-26T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 6,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 17,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 78,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 35,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604261036",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-26T22:43:00Z",
+      "title": "The hidden target in US war on Iran may be China",
+      "url": "https://www.iranintl.com/en/202604261036",
+      "summary": "As Washington and Tehran navigate a fragile ceasefire, one of the biggest questions looming over the conflict may not be about Iran at all—but China.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604268133",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-26T20:57:11Z",
+      "title": "Unity or fracture? Tehran battles Trump’s narrative of disarray",
+      "url": "https://www.iranintl.com/en/202604268133",
+      "summary": "Assertions by US President Donald Trump that Iran’s leadership is divided, and Tehran’s increasingly coordinated effort to deny it, have thrust the issue of unity to the center of the standoff between the two countries.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604269709",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-26T10:44:23Z",
+      "title": "Iran nurses reject special internet access amid blackout",
+      "url": "https://www.iranintl.com/en/202604269709",
+      "summary": "Iran’s nursing organization said on Sunday it would not seek special internet access for its members until restrictions on international internet access were lifted for the public.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-05-01T09:30:47.124939Z",
+  "window_since": "2026-04-21T23:59:59Z",
+  "window_until": "2026-04-22T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 11,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 22,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 89,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 62,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "govuk:https://www.gov.uk/government/news/joint-statement-by-president-macron-and-prime-minister-starmer-co-chairs-of-the-international-summit-on-the-strait-of-hormuz-17-april-2026#2026-04-22T19:57:42Z",
+      "source": "UK Government",
+      "source_detail": "Prime Minister's Office, 10 Downing Street",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-04-22T19:57:42Z",
+      "title": "Joint Statement by President Macron and Prime Minister Starmer, Co-chairs of the International Summit on the Strait of Hormuz: 17 April 2026",
+      "url": "https://www.gov.uk/government/news/joint-statement-by-president-macron-and-prime-minister-starmer-co-chairs-of-the-international-summit-on-the-strait-of-hormuz-17-april-2026",
+      "summary": "Today, France and the United Kingdom convened 51 countries for an international summit on the Strait of Hormuz. The meeting underlined the determination of the international community to support freedom of navigation, to stand up for international law, and to protect global economic stability and energy security.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225392",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T18:51:00Z",
+      "title": "As Tehran digs in, ordinary Iranians pay the price",
+      "url": "https://www.iranintl.com/en/202604225392",
+      "summary": "As uncertainty clouds the next round of Iran-US talks, the economic pain of the war is mounting inside Iran and beyond, increasing pressure on both sides to find a way out.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225630",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T15:10:00Z",
+      "title": "Internet Pro or Censor Pro? Iran rolls out a new service",
+      "url": "https://www.iranintl.com/en/202604225630",
+      "summary": "Iran’s new “Internet Pro” rollout may tighten state control in the short term, but experts who spoke to Iran International question whether the Islamic Republic can sustain a class-based internet in one of the Middle East’s most connected societies.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604228340",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T09:30:28Z",
+      "title": "Iran Guards say two ships seized in Hormuz after ceasefire extension",
+      "url": "https://www.iranintl.com/en/202604228340",
+      "summary": "Iran’s Islamic Revolutionary Guard Corps Navy said it had seized two vessels in the Strait of Hormuz and directed them toward Iranian shores, hours after Donald Trump said the United States would extend a ceasefire with Iran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225913",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T09:09:43Z",
+      "title": "IRGC-linked media hints at threat to Persian Gulf undersea internet cables",
+      "url": "https://www.iranintl.com/en/202604225913",
+      "summary": "IRGC-linked Tasnim has pointedly mapped the Persian Gulf’s undersea internet cables and cloud infrastructure in what appears to be a thinly veiled warning that the region’s digital backbone may now be in Iran’s line of fire.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225748",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T07:21:09Z",
+      "title": "Iran executes former atomic agency employee over alleged spying for Israel",
+      "url": "https://www.iranintl.com/en/202604225748",
+      "summary": "Iran executed a man early on Wednesday after convicting him of spying for Israel, with the judiciary identifying him as Mehdi Farid and saying he had worked at a “sensitive organization” and maintained online contact with Mossad officers.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604219227",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T01:47:59Z",
+      "title": "Strikes on petrochemical hubs leave Iran short of plastics",
+      "url": "https://www.iranintl.com/en/202604219227",
+      "summary": "Iran is facing severe shortages of key petrochemical products after recent strikes on its main production hubs, according to two informed sources inside the country.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604226411",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-22T00:05:58Z",
+      "title": "War or economic collapse: can Iran withstand the pressure?",
+      "url": "https://www.iranintl.com/en/202604226411",
+      "summary": "Iran’s economy is likely to buckle faster than the United States or the global economy under the combined pressure of war, sanctions, a US blockade and Tehran’s disruption of the Strait of Hormuz, experts said at Iran International’s townhall in Washington DC.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

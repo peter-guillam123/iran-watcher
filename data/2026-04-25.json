@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-05-01T09:32:24.065130Z",
+  "window_since": "2026-04-24T23:59:59Z",
+  "window_until": "2026-04-25T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "The read operation timed out"
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 6,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 17,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 78,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 40,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604252736",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-25T23:17:00Z",
+      "title": "UK releases man jailed for spying on Iran International in 2023 terror plot",
+      "url": "https://www.iranintl.com/en/202604252736",
+      "summary": "A man jailed in the UK for conducting surveillance on Iran International has been released early and deported to Austria, despite being sentenced to three-and-a-half years in prison for gathering intelligence that could have aided a terrorist attack.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604241676",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-25T16:52:51Z",
+      "title": "US should use Iran talks leverage to help Iranian people, veteran journalist says",
+      "url": "https://www.iranintl.com/en/202604241676",
+      "summary": "With US-Iran talks in Pakistan in doubt after Iran's foreign minister left Islamabad and President Trump canceled the planned trip by US negotiators, veteran journalist Eli Lake says Washington should use its leverage not only on the nuclear file, but to help the people of Iran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604259094",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-25T12:50:53Z",
+      "title": "Three Baha’i women jailed in southeast Iran, one of them pregnant",
+      "url": "https://www.iranintl.com/en/202604259094",
+      "summary": "Three Baha’i women from Rafsanjan, a city in Iran’s southeastern Kerman province, were sent to prison on Saturday to serve four-month sentences on the charge of “propaganda against the system,” according to information received by Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604255004",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-25T06:37:16Z",
+      "title": "Iran executes protester over January uprising",
+      "url": "https://www.iranintl.com/en/202604255004",
+      "summary": "Iran executed a man on Saturday over his involvement in January anti-establishment protests, whom authorities said acted on behalf of Israel’s Mossad intelligence service.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604255831",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-25T04:55:58Z",
+      "title": "Iranian national charged in US over migrant smuggling scheme",
+      "url": "https://www.iranintl.com/en/202604255831",
+      "summary": "A US federal indictment has charged an Iranian national with coordinating a large-scale migrant smuggling operation into the United States, the Justice Department said on Friday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "fedreg:2026-07994",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-04-24T00:00:00Z",
+      "title": "Notice of OFAC Sanctions Action",
+      "url": "https://www.federalregister.gov/documents/2026/04/24/2026-07994/notice-of-ofac-sanctions-action",
+      "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons and aircraft that have been placed on OFAC's Specially Designated Nationals and Blocked Persons List (SDN List) based on OFAC's determination that one or more applicable legal criteria were satisfied. All property and interests in property subject to U.S. jurisdiction of these persons are blocked, and U.S. persons are generally prohibited from engaging in transactions with them. The aircraft placed on the SDN List have been identified as property in which a blocked person has an interest.",
+      "details": {
+        "document_type": "Notice",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-07994"
+      },
+      "tags": [
+        "sanctions"
+      ]
+    }
+  ]
+}
