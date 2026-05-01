@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:32:56.606467Z",
+  "generated_at": "2026-05-01T11:48:01.388726Z",
   "window_since": "2026-04-25T23:59:59Z",
   "window_until": "2026-04-26T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 3,
+      "kept": 0,
+      "ok": true
     },
     {
       "source": "un_press",

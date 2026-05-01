@@ -38,7 +38,7 @@ def _fetch_questions(since: datetime) -> list[dict]:
             "tabledWhenFrom": since.date().isoformat(),
             "take": 100,
         },
-        timeout=30,
+        timeout=60,
     )
     r.raise_for_status()
     payload = r.json()
@@ -114,7 +114,7 @@ def _fetch_statements(since: datetime) -> list[dict]:
             "madeWhenFrom": since.date().isoformat(),
             "take": 100,
         },
-        timeout=30,
+        timeout=60,
     )
     r.raise_for_status()
     payload = r.json()

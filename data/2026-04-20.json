@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:29:41.985985Z",
+  "generated_at": "2026-05-01T11:46:59.685183Z",
   "window_since": "2026-04-19T23:59:59Z",
   "window_until": "2026-04-20T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 26,
+      "kept": 2,
+      "ok": true
     },
     {
       "source": "un_press",
@@ -139,6 +140,78 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901111",
+      "source": "UK Parliament",
+      "source_detail": "Lord Alton of Liverpool (Crossbench) → Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "China and Iran: United Nations",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/HL16518",
+      "summary": "To ask His Majesty's Government what discussions they have had regarding the nomination of the government of Iran to the United Nations Committee for Program and Coordination, and the government of China to the United Nations Committee on NGOs; and what a",
+      "details": {
+        "asking_member": {
+          "id": 738,
+          "name": "Lord Alton of Liverpool",
+          "party": "Crossbench",
+          "house": "Lords"
+        },
+        "answering_member": {
+          "id": 3972,
+          "name": "Baroness Chapman of Darlington",
+          "party": "Labour",
+          "house": "Lords"
+        },
+        "department": "Foreign, Commonwealth and Development Office",
+        "date_tabled": "2026-04-20",
+        "date_answered": "2026-04-29",
+        "question_text": "To ask His Majesty's Government what discussions they have had regarding the nomination of the government of Iran to the United Nations Committee for Program and Coordination, and the government of China to the United Nations Committee on NGOs; and what a",
+        "answer_text": "It has not proved possible to respond to this question in the time available before Prorogation. Ministers will correspond directly with the Member.",
+        "uin": "HL16518",
+        "house": "Lords"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901133",
+      "source": "UK Parliament",
+      "source_detail": "Mr Richard Holden (Conservative) → Cabinet Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "Immigration",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/128310",
+      "summary": "To ask the Minister for the Cabinet Office, how many people aged 18 and over immigrated to the UK in each year from 2022 to 2025 from (a) Pakistan, (b) Kuwait, (c) Afghanistan, (d) Qatar, (e) the United Arab Emirates, (f) Sudan, (g) Mauritania, (h) Iraq,",
+      "details": {
+        "asking_member": {
+          "id": 4813,
+          "name": "Mr Richard Holden",
+          "party": "Conservative",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5271,
+          "name": "Satvir Kaur",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Cabinet Office",
+        "date_tabled": "2026-04-20",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Minister for the Cabinet Office, how many people aged 18 and over immigrated to the UK in each year from 2022 to 2025 from (a) Pakistan, (b) Kuwait, (c) Afghanistan, (d) Qatar, (e) the United Arab Emirates, (f) Sudan, (g) Mauritania, (h) Iraq,",
+        "answer_text": "The information requested falls under the remit of the UK Statistics Authority.A response to the Rt. Hon. Gentleman’s Parliamentary Question of 20th April is attached.",
+        "uin": "128310",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:30:14.717298Z",
+  "generated_at": "2026-05-01T11:47:13.829687Z",
   "window_since": "2026-04-20T23:59:59Z",
   "window_until": "2026-04-21T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 26,
+      "kept": 7,
+      "ok": true
     },
     {
       "source": "un_press",
@@ -244,6 +245,258 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901880",
+      "source": "UK Parliament",
+      "source_detail": "Mr Joshua Reynolds (Liberal Democrat) → Treasury",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Mortgages: Interest Rates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128931",
+      "summary": "To ask the Chancellor of the Exchequer, what assessment she has made of the potential impact of recent changes to mortgage rates, including those influenced by recent global economic conditions, on housing market activity.",
+      "details": {
+        "asking_member": {
+          "id": 5343,
+          "name": "Mr Joshua Reynolds",
+          "party": "Liberal Democrat",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5333,
+          "name": "Lucy Rigby",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Treasury",
+        "date_tabled": "2026-04-21",
+        "date_answered": "2026-04-28",
+        "question_text": "To ask the Chancellor of the Exchequer, what assessment she has made of the potential impact of recent changes to mortgage rates, including those influenced by recent global economic conditions, on housing market activity.",
+        "answer_text": "The Government keeps the economic outlook, including the housing market, under close review. The path to lower interest rates is through low inflation, and the government is fully committed to supporting the Bank of England get inflation back down to the ...",
+        "uin": "128931",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901793",
+      "source": "UK Parliament",
+      "source_detail": "Jeremy Corbyn (Independent) → Ministry of Defence",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Israel: Military Alliances",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128640",
+      "summary": "To ask the Secretary of State for Defence, if he will review the 2020 military cooperation agreement with Israel in the context of that country’s role in the war on Iran since 28 February 2026.",
+      "details": {
+        "asking_member": {
+          "id": 185,
+          "name": "Jeremy Corbyn",
+          "party": "Independent",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5235,
+          "name": "Al Carns",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Ministry of Defence",
+        "date_tabled": "2026-04-21",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Defence, if he will review the 2020 military cooperation agreement with Israel in the context of that country’s role in the war on Iran since 28 February 2026.",
+        "answer_text": "A UK-Israel military cooperation agreement, which incorporates a range of defence engagement activity, was signed in December 2020. Whilst the UK Ministry of Defence regularly reviews cooperation with Israel, the agreement remains extant.",
+        "uin": "128640",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901792",
+      "source": "UK Parliament",
+      "source_detail": "Jeremy Corbyn (Independent) → Ministry of Defence",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Iran: Armed Conflict",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128639",
+      "summary": "To ask the Secretary of State for Defence, whether he has made an estimate of the number of civilian casualties caused by United States airstrikes on Iran since 28 February 2026.",
+      "details": {
+        "asking_member": {
+          "id": 185,
+          "name": "Jeremy Corbyn",
+          "party": "Independent",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5235,
+          "name": "Al Carns",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Ministry of Defence",
+        "date_tabled": "2026-04-21",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Defence, whether he has made an estimate of the number of civilian casualties caused by United States airstrikes on Iran since 28 February 2026.",
+        "answer_text": "The agreement allowing the US to use UK military bases is for specific and limited defensive action against missile facilities in Iran which were involved in launching strikes at regional allies and ships in the Strait of Hormuz.For operational security r...",
+        "uin": "128639",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901791",
+      "source": "UK Parliament",
+      "source_detail": "Jeremy Corbyn (Independent) → Ministry of Defence",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Diego Garcia: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128638",
+      "summary": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from Diego Garcia have conducted strikes on Iran since 28 February 2026.",
+      "details": {
+        "asking_member": {
+          "id": 185,
+          "name": "Jeremy Corbyn",
+          "party": "Independent",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5235,
+          "name": "Al Carns",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Ministry of Defence",
+        "date_tabled": "2026-04-21",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from Diego Garcia have conducted strikes on Iran since 28 February 2026.",
+        "answer_text": "For operational security reasons, we do not offer comment or information relating to foreign nations’ military operations. Permissions to utilise UK military bases by foreign partners are considered on a case-by-case basis. All UK operational support to a...",
+        "uin": "128638",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901789",
+      "source": "UK Parliament",
+      "source_detail": "Jeremy Corbyn (Independent) → Ministry of Defence",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "USA: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128637",
+      "summary": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from bases in the United Kingdom have conducted strikes on Iran since 28 February 2026.",
+      "details": {
+        "asking_member": {
+          "id": 185,
+          "name": "Jeremy Corbyn",
+          "party": "Independent",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5235,
+          "name": "Al Carns",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Ministry of Defence",
+        "date_tabled": "2026-04-21",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from bases in the United Kingdom have conducted strikes on Iran since 28 February 2026.",
+        "answer_text": "For operational security reasons, we do not offer comment or information relating to foreign nations’ military operations. Permissions to utilise UK military bases by foreign partners are considered on a case-by-case basis. All UK operational support to a...",
+        "uin": "128637",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901111",
+      "source": "UK Parliament",
+      "source_detail": "Lord Alton of Liverpool (Crossbench) → Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "China and Iran: United Nations",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/HL16518",
+      "summary": "To ask His Majesty's Government what discussions they have had regarding the nomination of the government of Iran to the United Nations Committee for Program and Coordination, and the government of China to the United Nations Committee on NGOs; and what a",
+      "details": {
+        "asking_member": {
+          "id": 738,
+          "name": "Lord Alton of Liverpool",
+          "party": "Crossbench",
+          "house": "Lords"
+        },
+        "answering_member": {
+          "id": 3972,
+          "name": "Baroness Chapman of Darlington",
+          "party": "Labour",
+          "house": "Lords"
+        },
+        "department": "Foreign, Commonwealth and Development Office",
+        "date_tabled": "2026-04-20",
+        "date_answered": "2026-04-29",
+        "question_text": "To ask His Majesty's Government what discussions they have had regarding the nomination of the government of Iran to the United Nations Committee for Program and Coordination, and the government of China to the United Nations Committee on NGOs; and what a",
+        "answer_text": "It has not proved possible to respond to this question in the time available before Prorogation. Ministers will correspond directly with the Member.",
+        "uin": "HL16518",
+        "house": "Lords"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901133",
+      "source": "UK Parliament",
+      "source_detail": "Mr Richard Holden (Conservative) → Cabinet Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "Immigration",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/128310",
+      "summary": "To ask the Minister for the Cabinet Office, how many people aged 18 and over immigrated to the UK in each year from 2022 to 2025 from (a) Pakistan, (b) Kuwait, (c) Afghanistan, (d) Qatar, (e) the United Arab Emirates, (f) Sudan, (g) Mauritania, (h) Iraq,",
+      "details": {
+        "asking_member": {
+          "id": 4813,
+          "name": "Mr Richard Holden",
+          "party": "Conservative",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5271,
+          "name": "Satvir Kaur",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Cabinet Office",
+        "date_tabled": "2026-04-20",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Minister for the Cabinet Office, how many people aged 18 and over immigrated to the UK in each year from 2022 to 2025 from (a) Pakistan, (b) Kuwait, (c) Afghanistan, (d) Qatar, (e) the United Arab Emirates, (f) Sudan, (g) Mauritania, (h) Iraq,",
+        "answer_text": "The information requested falls under the remit of the UK Statistics Authority.A response to the Rt. Hon. Gentleman’s Parliamentary Question of 20th April is attached.",
+        "uin": "128310",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
       ]
     }
   ]

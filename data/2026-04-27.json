@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:33:28.732169Z",
+  "generated_at": "2026-05-01T11:48:27.950538Z",
   "window_since": "2026-04-26T23:59:59Z",
   "window_until": "2026-04-27T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 3,
+      "kept": 1,
+      "ok": true
     },
     {
       "source": "un_press",
@@ -184,6 +185,42 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1903415",
+      "source": "UK Parliament",
+      "source_detail": "Lee Barron (Labour) → Home Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "British Nationals Abroad: United Arab Emirates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-27/130017",
+      "summary": "To ask the Secretary of State for the Home Department, how many British citizens resident in the UAE have returned to the UK since the beginning of the war on Iran.",
+      "details": {
+        "asking_member": {
+          "id": 5315,
+          "name": "Lee Barron",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 4641,
+          "name": "Alex Norris",
+          "party": "Labour (Co-op)",
+          "house": "Commons"
+        },
+        "department": "Home Office",
+        "date_tabled": "2026-04-27",
+        "date_answered": "2026-04-29",
+        "question_text": "To ask the Secretary of State for the Home Department, how many British citizens resident in the UAE have returned to the UK since the beginning of the war on Iran.",
+        "answer_text": "It has not proved possible to respond to the hon. Member in the time available before Prorogation.",
+        "uin": "130017",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
       ]
     }
   ]

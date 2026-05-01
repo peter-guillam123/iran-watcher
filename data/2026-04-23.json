@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:31:19.228779Z",
+  "generated_at": "2026-05-01T11:47:28.115194Z",
   "window_since": "2026-04-22T23:59:59Z",
   "window_until": "2026-04-23T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 12,
+      "kept": 5,
+      "ok": true
     },
     {
       "source": "un_press",
@@ -154,6 +155,181 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902862",
+      "source": "UK Parliament",
+      "source_detail": "Helen Morgan (Liberal Democrat) → Department of Health and Social Care",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-23T00:00:00Z",
+      "title": "Prescription Drugs: Prices",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-23/129558",
+      "summary": "To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the impact of the Iran war on the prices paid by community pharmacies to procure prescription medicines.",
+      "details": {
+        "asking_member": {
+          "id": 4934,
+          "name": "Helen Morgan",
+          "party": "Liberal Democrat",
+          "house": "Commons"
+        },
+        "answering_member": null,
+        "department": "Department of Health and Social Care",
+        "date_tabled": "2026-04-23",
+        "date_answered": null,
+        "question_text": "To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the impact of the Iran war on the prices paid by community pharmacies to procure prescription medicines.",
+        "answer_text": "",
+        "uin": "129558",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902545",
+      "source": "UK Parliament",
+      "source_detail": "Richard Burgon (Labour) → Department for Business and Trade",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Arms Trade: USA",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129306",
+      "summary": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by the US in",
+      "details": {
+        "asking_member": {
+          "id": 4493,
+          "name": "Richard Burgon",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 1446,
+          "name": "Chris Bryant",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Department for Business and Trade",
+        "date_tabled": "2026-04-22",
+        "date_answered": "2026-04-28",
+        "question_text": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by the US in",
+        "answer_text": "The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...",
+        "uin": "129306",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902386",
+      "source": "UK Parliament",
+      "source_detail": "Richard Burgon (Labour) → Department for Business and Trade",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Arms Trade: Israel",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129191",
+      "summary": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by Israel in",
+      "details": {
+        "asking_member": {
+          "id": 4493,
+          "name": "Richard Burgon",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 1446,
+          "name": "Chris Bryant",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Department for Business and Trade",
+        "date_tabled": "2026-04-22",
+        "date_answered": "2026-04-28",
+        "question_text": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by Israel in",
+        "answer_text": "The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...",
+        "uin": "129191",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902394",
+      "source": "UK Parliament",
+      "source_detail": "Dr Ellie Chowns (Green Party) → Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "USA: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129326",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to the USA being used to commit serious violations of humanitarian law in Iran.",
+      "details": {
+        "asking_member": {
+          "id": 5249,
+          "name": "Dr Ellie Chowns",
+          "party": "Green Party",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5148,
+          "name": "Mr Hamish Falconer",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Foreign, Commonwealth and Development Office",
+        "date_tabled": "2026-04-22",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to the USA being used to commit serious violations of humanitarian law in Iran.",
+        "answer_text": "I refer the Hon Member to the answer provided on 2 April in response to Question 122968.",
+        "uin": "129326",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902393",
+      "source": "UK Parliament",
+      "source_detail": "Dr Ellie Chowns (Green Party) → Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Israel: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129325",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to Israel being used to commit serious violations of humanitarian law in Iran a",
+      "details": {
+        "asking_member": {
+          "id": 5249,
+          "name": "Dr Ellie Chowns",
+          "party": "Green Party",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 5148,
+          "name": "Mr Hamish Falconer",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "department": "Foreign, Commonwealth and Development Office",
+        "date_tabled": "2026-04-22",
+        "date_answered": "2026-04-27",
+        "question_text": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to Israel being used to commit serious violations of humanitarian law in Iran a",
+        "answer_text": "I refer the Hon Member to the answer provided on 2 April in response to Question 122968.",
+        "uin": "129325",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
       ]
     }
   ]

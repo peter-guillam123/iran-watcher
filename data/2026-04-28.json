@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T09:34:00.803942Z",
+  "generated_at": "2026-05-01T11:49:13.698099Z",
   "window_since": "2026-04-27T23:59:59Z",
   "window_until": "2026-04-28T23:59:59Z",
   "diagnostics": [
@@ -11,8 +11,9 @@
     },
     {
       "source": "uk_parliament",
-      "ok": false,
-      "error": "The read operation timed out"
+      "fetched": 3,
+      "kept": 2,
+      "ok": true
     },
     {
       "source": "un_press",
@@ -169,6 +170,73 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1903524",
+      "source": "UK Parliament",
+      "source_detail": "Ruth Jones (Labour) → Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-28T00:00:00Z",
+      "title": "Iran: Minority Groups",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-28/130131",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what assessment she has made of the potential impact of a lack of access to (a) education, (b) employment and (c) public services on (a) the BaBahá'í community and (b) other",
+      "details": {
+        "asking_member": {
+          "id": 4716,
+          "name": "Ruth Jones",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "answering_member": null,
+        "department": "Foreign, Commonwealth and Development Office",
+        "date_tabled": "2026-04-28",
+        "date_answered": null,
+        "question_text": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what assessment she has made of the potential impact of a lack of access to (a) education, (b) employment and (c) public services on (a) the BaBahá'í community and (b) other",
+        "answer_text": "",
+        "uin": "130131",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1903415",
+      "source": "UK Parliament",
+      "source_detail": "Lee Barron (Labour) → Home Office",
+      "source_tier": 1,
+      "category": "parliament-question",
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "British Nationals Abroad: United Arab Emirates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-27/130017",
+      "summary": "To ask the Secretary of State for the Home Department, how many British citizens resident in the UAE have returned to the UK since the beginning of the war on Iran.",
+      "details": {
+        "asking_member": {
+          "id": 5315,
+          "name": "Lee Barron",
+          "party": "Labour",
+          "house": "Commons"
+        },
+        "answering_member": {
+          "id": 4641,
+          "name": "Alex Norris",
+          "party": "Labour (Co-op)",
+          "house": "Commons"
+        },
+        "department": "Home Office",
+        "date_tabled": "2026-04-27",
+        "date_answered": "2026-04-29",
+        "question_text": "To ask the Secretary of State for the Home Department, how many British citizens resident in the UAE have returned to the UK since the beginning of the war on Iran.",
+        "answer_text": "It has not proved possible to respond to the hon. Member in the time available before Prorogation.",
+        "uin": "130017",
+        "house": "Commons"
+      },
+      "tags": [
+        "uk-parliament",
+        "written-question"
       ]
     }
   ]
