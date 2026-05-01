@@ -1,0 +1,50 @@
+name: collect
+
+on:
+  schedule:
+    # 06:00 and 18:00 UTC — morning and evening run
+    - cron: "0 6,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+
+      - name: Sync deps
+        run: uv sync --frozen
+
+      - name: Collect
+        env:
+          RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
+        run: uv run python collect.py 1
+
+      - name: Render
+        run: uv run python render.py
+
+      - name: Commit
+        run: |
+          git config user.name 'iran-watcher-bot'
+          git config user.email 'iran-watcher-bot@users.noreply.github.com'
+          if git diff --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          # Pull first in case a concurrent push landed
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git add data/ docs/
+          git commit -m "Daily run: $(date -u +'%Y-%m-%d %H:%MZ')"
+          git push
