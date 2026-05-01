@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T07:46:20.949842Z",
-  "window_since": "2026-04-17T07:46:18.977458Z",
-  "window_until": "2026-05-01T07:46:20.949852Z",
+  "generated_at": "2026-05-01T07:51:11.802653Z",
+  "window_since": "2026-04-17T07:50:54.313172Z",
+  "window_until": "2026-05-01T07:51:11.802658Z",
   "diagnostics": [
     {
       "source": "federal_register",
@@ -40,12 +40,30 @@
       "ok": true
     },
     {
+      "source": "iran_international",
+      "fetched": 88,
+      "kept": 88,
+      "ok": true
+    },
+    {
       "source": "reliefweb",
       "ok": false,
       "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
     }
   ],
   "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307863",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T21:31:00Z",
+      "title": "Economics may decide outcome of Iran-US standoff",
+      "url": "https://www.iranintl.com/en/202604307863",
+      "summary": "The next phase of the Iran–US standoff may be decided not on the battlefield, but by how much economic pressure each side can withstand.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
     {
       "id": "state:https://www.state.gov/releases/preview/680660/",
       "source": "US State Department (press-releases)",
@@ -56,6 +74,90 @@
       "summary": "Thomas &quot;Tommy&quot; Pigott, Department Spokesperson United States Condemns the Pro-Hamas Global Sumud Flotilla Press Statement April 30, 2026 The United States condemns the Global Sumud Flotilla, a pro-Hamas initiative and a baseless, counterproductive effort to undermine President Trump’s Peace Plan. This Pro-Hamas Flotilla is organized by an OFAC-sanctioned entity, the Popular Conference for Palestinians Abroad, which was designated as a specially designated global terrorist in January fo",
       "tags": [
         "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604302117",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T18:15:00Z",
+      "title": "Pezeshkian, Ghalibaf seek Araghchi’s ouster over 'subservience' to Guards",
+      "url": "https://www.iranintl.com/en/202604302117",
+      "summary": "Iran's president and parliament speaker are seeking Foreign Minister Abbas Araghchi’s removal, accusing him of following the Revolutionary Guard chief’s instructions in nuclear talks without informing the president, two sources familiar with the matter told Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307152",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T16:50:15Z",
+      "title": "US forms new coalition to secure Hormuz, asks partners to join",
+      "url": "https://www.iranintl.com/en/202604307152",
+      "summary": "The United States has asked partner countries to join its newly formed Maritime Freedom Coalition to help secure passage through the Strait of Hormuz and Persian Gulf waterways, according to a State Department cable.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604300766",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T13:05:07Z",
+      "title": "Iranians denounce tiered internet plan as discriminatory and corrupt",
+      "url": "https://www.iranintl.com/en/202604300766",
+      "summary": "Iranians condemned selective access to restricted internet services as discriminatory and corrupt in messages to Iran International, urging others to reject the scheme in recent days.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307788",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T09:22:23Z",
+      "title": "How the Taliban tilted toward Iran during wartime tensions",
+      "url": "https://www.iranintl.com/en/202604307788",
+      "summary": "Taliban leaders and affiliated figures voiced support for Iran after Israeli strikes in June 2025 and later US threats, signaling a limited and conditional alignment despite longstanding disputes with Tehran.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604289304",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T06:00:38Z",
+      "title": "Iran ranks near bottom as press curbs deepen worldwide",
+      "url": "https://www.iranintl.com/en/202604289304",
+      "summary": "Iran ranked among the world’s worst countries for press freedom in 2026 as global conditions hit a 25-year low, with legal pressure on journalists intensifying across multiple regions, Reporters Without Borders said.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604290137",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-30T02:53:36Z",
+      "title": "Soaring prices push medicine beyond Iranians' reach",
+      "url": "https://www.iranintl.com/en/202604290137",
+      "summary": "Medicine prices in Iran have surged sharply in recent weeks, with some drugs rising by as much as 380%, according to reports received by Iran International, as the country grapples with soaring inflation, a collapsing currency and worsening wartime disruption.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604298398",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T20:21:53Z",
+      "title": "As Tehran praises Moscow, critics ask where Russia was",
+      "url": "https://www.iranintl.com/en/202604298398",
+      "summary": "As Iranian officials continue to tout a “strategic partnership” with Russia, rare public criticism has emerged over Moscow’s muted response to the recent war.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -71,6 +173,18 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604294039",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T18:35:00Z",
+      "title": "Iran football chief with IRGC ties sent back by Canada after arrival",
+      "url": "https://www.iranintl.com/en/202604294039",
+      "summary": "Iran's football chief Mehdi Taj, once a commander in the Islamic Revolutionary Guard Corps, was sent back from Canada just hours after landing, according to a government source who spoke to Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "state:https://www.state.gov/releases/preview/680503/",
       "source": "US State Department (press-releases)",
       "source_tier": 2,
@@ -80,6 +194,66 @@
       "summary": "Office of the Spokesperson Secretary Rubio’s Meeting with UK Foreign Secretary Cooper Readout April 29, 2026 The below is attributable to Spokesperson Tommy Pigott: Secretary of State Marco Rubio met with UK Foreign Secretary Yvette Cooper on the occasion of King Charles III and Queen Camilla’s visit to the United States.&nbsp; The Secretary and Foreign Secretary discussed the urgent need to restore freedom of navigation in the Strait of Hormuz.",
       "tags": [
         "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604294396",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T16:43:00Z",
+      "title": "Even state media sounds alarm as Iran’s economy sinks",
+      "url": "https://www.iranintl.com/en/202604294396",
+      "summary": "Iran’s worsening economic crisis is drawing unusually blunt warnings from state media and establishment voices as war, inflation and shortages squeeze households and expose the limits of the government’s response.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604291673",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T10:58:16Z",
+      "title": "Iran currency plunges as dollar crosses 1.8 million in open market",
+      "url": "https://www.iranintl.com/en/202604291673",
+      "summary": "The US dollar passed 1.81 million rials on Iran’s open market on Wednesday, rising nearly 8% in a single day as the country’s economic crisis worsened under the strain of maritime blockade, stalled diplomacy and mounting pressure on households.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604286760",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T09:52:21Z",
+      "title": "Tehran is pricing out its daughters",
+      "url": "https://www.iranintl.com/en/202604286760",
+      "summary": "For years, young women from smaller cities and conservative families came to Tehran to study, to work, to breathe. Now, one by one, many are being forced to leave.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604293977",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T06:16:28Z",
+      "title": "Iran war clouds summer travel as jet fuel costs soar",
+      "url": "https://www.iranintl.com/en/202604293977",
+      "summary": "European airlines are facing their biggest test since the COVID-19 pandemic as the Iran war drives up jet fuel prices, disrupts Middle East routes and raises concerns about possible fuel shortages ahead of the summer holiday season.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604289119",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-29T04:37:56Z",
+      "title": "Iran taps reserves again as inflation bites and layoffs mount",
+      "url": "https://www.iranintl.com/en/202604289119",
+      "summary": "Iran has once again tapped its sovereign wealth reserves to fund essential imports, highlighting the growing strain on an economy battered by war, inflation and a rapidly weakening currency.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -109,6 +283,18 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604288898",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T20:12:17Z",
+      "title": "US talks trigger unprecedented rift in Iran’s hardline camp",
+      "url": "https://www.iranintl.com/en/202604288898",
+      "summary": "A widening split over how to deal with the United States has reached the deepest layers of Iran’s hardline establishment, surfacing in state-linked media and among factions that have long presented a united front under the banner of revolutionary loyalty.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "state:https://www.state.gov/releases/preview/680325/",
       "source": "US State Department (near-east)",
       "source_tier": 2,
@@ -118,6 +304,78 @@
       "summary": "Thomas &quot;Tommy&quot; Pigott, Department Spokesperson United States Cuts Off Billions in Illicit Funding to Iranian Regime Press Statement April 28, 2026 The United States exerts maximum pressure across every domain to stop the Iranian regime from threatening American interests and to hold it accountable. Today, the United States is acting against 35 entities and individuals who operate Iran&#8217;s covert financial network. Shadow banking networks enable the transfer of tens of billions of d",
       "tags": [
         "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604288397",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T17:08:21Z",
+      "title": "Calls for secrecy in Tehran reflect divisions over US talks",
+      "url": "https://www.iranintl.com/en/202604288397",
+      "summary": "As efforts continue to revive talks with the United States, Iranian lawmakers and state-linked outlets are increasingly calling for secrecy around negotiations.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604284203",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T14:53:24Z",
+      "title": "Three layers of mistrust behind US-Iran deadlock",
+      "url": "https://www.iranintl.com/en/202604284203",
+      "summary": "Deep-rooted mistrust continues to stand in the way of any meaningful thaw between Iran and the United States despite renewed diplomacy after weeks of war.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://content.iranintl.com/irans-water-crisis-mafia-or-system/index.html",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T13:24:23Z",
+      "title": "Iran’s water crisis: Mafia or destruction by design?",
+      "url": "https://content.iranintl.com/irans-water-crisis-mafia-or-system/index.html",
+      "summary": "Iran’s water crisis did not begin with a “water mafia,” but with a state model built on self-sufficiency, laws that gave the government broad control over water, subsidized water, and mega-projects that turned scarcity into a map of conflict.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604287032",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T09:27:07Z",
+      "title": "Two months offline: Iran blackout drives losses, access splits",
+      "url": "https://www.iranintl.com/en/202604287032",
+      "summary": "Iran’s near-total shutdown of the global internet reached 60 days on Tuesday, worsening economic losses and social restrictions as authorities move toward selective access for some users and businesses.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604284103",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T03:36:27Z",
+      "title": "Iran’s foreign trade suffers wartime collapse",
+      "url": "https://www.iranintl.com/en/202604284103",
+      "summary": "Iran’s foreign trade has suffered a sharp contraction in the first month of war with the United States and Israel, newly released customs data show, signaling a severe blow to the country’s already fragile economy.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604280094",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-28T02:01:17Z",
+      "title": "Did Araghchi’s tour signal leverage or isolation?",
+      "url": "https://www.iranintl.com/en/202604280094",
+      "summary": "In Tehran, Abbas Araghchi’s whirlwind regional tour is being presented as evidence that Iran still has diplomatic options and regional leverage.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -170,6 +428,114 @@
       "tags": [
         "uk-parliament",
         "written-question"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604279149",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T23:53:03Z",
+      "title": "Why a blockade would not halt Iran’s oil overnight",
+      "url": "https://www.iranintl.com/en/202604279149",
+      "summary": "Amid Iran’s closure of the Strait of Hormuz and the ensuing US blockade, an old energy fantasy has resurfaced that cutting off a country’s oil exports works like flipping a switch. But reality is less cinematic and far more uncomfortable.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604270285",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T22:15:24Z",
+      "title": "Iran, US clash at UN over Strait of Hormuz closure",
+      "url": "https://www.iranintl.com/en/202604270285",
+      "summary": "Iran and the United States traded accusations at the United Nations on Monday over the Strait of Hormuz, as the archfoes’ weeks-long standoff over the strategic waterway continued to disrupt global energy supplies and world trade.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604277966",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T20:25:00Z",
+      "title": "Iran football chief with IRGC past to visit Canada for FIFA event",
+      "url": "https://www.iranintl.com/en/202604277966",
+      "summary": "A Revolutionary Guards commander turned Iran's football chief has been granted special permission to enter Canada for a FIFA event despite being otherwise inadmissible, according to government sources who spoke to Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604279001",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T17:55:00Z",
+      "title": "Iran's top security council holds meeting over fears of renewed protests",
+      "url": "https://www.iranintl.com/en/202604279001",
+      "summary": "Iran’s Supreme National Security Council has held a meeting to address growing concerns among security agencies over a possible resurgence of protests, sources familiar with the discussions told Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604273705",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T16:17:00Z",
+      "title": "New intelligence exposes IRGC-linked network targeting Israeli, Western sites",
+      "url": "https://www.iranintl.com/en/202604273705",
+      "summary": "New intelligence obtained by Iran International reveals the identities of operatives in an IRGC-linked espionage and assassination network, including a foreign cleric trained in Qom who allegedly coordinated attacks targeting Israeli and Western interests.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604271846",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T07:48:52Z",
+      "title": "Iran designers reject ‘discriminatory’ tiered internet access",
+      "url": "https://www.iranintl.com/en/202604271846",
+      "summary": "Iran’s Graphic Designers Society refused to make a collective request for the so-called “Internet Pro” access for its members, calling the tiered internet plan “discriminatory.”",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604277225",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T03:06:03Z",
+      "title": "Is Ghalibaf becoming Iran’s Khrushchev?",
+      "url": "https://www.iranintl.com/en/202604277225",
+      "summary": "Reports that Mohammad Bagher Ghalibaf may have been sidelined from Iran’s negotiations with the United States have revived an old question from Soviet history: can an insider reform a rigid ideological system without becoming one of its casualties?",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604274029",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T01:40:00Z",
+      "title": "Iran’s new military-led order may mean greater dangers abroad",
+      "url": "https://www.iranintl.com/en/202604274029",
+      "summary": "The Islamic Republic that has emerged from the killing of Iran's Supreme Leader Ali Khamenei may prove more operationally aggressive than the one it replaces, analysts say.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604273992",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-27T00:25:54Z",
+      "title": "Is the US blockade working? It depends who you ask",
+      "url": "https://www.iranintl.com/en/202604273992",
+      "summary": "Recent tracking data suggesting Iran is still moving millions of barrels of crude despite a US naval blockade has raised fresh questions about the effectiveness of Washington’s effort to choke off Tehran’s oil exports.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -290,6 +656,114 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604261036",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-26T22:43:00Z",
+      "title": "The hidden target in US war on Iran may be China",
+      "url": "https://www.iranintl.com/en/202604261036",
+      "summary": "As Washington and Tehran navigate a fragile ceasefire, one of the biggest questions looming over the conflict may not be about Iran at all—but China.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604268133",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-26T20:57:11Z",
+      "title": "Unity or fracture? Tehran battles Trump’s narrative of disarray",
+      "url": "https://www.iranintl.com/en/202604268133",
+      "summary": "Assertions by US President Donald Trump that Iran’s leadership is divided, and Tehran’s increasingly coordinated effort to deny it, have thrust the issue of unity to the center of the standoff between the two countries.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604269709",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-26T10:44:23Z",
+      "title": "Iran nurses reject special internet access amid blackout",
+      "url": "https://www.iranintl.com/en/202604269709",
+      "summary": "Iran’s nursing organization said on Sunday it would not seek special internet access for its members until restrictions on international internet access were lifted for the public.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604252736",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-25T23:17:00Z",
+      "title": "UK releases man jailed for spying on Iran International in 2023 terror plot",
+      "url": "https://www.iranintl.com/en/202604252736",
+      "summary": "A man jailed in the UK for conducting surveillance on Iran International has been released early and deported to Austria, despite being sentenced to three-and-a-half years in prison for gathering intelligence that could have aided a terrorist attack.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604241676",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-25T16:52:51Z",
+      "title": "US should use Iran talks leverage to help Iranian people, veteran journalist says",
+      "url": "https://www.iranintl.com/en/202604241676",
+      "summary": "With US-Iran talks in Pakistan in doubt after Iran's foreign minister left Islamabad and President Trump canceled the planned trip by US negotiators, veteran journalist Eli Lake says Washington should use its leverage not only on the nuclear file, but to help the people of Iran.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604259094",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-25T12:50:53Z",
+      "title": "Three Baha’i women jailed in southeast Iran, one of them pregnant",
+      "url": "https://www.iranintl.com/en/202604259094",
+      "summary": "Three Baha’i women from Rafsanjan, a city in Iran’s southeastern Kerman province, were sent to prison on Saturday to serve four-month sentences on the charge of “propaganda against the system,” according to information received by Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604255004",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-25T06:37:16Z",
+      "title": "Iran executes protester over January uprising",
+      "url": "https://www.iranintl.com/en/202604255004",
+      "summary": "Iran executed a man on Saturday over his involvement in January anti-establishment protests, whom authorities said acted on behalf of Israel’s Mossad intelligence service.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604255831",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-25T04:55:58Z",
+      "title": "Iranian national charged in US over migrant smuggling scheme",
+      "url": "https://www.iranintl.com/en/202604255831",
+      "summary": "A US federal indictment has charged an Iranian national with coordinating a large-scale migrant smuggling operation into the United States, the Justice Department said on Friday.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604249669",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T20:17:41Z",
+      "title": "Iran’s economy after the March war: how bad can it get?",
+      "url": "https://www.iranintl.com/en/202604249669",
+      "summary": "Iran’s economy is heading into a period of sharp deterioration following the March war, with mounting pressure from inflation, currency depreciation and damage to key industries raising the risk of a broader crisis.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "state:https://www.state.gov/releases/preview/679667/",
       "source": "US State Department (near-east)",
       "source_tier": 2,
@@ -302,6 +776,90 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604245287",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T16:05:58Z",
+      "title": "Starmer pledges to move on banning Iran's IRGC in next parliament session",
+      "url": "https://www.iranintl.com/en/202604245287",
+      "summary": "UK Prime Minister Keir Starmer pledged to introduce legislation to proscribe Iran’s Islamic Revolutionary Guard Corps (IRGC) in the next parliamentary session, in an interview with the Jewish Chronicle.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604241504",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T14:32:01Z",
+      "title": "Behind Tehran’s unity show: The secret letter to the shadow king",
+      "url": "https://www.iranintl.com/en/202604241504",
+      "summary": "The real story behind Tehran’s sudden “unity” campaign did not begin with Donald Trump’s accusations of disarray within Iran’s leadership. It began with a secret letter to Mojtaba Khamenei.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604247938",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T11:42:12Z",
+      "title": "UK’s LBC finds alleged Iran-linked channel hiring Britons for sabotage",
+      "url": "https://www.iranintl.com/en/202604247938",
+      "summary": "A journalist from LBC was offered payment by an alleged Iran-linked contact to carry out a street-level act of vandalism within hours of contact, the British broadcaster reported on Friday.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604245326",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T10:11:39Z",
+      "title": "Iran officials project unity after Trump leadership remarks",
+      "url": "https://www.iranintl.com/en/202604245326",
+      "summary": "Iranian officials rushed to present a unified front after US President Donald Trump questioned who leads the Islamic Republic, highlighting sensitivities over internal divisions and uncertainty at the top of the political system.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604249413",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T09:17:11Z",
+      "title": "Two men accused of spying for Iran to appear in London’s Old Bailey court",
+      "url": "https://www.iranintl.com/en/202604249413",
+      "summary": "Two men accused of carrying out surveillance on Jewish and Israeli-linked sites in London on behalf of Iran are due to appear at the Central Criminal Court on Friday for a preliminary hearing.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604240086",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T08:45:14Z",
+      "title": "Iran to add US-Israel war to school curriculum amid ceasefire",
+      "url": "https://www.iranintl.com/en/202604240086",
+      "summary": "Iran plans to include the recent war with the United States and Israel in school textbooks, the education minister said, referring to what officials call the “third imposed war,” the latest conflict now under a ceasefire extended by US President Donald Trump.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604232479",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-24T02:01:31Z",
+      "title": "Rapid deterioration of Iran-UAE ties threatens a critical trade lifeline",
+      "url": "https://www.iranintl.com/en/202604232479",
+      "summary": "Iran-UAE ties have unraveled over the past two months, beginning with Iranian airstrikes on Emirati targets during the US-led war and escalating into a crisis that now threatens one of Tehran’s most vital trade and financial channels.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "fedreg:2026-07994",
       "source": "US Treasury / OFAC (Federal Register)",
       "source_tier": 1,
@@ -311,6 +869,90 @@
       "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons and aircraft that have been placed on OFAC's Specially Designated Nationals and Blocked Persons List (SDN List) based on OFAC's determination that one or more applicable legal criteria were satisfied. All property and interests in property subject to U.S. jurisdiction of these persons are blocked, and U.S. persons are generally prohibited from engaging in transactions with them. The aircraft placed on the SDN List have been identified as property in which a blocked person has an interest.",
       "tags": [
         "sanctions"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604230153",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T21:00:00Z",
+      "title": "Tehran stocks head for reopening, but it risks triggering a new crisis",
+      "url": "https://www.iranintl.com/en/202604230153",
+      "summary": "After nearly two months of closure, Tehran’s stock market is preparing a phased reopening, but deep structural flaws, lack of transparency and uncertainty over US negotiations threaten to turn the restart into a fresh crisis.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604230312",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T16:40:00Z",
+      "title": "Power vacuum in Tehran emboldens hardliners",
+      "url": "https://www.iranintl.com/en/202604230312",
+      "summary": "As debate over a ceasefire and renewed talks with the United States intensifies, the absence of a clear supreme arbiter in Tehran appears to be giving Iran’s hardliners more room to shape the narrative and to hinder any eventual agreement.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604234667",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T12:08:06Z",
+      "title": "Disputes within Iran leadership blocked negotiators’ trip to Islamabad",
+      "url": "https://www.iranintl.com/en/202604234667",
+      "summary": "Divisions within Iran’s leadership prevented a negotiating team from traveling to Islamabad for talks with the US, Iran International has learned.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604233673",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T11:37:39Z",
+      "title": "Inflation spikes, basic goods slip out of reach for Iranians, citizens say",
+      "url": "https://www.iranintl.com/en/202604233673",
+      "summary": "Food prices surged and basic goods slipped out of reach across Iran, citizens told Iran International in recent days, describing shortages and daily price jumps following a ceasefire that has coincided with worsening economic conditions.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604239332",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T11:14:03Z",
+      "title": "Iran turns to citizenship and assets as tools of pressure beyond its borders",
+      "url": "https://www.iranintl.com/en/202604239332",
+      "summary": "The Islamic Republic is escalating its campaign against the diaspora, moving beyond domestic seizures to explore the confiscation of assets held by Iranians in foreign countries and possible revocation of their citizenship.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604235554",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T08:57:31Z",
+      "title": "Exiled prince dismisses Iran negotiators as part of repression system",
+      "url": "https://www.iranintl.com/en/202604235554",
+      "summary": "The Islamic Republic’s negotiators in talks with the US are “different faces of the same machine,” that suppresses the Iranian people, exiled Prince Reza Pahlavi said at a press conference in Berlin on Thursday.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604223392",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-23T01:29:17Z",
+      "title": "Who backs war now? Tehran flips the script",
+      "url": "https://www.iranintl.com/en/202604223392",
+      "summary": "Iran’s state broadcaster has sparked ridicule after claiming that 87% of Iranians support continuing the war with the United States, in a curious turn from early in the conflict where pro-war sentiments of an alienated populace was branded treachery.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -336,6 +978,90 @@
       "summary": "Today, France and the United Kingdom convened 51 countries for an international summit on the Strait of Hormuz. The meeting underlined the determination of the international community to support freedom of navigation, to stand up for international law, and to protect global economic stability and energy security.",
       "tags": [
         "uk-government"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225392",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T18:51:00Z",
+      "title": "As Tehran digs in, ordinary Iranians pay the price",
+      "url": "https://www.iranintl.com/en/202604225392",
+      "summary": "As uncertainty clouds the next round of Iran-US talks, the economic pain of the war is mounting inside Iran and beyond, increasing pressure on both sides to find a way out.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225630",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T15:10:00Z",
+      "title": "Internet Pro or Censor Pro? Iran rolls out a new service",
+      "url": "https://www.iranintl.com/en/202604225630",
+      "summary": "Iran’s new “Internet Pro” rollout may tighten state control in the short term, but experts who spoke to Iran International question whether the Islamic Republic can sustain a class-based internet in one of the Middle East’s most connected societies.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604228340",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T09:30:28Z",
+      "title": "Iran Guards say two ships seized in Hormuz after ceasefire extension",
+      "url": "https://www.iranintl.com/en/202604228340",
+      "summary": "Iran’s Islamic Revolutionary Guard Corps Navy said it had seized two vessels in the Strait of Hormuz and directed them toward Iranian shores, hours after Donald Trump said the United States would extend a ceasefire with Iran.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225913",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T09:09:43Z",
+      "title": "IRGC-linked media hints at threat to Persian Gulf undersea internet cables",
+      "url": "https://www.iranintl.com/en/202604225913",
+      "summary": "IRGC-linked Tasnim has pointedly mapped the Persian Gulf’s undersea internet cables and cloud infrastructure in what appears to be a thinly veiled warning that the region’s digital backbone may now be in Iran’s line of fire.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604225748",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T07:21:09Z",
+      "title": "Iran executes former atomic agency employee over alleged spying for Israel",
+      "url": "https://www.iranintl.com/en/202604225748",
+      "summary": "Iran executed a man early on Wednesday after convicting him of spying for Israel, with the judiciary identifying him as Mehdi Farid and saying he had worked at a “sensitive organization” and maintained online contact with Mossad officers.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604219227",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T01:47:59Z",
+      "title": "Strikes on petrochemical hubs leave Iran short of plastics",
+      "url": "https://www.iranintl.com/en/202604219227",
+      "summary": "Iran is facing severe shortages of key petrochemical products after recent strikes on its main production hubs, according to two informed sources inside the country.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604226411",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-22T00:05:58Z",
+      "title": "War or economic collapse: can Iran withstand the pressure?",
+      "url": "https://www.iranintl.com/en/202604226411",
+      "summary": "Iran’s economy is likely to buckle faster than the United States or the global economy under the combined pressure of war, sanctions, a US blockade and Tehran’s disruption of the Strait of Hormuz, experts said at Iran International’s townhall in Washington DC.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -391,6 +1117,30 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604217376",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T19:43:59Z",
+      "title": "Diplomacy tolls at Hormuz as conflict returns to its doorstep",
+      "url": "https://www.iranintl.com/en/202604217376",
+      "summary": "The fragile truce between Tehran and Washington expires on April 22. With it ends restraint. Conflict will return, though its scale remains uncertain.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604214697",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T18:21:32Z",
+      "title": "Opposition to US talks grows in Tehran as ceasefire deadline nears",
+      "url": "https://www.iranintl.com/en/202604214697",
+      "summary": "Mounting opposition to negotiations with Washington in Tehran is casting doubt over whether Iran will proceed with a new round of talks with the United States in Islamabad as the ceasefire deadline approaches.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "state:https://www.state.gov/releases/preview/678764/",
       "source": "US State Department (near-east)",
       "source_tier": 2,
@@ -400,6 +1150,126 @@
       "summary": "Thomas &quot;Tommy&quot; Pigott, Principal Deputy Spokesperson Disrupting Procurement Networks Supporting Iran’s Unmanned Aerial Vehicle (UAV) and Ballistic Missile Programs and Mahan Air Press Statement April 21, 2026 Today, the United States is imposing sanctions on eight individuals and four entities that operate multiple procurement networks supporting Iran’s UAV and ballistic missile programs and U.S.-designated Mahan Air. The United States is also identifying two aircraft as blocked proper",
       "tags": [
         "diplomatic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604215762",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T17:18:00Z",
+      "title": "Tehran moderates see ‘no deal–no war’ limbo as worst outcome",
+      "url": "https://www.iranintl.com/en/202604215762",
+      "summary": "Tehran’s commentariat is warning that the most troubling outcome of the current negotiations with Washington may be neither war nor peace, but a prolonged “no deal–no war” limbo.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604215404",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T15:15:33Z",
+      "title": "The future has been switched off here",
+      "url": "https://www.iranintl.com/en/202604215404",
+      "summary": "I am online again after 51 days. It is difficult to describe what things feel like here in Tehran. Bad is not quite the word. Weird, perhaps. Unreal.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604210732",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T13:19:32Z",
+      "title": "Top condom maker plans price hikes of up to 30% amid US-Iran war impact",
+      "url": "https://www.iranintl.com/en/202604210732",
+      "summary": "Malaysia’s Karex Bhd, the world’s largest condom producer, plans to raise prices by 20% to 30% and possibly more if supply chain disruptions linked to the Iran war persist, its chief executive told Reuters.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604219333",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T11:33:30Z",
+      "title": "Family told missing teen was alive, then received his body 60 days later",
+      "url": "https://www.iranintl.com/en/202604219333",
+      "summary": "A 14-year-old student disappeared during protests near Tehran on January 8, only for his family to receive his body 60 days later with a gunshot wound to the temple, Iran International has learned.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604212653",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T11:23:24Z",
+      "title": "Lights out, then gunfire: Witnesses recount Mashhad protest crackdown",
+      "url": "https://www.iranintl.com/en/202604212653",
+      "summary": "A 32-year-old protester in Mashhad, northeastern Iran, stood in the street as the lights flickered out and the mobile network went dead, believing he had only a one-in-five chance of making it out alive.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604215950",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T07:52:26Z",
+      "title": "Scam messages seek crypto for ships’ safe passage through Hormuz, firm warns",
+      "url": "https://www.iranintl.com/en/202604215950",
+      "summary": "Fraudulent messages offering ships safe passage through the Strait of Hormuz in exchange for cryptocurrency have been sent to some shipping companies, Reuters reported on Tuesday, citing a maritime security firm.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604217963",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T06:29:00Z",
+      "title": "Iran executes man as January protest crackdown continues",
+      "url": "https://www.iranintl.com/en/202604217963",
+      "summary": "Iran executed a man on Tuesday over accusations that he set fire to a mosque and what authorities described as anti-security activities, according to the judiciary, in a case tied to anti-establishment protests earlier this year.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604214110",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T03:48:51Z",
+      "title": "Is Iran entering its Gorbachev moment?",
+      "url": "https://www.iranintl.com/en/202604214110",
+      "summary": "The idea of an “Iranian Gorbachev” has surfaced before in the Islamic Republic, but this time the conditions may be different.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604212621",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T02:53:00Z",
+      "title": "Iran crackdown reaches cemeteries as graves of slain protesters defaced",
+      "url": "https://www.iranintl.com/en/202604212621",
+      "summary": "Iranian authorities have stepped up pressure on families of those killed in January protests, defacing, destroying or covering graves with cement in the northern city of Rasht and the capital Tehran, local sources told Iran International.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604207385",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-21T01:02:36Z",
+      "title": "Iran diplomacy wobbles as factions compete to avoid looking soft on US",
+      "url": "https://www.iranintl.com/en/202604207385",
+      "summary": "Apparent divisions over negotiations with the United States may have strengthened the most confrontational elements within Iran’s political landscape and facilitated the rise of new hardline actors.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
@@ -468,6 +1338,78 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604201209",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T22:47:00Z",
+      "title": "The politics of pink: how Iran uses cuteness to rebrand violence",
+      "url": "https://www.iranintl.com/en/202604201209",
+      "summary": "Pink missiles, pink drones and pink firearms. Women with uncovered hair—braids, ponytails, short bobs—stood beside weapons, waved flags and smiled for cameras in scenes broadcast across Iranian media. Tehran appears willing to try almost anything to preserve power.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604187583",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T20:24:00Z",
+      "title": "Bread shortages, soaring prices strain households in Iran, residents say",
+      "url": "https://www.iranintl.com/en/202604187583",
+      "summary": "Bread shortages and steep price hikes are undermining access to a key staple for many in Iran, with citizen accounts received by Iran International describing long lines, flour shortages and prices far exceeding official rates.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604207607",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T11:05:18Z",
+      "title": "Iran says no decision yet on talks as Pakistan prepares to host US team",
+      "url": "https://www.iranintl.com/en/202604207607",
+      "summary": "Iran said on Monday it had not yet decided whether to join a second round of talks with the United States, even as Pakistan prepared to host a US delegation, with Tehran accusing Washington of violating the ceasefire and showing no real seriousness about diplomacy.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604205051",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T03:56:00Z",
+      "title": "War-hit homeowners feel abandoned as Iran’s reconstruction aid fades",
+      "url": "https://www.iranintl.com/en/202604205051",
+      "summary": "The Iranian government has stepped back from earlier promises to compensate homeowners whose properties were destroyed in US-Israeli strikes, triggering anger among residents who expected the state to take responsibility for rebuilding.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604207686",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T03:02:43Z",
+      "title": "100 days on: the anatomy of Iran’s January crackdown",
+      "url": "https://www.iranintl.com/en/202604207686",
+      "summary": "One hundred days after protests erupted across Iran in January 2026, the events still stand out as one of the most widespread and violent protest waves the country has seen in recent years.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604203428",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-20T01:12:00Z",
+      "title": "100 days on: why Iran’s January protests spread across social classes",
+      "url": "https://www.iranintl.com/en/202604203428",
+      "summary": "One hundred days after protests erupted across Iran in January 2026, the events continue to reveal something fundamental about Iranian society: many people now fear silence more than they fear protest.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "ukparl-q-tabled:1901111",
       "source": "UK Parliament — written question to Foreign, Commonwealth and Development Office",
       "source_tier": 1,
@@ -494,6 +1436,42 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604199471",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-19T22:03:00Z",
+      "title": "Ghalibaf defends Iran-US talks amid hardline backlash",
+      "url": "https://www.iranintl.com/en/202604199471",
+      "summary": "Iran’s lead negotiator and parliament speaker Mohammad-Bagher Ghalibaf defended indirect talks with the United States in a televised interview Saturday after hardline critics accused him of “betrayal” and even hinted at a “coup” over the negotiations in Islamabad.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604191069",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-19T10:16:41Z",
+      "title": "From instability to influence: Pakistan’s pivotal role in US-Iran diplomacy",
+      "url": "https://www.iranintl.com/en/202604191069",
+      "summary": "Despite deep political turmoil, economic distress, militant violence, and a fraying security landscape at home, Pakistan has unexpectedly emerged as the publicly acknowledged central mediator between Washington and Tehran.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604180942",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-18T21:16:00Z",
+      "title": "A nation in limbo: 100 days after the massacre, has the world moved on?",
+      "url": "https://www.iranintl.com/en/202604180942",
+      "summary": "One hundred days after one of the deadliest crackdowns in modern history, Iran remains suspended between grief and uncertainty, with a fractured public mood as some see justice in recent blows to the regime, while others feel left behind with it still in place.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "state:https://www.state.gov/releases/preview/678324/",
       "source": "US State Department (near-east)",
       "source_tier": 2,
@@ -506,6 +1484,66 @@
       ]
     },
     {
+      "id": "iranintl:https://www.iranintl.com/en/202604170088",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-18T17:10:00Z",
+      "title": "100 days after carnage: Iran economy reels from war, inflation, unemployment",
+      "url": "https://www.iranintl.com/en/202604170088",
+      "summary": "One hundred days after thousands of protesters were massacred on January 8 and 9, Iran's already fragile economy has sharply deteriorated, with millions feared to be unemployed as a devastating war compounds the crisis and accelerates economic collapse.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604185925",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-18T12:00:00Z",
+      "title": "Iranian assaulted in London amid concern over threats to regime critics",
+      "url": "https://www.iranintl.com/en/202604185925",
+      "summary": "Iran International has received reports that an Iranian man was violently assaulted in central London. The Metropolitan Police are understood to be investigating.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604183266",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-18T11:56:17Z",
+      "title": "IRGC fires at Indian vessel in Hormuz",
+      "url": "https://www.iranintl.com/en/202604183266",
+      "summary": "Two vessels, including an Indian-flagged supertanker, were forced back out of the Strait of Hormuz on Saturday after being approached by Iranian Revolutionary Guards’ naval units, shipping monitor TankerTrackers said.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604166412",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-17T21:10:00Z",
+      "title": "The Hormuz get out of jail card turned to a grave",
+      "url": "https://www.iranintl.com/en/202604166412",
+      "summary": "For decades the IRGC relied on its ability to threaten closure of the Strait of Hormuz as its premier economic shield and golden get out of jail card.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604171383",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-17T20:22:00Z",
+      "title": "Too early to tell who is winning Iran war, experts say",
+      "url": "https://www.iranintl.com/en/202604171383",
+      "summary": "As Washington signals that a deal with Tehran may be close, a central question remains unresolved: who, if anyone, is actually winning?",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
       "id": "govuk:https://www.gov.uk/government/news/pm-meeting-with-president-macron-of-france-17-april-2026#2026-04-17T17:01:10Z",
       "source": "UK Government — Prime Minister's Office, 10 Downing Street",
       "source_tier": 2,
@@ -515,6 +1553,30 @@
       "summary": "The Prime Minister met the President of France, Emmanuel Macron, in Paris this morning, ahead of talks with partners on the Strait of Hormuz.",
       "tags": [
         "uk-government"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604172614",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-17T16:40:00Z",
+      "title": "State media slam Araghchi's Hormuz tweet, say it let Trump claim victory",
+      "url": "https://www.iranintl.com/en/202604172614",
+      "summary": "Iran's state media issued rare and sharply worded criticism of Foreign Minister Abbas Araghchi and the negotiating team after he declared the reopening of Hormuz Strait on X, saying the move created confusion and gave Trump an opening to claim victory.",
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604176068",
+      "source": "Iran International (opposition outlet, London)",
+      "source_tier": 3,
+      "published_at": "2026-04-17T08:24:18Z",
+      "title": "Three charged over attempted arson at Iran International office in London",
+      "url": "https://www.iranintl.com/en/202604176068",
+      "summary": "British police on Friday have charged three people over an attempted arson attack near the London offices of Iran International.",
+      "tags": [
+        "iran-domestic"
       ]
     },
     {
