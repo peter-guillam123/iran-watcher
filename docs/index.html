@@ -16,6 +16,13 @@ nav.top a{color:#0a4f8f;text-decoration:none;margin-right:16px}
 .day a:hover{text-decoration:underline}
 .day .count{color:#666;font-size:14px;font-variant-numeric:tabular-nums}
 .empty{padding:32px 0;text-align:center;color:#666;font-style:italic}
+.featured{margin:24px 0 32px;padding:14px 16px;background:#fff;border:1px solid #e2e2e2;border-radius:8px}
+.featured h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:0 0 10px;font-weight:600}
+.feat{display:block;padding:12px;margin:0 0 8px;border-radius:6px;background:#f7f7f7;text-decoration:none;color:inherit}
+.feat:hover{background:#eef5ff}
+.feat:last-child{margin-bottom:0}
+.feat-title{font-weight:600;color:#0a4f8f;margin-bottom:2px}
+.feat-blurb{font-size:13px;color:#555}
 </style>
 </head><body><main>
 <header>
@@ -23,5 +30,18 @@ nav.top a{color:#0a4f8f;text-decoration:none;margin-right:16px}
   <div class="meta">A daily-updated tip-sheet of primary governmental and multilateral sources on Iran and the Middle East crisis.</div>
   <nav class="top"><a href="about.html">About</a> <a href="changelog.html">Changelog</a></nav>
 </header>
-<div class="day"><a href="last-7-days-demo.html">last-7-days-demo</a><span class="count">54 items</span></div><div class="day"><a href="2026-05-01.html">Fri 01 May 2026</a><span class="count">6 items</span></div>
+<section class="featured">
+  <h3>Featured</h3>
+  <a class="feat" href="compare-isw.html">
+    <div class="feat-title">Comparison vs. ISW Iran Update — 30 April 2026</div>
+    <div class="feat-blurb">A like-for-like read of our matched-window output against the ISW report covering the same calendar window.</div>
+  </a>
+  <a class="feat" href="last-7-days-demo.html">
+    <div class="feat-title">7-day demo (54 items, all sources)</div>
+    <div class="feat-blurb">A wider window so the filter pills and the Parliament rich layout have something to demonstrate against. Goes away once the daily cron has accumulated a few days.</div>
+  </a>
+</section>
+
+<h3 style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:24px 0 8px;font-weight:600">Daily briefs</h3>
+<div class="day"><a href="2026-05-01.html">Fri 01 May 2026</a><span class="count">6 items</span></div>
 </main></body></html>

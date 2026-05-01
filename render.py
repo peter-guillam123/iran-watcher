@@ -357,13 +357,40 @@ def render_day(date_str: str) -> str:
 """
 
 
+FEATURED_INDEX_BLOCK = """\
+<section class="featured">
+  <h3>Featured</h3>
+  <a class="feat" href="compare-isw.html">
+    <div class="feat-title">Comparison vs. ISW Iran Update — 30 April 2026</div>
+    <div class="feat-blurb">A like-for-like read of our matched-window output against the ISW report covering the same calendar window.</div>
+  </a>
+  <a class="feat" href="last-7-days-demo.html">
+    <div class="feat-title">7-day demo (54 items, all sources)</div>
+    <div class="feat-blurb">A wider window so the filter pills and the Parliament rich layout have something to demonstrate against. Goes away once the daily cron has accumulated a few days.</div>
+  </a>
+</section>
+"""
+
+INDEX_FEATURED_CSS = """\
+.featured{margin:24px 0 32px;padding:14px 16px;background:#fff;border:1px solid #e2e2e2;border-radius:8px}
+.featured h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:0 0 10px;font-weight:600}
+.feat{display:block;padding:12px;margin:0 0 8px;border-radius:6px;background:#f7f7f7;text-decoration:none;color:inherit}
+.feat:hover{background:#eef5ff}
+.feat:last-child{margin-bottom:0}
+.feat-title{font-weight:600;color:#0a4f8f;margin-bottom:2px}
+.feat-blurb{font-size:13px;color:#555}
+"""
+
+
 def render_index(days: list[tuple[str, int]]) -> str:
+    # Only show ISO-date stems in the daily list. Non-date labels (demos,
+    # comparisons) get hand-rolled cards in the Featured section instead.
     rows = []
     for date_str, count in days:
         try:
             pretty = datetime.fromisoformat(date_str).strftime("%a %d %b %Y")
         except ValueError:
-            pretty = date_str
+            continue
         rows.append(
             f'<div class="day"><a href="{date_str}.html">{pretty}</a>'
             f'<span class="count">{count} items</span></div>'
@@ -373,14 +400,16 @@ def render_index(days: list[tuple[str, int]]) -> str:
 <meta charset="utf-8">
 <title>Iran watcher</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>{INDEX_CSS}</style>
+<style>{INDEX_CSS}{INDEX_FEATURED_CSS}</style>
 </head><body><main>
 <header>
   <h1>Iran watcher</h1>
   <div class="meta">A daily-updated tip-sheet of primary governmental and multilateral sources on Iran and the Middle East crisis.</div>
   <nav class="top"><a href="about.html">About</a> <a href="changelog.html">Changelog</a></nav>
 </header>
-{''.join(rows) if rows else '<p class="empty">No data yet.</p>'}
+{FEATURED_INDEX_BLOCK}
+<h3 style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:24px 0 8px;font-weight:600">Daily briefs</h3>
+{''.join(rows) if rows else '<p class="empty">No daily briefs yet — the cron will fill these in.</p>'}
 </main></body></html>
 """
 

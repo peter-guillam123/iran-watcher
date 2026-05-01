@@ -29,6 +29,14 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 <nav><a href="./">All days</a> <a href="about.html">About</a></nav>
 
 <div class="entry milestone">
+<h2>Comparison vs. ISW Iran Update — 30 April 2026 <span class="date">1 May 2026 (evening)</span></h2>
+<p>Reran the collector against the same calendar window as the ISW Iran Update Special Report dated 30 April 2026 — added an <code>--until</code> argument so we can reconstruct historical 24-or-48-hour windows. 48 hours ending end-of-day 30 April produced 18 items, against ISW's roughly 3,000-word synthesis covering the same horizon. The comparison page lays our 18 items against ISW's themes, theme by theme.</p>
+<p>Verdict: we caught the geopolitical core (Strait of Hormuz, US-led maritime coalition, internal Iran politics, Iran's economic decline), partially caught the regime-domestic-life angle (more strongly than ISW does, because Iran International is leaning into it), and went silent on the tactical military layer — Khamenei's direct quotes via Telegram, Hezbollah's drone strikes, IDF strike counts on Lebanon, Israeli casualties. All three of those silences are Telegram and X gaps that the v1 scope already flagged. Nothing surprising, but useful to be precise about.</p>
+<p>For a UK newsroom, the upshot reads as "complementary rather than substitute" — ISW remains the only source for the tactical military beat, and we add timely UK Parliament, OFAC sanctions, FCDO statements, and a denser inside-Iran view via Iran International. The Telegram gap is the single biggest lever for a v2 jump.</p>
+<p>Caveat I want to be clean about: 18 items isn't a full day's tip-sheet at scale. 30 April was thin on UK Parliament because of Prorogation and on Federal Register because no Iran-specific notices were published that day. A different sample day — particularly one when the Commons is sitting — would shift the balance.</p>
+</div>
+
+<div class="entry milestone">
 <h2>Daily window, filter pills, rich Parliament layout <span class="date">1 May 2026 (later)</span></h2>
 <p>Three changes on the back of Chris's review. (1) The brief is now actually a brief — we were running with a 14-day backfill window when we should have been running 24 hours. The page header now reads "window 30 Apr 08:14Z to 01 May 08:14Z" and on a quiet day like today's that's six items. On a busy day it'll be a couple of dozen. The first run after Parliament returns from prorogation will tell us properly.</p>
 <p>(2) Filter pills along the top group items by source family with live counts ("UK Parliament 3 · US State Department 5 · Iran International 45") and toggle individual sources on/off. Click two and you get the union — "show me Parliament <em>and</em> State Department". Click "All" to clear. Vanilla JS, no framework.</p>
