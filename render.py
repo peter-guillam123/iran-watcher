@@ -131,6 +131,7 @@ def _site_nav(current: str = "") -> str:
     """Top-of-page nav. `current` is the active page key for visual emphasis."""
     items = [
         ("home", "./", "Home"),
+        ("archive", "archive.html", "Archive"),
         ("comparisons", "comparisons.html", "Comparisons"),
         ("about", "about.html", "About"),
         ("changelog", "changelog.html", "Changelog"),
@@ -481,9 +482,9 @@ DEMO_ENTRY = {
 }
 
 
-def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> str:
-    """The homepage: today's (or most recent) brief shown inline, then
-    Featured comparisons, then the full archive."""
+def render_home(latest_stem: str | None, prev_stem: str | None) -> str:
+    """The homepage: most recent brief shown inline, with a Previous-entry
+    CTA at the bottom. Archive lives at /archive.html."""
     if latest_stem:
         payload = json.loads((DATA_DIR / f"{latest_stem}.json").read_text())
         events = payload.get("events", [])
@@ -511,6 +512,29 @@ def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> s
         )
         brief = ""
 
+    if prev_stem:
+        try:
+            prev_pretty = datetime.fromisoformat(prev_stem).strftime("%A %d %B %Y")
+        except ValueError:
+            prev_pretty = prev_stem
+        prev_button = (
+            f'<a class="prev-entry" href="{prev_stem}.html">'
+            f'<div>'
+            f'<div class="label">← Previous entry</div>'
+            f'<div class="title">{html.escape(prev_pretty)}</div>'
+            f'</div>'
+            f'<span class="arrow">→</span>'
+            f'</a>'
+        )
+    else:
+        prev_button = ""
+
+    body = intro + brief + prev_button
+    return _page("Iran Watcher", body, current_nav="home")
+
+
+def render_archive(dated_days: list[tuple[str, int]]) -> str:
+    """The full chronological archive of dated daily briefs."""
     archive_rows = []
     for stem, count in dated_days:
         try:
@@ -524,16 +548,19 @@ def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> s
             f'<span class="count">{count} items</span>'
             f'</div>'
         )
-    archive = (
+
+    body = (
+        '<header class="page-header">'
+        '<h1>Archive</h1>'
+        f'<div class="meta">{len(archive_rows)} daily briefs.</div>'
+        '</header>'
+
         '<section class="archive" aria-label="Daily archive">'
-        '<h2>Archive</h2>'
         + ("".join(archive_rows) if archive_rows
            else '<p class="empty">No daily briefs yet.</p>')
         + '</section>'
     )
-
-    body = intro + brief + archive
-    return _page("Iran watcher", body, body_class="wide", current_nav="home")
+    return _page("Archive — Iran Watcher", body, current_nav="archive")
 
 
 def render_comparisons() -> str:
@@ -577,7 +604,7 @@ def render_comparisons() -> str:
         f'</a>'
         '</section>'
     )
-    return _page("Comparisons — Iran & Watcher", body, body_class="wide", current_nav="comparisons")
+    return _page("Comparisons — Iran Watcher", body, current_nav="comparisons")
 
 
 # Main ---------------------------------------------------------------------
@@ -609,8 +636,12 @@ def main() -> int:
         print(f"  wrote {out.name} ({count} items)", file=sys.stderr)
 
     latest_dated = dated[-1] if dated else None
-    (DOCS_DIR / "index.html").write_text(render_home(latest_dated, days_for_archive))
-    print(f"  wrote index.html ({len(days_for_archive)} archive entries)", file=sys.stderr)
+    prev_for_home = dated[-2] if len(dated) >= 2 else None
+    (DOCS_DIR / "index.html").write_text(render_home(latest_dated, prev_for_home))
+    print(f"  wrote index.html (latest={latest_dated}, prev={prev_for_home})", file=sys.stderr)
+
+    (DOCS_DIR / "archive.html").write_text(render_archive(days_for_archive))
+    print(f"  wrote archive.html ({len(days_for_archive)} entries)", file=sys.stderr)
 
     (DOCS_DIR / "comparisons.html").write_text(render_comparisons())
     print(f"  wrote comparisons.html", file=sys.stderr)

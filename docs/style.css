@@ -36,9 +36,7 @@
   --body:          "Public Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --mono:          "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
-  --measure-prose: 38rem;
-  --measure-brief: 48rem;
-  --measure-wide:  56rem;
+  --measure-page: 48rem;          /* one canonical width — 768px */
 }
 
 * { box-sizing: border-box; }
@@ -58,12 +56,14 @@ body {
 }
 
 main {
-  max-width: var(--measure-brief);
+  max-width: var(--measure-page);
   margin: 0 auto;
   padding: 24px 24px 96px;
 }
-main.wide  { max-width: var(--measure-wide); }
-main.prose { max-width: var(--measure-prose); }
+/* Legacy class hooks kept for any in-flight pages — both resolve to the
+   canonical width now so inconsistency between rendered and hand-written
+   pages is impossible. */
+main.wide, main.prose { max-width: var(--measure-page); }
 
 @media (max-width: 600px) {
   main { padding: 16px 18px 64px; }
@@ -429,6 +429,39 @@ footer.site {
 }
 footer.site a { color: var(--ink-faint); border: none; }
 footer.site a:hover { color: var(--accent); }
+
+/* ----- Previous-entry CTA at end of homepage ----------------------- */
+
+.prev-entry {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 12px; margin: 40px 0 0;
+  padding: 16px 20px;
+  background: var(--paper-card);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--accent);
+  text-decoration: none; color: inherit;
+  transition: background 120ms;
+}
+.prev-entry:hover { background: var(--paper); text-decoration: none; }
+.prev-entry .label {
+  font-family: var(--body); font-size: 11px;
+  text-transform: uppercase; letter-spacing: 0.14em;
+  color: var(--accent); font-weight: 700;
+  margin-bottom: 4px;
+}
+.prev-entry .title {
+  font-family: var(--display); font-weight: 700;
+  font-size: 20px; line-height: 1.2; color: var(--ink);
+}
+.prev-entry .arrow {
+  font-family: var(--display); font-size: 22px;
+  color: var(--accent); flex: 0 0 auto;
+}
+.prev-entry:hover .title { color: var(--accent); }
+@media (max-width: 600px) {
+  .prev-entry { padding: 14px 16px; }
+  .prev-entry .title { font-size: 18px; }
+}
 
 /* ----- Index — archive list ----------------------------------------- */
 
