@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Iran watcher — Vs Isw 2026 04 24</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>*{box-sizing:border-box}
+body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
+main{max-width:780px;margin:0 auto;padding:32px 20px 80px}
+header{margin-bottom:24px}
+header h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+header .meta{color:#666;font-size:14px}
+nav.top{margin:12px 0 0;font-size:14px}
+nav.top a{color:#0a4f8f;text-decoration:none;margin-right:16px}
+nav.top a:hover{text-decoration:underline}
+
+.filters{margin:24px 0 16px;padding:14px 14px 8px;background:#fff;border:1px solid #e2e2e2;border-radius:8px}
+.filter-row{margin-bottom:8px}
+.filter-row:last-child{margin-bottom:0}
+.sort-row{padding-top:8px;border-top:1px solid #f0f0f0}
+.filters h4{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:0 0 8px;font-weight:600}
+.pill,.sort-pill{display:inline-flex;align-items:baseline;gap:6px;padding:5px 12px;margin:0 6px 6px 0;border:1px solid #d0d0d0;border-radius:18px;background:#fff;color:#333;font-size:14px;cursor:pointer;user-select:none;transition:background .12s,color .12s,border-color .12s;font-family:inherit}
+.pill:hover,.sort-pill:hover{border-color:#888}
+.pill .n,.sort-pill .n{font-variant-numeric:tabular-nums;color:#666;font-size:12px}
+.pill[data-active="1"],.sort-pill[data-active="1"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.pill[data-active="1"] .n,.sort-pill[data-active="1"] .n{color:#bbb}
+.pill.all{background:#f0f0f0}
+.pill.all[data-active="1"]{background:#1a1a1a;color:#fff}
+
+.tier-header{font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin:28px 0 4px;padding-bottom:4px;border-bottom:1px solid #eee}
+.tier-header:first-child{margin-top:8px}
+.tier-header.hidden{display:none}
+.tier-header.t1{color:#2a672a}
+.tier-header.t2{color:#3a55a8}
+.tier-header.t3{color:#8a4a17}
+
+.day-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0 4px;padding:10px 14px;background:#fff;border:1px solid #e2e2e2;border-radius:8px;font-size:14px}
+.day-nav.bottom{margin-top:32px}
+.day-nav a{color:#0a4f8f;text-decoration:none;flex:1}
+.day-nav a:hover{text-decoration:underline}
+.day-nav a.next{text-align:right}
+.day-nav a.hub{flex:0;color:#666;font-size:13px;text-align:center;padding:0 12px}
+.day-nav .disabled{color:#ccc;flex:1}
+.day-nav .next.disabled{text-align:right}
+
+.event{padding:18px 0;border-top:1px solid #e2e2e2}
+.event:first-of-type{border-top:none}
+.event .head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
+.event .source-line{font-size:13px;color:#555;flex:1;min-width:0}
+.event .source-line .src{font-weight:600;color:#1a1a1a}
+.event .time{color:#888;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.event h3{margin:0 0 6px;font-size:18px;line-height:1.35}
+.event h3 a{color:#1a1a1a;text-decoration:none}
+.event h3 a:hover{color:#0a4f8f;text-decoration:underline}
+.event .summary{color:#333;margin:6px 0 0;font-size:15px}
+.event .tags{margin-top:8px}
+.tag{display:inline-block;padding:1px 8px;font-size:11px;background:#eef;color:#3a55a8;border-radius:10px;margin-right:6px;letter-spacing:.02em;text-transform:lowercase}
+.tag.tier{background:#f0f0f0;color:#555}
+.tag.tier-1{background:#e6f3e6;color:#2a672a}
+.tag.tier-2{background:#eef;color:#3a55a8}
+.tag.tier-3{background:#fbeede;color:#8a4a17}
+
+/* Parliament rich layout */
+.parl{background:#fff;border:1px solid #e2e2e2;border-radius:8px;padding:14px 16px;margin-top:6px}
+.parl .meta{font-size:13px;color:#555;margin-bottom:8px}
+.parl .meta .actor{color:#1a1a1a;font-weight:600}
+.parl .meta .arrow{color:#bbb;margin:0 6px}
+.parl .qa{font-size:15px;line-height:1.5}
+.parl .qa-block{margin:8px 0}
+.parl .qa-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:4px;font-weight:600}
+.parl .qa-text{color:#222}
+.parl .answer-meta{font-size:12px;color:#777;margin-top:2px;font-style:italic}
+
+.diag{margin-top:48px;padding:14px 16px;background:#f4f4f4;border-radius:6px;font-size:13px;color:#555}
+.diag h4{margin:0 0 6px;font-size:13px;color:#333}
+.diag code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:12px}
+footer{margin-top:48px;padding-top:24px;border-top:1px solid #e2e2e2;color:#888;font-size:13px}
+footer a{color:#666}
+.empty{padding:32px 0;text-align:center;color:#666;font-style:italic}
+.hidden{display:none}
+.party{font-size:11px;padding:1px 6px;border-radius:8px;margin-left:4px;color:#fff;background:#777;font-weight:500;letter-spacing:.02em;text-transform:none}
+.party.lab{background:#d40000}
+.party.con{background:#0087dc}
+.party.ld{background:#faa61a;color:#000}
+.party.snp{background:#fff95d;color:#000}
+.party.xb{background:#888}
+.party.gov{background:#00558e}
+</style>
+</head><body><main>
+<header>
+  <h1>Iran watcher · Vs Isw 2026 04 24</h1>
+  <div class="meta">22 items · window 2026-04-22 23:59Z to 2026-04-24 23:59Z</div>
+  <nav class="top"><a href="./">All days</a> <a href="about.html">About</a> <a href="changelog.html">Changelog</a></nav>
+</header>
+<nav class="day-nav"><span class="prev disabled">← earlier</span><a class="hub" href="./">All days</a><span class="next disabled">later →</span></nav>
+<section class="filters"><div class="filter-row"><h4>Filter by source</h4><button class="pill all" data-active="1" type="button">All <span class="n">22</span></button><button class="pill" data-source="UK Parliament" data-active="0" type="button">UK Parliament <span class="n">5</span></button><button class="pill" data-source="US State Department" data-active="0" type="button">US State Department <span class="n">1</span></button><button class="pill" data-source="US Federal Register" data-active="0" type="button">US Federal Register <span class="n">1</span></button><button class="pill" data-source="Iran International" data-active="0" type="button">Iran International <span class="n">15</span></button></div><div class="filter-row sort-row"><h4>Sort by</h4><button class="sort-pill" data-sort="date" data-active="1" type="button">Date <span class="n">newest first</span></button><button class="sort-pill" data-sort="tier" data-active="0" type="button">Tier <span class="n">1 → 3</span></button></div></section>
+<section class="events"><article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 20:17Z</div></div><h3><a href="https://www.iranintl.com/en/202604249669" rel="noopener">Iran’s economy after the March war: how bad can it get?</a></h3><p class="summary">Iran’s economy is heading into a period of sharp deterioration following the March war, with mounting pressure from inflation, currency depreciation and damage to key industries raising the risk of a broader crisis.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="US State Department" data-category="state-press" data-tier="2"><div class="head"><div class="source-line"><span class="src">US State Department</span> · near-east</div><div class="time">2026-04-24 19:20Z</div></div><h3><a href="https://www.state.gov/releases/office-of-the-spokesperson/2026/04/u-s-sanctions-intensify-pressure-on-irans-oil-trade-network-in-china/" rel="noopener">U.S. Sanctions Intensify Pressure on Iran’s Oil Trade Network in China</a></h3><p class="summary">The United States is taking decisive action to disrupt Iran’s illicit oil trade, the Iranian regime’s primary revenue streams that fund its terrorism and destabilization of the region. The Department of the Treasury imposed sanctions today on a major, independent Chinese refinery and nearly 40 other targets – vessels and their respective owners or managers – that serve as critical lifelines for Iran’s oil exports. This action cuts revenue streams that fund the regime̵</p><div class="tags"><span class="tag tier tier-2">tier 2</span><span class="tag">diplomatic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 16:05Z</div></div><h3><a href="https://www.iranintl.com/en/202604245287" rel="noopener">Starmer pledges to move on banning Iran&#x27;s IRGC in next parliament session</a></h3><p class="summary">UK Prime Minister Keir Starmer pledged to introduce legislation to proscribe Iran’s Islamic Revolutionary Guard Corps (IRGC) in the next parliamentary session, in an interview with the Jewish Chronicle.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 14:32Z</div></div><h3><a href="https://www.iranintl.com/en/202604241504" rel="noopener">Behind Tehran’s unity show: The secret letter to the shadow king</a></h3><p class="summary">The real story behind Tehran’s sudden “unity” campaign did not begin with Donald Trump’s accusations of disarray within Iran’s leadership. It began with a secret letter to Mojtaba Khamenei.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 11:42Z</div></div><h3><a href="https://www.iranintl.com/en/202604247938" rel="noopener">UK’s LBC finds alleged Iran-linked channel hiring Britons for sabotage</a></h3><p class="summary">A journalist from LBC was offered payment by an alleged Iran-linked contact to carry out a street-level act of vandalism within hours of contact, the British broadcaster reported on Friday.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 10:11Z</div></div><h3><a href="https://www.iranintl.com/en/202604245326" rel="noopener">Iran officials project unity after Trump leadership remarks</a></h3><p class="summary">Iranian officials rushed to present a unified front after US President Donald Trump questioned who leads the Islamic Republic, highlighting sensitivities over internal divisions and uncertainty at the top of the political system.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 09:17Z</div></div><h3><a href="https://www.iranintl.com/en/202604249413" rel="noopener">Two men accused of spying for Iran to appear in London’s Old Bailey court</a></h3><p class="summary">Two men accused of carrying out surveillance on Jewish and Israeli-linked sites in London on behalf of Iran are due to appear at the Central Criminal Court on Friday for a preliminary hearing.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 08:45Z</div></div><h3><a href="https://www.iranintl.com/en/202604240086" rel="noopener">Iran to add US-Israel war to school curriculum amid ceasefire</a></h3><p class="summary">Iran plans to include the recent war with the United States and Israel in school textbooks, the education minister said, referring to what officials call the “third imposed war,” the latest conflict now under a ceasefire extended by US President Donald Trump.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-24 02:01Z</div></div><h3><a href="https://www.iranintl.com/en/202604232479" rel="noopener">Rapid deterioration of Iran-UAE ties threatens a critical trade lifeline</a></h3><p class="summary">Iran-UAE ties have unraveled over the past two months, beginning with Iranian airstrikes on Emirati targets during the US-led war and escalating into a crisis that now threatens one of Tehran’s most vital trade and financial channels.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="US Federal Register" data-category="ofac-sanctions" data-tier="1"><div class="head"><div class="source-line"><span class="src">US Federal Register</span> · US Treasury / OFAC</div><div class="time">2026-04-24 00:00Z</div></div><h3><a href="https://www.federalregister.gov/documents/2026/04/24/2026-07994/notice-of-ofac-sanctions-action" rel="noopener">Notice of OFAC Sanctions Action</a></h3><p class="summary">The U.S. Department of the Treasury&#x27;s Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons and aircraft that have been placed on OFAC&#x27;s Specially Designated Nationals and Blocked Persons List (SDN List) based on OFAC&#x27;s determination that one or more applicable legal criteria were satisfied. All property and interests in property subject to U.S. jurisdiction of these persons are blocked, and U.S. persons are generally prohibited from engaging in transactions with them. The aircraft placed on the SDN List have been identified as property in which a blocked person has an interest.</p><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">sanctions</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 21:00Z</div></div><h3><a href="https://www.iranintl.com/en/202604230153" rel="noopener">Tehran stocks head for reopening, but it risks triggering a new crisis</a></h3><p class="summary">After nearly two months of closure, Tehran’s stock market is preparing a phased reopening, but deep structural flaws, lack of transparency and uncertainty over US negotiations threaten to turn the restart into a fresh crisis.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 16:40Z</div></div><h3><a href="https://www.iranintl.com/en/202604230312" rel="noopener">Power vacuum in Tehran emboldens hardliners</a></h3><p class="summary">As debate over a ceasefire and renewed talks with the United States intensifies, the absence of a clear supreme arbiter in Tehran appears to be giving Iran’s hardliners more room to shape the narrative and to hinder any eventual agreement.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 12:08Z</div></div><h3><a href="https://www.iranintl.com/en/202604234667" rel="noopener">Disputes within Iran leadership blocked negotiators’ trip to Islamabad</a></h3><p class="summary">Divisions within Iran’s leadership prevented a negotiating team from traveling to Islamabad for talks with the US, Iran International has learned.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 11:37Z</div></div><h3><a href="https://www.iranintl.com/en/202604233673" rel="noopener">Inflation spikes, basic goods slip out of reach for Iranians, citizens say</a></h3><p class="summary">Food prices surged and basic goods slipped out of reach across Iran, citizens told Iran International in recent days, describing shortages and daily price jumps following a ceasefire that has coincided with worsening economic conditions.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 11:14Z</div></div><h3><a href="https://www.iranintl.com/en/202604239332" rel="noopener">Iran turns to citizenship and assets as tools of pressure beyond its borders</a></h3><p class="summary">The Islamic Republic is escalating its campaign against the diaspora, moving beyond domestic seizures to explore the confiscation of assets held by Iranians in foreign countries and possible revocation of their citizenship.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 08:57Z</div></div><h3><a href="https://www.iranintl.com/en/202604235554" rel="noopener">Exiled prince dismisses Iran negotiators as part of repression system</a></h3><p class="summary">The Islamic Republic’s negotiators in talks with the US are “different faces of the same machine,” that suppresses the Iranian people, exiled Prince Reza Pahlavi said at a press conference in Berlin on Thursday.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="Iran International" data-category="iran-news" data-tier="3"><div class="head"><div class="source-line"><span class="src">Iran International</span> · Opposition outlet, London</div><div class="time">2026-04-23 01:29Z</div></div><h3><a href="https://www.iranintl.com/en/202604223392" rel="noopener">Who backs war now? Tehran flips the script</a></h3><p class="summary">Iran’s state broadcaster has sparked ridicule after claiming that 87% of Iranians support continuing the war with the United States, in a curious turn from early in the conflict where pro-war sentiments of an alienated populace was branded treachery.</p><div class="tags"><span class="tag tier tier-3">tier 3</span><span class="tag">iran-domestic</span></div></article>
+<article class="event" data-source="UK Parliament" data-category="parliament-question" data-tier="1"><div class="head"><div class="source-line"><span class="src">UK Parliament</span> · Helen Morgan (Liberal Democrat) → Department of Health and Social Care</div><div class="time">2026-04-23 00:00Z</div></div><h3><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-04-23/129558" rel="noopener">Prescription Drugs: Prices</a></h3><div class="parl"><div class="meta"><span class="actor">Helen Morgan</span> <span class="party ld">Liberal Democrat</span> · Commons<span class="arrow">→</span><span>Department of Health and Social Care</span><span class="arrow">·</span><span>tabled 2026-04-23</span></div><div class="qa"><div class="qa-block"><div class="qa-label">Question</div><div class="qa-text">To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the impact of the Iran war on the prices paid by community pharmacies to procure prescription medicines.</div></div></div></div><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">uk-parliament</span><span class="tag">written-question</span></div></article>
+<article class="event" data-source="UK Parliament" data-category="parliament-question" data-tier="1"><div class="head"><div class="source-line"><span class="src">UK Parliament</span> · Richard Burgon (Labour) → Department for Business and Trade</div><div class="time">2026-04-22 00:00Z</div></div><h3><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129306" rel="noopener">Arms Trade: USA</a></h3><div class="parl"><div class="meta"><span class="actor">Richard Burgon</span> <span class="party lab">Labour</span> · Commons<span class="arrow">→</span><span>Department for Business and Trade</span><span class="arrow">·</span><span>tabled 2026-04-22</span></div><div class="qa"><div class="qa-block"><div class="qa-label">Question</div><div class="qa-text">To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by the US in</div></div><div class="qa-block"><div class="qa-label">Answer · 2026-04-28 · <span class="actor">Chris Bryant</span> <span class="party lab">Labour</span> · Commons</div><div class="qa-text">The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...</div></div></div></div><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">uk-parliament</span><span class="tag">written-question</span></div></article>
+<article class="event" data-source="UK Parliament" data-category="parliament-question" data-tier="1"><div class="head"><div class="source-line"><span class="src">UK Parliament</span> · Richard Burgon (Labour) → Department for Business and Trade</div><div class="time">2026-04-22 00:00Z</div></div><h3><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129191" rel="noopener">Arms Trade: Israel</a></h3><div class="parl"><div class="meta"><span class="actor">Richard Burgon</span> <span class="party lab">Labour</span> · Commons<span class="arrow">→</span><span>Department for Business and Trade</span><span class="arrow">·</span><span>tabled 2026-04-22</span></div><div class="qa"><div class="qa-block"><div class="qa-label">Question</div><div class="qa-text">To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by Israel in</div></div><div class="qa-block"><div class="qa-label">Answer · 2026-04-28 · <span class="actor">Chris Bryant</span> <span class="party lab">Labour</span> · Commons</div><div class="qa-text">The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...</div></div></div></div><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">uk-parliament</span><span class="tag">written-question</span></div></article>
+<article class="event" data-source="UK Parliament" data-category="parliament-question" data-tier="1"><div class="head"><div class="source-line"><span class="src">UK Parliament</span> · Dr Ellie Chowns (Green Party) → Foreign, Commonwealth and Development Office</div><div class="time">2026-04-22 00:00Z</div></div><h3><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129326" rel="noopener">USA: Arms Trade</a></h3><div class="parl"><div class="meta"><span class="actor">Dr Ellie Chowns</span> <span class="party ">Green Party</span> · Commons<span class="arrow">→</span><span>Foreign, Commonwealth and Development Office</span><span class="arrow">·</span><span>tabled 2026-04-22</span></div><div class="qa"><div class="qa-block"><div class="qa-label">Question</div><div class="qa-text">To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to the USA being used to commit serious violations of humanitarian law in Iran.</div></div><div class="qa-block"><div class="qa-label">Answer · 2026-04-27 · <span class="actor">Mr Hamish Falconer</span> <span class="party lab">Labour</span> · Commons</div><div class="qa-text">I refer the Hon Member to the answer provided on 2 April in response to Question 122968.</div></div></div></div><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">uk-parliament</span><span class="tag">written-question</span></div></article>
+<article class="event" data-source="UK Parliament" data-category="parliament-question" data-tier="1"><div class="head"><div class="source-line"><span class="src">UK Parliament</span> · Dr Ellie Chowns (Green Party) → Foreign, Commonwealth and Development Office</div><div class="time">2026-04-22 00:00Z</div></div><h3><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129325" rel="noopener">Israel: Arms Trade</a></h3><div class="parl"><div class="meta"><span class="actor">Dr Ellie Chowns</span> <span class="party ">Green Party</span> · Commons<span class="arrow">→</span><span>Foreign, Commonwealth and Development Office</span><span class="arrow">·</span><span>tabled 2026-04-22</span></div><div class="qa"><div class="qa-block"><div class="qa-label">Question</div><div class="qa-text">To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to Israel being used to commit serious violations of humanitarian law in Iran a</div></div><div class="qa-block"><div class="qa-label">Answer · 2026-04-27 · <span class="actor">Mr Hamish Falconer</span> <span class="party lab">Labour</span> · Commons</div><div class="qa-text">I refer the Hon Member to the answer provided on 2 April in response to Question 122968.</div></div></div></div><div class="tags"><span class="tag tier tier-1">tier 1</span><span class="tag">uk-parliament</span><span class="tag">written-question</span></div></article></section>
+<nav class="day-nav bottom"><span class="prev disabled">← earlier</span><a class="hub" href="./">All days</a><span class="next disabled">later →</span></nav>
+<section class="diag">
+  <h4>Source run</h4>
+  <ul><li><code>federal_register</code> — fetched 1, kept 1</li><li><code>uk_parliament</code> — fetched 12, kept 5</li><li><code>un_press</code> — fetched 10, kept 0</li><li><code>iaea</code> — fetched 9, kept 0</li><li><code>state_dept</code> — fetched 22, kept 1</li><li><code>gov_uk</code> — fetched 87, kept 0</li><li><code>iran_international</code> — fetched 55, kept 15</li><li><code>reliefweb</code> — error: RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form.</li></ul>
+</section>
+<footer>
+  Generated 2026-05-01 09:52:45Z. See <a href="about.html">About</a> for what's in and what isn't.
+</footer>
+<script>
+(function(){
+  var pills = document.querySelectorAll('.pill[data-source]');
+  var allPill = document.querySelector('.pill.all');
+  var eventsBox = document.querySelector('.events');
+  var sortDate = document.querySelector('.sort-pill[data-sort="date"]');
+  var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
+  var originalHTML = eventsBox ? eventsBox.innerHTML : '';
+
+  function activeSources(){
+    var s = new Set();
+    pills.forEach(function(p){ if(p.dataset.active === '1') s.add(p.dataset.source); });
+    return s;
+  }
+
+  function applyFilter(){
+    if(!eventsBox) return;
+    var s = activeSources();
+    var events = eventsBox.querySelectorAll('.event');
+    var headers = eventsBox.querySelectorAll('.tier-header');
+    if(s.size === 0){
+      events.forEach(function(e){ e.classList.remove('hidden'); });
+      headers.forEach(function(h){ h.classList.remove('hidden'); });
+      allPill.dataset.active = '1';
+    } else {
+      allPill.dataset.active = '0';
+      events.forEach(function(e){ e.classList.toggle('hidden', !s.has(e.dataset.source)); });
+      // Hide tier headers whose group has no visible events.
+      headers.forEach(function(h){
+        var hasVisible = false;
+        var n = h.nextElementSibling;
+        while(n && !n.classList.contains('tier-header')){
+          if(n.classList.contains('event') && !n.classList.contains('hidden')){
+            hasVisible = true; break;
+          }
+          n = n.nextElementSibling;
+        }
+        h.classList.toggle('hidden', !hasVisible);
+      });
+    }
+  }
+
+  function setActiveSort(btn){
+    [sortDate, sortTier].forEach(function(b){
+      if(b) b.dataset.active = (b === btn) ? '1' : '0';
+    });
+  }
+
+  function sortByDate(){
+    eventsBox.innerHTML = originalHTML;
+    setActiveSort(sortDate);
+    applyFilter();
+  }
+
+  function sortByTier(){
+    eventsBox.innerHTML = originalHTML;
+    var events = Array.from(eventsBox.querySelectorAll('.event'));
+    var byTier = {};
+    events.forEach(function(e){
+      var t = e.dataset.tier || '2';
+      (byTier[t] = byTier[t] || []).push(e);
+    });
+    eventsBox.innerHTML = '';
+    var labels = {'1':'Tier 1 · clean APIs','2':'Tier 2 · RSS','3':'Tier 3 · scraped / 3rd-party'};
+    ['1','2','3'].forEach(function(t){
+      var arr = byTier[t];
+      if(!arr || arr.length === 0) return;
+      var h = document.createElement('h4');
+      h.className = 'tier-header t' + t;
+      h.textContent = labels[t] || ('Tier ' + t);
+      eventsBox.appendChild(h);
+      arr.forEach(function(ev){ eventsBox.appendChild(ev); });
+    });
+    setActiveSort(sortTier);
+    applyFilter();
+  }
+
+  pills.forEach(function(p){
+    p.addEventListener('click', function(){
+      p.dataset.active = p.dataset.active === '1' ? '0' : '1';
+      applyFilter();
+    });
+  });
+  if(allPill) allPill.addEventListener('click', function(){
+    pills.forEach(function(p){ p.dataset.active = '0'; });
+    applyFilter();
+  });
+  if(sortDate) sortDate.addEventListener('click', sortByDate);
+  if(sortTier) sortTier.addEventListener('click', sortByTier);
+})();
+</script>
+</main></body></html>
