@@ -121,8 +121,8 @@
       (byTier[t] = byTier[t] || []).push(e);
     });
     eventsBox.innerHTML = '';
-    var labels = {'1':'Tier 1 · clean APIs','2':'Tier 2 · RSS','3':'Tier 3 · scraped / 3rd-party'};
-    ['1','2','3'].forEach(function(t){
+    var labels = {'1':'Tier 1 · clean APIs','2':'Tier 2 · RSS','3':'Tier 3 · scraped / 3rd-party','4':'Tier 4 · channel claim, unverified'};
+    ['1','2','3','4'].forEach(function(t){
       var arr = byTier[t];
       if(!arr || arr.length === 0) return;
       var h = document.createElement('h4');

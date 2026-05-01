@@ -8,7 +8,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, uk_parliament, un_press
+from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -48,6 +48,7 @@ ADAPTERS = [
     ("state_dept",       state_dept.fetch,       True),   # global feeds, filter locally
     ("gov_uk",           gov_uk.fetch,           True),   # department feeds, filter locally
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
+    ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
     ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
 ]
 

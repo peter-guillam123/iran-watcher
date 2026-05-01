@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T08:14:39.521064Z",
-  "window_since": "2026-04-30T08:14:35.058715Z",
-  "window_until": "2026-05-01T08:14:39.521072Z",
+  "generated_at": "2026-05-01T16:32:06.829066Z",
+  "window_since": "2026-04-30T16:32:01.390807Z",
+  "window_until": "2026-05-01T16:32:01.390807Z",
   "diagnostics": [
     {
       "source": "federal_register",
@@ -23,20 +23,20 @@
     },
     {
       "source": "iaea",
-      "fetched": 2,
+      "fetched": 0,
       "kept": 0,
       "ok": true
     },
     {
       "source": "state_dept",
-      "fetched": 5,
+      "fetched": 4,
       "kept": 1,
       "ok": true
     },
     {
       "source": "gov_uk",
-      "fetched": 54,
-      "kept": 0,
+      "fetched": 27,
+      "kept": 3,
       "ok": true
     },
     {
@@ -46,12 +46,819 @@
       "ok": true
     },
     {
+      "source": "telegram",
+      "fetched": 35,
+      "kept": 35,
+      "ok": true
+    },
+    {
       "source": "reliefweb",
       "ok": false,
       "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
     }
   ],
   "events": [
+    {
+      "id": "telegram:iribnews/336151",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:31:57Z",
+      "title": "الجزیره: ایران با ناوگان سایه‌اش محاصره دریایی آمریکا در هرمز را دور زده است 🔹 ناوگان سایه ایران با استفاده…",
+      "url": "https://t.me/iribnews/336151",
+      "summary": "الجزیره: ایران با ناوگان سایه‌اش محاصره دریایی آمریکا در هرمز را دور زده است 🔹 ناوگان سایه ایران با استفاده از پرچم‌های جعلی و خاموش کردن سیستم‌های ردیابی، به جابه‌جایی نفت ادامه می‌دهند و به این کشور امکان می‌دهند که علی‌رغم محاصره دریایی آمریکا، صادرات انرژی خود را حفظ کند. 🔹 این کشتی‌ها اغلب با هویت‌های مبهم، مالکیت پنهان و مسیرهای پیچیده فعالیت می‌کنند تا از شناسایی و رهگیری بگریزند. 🔹 در عمل، این کشتی‌ها از تاکتیک‌هایی مانند خاموش کردن سامانه‌های شناسایی خودکار، انتقال محموله در دریا و تغییر مداوم پرچم و مالکیت استفاده می‌کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336151"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336150",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:21:57Z",
+      "title": "🎦 نماینده کنگره آمریکا: دولت آمریکا برای کشتار دانش‌آموزان ایرانی چقدر هزینه کرده؟ 🔹 وزیر جنگ آمریکا در پاسخ…",
+      "url": "https://t.me/iribnews/336150",
+      "summary": "🎦 نماینده کنگره آمریکا: دولت آمریکا برای کشتار دانش‌آموزان ایرانی چقدر هزینه کرده؟ 🔹 وزیر جنگ آمریکا در پاسخ به یک نماینده کنگره که از او درباره هزینه استفاده از موشک‌ها برای حمله به دانش آموزان ایرانی سوال کرده بود گفت: این مورد در حال بررسی است و هنوز هزینه‌های…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336150"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57781",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:05:03Z",
+      "title": "💢 تا ساعتی دیگر پیام حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم…",
+      "url": "https://t.me/defapress_ir/57781",
+      "summary": "💢 تا ساعتی دیگر پیام حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم منتشر خواهد شد @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57781"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336149",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:03:25Z",
+      "title": "تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم…",
+      "url": "https://t.me/iribnews/336149",
+      "summary": "تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم منتشر خواهد شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336149"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/322",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:02:46Z",
+      "title": "🛑 تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز…",
+      "url": "https://t.me/rahbar_enghelab_ir/322",
+      "summary": "🛑 تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم منتشر خواهد شد. 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/322"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336148",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:01:28Z",
+      "title": "نیویورک‌ تایمز: ارتش آمریکا رو به افول بود، ولی جنگ ایران باعث شد همه از این واقعیت خبردار شوند 🔹 ایران کنترل…",
+      "url": "https://t.me/iribnews/336148",
+      "summary": "نیویورک‌ تایمز: ارتش آمریکا رو به افول بود، ولی جنگ ایران باعث شد همه از این واقعیت خبردار شوند 🔹 ایران کنترل تنگه هرمز را به دست گرفته و موشک‌ها و پهپادهایش همچنان متحدان آمریکا در منطقه را تهدید می‌کنند. ایران همچنین، در مذاکرات هم قوی‌تر ظاهر شد. 🔹 این واقعیت، آسیب‌پذیری‌های شیوه جنگی آمریکا را آشکار کرد و نشان داد که آمریکا خود را برای جنگ‌های مدرن آماده نکرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336148"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336147",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:42:40Z",
+      "title": "هند قیمت گاز پخت‌وپز و سوخت جت را افزایش داد 🔹 هند در پی افزایش فشار بر عرضه ناشی از جنگ ایران، قیمت گاز مایع…",
+      "url": "https://t.me/iribnews/336147",
+      "summary": "هند قیمت گاز پخت‌وپز و سوخت جت را افزایش داد 🔹 هند در پی افزایش فشار بر عرضه ناشی از جنگ ایران، قیمت گاز مایع و سوخت جت برای خطوط هوایی بین‌المللی را افزایش داده است. 🔹 الجزیره گزارش داد این کشور جنوب آسیا به‌شدت به واردات انرژی وابسته است و حدود ۶۰ درصد گاز مایع مورد نیاز خود را وارد می‌کند. این سوخت برای پخت‌وپز توسط بخش گسترده‌ای از جمعیت آن که بزرگ‌ترین جمعیت جهان را تشکیل می‌دهد، استفاده می‌شود. 🔹 شرکت دولتی «ایندین اویل کورپوریشن لیمیتد»، بزرگ‌ترین شرکت بازاریابی انرژی در این کشور، اعلام کرد: «قیمت سیلندرهای عمده و تجاری گاز مایع بازنگری شده است.» 🔹 بر اساس جدول قیمت این شرکت، بهای یک سی",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336147"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57780",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:42:01Z",
+      "title": "💢 قالیباف: روز‌های سازندگی در راه است و آبادانی ایران بدون تلاش کارگران میسر نخواهد بود 🔸 رئیس مجلس شورای…",
+      "url": "https://t.me/defapress_ir/57780",
+      "summary": "💢 قالیباف: روز‌های سازندگی در راه است و آبادانی ایران بدون تلاش کارگران میسر نخواهد بود 🔸 رئیس مجلس شورای اسلامی در پیامی به مناسبت روز کارگر تأکید کرد: روزهای سازندگی پس از پیروزی در مقابل ابرقدرت‌های متخاصم در راه است و آبادانی ایران عزیز بدون تلاش شبانه‌روزی کارگران زحمتکش میسر نخواهد بود و این نقش بسزا بر هیچ‌کس پوشیده نیست. 🔸 شهدای کارگری که در ایام جنگ تحمیلی سوم تا آخرین لحظه سنگر خویش را رها نکردند درسی بزرگ از مقاومت و مسئولیت‌پذیری به ما آموختند و مسؤلان کشور همواره قدردان و مدیون زحمات و رشادت‌های آنان هستند. 🔸 امروز ایران سرافراز بیش از هر زمان دیگری به همت و غیرت دستان پینه بسته‌ا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57780"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336146",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:34:04Z",
+      "title": "روزنامه آمریکایی هیل: یک نظرسنجی شوک‌کننده نشان می‌دهد که ۴۷ درصد از حامیان دموکرات‌ها معتقدند اقدام به ترور…",
+      "url": "https://t.me/iribnews/336146",
+      "summary": "روزنامه آمریکایی هیل: یک نظرسنجی شوک‌کننده نشان می‌دهد که ۴۷ درصد از حامیان دموکرات‌ها معتقدند اقدام به ترور ترامپ صحنه‌سازی بوده است! @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336146"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336145",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:23:31Z",
+      "title": "رای منفی آمریکایی‌ها به جنگ علیه ایران 🔹 رأی ‌منفی آمریکایی‌ها درباره جنگ علیه ایران به سطح جنگ‌های عراق و…",
+      "url": "https://t.me/iribnews/336145",
+      "summary": "رای منفی آمریکایی‌ها به جنگ علیه ایران 🔹 رأی ‌منفی آمریکایی‌ها درباره جنگ علیه ایران به سطح جنگ‌های عراق و ویتنام رسیده است. 🔹 در حالی که حدود دو ماه از جنگ آمریکا علیه ایران گذشته است، نظرسنجی مشترک مرکز افکارسنجی ایپسوس، ای بی سی نیوز و واشنگتن پست نشان می‌دهد این جنگ در این مدت به اندازه سومین سال جنگ عراق یعنی در سال ۲۰۰۶ و ششمین سال جنگ ویتنام در دهه ۱۹۷۰ در بین آمریکایی‌ها منفور شده و این عدم رضایت به حدود ۶۱ درصد رسیده است. 🔹 همچنین در حالی که ترامپ مدعی بهبود وضع اقتصادی آمریکایی ها در دوره خود می‌شد، با افزایش قیمت بنزین به بالاترین سطح در چهار سال گذشته ۴ نفر از هر ده آمریکایی می‌گوی",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336145"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/321",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:14:27Z",
+      "title": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای:…",
+      "url": "https://t.me/rahbar_enghelab_ir/321",
+      "summary": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای: ✍ «در مقام درس‌آموزی از رفتار بزرگان و بخصوص شخصیت رهبر شهید، خیلی بجا است که این خصوصیت خیرخواهی خالصانه برای یکدیگر و مواسات را رویّه خود سازیم.» ۲۰/فروردین/۱۴۰۵ 🇮🇷 پویش ایران همدل، از آحاد مردم عزیز دعوت میکند تا در لبیک به این توصیه و «به نیابت از رهبر شهیدمان»، این حرکت همدلانه را با انتشار فیلم و عکس ترویج کنند. 📷 تصاویر خود را برای انعکاس این جلوه‌های بدیع در رسانه #ایران_همدل به آدرس t.me/khamenei_Contact_ir ارسال کنید. 💳 از طریق زیر می‌توانیم به هموطنان نیازمند و آسیب‌دیدگان ‌ج",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/321"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57779",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:07:01Z",
+      "title": "💢 قحطی قیر در فرانسه با تداوم انسداد تنگه هرمز 🔸 انسداد تنگه هرمز توسط نیرو‌های مسلح جمهوری اسلامی ایران…",
+      "url": "https://t.me/defapress_ir/57779",
+      "summary": "💢 قحطی قیر در فرانسه با تداوم انسداد تنگه هرمز 🔸 انسداد تنگه هرمز توسط نیرو‌های مسلح جمهوری اسلامی ایران علاوه بر افزایش قیمت سوخت، موجب کمبود قیر در کشور‌های اروپایی از جمله فرانسه شده است. 🔸 توقف کشتی‌های نفتکش در تنگه هرمز نه‌تنها قیمت سوخت را بالا برده، بلکه بر تولید قیر نیز تأثیر گذاشته‌است. در نتیجه، بسیاری از پروژه‌های عمرانی از جمله تعمیر جاده‌ها در تابستان با افزایش هزینه‌ها مواجه می‌شود. 🔸 «فیلیپ پوپار» مدیر یکی از کارخانه‌های تولید آسفالت در فرانسه می‌گوید: آسفالت ترکیبی از شن و قیر است و قیر یکی از فرآورده‌های نفتی است که مثل گازوئیل و بنزین، قیمتش به‌شدت افزایش یافته است. قیمت هر ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57779"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336144",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:04:45Z",
+      "title": "فارین افرز: جنگ چگونه به حفظ نظام ایران منجر شد؟ 🔹️ پیامد ناخواسته حمله مشترک آمریکا و اسرائیل این بود که…",
+      "url": "https://t.me/iribnews/336144",
+      "summary": "فارین افرز: جنگ چگونه به حفظ نظام ایران منجر شد؟ 🔹️ پیامد ناخواسته حمله مشترک آمریکا و اسرائیل این بود که نظام ایران در میانه طوفان تثبیت شد. 🔹 استراتژیست‌های واشینگتن و تل‌آویو تصور می‌کردند فشار نظامی باعث می‌شود مردم علیه حاکمیت بشورند. اما این حمله، ناسیونالیسم ایرانی را بیدار کرد. اکنون حتی منتقدان داخلی هم برای دفاع از خاک و تمامیت ارضی، در کنار نظام قرار گرفته‌اند. 🔹 حملات آمریکا و اسرائیل باعث شد تا شبکه گروه‌های متحد ایران در منطقه (محور مقاومت) با انگیزه‌ای مضاعف وارد عمل شوند. این جنگ، پیوند میان تهران و گروه‌های متحدش را از یک رابطه سیاسی به یک «هم‌سرنوشتی خونی» تبدیل کرد که نفوذ ا",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336144"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336143",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T14:54:09Z",
+      "title": "قالیباف: روزهای سازندگی در راه است و آبادانی ایران بدون تلاش کارگران میسر نخواهد بود 🔹 رئیس مجلس شورای اسلامی…",
+      "url": "https://t.me/iribnews/336143",
+      "summary": "قالیباف: روزهای سازندگی در راه است و آبادانی ایران بدون تلاش کارگران میسر نخواهد بود 🔹 رئیس مجلس شورای اسلامی در پیامی به مناسبت روز کارگر تأکید کرد: روزهای سازندگی پس از پیروزی در مقابل ابرقدرت‌های متخاصم در راه است و آبادانی ایران عزیز بدون تلاش شبانه‌روزی کارگران زحمتکش میسر نخواهد بود و این نقش بسزا بر هیچ‌کس پوشیده نیست. متن پیام بدین شرح است؛ 🔹 «کارگر، آن وجود شریف و عزیزی است که با دست پرتوان خود چرخ تولید و سازندگی را به حرکت درمی‌آورد.» رهبر معظم شهید انقلاب، حضرت آیت‌الله العظمی سیدعلی حسینی خامنه‌ای رحمت‌الله‌علیه 🔹 کارگران زحمتکش و مولد، از بدو پیروزی انقلاب اسلامی گردانندگان چرخ پ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336143"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336142",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T14:49:03Z",
+      "title": "پزشکیان: آنطور که وعده داده‌بودم دستور جمع‌کردن شرکتهای پیمانکاری را صادر کردم. 🔹 ‏در نوجوانی کارگری کرده‌ام،…",
+      "url": "https://t.me/iribnews/336142",
+      "summary": "پزشکیان: آنطور که وعده داده‌بودم دستور جمع‌کردن شرکتهای پیمانکاری را صادر کردم. 🔹 ‏در نوجوانی کارگری کرده‌ام، نان پربرکت این شغل شریف را خورده‌ام و به آن افتخار می‌کنم. 🔹 می‌دانم کارگر بودن یعنی نجابت، صبوری، عزتمند، ایستادگی در برابر دشواریها و ساختن آینده‌ای بهتر برای آنهایی که دوستشان داریم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336142"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336141",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T14:35:14Z",
+      "title": "اندیشکده چَتِم هاوس: کنترل تنگه هرمز به ایران یک مزیت نامتقارن می‌بخشد که از آن در برابر تهدید موجودیتی حملات…",
+      "url": "https://t.me/iribnews/336141",
+      "summary": "اندیشکده چَتِم هاوس: کنترل تنگه هرمز به ایران یک مزیت نامتقارن می‌بخشد که از آن در برابر تهدید موجودیتی حملات آمریکا و اسرائیل محافظت می‌کند 🔹 ایران به‌سادگی از این ابزار قدرت دست نخواهد کشید. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336141"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57778",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T14:31:01Z",
+      "title": "💢 آتش‌سوزی، ناوشکن آمریکا را در اقیانوس آرام زمین‌گیر کرد 🔸 رسانه‌های آمریکایی گزارش دادند ناوشکن «یو‌اس‌اس…",
+      "url": "https://t.me/defapress_ir/57778",
+      "summary": "💢 آتش‌سوزی، ناوشکن آمریکا را در اقیانوس آرام زمین‌گیر کرد 🔸 رسانه‌های آمریکایی گزارش دادند ناوشکن «یو‌اس‌اس هیگینز» متعلق به نیروی دریایی آمریکا پس از وقوع یک آتش‌سوزی گسترده، در اقیانوس آرام از کار افتاده و برای مدتی بدون برق و سامانه پیشران باقی مانده است. 🔸 بر اساس گزارش CBS News، آتش‌سوزی در یکی از بخش‌های اصلی فنی این شناور رخ داد و موجب قطع برق و از کار افتادن سامانه حرکت ناوشکن کلاس «آرلی برک» شد؛ وضعیتی که در اصطلاح دریایی از آن با عنوان «مرده در آب» یاد می‌شود. 🔸 این حادثه در حالی رخ داده که نیروی دریایی آمریکا در ماه‌های اخیر با پرسش‌هایی درباره آمادگی عملیاتی و فرسودگی برخی تجهیزات ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57778"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336140",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T14:22:31Z",
+      "title": "🎦 تبیین واقعیت‌ها بدون اغراق، سبک خاص علی لاریجانی در سیاست @iribnews",
+      "url": "https://t.me/iribnews/336140",
+      "summary": "🎦 تبیین واقعیت‌ها بدون اغراق، سبک خاص علی لاریجانی در سیاست @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336140"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57777",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:54:01Z",
+      "title": "📸 «به تنگ آمده» در میدان ولیعصر اکران شد 🔸 باتوجه به ناکامی و شکست رئیس جمهور آمریکا در تنگه هرمز از جدیدترین…",
+      "url": "https://t.me/defapress_ir/57777",
+      "summary": "📸 «به تنگ آمده» در میدان ولیعصر اکران شد 🔸 باتوجه به ناکامی و شکست رئیس جمهور آمریکا در تنگه هرمز از جدیدترین دیوارنگاره میدان ولیعصر(عج) رونمایی شد. dnws.ir/003UDe @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57777"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336138",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:51:15Z",
+      "title": "خسارت شدید آمریکا از شوک نفتی جنگ با ایران 🔹 پایگاه خبری وابسته به اندیشکده کوئینسی واشنگتن گزارش داد آمریکا…",
+      "url": "https://t.me/iribnews/336138",
+      "summary": "خسارت شدید آمریکا از شوک نفتی جنگ با ایران 🔹 پایگاه خبری وابسته به اندیشکده کوئینسی واشنگتن گزارش داد آمریکا از شوک نفتی ناشی از جنگ ایران بیشتر از چین، روسیه یا اتحادیه اروپا خسارت خواهد دید. 🔹 در پایگاه خبری ریسپانسیبل استیت آمده: این موضوع ممکن است بسیاری از آمریکایی‌ها را متعجب کند زیرا ترامپ و شرکایش برای مهار مخالفت‌ها و وحشت مردم از جنگ، تصورات غلط قدیمی درباره بی نیازی آمریکا به تنگه هرمز را تبلیغ می‌کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336138"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336137",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:47:13Z",
+      "title": "🎦 تاج: در کانادا از ما پرسیدند شما سپاهی هستید؟ به آن‌ها گفتیم ما در ایران ۹۰ میلیون سپاهی هستیم 🔹 گفتم…",
+      "url": "https://t.me/iribnews/336137",
+      "summary": "🎦 تاج: در کانادا از ما پرسیدند شما سپاهی هستید؟ به آن‌ها گفتیم ما در ایران ۹۰ میلیون سپاهی هستیم 🔹 گفتم تروریست کسی است که ۱۷۶ بچه را به شهادت رساند و از یک بچه فقط یک کفش باقی گذاشت. 🔹 بعد از مدتی گفتند می‌توانید وارد شوید اما ما تصمیم گرفتیم که برگردیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336137"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336135",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:33:59Z",
+      "title": "طعنه به ترامپ و باند پدوفیل جزیره اپستین! 🔹️ حساب کاربری سفارت ایران در آفریقای جنوبی در شبکه اجتماعی ایکس،…",
+      "url": "https://t.me/iribnews/336135",
+      "summary": "طعنه به ترامپ و باند پدوفیل جزیره اپستین! 🔹️ حساب کاربری سفارت ایران در آفریقای جنوبی در شبکه اجتماعی ایکس، تصویری از شهید طهرانی مقدم، شهید حاجی‌زاده و سردار موسوی فرمانده نیروی هوافضای سپاه را منتشر کرده و نوشته: مبارزان ایران، متخصصان درمان پدوفیل‌ها (کودک‌آزارها). جهان مدیون این مردان است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336135"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57776",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:22:01Z",
+      "title": "💢 امیر حاتمی: با اتکا به قدرت و پشتوانه ملت ایران در برابر هرگونه تهدید دشمن می‌ایستیم 🔸 فرمانده کل ارتش…",
+      "url": "https://t.me/defapress_ir/57776",
+      "summary": "💢 امیر حاتمی: با اتکا به قدرت و پشتوانه ملت ایران در برابر هرگونه تهدید دشمن می‌ایستیم 🔸 فرمانده کل ارتش جمهوری اسلامی ایران گفت: امروز این نیرو آماده‌تر از همیشه، مقتدارنه و با بصیرت انقلابی تحت هدایت و رهنمود‌های حکیمانه فرماندهی معظم کل قوا و با اتکا به قدرت و پشتوانه ملت بزرگ ایران همچون گذشته در برابر هرگونه تهدید و دشمنی می‌ایستد. 🔸 ارتش جمهوری اسلامی ایران، امروز با بهره‌مندی از آموخته‌های خود از اساتید، معلمان و مربیان شریف و بهره‌گیری از آموزه‌های ارزشمند امامین انقلاب اسلامی و اتکا به تجربیات گرانسنگ به ویژه دفاع مقدس ۸ ساله و جنگ‌های ناجوانمردانه اخیر، به خوبی دانست باید به گونه‌ای ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57776"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336134",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:17:51Z",
+      "title": "رسانه‌های سوری از انفجار خودروی بمب‌گذاری شده در منطقه سیده زینب در حومه دمشق خبر دادند  @iribnews",
+      "url": "https://t.me/iribnews/336134",
+      "summary": "رسانه‌های سوری از انفجار خودروی بمب‌گذاری شده در منطقه سیده زینب در حومه دمشق خبر دادند  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336134"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/320",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:11:09Z",
+      "title": "📍 فصل نوین خلیج فارس و تنگه هرمز ✏️ مروری بر دیدگاه حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای، رهبر انقلاب اسلامی…",
+      "url": "https://t.me/rahbar_enghelab_ir/320",
+      "summary": "📍 فصل نوین خلیج فارس و تنگه هرمز ✏️ مروری بر دیدگاه حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای، رهبر انقلاب اسلامی درباره مدیریت تنگه هرمز 🔻 چشم‌انداز خلیج‌ فارس و تنگه هرمز ▪️ طلیعه نظم جدید منطقه و جهان در سایه تدابیر و سیاست‌های مقاومت و راهبرد ایران قوی ▪️ جایگاه نداشتن بیگانگان و شرارت آنها در خلیج فارس ▪️ آینده خلیج فارس؛ آینده‌ای بدون آمریکا و در خدمت پیشرفت، آسایش و رفاه ملّت‌ها 🔻 اقدامات در مدیریت تنگه هرمز ▪️ استفاده از اهرم مسدودسازی تنگه هرمز ▪️ شکر عملی نعمت اعمال مدیریت بر تنگه با ایمن کردن منطقه خلیج فارس ▪️ برچیدن بساط سوء‌استفاده دشمن متخاصم از این آبراه 🔻 ثمرات مدیریت جدید تنگه هر",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/320"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336133",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:03:20Z",
+      "title": "🎦 کارشناس هواشناسی: دما از شنبه در بیشتر نقاط کشور افزایش می‌یابد @iribnews",
+      "url": "https://t.me/iribnews/336133",
+      "summary": "🎦 کارشناس هواشناسی: دما از شنبه در بیشتر نقاط کشور افزایش می‌یابد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336133"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336132",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T12:51:01Z",
+      "title": "عبدالله موحد درگذشت 🔹 عبدالله موحد اسطوره و نابغه کشتی ایران و دارنده ۵ مدال طلای جهان یک طلای المپیک و ۲…",
+      "url": "https://t.me/iribnews/336132",
+      "summary": "عبدالله موحد درگذشت 🔹 عبدالله موحد اسطوره و نابغه کشتی ایران و دارنده ۵ مدال طلای جهان یک طلای المپیک و ۲ طلای بازی های آسیایی در سن ۸۶ سالگی به علت سکته قلبی درگذشت.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336132"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336131",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T12:50:28Z",
+      "title": "فرمانده کل ارتش: در برابر هرگونه تهدید دشمن می‌ایستیم 🔹 امیر سرلشکر حاتمی در پیامی به مناسبت روز معلم ضمن…",
+      "url": "https://t.me/iribnews/336131",
+      "summary": "فرمانده کل ارتش: در برابر هرگونه تهدید دشمن می‌ایستیم 🔹 امیر سرلشکر حاتمی در پیامی به مناسبت روز معلم ضمن تاکید بر آمادگی ارتش جمهوری اسلامی ایران، گفت: ارتش با اتکا به قدرت و پشتوانه ملت بزرگ ایران همچون گذشته در برابر هرگونه تهدید و دشمنی می‌ایستد. 👉 iribnews.ir/00OFdL @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336131"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57766",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T12:44:47Z",
+      "title": "📸 گزارش تصویری / دستپخت‌هایی برای خط مقدم میدان dnws.ir/003UDM @Defapress_ir",
+      "url": "https://t.me/defapress_ir/57766",
+      "summary": "📸 گزارش تصویری / دستپخت‌هایی برای خط مقدم میدان dnws.ir/003UDM @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57766"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57765",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T12:29:46Z",
+      "title": "💢 دریادار سیاری: شهید موسوی در میدان حضوری تاثیرگذار داشت 🔸 رئیس ستاد و معاون هماهنگ‌کننده ارتش در دیدار…",
+      "url": "https://t.me/defapress_ir/57765",
+      "summary": "💢 دریادار سیاری: شهید موسوی در میدان حضوری تاثیرگذار داشت 🔸 رئیس ستاد و معاون هماهنگ‌کننده ارتش در دیدار خانواده رئیس فقید ستادکل نیرو‌های مسلح گفت: امیر سپهبد موسوی در تمامی رزمایش‌ها و میدان‌ها حضوری مستمر و تأثیرگذار داشت و قدم به قدم فرماندهان را همراهی می‌کرد. 🔸 این هجران برای همه ما سخت و به‌خاطر ارتباط خیلی نزدیکی که با هم داشتیم، برای بنده بسیار سخت‌تر است، اما روح شهید موسوی همیشه بر ما حاکم است و لحظه به لحظه به‌یادشان هستیم. 🔸 شهید سپهبد موسوی در حوزه کاری علاوه بر اینکه فرمانده ما بود برای همه جایگاه برادر بزرگتر را داشت. 🔸 امیر موسوی در تمامی رزمایش‌ها و میدان‌ها حضوری مستمر و تأث",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57765"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57764",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T12:14:46Z",
+      "title": "💢 گفت‌وگوهای تلفنی وزیر امور خارجه کشورمان با وزرای خارجه منطقه 🔸 سید عباس عراقچی با وزرای خارجه منطقه، از…",
+      "url": "https://t.me/defapress_ir/57764",
+      "summary": "💢 گفت‌وگوهای تلفنی وزیر امور خارجه کشورمان با وزرای خارجه منطقه 🔸 سید عباس عراقچی با وزرای خارجه منطقه، از جمله ترکیه، مصر، قطر، عربستان، عراق و جمهوری آذربایجان نلفنی گفت‌وگو کرد. 🔸 سید عباس عراقچی، وزیر امور خارجه کشورمان در تماس تلفنی با وزرای خارجه منطقه، از جمله ترکیه، مصر، قطر، عربستان، عراق و جمهوری آذربایجان آنها را در جریان آخرین مواضع و ابتکارات جمهوری اسلامی ایران در خصوص پایان جنگ و تجاوز آمریکا و رژیم صهیونسیتی قرار داد. dnws.ir/003UDZ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57764"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57763",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T11:59:46Z",
+      "title": "💢 پزشکیان: بازوان پرتوان کارگران تکیه‌گاه دولت در مسیر بازسازی کشور است 🔸 رئیس جمهور، کارگر بودن را فراتر از…",
+      "url": "https://t.me/defapress_ir/57763",
+      "summary": "💢 پزشکیان: بازوان پرتوان کارگران تکیه‌گاه دولت در مسیر بازسازی کشور است 🔸 رئیس جمهور، کارگر بودن را فراتر از یک شغل و نماد عزت، ایستادگی و آینده‌سازی توصیف و بر عزم دولت برای صیانت از حقوق، امنیت شغلی و بهبود معیشت کارگران تأکید کرد. 🔸 مسعود پزشکیان رئیس جمهور در پیامی به مناسبت روز جهانی کار و کارگر، با نگاهی قدردانانه و همدلانه از زنان و مردانی یاد کرد که با دستان توانمند، اراده‌های خلل‌ناپذیر و ذهن‌های خلاق، ستون‌های اصلی آبادانی و پیشرفت ایران را استوار نگاه داشته‌اند. 🔸 رئیس جمهور در این پیام با اشاره به تجربه شخصی خود از کارگری در سال‌های نوجوانی، این قشر را نماد زیست عزتمندانه، صبوری و ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57763"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57762",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T11:29:46Z",
+      "title": "💢 حماس: ۲ میلیون نفر در غزه گروگان «اسرائیل» هستند 🔸 جنبش مقاومت اسلامی فلسطین: بیش از ۲ میلیون نفر در غزه…",
+      "url": "https://t.me/defapress_ir/57762",
+      "summary": "💢 حماس: ۲ میلیون نفر در غزه گروگان «اسرائیل» هستند 🔸 جنبش مقاومت اسلامی فلسطین: بیش از ۲ میلیون نفر در غزه گروگان گرسنگی، ماشین کشتار و محاصره «اسرائیل» هستند. 🔸 ما و گروه‌های مقاومت فلسطینی به تمام مفاد توافق پایبندی کامل نشان داده‌ایم، درحالی‌که اشغالگران تعهدات خود را نقض کرده‌اند. 🔸 نقض آتش‌بس، موضع قاطع میانجی‌گران و کشورهای ضامن را برای انجام مسئولیت‌هایشان در تضمین اجرای توافق، ضروری می‌سازد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57762"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/yemen-sanctions-guidance#2026-05-01T10:19:35Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:35Z",
+      "title": "Statutory guidance: Yemen sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/yemen-sanctions-guidance",
+      "summary": "Statutory guidance for the Yemen sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/iran-sanctions-guidance#2026-05-01T10:19:29Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:29Z",
+      "title": "Statutory guidance: Iran sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/iran-sanctions-guidance",
+      "summary": "Statutory guidance for the Iran sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance#2026-05-01T10:19:27Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:27Z",
+      "title": "Statutory guidance: Iran nuclear sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance",
+      "summary": "Statutory guidance for the Iran nuclear sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605017498",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T09:06:41Z",
+      "title": "Tehran residents face eviction from hotels after war damage",
+      "url": "https://www.iranintl.com/en/202605017498",
+      "summary": "Dozens of residents in Tehran displaced by a 40-day war with the US and Israel said municipal authorities ordered them to vacate temporary hotel housing despite unsafe homes and limited aid, according to interviews published by Etemad newspaper on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604306708",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T08:21:09Z",
+      "title": "Ottawa on defensive after Iran football chief linked to IRGC entered Canada",
+      "url": "https://www.iranintl.com/en/202604306708",
+      "summary": "Canada’s government is under pressure to explain how Mehdi Taj, Iran’s football chief and a former intelligence officer of the Revolutionary Guards, was briefly allowed into the country after being granted a special permit despite Canada’s IRGC ban.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
     {
       "id": "iranintl:https://www.iranintl.com/en/202604307863",
       "source": "Iran International",
@@ -83,6 +890,28 @@
       ]
     },
     {
+      "id": "telegram:rahbar_enghelab_ir/319",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T19:52:06Z",
+      "title": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای:…",
+      "url": "https://t.me/rahbar_enghelab_ir/319",
+      "summary": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای: ✍ «در مقام درس‌آموزی از رفتار بزرگان و بخصوص شخصیت رهبر شهید، خیلی بجا است که این خصوصیت خیرخواهی خالصانه برای یکدیگر و مواسات را رویّه خود سازیم.» ۲۰/فروردین/۱۴۰۵ 🇮🇷 پویش ایران همدل، از آحاد مردم عزیز دعوت میکند تا در لبیک به این توصیه و «به نیابت از رهبر شهیدمان»، این حرکت همدلانه را با انتشار فیلم و عکس ترویج کنند. 📷 تصاویر خود را برای انعکاس این جلوه‌های بدیع در رسانه #ایران_همدل به آدرس t.me/khamenei_Contact_ir ارسال کنید. 💳 از طریق زیر می‌توانیم به هموطنان نیازمند و آسیب‌دیدگان ‌ج",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/319"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
       "id": "iranintl:https://www.iranintl.com/en/202604302117",
       "source": "Iran International",
       "source_detail": "Opposition outlet, London",
@@ -98,6 +927,28 @@
       ]
     },
     {
+      "id": "telegram:rahbar_enghelab_ir/318",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T17:40:03Z",
+      "title": "💬 خلیج فارس موهبت الهی و سرمایه راهبردی ملت‌های منطقه است 📝 موهبت «خلیج فارس» علاوه بر نقطه اتصال ملتها، مسیر…",
+      "url": "https://t.me/rahbar_enghelab_ir/318",
+      "summary": "💬 خلیج فارس موهبت الهی و سرمایه راهبردی ملت‌های منطقه است 📝 موهبت «خلیج فارس» علاوه بر نقطه اتصال ملتها، مسیر حیاتی و منحصر به فرد اقتصاد جهانی را ایجاد کرده و  این سرمایه‌ی راهبردی، طمع شیاطین بسیاری را در قرنهای گذشته برانگیخته ... که تازه‌ترین نمونه‌ی آن قدّاره‌کشی‌‌های اخیر شیطان بزرگ بود. ✍ بخشی از پیام رهبر معظّم انقلاب به مناسبت روز ملی خلیج فارس |  ۱۰ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/318"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
       "id": "iranintl:https://www.iranintl.com/en/202604307152",
       "source": "Iran International",
       "source_detail": "Opposition outlet, London",
@@ -107,36 +958,6 @@
       "title": "US forms new coalition to secure Hormuz, asks partners to join",
       "url": "https://www.iranintl.com/en/202604307152",
       "summary": "The United States has asked partner countries to join its newly formed Maritime Freedom Coalition to help secure passage through the Strait of Hormuz and Persian Gulf waterways, according to a State Department cable.",
-      "details": {},
-      "tags": [
-        "iran-domestic"
-      ]
-    },
-    {
-      "id": "iranintl:https://www.iranintl.com/en/202604300766",
-      "source": "Iran International",
-      "source_detail": "Opposition outlet, London",
-      "source_tier": 3,
-      "category": "iran-news",
-      "published_at": "2026-04-30T13:05:07Z",
-      "title": "Iranians denounce tiered internet plan as discriminatory and corrupt",
-      "url": "https://www.iranintl.com/en/202604300766",
-      "summary": "Iranians condemned selective access to restricted internet services as discriminatory and corrupt in messages to Iran International, urging others to reject the scheme in recent days.",
-      "details": {},
-      "tags": [
-        "iran-domestic"
-      ]
-    },
-    {
-      "id": "iranintl:https://www.iranintl.com/en/202604307788",
-      "source": "Iran International",
-      "source_detail": "Opposition outlet, London",
-      "source_tier": 3,
-      "category": "iran-news",
-      "published_at": "2026-04-30T09:22:23Z",
-      "title": "How the Taliban tilted toward Iran during wartime tensions",
-      "url": "https://www.iranintl.com/en/202604307788",
-      "summary": "Taliban leaders and affiliated figures voiced support for Iran after Israeli strikes in June 2025 and later US threats, signaling a limited and conditional alignment despite longstanding disputes with Tehran.",
       "details": {},
       "tags": [
         "iran-domestic"

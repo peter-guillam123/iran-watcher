@@ -47,6 +47,8 @@
 <li><strong>UK Government departments via gov.uk Atom</strong> — FCDO, MoD, No 10, HM Treasury, Cabinet Office. Department-wide feeds; filtered locally for Iran-relevance. <em>Tier 2: Atom.</em></li>
 
 <li><strong>Iran International</strong> — London-based opposition outlet, English-language RSS. Used as a triangulation layer for what's happening inside Iran while direct access to IRNA / Tasnim / IRIB is impractical (Iran has been in a 53-plus-day nationwide internet blackout under what the regime calls "Absolute Digital Isolation"). The editorial slant is real and visible; it sits at tier 3 deliberately. <em>Tier 3: RSS, opposition outlet.</em></li>
+
+<li><strong>Iran regime Telegram channels</strong> — Khamenei's office (<code>rahbar_enghelab_ir</code>), Iran's state broadcaster IRIB (<code>iribnews</code>), and the IRGC-affiliated defence press (<code>defapress_ir</code>). Scraped from the public <code>t.me/s/</code> web preview, no Telegram account needed. These are regime mouthpieces broadcasting directly — every item is a <em>claim</em>, not a verified fact. Surfaced at tier 4 with a distinct red rule down the left side so a Khamenei post can never visually blur into a State Department designation. The editor clicks through to Telegram for the original (and the in-app translation if needed). <em>Tier 4: scraped Telegram, regime-claimed.</em></li>
 </ul>
 
 <div class="ornament"></div>
@@ -54,11 +56,11 @@
 <h2>What's not in (yet, or ever)</h2>
 
 <ul>
-<li><strong>Telegram.</strong> ISW's tactical detail comes from official channels — the IDF, Hezbollah's <code>mmirleb</code>, Khamenei's <code>rahbar_enghelab_ir</code>. Tractable to add via the Telegram client API; not yet in v1 by deliberate scope. The biggest single gap.</li>
+<li><strong>The IDF Telegram and any other channels with the public web preview disabled.</strong> Half of ISW's tactical detail comes from <code>idfonline</code>, <code>IDFFarsi</code> and Hezbollah's <code>mmirleb</code>. None of those expose <code>t.me/s/</code> publicly, so our scrape can't see them. Reaching them needs the MTProto client API (Telethon), which needs a phone number and Guardian institutional sign-off. Hezbollah specifically is independently gated by UK proscription law. All three are firmly v2 territory.</li>
 
 <li><strong>X / Twitter.</strong> CENTCOM, the IDF spokesperson, named OSINT analysts. Possible but expensive (the API tier is paid and awkward), and adjacent to the Telegram gap.</li>
 
-<li><strong>Iranian state media.</strong> IRNA, Tasnim, IRIB, defapress, Khamenei's office. Iran's domestic internet remains blackouted; even with proxies the sites are unreliable. A near-term workaround would be Iran International (London-based opposition outlet, in English) as a triangulation layer, which is wired in.</li>
+<li><strong>Iranian state news websites.</strong> IRNA, Tasnim, the regime ministries' own sites. Iran's domestic internet remains blackouted; even with proxies the sites are unreliable. We do now reach Khamenei's office, IRIB and defapress through their Telegram public previews — see Iran regime Telegram channels above.</li>
 
 <li><strong>US Department of War (war.gov) and CENTCOM (centcom.mil).</strong> Both sit behind aggressive WAFs that 403 anything that doesn't look like a residential browser. Solvable with a proxy; not solved here. Some of their press content surfaces via the State Department or Federal Register feeds anyway.</li>
 
