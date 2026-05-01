@@ -117,21 +117,11 @@ FILTER_JS = r"""
 """
 
 
-EYE_SVG = (
-    '<svg class="eye" viewBox="0 0 40 20" aria-hidden="true" focusable="false">'
-    '<path d="M2,10 C8,2 32,2 38,10 C32,18 8,18 2,10 Z" '
-    'fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>'
-    '<circle cx="20" cy="10" r="3.4" fill="currentColor"/>'
-    '</svg>'
-)
-
-
 def _masthead() -> str:
     """The wire-service masthead at the top of every page."""
     return (
         '<header class="masthead">'
-        f'<a class="wordmark" href="./" aria-label="Iran Watcher home">'
-        f'Iran{EYE_SVG}Watcher</a>'
+        '<a class="wordmark" href="./">Iran Watcher</a>'
         '<span class="dateline">Daily aggregator · est. 2026</span>'
         '</header>'
     )
@@ -281,13 +271,18 @@ def _render_event(e: dict) -> str:
     summary = html.escape(html.unescape(e.get("summary") or ""))
     tags = e.get("tags") or []
 
+    detail_html = (
+        f'<div class="src-detail">{source_detail}</div>' if source_detail else ""
+    )
     head = (
         f'<div class="head">'
-        f'<div class="source-line">'
+        f'<div class="source-info">'
+        f'<div class="src-row">'
         f'<span class="tier-mark t{tier}" aria-hidden="true"></span>'
         f'<span class="src">{source_h}</span>'
-        + (f' · {source_detail}' if source_detail else "")
-        + f'</div>'
+        f'</div>'
+        f'{detail_html}'
+        f'</div>'
         f'<div class="time">{published}Z</div>'
         f'</div>'
         f'<h3><a href="{url}" rel="noopener">{title}</a></h3>'
@@ -501,13 +496,7 @@ def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> s
 
         intro = (
             f'<header class="page-header">'
-            f'<h1>Iran watcher</h1>'
-            f'<div class="meta">A daily-updated tip-sheet of primary governmental and multilateral '
-            f'sources on Iran and the Middle East crisis. Most recent brief below; '
-            f'<a href="about.html">about</a> the project.</div>'
-            f'</header>'
-            f'<header class="page-header" style="margin-top:32px">'
-            f'<h2 style="margin-top:0">{html.escape(pretty_date)}</h2>'
+            f'<h1>{html.escape(pretty_date)}</h1>'
             f'<div class="meta">{len(events)} items · '
             f'window {window_since}Z to {window_until}Z</div>'
             f'</header>'
@@ -516,12 +505,11 @@ def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> s
     else:
         intro = (
             '<header class="page-header">'
-            '<h1>Iran watcher</h1>'
-            '<div class="meta">A daily-updated tip-sheet of primary governmental and multilateral '
-            'sources on Iran and the Middle East crisis.</div>'
+            '<h1>No briefs yet</h1>'
+            '<div class="meta">The daily cron will fill these in.</div>'
             '</header>'
         )
-        brief = '<p class="empty">No daily briefs yet — the cron will fill these in.</p>'
+        brief = ""
 
     archive_rows = []
     for stem, count in dated_days:

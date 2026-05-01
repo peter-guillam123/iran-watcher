@@ -99,19 +99,10 @@ main.prose { max-width: var(--measure-prose); }
   line-height: 1;
   color: var(--ink);
   text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.18em;
   border: none;
+  white-space: nowrap;
 }
 .masthead .wordmark:hover { color: var(--accent); text-decoration: none; border: none; }
-.masthead .wordmark .eye {
-  width: 1.7em; height: 0.85em;
-  color: var(--accent);
-  flex: 0 0 auto;
-  transform: translateY(-0.04em);
-}
-.masthead .wordmark:hover .eye { color: var(--ink); }
 .masthead .dateline {
   font-family: var(--body);
   font-size: 11px;
@@ -309,32 +300,38 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .event .head {
   display: flex; align-items: baseline; gap: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
-.event .source-line {
+.event .source-info {
   flex: 1; min-width: 0;
-  font-family: var(--body); font-size: 11px;
-  color: var(--ink-faint);
-  letter-spacing: 0.1em; text-transform: uppercase;
-  font-weight: 600;
+  font-family: var(--body);
+}
+.event .src-row {
   display: flex; align-items: center; gap: 8px;
+  font-size: 11px; letter-spacing: 0.1em;
+  text-transform: uppercase; font-weight: 700;
+  color: var(--ink);
 }
-.event .source-line .src {
-  color: var(--ink); font-weight: 700;
-  font-size: 11px;
-}
-.event .source-line .tier-mark {
+.event .src-row .tier-mark {
   display: inline-block; width: 7px; height: 7px;
   flex: 0 0 auto;
 }
-.event .source-line .tier-mark.t1 { background: var(--tier1); }
-.event .source-line .tier-mark.t2 { background: var(--tier2); }
-.event .source-line .tier-mark.t3 { background: var(--tier3); }
+.event .src-row .tier-mark.t1 { background: var(--tier1); }
+.event .src-row .tier-mark.t2 { background: var(--tier2); }
+.event .src-row .tier-mark.t3 { background: var(--tier3); }
+.event .src-detail {
+  margin-top: 3px;
+  font-size: 11px; letter-spacing: 0.04em;
+  color: var(--ink-faint); font-weight: 500;
+  text-transform: none;
+  font-style: italic;
+}
 .event .time {
   font-family: var(--mono); color: var(--ink-faint);
   font-size: 11px; font-variant-numeric: tabular-nums;
   white-space: nowrap; flex: 0 0 auto;
   letter-spacing: 0;
+  align-self: flex-start;
 }
 
 .event h3 {
@@ -364,9 +361,10 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 @media (max-width: 600px) {
   .event { padding: 18px 0; }
-  .event .head { flex-wrap: wrap; gap: 4px 12px; }
+  .event .head { gap: 8px; }
   .event h3 { font-size: 19px; }
   .event .summary { font-size: 15px; }
+  .event .src-detail { font-size: 10.5px; }
 }
 
 /* ----- Parliament Q&A block ------------------------------------------ */
