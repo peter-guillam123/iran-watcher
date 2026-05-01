@@ -59,12 +59,14 @@ def render_day(date_str: str) -> str:
 
     items_html = []
     for e in events:
-        title = html.escape(e.get("title") or "(untitled)")
+        title = html.escape(html.unescape(e.get("title") or "(untitled)"))
         url = html.escape(e.get("url") or "#")
         source = html.escape(e.get("source") or "")
         tier = e.get("source_tier") or 2
         published = (e.get("published_at") or "")[:16].replace("T", " ")
-        summary = html.escape(e.get("summary") or "")
+        # Some RSS sources (State Dept) ship summaries with HTML entities
+        # already encoded; unescape first so we don't double-escape.
+        summary = html.escape(html.unescape(e.get("summary") or ""))
         tags = e.get("tags") or []
         tags_html = "".join(f'<span class="tag">{html.escape(t)}</span>' for t in tags)
 

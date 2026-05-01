@@ -29,6 +29,14 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 <nav><a href="./">All days</a> <a href="about.html">About</a></nav>
 
 <div class="entry milestone">
+<h2>Iran International added; double-escape fix <span class="date">1 May 2026 (afternoon)</span></h2>
+<p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. The brief jumped from 38 items to 126 over the same 14-day window, with the new 88 covering the politics-of-pink propaganda piece, the IRGC firing on an Indian vessel in Hormuz, the dispute within the leadership that blocked the negotiators' trip to Islamabad, the Mashhad protest crackdown. None of which were going to land via FCDO written answers.</p>
+<p>Tier-3 badge is the right home for it — the editorial slant is real and worth signalling. A future job is a parallel triangulation feed (Tasnim or IRNA via mirror, or BBC Monitoring if we ever pay for it) so the brief presents a left-and-right-of-Tehran read rather than a left-only one.</p>
+<p>Also: small render fix — State Department summaries arrive with HTML entities pre-encoded (<code>&amp;quot;</code>, <code>&amp;#8217;</code>), and we were re-escaping them. <code>html.unescape</code> first, then re-escape, so quotes and apostrophes render properly.</p>
+<p>Tried and dropped from this round: the IDF press page (<code>idf.il</code>) is a JavaScript SPA that returns a 212-byte shell — needs Playwright or a headless browser, which is a chunk of work and a chunk of dependencies for one source. Deferred to v2.</p>
+</div>
+
+<div class="entry milestone">
 <h2>v1 prototype <span class="date">1 May 2026</span></h2>
 <p>First end-to-end run. Six source adapters wired up, filter and de-dup working, daily HTML page rendering. The morning brief for 1 May has 38 items across UK Parliament, Federal Register / OFAC, US State Department, UN Press, IAEA and the UK FCDO / No 10 / MoD via gov.uk's Atom feeds.</p>
 <p>Honest gaps from day one: ReliefWeb is wired but waits on an <code>appname</code> registration that ReliefWeb tightened in November 2025. The US Department of War (the rebranded DoD) and CENTCOM are 403-blocked at the WAF level — most of what we'd want from them is duplicated through State and the Federal Register, but the gap is real. Telegram, X and Iranian state media are firmly out of scope for v1, with the Iran blackout being the strongest argument that the last of those isn't really available right now anyway.</p>
