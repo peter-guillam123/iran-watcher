@@ -42,14 +42,24 @@ nav.top a{color:#0a4f8f;text-decoration:none;margin-right:16px}
 nav.top a:hover{text-decoration:underline}
 
 .filters{margin:24px 0 16px;padding:14px 14px 8px;background:#fff;border:1px solid #e2e2e2;border-radius:8px}
+.filter-row{margin-bottom:8px}
+.filter-row:last-child{margin-bottom:0}
+.sort-row{padding-top:8px;border-top:1px solid #f0f0f0}
 .filters h4{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#888;margin:0 0 8px;font-weight:600}
-.pill{display:inline-flex;align-items:baseline;gap:6px;padding:5px 12px;margin:0 6px 6px 0;border:1px solid #d0d0d0;border-radius:18px;background:#fff;color:#333;font-size:14px;cursor:pointer;user-select:none;transition:background .12s,color .12s,border-color .12s}
-.pill:hover{border-color:#888}
-.pill .n{font-variant-numeric:tabular-nums;color:#666;font-size:12px}
-.pill[data-active="1"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
-.pill[data-active="1"] .n{color:#bbb}
+.pill,.sort-pill{display:inline-flex;align-items:baseline;gap:6px;padding:5px 12px;margin:0 6px 6px 0;border:1px solid #d0d0d0;border-radius:18px;background:#fff;color:#333;font-size:14px;cursor:pointer;user-select:none;transition:background .12s,color .12s,border-color .12s;font-family:inherit}
+.pill:hover,.sort-pill:hover{border-color:#888}
+.pill .n,.sort-pill .n{font-variant-numeric:tabular-nums;color:#666;font-size:12px}
+.pill[data-active="1"],.sort-pill[data-active="1"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.pill[data-active="1"] .n,.sort-pill[data-active="1"] .n{color:#bbb}
 .pill.all{background:#f0f0f0}
 .pill.all[data-active="1"]{background:#1a1a1a;color:#fff}
+
+.tier-header{font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;margin:28px 0 4px;padding-bottom:4px;border-bottom:1px solid #eee}
+.tier-header:first-child{margin-top:8px}
+.tier-header.hidden{display:none}
+.tier-header.t1{color:#2a672a}
+.tier-header.t2{color:#3a55a8}
+.tier-header.t3{color:#8a4a17}
 
 .event{padding:18px 0;border-top:1px solid #e2e2e2}
 .event:first-of-type{border-top:none}
@@ -115,34 +125,91 @@ FILTER_JS = r"""
 (function(){
   var pills = document.querySelectorAll('.pill[data-source]');
   var allPill = document.querySelector('.pill.all');
-  var events = document.querySelectorAll('.event');
-  function active(){
+  var eventsBox = document.querySelector('.events');
+  var sortDate = document.querySelector('.sort-pill[data-sort="date"]');
+  var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
+  var originalHTML = eventsBox ? eventsBox.innerHTML : '';
+
+  function activeSources(){
     var s = new Set();
     pills.forEach(function(p){ if(p.dataset.active === '1') s.add(p.dataset.source); });
     return s;
   }
-  function apply(){
-    var s = active();
+
+  function applyFilter(){
+    if(!eventsBox) return;
+    var s = activeSources();
+    var events = eventsBox.querySelectorAll('.event');
+    var headers = eventsBox.querySelectorAll('.tier-header');
     if(s.size === 0){
       events.forEach(function(e){ e.classList.remove('hidden'); });
+      headers.forEach(function(h){ h.classList.remove('hidden'); });
       allPill.dataset.active = '1';
     } else {
       allPill.dataset.active = '0';
-      events.forEach(function(e){
-        e.classList.toggle('hidden', !s.has(e.dataset.source));
+      events.forEach(function(e){ e.classList.toggle('hidden', !s.has(e.dataset.source)); });
+      // Hide tier headers whose group has no visible events.
+      headers.forEach(function(h){
+        var hasVisible = false;
+        var n = h.nextElementSibling;
+        while(n && !n.classList.contains('tier-header')){
+          if(n.classList.contains('event') && !n.classList.contains('hidden')){
+            hasVisible = true; break;
+          }
+          n = n.nextElementSibling;
+        }
+        h.classList.toggle('hidden', !hasVisible);
       });
     }
   }
+
+  function setActiveSort(btn){
+    [sortDate, sortTier].forEach(function(b){
+      if(b) b.dataset.active = (b === btn) ? '1' : '0';
+    });
+  }
+
+  function sortByDate(){
+    eventsBox.innerHTML = originalHTML;
+    setActiveSort(sortDate);
+    applyFilter();
+  }
+
+  function sortByTier(){
+    eventsBox.innerHTML = originalHTML;
+    var events = Array.from(eventsBox.querySelectorAll('.event'));
+    var byTier = {};
+    events.forEach(function(e){
+      var t = e.dataset.tier || '2';
+      (byTier[t] = byTier[t] || []).push(e);
+    });
+    eventsBox.innerHTML = '';
+    var labels = {'1':'Tier 1 · clean APIs','2':'Tier 2 · RSS','3':'Tier 3 · scraped / 3rd-party'};
+    ['1','2','3'].forEach(function(t){
+      var arr = byTier[t];
+      if(!arr || arr.length === 0) return;
+      var h = document.createElement('h4');
+      h.className = 'tier-header t' + t;
+      h.textContent = labels[t] || ('Tier ' + t);
+      eventsBox.appendChild(h);
+      arr.forEach(function(ev){ eventsBox.appendChild(ev); });
+    });
+    setActiveSort(sortTier);
+    applyFilter();
+  }
+
   pills.forEach(function(p){
     p.addEventListener('click', function(){
       p.dataset.active = p.dataset.active === '1' ? '0' : '1';
-      apply();
+      applyFilter();
     });
   });
-  allPill.addEventListener('click', function(){
+  if(allPill) allPill.addEventListener('click', function(){
     pills.forEach(function(p){ p.dataset.active = '0'; });
-    apply();
+    applyFilter();
   });
+  if(sortDate) sortDate.addEventListener('click', sortByDate);
+  if(sortTier) sortTier.addEventListener('click', sortByTier);
 })();
 """
 
@@ -269,7 +336,8 @@ def _render_event(e: dict) -> str:
     tier_pill = f'<span class="tag tier tier-{tier}">tier {tier}</span>'
 
     return (
-        f'<article class="event" data-source="{html.escape(source)}" data-category="{html.escape(cat)}">'
+        f'<article class="event" data-source="{html.escape(source)}" '
+        f'data-category="{html.escape(cat)}" data-tier="{tier}">'
         f'{head}{body}'
         f'<div class="tags">{tier_pill}{tag_html}</div>'
         f'</article>'
@@ -282,21 +350,33 @@ def _render_pills(events: list[dict]) -> str:
     extras = sorted([s for s in counts if s not in SOURCE_ORDER], key=lambda s: -counts[s])
     sources = ordered + extras
 
-    pills = [
+    filter_pills = [
         f'<button class="pill all" data-active="1" type="button">'
         f'All <span class="n">{len(events)}</span></button>'
     ]
     for s in sources:
         n = counts[s]
-        pills.append(
+        filter_pills.append(
             f'<button class="pill" data-source="{html.escape(s)}" data-active="0" type="button">'
             f'{html.escape(s)} <span class="n">{n}</span></button>'
         )
+
+    sort_pills = (
+        '<button class="sort-pill" data-sort="date" data-active="1" type="button">'
+        'Date <span class="n">newest first</span></button>'
+        '<button class="sort-pill" data-sort="tier" data-active="0" type="button">'
+        'Tier <span class="n">1 → 3</span></button>'
+    )
+
     return (
         '<section class="filters">'
-        '<h4>Filter by source</h4>'
-        + "".join(pills)
-        + "</section>"
+        '<div class="filter-row"><h4>Filter by source</h4>'
+        + "".join(filter_pills)
+        + '</div>'
+        '<div class="filter-row sort-row"><h4>Sort by</h4>'
+        + sort_pills
+        + '</div>'
+        "</section>"
     )
 
 
