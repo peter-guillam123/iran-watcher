@@ -29,6 +29,15 @@ code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#
 <nav><a href="./">All days</a> <a href="about.html">About</a></nav>
 
 <div class="entry milestone">
+<h2>Daily window, filter pills, rich Parliament layout <span class="date">1 May 2026 (later)</span></h2>
+<p>Three changes on the back of Chris's review. (1) The brief is now actually a brief — we were running with a 14-day backfill window when we should have been running 24 hours. The page header now reads "window 30 Apr 08:14Z to 01 May 08:14Z" and on a quiet day like today's that's six items. On a busy day it'll be a couple of dozen. The first run after Parliament returns from prorogation will tell us properly.</p>
+<p>(2) Filter pills along the top group items by source family with live counts ("UK Parliament 3 · US State Department 5 · Iran International 45") and toggle individual sources on/off. Click two and you get the union — "show me Parliament <em>and</em> State Department". Click "All" to clear. Vanilla JS, no framework.</p>
+<p>(3) Parliament events now render with a proper Q&amp;A layout: asking member with party tag and house, the department asked, the date tabled, the full question text, and — when the answer has landed — the answering minister with party, the date, and the full answer. Lord Alton (Crossbench, Lords) → FCDO, Ruth Jones (Labour, Commons) → FCDO on the Bahá'í community, Lee Barron (Labour, Commons) → Home Office on UAE returnees. The kind of richness that makes the items actually scannable instead of opaque.</p>
+<p>Also: cleaned the "Thomas Pigott, Department Spokesperson, Press Statement [date]" boilerplate that the State Department RSS prepends to every body, so the summary actually starts with the news.</p>
+<p>The list at <code>docs/index.html</code> currently shows two pages: today's daily 24-hour brief, and a one-time "last 7 days demo" so anyone who wants to see what the layout does at scale (54 items, all sources represented) has somewhere to look. The demo file goes away once the daily cron has run a few times.</p>
+</div>
+
+<div class="entry milestone">
 <h2>Iran International added; double-escape fix <span class="date">1 May 2026 (afternoon)</span></h2>
 <p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. The brief jumped from 38 items to 126 over the same 14-day window, with the new 88 covering the politics-of-pink propaganda piece, the IRGC firing on an Indian vessel in Hormuz, the dispute within the leadership that blocked the negotiators' trip to Islamabad, the Mashhad protest crackdown. None of which were going to land via FCDO written answers.</p>
 <p>Tier-3 badge is the right home for it — the editorial slant is real and worth signalling. A future job is a parallel triangulation feed (Tasnim or IRNA via mirror, or BBC Monitoring if we ever pay for it) so the brief presents a left-and-right-of-Tehran read rather than a left-only one.</p>
