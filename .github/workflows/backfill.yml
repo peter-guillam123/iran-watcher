@@ -49,7 +49,10 @@ jobs:
             echo "no changes"
             exit 0
           fi
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          # Stage + commit BEFORE pulling, otherwise rebase refuses on
+          # unstaged changes. Pull-rebase still runs in case a concurrent
+          # push landed between checkout and now.
           git add data/ docs/
           git commit -m "Backfill synthesis: $(date -u +'%Y-%m-%d %H:%MZ')"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push

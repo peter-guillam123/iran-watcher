@@ -44,8 +44,10 @@ jobs:
             echo "no changes"
             exit 0
           fi
-          # Pull first in case a concurrent push landed
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          # Stage + commit BEFORE pulling, otherwise rebase refuses on
+          # unstaged changes. Pull-rebase still runs in case a concurrent
+          # push landed between checkout and now.
           git add data/ docs/
           git commit -m "Daily run: $(date -u +'%Y-%m-%d %H:%MZ')"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
