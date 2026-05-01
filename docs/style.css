@@ -99,12 +99,19 @@ main.prose { max-width: var(--measure-prose); }
   line-height: 1;
   color: var(--ink);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.18em;
+  border: none;
 }
-.masthead .wordmark:hover { color: var(--accent); text-decoration: none; }
-.masthead .wordmark .ampersand {
-  font-style: italic; color: var(--accent);
-  font-weight: 500;
+.masthead .wordmark:hover { color: var(--accent); text-decoration: none; border: none; }
+.masthead .wordmark .eye {
+  width: 1.7em; height: 0.85em;
+  color: var(--accent);
+  flex: 0 0 auto;
+  transform: translateY(-0.04em);
 }
+.masthead .wordmark:hover .eye { color: var(--ink); }
 .masthead .dateline {
   font-family: var(--body);
   font-size: 11px;

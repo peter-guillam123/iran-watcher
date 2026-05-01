@@ -117,11 +117,21 @@ FILTER_JS = r"""
 """
 
 
+EYE_SVG = (
+    '<svg class="eye" viewBox="0 0 40 20" aria-hidden="true" focusable="false">'
+    '<path d="M2,10 C8,2 32,2 38,10 C32,18 8,18 2,10 Z" '
+    'fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>'
+    '<circle cx="20" cy="10" r="3.4" fill="currentColor"/>'
+    '</svg>'
+)
+
+
 def _masthead() -> str:
     """The wire-service masthead at the top of every page."""
     return (
         '<header class="masthead">'
-        '<a class="wordmark" href="./">Iran <span class="ampersand">&amp;</span> Watcher</a>'
+        f'<a class="wordmark" href="./" aria-label="Iran Watcher home">'
+        f'Iran{EYE_SVG}Watcher</a>'
         '<span class="dateline">Daily aggregator · est. 2026</span>'
         '</header>'
     )
@@ -131,6 +141,7 @@ def _site_nav(current: str = "") -> str:
     """Top-of-page nav. `current` is the active page key for visual emphasis."""
     items = [
         ("home", "./", "Home"),
+        ("comparisons", "comparisons.html", "Comparisons"),
         ("about", "about.html", "About"),
         ("changelog", "changelog.html", "Changelog"),
     ]
@@ -144,7 +155,7 @@ def _site_nav(current: str = "") -> str:
 def _site_footer() -> str:
     return (
         '<footer class="site">'
-        '<span>Iran &amp; Watcher · primary-source aggregator for the Iran / Middle East beat</span>'
+        '<span>Iran Watcher · primary-source aggregator for the Iran / Middle East beat</span>'
         '<span><a href="https://github.com/peter-guillam123/iran-watcher" rel="noopener">Source on GitHub</a></span>'
         '</footer>'
     )
@@ -432,27 +443,47 @@ def render_day(
 
 # Homepage = today's brief inline + archive + featured ---------------------
 
-FEATURED_BLOCK = """\
-<section class="featured" aria-label="Featured comparisons">
-  <h4>Comparisons vs. ISW Iran Update</h4>
-  <a class="feat" href="compare-isw-2026-04-21.html">
-    <div class="feat-title">21 April 2026 · busy day, sanctions match</div>
-    <div class="feat-blurb">19 of our items vs. ISW's ~8,000-word brief. The Mahan Air sanctions designation lands on the same day on both sides.</div>
-  </a>
-  <a class="feat" href="compare-isw-2026-04-24.html">
-    <div class="feat-title">24 April 2026 · UK angle is loudest here</div>
-    <div class="feat-blurb">22 items including five UK Parliament Q&amp;As on Arms Trade and Starmer's IRGC-ban pledge — where the UK-newsroom case is at its sharpest.</div>
-  </a>
-  <a class="feat" href="compare-isw-2026-04-30.html">
-    <div class="feat-title">30 April 2026 · the original comparison</div>
-    <div class="feat-blurb">A 48h window matching ISW's 30 April report. Geopolitical core caught, tactical military layer missed.</div>
-  </a>
-  <a class="feat" href="last-7-days-demo.html">
-    <div class="feat-title">7-day demo (54 items, all sources)</div>
-    <div class="feat-blurb">A wider window with all source families represented — useful for seeing the filter pills at scale.</div>
-  </a>
-</section>
-"""
+COMPARISONS = [
+    {
+        "href": "compare-isw-2026-04-24.html",
+        "title": "24 April 2026 · the UK angle is loudest here",
+        "blurb": (
+            "22 items including five UK Parliament Q&amp;As on Arms Trade and "
+            "Starmer's IRGC-ban pledge — where the UK-newsroom case is at its "
+            "sharpest. State Department and OFAC sanctions on Iran's China oil "
+            "network land on the same day."
+        ),
+    },
+    {
+        "href": "compare-isw-2026-04-21.html",
+        "title": "21 April 2026 · busy day, sanctions match",
+        "blurb": (
+            "19 of our items vs. ISW's ~8,000-word brief. The Mahan Air "
+            "sanctions designation lands on the same day on both sides; Iran "
+            "International is unusually rich on regime-domestic-life that ISW "
+            "doesn't touch."
+        ),
+    },
+    {
+        "href": "compare-isw-2026-04-30.html",
+        "title": "30 April 2026 · the original comparison",
+        "blurb": (
+            "A 48h window matching ISW's 30 April report. 18 items; broader "
+            "geopolitical core caught (Strait of Hormuz coalition, Iranian "
+            "internal politics, economy collapse), tactical military layer "
+            "missed."
+        ),
+    },
+]
+DEMO_ENTRY = {
+    "href": "last-7-days-demo.html",
+    "title": "7-day demo · 54 items across every source",
+    "blurb": (
+        "A wider window so the filter pills and the Parliament rich layout have "
+        "something to demonstrate against. Goes away once the daily cron has "
+        "accumulated a few weeks."
+    ),
+}
 
 
 def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> str:
@@ -513,8 +544,52 @@ def render_home(latest_stem: str | None, dated_days: list[tuple[str, int]]) -> s
         + '</section>'
     )
 
-    body = intro + brief + FEATURED_BLOCK + archive
+    body = intro + brief + archive
     return _page("Iran watcher", body, body_class="wide", current_nav="home")
+
+
+def render_comparisons() -> str:
+    """The Comparisons hub: lists each ISW comparison and the demo, with the
+    framing that these are evaluation artefacts and not the daily product."""
+    cards = []
+    for c in COMPARISONS:
+        cards.append(
+            f'<a class="feat" href="{c["href"]}">'
+            f'<div class="feat-title">{c["title"]}</div>'
+            f'<div class="feat-blurb">{c["blurb"]}</div>'
+            f'</a>'
+        )
+
+    body = (
+        '<header class="page-header">'
+        '<h1>Comparisons</h1>'
+        '<div class="meta">Evaluation artefacts. Each comparison reads our '
+        'matched-window output for a single day against the ISW Iran Update '
+        'covering the same calendar window — so a UK newsroom can see precisely '
+        'where this tool overlaps with the ISW product, where it goes silent, '
+        'and where it adds something ISW doesn\'t.</div>'
+        '</header>'
+
+        '<p>These pages are not part of the daily product. They were written '
+        'for an editorial review and will probably retire once the v1 case is '
+        'deemed proven. Listed newest first.</p>'
+
+        '<div class="ornament"></div>'
+
+        '<section class="featured" aria-label="ISW comparisons">'
+        '<h4>vs. ISW Iran Update</h4>'
+        + "".join(cards) +
+        '</section>'
+
+        '<section class="featured" aria-label="Demonstration">'
+        '<h4>Layout demonstration</h4>'
+        f'<a class="feat" href="{DEMO_ENTRY["href"]}">'
+        f'<div class="feat-title">{DEMO_ENTRY["title"]}</div>'
+        f'<div class="feat-blurb">{DEMO_ENTRY["blurb"]}</div>'
+        f'</a>'
+        '</section>'
+    )
+    return _page("Comparisons — Iran & Watcher", body, body_class="wide", current_nav="comparisons")
 
 
 # Main ---------------------------------------------------------------------
@@ -548,6 +623,9 @@ def main() -> int:
     latest_dated = dated[-1] if dated else None
     (DOCS_DIR / "index.html").write_text(render_home(latest_dated, days_for_archive))
     print(f"  wrote index.html ({len(days_for_archive)} archive entries)", file=sys.stderr)
+
+    (DOCS_DIR / "comparisons.html").write_text(render_comparisons())
+    print(f"  wrote comparisons.html", file=sys.stderr)
     return 0
 
 
