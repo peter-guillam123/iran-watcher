@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>About — Iran watcher</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
+main{max-width:680px;margin:0 auto;padding:32px 20px 80px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:20px;margin:32px 0 8px}
+.meta{color:#666;font-size:14px;margin-bottom:24px}
+nav{margin:16px 0 24px;font-size:14px}
+nav a{color:#0a4f8f;text-decoration:none;margin-right:16px}
+nav a:hover{text-decoration:underline}
+p{margin:12px 0}
+ul{margin:8px 0 16px;padding-left:24px}
+li{margin:4px 0}
+.tier{font-size:13px;color:#555;font-style:italic}
+code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#eee;padding:1px 5px;border-radius:3px}
+</style>
+</head><body><main>
+
+<h1>About</h1>
+<div class="meta">A tip sheet, not a report. Built for a defence correspondent; left public so anyone can read.</div>
+<nav><a href="./">All days</a> <a href="changelog.html">Changelog</a></nav>
+
+<p>This is a daily aggregator of primary governmental and multilateral sources on Iran and the Middle East crisis. It pulls from public APIs and RSS feeds, filters for Iran-relevant items, de-duplicates them, and publishes a per-day page. The point is to surface the documentary record — what governments and multilateral bodies are saying officially — fast, with permalinks, before the wires do their thing.</p>
+
+<p>It is explicitly not trying to be the <a href="https://understandingwar.org/research/middle-east/" rel="noopener">ISW Iran Update</a>. The ISW report is a synthesised analyst product written by six named researchers, and roughly half its citations are Telegram channels and X posts. None of that is here. What's here is narrower, faster, and more boring — and probably more useful as a UK newsroom backbone, because it weights UK Parliament, the FCDO, the IAEA and the UN press office more than ISW does.</p>
+
+<h2>What's in</h2>
+
+<ul>
+<li><strong>UK Parliament</strong> — every written question and ministerial statement that mentions Iran. Tabled questions and answered questions emit separately, so you catch both the signal of an MP asking and the substance when a minister responds. <span class="tier">Tier 1: official API.</span></li>
+
+<li><strong>US Federal Register</strong> — executive orders, proclamations, agency rules, and (crucially) OFAC sanctions notices. Filtered for "Iran". <span class="tier">Tier 1: official API.</span></li>
+
+<li><strong>UN press releases</strong> — Security Council, General Assembly, Secretary-General. Global feed; filtered locally. <span class="tier">Tier 2: RSS.</span></li>
+
+<li><strong>IAEA</strong> — the agency's news feed. Mostly noise from a Tehran-watching point of view (a lot of capacity-building in Vietnam etc.) but Iran-specific updates land here first. <span class="tier">Tier 2: RSS.</span></li>
+
+<li><strong>US State Department</strong> — three feeds: press releases, the Near East regional feed, and Secretary's remarks. The Near East feed is the strongest signal; the press release feed catches the rest. <span class="tier">Tier 2: RSS.</span></li>
+
+<li><strong>UK Government departments via gov.uk Atom</strong> — FCDO, MoD, No 10, HM Treasury, Cabinet Office. Department-wide feeds; filtered locally for Iran-relevance. <span class="tier">Tier 2: Atom.</span></li>
+</ul>
+
+<h2>What's not in (yet, or ever)</h2>
+
+<ul>
+<li><strong>Telegram.</strong> ISW's tactical detail comes from official channels — the IDF, Hezbollah's <code>mmirleb</code>, Khamenei's <code>rahbar_enghelab_ir</code>. Tractable to add via the Telegram client API; not yet in v1 by deliberate scope. The biggest single gap.</li>
+
+<li><strong>X / Twitter.</strong> CENTCOM, the IDF spokesperson, named OSINT analysts. Possible but expensive (the API tier is paid and awkward), and adjacent to the Telegram gap.</li>
+
+<li><strong>Iranian state media.</strong> IRNA, Tasnim, IRIB, defapress, Khamenei's office. Iran is currently in a 53-plus-day nationwide internet blackout under what the regime calls "Absolute Digital Isolation"; even with proxies the sites are unreliable. A near-term workaround would be Iran International (London-based opposition outlet, in English) as a triangulation layer, but it isn't wired in yet.</li>
+
+<li><strong>US Department of War (war.gov) and CENTCOM (centcom.mil).</strong> Both sit behind aggressive WAFs that 403 anything that doesn't look like a residential browser. Solvable with a proxy; not solved here. Some of their press content surfaces via the State Department or Federal Register feeds anyway.</li>
+
+<li><strong>UN OCHA / ReliefWeb.</strong> Wired in, but ReliefWeb v2 has required a pre-approved <code>appname</code> since November 2025. Once we register one, the adapter switches on without code changes.</li>
+
+<li><strong>Wires (Reuters, AFP, BBC Monitoring) and analyst products.</strong> Out of scope. The point is the documentary record, not the reporting on it.</li>
+
+<li><strong>Israeli government sources beyond UK/US/UN refractions.</strong> The IDF press page has no RSS and would need a polite scrape; gov.il is fragmented across SharePoint sites. Realistic v2.</li>
+</ul>
+
+<h2>How it works</h2>
+
+<p>Each source is a small Python module that returns a list of normalised event dicts. A collector runs every adapter, applies a keyword filter to the ones whose feeds aren't already Iran-filtered server-side, de-duplicates by stable id, time-orders, and writes a JSON dump. A renderer turns the JSON into a static HTML page. Both run twice a day on a GitHub Actions cron.</p>
+
+<p>The keyword filter is intentionally cautious. Strong terms ("Iran", "IRGC", "Hezbollah", "Strait of Hormuz", named nuclear sites) trigger inclusion on their own. Weaker proximity terms ("Saudi Arabia", "Jordan", "IAEA", "nuclear deal") are only kept when they appear with a strong term, or alongside another proximity term. False positives are cheap — you skim past them. False negatives are invisible and worse.</p>
+
+<p>The whole thing is open source and small enough to read in one sitting.</p>
+
+</main></body></html>

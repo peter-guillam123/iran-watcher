@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Changelog — Iran watcher</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
+main{max-width:680px;margin:0 auto;padding:32px 20px 80px}
+h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:18px;margin:28px 0 4px}
+h2 .date{color:#888;font-weight:400;font-size:14px;margin-left:8px}
+.meta{color:#666;font-size:14px;margin-bottom:24px}
+nav{margin:16px 0 24px;font-size:14px}
+nav a{color:#0a4f8f;text-decoration:none;margin-right:16px}
+nav a:hover{text-decoration:underline}
+p{margin:8px 0}
+ul{margin:6px 0 12px;padding-left:24px}
+li{margin:3px 0}
+.entry{padding:18px 0;border-top:1px solid #e2e2e2}
+.entry:first-of-type{border-top:none}
+.milestone h2{font-size:20px}
+code{font-family:ui-monospace,Menlo,Monaco,monospace;font-size:13px;background:#eee;padding:1px 5px;border-radius:3px}
+</style>
+</head><body><main>
+
+<h1>Changelog</h1>
+<div class="meta">What's been built and why. Most recent first.</div>
+<nav><a href="./">All days</a> <a href="about.html">About</a></nav>
+
+<div class="entry milestone">
+<h2>v1 prototype <span class="date">1 May 2026</span></h2>
+<p>First end-to-end run. Six source adapters wired up, filter and de-dup working, daily HTML page rendering. The morning brief for 1 May has 38 items across UK Parliament, Federal Register / OFAC, US State Department, UN Press, IAEA and the UK FCDO / No 10 / MoD via gov.uk's Atom feeds.</p>
+<p>Honest gaps from day one: ReliefWeb is wired but waits on an <code>appname</code> registration that ReliefWeb tightened in November 2025. The US Department of War (the rebranded DoD) and CENTCOM are 403-blocked at the WAF level — most of what we'd want from them is duplicated through State and the Federal Register, but the gap is real. Telegram, X and Iranian state media are firmly out of scope for v1, with the Iran blackout being the strongest argument that the last of those isn't really available right now anyway.</p>
+<p>The biggest surprise on the first run was how much UK Parliament was already pulling its weight: the MoD was being asked about the origin of the drone that struck RAF Akrotiri, the Home Office about British nationals leaving the UAE, the FCDO about UN committee nominations. That's exactly the kind of national-record-of-record material a UK tip-sheet should be surfacing, and most of it never makes the wires.</p>
+</div>
+
+</main></body></html>
