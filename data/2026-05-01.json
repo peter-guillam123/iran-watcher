@@ -1,0 +1,420 @@
+{
+  "generated_at": "2026-05-01T07:38:49.716384Z",
+  "window_since": "2026-04-17T07:38:37.473146Z",
+  "window_until": "2026-05-01T07:38:49.716392Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 28,
+      "kept": 28,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "events": [
+    {
+      "id": "unpress:https://press.un.org/en/blog/5",
+      "source": "UN Press",
+      "source_tier": 2,
+      "published_at": "2026-04-30T11:41:54Z",
+      "title": "SC 10147th Meeting (AM) Democratic People's Republic of Korea",
+      "url": "https://press.un.org/en/blog/5",
+      "summary": "The Security Council will convene for an open briefing under the agenda item “Non-proliferation\", concerning the Democratic People’s Republic of Korea. The meeting was requested by Council members Bahrain, Denmark, France, Latvia, the UK, and the US, as well as non-Council members Japan and the Republic of Korea to discuss the Democratic People's Republic of Korea's “continued violations of multiple Security Council resolutions” two years after the disbandment of the Panel of Experts assisting t",
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901111",
+      "source": "UK Parliament — answer from Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-29T00:00:00Z",
+      "title": "Answered: China and Iran: United Nations",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/HL16518",
+      "summary": "It has not proved possible to respond to this question in the time available before Prorogation. Ministers will correspond directly with the Member.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1903415",
+      "source": "UK Parliament — answer from Home Office",
+      "source_tier": 1,
+      "published_at": "2026-04-29T00:00:00Z",
+      "title": "Answered: British Nationals Abroad: United Arab Emirates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-27/130017",
+      "summary": "It has not proved possible to respond to the hon. Member in the time available before Prorogation.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901880",
+      "source": "UK Parliament — answer from Treasury",
+      "source_tier": 1,
+      "published_at": "2026-04-28T00:00:00Z",
+      "title": "Answered: Mortgages: Interest Rates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128931",
+      "summary": "The Government keeps the economic outlook, including the housing market, under close review. The path to lower interest rates is through low inflation, and the government is fully committed to supporting the Bank of England get inflation back down to the ...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1902545",
+      "source": "UK Parliament — answer from Department for Business and Trade",
+      "source_tier": 1,
+      "published_at": "2026-04-28T00:00:00Z",
+      "title": "Answered: Arms Trade: USA",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129306",
+      "summary": "The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1902386",
+      "source": "UK Parliament — answer from Department for Business and Trade",
+      "source_tier": 1,
+      "published_at": "2026-04-28T00:00:00Z",
+      "title": "Answered: Arms Trade: Israel",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129191",
+      "summary": "The Prime Minister has been clear that the conflict in the Middle East is not our war. We are responding to this crisis with clear and calm leadership to protect our national interests without being drawn in to the conflict.Export licence applications are...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1903524",
+      "source": "UK Parliament — written question to Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-28T00:00:00Z",
+      "title": "Tabled: Iran: Minority Groups",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-28/130131",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, what assessment she has made of the potential impact of a lack of access to (a) education, (b) employment and (c) public services on (a) the BaBahá'í community and (b) other",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1903415",
+      "source": "UK Parliament — written question to Home Office",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Tabled: British Nationals Abroad: United Arab Emirates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-27/130017",
+      "summary": "To ask the Secretary of State for the Home Department, how many British citizens resident in the UAE have returned to the UK since the beginning of the war on Iran.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1902394",
+      "source": "UK Parliament — answer from Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: USA: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129326",
+      "summary": "I refer the Hon Member to the answer provided on 2 April in response to Question 122968.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1902393",
+      "source": "UK Parliament — answer from Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: Israel: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129325",
+      "summary": "I refer the Hon Member to the answer provided on 2 April in response to Question 122968.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901133",
+      "source": "UK Parliament — answer from Cabinet Office",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: Immigration",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/128310",
+      "summary": "The information requested falls under the remit of the UK Statistics Authority.A response to the Rt. Hon. Gentleman’s Parliamentary Question of 20th April is attached.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1900775",
+      "source": "UK Parliament — answer from Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: USA: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-17/128149",
+      "summary": "The agreement allowing the US to use UK military bases is for specific and limited defensive action. Permissions to utilise UK military bases by foreign partners are considered on a case-by-case basis. All UK operational support to allies and partners is ...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901793",
+      "source": "UK Parliament — answer from Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: Israel: Military Alliances",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128640",
+      "summary": "A UK-Israel military cooperation agreement, which incorporates a range of defence engagement activity, was signed in December 2020. Whilst the UK Ministry of Defence regularly reviews cooperation with Israel, the agreement remains extant.",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901792",
+      "source": "UK Parliament — answer from Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: Iran: Armed Conflict",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128639",
+      "summary": "The agreement allowing the US to use UK military bases is for specific and limited defensive action against missile facilities in Iran which were involved in launching strikes at regional allies and ships in the Strait of Hormuz.For operational security r...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901791",
+      "source": "UK Parliament — answer from Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: Diego Garcia: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128638",
+      "summary": "For operational security reasons, we do not offer comment or information relating to foreign nations’ military operations. Permissions to utilise UK military bases by foreign partners are considered on a case-by-case basis. All UK operational support to a...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "ukparl-q-answered:1901789",
+      "source": "UK Parliament — answer from Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-27T00:00:00Z",
+      "title": "Answered: USA: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128637",
+      "summary": "For operational security reasons, we do not offer comment or information relating to foreign nations’ military operations. Permissions to utilise UK military bases by foreign partners are considered on a case-by-case basis. All UK operational support to a...",
+      "tags": [
+        "uk-parliament",
+        "written-answer"
+      ]
+    },
+    {
+      "id": "fedreg:2026-07994",
+      "source": "US Treasury / OFAC (Federal Register)",
+      "source_tier": 1,
+      "published_at": "2026-04-24T00:00:00Z",
+      "title": "Notice of OFAC Sanctions Action",
+      "url": "https://www.federalregister.gov/documents/2026/04/24/2026-07994/notice-of-ofac-sanctions-action",
+      "summary": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons and aircraft that have been placed on OFAC's Specially Designated Nationals and Blocked Persons List (SDN List) based on OFAC's determination that one or more applicable legal criteria were satisfied. All property and interests in property subject to U.S. jurisdiction of these persons are blocked, and U.S. persons are generally prohibited from engaging in transactions with them. The aircraft placed on the SDN List have been identified as property in which a blocked person has an interest.",
+      "tags": [
+        "sanctions"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902862",
+      "source": "UK Parliament — written question to Department of Health and Social Care",
+      "source_tier": 1,
+      "published_at": "2026-04-23T00:00:00Z",
+      "title": "Tabled: Prescription Drugs: Prices",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-23/129558",
+      "summary": "To ask the Secretary of State for Health and Social Care, what assessment his Department has made of the impact of the Iran war on the prices paid by community pharmacies to procure prescription medicines.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902545",
+      "source": "UK Parliament — written question to Department for Business and Trade",
+      "source_tier": 1,
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Tabled: Arms Trade: USA",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129306",
+      "summary": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by the US in",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902386",
+      "source": "UK Parliament — written question to Department for Business and Trade",
+      "source_tier": 1,
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Tabled: Arms Trade: Israel",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129191",
+      "summary": "To ask the Secretary of State for Business and Trade, whether he has assessed if there is a clear risk that arms exports licensed by the UK government might be used to commit or facilitate a serious violation of international humanitarian law by Israel in",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902394",
+      "source": "UK Parliament — written question to Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Tabled: USA: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129326",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to the USA being used to commit serious violations of humanitarian law in Iran.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1902393",
+      "source": "UK Parliament — written question to Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-22T00:00:00Z",
+      "title": "Tabled: Israel: Arms Trade",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-22/129325",
+      "summary": "To ask the Secretary of State for Foreign, Commonwealth and Development Affairs, whether she has made an assessment of the risk of the possibility of arms supplied from the UK to Israel being used to commit serious violations of humanitarian law in Iran a",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901880",
+      "source": "UK Parliament — written question to Treasury",
+      "source_tier": 1,
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Tabled: Mortgages: Interest Rates",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128931",
+      "summary": "To ask the Chancellor of the Exchequer, what assessment she has made of the potential impact of recent changes to mortgage rates, including those influenced by recent global economic conditions, on housing market activity.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901793",
+      "source": "UK Parliament — written question to Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Tabled: Israel: Military Alliances",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128640",
+      "summary": "To ask the Secretary of State for Defence, if he will review the 2020 military cooperation agreement with Israel in the context of that country’s role in the war on Iran since 28 February 2026.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901792",
+      "source": "UK Parliament — written question to Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Tabled: Iran: Armed Conflict",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128639",
+      "summary": "To ask the Secretary of State for Defence, whether he has made an estimate of the number of civilian casualties caused by United States airstrikes on Iran since 28 February 2026.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901791",
+      "source": "UK Parliament — written question to Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Tabled: Diego Garcia: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128638",
+      "summary": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from Diego Garcia have conducted strikes on Iran since 28 February 2026.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901789",
+      "source": "UK Parliament — written question to Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-21T00:00:00Z",
+      "title": "Tabled: USA: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-21/128637",
+      "summary": "To ask the Secretary of State for Defence, how many times United States aircraft taking off from bases in the United Kingdom have conducted strikes on Iran since 28 February 2026.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901111",
+      "source": "UK Parliament — written question to Foreign, Commonwealth and Development Office",
+      "source_tier": 1,
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "Tabled: China and Iran: United Nations",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/HL16518",
+      "summary": "To ask His Majesty's Government what discussions they have had regarding the nomination of the government of Iran to the United Nations Committee for Program and Coordination, and the government of China to the United Nations Committee on NGOs; and what a",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1901133",
+      "source": "UK Parliament — written question to Cabinet Office",
+      "source_tier": 1,
+      "published_at": "2026-04-20T00:00:00Z",
+      "title": "Tabled: Immigration",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-20/128310",
+      "summary": "To ask the Minister for the Cabinet Office, how many people aged 18 and over immigrated to the UK in each year from 2022 to 2025 from (a) Pakistan, (b) Kuwait, (c) Afghanistan, (d) Qatar, (e) the United Arab Emirates, (f) Sudan, (g) Mauritania, (h) Iraq,",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    },
+    {
+      "id": "ukparl-q-tabled:1900775",
+      "source": "UK Parliament — written question to Ministry of Defence",
+      "source_tier": 1,
+      "published_at": "2026-04-17T00:00:00Z",
+      "title": "Tabled: USA: Military Bases",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-04-17/128149",
+      "summary": "To ask the Secretary of State for Defence, what steps he is taking to help ensure UK compliance with the laws of war in relation to US bombing missions on Iran from UK bases.",
+      "tags": [
+        "uk-parliament",
+        "written-question"
+      ]
+    }
+  ]
+}
