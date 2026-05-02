@@ -1,0 +1,785 @@
+{
+  "generated_at": "2026-05-02T10:39:50.612129Z",
+  "window_since": "2026-04-29T23:59:59Z",
+  "window_until": "2026-05-01T23:59:59Z",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 10,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 63,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 15,
+      "kept": 12,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 53,
+      "kept": 19,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "ok": false,
+      "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
+    }
+  ],
+  "threads": [],
+  "events": [
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604280611",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T21:05:00Z",
+      "title": "Iran war cannot end with Revolutionary Guards still in control",
+      "url": "https://www.iranintl.com/en/202604280611",
+      "summary": "Any settlement of the Iran war that leaves the Revolutionary Guards in control would preserve the Islamic Republic's core of power and risk turning a military advantage for the US and Israel into a strategic defeat.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605012686",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T20:05:31Z",
+      "title": "Jailed Iranian Nobel laureate hospitalized after losing consciousness twice",
+      "url": "https://www.iranintl.com/en/202605012686",
+      "summary": "Iranian Nobel Peace Prize laureate Narges Mohammadi was urgently transferred from Zanjan Prison to a hospital on Friday after losing consciousness twice and suffering a severe deterioration in her health, her lawyer and the Narges Foundation said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/334",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T19:16:15Z",
+      "title": "⚙️ با اولویت دادن به مصرف کالاهای ساخت داخل کشور از کارگران مولّد زحمتکش ایرانی  پشتیبانی کنیم. ✍ بخشی از…",
+      "url": "https://t.me/rahbar_enghelab_ir/334",
+      "summary": "⚙️ با اولویت دادن به مصرف کالاهای ساخت داخل کشور از کارگران مولّد زحمتکش ایرانی  پشتیبانی کنیم. ✍ بخشی از پیام رهبر معظّم انقلاب به مناسبت روز کارگر و روز معلم | ۱۱ اردیبهشت ۱۴۰۵ 🖨 نسخه کیفیت اصلی 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/334"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "By prioritising consumption of domestically-produced goods, let us support productive and hardworking Iranian workers.",
+      "summary_en": "By prioritising consumption of domestically-produced goods, let us support productive and hardworking Iranian workers. An excerpt from the Supreme Leader's message on the occasion of Workers' Day and Teachers' Day."
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604301708",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T18:33:00Z",
+      "title": "Iran faces internal instability fears as US blockade tests regime loyalists",
+      "url": "https://www.iranintl.com/en/202604301708",
+      "summary": "Rising prices for essential goods, inflation above 73%, and a surging dollar amid a fragile “no war, no peace” environment, US naval pressure, and political divisions have heightened concerns among some officials about internal instability.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/333",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:43:57Z",
+      "title": "💬 صاحبان کسب و کارهای آسیب‌دیده تا حدّ ممکن از #تعدیل_نیرو چه در واحدهای تولیدی و چه واحدهای خدماتی اجتناب…",
+      "url": "https://t.me/rahbar_enghelab_ir/333",
+      "summary": "💬 صاحبان کسب و کارهای آسیب‌دیده تا حدّ ممکن از #تعدیل_نیرو چه در واحدهای تولیدی و چه واحدهای خدماتی اجتناب نمایند و البته دولت محترم هم در حدّ مقدور از این عملِ خیرخواهانه حمایت نماید. | ۱۱ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/333"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Business owners of affected enterprises should as much as possible avoid workforce reductions, whether in production units or service units, and of course the government should support this charitable act to the extent possible.",
+      "summary_en": "Business owners of affected enterprises should as much as possible avoid workforce reductions, whether in production units or service units, and of course the government should support this charitable act to the extent possible."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/332",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:24:48Z",
+      "title": "👥 ملت در حمایت عملی از معلمان و کارگران وارد میدان شود 🔸 کسب‌وکارها از تعدیل نیرو پرهیز کنند و دولت از این…",
+      "url": "https://t.me/rahbar_enghelab_ir/332",
+      "summary": "👥 ملت در حمایت عملی از معلمان و کارگران وارد میدان شود 🔸 کسب‌وکارها از تعدیل نیرو پرهیز کنند و دولت از این عمل پشتیبانی کند 📝 تجلیل‌های زبانیِ سالیانه یا هر چند وقت یکبار گرچه بجا و مناسب است ولی قدردانی از تلاشهای این دو قشر باید عمیق‌تر و عملی‌تر از این حد باشد. ▪️ بنده تصور میکنم همانطور که ملت عزیز ایران با حضور در میادین و خیابانها از نیروهای نظامی کشور خود حمایتی درخور به‌عمل می‌آورند، شایسته است در یاری کردن معلمان و کارگران هم پشتیبانی قوی‌ای از خود نشان دهند. از جمله باید تعامل خانواده‌های دانش‌آموزان و دانشجویان در اداره‌ی مدارس و دانشگاهها، بیشتر از پیش فراهم شود. ▪️ همچنین باید با ",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/332"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Let the nation practically support teachers and workers; businesses should avoid workforce reductions and the government should support this act",
+      "summary_en": "Let the nation practically support teachers and workers; businesses should avoid workforce reductions and the government should support this act. Annual verbal tributes or those given every so often are indeed appropriate and fitting, but appreciation for the efforts of these two groups must be deeper and more practical than this. I think that just as the Iranian nation demonstrates worthy support for the country's military forces by appearing in squares and streets, it is fitting that they show strong support in assisting teachers and workers. This should include increased interaction by families of pupils and students in the administration of schools and universities. Furthermore, by..."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/331",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:22:45Z",
+      "title": "🇮🇷 پس از اثبات توانمندی در نبرد نظامی باید در جهاد اقتصادی و فرهنگی هم دشمن را ناامید کنیم 🔸 معلم و کارگر…",
+      "url": "https://t.me/rahbar_enghelab_ir/331",
+      "summary": "🇮🇷 پس از اثبات توانمندی در نبرد نظامی باید در جهاد اقتصادی و فرهنگی هم دشمن را ناامید کنیم 🔸 معلم و کارگر ستون فقرات عرصه‌ی فرهنگ و اقتصاد هستند 📝 اینک که جمهوری اسلامی ایران بعد از بیش از چهل‌وهفت سال مجاهدت، با تکیه به فضل الهی در نبرد نظامی با دشمنانِ پیشرفت و تعالی خود، بخشی از توانمندی چشمگیر خود را به جهانیان ثابت کرده است، در مرحله‌ی جهاد اقتصادی و فرهنگی نیز باید آنان را ناامید کرده و شکست دهد. ▪️ معلمان مؤثرترین حلقه در نبرد فرهنگی و کارگران از مؤثرترین عناصر در نبرد اقتصادی خواهند بود؛ به‌طوری‌که می‌توان ادعا کرد که این دو، به منزله‌ی ستون فقرات عرصه‌ی فرهنگ و اقتصاد هستند. از این رو",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/331"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "After proving capability in military battle, we must disappoint the enemy in economic and cultural jihad too; teacher and worker are the backbone of the sphere of culture and economy",
+      "summary_en": "After proving capability in military battle, we must disappoint the enemy in economic and cultural jihad too; teacher and worker are the backbone of the sphere of culture and economy. Now that the Islamic Republic of Iran, after more than forty-seven years of struggle, relying on divine grace, has proved part of its remarkable capability in military battle against the enemies of its progress and advancement to the world, it must also disappoint and defeat them in the phase of economic and cultural jihad. Teachers are the most effective link in cultural battle and workers are the most effective elements in economic battle; to the extent that one can claim that these two are like the backbone of the sphere of culture and economy. Therefore..."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/330",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:16:32Z",
+      "title": "⚙️ عرصه‌ی کار، صحنه‌ی وسیعی است به‌وسعت کشور 👨‍🔧 تعهد و سخت‌کوشی در عرصه کار تضمین‌کننده پیشرفت کشور است 📝…",
+      "url": "https://t.me/rahbar_enghelab_ir/330",
+      "summary": "⚙️ عرصه‌ی کار، صحنه‌ی وسیعی است به‌وسعت کشور 👨‍🔧 تعهد و سخت‌کوشی در عرصه کار تضمین‌کننده پیشرفت کشور است 📝 عرصه‌ی کار، صحنه‌ی وسیعی است به‌وسعت کشور که از داخل خانه‌ها، ادارات و واحدهای کسب و کار و مساجد گرفته تا مزارع و کارگاهها و کارخانه‌ها و معادن و انواع زیادی از مشاغل خدماتی کشیده میشود. هرچقدر این پهنه‌ی وسیع از دو عنصر سخت‌کوشی و تعهّد که از ارکانِ هر توفیق بزرگی بشمار میروند بیشتر بهره‌مند باشد، پیشرفتگی کشور، بیشتر و بهتر تضمین میگردد. ▪️ میدانیم یک کارگر در پرتو تعهّد و حُسنِ عمل، گاه آن‌چنان جایگاهی می‌یابد که شایسته است همچون دست پُرمهر معلم و مربّی، بر دست توانا و هنرمند او هم بوس",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/330"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The sphere of work is a vast arena spanning the width of the country; commitment and hard work in the workplace ensure the country's progress",
+      "summary_en": "The sphere of work is a vast arena spanning the width of the country; commitment and hard work in the workplace ensure the country's progress. The sphere of work is a vast arena spanning the width of the country, stretching from inside homes, offices, and business and trade units and mosques to farms and workshops, factories, mines, and many types of service occupations. The more this vast expanse benefits from the two elements of hard work and commitment, which are considered pillars of every great success, the more the country's development is ensured and improved. We know that a worker, in the light of commitment and good deed, sometimes achieves such a position that it is fitting that, just as the kind hand of the teacher and educator, we kiss the capable and skilled hand..."
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680740/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-05-01T17:16:09Z",
+      "title": "U.S. Sanctions Tighten Grip on Iran-China Oil Trade",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/u-s-sanctions-tighten-grip-on-iran-china-oil-trade/",
+      "summary": "The United States is taking decisive action to disrupt Iran’s illicit oil trade, the primary revenue stream for the Iranian regime to fund terrorism and regional destabilization. Today, the Department of State sanctioned several entities, an individual, and a vessel involved in the trade of Iranian petroleum, petroleum products, and petrochemical products. This action targeted Qingdao Haiye Oil Terminal Co., Ltd., a China-based petroleum terminal operator that has imported tens of millions of ba",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/329",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:13:40Z",
+      "title": "🎞 بازخوانی تصویری ✍ پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و روز…",
+      "url": "https://t.me/rahbar_enghelab_ir/329",
+      "summary": "🎞 بازخوانی تصویری ✍ پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و روز معلم | ۱۱ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/329"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video review: message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day",
+      "summary_en": "Video review: message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/328",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:12:04Z",
+      "title": "💬 با اولویت دادن به مصرف کالاهای ساخت داخل کشور از کارگران مولّد زحمتکش ایرانی  پشتیبانی کنیم. | ۱۱ اردیبهشت…",
+      "url": "https://t.me/rahbar_enghelab_ir/328",
+      "summary": "💬 با اولویت دادن به مصرف کالاهای ساخت داخل کشور از کارگران مولّد زحمتکش ایرانی  پشتیبانی کنیم. | ۱۱ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/328"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "By prioritising consumption of domestically-produced goods, let us support productive and hardworking Iranian workers.",
+      "summary_en": "By prioritising consumption of domestically-produced goods, let us support productive and hardworking Iranian workers."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/327",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:07:38Z",
+      "title": "🇮🇷 پیشرفت کشور بر دو بال معلم و کارگر است 👨‍🏫 آینده جامعه در آینه رفتار و گفتار معلمان بازتاب می‌یابد ✏️ دو…",
+      "url": "https://t.me/rahbar_enghelab_ir/327",
+      "summary": "🇮🇷 پیشرفت کشور بر دو بال معلم و کارگر است 👨‍🏫 آینده جامعه در آینه رفتار و گفتار معلمان بازتاب می‌یابد ✏️ دو روزِ یازدهم و دوازدهم اردیبهشت، روزهایی است که در آن از مقام کارگر و منزلت معلم تقدیر به‌عمل می‌آید. فارغ از تجلیل زبانی و نمادین که به‌نوبه‌ی خود کار بجا و صحیحی است، پیشرفت هر کشوری رَهینِ دو بال علم و عمل است. معلم در اولین مرحله‌ي تحقق از این مقصود نقش‌آفرینی میکند. مسئولیت خطیر آموزشِ دانش، افزایش مهارت، و بخش مهمی از رشد بینش و قالب‌ریزی هویت نسل آینده برعهده‌ی او است. ⏺️ دانش‌آموزان و دانشجویان و طلّابی که در کنار هر معلمی رشد میکنند، در آینده نه‌چندان دور، مهارتهای آموخته و دانشه",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/327"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The country's progress is on the wings of the teacher and worker; the future of society is reflected in the conduct and speech of teachers",
+      "summary_en": "The country's progress is on the wings of the teacher and worker; the future of society is reflected in the conduct and speech of teachers. The eleventh and twelfth days of Ordibehesht are days on which the status of the worker and the standing of the teacher are appreciated. Apart from verbal and symbolic tributes, which are in themselves appropriate and right, the progress of any country depends on two wings: knowledge and action. The teacher plays a role in the first stage of achieving this purpose. The grave responsibility of teaching knowledge, increasing skills, and an important part of developing insight and shaping the identity of the next generation falls upon his shoulders. Students and pupils who grow up alongside every teacher will, in the not-too-distant future, apply the skills they have learned and the knowledge they have acquired..."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/326",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:05:15Z",
+      "title": "🎧 بازخوانی صوتی ✍ پیام متنی حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و…",
+      "url": "https://t.me/rahbar_enghelab_ir/326",
+      "summary": "🎧 بازخوانی صوتی ✍ پیام متنی حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و روز معلم | ۱۱ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/326"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Audio review: textual message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day",
+      "summary_en": "Audio review: textual message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/325",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:04:01Z",
+      "title": "💬 جمهوری اسلامی ایران اینک که در نبرد نظامی با #دشمنان_پیشرفت خود، بخشی از توانمندی چشمگیرش را به جهانیان…",
+      "url": "https://t.me/rahbar_enghelab_ir/325",
+      "summary": "💬 جمهوری اسلامی ایران اینک که در نبرد نظامی با #دشمنان_پیشرفت خود، بخشی از توانمندی چشمگیرش را به جهانیان ثابت کرده، در مرحله جهاد اقتصادی و جهاد فرهنگی نیز باید دشمن را ناامید کرده و شکست دهد. | ۱۱ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/325"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Islamic Republic of Iran, having proved part of its remarkable capability in military battle with the enemies of its progress, must now disappoint and defeat the enemy in the phase of economic and cultural jihad.",
+      "summary_en": "The Islamic Republic of Iran, having proved part of its remarkable capability in military battle with the enemies of its progress, must now disappoint and defeat the enemy in the phase of economic and cultural jihad."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/324",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:01:46Z",
+      "title": "📝 پیام رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلم 🗒 بسم‌الله الرّحمن الرّحیم ✍ دو روزِ یازدهم و…",
+      "url": "https://t.me/rahbar_enghelab_ir/324",
+      "summary": "📝 پیام رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلم 🗒 بسم‌الله الرّحمن الرّحیم ✍ دو روزِ یازدهم و دوازدهم اردیبهشت، روزهایی است که در آن از مقام کارگر و منزلت معلم تقدیر به‌عمل می‌آید. فارغ از تجلیل زبانی و نمادین که به‌نوبه‌ی خود کار بجا و صحیحی است، پیشرفت هر کشوری رَهینِ دو بال علم و عمل است. 👨‍🏫 معلم در اولین مرحله‌ی تحقق از این مقصود نقش‌آفرینی میکند. مسئولیت خطیر آموزشِ دانش، افزایش مهارت، و بخش مهمی از رشد بینش و قالب‌ریزی هویت نسل آینده برعهده‌ی او است. دانش‌آموزان و دانشجویان و طلّابی که در کنار هر معلمی رشد میکنند، در آینده نه‌چندان دور، مهارتهای آموخته و دانشهای یادگرفته خود را",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/324"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Message from the Supreme Leader of the Islamic Revolution on the occasion of Workers' Day and Teachers' Day",
+      "summary_en": "Message from the Supreme Leader of the Islamic Revolution on the occasion of Workers' Day and Teachers' Day. In the name of Allah, the Compassionate, the Merciful. The eleventh and twelfth days of Ordibehesht are days on which the status of the worker and the standing of the teacher are appreciated. Apart from verbal and symbolic tributes, which are in themselves appropriate and right, the progress of any country depends on two wings: knowledge and action. The teacher plays a role in the first stage of achieving this purpose. The grave responsibility of teaching knowledge, increasing skills, and an important part of developing insight and shaping the identity of the next generation falls upon his shoulders. Students and pupils who grow up alongside every teacher will, in the not-too-distant future, apply the skills they have learned and the knowledge they have acquired..."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/323",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T17:01:16Z",
+      "title": "📖 متن کامل پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و روز معلم | ۱۱…",
+      "url": "https://t.me/rahbar_enghelab_ir/323",
+      "summary": "📖 متن کامل پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب اسلامی به مناسبت روز کارگر و روز معلم | ۱۱ اردیبهشت ۱۴۰۵ 🔗 farsi.khamenei.ir/news-content?id=62870 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/323"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Full text of the message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day",
+      "summary_en": "Full text of the message from Ayatollah Seyyed Morteza Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Workers' Day and Teachers' Day."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/322",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T16:02:46Z",
+      "title": "🛑 تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز…",
+      "url": "https://t.me/rahbar_enghelab_ir/322",
+      "summary": "🛑 تا ساعتی دیگر پیام حضرت آیت‌الله سیّدمجتبیٰ حسینی خامنه‌ای رهبر انقلاب اسلامی به مناسبت روز کارگر و روز معلّم منتشر خواهد شد. 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/322"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "In a few hours, a message from Ayatollah Seyyed Mojtaba Hosseini Khamenei, Leader of the Islamic Revolution, will be released on the occasion of Workers' Day and Teachers' Day",
+      "summary_en": "In a few hours, a message from Ayatollah Seyyed Mojtaba Hosseini Khamenei, Leader of the Islamic Revolution, will be released on the occasion of Workers' Day and Teachers' Day."
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/321",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T15:14:27Z",
+      "title": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای:…",
+      "url": "https://t.me/rahbar_enghelab_ir/321",
+      "summary": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای: ✍ «در مقام درس‌آموزی از رفتار بزرگان و بخصوص شخصیت رهبر شهید، خیلی بجا است که این خصوصیت خیرخواهی خالصانه برای یکدیگر و مواسات را رویّه خود سازیم.» ۲۰/فروردین/۱۴۰۵ 🇮🇷 پویش ایران همدل، از آحاد مردم عزیز دعوت میکند تا در لبیک به این توصیه و «به نیابت از رهبر شهیدمان»، این حرکت همدلانه را با انتشار فیلم و عکس ترویج کنند. 📷 تصاویر خود را برای انعکاس این جلوه‌های بدیع در رسانه #ایران_همدل به آدرس t.me/khamenei_Contact_ir ارسال کنید. 💳 از طریق زیر می‌توانیم به هموطنان نیازمند و آسیب‌دیدگان ‌ج",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/321"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Heeding the Supreme Leader's advice — Do not refrain from helping and supporting one another — Ayatollah Seyyed Mojtaba Khamenei",
+      "summary_en": "Heeding the Supreme Leader's advice — Do not refrain from helping and supporting one another — Ayatollah Seyyed Mojtaba Khamenei: 'In the matter of learning from the conduct of great figures and especially the character of the martyred leader, it is most fitting that we make this trait of genuine benevolence towards one another and compassion our practice.' 20 Farvardin 1405. Iran Compassionate movement invites the dear people to heed this advice and 'on behalf of our martyred leader', promote this compassionate action by sharing videos and photographs. Send your images to reflect these beautiful manifestations in Iran Compassionate media to t.me/khamenei_Contact_ir. Through the following we can help needy and affected citizens"
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680709/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-05-01T13:25:48Z",
+      "title": "United States Sanctions Network Facilitating Iran’s Illicit Oil Trade",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/united-states-sanctions-network-facilitating-irans-illicit-oil-trade/",
+      "summary": "United States Sanctions Network Facilitating Iran&#8217;s Illicit Oil Trade Fact Sheet May 1, 2026 The United States is taking decisive action to disrupt Iran’s illicit oil trade, the Iranian regime&#8217;s primary revenue streams that fund terrorism and regional destabilization. Today, the Department of State sanctioned multiple entities, an individual, and a vessel involved in the trade of Iranian petroleum and petroleum products. This action targets a China-based petroleum terminal operator —",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/320",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-01T13:11:09Z",
+      "title": "📍 فصل نوین خلیج فارس و تنگه هرمز ✏️ مروری بر دیدگاه حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای، رهبر انقلاب اسلامی…",
+      "url": "https://t.me/rahbar_enghelab_ir/320",
+      "summary": "📍 فصل نوین خلیج فارس و تنگه هرمز ✏️ مروری بر دیدگاه حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای، رهبر انقلاب اسلامی درباره مدیریت تنگه هرمز 🔻 چشم‌انداز خلیج‌ فارس و تنگه هرمز ▪️ طلیعه نظم جدید منطقه و جهان در سایه تدابیر و سیاست‌های مقاومت و راهبرد ایران قوی ▪️ جایگاه نداشتن بیگانگان و شرارت آنها در خلیج فارس ▪️ آینده خلیج فارس؛ آینده‌ای بدون آمریکا و در خدمت پیشرفت، آسایش و رفاه ملّت‌ها 🔻 اقدامات در مدیریت تنگه هرمز ▪️ استفاده از اهرم مسدودسازی تنگه هرمز ▪️ شکر عملی نعمت اعمال مدیریت بر تنگه با ایمن کردن منطقه خلیج فارس ▪️ برچیدن بساط سوء‌استفاده دشمن متخاصم از این آبراه 🔻 ثمرات مدیریت جدید تنگه هر",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/320"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A new chapter in the Persian Gulf and Strait of Hormuz — A review of Ayatollah Seyyed Mojtaba Hosseini Khamenei's, Leader of the Islamic Revolution's views on managing the Strait of Hormuz",
+      "summary_en": "A new chapter in the Persian Gulf and Strait of Hormuz — A review of Ayatollah Seyyed Mojtaba Hosseini Khamenei's, Leader of the Islamic Revolution's views on managing the Strait of Hormuz. Vision of the Persian Gulf and Strait of Hormuz: The dawn of a new regional and global order in the light of Iran's resistance measures and the strategy of a strong Iran; No place for foreigners and their mischief in the Persian Gulf; The future of the Persian Gulf: a future without America and in service of the progress, well-being and welfare of the people. Actions in managing the Strait of Hormuz: Use of the tool of blockading the Strait of Hormuz; Practical gratitude for the blessing of exercising control over the Strait by securing the Persian Gulf region; Breaking down the enemy's apparatus of misuse of this waterway. Fruits of the new management of the Strait of Hormuz"
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/yemen-sanctions-guidance#2026-05-01T10:19:35Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:35Z",
+      "title": "Statutory guidance: Yemen sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/yemen-sanctions-guidance",
+      "summary": "Statutory guidance for the Yemen sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/iran-sanctions-guidance#2026-05-01T10:19:29Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:29Z",
+      "title": "Statutory guidance: Iran sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/iran-sanctions-guidance",
+      "summary": "Statutory guidance for the Iran sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance#2026-05-01T10:19:27Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-05-01T10:19:27Z",
+      "title": "Statutory guidance: Iran nuclear sanctions: guidance",
+      "url": "https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance",
+      "summary": "Statutory guidance for the Iran nuclear sanctions regime, plus a summary of its purposes, scope and prohibitions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605017498",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T09:06:41Z",
+      "title": "Tehran residents face eviction from hotels after war damage",
+      "url": "https://www.iranintl.com/en/202605017498",
+      "summary": "Dozens of residents in Tehran displaced by a 40-day war with the US and Israel said municipal authorities ordered them to vacate temporary hotel housing despite unsafe homes and limited aid, according to interviews published by Etemad newspaper on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604306708",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-01T08:21:09Z",
+      "title": "Ottawa on defensive after Iran football chief linked to IRGC entered Canada",
+      "url": "https://www.iranintl.com/en/202604306708",
+      "summary": "Canada’s government is under pressure to explain how Mehdi Taj, Iran’s football chief and a former intelligence officer of the Revolutionary Guards, was briefly allowed into the country after being granted a special permit despite Canada’s IRGC ban.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307863",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T21:31:00Z",
+      "title": "Economics may decide outcome of Iran-US standoff",
+      "url": "https://www.iranintl.com/en/202604307863",
+      "summary": "The next phase of the Iran–US standoff may be decided not on the battlefield, but by how much economic pressure each side can withstand.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/680660/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-04-30T20:59:42Z",
+      "title": "United States Condemns the Pro-Hamas Global Sumud Flotilla",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/united-states-condemns-the-pro-hamas-global-sumud-flotilla/",
+      "summary": "The United States condemns the Global Sumud Flotilla, a pro-Hamas initiative and a baseless, counterproductive effort to undermine President Trump’s Peace Plan. This Pro-Hamas Flotilla is organized by an OFAC-sanctioned entity, the Popular Conference for Palestinians Abroad, which was designated as a specially designated global terrorist in January for operating at Hamas’ behest. The founder of the Global Sumud Flotilla has publicly expressed support for the Iranian regime and its terror proxies",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/319",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T19:52:06Z",
+      "title": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای:…",
+      "url": "https://t.me/rahbar_enghelab_ir/319",
+      "summary": "💌 لبیک به توصیه رهبر معظم انقلاب ❤️ از کمک و یاری به یکدیگر فروگذار نکنید 📝 حضرت آیت‌الله سیدمجتبی خامنه‌ای: ✍ «در مقام درس‌آموزی از رفتار بزرگان و بخصوص شخصیت رهبر شهید، خیلی بجا است که این خصوصیت خیرخواهی خالصانه برای یکدیگر و مواسات را رویّه خود سازیم.» ۲۰/فروردین/۱۴۰۵ 🇮🇷 پویش ایران همدل، از آحاد مردم عزیز دعوت میکند تا در لبیک به این توصیه و «به نیابت از رهبر شهیدمان»، این حرکت همدلانه را با انتشار فیلم و عکس ترویج کنند. 📷 تصاویر خود را برای انعکاس این جلوه‌های بدیع در رسانه #ایران_همدل به آدرس t.me/khamenei_Contact_ir ارسال کنید. 💳 از طریق زیر می‌توانیم به هموطنان نیازمند و آسیب‌دیدگان ‌ج",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/319"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Heeding the Supreme Leader's advice — Do not refrain from helping and supporting one another — Ayatollah Seyyed Mojtaba Khamenei",
+      "summary_en": "Heeding the Supreme Leader's advice — Do not refrain from helping and supporting one another — Ayatollah Seyyed Mojtaba Khamenei: 'In the matter of learning from the conduct of great figures and especially the character of the martyred leader, it is most fitting that we make this trait of genuine benevolence towards one another and compassion our practice.' 20 Farvardin 1405. Iran Compassionate movement invites the dear people to heed this advice and 'on behalf of our martyred leader', promote this compassionate action by sharing videos and photographs. Send your images to reflect these beautiful manifestations in Iran Compassionate media to t.me/khamenei_Contact_ir. Through the following we can help needy and affected citizens"
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604302117",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T18:15:00Z",
+      "title": "Pezeshkian, Ghalibaf seek Araghchi’s ouster over 'subservience' to Guards",
+      "url": "https://www.iranintl.com/en/202604302117",
+      "summary": "Iran's president and parliament speaker are seeking Foreign Minister Abbas Araghchi’s removal, accusing him of following the Revolutionary Guard chief’s instructions in nuclear talks without informing the president, two sources familiar with the matter told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/318",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T17:40:03Z",
+      "title": "💬 خلیج فارس موهبت الهی و سرمایه راهبردی ملت‌های منطقه است 📝 موهبت «خلیج فارس» علاوه بر نقطه اتصال ملتها، مسیر…",
+      "url": "https://t.me/rahbar_enghelab_ir/318",
+      "summary": "💬 خلیج فارس موهبت الهی و سرمایه راهبردی ملت‌های منطقه است 📝 موهبت «خلیج فارس» علاوه بر نقطه اتصال ملتها، مسیر حیاتی و منحصر به فرد اقتصاد جهانی را ایجاد کرده و  این سرمایه‌ی راهبردی، طمع شیاطین بسیاری را در قرنهای گذشته برانگیخته ... که تازه‌ترین نمونه‌ی آن قدّاره‌کشی‌‌های اخیر شیطان بزرگ بود. ✍ بخشی از پیام رهبر معظّم انقلاب به مناسبت روز ملی خلیج فارس |  ۱۰ اردیبهشت ۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/318"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Persian Gulf is a divine blessing and strategic capital of the region's peoples — The blessing of the 'Persian Gulf' in addition to being a point of connection for peoples, has created a vital and unique route for the world economy",
+      "summary_en": "The Persian Gulf is a divine blessing and strategic capital of the region's peoples — The blessing of the 'Persian Gulf' in addition to being a point of connection for peoples, has created a vital and unique route for the world economy and this strategic capital has aroused the greed of many devils over past centuries... of which the latest example is the recent meddling of the Great Satan. An excerpt from the Supreme Leader's message on the occasion of National Persian Gulf Day | 10 Ordibehesht 1405"
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307152",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T16:50:15Z",
+      "title": "US forms new coalition to secure Hormuz, asks partners to join",
+      "url": "https://www.iranintl.com/en/202604307152",
+      "summary": "The United States has asked partner countries to join its newly formed Maritime Freedom Coalition to help secure passage through the Strait of Hormuz and Persian Gulf waterways, according to a State Department cable.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/317",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T15:46:06Z",
+      "title": "🇮🇷 فصل نوین خلیج فارس و تنگه هرمز در حال رقم خوردن است 📝 امروز با گذشت دو ماه از بزرگترین لشکرکشی و تجاوز…",
+      "url": "https://t.me/rahbar_enghelab_ir/317",
+      "summary": "🇮🇷 فصل نوین خلیج فارس و تنگه هرمز در حال رقم خوردن است 📝 امروز با گذشت دو ماه از بزرگترین لشکرکشی و تجاوز زورگویان دنیا در منطقه و شکست مفتضحانه‌ی امریکا در نقشه‌ی خود، فصل نوین خلیج فارس و تنگه هرمز در حال رقم خوردن است. 🔸 ملت‌های منطقه خلیج فارس که سال‌های متمادی به سکوت و ذلّت‌پذیریِ حاکمان در برابر زورگویان و تجاوزکاران عادت کرده بودند، در شصت روز گذشته جلوه‌های زیبای صلابت، هوشیاری و مجاهدت دلاورمردان نیروهای دریایی ارتش و سپاه را در کنار غیرت و سلحشوری مردم و جوانان خطّه‌‌ی جنوب ایران عزیز در نفی سلطه‌ی بیگانگان به چشم خود دیدند. ✍ بخشی از پیام رهبر معظّم انقلاب به مناسبت روز ملی خلیج فا",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/317"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/316",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-04-30T15:02:00Z",
+      "title": "⚠️ در قعر خلیج فارس... 📝 بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در…",
+      "url": "https://t.me/rahbar_enghelab_ir/316",
+      "summary": "⚠️ در قعر خلیج فارس... 📝 بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ آب‌هایش. ✍ بخشی از پیام رهبر معظّم انقلاب به مناسبت روز ملی خلیج فارس |   ۱۰ اردیبهشت ۱۴۰۵ 📥 نسخه قابل چاپ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/316"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604300766",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T13:05:07Z",
+      "title": "Iranians denounce tiered internet plan as discriminatory and corrupt",
+      "url": "https://www.iranintl.com/en/202604300766",
+      "summary": "Iranians condemned selective access to restricted internet services as discriminatory and corrupt in messages to Iran International, urging others to reject the scheme in recent days.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604307788",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T09:22:23Z",
+      "title": "How the Taliban tilted toward Iran during wartime tensions",
+      "url": "https://www.iranintl.com/en/202604307788",
+      "summary": "Taliban leaders and affiliated figures voiced support for Iran after Israeli strikes in June 2025 and later US threats, signaling a limited and conditional alignment despite longstanding disputes with Tehran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604289304",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T06:00:38Z",
+      "title": "Iran ranks near bottom as press curbs deepen worldwide",
+      "url": "https://www.iranintl.com/en/202604289304",
+      "summary": "Iran ranked among the world’s worst countries for press freedom in 2026 as global conditions hit a 25-year low, with legal pressure on journalists intensifying across multiple regions, Reporters Without Borders said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202604290137",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-04-30T02:53:36Z",
+      "title": "Soaring prices push medicine beyond Iranians' reach",
+      "url": "https://www.iranintl.com/en/202604290137",
+      "summary": "Medicine prices in Iran have surged sharply in recent weeks, with some drugs rising by as much as 380%, according to reports received by Iran International, as the country grapples with soaring inflation, a collapsing currency and worsening wartime disruption.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    }
+  ]
+}

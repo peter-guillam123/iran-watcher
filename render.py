@@ -551,6 +551,18 @@ def render_day(
 
 COMPARISONS = [
     {
+        "href": "compare-isw-2026-05-01.html",
+        "title": "1 May 2026 · sharpest case yet",
+        "blurb": (
+            "37 matched items. We landed both of the day's State Department "
+            "oil-trade sanctions designations on the same day, and have the "
+            "full Khamenei Workers' Day / Persian Gulf messaging cycle direct "
+            "from regime channels — which ISW only references obliquely. "
+            "Both outputs lead with the economic-collapse story from "
+            "different sourcing paths."
+        ),
+    },
+    {
         "href": "compare-isw-2026-04-24.html",
         "title": "24 April 2026 · the UK angle is loudest here",
         "blurb": (
