@@ -10,7 +10,7 @@ from pathlib import Path
 
 from core import threads as _threads
 from core import translate as _translate
-from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press
+from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press, x_via_rssapp
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -51,6 +51,7 @@ ADAPTERS = [
     ("gov_uk",           gov_uk.fetch,           True),   # department feeds, filter locally
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
     ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
+    ("x_via_rssapp",     x_via_rssapp.fetch,     True),   # IDF + CENTCOM via rss.app — global feeds, filter locally
     ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
 ]
 

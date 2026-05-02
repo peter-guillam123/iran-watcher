@@ -24,6 +24,8 @@ SOURCE_ORDER = [
     "UK Government",
     "US State Department",
     "US Federal Register",
+    "CENTCOM",
+    "IDF",
     "UN Press",
     "IAEA",
     "ReliefWeb",
