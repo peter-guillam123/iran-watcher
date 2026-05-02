@@ -63,7 +63,87 @@
       "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
     }
   ],
-  "threads": [],
+  "threads": [
+    {
+      "label": "US naval blockade and Hormuz coalition",
+      "summary": "CENTCOM said US forces patrolling international waters had directed 45 commercial vessels to turn around or return to port under an ongoing naval blockade against Iran. Iran International reported the United States has asked partners to join a new Maritime Freedom Coalition to secure the Strait of Hormuz, citing a State Department cable.",
+      "event_ids": [
+        "x_via_rssapp:1fcb8cd44f58de9b5084651b4199df78",
+        "x_via_rssapp:639462db9196bdad4eb841c44f006a9b",
+        "x_via_rssapp:332da8f8fb9605956da03887ae333db1",
+        "x_via_rssapp:d5d8af71685ef03b175debcd9581d98b",
+        "x_via_rssapp:032773b0f20e38a91bd1c0c9b56516a0",
+        "x_via_rssapp:ec92acdc7eef779e799ca9915ee07a3c",
+        "iranintl:https://www.iranintl.com/en/202604307152"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "US sanctions on Iran oil trade and UK guidance",
+      "summary": "The State Department announced sanctions on multiple entities, an individual and a vessel involved in Iran's petroleum and petrochemical trade, including Qingdao Haiye Oil Terminal. The UK FCDO published updated statutory guidance for its Iran, Iran nuclear and Yemen sanctions regimes.",
+      "event_ids": [
+        "state:https://www.state.gov/releases/preview/680740/",
+        "state:https://www.state.gov/releases/preview/680709/",
+        "govuk:https://www.gov.uk/government/publications/iran-sanctions-guidance#2026-05-01T10:19:29Z",
+        "govuk:https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance#2026-05-01T10:19:27Z",
+        "govuk:https://www.gov.uk/government/publications/yemen-sanctions-guidance#2026-05-01T10:19:35Z"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Khamenei messaging on workers, economy, Hormuz",
+      "summary": "Khamenei's office posted a Workers' Day and Teachers' Day message claiming Iran had proved its capability in military battle and must now defeat the enemy in economic and cultural jihad, urging firms to avoid layoffs. The same channel published items framing a 'new chapter' in the Persian Gulf and Strait of Hormuz following what it called America's 'humiliating defeat'.",
+      "event_ids": [
+        "telegram:rahbar_enghelab_ir/324",
+        "telegram:rahbar_enghelab_ir/323",
+        "telegram:rahbar_enghelab_ir/322",
+        "telegram:rahbar_enghelab_ir/325",
+        "telegram:rahbar_enghelab_ir/327",
+        "telegram:rahbar_enghelab_ir/328",
+        "telegram:rahbar_enghelab_ir/329",
+        "telegram:rahbar_enghelab_ir/330",
+        "telegram:rahbar_enghelab_ir/331",
+        "telegram:rahbar_enghelab_ir/332",
+        "telegram:rahbar_enghelab_ir/333",
+        "telegram:rahbar_enghelab_ir/334",
+        "telegram:rahbar_enghelab_ir/321",
+        "telegram:rahbar_enghelab_ir/319",
+        "telegram:rahbar_enghelab_ir/320",
+        "telegram:rahbar_enghelab_ir/318",
+        "telegram:rahbar_enghelab_ir/317"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic strain and political infighting",
+      "summary": "Iran International reported inflation above 73%, medicine prices rising up to 380%, Tehran residents displaced by the 40-day war being evicted from hotel housing per Etemad, and complaints over a tiered internet scheme. It also reported President Pezeshkian and Speaker Ghalibaf are seeking Foreign Minister Araghchi's removal over alleged subservience to the IRGC chief in nuclear talks.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202604301708",
+        "iranintl:https://www.iranintl.com/en/202605017498",
+        "iranintl:https://www.iranintl.com/en/202604290137",
+        "iranintl:https://www.iranintl.com/en/202604300766",
+        "iranintl:https://www.iranintl.com/en/202604307863",
+        "iranintl:https://www.iranintl.com/en/202604302117",
+        "iranintl:https://www.iranintl.com/en/202605012686",
+        "iranintl:https://www.iranintl.com/en/202604289304",
+        "iranintl:https://www.iranintl.com/en/202604280611",
+        "iranintl:https://www.iranintl.com/en/202604307788",
+        "iranintl:https://www.iranintl.com/en/202604306708",
+        "iranintl:https://www.iranintl.com/en/202604307498"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Israeli operations in Lebanon and West Bank",
+      "summary": "The IDF said it dismantled more than 40 Hezbollah infrastructure sites in southern Lebanon over 24 hours and uncovered over 7,500 weapons including 1,000+ ammunition crates, 750+ small arms and 200+ grenades. The IDF also said it killed Ibrahim Abu Tzakar, described as a militant operating under cover of a paramedic who was planning an imminent attack on troops.",
+      "event_ids": [
+        "x_via_rssapp:fe904ab030f5b3ec525664f1c676f305",
+        "x_via_rssapp:0c3feca3e81ad6bc68b32b80cdb33e43",
+        "x_via_rssapp:d60f027b8c0d716af6ab9a70856de1b1"
+      ],
+      "tier4_present": false
+    }
+  ],
   "events": [
     {
       "id": "iranintl:https://www.iranintl.com/en/202604280611",
@@ -914,5 +994,6 @@
         "claim"
       ]
     }
-  ]
+  ],
+  "synthesised_at": "2026-05-02T18:08:04.956580Z"
 }
