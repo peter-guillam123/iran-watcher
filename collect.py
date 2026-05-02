@@ -51,7 +51,7 @@ ADAPTERS = [
     ("gov_uk",           gov_uk.fetch,           True),   # department feeds, filter locally
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
     ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
-    ("x_via_rssapp",     x_via_rssapp.fetch,     True),   # IDF + CENTCOM via rss.app — global feeds, filter locally
+    ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF + CENTCOM via rss.app — official military broadcasts during a live Iran/Hezbollah war, curated by definition. Local filter dropped IDF strike posts that said "southern Lebanon" without naming Hezbollah.
     ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
 ]
 
