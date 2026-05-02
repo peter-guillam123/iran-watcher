@@ -53,40 +53,58 @@
 </header>
 
 <div class="entry milestone">
-  <h2>Editorial redesign <span class="date">1 May 2026 (evening)</span></h2>
-  <p>Visual overhaul. Every page now shares a single stylesheet (<code>docs/style.css</code>) and a wire-service masthead — Playfair Display headlines, Public Sans body, JetBrains Mono for metadata, deep editorial red as the signature accent and a paper-tone background. The homepage is now the most recent daily brief inline, with the archive listed below and the comparison pages featured in their own panel. Tier signalling moved from coloured pills to small coloured squares in the source-line, which is quieter on the page. Section breaks use a small ❦ ornament to mark transitions.</p>
-  <p>Mobile: tap targets bumped to 40px+, type ladder reduces sensibly, filter pills wrap. Accessibility: skip link, focus rings, semantic landmarks, no relying on colour alone for tier signalling (the source-line text already carries the source family).</p>
+  <h2>IDF and CENTCOM via X (rss.app) <span class="date">2 May 2026</span></h2>
+  <p>Closes most of the tactical-military gap to ISW. Chris set up two free rss.app feeds wrapping the IDF and US Central Command X accounts, and a new <code>sources/x_via_rssapp.py</code> adapter pulls them as JSON Feed. From the live feeds at the moment of the first fetch: IDF saying "40+ Hezbollah infrastructure sites dismantled" (verbatim the ISW headline number for 1 May), "7,500+ weapons in southern Lebanon" and individual strike confirmations; CENTCOM saying "45 commercial vessels redirected" (also ISW's verbatim figure) plus USS New Orleans patrol confirmations.</p>
+  <p>Both are surfaced at tier 2 — same provenance band as State Department or gov.uk Atom — but the source-line on each card reads "via rss.app" so the third-party-scraping delivery mechanism is visible. The threads system prompt was already strict about phrasing claims as claims, which catches IDF/CENTCOM operational claims as well as it catches regime-channel ones.</p>
+  <p>One bug shipped en route: the local keyword filter dropped IDF posts that said "southern Lebanon" without naming Hezbollah, since "lebanon" wasn't in the IRAN_TERMS list. Fixed by trusting the curated feed (<code>needs_local_filter=False</code>) — these are official military-spox broadcasts during a live Iran/Hezbollah war, on-beat by definition.</p>
 </div>
 
 <div class="entry milestone">
-  <h2>Three ISW comparisons (April 21, 24, 30) <span class="date">1 May 2026 (afternoon)</span></h2>
-  <p>Two more like-for-like comparisons against ISW Iran Update reports. Each maps ISW's themes to our coverage with green/amber/red badges, and calls out items we caught that ISW didn't.</p>
-  <p>21 April: 19 matched items. The State Department's Mahan Air sanctions designation lands the same day, directly matching ISW's proliferation-networks theme. UK Parliament API was returning 500s during the run so any tabled questions on 20–21 April are missing — diagnostics record the failure honestly.</p>
-  <p>24 April: 22 matched items, the strongest UK case of the three. We catch the Vahidi-Ghalibaf delegation breakdown via Iran International, the State Dept China-oil sanctions on the day, the OFAC Federal Register notice, and a substantial UK political layer ISW doesn't touch — Starmer's IRGC-ban pledge, the LBC sabotage investigation, the Old Bailey spying case, and five Parliament Q&amp;As on Arms Trade.</p>
+  <h2>Cron shifted to 07:00 UK time <span class="date">2 May 2026</span></h2>
+  <p>Was 06:00 + 18:00 UTC twice a day. Now once a day at 06:00 UTC, which lands at 07:00 BST through UK summer. In UK winter the brief arrives at 06:00 UK, an hour earlier than the nominal 07:00 — GitHub cron doesn't follow DST. Early is fine for an editorial product.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>Five threads + translation pipeline <span class="date">1 May 2026 (evening)</span></h2>
+  <p>Two Claude API passes added on top of the collection pipeline. The first translates Persian, Arabic and Hebrew Telegram items via <code>claude-haiku-4-5</code> with a structured-output schema, cached on disk by event id so re-runs are free. The second is a single <code>claude-opus-4-7</code> call per run that clusters the day's events into up to five themed two-sentence blurbs.</p>
+  <p>The synthesis system prompt is strict about NOT editorialising — no "this suggests", no "amid", no "raising concerns", no "experts say". Each thread cites at least two event ids; threads that draw on tier-4 (regime-channel) or military-spox claims get an "includes claims" badge so a Khamenei broadcast in a thread is visibly flagged. Combined cost: roughly £0.04/run.</p>
+  <p>A backfill workflow retro-fits both passes onto historical archive days without re-fetching events from sources, since most of the underlying RSS feeds don't reach back far enough to make re-fetching meaningful.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>Telegram regime-channel adapter <span class="date">1 May 2026 (afternoon)</span></h2>
+  <p>Three Iranian regime channels via the public <code>t.me/s/</code> web preview: Khamenei's office (<code>rahbar_enghelab_ir</code>), IRIB state broadcaster (<code>iribnews</code>), and the IRGC-affiliated Defa Press (<code>defapress_ir</code>). No Telegram account needed; ~80 lines of Python with bs4. Surfaces at tier 4 with a deep-red 2px left rule, smaller headline type, and an "includes claims" badge wherever a thread relies on these items.</p>
+  <p>What didn't work via this scraping path: the IDF Telegram, IDF Farsi, Hezbollah's <code>mmirleb</code>, and Tasnim — those have the public preview disabled or 500-fail on rss-bridge. Reaching them needs MTProto via Telethon, which requires a phone number and a Guardian institutional sign-off conversation.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>Editorial redesign <span class="date">1 May 2026 (afternoon)</span></h2>
+  <p>Visual overhaul applied from a Claude Design handoff. Every page now shares a single stylesheet (<code>docs/style.css</code>), a wire-service masthead with a 4px black top rule and a 96px deep-red ribbon, real fonts (Playfair Display headlines, Public Sans body, JetBrains Mono for metadata), a paper-tone background, and a watch-dial / radar-sweep mark beside the wordmark. Section breaks use a small ❦ ornament. <code>prefers-reduced-motion</code> is respected throughout.</p>
+  <p>Page structure also tidied: the homepage is now today's brief inline ("Today's report") with a live-updating "last updated X ago" timestamp. Archive moved to its own <code>/archive.html</code> page; Comparisons got its own nav category for evaluation artefacts. One canonical 768px width across every page so the design no longer jumps when you click between sections. The mobile nav becomes a single-row horizontal scroll strip below 640px.</p>
+</div>
+
+<div class="entry milestone">
+  <h2>Four ISW comparisons <span class="date">1 May 2026</span></h2>
+  <p>Four like-for-like comparisons against ISW Iran Update reports — 21 April, 24 April, 30 April and 1 May. Each maps ISW's themes to our coverage with green/amber/red badges, and calls out items we caught that ISW didn't.</p>
+  <p>The 1 May comparison is the strongest of the set. We landed both same-day State Department oil-trade sanctions designations and we have the full Khamenei Workers' Day / Persian Gulf messaging cycle direct from <code>rahbar_enghelab_ir</code> — material ISW only references obliquely. The 24 April comparison is where the UK angle is loudest: Starmer's IRGC-ban pledge, the LBC sabotage investigation, the Old Bailey spying case, and five Parliament Q&amp;As on Arms Trade.</p>
+  <p>Added an <code>--until</code> argument so we can reconstruct historical 24-or-48-hour windows for matched-window analysis. Each comparison is built from a 48h window ending end-of-day on the ISW report's date.</p>
 </div>
 
 <div class="entry milestone">
   <h2>April 19–30 daily archive backfilled <span class="date">1 May 2026</span></h2>
-  <p>Twelve days of dated briefs, each with a 24-hour calendar-day window. Total: 89 events across the period, range from 2 items (19 April — feed-history floor) to 13 items (21 April — IRGC firing on Indian vessel, US-led blockade, Tehran moderates piece). Earlier April days aren't backfilled because the RSS feeds underneath most of our sources only retain ~10–150 recent items and don't reach further back.</p>
-  <p>Each daily page got prev/next navigation top and bottom, so the editor can step through the chain without bouncing back to the index.</p>
-</div>
-
-<div class="entry milestone">
-  <h2>Comparison vs. ISW Iran Update — 30 April 2026 <span class="date">1 May 2026</span></h2>
-  <p>Reran the collector against the same calendar window as the ISW Iran Update Special Report dated 30 April 2026 — added an <code>--until</code> argument so we can reconstruct historical 24-or-48-hour windows. 48 hours ending end-of-day 30 April produced 18 items, against ISW's roughly 3,000-word synthesis covering the same horizon. The comparison page lays our 18 items against ISW's themes, theme by theme.</p>
-  <p>Verdict: we caught the geopolitical core (Strait of Hormuz, US-led maritime coalition, internal Iran politics, Iran's economic decline), partially caught the regime-domestic-life angle (more strongly than ISW does, because Iran International is leaning into it), and went silent on the tactical military layer — Khamenei's direct quotes via Telegram, Hezbollah's drone strikes, IDF strike counts on Lebanon, Israeli casualties. All three of those silences are Telegram and X gaps that the v1 scope already flagged. Nothing surprising, but useful to be precise about.</p>
+  <p>Twelve days of dated briefs. Total: 89 events across the period (later supplemented to 117 once Parliament data was successfully re-fetched after API timeouts). Each daily page got prev/next navigation top and bottom; once the threads pipeline shipped, the backfill workflow added a five-thread synthesis to every archive day too.</p>
+  <p>Earlier April days aren't backfilled because the RSS feeds underneath most of our sources only retain ~10–150 recent items and don't reach further back. Telegram preview is even shorter (~20 most recent posts per channel), so historical Telegram coverage isn't really possible — the regime-channel layer only joins from 1 May onwards.</p>
 </div>
 
 <div class="entry milestone">
   <h2>Daily window, filter pills, rich Parliament layout <span class="date">1 May 2026</span></h2>
-  <p>Three changes on the back of an editorial review. (1) The brief is now actually a brief — we were running with a 14-day backfill window when we should have been running 24 hours. (2) Filter pills along the top group items by source family with live counts and toggle individual sources on/off. (3) Parliament events render with a proper Q&amp;A layout: asking member with party tag and house, the department asked, the date tabled, the full question text, and — when the answer has landed — the answering minister with party, the date, and the full answer.</p>
+  <p>Three changes on the back of an editorial review. (1) The brief is now a 24-hour rolling window — was a 14-day backfill. (2) Filter pills along the top group items by source family with live counts and toggle individual sources on/off; sort options for date or tier. (3) Parliament events render with a proper Q&amp;A layout: asking member with party tag and house, the department asked, the date tabled, the full question text, and — when the answer has landed — the answering minister with party, the date, and the full answer.</p>
 </div>
 
 <div class="entry milestone">
-  <h2>Iran International added; double-escape fix <span class="date">1 May 2026</span></h2>
-  <p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. The brief jumped from 38 items to 126 over the same 14-day window, with the new 88 covering the politics-of-pink propaganda piece, the IRGC firing on an Indian vessel in Hormuz, the dispute within the leadership that blocked the negotiators' trip to Islamabad, the Mashhad protest crackdown. None of which were going to land via FCDO written answers.</p>
-  <p>Tier-3 badge is the right home for it — the editorial slant is real and worth signalling. A future job is a parallel triangulation feed (Tasnim or IRNA via mirror, or BBC Monitoring if we ever pay for it) so the brief presents a left-and-right-of-Tehran read rather than a left-only one.</p>
-  <p>Tried and dropped from this round: the IDF press page (<code>idf.il</code>) is a JavaScript SPA that returns a 212-byte shell — needs Playwright or a headless browser, which is a chunk of work and a chunk of dependencies for one source. Deferred to v2.</p>
+  <h2>Iran International added <span class="date">1 May 2026</span></h2>
+  <p>Wired in Iran International as a tier-3 source — the opposition outlet's English RSS feed is rich and well-tagged, and with Iran's domestic internet still in blackout it's the closest thing to an inside-Iran view we can pull cleanly. Tier-3 badge is the right home for it — the editorial slant is real and worth signalling.</p>
+  <p>Tried and dropped from this round: the IDF press page (<code>idf.il</code>) is a JavaScript SPA that returns a 212-byte shell. Eventually solved on 2 May via the rss.app X wrapper instead.</p>
 </div>
 
 <div class="entry milestone">
