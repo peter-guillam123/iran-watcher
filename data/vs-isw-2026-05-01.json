@@ -57,7 +57,75 @@
       "error": "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. See module docstring for the registration form."
     }
   ],
-  "threads": [],
+  "threads": [
+    {
+      "label": "US sanctions target Iran-China oil network",
+      "summary": "The US State Department announced sanctions against entities, an individual and a vessel involved in Iranian petroleum trade, including Qingdao Haiye Oil Terminal. The UK Foreign, Commonwealth and Development Office republished statutory guidance for its Iran, Iran nuclear and Yemen sanctions regimes the same day.",
+      "event_ids": [
+        "state:https://www.state.gov/releases/preview/680740/",
+        "state:https://www.state.gov/releases/preview/680709/",
+        "govuk:https://www.gov.uk/government/publications/iran-sanctions-guidance#2026-05-01T10:19:29Z",
+        "govuk:https://www.gov.uk/government/publications/iran-nuclear-sanctions-guidance#2026-05-01T10:19:27Z",
+        "govuk:https://www.gov.uk/government/publications/yemen-sanctions-guidance#2026-05-01T10:19:35Z"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Strait of Hormuz coalition and Tehran response",
+      "summary": "Iran International reported the United States has asked partner countries to join a newly formed Maritime Freedom Coalition to secure passage through the Strait of Hormuz and Persian Gulf, citing a State Department cable. Khamenei's office posted messages claiming foreigners have no place in the Persian Gulf and that a new chapter is being written following what it called America's defeat.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202604307152",
+        "telegram:rahbar_enghelab_ir/320",
+        "telegram:rahbar_enghelab_ir/318",
+        "telegram:rahbar_enghelab_ir/317",
+        "telegram:rahbar_enghelab_ir/316"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Khamenei Workers' and Teachers' Day message",
+      "summary": "Khamenei's office released a message marking Workers' Day and Teachers' Day, urging support for domestically-produced goods and calling on businesses to avoid workforce reductions. The channel framed the appeal as 'economic and cultural jihad' following what it described as Iran's military capability against its enemies.",
+      "event_ids": [
+        "telegram:rahbar_enghelab_ir/334",
+        "telegram:rahbar_enghelab_ir/333",
+        "telegram:rahbar_enghelab_ir/332",
+        "telegram:rahbar_enghelab_ir/331",
+        "telegram:rahbar_enghelab_ir/330",
+        "telegram:rahbar_enghelab_ir/329",
+        "telegram:rahbar_enghelab_ir/328",
+        "telegram:rahbar_enghelab_ir/327",
+        "telegram:rahbar_enghelab_ir/326",
+        "telegram:rahbar_enghelab_ir/325",
+        "telegram:rahbar_enghelab_ir/324",
+        "telegram:rahbar_enghelab_ir/323",
+        "telegram:rahbar_enghelab_ir/322"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran economic strain and post-war fallout",
+      "summary": "Iran International reported inflation above 73%, a surging dollar, medicine prices rising up to 380%, and Tehran residents displaced by a 40-day war with the US and Israel being ordered out of hotel housing. Further reports said economic pressure may decide the Iran-US standoff and that officials fear internal instability under US naval pressure.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202604301708",
+        "iranintl:https://www.iranintl.com/en/202605017498",
+        "iranintl:https://www.iranintl.com/en/202604290137",
+        "iranintl:https://www.iranintl.com/en/202604307863"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Tehran political and rights pressures",
+      "summary": "Iran International reported President Pezeshkian and parliament speaker Ghalibaf are seeking Foreign Minister Araghchi's removal over alleged subservience to the Revolutionary Guards in nuclear talks. Separate reports said Nobel laureate Narges Mohammadi was hospitalised from Zanjan Prison after losing consciousness, and that Iran ranked near bottom in 2026 press freedom rankings.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202604302117",
+        "iranintl:https://www.iranintl.com/en/202605012686",
+        "iranintl:https://www.iranintl.com/en/202604289304",
+        "iranintl:https://www.iranintl.com/en/202604300766",
+        "iranintl:https://www.iranintl.com/en/202604280611"
+      ],
+      "tier4_present": false
+    }
+  ],
   "events": [
     {
       "id": "iranintl:https://www.iranintl.com/en/202604280611",
@@ -697,7 +765,9 @@
         "telegram",
         "claim",
         "fa"
-      ]
+      ],
+      "title_en": "A new chapter in the Persian Gulf and the Strait of Hormuz is being written",
+      "summary_en": "A new chapter in the Persian Gulf and the Strait of Hormuz is being written. Today, two months after the largest military campaign and aggression of the world's bullies in the region and the humiliating defeat of America in its scheme, a new chapter in the Persian Gulf and the Strait of Hormuz is being written. The peoples of the Persian Gulf region, who for years had become accustomed to the silence and submission of their rulers in the face of bullies and aggressors, have witnessed in the past sixty days the beautiful manifestations of steadfastness, vigilance and valour of the courageous personnel of the Army and Revolutionary Guards naval forces, alongside the zeal and martial spirit of the people and youth of Iran's southern region in rejecting the dominion of foreigners. From the message of the Supreme Leader of the Revolution on the occasion of the National Day of the Persian Gulf"
     },
     {
       "id": "telegram:rahbar_enghelab_ir/316",
@@ -719,7 +789,9 @@
         "telegram",
         "claim",
         "fa"
-      ]
+      ],
+      "title_en": "In the depths of the Persian Gulf...",
+      "summary_en": "Foreigners who, from thousands of kilometres away, greedily commit mischief in the Persian Gulf have no place in it except in the depths of its waters. From the message of the Supreme Leader of the Revolution on the occasion of the National Day of the Persian Gulf"
     },
     {
       "id": "iranintl:https://www.iranintl.com/en/202604300766",
@@ -781,5 +853,6 @@
         "iran-domestic"
       ]
     }
-  ]
+  ],
+  "synthesised_at": "2026-05-02T10:43:47.054639Z"
 }
