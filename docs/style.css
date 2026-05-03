@@ -639,22 +639,86 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 .cluster-body .event {
   border-bottom: 1px dashed var(--rule-hair);
-  padding-bottom: 14px;
-  margin-bottom: 14px;
+  border-top: none;
+  padding: 12px 0 14px;
+  margin: 0 0 14px;
   /* tone down child events — they're the detail layer underneath the
      cluster header, not new top-level cards. */
   border-left: 0;
 }
+.cluster-body .event:first-child {
+  padding-top: 4px;
+}
 .cluster-body .event:last-child {
   border-bottom: none;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-bottom: 4px;
+}
+/* Inside a broadcast cluster, child events read as tweets/snippets, not
+   document cards. Drop from Playfair headline weight to body register so
+   the editorial hierarchy (documents louder than broadcasts) holds even
+   when a cluster is expanded. */
+.cluster-body .event h3 {
+  font-family: var(--body);
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin: 4px 0 0;
+}
+.cluster-body .event h3 a {
+  color: var(--ink);
+  border-bottom-color: transparent;
+}
+.cluster-body .event h3 a:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+.cluster-body .event .summary {
+  font-size: 13.5px;
+  color: var(--ink-faint);
+  line-height: 1.55;
+  margin-top: 6px;
+}
+.cluster-body .event .head {
+  margin-bottom: 4px;
+}
+.cluster-body .event .src {
+  font-size: 10.5px;
+}
+.cluster-body .event .src-detail {
+  display: none;  /* redundant — the cluster header already names the source */
+}
+.cluster-body .event .time {
+  font-size: 10.5px;
+}
+.cluster-body .event .tags {
+  margin-top: 8px;
+}
+.cluster-body .event .tag {
+  font-size: 9px;
+  padding: 1px 6px;
 }
 
 @media (max-width: 600px) {
-  .cluster-toggle { padding: 14px 14px; }
-  .cluster-teaser { font-size: 13.5px; }
-  .cluster-body { padding: 10px 14px 14px; }
+  .cluster-toggle { padding: 14px 12px; }
+  .cluster-teaser { font-size: 13.5px; line-height: 1.45; }
+  .cluster-teaser-label { font-size: 9.5px; letter-spacing: 0.12em; }
+  .cluster-body { padding: 8px 12px 12px; }
+  .cluster-count, .cluster-figures { font-size: 10px; }
+  /* On narrow screens the time range "2026-05-02 13:29Z → 2026-05-02
+     20:55Z" is too wide to fit alongside the channel name. Force it to
+     break onto a full-width row below the source-info, and shrink. */
+  .event.channel-cluster .head .time {
+    flex-basis: 100%;
+    font-size: 10.5px;
+    color: var(--ink-vfaint);
+    padding-top: 0;
+  }
+  /* Broadcast cluster body: tighten the child events further. */
+  .cluster-body .event { padding: 10px 0 12px; margin-bottom: 8px; }
+  .cluster-body .event h3 { font-size: 14px; }
+  .cluster-body .event .summary { font-size: 13px; }
 }
 
 /* ----- Filter / sort panel ------------------------------------------- */
@@ -761,6 +825,8 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .event .head {
   display: flex; align-items: baseline; gap: 14px;
+  flex-wrap: wrap;
+  row-gap: 4px;
   margin-bottom: 10px;
 }
 .event .source-info {
@@ -769,6 +835,8 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 .event .src-row {
   display: flex; align-items: center; gap: 8px;
+  flex-wrap: wrap;
+  row-gap: 3px;
   font-size: 11px; letter-spacing: 0.12em;
   text-transform: uppercase; font-weight: 700;
   color: var(--ink);
@@ -841,6 +909,46 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .event h3 { font-size: 19px; }
   .event .summary { font-size: 15px; }
   .event .src-detail { font-size: 10.5px; }
+  /* Broadcast layer captions get tighter on mobile so they don't run wider
+     than the column. The big "BROADCAST LAYER · EXPAND TO READ INDIVIDUAL
+     POSTS" line in particular was overflowing. */
+  .broadcast-zone { margin-top: 28px; padding-top: 14px; }
+  .broadcast-zone-caption {
+    font-size: 9.5px; letter-spacing: 0.12em;
+    margin-bottom: 14px;
+  }
+  .broadcast-sub-caption {
+    font-size: 9.5px; letter-spacing: 0.10em;
+  }
+  .broadcast-sub { margin-bottom: 22px; }
+  .broadcast-sub-regime { padding-top: 14px; }
+  /* Event headlines that carry a fig. marker: ensure the marker doesn't
+     create awkward orphan wrapping by allowing the headline to break
+     before it more freely. */
+  .event h3 .fig-marker {
+    margin-left: 6px;
+    font-size: 9.5px;
+    vertical-align: 2px;
+  }
+  /* Day-shape on tight screens — keep it readable but quiet. */
+  .day-shape { padding-bottom: 10px; }
+  .day-shape-label { font-size: 9.5px; letter-spacing: 0.12em; }
+}
+
+/* A second, narrower breakpoint for genuine phone widths (≤ 400px). The
+   cluster header source-info row gets really crowded with channel name +
+   post count + figures count + tier mark. Stack the count chips below the
+   channel name. */
+@media (max-width: 400px) {
+  .event .src-row .cluster-count,
+  .event .src-row .cluster-figures {
+    flex-basis: 100%;
+    margin-left: 16px;  /* indent under the channel name */
+  }
+  .event .src-detail { font-size: 10px; }
+  .day-shape-text { font-size: 14px; }
+  .threads { padding: 14px 14px 12px; }
+  .filters { padding: 14px 12px 12px; }
 }
 
 /* ----- Parliament Q&A block ----------------------------------------- */
