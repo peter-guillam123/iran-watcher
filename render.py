@@ -79,8 +79,10 @@ FILTER_JS = r"""
   var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
   var refineFigures = document.querySelector('.refine-pill[data-refine="figures"]');
   var refinePrimary = document.querySelector('.refine-pill[data-refine="primary"]');
+  var threadBtns = document.querySelectorAll('.thread-btn[data-thread-ids]');
   if(!eventsBox) return;
   var originalHTML = eventsBox.innerHTML;
+  var activeThreadIds = null;  // Set of event ids when a thread is active
 
   function activeSources(){
     var s = new Set();
@@ -94,12 +96,23 @@ FILTER_JS = r"""
     return refinePrimary && refinePrimary.dataset.active === '1';
   }
   function shouldShow(e, sources){
-    // All filters compose: source AND primary-only AND figures-only.
+    // All filters compose: source AND primary-only AND figures-only AND thread.
     if(sources.size > 0 && !sources.has(e.dataset.source)) return false;
     if(figuresOnly() && e.dataset.figures !== '1') return false;
     if(primaryOnly()){
       var t = parseInt(e.dataset.tier || '2', 10);
       if(t > 2) return false;
+    }
+    if(activeThreadIds){
+      // Cluster wrappers carry data-child-ids; show the cluster if any of
+      // its children are cited by the active thread.
+      if(e.classList.contains('channel-cluster')){
+        var childIds = (e.dataset.childIds || '').split('|').filter(Boolean);
+        var anyMatch = childIds.some(function(id){ return activeThreadIds.has(id); });
+        if(!anyMatch) return false;
+      } else {
+        if(!activeThreadIds.has(e.dataset.id)) return false;
+      }
     }
     return true;
   }
@@ -186,6 +199,30 @@ FILTER_JS = r"""
   if(refinePrimary) refinePrimary.addEventListener('click', function(){
     refinePrimary.dataset.active = refinePrimary.dataset.active === '1' ? '0' : '1';
     applyFilter();
+  });
+
+  // Clickable threads — each click toggles a "filter to just this thread's
+  // events" mode. Clicking the same thread again clears it. Clicking a
+  // different thread switches the filter without an extra click.
+  function setActiveThread(btn){
+    threadBtns.forEach(function(b){
+      var on = (b === btn);
+      b.dataset.active = on ? '1' : '0';
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+    if(btn){
+      var ids = (btn.dataset.threadIds || '').split('|').filter(Boolean);
+      activeThreadIds = new Set(ids);
+    } else {
+      activeThreadIds = null;
+    }
+    applyFilter();
+  }
+  threadBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var alreadyActive = btn.dataset.active === '1';
+      setActiveThread(alreadyActive ? null : btn);
+    });
   });
 
   // Cluster expand/collapse — applied to current toggles in the DOM. Must
@@ -455,10 +492,12 @@ def _render_event(e: dict) -> str:
         '</h3>', f'{fig_marker}</h3>', 1
     ) if fig_marker else head
 
+    event_id = e.get("id") or ""
     return (
         f'<article class="event" data-source="{html.escape(source)}" '
         f'data-category="{html.escape(cat)}" data-tier="{tier}" '
-        f'data-figures="{1 if has_figures else 0}">'
+        f'data-figures="{1 if has_figures else 0}" '
+        f'data-id="{html.escape(event_id)}">'
         f'{head_with_marker}{body}'
         + (f'<div class="tags">{tag_html}</div>' if tag_html else "")
         + f'</article>'
@@ -623,11 +662,14 @@ def _render_channel_cluster(handle: str, items: list[dict]) -> str:
         if has_figures_any else ""
     )
 
+    child_ids = "|".join(e.get("id") or "" for e in items_sorted)
+
     return (
         f'<article class="event channel-cluster" '
         f'data-source="Regime channels" data-tier="4" '
         f'data-figures="{1 if has_figures_any else 0}" '
-        f'data-channel="{html.escape(handle)}">'
+        f'data-channel="{html.escape(handle)}" '
+        f'data-child-ids="{html.escape(child_ids)}">'
         '<button class="cluster-toggle" type="button" aria-expanded="false">'
         '<div class="head">'
         '<div class="source-info">'
@@ -679,26 +721,37 @@ def _render_threads(threads: list[dict]) -> str:
     for i, t in enumerate(threads, 1):
         label = html.escape(html.unescape(t.get("label") or ""))
         summary = html.escape(html.unescape(t.get("summary") or ""))
-        n = len(t.get("event_ids") or [])
+        event_ids = t.get("event_ids") or []
+        n = len(event_ids)
         tier4 = t.get("tier4_present")
         tier4_badge = (
             ' <span class="thread-tier4" title="Includes regime-channel claims">includes claims</span>'
             if tier4 else ""
         )
+        ids_attr = html.escape("|".join(event_ids))
         items.append(
-            f'<li class="thread">'
+            '<li class="thread">'
+            f'<button class="thread-btn" type="button" '
+            f'data-thread-ids="{ids_attr}" data-active="0" '
+            'aria-pressed="false" '
+            'title="Click to filter the events below to just this thread\'s items. Click again to clear.">'
             f'<div class="thread-num">{i:02d}</div>'
-            f'<div class="thread-body">'
+            '<div class="thread-body">'
             f'<h3 class="thread-label">{label}{tier4_badge}</h3>'
             f'<p class="thread-summary">{summary}</p>'
-            f'<div class="thread-foot">{n} item{"s" if n != 1 else ""}</div>'
-            f'</div>'
-            f'</li>'
+            '<div class="thread-foot">'
+            f'<span class="thread-count">{n} item{"s" if n != 1 else ""}</span>'
+            '<span class="thread-action">→ filter events</span>'
+            '</div>'
+            '</div>'
+            '</button>'
+            '</li>'
         )
+    threads_word = "Seven" if len(threads) == 7 else ("Six" if len(threads) == 6 else "Five")
     return (
-        '<section class="threads" aria-label="Five threads">'
-        '<div class="threads-head"><h4>Five threads today</h4>'
-        '<span class="threads-disclaimer">Auto-clustered by Claude. No analysis — just what was reported.</span>'
+        '<section class="threads" aria-label="Threads">'
+        f'<div class="threads-head"><h4>{threads_word} threads today</h4>'
+        '<span class="threads-disclaimer">Auto-clustered by Claude. No analysis — just what was reported. Click a thread to filter the events below.</span>'
         '</div>'
         f'<ol>{"".join(items)}</ol>'
         '</section>'
