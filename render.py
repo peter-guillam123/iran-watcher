@@ -77,6 +77,7 @@ FILTER_JS = r"""
   var eventsBox = document.querySelector('.events');
   var sortDate = document.querySelector('.sort-pill[data-sort="date"]');
   var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
+  var refineFigures = document.querySelector('.refine-pill[data-refine="figures"]');
   if(!eventsBox) return;
   var originalHTML = eventsBox.innerHTML;
 
@@ -85,29 +86,37 @@ FILTER_JS = r"""
     pills.forEach(function(p){ if(p.dataset.active === '1') s.add(p.dataset.source); });
     return s;
   }
+  function figuresOnly(){
+    return refineFigures && refineFigures.dataset.active === '1';
+  }
+  function shouldShow(e, sources){
+    // Apply the source filter (if any) AND the figures refine filter (if on).
+    // A cluster wrapper passes the figures check if any of its children carry
+    // the data-figures="1" flag (we set that during render).
+    if(sources.size > 0 && !sources.has(e.dataset.source)) return false;
+    if(figuresOnly() && e.dataset.figures !== '1') return false;
+    return true;
+  }
   function applyFilter(){
     var s = activeSources();
     var events = eventsBox.querySelectorAll('.event');
     var headers = eventsBox.querySelectorAll('.tier-header');
-    if(s.size === 0){
-      events.forEach(function(e){ e.classList.remove('hidden'); });
-      headers.forEach(function(h){ h.classList.remove('hidden'); });
-      if(allPill) allPill.dataset.active = '1';
-    } else {
-      if(allPill) allPill.dataset.active = '0';
-      events.forEach(function(e){ e.classList.toggle('hidden', !s.has(e.dataset.source)); });
-      headers.forEach(function(h){
-        var hasVisible = false;
-        var n = h.nextElementSibling;
-        while(n && !n.classList.contains('tier-header')){
-          if(n.classList.contains('event') && !n.classList.contains('hidden')){
-            hasVisible = true; break;
-          }
-          n = n.nextElementSibling;
+    var allActive = (s.size === 0);
+    if(allPill) allPill.dataset.active = allActive ? '1' : '0';
+    events.forEach(function(e){
+      e.classList.toggle('hidden', !shouldShow(e, s));
+    });
+    headers.forEach(function(h){
+      var hasVisible = false;
+      var n = h.nextElementSibling;
+      while(n && !n.classList.contains('tier-header')){
+        if(n.classList.contains('event') && !n.classList.contains('hidden')){
+          hasVisible = true; break;
         }
-        h.classList.toggle('hidden', !hasVisible);
-      });
-    }
+        n = n.nextElementSibling;
+      }
+      h.classList.toggle('hidden', !hasVisible);
+    });
   }
   function setActiveSort(btn){
     [sortDate, sortTier].forEach(function(b){
@@ -164,6 +173,10 @@ FILTER_JS = r"""
     rebindClusterToggles();
   });
   if(sortTier) sortTier.addEventListener('click', sortByTier);
+  if(refineFigures) refineFigures.addEventListener('click', function(){
+    refineFigures.dataset.active = refineFigures.dataset.active === '1' ? '0' : '1';
+    applyFilter();
+  });
 
   // Cluster expand/collapse — applied to current toggles in the DOM. Must
   // be re-bound after sort operations rebuild the events container.
@@ -412,10 +425,31 @@ def _render_event(e: dict) -> str:
 
     tag_html = "".join(f'<span class="tag">{html.escape(t)}</span>' for t in tags)
 
+    has_figures = bool(e.get("has_figures"))
+    fig_marker = ""
+    if has_figures:
+        examples = e.get("figures_examples") or []
+        tooltip = (
+            "Specific figures cited: " + ", ".join(examples)
+            if examples
+            else "Specific figures cited"
+        )
+        fig_marker = (
+            f'<span class="fig-marker" title="{html.escape(tooltip)}">'
+            f'<span class="fig-mark-dot" aria-hidden="true">●</span>'
+            f'<span class="fig-mark-label">fig.</span>'
+            f'</span>'
+        )
+
+    head_with_marker = head.replace(
+        '</h3>', f'{fig_marker}</h3>', 1
+    ) if fig_marker else head
+
     return (
         f'<article class="event" data-source="{html.escape(source)}" '
-        f'data-category="{html.escape(cat)}" data-tier="{tier}">'
-        f'{head}{body}'
+        f'data-category="{html.escape(cat)}" data-tier="{tier}" '
+        f'data-figures="{1 if has_figures else 0}">'
+        f'{head_with_marker}{body}'
         + (f'<div class="tags">{tag_html}</div>' if tag_html else "")
         + f'</article>'
     )
@@ -447,6 +481,14 @@ def _render_pills(events: list[dict]) -> str:
         '<button class="sort-pill" data-sort="tier" data-active="0" type="button">'
         'Tier <span class="n">primary first</span></button>'
     )
+
+    n_with_figs = sum(1 for e in events if e.get("has_figures"))
+    refine_pills = (
+        '<button class="sort-pill refine-pill" data-refine="figures" data-active="0" type="button" '
+        'title="Show only items citing specific figures — strikes, sanctions amounts, vessel counts, etc.">'
+        f'With figures only <span class="n">{n_with_figs}</span></button>'
+    )
+
     return (
         '<section class="filters" aria-label="Filter and sort">'
         '<div class="filter-row"><h4>Filter by source</h4>'
@@ -454,6 +496,9 @@ def _render_pills(events: list[dict]) -> str:
         + '</div>'
         '<div class="filter-row sort-row"><h4>Sort by</h4>'
         + sort_pills
+        + '</div>'
+        '<div class="filter-row refine-row"><h4>Refine</h4>'
+        + refine_pills
         + '</div>'
         '</section>'
     )
@@ -556,10 +601,18 @@ def _render_channel_cluster(handle: str, items: list[dict]) -> str:
     )
 
     children = "\n".join(_render_event(e) for e in items_sorted)
+    n_figures = sum(1 for e in items_sorted if e.get("has_figures"))
+    has_figures_any = n_figures > 0
+    fig_count_html = (
+        f'<span class="cluster-figures" title="Posts in this cluster citing specific figures">'
+        f'{n_figures} with fig.</span>'
+        if has_figures_any else ""
+    )
 
     return (
         f'<article class="event channel-cluster" '
         f'data-source="Regime channels" data-tier="4" '
+        f'data-figures="{1 if has_figures_any else 0}" '
         f'data-channel="{html.escape(handle)}">'
         '<button class="cluster-toggle" type="button" aria-expanded="false">'
         '<div class="head">'
@@ -568,6 +621,7 @@ def _render_channel_cluster(handle: str, items: list[dict]) -> str:
         '<span class="tier-mark t4" aria-hidden="true"></span>'
         f'<span class="src">{html.escape(display)}</span>'
         f'<span class="cluster-count">{n} post{"s" if n != 1 else ""}</span>'
+        f'{fig_count_html}'
         '</div>'
         f'<div class="src-detail">{html.escape(detail)}</div>'
         '</div>'

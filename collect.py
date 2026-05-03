@@ -8,6 +8,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from core import figures as _figures
 from core import threads as _threads
 from core import translate as _translate
 from sources import bluesky, federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press, x_via_rssapp
@@ -93,6 +94,11 @@ def main(
     # Translation pass — adds title_en / summary_en to non-English events.
     # Cached on disk; no-op if ANTHROPIC_API_KEY is unset.
     events = _translate.translate_events(events)
+
+    # Figures detection — regex pass, deterministic, runs after translation
+    # so we can flag figures on the English version of Persian/Arabic posts.
+    # Adds has_figures (bool) and figures_examples (list) to each event.
+    events = _figures.annotate_events(events)
 
     # Threads synthesis — one Opus call producing both a day_shape line
     # and up to 5 (or 7 on dense days) themed threads. Empty result on

@@ -63,6 +63,10 @@ def main() -> int:
         # Translation pass — adds title_en / summary_en where applicable.
         events = _translate.translate_events(events)
 
+        # Figures detection — regex pass, runs after translation.
+        from core import figures as _figures
+        events = _figures.annotate_events(events)
+
         # Threads synthesis — produces a day_shape sentence plus up to
         # five (or seven on dense days) themed threads.
         synthesis = _threads.synthesise_threads(events)

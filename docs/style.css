@@ -407,6 +407,58 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .thread-label { font-size: 17px; }
 }
 
+/* "fig." marker — small dot + monospace label sitting next to the headline.
+   Marks cards that contain specific verifiable figures (40+ sites, 45
+   vessels, $344m, etc.) — the "writeable from" cards. */
+.event h3 .fig-marker {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-left: 8px;
+  vertical-align: 3px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  cursor: help;
+  white-space: nowrap;
+}
+.fig-mark-dot {
+  font-size: 9px;
+  color: var(--accent);
+  vertical-align: 1px;
+}
+.fig-mark-label {
+  text-transform: lowercase;
+  border-bottom: 1px dotted var(--accent);
+  padding-bottom: 1px;
+}
+.cluster-figures {
+  font-family: var(--mono); font-size: 11px;
+  color: var(--accent);
+  margin-left: 10px;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Refine row — figures-only toggle, sits below sort row. Same pill
+   look as sort pills but visually quieter; not a primary filter. */
+.refine-row {
+  padding-top: 12px;
+  border-top: 1px solid var(--rule-hair);
+  margin-top: 6px;
+}
+.refine-pill[data-active="1"] {
+  background: var(--accent);
+  color: var(--paper);
+  border-color: var(--accent);
+}
+.refine-pill[data-active="1"] .n {
+  color: var(--paper);
+  opacity: 0.85;
+}
+
 /* "translated" pill on event summaries -------------------------------- */
 .event .summary .translated {
   display: inline-block;
