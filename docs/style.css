@@ -302,9 +302,9 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 
 /* ----- Day shape (one-line shape-of-the-day) ------------------------ */
-/* Sits above the threads block. A small uppercase label, then a headline-
-   weight sentence on its own row. No box, no rule on the side — meant to
-   read as a wire-service kicker. */
+/* Sits above the threads block. A small uppercase label, then a single
+   sentence in body register — the support layer for the threads beneath,
+   not a competing headline. */
 .day-shape {
   margin: 18px 0 8px;
   padding: 0 0 14px 0;
@@ -322,15 +322,16 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 .day-shape-text {
   margin: 0;
-  font-family: var(--headline);
-  font-size: 21px;
-  line-height: 1.32;
-  color: var(--ink);
-  font-weight: 500;
-  letter-spacing: -0.005em;
+  font-family: var(--body);
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 @media (max-width: 640px) {
-  .day-shape-text { font-size: 18px; line-height: 1.34; }
+  .day-shape-text { font-size: 14.5px; line-height: 1.5; }
 }
 
 /* ----- Five threads (top-of-brief synthesis) ------------------------ */
