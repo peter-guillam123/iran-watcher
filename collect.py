@@ -94,9 +94,12 @@ def main(
     # Cached on disk; no-op if ANTHROPIC_API_KEY is unset.
     events = _translate.translate_events(events)
 
-    # Five-threads synthesis — one Opus call clustering the day into themes.
-    # Empty list on missing key or thin volume.
-    threads = _threads.synthesise_threads(events)
+    # Threads synthesis — one Opus call producing both a day_shape line
+    # and up to 5 (or 7 on dense days) themed threads. Empty result on
+    # missing key or thin volume.
+    synthesis = _threads.synthesise_threads(events)
+    threads = synthesis.get("threads", [])
+    day_shape = synthesis.get("day_shape", "")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     out_path = DATA_DIR / f"{today}.json"
@@ -105,6 +108,7 @@ def main(
         "window_since": since.isoformat().replace("+00:00", "Z"),
         "window_until": until_dt.isoformat().replace("+00:00", "Z"),
         "diagnostics": diagnostics,
+        "day_shape": day_shape,
         "threads": threads,
         "events": events,
     }

@@ -63,11 +63,15 @@ def main() -> int:
         # Translation pass — adds title_en / summary_en where applicable.
         events = _translate.translate_events(events)
 
-        # Threads synthesis — clusters events into up to five themes.
-        threads_list = _threads.synthesise_threads(events)
+        # Threads synthesis — produces a day_shape sentence plus up to
+        # five (or seven on dense days) themed threads.
+        synthesis = _threads.synthesise_threads(events)
+        threads_list = synthesis.get("threads", [])
+        day_shape = synthesis.get("day_shape", "")
 
         payload["events"] = events
         payload["threads"] = threads_list
+        payload["day_shape"] = day_shape
         # Stamp the backfill so we know when each file was synthesised.
         payload["synthesised_at"] = (
             __import__("datetime").datetime.now(__import__("datetime").timezone.utc)

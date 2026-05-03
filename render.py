@@ -429,6 +429,7 @@ def _render_pills(events: list[dict]) -> str:
 
 def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
     events = payload.get("events", [])
+    day_shape_html = _render_day_shape(payload.get("day_shape") or "", len(events))
     threads_html = _render_threads(payload.get("threads") or [])
     pills_html = _render_pills(events)
     items_html = "\n".join(_render_event(e) for e in events)
@@ -455,7 +456,28 @@ def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
                 '<h4>Source run</h4><ul>' + "".join(rows) + '</ul></section>'
             )
 
-    return f"{threads_html}{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+    return f"{day_shape_html}{threads_html}{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+
+
+def _render_day_shape(day_shape: str, n_items: int) -> str:
+    """The one-sentence shape-of-the-day line. Sits above the threads block.
+
+    The model writes a single concrete sentence describing the most
+    consequential developments and noteworthy absences. This is the 5-second
+    skim a 7am editor reads before scrolling. We render it with a small
+    sans-caps marker ("TODAY'S SHAPE") and the headline-weight text on its
+    own row so it carries genuine editorial weight without competing with
+    the threads block beneath.
+    """
+    if not day_shape:
+        return ""
+    text = html.escape(html.unescape(day_shape))
+    return (
+        '<section class="day-shape" aria-label="Day shape">'
+        '<span class="day-shape-label">Today’s shape</span>'
+        f'<p class="day-shape-text">{text}</p>'
+        '</section>'
+    )
 
 
 def _render_threads(threads: list[dict]) -> str:
