@@ -706,19 +706,38 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .cluster-teaser-label { font-size: 9.5px; letter-spacing: 0.12em; }
   .cluster-body { padding: 8px 12px 12px; }
   .cluster-count, .cluster-figures { font-size: 10px; }
-  /* On narrow screens the time range "2026-05-02 13:29Z → 2026-05-02
-     20:55Z" is too wide to fit alongside the channel name. Force it to
-     break onto a full-width row below the source-info, and shrink. */
-  .event.channel-cluster .head .time {
-    flex-basis: 100%;
+  /* On narrow screens, switch the .head from a horizontal flex row to a
+     vertical column. Source-info on top, time below, full width — no
+     fight between the time string ("2026-05-02 13:29Z → 2026-05-02
+     20:55Z") and the channel name for limited row real estate. Applies
+     to ALL events on mobile, not just clusters. */
+  .event .head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+  }
+  .event .time {
+    align-self: flex-start;
+    flex: 0 0 auto;
     font-size: 10.5px;
     color: var(--ink-vfaint);
     padding-top: 0;
+    white-space: normal;  /* allow the long range string to wrap if needed */
   }
+  /* The src-detail (e.g. "U.S. Central Command · X (via rss.app)") was
+     wrapping into a narrow column on cluster headers because the source-
+     info container had no min-width room. Now that .head is a column the
+     full width is available, but make sure src-detail wraps gracefully. */
+  .event .src-detail { white-space: normal; word-break: normal; }
   /* Broadcast cluster body: tighten the child events further. */
   .cluster-body .event { padding: 10px 0 12px; margin-bottom: 8px; }
-  .cluster-body .event h3 { font-size: 14px; }
+  .cluster-body .event h3 { font-family: var(--body); font-size: 14px; font-weight: 500; }
   .cluster-body .event .summary { font-size: 13px; }
+  /* Belt-and-braces: explicitly force [hidden] to display:none on mobile.
+     iOS Safari has historically been inconsistent about respecting the
+     hidden attribute when combined with class selectors that set padding
+     or other properties. */
+  .cluster-body[hidden] { display: none !important; }
 }
 
 /* ----- Filter / sort panel ------------------------------------------- */
@@ -936,15 +955,11 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 
 /* A second, narrower breakpoint for genuine phone widths (≤ 400px). The
-   cluster header source-info row gets really crowded with channel name +
-   post count + figures count + tier mark. Stack the count chips below the
-   channel name. */
+   src-detail and day-shape get a touch tighter, padding tightens around
+   the threads and filters panels. The .head is already column-direction
+   from the 600px breakpoint, so the count chips sit cleanly under the
+   channel name without per-chip rules. */
 @media (max-width: 400px) {
-  .event .src-row .cluster-count,
-  .event .src-row .cluster-figures {
-    flex-basis: 100%;
-    margin-left: 16px;  /* indent under the channel name */
-  }
   .event .src-detail { font-size: 10px; }
   .day-shape-text { font-size: 14px; }
   .threads { padding: 14px 14px 12px; }
