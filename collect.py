@@ -10,7 +10,7 @@ from pathlib import Path
 
 from core import threads as _threads
 from core import translate as _translate
-from sources import federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press, x_via_rssapp
+from sources import bluesky, federal_register, gov_uk, iaea, iran_international, reliefweb, state_dept, telegram, uk_parliament, un_press, x_via_rssapp
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -52,6 +52,7 @@ ADAPTERS = [
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
     ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
     ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF + CENTCOM via rss.app — official military broadcasts during a live Iran/Hezbollah war, curated by definition. Local filter dropped IDF strike posts that said "southern Lebanon" without naming Hezbollah.
+    ("bluesky",          bluesky.fetch,          True),   # Times of Israel + Jerusalem Post via Bluesky — global English news feeds, filter locally for Iran-relevance
     ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
 ]
 

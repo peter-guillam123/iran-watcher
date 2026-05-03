@@ -29,6 +29,8 @@ SOURCE_ORDER = [
     "UN Press",
     "IAEA",
     "ReliefWeb",
+    "Times of Israel",
+    "Jerusalem Post",
     "Iran International",
     "Regime channels",
 ]
