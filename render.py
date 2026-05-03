@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html
 import json
+import re
 import sys
 from collections import Counter
 from datetime import datetime
@@ -421,6 +422,48 @@ def _render_parliament(e: dict) -> str:
 
 # Event card ---------------------------------------------------------------
 
+_TRAILING_ELLIPSIS_RE = re.compile(r"[…\.…]+$")
+_WS_RE = re.compile(r"\s+")
+
+
+def _normalise_for_compare(s: str) -> str:
+    """Lower-case, strip, collapse whitespace, drop trailing ellipsis. Used
+    for detecting near-duplicate title/summary pairs from sources where the
+    title is just the first chunk of the body (Twitter, Bluesky, sometimes
+    Telegram)."""
+    s = (s or "").strip()
+    s = _TRAILING_ELLIPSIS_RE.sub("", s)
+    s = _WS_RE.sub(" ", s)
+    return s.lower()
+
+
+def _summary_redundant(title: str, summary: str) -> bool:
+    """True if `summary` is a near-superset of `title` and adds nothing
+    substantive beyond it.
+
+    The simplest rule that works: if normalised summary starts with
+    normalised title, the summary is redundant. The title was synthesised
+    from the first chunk of the body anyway, so anything past it is either
+    attribution boilerplate (— @IDF May 3, 2026) or trailing content that's
+    one click away on the original source.
+    """
+    if not title or not summary:
+        return False
+    nt = _normalise_for_compare(title)
+    ns = _normalise_for_compare(summary)
+    if not nt or not ns:
+        return False
+    if ns == nt:
+        return True
+    if ns.startswith(nt):
+        return True
+    # Inverse case: title is a superset of summary (rare, but possible
+    # when an adapter packs more into the title than the summary).
+    if nt.startswith(ns):
+        return True
+    return False
+
+
 def _render_event(e: dict) -> str:
     # Prefer English translations when present (Telegram channels are
     # collected in their original Persian/Arabic; the translate pass
@@ -429,6 +472,14 @@ def _render_event(e: dict) -> str:
     summary_en = e.get("summary_en")
     raw_title = title_en or e.get("title") or "(untitled)"
     raw_summary = summary_en or e.get("summary") or ""
+
+    # Suppress redundant summaries — for Twitter/X and Bluesky cards (and
+    # some Telegram posts), the title is synthesised from the first ~140
+    # chars of the body and the summary is the same body, so the summary
+    # adds no editorial value above what the headline already conveys. If
+    # the normalised summary starts with the normalised title, we drop it.
+    if raw_summary and _summary_redundant(raw_title, raw_summary):
+        raw_summary = ""
 
     title = html.escape(html.unescape(raw_title))
     url = html.escape(e.get("url") or "#")
