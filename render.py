@@ -78,6 +78,7 @@ FILTER_JS = r"""
   var sortDate = document.querySelector('.sort-pill[data-sort="date"]');
   var sortTier = document.querySelector('.sort-pill[data-sort="tier"]');
   var refineFigures = document.querySelector('.refine-pill[data-refine="figures"]');
+  var refinePrimary = document.querySelector('.refine-pill[data-refine="primary"]');
   if(!eventsBox) return;
   var originalHTML = eventsBox.innerHTML;
 
@@ -89,12 +90,17 @@ FILTER_JS = r"""
   function figuresOnly(){
     return refineFigures && refineFigures.dataset.active === '1';
   }
+  function primaryOnly(){
+    return refinePrimary && refinePrimary.dataset.active === '1';
+  }
   function shouldShow(e, sources){
-    // Apply the source filter (if any) AND the figures refine filter (if on).
-    // A cluster wrapper passes the figures check if any of its children carry
-    // the data-figures="1" flag (we set that during render).
+    // All filters compose: source AND primary-only AND figures-only.
     if(sources.size > 0 && !sources.has(e.dataset.source)) return false;
     if(figuresOnly() && e.dataset.figures !== '1') return false;
+    if(primaryOnly()){
+      var t = parseInt(e.dataset.tier || '2', 10);
+      if(t > 2) return false;
+    }
     return true;
   }
   function applyFilter(){
@@ -175,6 +181,10 @@ FILTER_JS = r"""
   if(sortTier) sortTier.addEventListener('click', sortByTier);
   if(refineFigures) refineFigures.addEventListener('click', function(){
     refineFigures.dataset.active = refineFigures.dataset.active === '1' ? '0' : '1';
+    applyFilter();
+  });
+  if(refinePrimary) refinePrimary.addEventListener('click', function(){
+    refinePrimary.dataset.active = refinePrimary.dataset.active === '1' ? '0' : '1';
     applyFilter();
   });
 
@@ -483,7 +493,11 @@ def _render_pills(events: list[dict]) -> str:
     )
 
     n_with_figs = sum(1 for e in events if e.get("has_figures"))
+    n_primary = sum(1 for e in events if (e.get("source_tier") or 2) <= 2)
     refine_pills = (
+        '<button class="sort-pill refine-pill" data-refine="primary" data-active="0" type="button" '
+        'title="Show only tier 1+2 — primary governmental, multilateral, official-body broadcasts. Hides Iran International and regime-channel claims.">'
+        f'Primary sources only <span class="n">{n_primary}</span></button>'
         '<button class="sort-pill refine-pill" data-refine="figures" data-active="0" type="button" '
         'title="Show only items citing specific figures — strikes, sanctions amounts, vessel counts, etc.">'
         f'With figures only <span class="n">{n_with_figs}</span></button>'
