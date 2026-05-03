@@ -596,12 +596,25 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 }
 .cluster-teaser {
   margin: 8px 0 6px;
-  font-family: var(--headline);
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 1.35;
-  color: var(--ink);
-  letter-spacing: -0.005em;
+  font-family: var(--body);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  letter-spacing: 0;
+}
+.cluster-teaser-label {
+  font-family: var(--body);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-right: 6px;
+  vertical-align: 1px;
+}
+.cluster-teaser-snippet {
+  font-style: italic;
 }
 .cluster-foot {
   font-family: var(--body); font-size: 11.5px;
@@ -640,7 +653,7 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 @media (max-width: 600px) {
   .cluster-toggle { padding: 14px 14px; }
-  .cluster-teaser { font-size: 15.5px; }
+  .cluster-teaser { font-size: 13.5px; }
   .cluster-body { padding: 10px 14px 14px; }
 }
 

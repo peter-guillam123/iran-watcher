@@ -760,7 +760,13 @@ def _render_broadcast_cluster(
         f"{oldest_at}Z → {latest_at}Z" if n > 1 else f"{latest_at}Z"
     )
 
-    children = "\n".join(_render_event(e) for e in items_sorted)
+    # Dedup: skip the teased latest item in the expander when there's more
+    # than one post in the cluster — the teaser snippet at the top of the
+    # cluster header is already showing it. For single-post clusters the
+    # expander reveals the one post in full (the snippet is a preview).
+    expander_items = items_sorted[1:] if n > 1 else items_sorted
+    children = "\n".join(_render_event(e) for e in expander_items)
+
     n_figures = sum(1 for e in items_sorted if e.get("has_figures"))
     has_figures_any = n_figures > 0
     fig_count_html = (
@@ -769,10 +775,22 @@ def _render_broadcast_cluster(
         if has_figures_any else ""
     )
 
+    # data-child-ids carries every child the cluster represents (including
+    # the teased latest), so thread-filters can match the cluster on any
+    # of its posts.
     child_ids = "|".join(e.get("id") or "" for e in items_sorted)
-    expand_label = (
-        f"Expand to read all {n} posts" if n > 1 else "Expand to read post"
-    )
+    if n > 1:
+        prev_n = n - 1
+        expand_label = f"Expand to read previous {prev_n} post{'s' if prev_n != 1 else ''}"
+    else:
+        expand_label = "Expand to read full post"
+
+    # Truncate the teaser hard. The full text of the latest post lives in
+    # the expander; this is a body-register preview snippet, not a headline.
+    # Iran International / Bluesky / Telegram items in the document zone
+    # still get their Playfair headlines — the editorial hierarchy is
+    # documents at headline-weight, broadcasts at snippet-weight.
+    teaser_snippet = _truncate_teaser(teaser_title, max_chars=120)
 
     return (
         f'<article class="event channel-cluster" '
@@ -794,7 +812,10 @@ def _render_broadcast_cluster(
         '</div>'
         f'<div class="time">{html.escape(range_label)}</div>'
         '</div>'
-        f'<h3 class="cluster-teaser">Latest: {html.escape(html.unescape(teaser_title))}</h3>'
+        f'<p class="cluster-teaser">'
+        f'<span class="cluster-teaser-label">Latest:</span> '
+        f'<span class="cluster-teaser-snippet">“{html.escape(html.unescape(teaser_snippet))}”</span>'
+        '</p>'
         f'<div class="cluster-foot">'
         f'<span class="cluster-expand">{expand_label}</span>'
         '</div>'
@@ -802,6 +823,17 @@ def _render_broadcast_cluster(
         f'<div class="cluster-body" hidden>{children}</div>'
         '</article>'
     )
+
+
+def _truncate_teaser(text: str, max_chars: int = 120) -> str:
+    """Trim a teaser snippet to max_chars, breaking at a word boundary,
+    appending an ellipsis when truncated. Preserves leading whitespace from
+    the source where present (some Telegram posts open with emoji)."""
+    s = (text or "").strip()
+    if len(s) <= max_chars:
+        return s
+    cut = s[:max_chars].rsplit(" ", 1)[0]
+    return cut.rstrip(",.;:—–-") + "…"
 
 
 def _render_day_shape(day_shape: str, n_items: int) -> str:

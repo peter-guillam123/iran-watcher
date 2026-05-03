@@ -53,6 +53,11 @@
 </header>
 
 <div class="entry milestone">
+  <h2>Cluster teaser tightened, latest deduped <span class="date">3 May 2026 (late)</span></h2>
+  <p>Two related fixes after eyeballing the broadcast zone live. <strong>(1)</strong> The cluster header was rendering the latest tweet's full body as a Playfair-headline teaser, which made an IDF strike post look more visually significant than an Iran International edited headline. The teaser now drops to body register (Public Sans, 14px italic, ink-soft) and truncates hard at ~120 characters with an ellipsis. The Iran International / Times of Israel / Jerusalem Post documents above keep their proper headlines. The visual hierarchy now reads <em>documents at headline weight, broadcasts at snippet weight</em>, which matches the editorial weighting. <strong>(2)</strong> Expanding a multi-post cluster was showing the latest post twice — once as the teaser at the top and again as the first event card inside the expander. Dedup: when N&nbsp;&gt;&nbsp;1, the expander shows posts 2…N (skipping the teased latest); the expand label adapts to <em>"Expand to read previous N-1 posts"</em>. Single-post clusters keep the post in the expander since the snippet is just a preview of it.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Broadcast layer split into military and regime sub-blocks <span class="date">3 May 2026 (evening)</span></h2>
   <p>The previous "regime-channel layer" zone at the bottom of the brief now becomes a "broadcast layer" zone with two visually-distinguished sub-blocks. <strong>Military spokes</strong> at tier 2 (IDF + CENTCOM via X) get a thin ink rule and a <em>"Military spokes · official-body broadcasts"</em> caption. <strong>Regime channels</strong> at tier 4 (Khamenei, IRIB, Defa Press) keep the deep-red rule and a <em>"Regime channels · claims, not facts"</em> caption.</p>
   <p>The editorial logic: documents and journalism are different units from broadcasts, regardless of provenance tier. UK Parliament Q&amp;A, Federal Register designations, State Department press releases, gov.uk Atom items, Iran International articles, Times of Israel and Jerusalem Post headlines — all <em>documents</em>, render inline chronologically. IDF/CENTCOM tweets and Khamenei/IRIB/Defa Press posts — all <em>broadcasts</em>, cluster by handle and live in the broadcast zone at the bottom.</p>
