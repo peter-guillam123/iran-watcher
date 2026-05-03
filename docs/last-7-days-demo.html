@@ -194,9 +194,9 @@
     // Only iterate top-level events — never tear cluster children out of
     // their .cluster-body wrapper (they belong inside the expander).
     var topLevel = Array.from(eventsBox.querySelectorAll(':scope > .event'));
-    var clusterZone = eventsBox.querySelector(':scope > .channel-cluster-zone');
-    var clusterWrappers = clusterZone
-      ? Array.from(clusterZone.querySelectorAll(':scope > .event'))
+    var broadcastZone = eventsBox.querySelector(':scope > .broadcast-zone');
+    var clusterWrappers = broadcastZone
+      ? Array.from(broadcastZone.querySelectorAll('.event.channel-cluster'))
       : [];
     var allTopLevel = topLevel.concat(clusterWrappers);
     var byTier = {};
