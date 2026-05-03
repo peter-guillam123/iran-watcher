@@ -519,27 +519,57 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   cursor: help;
 }
 
-/* ----- Regime channel clusters --------------------------------------- */
-/* Telegram regime-channel posts are aggregated into one collapsible block
-   per channel. The cluster header looks like a normal event card with the
-   channel name, post count, and the latest item as a teaser. Click to
-   expand and reveal the individual posts inside. */
-.channel-cluster-zone {
+/* ----- Broadcast layer (clusters) ----------------------------------- */
+/* Two visually-distinguished sub-blocks under one zone:
+   - Military spokes (IDF, CENTCOM) at tier 2: thin ink rule.
+   - Regime channels (Telegram) at tier 4: thick accent-red rule.
+   Both share the cluster mechanism — header card with channel name,
+   post count, and latest item as a teaser; click to expand. */
+.broadcast-zone {
   margin-top: 36px;
   padding-top: 18px;
   border-top: 2px solid var(--rule);
-  position: relative;
 }
-.channel-cluster-zone::before {
-  content: "Regime-channel layer · expand to read individual posts";
+.broadcast-zone-caption {
   display: block;
+  margin: 0 0 18px 0;
   font-family: var(--body); font-size: 10.5px;
   letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--accent); font-weight: 700;
-  margin-bottom: 14px;
+  color: var(--ink); font-weight: 700;
 }
+.broadcast-sub {
+  margin-bottom: 28px;
+}
+.broadcast-sub:last-child {
+  margin-bottom: 0;
+}
+.broadcast-sub-caption {
+  margin: 0 0 10px 0;
+  font-family: var(--body); font-size: 10.5px;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  font-weight: 600;
+}
+.broadcast-sub-military .broadcast-sub-caption {
+  color: var(--ink-soft);
+}
+.broadcast-sub-regime .broadcast-sub-caption {
+  color: var(--accent);
+}
+/* Visual separator between the two sub-blocks */
+.broadcast-sub-regime {
+  padding-top: 18px;
+  border-top: 1px dashed var(--rule-hair);
+}
+
 .event.channel-cluster {
   padding: 0;
+}
+/* Tier-2 military broadcasts: thin ink rule */
+.event.channel-cluster[data-cluster-kind="military"] {
+  border-left: 2px solid var(--ink);
+}
+/* Tier-4 regime channels: thick accent-deep rule */
+.event.channel-cluster[data-cluster-kind="regime"] {
   border-left: 2px solid var(--accent-deep);
 }
 .cluster-toggle {

@@ -153,9 +153,9 @@ FILTER_JS = r"""
     // Only iterate top-level events — never tear cluster children out of
     // their .cluster-body wrapper (they belong inside the expander).
     var topLevel = Array.from(eventsBox.querySelectorAll(':scope > .event'));
-    var clusterZone = eventsBox.querySelector(':scope > .channel-cluster-zone');
-    var clusterWrappers = clusterZone
-      ? Array.from(clusterZone.querySelectorAll(':scope > .event'))
+    var broadcastZone = eventsBox.querySelector(':scope > .broadcast-zone');
+    var clusterWrappers = broadcastZone
+      ? Array.from(broadcastZone.querySelectorAll('.event.channel-cluster'))
       : [];
     var allTopLevel = topLevel.concat(clusterWrappers);
     var byTier = {};
@@ -643,59 +643,115 @@ def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
 
 
 def _render_events_with_clusters(events: list[dict]) -> str:
-    """Render events, collapsing regime-channel posts into per-channel clusters.
+    """Render events with two structural zones: a documents zone above and a
+    broadcast zone below.
 
-    Telegram regime channels are by far the noisiest layer in the brief —
-    Khamenei alone often posts 8-12 variations of the same daily theme
-    (audio + video + text + quote-card). Inline-chronological they swamp
-    the other 30+ items from primary governmental sources.
+    Editorially these are different units. UK Parliament Q&A, Federal
+    Register designations, State Dept press releases, gov.uk Atom items,
+    Iran International articles, Times of Israel and Jerusalem Post
+    headlines — all *documents* with publication weight. IDF and CENTCOM
+    tweets, Khamenei / IRIB / Defa Press posts — all short *broadcasts*
+    from a single official source.
 
-    Strategy: render every non-regime event in original chronological order
-    first, then render each regime channel as a single collapsible cluster
-    at the bottom. The cluster header acts as one .event for filter/sort
-    purposes (same data-source / data-tier attributes), so the existing
-    source-filter pills and sort-by-tier still operate correctly. The
-    children inside the expander are also full .event articles so threads-
-    citation filters reach them when expanded.
+    The broadcast zone holds two visually-distinguished sub-blocks:
+      · Military broadcasts (tier 2, ink rule)        — IDF, CENTCOM
+      · Regime channels      (tier 4, accent rule)    — Telegram channels
+
+    Both use the same compaction mechanism: one collapsible cluster per
+    handle, latest item as a teaser, expand to read all posts. The visual
+    signal still distinguishes "this is what they said" from "this is a
+    one-sided regime claim".
     """
-    primary_events: list[dict] = []
-    by_channel: dict[str, list[dict]] = {}
+    # Bluesky and X-via-rss.app handles we treat as broadcast clusters
+    # rather than inline cards. Bluesky is excluded — Times of Israel and
+    # Jerusalem Post are newspapers, not broadcasts.
+    MILITARY_SOURCES = {"IDF", "CENTCOM"}
+
+    document_events: list[dict] = []
+    military: dict[str, list[dict]] = {}        # source -> events
+    regime: dict[str, list[dict]] = {}          # channel handle -> events
 
     for e in events:
         details = e.get("details") or {}
-        if e.get("source") == "Regime channels" and details.get("channel_handle"):
-            by_channel.setdefault(details["channel_handle"], []).append(e)
+        src = e.get("source") or ""
+        if src == "Regime channels" and details.get("channel_handle"):
+            regime.setdefault(details["channel_handle"], []).append(e)
+        elif src in MILITARY_SOURCES:
+            military.setdefault(src, []).append(e)
         else:
-            primary_events.append(e)
+            document_events.append(e)
 
-    parts = [_render_event(e) for e in primary_events]
+    parts = [_render_event(e) for e in document_events]
 
-    if by_channel:
-        # Stable order: most-active channel first, then alphabetical handle.
-        ordered_channels = sorted(
-            by_channel.items(),
-            key=lambda kv: (-len(kv[1]), kv[0]),
-        )
-        cluster_blocks = [_render_channel_cluster(handle, items) for handle, items in ordered_channels]
+    if military or regime:
+        sub_blocks: list[str] = []
+
+        if military:
+            mil_clusters = [
+                _render_broadcast_cluster(
+                    handle=src,
+                    items=items,
+                    kind="military",
+                    tier=2,
+                    source_for_filter=src,  # "IDF" / "CENTCOM" matches source pill
+                )
+                for src, items in sorted(military.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+            ]
+            sub_blocks.append(
+                '<div class="broadcast-sub broadcast-sub-military">'
+                '<h5 class="broadcast-sub-caption">Military spokes · official-body broadcasts</h5>'
+                + "".join(mil_clusters)
+                + '</div>'
+            )
+
+        if regime:
+            regime_clusters = [
+                _render_broadcast_cluster(
+                    handle=handle,
+                    items=items,
+                    kind="regime",
+                    tier=4,
+                    source_for_filter="Regime channels",
+                )
+                for handle, items in sorted(regime.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+            ]
+            sub_blocks.append(
+                '<div class="broadcast-sub broadcast-sub-regime">'
+                '<h5 class="broadcast-sub-caption">Regime channels · claims, not facts</h5>'
+                + "".join(regime_clusters)
+                + '</div>'
+            )
+
         parts.append(
-            '<div class="channel-cluster-zone" aria-label="Regime channel clusters">'
-            + "".join(cluster_blocks)
+            '<div class="broadcast-zone" aria-label="Broadcast layer">'
+            '<h4 class="broadcast-zone-caption">Broadcast layer · expand to read individual posts</h4>'
+            + "".join(sub_blocks)
             + '</div>'
         )
 
     return "\n".join(parts)
 
 
-def _render_channel_cluster(handle: str, items: list[dict]) -> str:
-    """One collapsible block per regime channel — header is the teaser, body
-    is the individual events hidden by default."""
+def _render_broadcast_cluster(
+    *,
+    handle: str,
+    items: list[dict],
+    kind: str,                 # "military" or "regime"
+    tier: int,
+    source_for_filter: str,
+) -> str:
+    """One collapsible block per broadcast handle — header is the teaser,
+    body is the individual events hidden by default. Used for both military
+    spokes (IDF, CENTCOM at tier 2) and regime channels (Telegram at
+    tier 4). The `kind` attribute drives the visual treatment in CSS."""
     # Newest first within the cluster.
     items_sorted = sorted(items, key=lambda e: e.get("published_at") or "", reverse=True)
     n = len(items_sorted)
     latest = items_sorted[0]
     oldest = items_sorted[-1]
 
-    display = (latest.get("details") or {}).get("channel_display") or handle
+    details = latest.get("details") or {}
+    display = details.get("channel_display") or details.get("handle") or handle
     detail = latest.get("source_detail") or ""
     teaser_title = latest.get("title_en") or latest.get("title") or ""
     latest_at = (latest.get("published_at") or "")[:16].replace("T", " ")
@@ -714,18 +770,22 @@ def _render_channel_cluster(handle: str, items: list[dict]) -> str:
     )
 
     child_ids = "|".join(e.get("id") or "" for e in items_sorted)
+    expand_label = (
+        f"Expand to read all {n} posts" if n > 1 else "Expand to read post"
+    )
 
     return (
         f'<article class="event channel-cluster" '
-        f'data-source="Regime channels" data-tier="4" '
+        f'data-source="{html.escape(source_for_filter)}" data-tier="{tier}" '
         f'data-figures="{1 if has_figures_any else 0}" '
         f'data-channel="{html.escape(handle)}" '
+        f'data-cluster-kind="{kind}" '
         f'data-child-ids="{html.escape(child_ids)}">'
         '<button class="cluster-toggle" type="button" aria-expanded="false">'
         '<div class="head">'
         '<div class="source-info">'
         '<div class="src-row">'
-        '<span class="tier-mark t4" aria-hidden="true"></span>'
+        f'<span class="tier-mark t{tier}" aria-hidden="true"></span>'
         f'<span class="src">{html.escape(display)}</span>'
         f'<span class="cluster-count">{n} post{"s" if n != 1 else ""}</span>'
         f'{fig_count_html}'
@@ -736,7 +796,7 @@ def _render_channel_cluster(handle: str, items: list[dict]) -> str:
         '</div>'
         f'<h3 class="cluster-teaser">Latest: {html.escape(html.unescape(teaser_title))}</h3>'
         f'<div class="cluster-foot">'
-        f'<span class="cluster-expand">Expand to read all {n} post{"s" if n != 1 else ""}</span>'
+        f'<span class="cluster-expand">{expand_label}</span>'
         '</div>'
         '</button>'
         f'<div class="cluster-body" hidden>{children}</div>'
