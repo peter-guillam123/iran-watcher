@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-03T07:54:02.876967Z",
-  "window_since": "2026-05-02T07:52:32.086633Z",
-  "window_until": "2026-05-03T07:52:32.086633Z",
+  "generated_at": "2026-05-03T09:53:40.908140Z",
+  "window_since": "2026-05-02T09:52:17.296993Z",
+  "window_until": "2026-05-03T09:52:17.296993Z",
   "diagnostics": [
     {
       "source": "federal_register",
@@ -47,14 +47,20 @@
     },
     {
       "source": "telegram",
-      "fetched": 36,
-      "kept": 36,
+      "fetched": 35,
+      "kept": 35,
       "ok": true
     },
     {
       "source": "x_via_rssapp",
-      "fetched": 3,
-      "kept": 3,
+      "fetched": 4,
+      "kept": 4,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 84,
+      "kept": 20,
       "ok": true
     },
     {
@@ -65,147 +71,738 @@
   ],
   "threads": [
     {
-      "label": "Strait of Hormuz and US naval blockade",
-      "summary": "CENTCOM said USS New Orleans was patrolling the Arabian Sea during a US blockade of Iranian ports, with 48 vessels redirected over 20 days, while Iran International reported Iranian lawmakers proposed barring Israeli ships and charging US allies tolls. Iran International also cited Bloomberg saying Iran is curbing oil production as exports plunge; Defa Press claimed the supertanker HUGE broke through with 1.9 million barrels and quoted John Bolton on Hormuz's strategic importance.",
+      "label": "US-Iran talks falter, strikes threatened",
+      "summary": "Trump said renewed strikes on Iran are possible 'if they misbehave' after rejecting an Iranian proposal that would have opened the Strait of Hormuz and ended the US blockade while deferring nuclear talks. A senior Iranian officer warned renewed war with the US was 'likely', and the IRGC Intelligence Organisation claimed Trump faces a choice between 'an impossible operation or a bad deal'.",
+      "event_ids": [
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkvzq2hktw2x",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkvtzoneyu2k",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkvrop7wls2e",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkv6vxrfrm27",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkueuxtjjr2o",
+        "telegram:defapress_ir/57929",
+        "telegram:iribnews/336490",
+        "telegram:defapress_ir/57927"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Strait of Hormuz blockade and oil disruption",
+      "summary": "CENTCOM said USS New Orleans is enforcing a US blockade of Iranian ports, with 48 vessels redirected over 20 days, while Bloomberg reported Iran is curbing oil output as storage fills. Iranian lawmakers proposed barring Israeli vessels from the Strait and charging US-allied ships war reparations; Defa Press claimed a supertanker carrying 1.9 million barrels broke through the blockade.",
       "event_ids": [
         "x_via_rssapp:bab9ab920b27918177d7fc12a559fdca",
         "x_via_rssapp:cc5fcd06d03d38d44417530e33da015a",
-        "iranintl:https://www.iranintl.com/en/202605024485",
         "iranintl:https://www.iranintl.com/en/202605029994",
+        "iranintl:https://www.iranintl.com/en/202605024485",
         "telegram:defapress_ir/57923",
-        "telegram:defapress_ir/57909",
         "telegram:defapress_ir/57911",
-        "telegram:defapress_ir/57908",
-        "telegram:defapress_ir/57912"
+        "telegram:iribnews/336488"
       ],
       "tier4_present": true
     },
     {
-      "label": "Regime messaging on US economic costs of war",
-      "summary": "IRIB and Defa Press posted a series of items claiming the war against Iran is driving up US petrol, diesel and consumer prices, citing the Financial Times, Washington Post and Washington Times. IRIB also claimed Detroit automakers GM, Ford and Stellantis warned of a $5 billion cost shock, and that flags were burned in Los Angeles.",
+      "label": "Energy shock hits US economy",
+      "summary": "NBC reported US petrol prices jumped to $4.39 per gallon, the largest single-day rise since the Iran ceasefire announcement, and Spirit Airlines declared bankruptcy citing the fuel surge. The Jerusalem Post and IRIB-cited Financial Times items described strained US weapons reserves and warnings to European allies about delivery delays.",
       "event_ids": [
-        "telegram:iribnews/336471",
-        "telegram:iribnews/336465",
-        "telegram:iribnews/336474",
-        "telegram:iribnews/336461",
-        "telegram:iribnews/336470",
-        "telegram:defapress_ir/57910",
-        "telegram:iribnews/336467"
+        "telegram:iribnews/336488",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkurtj57t32n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkwo2ttyzm2t",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkwnzqq3dg2w",
+        "telegram:iribnews/336493",
+        "telegram:iribnews/336498"
       ],
       "tier4_present": true
     },
     {
-      "label": "Khamenei Labour and Teachers' Day messaging",
-      "summary": "Khamenei's office released an audio message and accompanying texts for Labour Day and Teachers' Day on 11 Ordibehesht 1405, urging employers to avoid layoffs and praising teachers' role in shaping identity. IRIB and Defa Press carried gatherings in Shiraz, Islamshahr, Shahriar and at Shahid Raisi Square framed as renewing covenant with the \"martyred leader\".",
+      "label": "Hezbollah-Israel exchanges in southern Lebanon",
+      "summary": "The IDF said it struck a loaded launcher and eliminated two armed Hezbollah members south of the Forward Defense Line, after Hezbollah fired rockets at Israeli troops in Lebanon with no injuries reported. Hezbollah MP Hassan Fadlallah told IRIB that resistance is Lebanon's 'national choice', and Defa Press claimed Hezbollah is using fibre-optic drones against Merkava tanks.",
       "event_ids": [
-        "telegram:rahbar_enghelab_ir/339",
-        "telegram:rahbar_enghelab_ir/338",
-        "telegram:rahbar_enghelab_ir/337",
-        "telegram:rahbar_enghelab_ir/335",
-        "telegram:rahbar_enghelab_ir/336",
-        "telegram:iribnews/336479",
-        "telegram:iribnews/336478",
-        "telegram:iribnews/336468",
-        "telegram:iribnews/336464",
-        "telegram:iribnews/336420",
-        "telegram:defapress_ir/57924",
-        "telegram:defapress_ir/57913"
-      ],
-      "tier4_present": true
-    },
-    {
-      "label": "Israel-Lebanon front activity",
-      "summary": "The IDF posted video of an Israeli Air Force strike dismantling a loaded launcher in southern Lebanon. Defa Press claimed Israeli casualties in the north continue to rise after the ceasefire with Iran, and IRIB cited a \"Credal\" report claiming Israeli unemployment has passed 16%, the highest since the pandemic.",
-      "event_ids": [
+        "x_via_rssapp:a6dc34524074313f222738b651cfd383",
         "x_via_rssapp:23961f99520bba896e2e27c5ce711c70",
-        "telegram:defapress_ir/57908",
-        "telegram:iribnews/336476"
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkuwfxri7l27",
+        "telegram:iribnews/336500",
+        "telegram:defapress_ir/57928",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkv7htfpra2g"
       ],
       "tier4_present": true
     },
     {
-      "label": "Iranian operations and figures abroad",
-      "summary": "Iran International reported, citing Fox News, that Iran is accused of supplying attack drones used by Sudan's army as the civil war enters its fourth year, and that Canada's opposition is questioning how an IRGC-linked football official was admitted. A separate Iran International analysis examined the public rift in Tehran over who is making decisions.",
+      "label": "Executions and detained dissidents in Iran",
+      "summary": "Iran International reported the execution of political prisoner Mehrab Abdollahzadeh in Urmia prison, and the Jerusalem Post reported Nobel laureate Narges Mohammadi is in critical condition after a heart attack in prison. The Jerusalem Post also published accounts from families of four victims of secret executions and enforced disappearances.",
       "event_ids": [
-        "iranintl:https://www.iranintl.com/en/202605029114",
-        "iranintl:https://www.iranintl.com/en/202605018331",
-        "iranintl:https://www.iranintl.com/en/202605019621"
+        "iranintl:https://www.iranintl.com/en/202605038178",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkuygzy5b42e",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkuq4zluwt26"
       ],
       "tier4_present": false
     }
   ],
   "events": [
     {
-      "id": "telegram:iribnews/336479",
+      "id": "telegram:iribnews/336502",
       "source": "Regime channels",
       "source_detail": "IRIB — Iranian state broadcaster · Telegram",
       "source_tier": 4,
       "category": "telegram-claim",
-      "published_at": "2026-05-03T07:50:12Z",
-      "title": "🎦 میادین و خیابان های شهر شیراز دیشب هم صحنه تبلور عشق و وفاداری به ولایت بود . @iribnews",
-      "url": "https://t.me/iribnews/336479",
-      "summary": "🎦 میادین و خیابان های شهر شیراز دیشب هم صحنه تبلور عشق و وفاداری به ولایت بود . @iribnews",
+      "published_at": "2026-05-03T09:50:05Z",
+      "title": "🔺 روایت نیویورک تایمز از زوال امپراطوری آمریکا نیویورک تایمز می‌نویسد: 🔹 حمله آمریکا و اسرائیل به ایران چیزی…",
+      "url": "https://t.me/iribnews/336502",
+      "summary": "🔺 روایت نیویورک تایمز از زوال امپراطوری آمریکا نیویورک تایمز می‌نویسد: 🔹 حمله آمریکا و اسرائیل به ایران چیزی بیش از یک ایده بد بود؛ این حمله به نقطه عطفی در افول امپراتوری آمریکا تبدیل شده است. 🔹 سیستم‌های امپراتوری، تنها تا زمانی دوام می‌آورند که ابزارهای آنها برای اهدافشان کافی باشد، اما با جنگ ایران، به طرز خطرناکی همخوانی نداشتن اهداف و واقعیت ها را نشان می دهد. 🔹 بر اساس این گزارش مشکلات داخلی و تجارب شکست در عراق و افغانستان اکنون به جنگ ایران سرایت کرده و آمریکا را وارد بحرانی بزرگ کرده است که نتیجه‌ای جز انحطاط برای آمریکا در پی نخواهد داشت. @iribnews",
       "details": {
         "channel_handle": "iribnews",
         "channel_display": "IRIB",
         "language": "fa",
-        "post_id": "iribnews/336479"
+        "post_id": "iribnews/336502"
       },
       "tags": [
         "telegram",
         "claim",
         "fa"
       ],
-      "title_en": "The squares and streets of Shiraz city last night were also a scene of the crystallisation of love and loyalty to the guardianship",
-      "summary_en": "The squares and streets of Shiraz city last night were also a scene of the crystallisation of love and loyalty to the guardianship"
+      "title_en": "New York Times account of the decline of American empire",
+      "summary_en": "The New York Times writes: The attack by America and Israel on Iran was more than a bad idea; this attack has become a turning point in the decline of the American empire. Imperial systems only last as long as their instruments are sufficient for their objectives, but the Iran war dangerously reveals a mismatch between objectives and reality. According to this report, internal problems and experiences of failure in Iraq and Afghanistan have now spread to the Iran war, plunging America into a major crisis that can only result in decline for America."
     },
     {
-      "id": "telegram:iribnews/336478",
+      "id": "telegram:iribnews/336501",
       "source": "Regime channels",
       "source_detail": "IRIB — Iranian state broadcaster · Telegram",
       "source_tier": 4,
       "category": "telegram-claim",
-      "published_at": "2026-05-03T07:45:11Z",
-      "title": "🎦 کارگران در آیین تجلیل از کارگران نمونه ملی و تلاشگران جنگ تحمیلی سوم، سرود «ای ایران» خواندند 🔹 وزرای کار…",
-      "url": "https://t.me/iribnews/336478",
-      "summary": "🎦 کارگران در آیین تجلیل از کارگران نمونه ملی و تلاشگران جنگ تحمیلی سوم، سرود «ای ایران» خواندند 🔹 وزرای کار ادوار و کارگران در آیین تجلیل از کارگران نمونه ملی و تلاشگران جنگ تحمیلی سوم، سرود «ای ایران» خواندند. @iribnews",
+      "published_at": "2026-05-03T09:44:45Z",
+      "title": "🎦 حجت الاسلام نواب: ۷ هزار نفر به حج اعزام شده‌اند سرپرست حجاج ایرانی: 🔹 بقیه حجاجی که ثبت‌نام کرده‌اند به…",
+      "url": "https://t.me/iribnews/336501",
+      "summary": "🎦 حجت الاسلام نواب: ۷ هزار نفر به حج اعزام شده‌اند سرپرست حجاج ایرانی: 🔹 بقیه حجاجی که ثبت‌نام کرده‌اند به مرور اعزام می‌شوند، امسال ۳۰ هزار نفر، با همکاری کشور میزبان در این مراسم معنوی شرکت خواهند کرد. @iribnews",
       "details": {
         "channel_handle": "iribnews",
         "channel_display": "IRIB",
         "language": "fa",
-        "post_id": "iribnews/336478"
+        "post_id": "iribnews/336501"
       },
       "tags": [
         "telegram",
         "claim",
         "fa"
       ],
-      "title_en": "Workers sang the national anthem at a ceremony honouring exemplary national workers and those who strived in the third imposed war",
-      "summary_en": "Workers sang the national anthem at a ceremony honouring exemplary national workers and those who strived in the third imposed war. Labour ministers and workers at the ceremony honouring exemplary national workers and those who strived in the third imposed war sang the national anthem."
+      "title_en": "Hojjat-al-Islam Navab: 7,000 people have been sent on pilgrimage",
+      "summary_en": "Head of Iranian pilgrims: The remaining pilgrims who have registered will be sent gradually. This year, 30,000 people, with cooperation from the host country, will participate in this spiritual ceremony."
     },
     {
-      "id": "telegram:iribnews/336477",
+      "id": "telegram:iribnews/336500",
       "source": "Regime channels",
       "source_detail": "IRIB — Iranian state broadcaster · Telegram",
       "source_tier": 4,
       "category": "telegram-claim",
-      "published_at": "2026-05-03T07:40:09Z",
-      "title": "🎦 لحظه مصدومیت علی قلی‌زاده که می‌تواند به قیمتِ از دست رفتن مهم‌ترین تورنمنت جام‌جهانی برای او تمام شود.…",
-      "url": "https://t.me/iribnews/336477",
-      "summary": "🎦 لحظه مصدومیت علی قلی‌زاده که می‌تواند به قیمتِ از دست رفتن مهم‌ترین تورنمنت جام‌جهانی برای او تمام شود. @iribnews",
+      "published_at": "2026-05-03T09:40:01Z",
+      "title": "🔺 حزب‌الله: مقاومت گزینه ملی لبنان است 🔹 نماینده حزب‌الله در پارلمان لبنان با تأکید بر اینکه مقاومت امروز به…",
+      "url": "https://t.me/iribnews/336500",
+      "summary": "🔺 حزب‌الله: مقاومت گزینه ملی لبنان است 🔹 نماینده حزب‌الله در پارلمان لبنان با تأکید بر اینکه مقاومت امروز به گزینه غیرقابل‌جایگزین ملی برای آزادسازی سرزمین‌های اشغالی تبدیل شده است، اعلام کرد: حزب‌الله باقی خواهد ماند و تا مجبور کردن رژیم اسرائیل به خروج کامل از خاک لبنان، از هیچ تلاشی فروگذار نخواهد کرد. 🔹 «حسن فضل‌الله» با اشاره به تحولات اخیر گفت: ما همواره در دیدارهای خود با رئیس‌جمهور و نخست‌وزیر لبنان، جناح‌های سیاسی و نهادهای بین‌المللی تأکید داشتیم که صبرمان حد و مرزی دارد و مهلت رو به اتمام است؛ اما نه دولت وظیفه خود را انجام داد و نه رژیم صهیونیستی به تجاوزات خود پایان داد تا اینکه د",
       "details": {
         "channel_handle": "iribnews",
         "channel_display": "IRIB",
         "language": "fa",
-        "post_id": "iribnews/336477"
+        "post_id": "iribnews/336500"
       },
       "tags": [
         "telegram",
         "claim",
         "fa"
       ],
-      "title_en": "The moment Ali Qolizadeh was injured, which could cost him the most important World Cup tournament",
-      "summary_en": "The moment Ali Qolizadeh was injured, which could cost him the most important World Cup tournament."
+      "title_en": "Hezbollah: resistance is Lebanon's national choice",
+      "summary_en": "Hezbollah's representative in the Lebanese parliament, emphasising that resistance has today become an irreplaceable national option for liberating occupied territories, announced: Hezbollah will remain and will spare no effort in forcing the Israeli regime to completely withdraw from Lebanese soil. Hassan Fadlallah, referring to recent developments, said: We have always emphasised in our meetings with the Lebanese president and prime minister, political factions and international bodies that our patience has limits and time is running out; but neither has the government fulfilled its duty nor has the Zionist regime ended its aggression until"
+    },
+    {
+      "id": "telegram:iribnews/336499",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:35:13Z",
+      "title": "🔺 ابلاغ جدول هزینه ساخت و تعرفه خدمات مهندسی سال ۱۴۰۵ 🔹 رییس سازمان نظام مهندسی طی یک ابلاغیه به رؤسای سازمان…",
+      "url": "https://t.me/iribnews/336499",
+      "summary": "🔺 ابلاغ جدول هزینه ساخت و تعرفه خدمات مهندسی سال ۱۴۰۵ 🔹 رییس سازمان نظام مهندسی طی یک ابلاغیه به رؤسای سازمان استان‌ها، تعرفه سال ۱۴۰۵ خدمات مهندسی را ابلاغ کرد. 🔹 رئیس سازمان نظام مهندسی ساختمان، هم‌زمان با ابلاغ تفویض اختیارات از سوی وزیر راه و شهرسازی به استانداران سراسر کشور، جدول هزینه‌های پایه ساخت‌وساز و تعرفه‌های خدمات مهندسی به ازای هر مترمربع بنا در گروه‌های ساختمانی و تعرفه خدمات مهندسی برای سال ۱۴۰۵ را به سازمان‌ استان‌ها ابلاغ کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336499"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Circulation of construction cost schedule and engineering services tariff for 1405",
+      "summary_en": "The head of the Engineering Organisation issued a circular to heads of provincial organisations, circulating the 1405 engineering services tariff. The head of the Building Engineering Organisation, coinciding with the circulation of delegation of authority from the Minister of Roads and Urban Development to governors across the country, circulated the basic construction cost schedules and engineering services tariffs per square metre of building in building groups and engineering services tariff for 1405 to provincial organisations."
+    },
+    {
+      "id": "telegram:iribnews/336498",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:33:35Z",
+      "title": "المیادین: اثر شوک نفتی بر آمریکا احتمالاً بیشتر از چین، اروپا و روسیه خواهد بود 🔹 آمریکا همچنان واردکننده نفت…",
+      "url": "https://t.me/iribnews/336498",
+      "summary": "المیادین: اثر شوک نفتی بر آمریکا احتمالاً بیشتر از چین، اروپا و روسیه خواهد بود 🔹 آمریکا همچنان واردکننده نفت خام است و پالایشگاه‌های آن برای انواع خاصی از نفت طراحی شده‌اند، که انعطاف‌پذیری آن را کاهش می‌دهد. در مقابل، چین با داشتن شبکه متنوع‌تری از تأمین‌کنندگان انرژی و برنامه‌ریزی متمرکز، توانایی بیشتری برای سازگاری با شوک‌های عرضه دارد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336498"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Al-Mayadeen: The impact of an oil shock on America will likely be greater than on China, Europe and Russia",
+      "summary_en": "America remains an importer of crude oil and its refineries are designed for specific types of oil, which reduces its flexibility. By contrast, China, with a more diverse network of energy suppliers and centralised planning, has greater ability to adapt to supply shocks."
+    },
+    {
+      "id": "telegram:defapress_ir/57930",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:33:05Z",
+      "title": "💢 شجاعت در میدان بحران؛ مقایسه‌ای میان الگو‌های رفتاری مسئولان در ایران و آمریکا 🔸 مقایسه رفتار مسئولان در…",
+      "url": "https://t.me/defapress_ir/57930",
+      "summary": "💢 شجاعت در میدان بحران؛ مقایسه‌ای میان الگو‌های رفتاری مسئولان در ایران و آمریکا 🔸 مقایسه رفتار مسئولان در جمهوری اسلامی ایران با همتایان آمریکایی، نشان‌دهنده دو الگوی متفاوت از مواجهه با خطر و ارتباط با افکار عمومی است. 🔸 یکی از الگو‌های تکرارشونده در سال‌های اخیر در ایران حضور میدانی مسئولان در شرایطی است که کشور با تهدیدات امنیتی یا نظامی مواجه بوده است. این حضور چه در قالب شرکت در راهپیمایی‌ها، بازدید از مناطق آسیب‌دیده و چه حضور در میان مردم در شرایط پرتنش، همواره به‌عنوان نشانه‌ای از همبستگی با جامعه و نوعی «هم‌سرنوشتی» با مردم تفسیر شده است. 🔸 این نوع رفتار ریشه در یک چارچوب فکری و ایدئ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57930"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Courage in the field of crisis; a comparison between behavioural patterns of officials in Iran and America",
+      "summary_en": "Comparing the conduct of officials in the Islamic Republic of Iran with their American counterparts reveals two different patterns of confronting danger and engaging with public opinion. One recurring pattern in recent years in Iran is the field presence of officials in situations where the country faces security or military threats. This presence, whether in the form of participation in rallies, visits to damaged areas or presence among people in tense situations, has always been interpreted as a sign of solidarity with society and a kind of 'shared destiny' with the people. This type of behaviour is rooted in an intellectual and ideological framework"
+    },
+    {
+      "id": "telegram:iribnews/336497",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:23:46Z",
+      "title": "🎦 حضور وزیر فرهنگ و ارشاد اسلامی در مراسم بدرقه نماینده ولی فقیه در امور حج و رئیس سازمان حج @iribnews",
+      "url": "https://t.me/iribnews/336497",
+      "summary": "🎦 حضور وزیر فرهنگ و ارشاد اسلامی در مراسم بدرقه نماینده ولی فقیه در امور حج و رئیس سازمان حج @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336497"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Presence of the Minister of Culture and Islamic Guidance at the farewell ceremony of the Supreme Leader's representative in pilgrimage affairs and the head of the pilgrimage organisation",
+      "summary_en": "Presence of the Minister of Culture and Islamic Guidance at the farewell ceremony of the Supreme Leader's representative in pilgrimage affairs and the head of the pilgrimage organisation"
+    },
+    {
+      "id": "telegram:iribnews/336496",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:21:15Z",
+      "title": "🔺 رئیس سازمان حج و زیارت: پیگیر حل مشکل اعزام ۱۲۰۰ زائر بیت الله الحرام هستیم 🔹 رئیس سازمان حج و زیارت اظهار…",
+      "url": "https://t.me/iribnews/336496",
+      "summary": "🔺 رئیس سازمان حج و زیارت: پیگیر حل مشکل اعزام ۱۲۰۰ زائر بیت الله الحرام هستیم 🔹 رئیس سازمان حج و زیارت اظهار امیدواری کرد مشکل هزار و ۲۰۰ نفر از زائران حج تمتع که به دلیل صادرنشدن رقم‌طلب یا ویزا(روادید) از سوی دولت عربستان هنوز به مدینه نرفته‌اند، در روزهای آینده حل شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336496"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of Hajj and Pilgrimage Organisation: We are pursuing a solution to the problem of sending 1,200 pilgrims to the House of Allah",
+      "summary_en": "The head of the Hajj and Pilgrimage Organisation expressed hope that the problem of 1,200 Hajj al-Tamattu pilgrims who have not yet gone to Medina due to non-issuance of funds or visas by the Saudi government will be resolved in the coming days."
+    },
+    {
+      "id": "telegram:iribnews/336495",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:15:54Z",
+      "title": "🔺 کاشت ۱۶۸ نخل به یاد شهدای دبستان شجره طیبه میناب 🔹 با هدف گرامیداشت شهدای دبستان شجره طیبه میناب ۱۶۸ نفر…",
+      "url": "https://t.me/iribnews/336495",
+      "summary": "🔺 کاشت ۱۶۸ نخل به یاد شهدای دبستان شجره طیبه میناب 🔹 با هدف گرامیداشت شهدای دبستان شجره طیبه میناب ۱۶۸ نفر نخل در دهکده ورزشی میناب کاشته شد. 🔹 این دهکده به مساحت ۸ و نیم هکتار به نام دهکده ورزشی فرشتگان میناب نام گذاری شد و به زودی به بهره برداری می‌رسد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336495"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Planting of 168 date palms in memory of the martyrs of Shajarat al-Tayyiba school in Minab",
+      "summary_en": "With the aim of commemorating the martyrs of Shajarat al-Tayyiba school in Minab, 168 date palms were planted in the Minab sports village. This village, covering an area of 8.5 hectares, was named Minab Angels Sports Village and will soon be put into operation."
+    },
+    {
+      "id": "telegram:iribnews/336494",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:05:07Z",
+      "title": "🔺 پیام سخنگوی وزارت امور خارجه در خصوص اسطوره کشتی ایران مرحوم عبدالله موحد: آنچه ماندگار می‌شود فقط قهرمانی…",
+      "url": "https://t.me/iribnews/336494",
+      "summary": "🔺 پیام سخنگوی وزارت امور خارجه در خصوص اسطوره کشتی ایران مرحوم عبدالله موحد: آنچه ماندگار می‌شود فقط قهرمانی نیست، پهلوانی است اسماعیل بقائی سخنگوی وزارت امور خارجه در پیامی با تجلیل از میهن‌دوستی مرحوم عبدالله موحد، اسطوره کشتی ایران در شبکه ایکس نوشت: درگذشت عبدالله موحد، اسطوره کشتی با پنج طلای جهان و یک طلای المپیک، یادآور یک ویژگی اختصاصی تمدن و فرهنگ ایرانی است؛ در ایران، آنچه ماندگار می‌شود فقط قهرمانی نیست، پهلوانی است. موحد نه فقط با مدال‌هایش، بلکه با غیرت میهن‌دوستی‌اش -حتی زمانی که در خارج از ایران بود- در حافظه جمعی ایرانیان به نیکی باقی خواهد ماند. درگذشت ایشان را  به جامعه ورزش ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336494"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Message from Foreign Ministry spokesman on Iran's wrestling legend, the late Abdullah Movahed: What endures is not just championship, it is heroism",
+      "summary_en": "Ismail Baghaei, spokesman for the Ministry of Foreign Affairs, paid tribute to the patriotism of the late Abdullah Movahed, Iran's wrestling legend, writing on the X network: The death of Abdullah Movahed, wrestling legend with five world golds and one Olympic gold, is a reminder of a distinctive feature of Iranian civilisation and culture; in Iran, what endures is not just championship, it is heroism. Movahed will not only be remembered by his medals, but by his patriotic zeal—even when he was outside Iran—in the collective memory of Iranians. The sports community"
+    },
+    {
+      "id": "telegram:iribnews/336493",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T09:02:30Z",
+      "title": "فایننشال تایمز: آمریکا به دنبال تخلیه ذخایر خود در جنگ ایران، به اروپا درباره تأخیر در ارسال تسلیحات هشدار…",
+      "url": "https://t.me/iribnews/336493",
+      "summary": "فایننشال تایمز: آمریکا به دنبال تخلیه ذخایر خود در جنگ ایران، به اروپا درباره تأخیر در ارسال تسلیحات هشدار داد 🔹 جنگ با ایران ذخایر مهمات و سامانه‌های دفاعی آمریکا را تحت فشار قرار داده است. 🔹 مقامات آمریکایی به متحدان اروپایی هشدار  داده‌اند که تحویل برخی از تسلیحاتی که پیش‌تر قرارداد آن‌ها منعقد شده بود، ممکن است با تأخیر مواجه شود. 🔹 این وضعیت نگرانی‌های فزاینده‌ای را در اروپا درباره وابستگی به زنجیره تأمین تسلیحاتی آمریکا ایجاد کرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336493"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Financial Times: As America drains its reserves in war with Iran, it warned Europe of delays in sending weapons",
+      "summary_en": "War with Iran has strained America's ammunition and defence system reserves. American officials have warned European allies that delivery of some weapons previously agreed upon may face delays. This situation has created growing concerns in Europe about dependence on the American weapons supply chain."
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkws7i6rcn2f",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-03T09:00:15.560000Z",
+      "title": "“Saif Abu Keshek, a leading member of the PCPA — an organization designated and sanctioned by the United States as a Hamas front — and…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mkws7i6rcn2f",
+      "summary": "“Saif Abu Keshek, a leading member of the PCPA — an organization designated and sanctioned by the United States as a Hamas front — and Thiago Ávila, who operates with the PCPA and is suspected of illegal activity, have arrived in Israel,” the ministry said in a tweet, without providing evidence.",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57929",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:59:53Z",
+      "title": "💢 سازمان اطلاعات سپاه: فضای تصمیم گیری برای آمریکا محدود شده است 🔸 سازمان اطلاعات سپاه پاسداران انقلاب اسلامی…",
+      "url": "https://t.me/defapress_ir/57929",
+      "summary": "💢 سازمان اطلاعات سپاه: فضای تصمیم گیری برای آمریکا محدود شده است 🔸 سازمان اطلاعات سپاه پاسداران انقلاب اسلامی اعلام کرد: ضرب الاجل ایران علیه محاصره به پنتاگون، تغییر لحن چین، روسیه و اروپا علیه واشنگتن، نامه انفعالی ترامپ به کنگره، پذیرش شروط مذاکراتی ایران. یک معنا بیشتر ندارد؛ ترامپ باید بین \"عملیات غیرممکن یا توافق بد با جمهوری اسلامی ایران\" انتخاب کند. 🔸 فضای تصمیم گیری برای آمریکا محدود شده. dnws.ir/003UKl @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57929"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah Intelligence Organisation: America's decision-making space has become limited",
+      "summary_en": "The Intelligence Organisation of the Islamic Revolutionary Guard Corps announced: Iran's ultimatum against the blockade to the Pentagon, shifts in tone by China, Russia and Europe against Washington, Trump's passive letter to Congress, acceptance of Iran's negotiation terms—means nothing more. Trump must choose between 'an impossible operation or a bad deal with the Islamic Republic of Iran'. America's decision-making space has become limited."
+    },
+    {
+      "id": "telegram:iribnews/336492",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:55:01Z",
+      "title": "🔺 اجرای طرح محیط یار در مدارس کشور 🔹 رئیس مرکز آموزش محیط زیست و تربیت محیط‌بان سازمان حفاظت محیط‌زیست از…",
+      "url": "https://t.me/iribnews/336492",
+      "summary": "🔺 اجرای طرح محیط یار در مدارس کشور 🔹 رئیس مرکز آموزش محیط زیست و تربیت محیط‌بان سازمان حفاظت محیط‌زیست از بازطراحی طرح «محیط‌یار» با رویکرد دانش‌آموزمحور، مهارت‌محور و طرح‌محور خبر داد 🔹 تاکنون حدود ۳۶ هزار نفر از مراقبان سلامت مدارس در صفحه ویژه طرح محیط یار ثبت‌نام کرده‌اند و به‌طور میانگین روزانه نزدیک به هزار نفر به این طرح می پیوندند 🔹 ارتقای سواد محیط زیستی و نهادینه سازی فرهنگ محیط زیست در مدارس از اهداف اجرای این طرح است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336492"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Implementation of the environment-friendly plan in schools across the country",
+      "summary_en": "The head of the Environmental Education and Environmental Rangers Training Centre of the Environmental Protection Organisation announced the redesign of the 'environment-friendly' plan with a student-centred, skill-focused and project-based approach. So far, approximately 36,000 school health supervisors have registered on the environment-friendly plan's special page and on average nearly 1,000 people join the plan daily. Promoting environmental literacy and institutionalising environmental culture in schools are among the objectives of implementing this plan."
+    },
+    {
+      "id": "telegram:iribnews/336491",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:51:32Z",
+      "title": "🔺 تالاب «حله» بوشهر پس از ۲۰ سال به‌طور کامل پر شد 🔹 تالاب ۲۰ هزار هکتاری حله استان بوشهر در ۱۰ کیلومتری خلیج…",
+      "url": "https://t.me/iribnews/336491",
+      "summary": "🔺 تالاب «حله» بوشهر پس از ۲۰ سال به‌طور کامل پر شد 🔹 تالاب ۲۰ هزار هکتاری حله استان بوشهر در ۱۰ کیلومتری خلیج فارس تنها تالاب آب شیرین طبیعی منطقه است. این تالاب در این دو دهه با چالش تخصیص تأمین حقابه مواجه بود. 🔹 بارش های شایان توجه در سال آبی کنونی و ورود روان‌آب‌ها و سیلاب‌های ناشی از بارندگی‌های ، اصلاح بند تقسیم آب و  عملیات لایروبی از جمله اقداماتی بود که به آبگیری کامل این تالاب منجر شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336491"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hawla wetland in Bushehr filled completely after 20 years",
+      "summary_en": "The 20,000-hectare Hawla wetland in Bushehr province, 10 kilometres from the Persian Gulf, is the region's only natural freshwater wetland. This wetland has faced challenges in allocating water rights over these two decades. Significant rainfall in the current hydrological year and the inflow of runoff and floods resulting from rainfall, improvement of the water distribution dam and dredging operations were among the measures that led to the complete filling of this wetland."
+    },
+    {
+      "id": "telegram:iribnews/336490",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:41:11Z",
+      "title": "🔺 فضای تصمیم گیری برای آمریکا محدود شده سازمان اطلاعات سپاه پاسداران انقلاب اسلامی: 🔹 ضرب الاجل ایران علیه…",
+      "url": "https://t.me/iribnews/336490",
+      "summary": "🔺 فضای تصمیم گیری برای آمریکا محدود شده سازمان اطلاعات سپاه پاسداران انقلاب اسلامی: 🔹 ضرب الاجل ایران علیه محاصره به پنتاگون، تغییر لحن چین، روسیه و اروپا علیه واشنگتن، نامه انفعالی ترامپ به کنگره، پذیرش شروط مذاکراتی ایران یک معنا بیشتر ندارد؛ ترامپ باید بین \"عملیات غیرممکن یا توافق بد با ج.ا.ایران \" انتخاب کند. فضای تصمیم گیری برای آمریکا محدود شده. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336490"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "America's decision-making space has become limited, says Sepah Intelligence Organisation",
+      "summary_en": "Islamic Revolutionary Guard Corps Intelligence Organisation: Iran's ultimatum against the blockade to the Pentagon, shifts in tone by China, Russia and Europe against Washington, Trump's passive letter to Congress, acceptance of Iran's negotiation terms—means nothing more; Trump must choose between 'an impossible operation or a bad deal with the Islamic Republic of Iran'. America's decision-making space has become limited."
+    },
+    {
+      "id": "telegram:iribnews/336489",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:35:05Z",
+      "title": "🎦 وزیر کار در اختتامیه تجلیل از کارگران و تلاشگران جنگ رمضان: کارگر با حضور در کارخانه مهر را انتقال می دهد و…",
+      "url": "https://t.me/iribnews/336489",
+      "summary": "🎦 وزیر کار در اختتامیه تجلیل از کارگران و تلاشگران جنگ رمضان: کارگر با حضور در کارخانه مهر را انتقال می دهد و ستون های تولید بر دوش کارگران بنا شده است @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336489"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Labour minister at the closing ceremony of honouring workers and strivers in the Ramadan struggle: workers convey grace through their presence in factories, and the pillars of production are built on workers' shoulders",
+      "summary_en": "Labour minister at the closing ceremony of honouring workers and strivers in the Ramadan struggle: workers convey grace through their presence in factories, and the pillars of production are built on workers' shoulders"
+    },
+    {
+      "id": "telegram:iribnews/336488",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:34:02Z",
+      "title": "ان‌بی‌سی نیوز: جهش قیمت بنزین به ۴.۳۹ دلار در هر گالن، بزرگ‌ترین افزایش یک‌روزه از زمان اعلام آتش‌بس ایران…",
+      "url": "https://t.me/iribnews/336488",
+      "summary": "ان‌بی‌سی نیوز: جهش قیمت بنزین به ۴.۳۹ دلار در هر گالن، بزرگ‌ترین افزایش یک‌روزه از زمان اعلام آتش‌بس ایران بود 🔹 این افزایش قیمت پس از اعلام آتش‌بس هم روند صعودی خود را حفظ کرده و تا زمانی که جریان نفت در تنگه هرمز به حالت عادی بازنگردد، فشار بر بازار انرژی ادامه خواهد داشت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336488"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "NBC News: petrol price jumps to 4.39 dollars per gallon, largest single-day increase since Iran ceasefire announcement",
+      "summary_en": "This price increase has maintained its upward trend since the ceasefire announcement, and as long as oil flow through the Strait of Hormuz does not return to normal, pressure on the energy market will continue."
+    },
+    {
+      "id": "telegram:defapress_ir/57928",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:31:20Z",
+      "title": "💢 شکارچی خاموش حزب‌الله؛ کابوس جدید تانک‌های مرکاوا در خط مقدم 🔸 در جریان درگیری‌های اخیر در جنوب لبنان،…",
+      "url": "https://t.me/defapress_ir/57928",
+      "summary": "💢 شکارچی خاموش حزب‌الله؛ کابوس جدید تانک‌های مرکاوا در خط مقدم 🔸 در جریان درگیری‌های اخیر در جنوب لبنان، حزب‌الله لبنان با بهره‌گیری از تاکتیک‌های نوین و نامتقارن، توانسته است برتری قابل توجهی در میدان نبرد ایجاد کند. یکی از مهم‌ترین ابزار‌های این برتری، استفاده گسترده از پهپاد‌های فیبر نوری (fiber-optic drones) است که چالش جدی برای فناوری پیشرفته ارتش رژیم صهیونیستی ایجاد کرده است. 🔸 حزب‌الله با پهپاد‌های فیبر نوری که در برابر جمینگ مصون هستند، تانک‌های پیشرفته مرکاوا را شکار می‌کند. ارتش اسرائیل که قادر به ردیابی یا اختلال در این پهپاد‌های بدون رد پای الکترونیک نیست، به راه‌حل‌های موقتی و شک",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57928"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hezbollah's silent hunter; new nightmare for Merkava tanks on the frontline",
+      "summary_en": "During recent clashes in southern Lebanon, Hezbollah has been able to create significant battlefield superiority through the use of novel and asymmetric tactics. One of the most important tools of this superiority is the widespread use of fibre-optic drones, which have posed a serious challenge to the Israeli regime's advanced technology. Hezbollah hunts advanced Merkava tanks with fibre-optic drones that are immune to jamming. The Israeli army, unable to track or interfere with these electronically undetectable drones, resorts to temporary solutions and"
+    },
+    {
+      "id": "telegram:iribnews/336487",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:25:09Z",
+      "title": "🔺 والیبال ساحلی زیر ۱۸ سال کاوا؛ تیم ایران فینالیست شد 🔹 تیم‌های والیبال ساحلی زیر ۱۸ سال ایران در مسابقات…",
+      "url": "https://t.me/iribnews/336487",
+      "summary": "🔺 والیبال ساحلی زیر ۱۸ سال کاوا؛ تیم ایران فینالیست شد 🔹 تیم‌های والیبال ساحلی زیر ۱۸ سال ایران در مسابقات قهرمانی آسیای مرکزی به مصاف یکدیگر رفتند و آل یاسین و اونق به مرحله نهایی راه یافتند. https://www.iribnews.ir/00OG43 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336487"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Under-18 beach volleyball CAVA; Iran's team reached the final",
+      "summary_en": "Iran's under-18 beach volleyball teams competed against each other in the Central Asian Championship and Al-Yaseen and Anak advanced to the final round."
+    },
+    {
+      "id": "x_via_rssapp:a6dc34524074313f222738b651cfd383",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-05-03T08:23:00Z",
+      "title": "🔴ELIMINATED: 2 armed Hezbollah terrorists operating south of the Forward Defense Line, posing an imminent threat to IDF troops. Additionally, terrorists who were identified inside structures in the area who posed a threat, were eliminated in a subsequent strike.",
+      "url": "https://x.com/IDF/status/2050853776441868590",
+      "summary": "🔴ELIMINATED: 2 armed Hezbollah terrorists operating south of the Forward Defense Line, posing an imminent threat to IDF troops.\n\nAdditionally, terrorists who were identified inside structures in the area who posed a threat, were eliminated in a subsequent strike.— Israel Defense Forces (@IDF) May 3, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/336486",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:20:07Z",
+      "title": "🎦 آتش‌سوزی جنگلی در منطقه تومسک روسیه 🔹 یک آتش‌سوزی گسترده جنگلی در منطقه تومسک روسیه بخش‌هایی از این ناحیه…",
+      "url": "https://t.me/iribnews/336486",
+      "summary": "🎦 آتش‌سوزی جنگلی در منطقه تومسک روسیه 🔹 یک آتش‌سوزی گسترده جنگلی در منطقه تومسک روسیه بخش‌هایی از این ناحیه را در بر گرفت و خسارات قابل توجهی برجای گذاشت. 🔹 بر اساس گزارش‌ها، وزش بادهای شدید باعث گسترش سریع شعله‌های آتش شده و عملیات مهار و امدادرسانی را با دشواری مواجه کرده بود. 🔹 در جریان این حادثه ۱۶ واحد مسکونی تخریب شد، اما خوشبختانه هیچ‌گونه تلفات انسانی گزارش نشده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336486"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Forest fire in Tomsk region, Russia",
+      "summary_en": "A large forest fire in Tomsk region, Russia engulfed parts of the area and caused significant damage. According to reports, strong winds caused the flames to spread rapidly and hampered containment and rescue operations. During this incident, 16 residential units were destroyed, but fortunately no casualties were reported."
+    },
+    {
+      "id": "telegram:iribnews/336485",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:17:02Z",
+      "title": "🔺 برخورد قاطع با عوامل تهیه‌ یک کلیپ ناهنجار در کیش دادستان عمومی و انقلاب کیش: 🔹 در پی انتشار یک کلیپ…",
+      "url": "https://t.me/iribnews/336485",
+      "summary": "🔺 برخورد قاطع با عوامل تهیه‌ یک کلیپ ناهنجار در کیش دادستان عمومی و انقلاب کیش: 🔹 در پی انتشار یک کلیپ ناهنجار هوش مصنوعی در فضای مجازی، با دستور مقام قضایی پرونده‌ای در این خصوص تشکیل شده و شناسایی و برخورد قانونی با عوامل تهیه و انتشار آن در دستور کار قرار گرفته است پس از بررسی‌های فنی مشخص شد کلیپ منتشر شده تلفیقی از یک کلیپ اصلی و هوش مصنوعی می‌باشد. 🔹 تولید و انتشار چنین محتواهایی که با هنجارهای اجتماعی و قوانین کشور مغایرت دارد با واکنش قاطع دستگاه قضایی مواجه خواهد شد. 🔹 افرادی که در تهیه و بهره‌برداری از این کلیپ نقش داشته‌اند تحت پیگرد قانونی قرار می‌گیرند. کافه‌ای که از این کلیپ استف",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336485"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Decisive action against perpetrators of abnormal artificial intelligence clip in Kish",
+      "summary_en": "Following the circulation of an abnormal artificial intelligence clip in cyberspace, a case was opened by judicial order and identification and legal action against those responsible for producing and distributing it has been placed on the agenda. After technical review, it was found that the circulated clip was a combination of an original clip and artificial intelligence. Production and distribution of such content that contradicts social norms and country laws will face firm response from the judiciary. Those involved in producing and exploiting this clip are subject to legal prosecution. A café that used this clip"
+    },
+    {
+      "id": "telegram:iribnews/336484",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:10:12Z",
+      "title": "🎦 شهید مهدی ویسی تبار کارگر شهید پتروشیمی ماهشهر تا آخرین لحظه ،پای کار و تولید ایستاد @iribnews",
+      "url": "https://t.me/iribnews/336484",
+      "summary": "🎦 شهید مهدی ویسی تبار کارگر شهید پتروشیمی ماهشهر تا آخرین لحظه ،پای کار و تولید ایستاد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336484"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Shahid Mehdi Visidoust, worker and shahid of Mahshahr petrochemical, stood by work and production until the last moment",
+      "summary_en": "Shahid Mehdi Visidoust, worker and shahid of Mahshahr petrochemical, stood by work and production until the last moment"
+    },
+    {
+      "id": "telegram:iribnews/336483",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T08:10:11Z",
+      "title": "🎦 تصاویر دوربین مداربسته پتروشیمی بندر امام هنگام بمباران 🔹 تعدادی از کارکنان زیر بمباران شدید مجتمع های…",
+      "url": "https://t.me/iribnews/336483",
+      "summary": "🎦 تصاویر دوربین مداربسته پتروشیمی بندر امام هنگام بمباران 🔹 تعدادی از کارکنان زیر بمباران شدید مجتمع های پتروشیمی ماهشهر، تا آخرین لحظه محل خدمت را ترک نکردند. 🔹 آخرین نفری که از در خارج شد مرتضی حمید است که همان روز طعم شیرین پدر شدن را چشیده بود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/336483"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "CCTV images from Bandar Imam petrochemical during bombardment",
+      "summary_en": "A number of employees, under intense bombardment of petrochemical complexes in Mahshahr, did not leave their workplace until the last moment. The last person to exit was Morteza Hamid, who had just tasted becoming a father that very day."
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605038178",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-03T08:05:01Z",
+      "title": "Islamic Republic puts another political prisoner to death",
+      "url": "https://www.iranintl.com/en/202605038178",
+      "summary": "The Islamic Republic executed another political prisoner in Urmia prison on Sunday, the judiciary reported, identifying him as Mehrab Abdollahzadeh.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/57927",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-03T07:52:51Z",
+      "title": "💢 سردار کارگر: یقه دشمن را رها نمی‌کنیم/ مردم مصالحه از روی ضعف را با دشمن نمی‌پذیرند/ تنگه اُحد ما، امروز…",
+      "url": "https://t.me/defapress_ir/57927",
+      "summary": "💢 سردار کارگر: یقه دشمن را رها نمی‌کنیم/ مردم مصالحه از روی ضعف را با دشمن نمی‌پذیرند/ تنگه اُحد ما، امروز وحدت و انسجام ملی است 🔸 رئیس بنیاد حفظ آثار و نشر ارزش‌های دفاع مقدس و مقاومت با بیان اینکه مردم هرگونه مصالحه از روی ضعف را با دشمن مردود می‌دانند و بر ادامه مسیر مقاومت تأکید دارند، گفت: دشمن در بدترین وضعیت قرار دارد و در یک مخمصه سخت گرفتار شده و دست‌وپا می‌زند؛ لذا نباید یقه دشمن را رها کنیم. 🔸 نظام جمهوری اسلامی ایران، امروز با یک اتحاد مقدس بین مسئولان و مردم، در یک موقعیت استثنایی قرار گرفته است. 🔸 ترامپ، نتانیاهو، فرماندهان کودک‌کُش صهیونیست و جنایتکاران آمریکایی در محکمه‌ای توسط",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/57927"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Kargar: We will not release the enemy's collar/ People do not accept humiliating reconciliation with the enemy/ The Uhud strait is ours, today unity and national cohesion are ours",
+      "summary_en": "Head of the Foundation for the Preservation of Works and Dissemination of Values of Sacred Defence and Resistance, stating that people reject any reconciliation from a position of weakness with the enemy and emphasise continuing the path of resistance, said: The enemy is in the worst situation and is trapped in a difficult predicament and struggling; therefore we must not release the enemy's collar. The Islamic Republic system is today in an exceptional position with a sacred unity between officials and people. Trump, Netanyahu, child-killing Zionist commanders and American criminals are tried in a court"
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkwo2ttyzm2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-03T07:46:04.199000Z",
+      "title": "Opinion: Energy infrastructure becomes a key battleground in the Iran conflict, threatening regional stability and global supply chains.",
+      "url": "https://www.jpost.com/opinion/article-894739",
+      "summary": "Opinion: Energy infrastructure becomes a key battleground in the Iran conflict, threatening regional stability and global supply chains.\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkwnzqq3dg2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-03T07:45:27.310000Z",
+      "title": "Opinion: Strikes on refineries and gas facilities signal a new phase in the Israel–Iran war with systemic risks beyond the battlefield.",
+      "url": "https://www.jpost.com/opinion/article-894736",
+      "summary": "Opinion: Strikes on refineries and gas facilities signal a new phase in the Israel–Iran war with systemic risks beyond the battlefield.\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
       "id": "telegram:defapress_ir/57926",
@@ -232,102 +829,6 @@
       "summary_en": "Release of the latest work by the singer of 'Strike it well'; separation forbidden"
     },
     {
-      "id": "telegram:iribnews/336476",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:32:51Z",
-      "title": "جنگ نرخ بیکاری اسرائیل را به بالاترین میزان بعد از کرونا رسانده است وبگاه کریدل در گزارشی آورده است: 🔹 ایران…",
-      "url": "https://t.me/iribnews/336476",
-      "summary": "جنگ نرخ بیکاری اسرائیل را به بالاترین میزان بعد از کرونا رسانده است وبگاه کریدل در گزارشی آورده است: 🔹 ایران و حزب‌الله در طول جنگ، دارایی‌های اقتصادی مهمی در اسرائیل را هدف قرار دادند. 🔹️ نرخ بیکاری اسرائیل به بیش از ۱۶ درصد افزایش یافته است. این وضعیت نزدیک به یک میلیون اسرائیلی را تحت تأثیر قرار داده و بالاترین نرخ بیکاری از زمان همه‌گیری کرونا محسوب می‌شود. 🔹 در حال حاضر، بسیاری از کسب‌وکارها تعطیل یا نیمه‌تعطیل شده‌اند و فعالیت اقتصادی در بخش‌های مختلف به شدت کاهش یافته است. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336476"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "War pushes Israel's unemployment rate to its highest level since coronavirus, Credal gateway reported: Iran and Hezbollah targeted important economic assets in Israel during the war. Israel's unemployment rate has risen to more than 16 per cent. This situation has affected close to a million Israelis and represents the highest unemployment rate since the coronavirus pandemic. Currently, many businesses are closed or semi-closed and economic activity in various sectors has sharply declined.",
-      "summary_en": "War pushes Israel's unemployment rate to its highest level since coronavirus, Credal gateway reported: Iran and Hezbollah targeted important economic assets in Israel during the war. Israel's unemployment rate has risen to more than 16 per cent. This situation has affected close to a million Israelis and represents the highest unemployment rate since the coronavirus pandemic. Currently, many businesses are closed or semi-closed and economic activity in various sectors has sharply declined."
-    },
-    {
-      "id": "telegram:iribnews/336475",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:20:01Z",
-      "title": "🔹 آغاز حراج شمش طلا از امروز 🔹 جلسه جدید حراج شمش طلا در مرکز مبادله ایران امروز یکشنبه برگزار می‌شود. 🔹 بر…",
-      "url": "https://t.me/iribnews/336475",
-      "summary": "🔹 آغاز حراج شمش طلا از امروز 🔹 جلسه جدید حراج شمش طلا در مرکز مبادله ایران امروز یکشنبه برگزار می‌شود. 🔹 بر اساس تصمیم جدید، پلتفرم‌ها و فروشندگان آنلاین طلا نیز در صورت داشتن شناسه یکتای پروانه کسب قابل استعلام از درگاه ملی مجوزها، امکان خرید شمش طلا در حراج‌های مرکز مبادله را خواهند داشت. 🔹 همچنین میزان وجه‌الضمان شرکت در حراج نیز تغییر کرده و بر اساس ابلاغ جدید، برای خرید هر قطعه شمش طلای یک کیلوگرمی با عیار ۹۹۵ مبلغ ۵ میلیارد تومان به عنوان وجه‌الضمان تعیین شده است. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336475"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Launch of gold bar auction from today. A new session of gold bar auction at Iran's exchange centre will be held today, Sunday. Based on the new decision, platforms and online gold sellers will also have the opportunity to purchase gold bars at the exchange centre's auctions, provided they have a unique business licence ID enquirable from the national permits gateway. The amount of deposit required for participation in the auction has also changed, and according to the new notification, for the purchase of each 1-kilogram gold bar with 995 fineness, 5 billion tomans is set as the deposit.",
-      "summary_en": "Launch of gold bar auction from today. A new session of gold bar auction at Iran's exchange centre will be held today, Sunday. Based on the new decision, platforms and online gold sellers will also have the opportunity to purchase gold bars at the exchange centre's auctions, provided they have a unique business licence ID enquirable from the national permits gateway. The amount of deposit required for participation in the auction has also changed, and according to the new notification, for the purchase of each 1-kilogram gold bar with 995 fineness, 5 billion tomans is set as the deposit."
-    },
-    {
-      "id": "telegram:iribnews/336474",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:16:12Z",
-      "title": "🔺 شوک افزایش هزینه ها به خودروسازان آمریکایی 🔹 شرکتهای خودروسازی در دیترویت آمریکا درباره شدیدترشدن پیامدهای…",
-      "url": "https://t.me/iribnews/336474",
-      "summary": "🔺 شوک افزایش هزینه ها به خودروسازان آمریکایی 🔹 شرکتهای خودروسازی در دیترویت آمریکا درباره شدیدترشدن پیامدهای جنگ علیه ایران هشدار دادند. 🔹 شرکتهای خودروسازی اعلام کردند: جنگ علیه ایران باعث شوک افزایش پنج میلیارد دلاری هزینه کالاها خواهد شد. 🔹 سه خودروساز بزرگ آمریکایی، جنرال موتورز، فورد و استلانتیس،  اعلام کردند: جنگ، زنجیره‌های تأمین مواد اولیه از آلومینیوم گرفته تا پلاستیک و رنگ را تحت فشار قرار داده است. 🔹 این شرکت ها هشدار دادند به دلیل افزایش تورم کالاها، هزینه های این شرکتها هم افزایش یافته است و در پی آن قیمت خودرو در آمریکا افزایش خواهد یافت. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336474"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Shock of increased costs for American car manufacturers. US car manufacturers in Detroit warned of severe consequences of the war against Iran. Car manufacturers announced: the war against Iran will cause a five billion dollar cost shock for goods. The three major American automakers, General Motors, Ford and Stellantis, stated: the war has strained supply chains for raw materials from aluminium to plastic and paint. These companies warned that due to increased commodity inflation, the costs of these companies have increased and consequently car prices in America will rise.",
-      "summary_en": "Shock of increased costs for American car manufacturers. US car manufacturers in Detroit warned of severe consequences of the war against Iran. Car manufacturers announced: the war against Iran will cause a five billion dollar cost shock for goods. The three major American automakers, General Motors, Ford and Stellantis, stated: the war has strained supply chains for raw materials from aluminium to plastic and paint. These companies warned that due to increased commodity inflation, the costs of these companies have increased and consequently car prices in America will rise."
-    },
-    {
-      "id": "telegram:iribnews/336473",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:08:14Z",
-      "title": "🔺 ادارات پس از ساعت ۱۳ موظف‌اند مصرف برق خود را ۷۰ درصد کاهش دهند 🔹 بر اساس ضوابط اجرایی پاسخگویی بار در…",
-      "url": "https://t.me/iribnews/336473",
-      "summary": "🔺 ادارات پس از ساعت ۱۳ موظف‌اند مصرف برق خود را ۷۰ درصد کاهش دهند 🔹 بر اساس ضوابط اجرایی پاسخگویی بار در تابستان، این اقدام با هدف پایداری شبکه و تأمین برق پایدار برای همه مشترکان اجرا می‌شود. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336473"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Government offices are required to cut their electricity consumption by 70 per cent after 1 p.m. Based on executive regulations for load response in summer, this measure is being implemented with the aim of ensuring the stability of the grid and providing stable electricity for all subscribers.",
-      "summary_en": "Government offices are required to cut their electricity consumption by 70 per cent after 1 p.m. Based on executive regulations for load response in summer, this measure is being implemented with the aim of ensuring the stability of the grid and providing stable electricity for all subscribers."
-    },
-    {
       "id": "telegram:defapress_ir/57925",
       "source": "Regime channels",
       "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
@@ -350,174 +851,6 @@
       ],
       "title_en": "Birth of a multipolar world with America's transition from 'liberal hegemony' to 'naked domination'. Donald Trump's foreign policy has caused the deceptive but attractive image of 'good America' to fade among all nations of the world and be replaced by an image that is selfish, unpredictable and often hostile. 'The struggle to achieve a multipolar world' has been the core of Russia's foreign policy since the second half of the 1990s. Since then, this slogan has been constantly repeated. This is whilst this struggle has in fact already been won. The multipolar world has been an undeniable reality for more than ten years. Its formation means the end of the unipolar world era, that is, when American hegemony",
       "summary_en": "Birth of a multipolar world with America's transition from 'liberal hegemony' to 'naked domination'. Donald Trump's foreign policy has caused the deceptive but attractive image of 'good America' to fade among all nations of the world and be replaced by an image that is selfish, unpredictable and often hostile. 'The struggle to achieve a multipolar world' has been the core of Russia's foreign policy since the second half of the 1990s. Since then, this slogan has been constantly repeated. This is whilst this struggle has in fact already been won. The multipolar world has been an undeniable reality for more than ten years. Its formation means the end of the unipolar world era, that is, when American hegemony"
-    },
-    {
-      "id": "telegram:iribnews/336472",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:05:09Z",
-      "title": "🔺 رشد ۶۲ درصدی درآمد پتروشیمی امیرکبیر در سایه جنگ 🔹 براساس اعلام روابط عمومی و امور بین‌الملل شرکت پتروشیمی…",
-      "url": "https://t.me/iribnews/336472",
-      "summary": "🔺 رشد ۶۲ درصدی درآمد پتروشیمی امیرکبیر در سایه جنگ 🔹 براساس اعلام روابط عمومی و امور بین‌الملل شرکت پتروشیمی امیرکبیر، پتروشیمی امیرکبیر در اسفند ۱۴۰۴ با ثبت رشد ۶۲ درصدی، فراتر از برنامه عمل کرد. https://www.iribnews.ir/00OG1z @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336472"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "62 per cent revenue growth for Amir Kabir petrochemicals in the shadow of war. According to the announcement of Amir Kabir Petrochemical Company's public relations and international affairs department, Amir Kabir petrochemicals recorded 62 per cent growth in Esfand 1404, exceeding the action plan.",
-      "summary_en": "62 per cent revenue growth for Amir Kabir petrochemicals in the shadow of war. According to the announcement of Amir Kabir Petrochemical Company's public relations and international affairs department, Amir Kabir petrochemicals recorded 62 per cent growth in Esfand 1404, exceeding the action plan."
-    },
-    {
-      "id": "telegram:iribnews/336471",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T07:01:55Z",
-      "title": "فایننشال تایمز: در بین کشورهای گروه هفت، آمریکا شدیدترین شوک نفتی را بابت جنگ ترامپ علیه ایران دریافت کرده…",
-      "url": "https://t.me/iribnews/336471",
-      "summary": "فایننشال تایمز: در بین کشورهای گروه هفت، آمریکا شدیدترین شوک نفتی را بابت جنگ ترامپ علیه ایران دریافت کرده است 🔹 قیمت بنزین و گازوئیل در آمریکا سریع‌تر از سایر اقتصادها مانند انگلیس و کانادا در حال افزایش است. 🔹 وابستگی ساختاری بازار سوخت آمریکا و سرعت انتقال افزایش قیمت‌ها به مصرف‌کنندگان، باعث شده این کشور بیش از سایر اعضای گروه هفت در برابر پیامدهای اقتصادی جنگ با ایران آسیب‌پذیر باشد. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336471"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Financial Times: Among the Group of Seven countries, America has received the most severe oil shock from Trump's war against Iran. Petrol and diesel prices in America are rising faster than other economies such as the UK and Canada. The structural dependence of America's fuel market and the speed of transmission of price increases to consumers have made this country more vulnerable than other members of the Group of Seven to the economic consequences of war with Iran.",
-      "summary_en": "Financial Times: Among the Group of Seven countries, America has received the most severe oil shock from Trump's war against Iran. Petrol and diesel prices in America are rising faster than other economies such as the UK and Canada. The structural dependence of America's fuel market and the speed of transmission of price increases to consumers have made this country more vulnerable than other members of the Group of Seven to the economic consequences of war with Iran."
-    },
-    {
-      "id": "telegram:iribnews/336470",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:55:03Z",
-      "title": "🎦 آتش زدن پرچم اسرائیل در لس‌آنجلس 🔹 مردم آمریکا در خیابان‌های لس‌آنجلس پرچم رژیم صهیونیستی را به آتش کشیدند.…",
-      "url": "https://t.me/iribnews/336470",
-      "summary": "🎦 آتش زدن پرچم اسرائیل در لس‌آنجلس 🔹 مردم آمریکا در خیابان‌های لس‌آنجلس پرچم رژیم صهیونیستی را به آتش کشیدند. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336470"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Burning the Israeli flag in Los Angeles. Americans on the streets of Los Angeles burned the flag of the Zionist regime.",
-      "summary_en": "Burning the Israeli flag in Los Angeles. Americans on the streets of Los Angeles burned the flag of the Zionist regime."
-    },
-    {
-      "id": "telegram:iribnews/336469",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:50:01Z",
-      "title": "🔺 یکی از عوامل اصلی شهادت حافظ امنیت سید عباس فاطمیه اعدام شد 🔹 محراب عبدالله‌زاده، فرزند محمدامین از عناصر…",
-      "url": "https://t.me/iribnews/336469",
-      "summary": "🔺 یکی از عوامل اصلی شهادت حافظ امنیت سید عباس فاطمیه اعدام شد 🔹 محراب عبدالله‌زاده، فرزند محمدامین از عناصر اصلی شهادت سید عباس فاطمیه در اغتشاشات به دار مجازات آویخته شد. 🔹 اغتشاش‌گران در یکی از مناطق ارومیه اقدام به ایجاد راهبندان و تخریب اموال عمومی  کرده و مشکلات زیادی را برای شهروندان ایجاد کرده بودند. 🔹 به گفته شاهدان عینی، در زمان حادثه تعداد زیادی از اغتشاشگران شهید فاطمیه را محاصره کرده بودند و او را مورد ضرب و شتم قرار دادند. 🔹 محراب عبدالله‌زاده یکی از دستگیرشدگان بود، نامبرده در اعترافات خود آورده در اغتشاشات حضور داشتم. به سمت ماموران حمله کردیم، تا این که دیدم سه نفر از مامورین ج",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336469"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "One of the principal perpetrators of the assassination of security guardian Seyyed Abbas Fatemieh executed. Mehrab Abdullahzadeh, son of Mohammad Amin, one of the principal elements in the assassination of Seyyed Abbas Fatemieh during the riots, was hanged. Rioters in one of the areas of Urmia erected roadblocks and destroyed public property, causing many problems for citizens. According to eyewitnesses, at the time of the incident a large number of rioters surrounded martyr Fatemieh and assaulted him. Mehrab Abdullahzadeh was one of the arrested individuals; the said person stated in his confessions that he participated in the riots. We attacked the officers, until I saw three of the security personnel",
-      "summary_en": "One of the principal perpetrators of the assassination of security guardian Seyyed Abbas Fatemieh executed. Mehrab Abdullahzadeh, son of Mohammad Amin, one of the principal elements in the assassination of Seyyed Abbas Fatemieh during the riots, was hanged. Rioters in one of the areas of Urmia erected roadblocks and destroyed public property, causing many problems for citizens. According to eyewitnesses, at the time of the incident a large number of rioters surrounded martyr Fatemieh and assaulted him. Mehrab Abdullahzadeh was one of the arrested individuals; the said person stated in his confessions that he participated in the riots. We attacked the officers, until I saw three of the security personnel"
-    },
-    {
-      "id": "telegram:iribnews/336468",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:45:08Z",
-      "title": "🎦 قرار شبانه» مردم اسلامشهر در شب شصت‌وسوم میثاق با رهبر شهید https://www.iribnews.ir/fa/news/5781426/…",
-      "url": "https://t.me/iribnews/336468",
-      "summary": "🎦 قرار شبانه» مردم اسلامشهر در شب شصت‌وسوم میثاق با رهبر شهید https://www.iribnews.ir/fa/news/5781426/ @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336468"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "A nighttime gathering of the people of Islamshahr on the sixty-third night of the covenant with the martyred leader",
-      "summary_en": "A nighttime gathering of the people of Islamshahr on the sixty-third night of the covenant with the martyred leader"
-    },
-    {
-      "id": "telegram:iribnews/336467",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:40:05Z",
-      "title": "🎦 ترقی، نماینده ادوار گذشته مجلس: آمریکا با اعلام آتش بس بدنبال فرصتی می‌گشت که بتواند خود را برای عملیات‌های…",
-      "url": "https://t.me/iribnews/336467",
-      "summary": "🎦 ترقی، نماینده ادوار گذشته مجلس: آمریکا با اعلام آتش بس بدنبال فرصتی می‌گشت که بتواند خود را برای عملیات‌های بعدی بازسازی کند @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336467"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Tarqi, former parliamentary representative: America with the announcement of a ceasefire was seeking an opportunity to reorganise itself for subsequent operations",
-      "summary_en": "Tarqi, former parliamentary representative: America with the announcement of a ceasefire was seeking an opportunity to reorganise itself for subsequent operations"
-    },
-    {
-      "id": "telegram:iribnews/336466",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:35:12Z",
-      "title": "🔺 استرداد وجوه مابه التفاوت هزینه سرویس دانش آموزی 🔹 با پیگیری وزیر آموزش و پرورش ، استرداد وجوه مابه التفاوت…",
-      "url": "https://t.me/iribnews/336466",
-      "summary": "🔺 استرداد وجوه مابه التفاوت هزینه سرویس دانش آموزی 🔹 با پیگیری وزیر آموزش و پرورش ، استرداد وجوه مابه التفاوت هزینه سرویس دانش آموزی به معاونان هماهنگی امور عمرانی استانداری‌های سراسر کشور ابلاغ شد. https://www.iribnews.ir/00OG1E @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336466"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Refund of the difference in school bus service costs. Following the pursuit of the Minister of Education, the refund of the difference in school bus service costs was notified to the coordination deputies for civil affairs of governorates across the country.",
-      "summary_en": "Refund of the difference in school bus service costs. Following the pursuit of the Minister of Education, the refund of the difference in school bus service costs was notified to the coordination deputies for civil affairs of governorates across the country."
     },
     {
       "id": "telegram:defapress_ir/57924",
@@ -544,102 +877,6 @@
       "summary_en": "Unprofessional approach by mainstream media regarding Iran's streets. Western media in an unprofessional move are censoring news and reports related to the more than sixty days of public presence in the main streets and villages across the country. The message of the public's sixty-three day presence in Iran's streets is support for the sacred system of the Islamic Republic of Iran and conveying this message to the whole world, especially to Iran's enemies and the Islamic Revolution, in particular America and the Zionist regime. This is why Western chain media in a united and coordinated move undertook a news boycott of the magnificent presence of Iran's people in the streets of the country. The other message of public presence in the streets"
     },
     {
-      "id": "telegram:iribnews/336465",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:31:33Z",
-      "title": "واشینگتن تایمز: افزایش قیمت نفت ناشی از جنگ ایران بر همه‌چیز، از پمپ بنزین تا کالاهای مصرفی، فشار وارد می‌کند…",
-      "url": "https://t.me/iribnews/336465",
-      "summary": "واشینگتن تایمز: افزایش قیمت نفت ناشی از جنگ ایران بر همه‌چیز، از پمپ بنزین تا کالاهای مصرفی، فشار وارد می‌کند 🔹 قیمت بنزین، گازوئیل و سوخت هواپیما به‌طور چشمگیری افزایش یافته و هزینه حمل‌ونقل و سفر را بالا برده است. 🔹 افزایش هزینه حمل‌ونقل باعث بالا رفتن قیمت کالاهای مصرفی، از جمله محصولات روزمره مانند لوازم بهداشتی و مواد غذایی شده و شرکت‌ها نیز درباره افزایش قیمت‌ها هشدار داده‌اند. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336465"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Washington Times: Increased oil prices resulting from the war against Iran exerts pressure on everything, from petrol pumps to consumer goods. Petrol, diesel and aviation fuel prices have increased dramatically, raising transport and travel costs. Rising transport costs have driven up the prices of consumer goods, including everyday products such as hygiene items and foodstuffs, and companies have warned of price increases.",
-      "summary_en": "Washington Times: Increased oil prices resulting from the war against Iran exerts pressure on everything, from petrol pumps to consumer goods. Petrol, diesel and aviation fuel prices have increased dramatically, raising transport and travel costs. Rising transport costs have driven up the prices of consumer goods, including everyday products such as hygiene items and foodstuffs, and companies have warned of price increases."
-    },
-    {
-      "id": "telegram:iribnews/336464",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:25:10Z",
-      "title": "✅ اجتماع ایران مدرسه‌ای بزرگ معلمانی آینده‌ساز؛ در میدان شهید رئیسی پردیس کردند.…",
-      "url": "https://t.me/iribnews/336464",
-      "summary": "✅ اجتماع ایران مدرسه‌ای بزرگ معلمانی آینده‌ساز؛ در میدان شهید رئیسی پردیس کردند. https://www.iribnews.ir/fa/news/5781381/ @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336464"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Iran gathering: a great school of future-building teachers; they gathered in Shahid Raisi Square.",
-      "summary_en": "Iran gathering: a great school of future-building teachers; they gathered in Shahid Raisi Square."
-    },
-    {
-      "id": "telegram:iribnews/336463",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:20:10Z",
-      "title": "🎦 تجدید میثاق باشکوه مردم شهریار با آرمان‌های رهبر شهید https://www.iribnews.ir/fa/news/5781418/ @iribnews",
-      "url": "https://t.me/iribnews/336463",
-      "summary": "🎦 تجدید میثاق باشکوه مردم شهریار با آرمان‌های رهبر شهید https://www.iribnews.ir/fa/news/5781418/ @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336463"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Magnificent renewal of covenant by the people of Shahriar with the ideals of the martyred leader",
-      "summary_en": "Magnificent renewal of covenant by the people of Shahriar with the ideals of the martyred leader"
-    },
-    {
-      "id": "telegram:iribnews/336462",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:15:09Z",
-      "title": "🎦 تغییرات در امتحانات مدارس: از مجازی شدن تا زمان‌بندی نهایی ‌ 🔹 وزیر آموزش و پرورش اعلام کرد که امتحانات…",
-      "url": "https://t.me/iribnews/336462",
-      "summary": "🎦 تغییرات در امتحانات مدارس: از مجازی شدن تا زمان‌بندی نهایی ‌ 🔹 وزیر آموزش و پرورش اعلام کرد که امتحانات داخلی به صورت مجازی برگزار می‌شود و امتحانات نهایی پایه‌های یازدهم و دوازدهم ۱۵ تا ۲۰ روز پس از پیروزی‌های لازم طراحی خواهد شد. @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336462"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Changes in school examinations: from going online to final scheduling. The Minister of Education announced that internal examinations will be held online and final examinations for eleventh and twelfth grades will be scheduled 15 to 20 days after the necessary victories.",
-      "summary_en": "Changes in school examinations: from going online to final scheduling. The Minister of Education announced that internal examinations will be held online and final examinations for eleventh and twelfth grades will be scheduled 15 to 20 days after the necessary victories."
-    },
-    {
       "id": "telegram:defapress_ir/57923",
       "source": "Regime channels",
       "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
@@ -664,54 +901,6 @@
       "summary_en": "A giant Iranian oil tanker breaks through American blockade. Tank Trackers: The super tanker HUGE carrying more than 1.9 million barrels of crude oil, valued at approximately 220 million dollars, has managed to break through the blockade of the American terrorist military and reach the Far East region. This tanker was sighted off the coast of Sri Lanka more than a week ago. The vessel is now passing through the Lombok Strait in Indonesia towards the Riau Islands."
     },
     {
-      "id": "telegram:iribnews/336461",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:10:07Z",
-      "title": "🎦 از نگاه مردم آمریکا جنگ با ایران یکی از منفورترین تجاوزها و جنگ‌هایی ست که  مقامات کاخ سفید در طول تاریخ…",
-      "url": "https://t.me/iribnews/336461",
-      "summary": "🎦 از نگاه مردم آمریکا جنگ با ایران یکی از منفورترین تجاوزها و جنگ‌هایی ست که  مقامات کاخ سفید در طول تاریخ آغاز کردند نیک بین، خبرنگار خبرگزاری صداوسیما : 🔹 مقامات امریکایی مخصوصاً در پنتاگون و وزارت جنگ امریکا متهم هستند به پنهانکاری در خصوص  خسارت‌های متعددی که جنگ با ایران داشته است @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336461"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "From the perspective of the American people, war with Iran is one of the most odious aggressions and wars that White House officials have initiated throughout history. Nick Beane, correspondent for IRIB news agency: American officials, especially at the Pentagon and the American Department of War, are accused of concealing the multiple damages that the war with Iran has caused.",
-      "summary_en": "From the perspective of the American people, war with Iran is one of the most odious aggressions and wars that White House officials have initiated throughout history. Nick Beane, correspondent for IRIB news agency: American officials, especially at the Pentagon and the American Department of War, are accused of concealing the multiple damages that the war with Iran has caused."
-    },
-    {
-      "id": "telegram:iribnews/336460",
-      "source": "Regime channels",
-      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T06:05:06Z",
-      "title": "🔺 امروز ، پایان مهلت ثبت‌نام آزمون‌های سمپاد و نمونه دولتی 🔹 مهلت ثبت‌نام آزمون ورودی پایه هفتم مدارس…",
-      "url": "https://t.me/iribnews/336460",
-      "summary": "🔺 امروز ، پایان مهلت ثبت‌نام آزمون‌های سمپاد و نمونه دولتی 🔹 مهلت ثبت‌نام آزمون ورودی پایه هفتم مدارس استعداد‌های درخشان (سمپاد) دوره اول متوسطه و پایه دهم مدارس نمونه دولتی و تکمیل ظرفیت مدارس استعداد‌های درخشان (سمپاد) دوره دوم متوسطه سال تحصیلی ۱۴۰۶-۱۴۰۵ امروز به پایان می‌رسد. https://www.iribnews.ir/00OG0i @iribnews",
-      "details": {
-        "channel_handle": "iribnews",
-        "channel_display": "IRIB",
-        "language": "fa",
-        "post_id": "iribnews/336460"
-      },
-      "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Today, the registration deadline for Sampad and model school exams ends. The registration deadline for the entrance examination for seventh grade at brilliant talent schools (Sampad) first secondary cycle and tenth grade at model government schools and completion of capacity at brilliant talent schools (Sampad) second secondary cycle for academic year 1405-1406 ends today.",
-      "summary_en": "Today, the registration deadline for Sampad and model school exams ends. The registration deadline for the entrance examination for seventh grade at brilliant talent schools (Sampad) first secondary cycle and tenth grade at model government schools and completion of capacity at brilliant talent schools (Sampad) second secondary cycle for academic year 1405-1406 ends today."
-    },
-    {
       "id": "telegram:defapress_ir/57913",
       "source": "Regime channels",
       "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
@@ -734,6 +923,25 @@
       ],
       "title_en": "Photo report: gathering of patriotic teachers",
       "summary_en": "Photo report: gathering of patriotic teachers"
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkwhw7xklk2x",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-03T05:56:07.475248Z",
+      "title": "Thai police raid illegal school run by Iranian couple, find 89 Israeli kids enrolled",
+      "url": "https://www.timesofisrael.com/thai-police-raid-illegal-school-run-by-iranian-couple-find-89-israeli-kids-enrolled/",
+      "summary": "Thai police raid illegal school run by Iranian couple, find 89 Israeli kids enrolled",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
       "id": "telegram:defapress_ir/57912",
@@ -784,100 +992,137 @@
       "summary_en": "Fast-attack boats: Iran's winning card in asymmetric war with America. The Telegraph, referring to Iran's extraordinary control of the Strait of Hormuz, says: control of the Strait of Hormuz is an offensive and effective weapon that Iran is now using to cripple the Western economy; Iran proved that by imposing control over the price of energy, it can bring America to its knees without crossing the nuclear red line. The question that is raised in this context is: with what force has the Revolutionary Guards Naval Force been able to close the Strait of Hormuz? One of the tools that the Sepah Navy uses to counter America is fast-attack boats with speeds of between 80 to 110 knots"
     },
     {
-      "id": "telegram:defapress_ir/57910",
-      "source": "Regime channels",
-      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T04:05:52Z",
-      "title": "💢 ترامپ دیگر هیچ گزینه‌ای برای مهار واکنش‌های منفی به قیمت بنزین ندارد 🔸 به نقل از واشنگتن‌پست قیمت بنزین در…",
-      "url": "https://t.me/defapress_ir/57910",
-      "summary": "💢 ترامپ دیگر هیچ گزینه‌ای برای مهار واکنش‌های منفی به قیمت بنزین ندارد 🔸 به نقل از واشنگتن‌پست قیمت بنزین در آمریکا در حال افزایش است، واکنش منفی رأی‌دهندگان در حال شکل‌گیری است و در داخل کاخ سفید، گزینه‌های کاهش قیمت بنزین در پمپ بنزین‌ها رو به کاهش است. 🔸 با طولانی شدن جنگ ترامپ علیه ایران، افزایش قیمت نفت به یک نگرانی سیاسی عمده برای دولت ترامپ تبدیل می‌شود. @Defapress_ir",
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkwdvfnbhp2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-03T04:44:03.935000Z",
+      "title": "The Jordanian Armed Forces struck several arms and drug trafficking sites located along the Jordan-Syria border early Sunday morning, the…",
+      "url": "https://www.jpost.com/middle-east/article-894903",
+      "summary": "The Jordanian Armed Forces struck several arms and drug trafficking sites located along the Jordan-Syria border early Sunday morning, the army confirmed.\nwww.jpost.com/middle-east/...",
       "details": {
-        "channel_handle": "defapress_ir",
-        "channel_display": "Defa Press",
-        "language": "fa",
-        "post_id": "defapress_ir/57910"
+        "handle": "thejerusalempost.bsky.social"
       },
       "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Trump no longer has any option to suppress negative reactions to petrol prices. According to the Washington Post, petrol prices in America are rising, negative reactions from voters are forming, and at the White House, options for reducing petrol prices at petrol pumps are declining. As Trump's war against Iran lengthens, rising oil prices is becoming a major political concern for the Trump administration.",
-      "summary_en": "Trump no longer has any option to suppress negative reactions to petrol prices. According to the Washington Post, petrol prices in America are rising, negative reactions from voters are forming, and at the White House, options for reducing petrol prices at petrol pumps are declining. As Trump's war against Iran lengthens, rising oil prices is becoming a major political concern for the Trump administration."
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
-      "id": "telegram:defapress_ir/57909",
-      "source": "Regime channels",
-      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T03:56:27Z",
-      "title": "💢 عبور یک ابر نفتکش ایرانی از محاصره آمریکا 🔸 تانکر ترکرز:  ابرنفتکش «هیوج» (HUGE) که حامل بیش از ۱.۹ میلیون…",
-      "url": "https://t.me/defapress_ir/57909",
-      "summary": "💢 عبور یک ابر نفتکش ایرانی از محاصره آمریکا 🔸 تانکر ترکرز:  ابرنفتکش «هیوج» (HUGE) که حامل بیش از ۱.۹ میلیون بشکه نفت خام است و ارزش تقریبی آن معادل ۲۲۰ میلیون دلار می‌باشد، موفق شده است از محاصره ارتش تروریستی آمریکا عبور کند و خود را به منطقه خاور دور برساند. 🔸 این نفتکش بیش از یک هفته پیش در سواحل سریلانکا مشاهده شد. هم‌اکنون این شناور در حال عبور از تنگه لومبوک اندونزی به سمت مجمع‌الجزایر ریائو است. @Defapress_ir",
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkvzq2hktw2x",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-03T01:42:07.937570Z",
+      "title": "Trump: There’s a possibility we could renew strikes on Iran ‘if they misbehave’",
+      "url": "https://www.timesofisrael.com/liveblog-may-3-2026/",
+      "summary": "Trump: There’s a possibility we could renew strikes on Iran ‘if they misbehave’",
       "details": {
-        "channel_handle": "defapress_ir",
-        "channel_display": "Defa Press",
-        "language": "fa",
-        "post_id": "defapress_ir/57909"
+        "handle": "timesofisrael.com"
       },
       "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "A giant Iranian oil tanker breaks through American blockade. Tank Trackers: The super tanker HUGE carrying more than 1.9 million barrels of crude oil, valued at approximately 220 million dollars, has managed to break through the blockade of the American terrorist military and reach the Far East region. This tanker was sighted off the coast of Sri Lanka more than a week ago. The vessel is now passing through the Lombok Strait in Indonesia towards the Riau Islands.",
-      "summary_en": "A giant Iranian oil tanker breaks through American blockade. Tank Trackers: The super tanker HUGE carrying more than 1.9 million barrels of crude oil, valued at approximately 220 million dollars, has managed to break through the blockade of the American terrorist military and reach the Far East region. This tanker was sighted off the coast of Sri Lanka more than a week ago. The vessel is now passing through the Lombok Strait in Indonesia towards the Riau Islands."
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
-      "id": "telegram:defapress_ir/57908",
-      "source": "Regime channels",
-      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T03:01:13Z",
-      "title": "💢 خسارت های جانی و مالی اسرائیل در جنگ باز هم افزایش یافت 🔸 گزارش‌های رسمی از سرزمین‌های اشغالی حاکی از آن…",
-      "url": "https://t.me/defapress_ir/57908",
-      "summary": "💢 خسارت های جانی و مالی اسرائیل در جنگ باز هم افزایش یافت 🔸 گزارش‌های رسمی از سرزمین‌های اشغالی حاکی از آن است که تعداد مصدومان رژیم صهیونیستی در شمال، پس از توافق آتش‌بس با ایران، همچنان رو به افزایش است. @Defapress_ir",
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkvunvmqpq2u",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-03T00:11:26.017000Z",
+      "title": "As regional tensions escalated into direct confrontation with Iran, the impact on Dubai’s tourism sector, so beloved by Israeli travelers,…",
+      "url": "https://www.jpost.com/travel/article-894886",
+      "summary": "As regional tensions escalated into direct confrontation with Iran, the impact on Dubai’s tourism sector, so beloved by Israeli travelers, was almost immediate. \nwww.jpost.com/travel/artic...",
       "details": {
-        "channel_handle": "defapress_ir",
-        "channel_display": "Defa Press",
-        "language": "fa",
-        "post_id": "defapress_ir/57908"
+        "handle": "thejerusalempost.bsky.social"
       },
       "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Israel's human and material losses in the war have increased further. Official reports from the occupied territories indicate that the number of injured in the Zionist regime in the north continues to rise even after the ceasefire agreement with Iran.",
-      "summary_en": "Israel's human and material losses in the war have increased further. Official reports from the occupied territories indicate that the number of injured in the Zionist regime in the north continues to rise even after the ceasefire agreement with Iran."
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
-      "id": "telegram:defapress_ir/57907",
-      "source": "Regime channels",
-      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-03T02:18:29Z",
-      "title": "💢 بولتون: ترامپ فقط یک‌بار نقشه را می‌دید، اهمیت هرمز را می‌فهمید 🔸 جان بولتون مشاور امنیت ملی سابق آمریکا:…",
-      "url": "https://t.me/defapress_ir/57907",
-      "summary": "💢 بولتون: ترامپ فقط یک‌بار نقشه را می‌دید، اهمیت هرمز را می‌فهمید 🔸 جان بولتون مشاور امنیت ملی سابق آمریکا: اگر ترامپ فقط یک‌بار به نقشه نگاه می‌کرد، اهمیت تنگۀ هرمز را درک می‌کرد. 🔸 هر کسی که نگاهی سریع به نقشه بیندازد می‌داند که تنگۀ هرمز یک نقطه گلوگاهی استراتژیک بالقوه است. @Defapress_ir",
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkvtzoneyu2k",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-03T00:00:08.740000Z",
+      "title": "A senior Iranian military officer said on Saturday that renewed fighting with the US was “likely,” hours after US President Donald Trump…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mkvtzoneyu2k",
+      "summary": "A senior Iranian military officer said on Saturday that renewed fighting with the US was “likely,” hours after US President Donald Trump said he was not satisfied with an Iranian negotiating proposal. \n\nRead more on the Times of Israel: www.timesofisrael.com/senior-irani...",
       "details": {
-        "channel_handle": "defapress_ir",
-        "channel_display": "Defa Press",
-        "language": "fa",
-        "post_id": "defapress_ir/57907"
+        "handle": "timesofisrael.com"
       },
       "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "Bolton: Trump looked at the map just once, understood the importance of Hormuz. John Bolton, former US national security adviser: If Trump had just looked at the map once, he would have understood the importance of the Strait of Hormuz. Anyone who takes a quick look at the map knows that the Strait of Hormuz is a potentially strategic chokepoint.",
-      "summary_en": "Bolton: Trump looked at the map just once, understood the importance of Hormuz. John Bolton, former US national security adviser: If Trump had just looked at the map once, he would have understood the importance of the Strait of Hormuz. Anyone who takes a quick look at the map knows that the Strait of Hormuz is a potentially strategic chokepoint."
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkvrop7wls2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T23:18:11.836000Z",
+      "title": "US President Donald Trump had been told about the \"concept of the deal\" with Iran, and will soon be reviewing the exact wording, the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-894897",
+      "summary": "US President Donald Trump had been told about the \"concept of the deal\" with Iran, and will soon be reviewing the exact wording, the president told reporters at West Palm Beach in Florida. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkvo45hwmt2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T22:14:07.847000Z",
+      "title": "Immigrating to a war zone might sound crazy, yet for several individuals who made aliyah amid the wailing sirens and ballistic missile…",
+      "url": "https://www.jpost.com/jerusalem-report/article-894429",
+      "summary": "Immigrating to a war zone might sound crazy, yet for several individuals who made aliyah amid the wailing sirens and ballistic missile strikes during the recent Iran war, the decision to move to Israel was not triggered by the crisis but was made despite it.\n\nwww.jpost.com/jerusalem-re...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkvk6xurfw2s",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-02T21:04:08.725148Z",
+      "title": "Ministers set to discuss renewing Gaza war as Hamas refuses to disarm — report",
+      "url": "https://www.timesofisrael.com/ministers-set-to-discuss-renewing-gaza-war-as-hamas-refuses-to-disarm-report/",
+      "summary": "Ministers set to discuss renewing Gaza war as Hamas refuses to disarm — report",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
       "id": "x_via_rssapp:cc5fcd06d03d38d44417530e33da015a",
@@ -947,6 +1192,44 @@
       "summary_en": "Audio recitation of the message of His Eminence Seyyed Majataba Khamenei, Supreme Leader of the Islamic Revolution, on the occasion of Labour Day and Teachers' Day, 11 Ordibehesht 1405."
     },
     {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkvds5r6um2c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T19:09:35.161000Z",
+      "title": "Analysis: The United Arab Emirates is strengthening “security cohesion” in the Gulf, particularly with Bahrain, in a way that could bolster…",
+      "url": "https://www.jpost.com/middle-east/article-894891",
+      "summary": "Analysis: The United Arab Emirates is strengthening “security cohesion” in the Gulf, particularly with Bahrain, in a way that could bolster the Abraham Accords and regional security. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkv7htfpra2g",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-02T17:52:14.826693Z",
+      "title": "Hezbollah slams Lebanese TV for ‘Angry Birds’ clip mocking leader",
+      "url": "https://www.timesofisrael.com/hezbollah-slams-lebanese-tv-for-angry-birds-clip-mocking-leader/",
+      "summary": "Hezbollah slams Lebanese TV for ‘Angry Birds’ clip mocking leader",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
       "id": "iranintl:https://www.iranintl.com/en/202605024485",
       "source": "Iran International",
       "source_detail": "Opposition outlet, London",
@@ -959,6 +1242,25 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkv6vxrfrm27",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-02T17:42:15.426070Z",
+      "title": "Senior Iranian officer warns war with US ‘likely’ after Trump rebuffs latest proposal",
+      "url": "https://www.timesofisrael.com/senior-iranian-officer-warns-war-with-us-likely-after-trump-rebuffs-latest-proposal/",
+      "summary": "Senior Iranian officer warns war with US ‘likely’ after Trump rebuffs latest proposal",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
       ]
     },
     {
@@ -1029,6 +1331,44 @@
       "summary_en": "Tree diagram | Message of Ayatollah Seyyed Mostafa Khamenei, Leader of the Islamic Revolution, on the occasion of National Persian Gulf Day, 10 Ordibehesht 1405"
     },
     {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkuygzy5b42e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T15:46:30.646000Z",
+      "title": "Nobel Peace Prize winner Narges Mohammadi is in critical condition after suffering a heart attack in an Iranian prison. Her family demands…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-894883",
+      "summary": "Nobel Peace Prize winner Narges Mohammadi is in critical condition after suffering a heart attack in an Iranian prison. Her family demands urgent medical care. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkuwfxri7l27",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-02T15:10:08.661883Z",
+      "title": "Hezbollah fires rockets at troops in Lebanon, no injuries; IDF strikes terror sites",
+      "url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-troops-in-lebanon-no-injuries-idf-strikes-terror-sites/",
+      "summary": "Hezbollah fires rockets at troops in Lebanon, no injuries; IDF strikes terror sites",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
+    },
+    {
       "id": "iranintl:https://www.iranintl.com/en/202605029994",
       "source": "Iran International",
       "source_detail": "Opposition outlet, London",
@@ -1041,6 +1381,25 @@
       "details": {},
       "tags": [
         "iran-domestic"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mkurtj57t32n",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-02T13:48:14.330971Z",
+      "title": "US’s Spirit Airlines declares immediate bankruptcy amid Iran war price fuel surge",
+      "url": "https://www.timesofisrael.com/uss-spirit-airlines-goes-bankrupt-amid-iran-war-price-fuel-surge/",
+      "summary": "US’s Spirit Airlines declares immediate bankruptcy amid Iran war price fuel surge",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
       ]
     },
     {
@@ -1060,6 +1419,25 @@
         "x-twitter",
         "official-body",
         "claim"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkuq4zluwt26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T13:17:44.819000Z",
+      "title": "Iran's regime continues to suppress dissent with secret executions and enforced disappearances, leaving families in the dark. Relatives of…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-894779",
+      "summary": "Iran's regime continues to suppress dissent with secret executions and enforced disappearances, leaving families in the dark. Relatives of four victims spoke to The Jerusalem Post about their loved ones' cases. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
       ]
     },
     {
@@ -1093,42 +1471,41 @@
       ]
     },
     {
-      "id": "telegram:rahbar_enghelab_ir/335",
-      "source": "Regime channels",
-      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
-      "source_tier": 4,
-      "category": "telegram-claim",
-      "published_at": "2026-05-02T09:37:37Z",
-      "title": "🇮🇷 شجره طیبه؛ ثمره ۳۷ سال زعامت رهبر شهید 🌷 رهبر شهید ما وقتی که عهده‌دار رهبری شدند، نظام جمهوری اسلامی چون…",
-      "url": "https://t.me/rahbar_enghelab_ir/335",
-      "summary": "🇮🇷 شجره طیبه؛ ثمره ۳۷ سال زعامت رهبر شهید 🌷 رهبر شهید ما وقتی که عهده‌دار رهبری شدند، نظام جمهوری اسلامی چون نهالی بود که زخمهای متعددی از دشمنان اسلام و ایران بر آن فرود آمده بود و البته همه را بخوبی تحمّل کرده بود. اما وقتی‌که بعد از قریب به ۳۷ سال، کرسی زعامت امت را ترک نمودند، شجره طیبه‌ای که ریشه‌اش مستحکم و شاخ و برگ آن بر بخشهای مهمی از منطقه و جهان سایه‌افکن شده است را از خود به جا گذاشتند. ✍ بخشی از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای، رهبر معظّم انقلاب |  ۲۰ فروردین ۱۴۰۵ 📀 نسخه کیفیت اصلی 🔗 مطلب مرتبط 📲 @rahbar_enghelab_ir",
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkuf7pykkf2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T10:02:24.466000Z",
+      "title": "Matzpen, the IDF unit most responsible for integrating AI and “big data” intelligence across the military, played a critical role in the…",
+      "url": "https://www.jpost.com/defense-and-tech/article-894775",
+      "summary": "Matzpen, the IDF unit most responsible for integrating AI and “big data” intelligence across the military, played a critical role in the recent war with Iran, Col. Rotem Beshi, told The Jerusalem Post.\nwww.jpost.com/defense-and-...",
       "details": {
-        "channel_handle": "rahbar_enghelab_ir",
-        "channel_display": "Khamenei’s office",
-        "language": "fa",
-        "post_id": "rahbar_enghelab_ir/335"
+        "handle": "thejerusalempost.bsky.social"
       },
       "tags": [
-        "telegram",
-        "claim",
-        "fa"
-      ],
-      "title_en": "The blessed tree; the fruit of 37 years of leadership of the martyred Leader",
-      "summary_en": "The blessed tree; the fruit of 37 years of leadership of the martyred Leader. When our martyred Leader took on the leadership, the Islamic Republic system was like a sapling that had received numerous wounds from the enemies of Islam and Iran, and of course had borne them all well. But when, after nearly 37 years, they left the seat of the leadership of the nation, they left behind a blessed tree whose roots are strong and whose branches overshadow important parts of the region and the world. A passage from the message of Ayatollah Seyyed Mostafa Khamenei, Leader of the Islamic Revolution, 20 Farvardin 1405"
+        "bluesky",
+        "israeli-press",
+        "english"
+      ]
     },
     {
-      "id": "iranintl:https://www.iranintl.com/en/202605018331",
-      "source": "Iran International",
-      "source_detail": "Opposition outlet, London",
-      "source_tier": 3,
-      "category": "iran-news",
-      "published_at": "2026-05-02T08:28:22Z",
-      "title": "‘Permit for a terrorist’: Canada opposition asks who cleared ex-IRGC official’s entry",
-      "url": "https://www.iranintl.com/en/202605018331",
-      "summary": "The Canadian opposition has accused the government of bypassing its own rules after Iran International reported that an IRGC-linked Iranian football official was granted special permission to enter the country despite being inadmissible.",
-      "details": {},
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mkueuxtjjr2o",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-02T09:56:23.869000Z",
+      "title": "The Iranian proposal rejected by US President Trump would open the Strait of Hormuz and end the US blockade of Iran while leaving talks on…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-894875",
+      "summary": "The Iranian proposal rejected by US President Trump would open the Strait of Hormuz and end the US blockade of Iran while leaving talks on Iran's nuclear program for later, an official said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
       "tags": [
-        "iran-domestic"
+        "bluesky",
+        "israeli-press",
+        "english"
       ]
     }
   ]
