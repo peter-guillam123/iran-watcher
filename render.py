@@ -121,9 +121,16 @@ FILTER_JS = r"""
   }
   function sortByTier(){
     eventsBox.innerHTML = originalHTML;
-    var events = Array.from(eventsBox.querySelectorAll('.event'));
+    // Only iterate top-level events — never tear cluster children out of
+    // their .cluster-body wrapper (they belong inside the expander).
+    var topLevel = Array.from(eventsBox.querySelectorAll(':scope > .event'));
+    var clusterZone = eventsBox.querySelector(':scope > .channel-cluster-zone');
+    var clusterWrappers = clusterZone
+      ? Array.from(clusterZone.querySelectorAll(':scope > .event'))
+      : [];
+    var allTopLevel = topLevel.concat(clusterWrappers);
     var byTier = {};
-    events.forEach(function(e){
+    allTopLevel.forEach(function(e){
       var t = e.dataset.tier || '2';
       (byTier[t] = byTier[t] || []).push(e);
     });
@@ -140,6 +147,7 @@ FILTER_JS = r"""
     });
     setActiveSort(sortTier);
     applyFilter();
+    rebindClusterToggles();
   }
   pills.forEach(function(p){
     p.addEventListener('click', function(){
@@ -151,8 +159,34 @@ FILTER_JS = r"""
     pills.forEach(function(p){ p.dataset.active = '0'; });
     applyFilter();
   });
-  if(sortDate) sortDate.addEventListener('click', sortByDate);
+  if(sortDate) sortDate.addEventListener('click', function(){
+    sortByDate();
+    rebindClusterToggles();
+  });
   if(sortTier) sortTier.addEventListener('click', sortByTier);
+
+  // Cluster expand/collapse — applied to current toggles in the DOM. Must
+  // be re-bound after sort operations rebuild the events container.
+  function rebindClusterToggles(){
+    document.querySelectorAll('.cluster-toggle').forEach(function(btn){
+      if(btn.dataset.bound === '1') return;
+      btn.dataset.bound = '1';
+      btn.addEventListener('click', function(){
+        var cluster = btn.closest('.channel-cluster');
+        if(!cluster) return;
+        var body = cluster.querySelector('.cluster-body');
+        if(!body) return;
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+        if(open){
+          body.setAttribute('hidden', '');
+        } else {
+          body.removeAttribute('hidden');
+        }
+      });
+    });
+  }
+  rebindClusterToggles();
 })();
 """
 
@@ -432,7 +466,7 @@ def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
     day_shape_html = _render_day_shape(payload.get("day_shape") or "", len(events))
     threads_html = _render_threads(payload.get("threads") or [])
     pills_html = _render_pills(events)
-    items_html = "\n".join(_render_event(e) for e in events)
+    items_html = _render_events_with_clusters(events)
     if not items_html:
         items_html = '<p class="empty">No items matched the Iran/Middle East filter in this window.</p>'
 
@@ -457,6 +491,96 @@ def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
             )
 
     return f"{day_shape_html}{threads_html}{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+
+
+def _render_events_with_clusters(events: list[dict]) -> str:
+    """Render events, collapsing regime-channel posts into per-channel clusters.
+
+    Telegram regime channels are by far the noisiest layer in the brief —
+    Khamenei alone often posts 8-12 variations of the same daily theme
+    (audio + video + text + quote-card). Inline-chronological they swamp
+    the other 30+ items from primary governmental sources.
+
+    Strategy: render every non-regime event in original chronological order
+    first, then render each regime channel as a single collapsible cluster
+    at the bottom. The cluster header acts as one .event for filter/sort
+    purposes (same data-source / data-tier attributes), so the existing
+    source-filter pills and sort-by-tier still operate correctly. The
+    children inside the expander are also full .event articles so threads-
+    citation filters reach them when expanded.
+    """
+    primary_events: list[dict] = []
+    by_channel: dict[str, list[dict]] = {}
+
+    for e in events:
+        details = e.get("details") or {}
+        if e.get("source") == "Regime channels" and details.get("channel_handle"):
+            by_channel.setdefault(details["channel_handle"], []).append(e)
+        else:
+            primary_events.append(e)
+
+    parts = [_render_event(e) for e in primary_events]
+
+    if by_channel:
+        # Stable order: most-active channel first, then alphabetical handle.
+        ordered_channels = sorted(
+            by_channel.items(),
+            key=lambda kv: (-len(kv[1]), kv[0]),
+        )
+        cluster_blocks = [_render_channel_cluster(handle, items) for handle, items in ordered_channels]
+        parts.append(
+            '<div class="channel-cluster-zone" aria-label="Regime channel clusters">'
+            + "".join(cluster_blocks)
+            + '</div>'
+        )
+
+    return "\n".join(parts)
+
+
+def _render_channel_cluster(handle: str, items: list[dict]) -> str:
+    """One collapsible block per regime channel — header is the teaser, body
+    is the individual events hidden by default."""
+    # Newest first within the cluster.
+    items_sorted = sorted(items, key=lambda e: e.get("published_at") or "", reverse=True)
+    n = len(items_sorted)
+    latest = items_sorted[0]
+    oldest = items_sorted[-1]
+
+    display = (latest.get("details") or {}).get("channel_display") or handle
+    detail = latest.get("source_detail") or ""
+    teaser_title = latest.get("title_en") or latest.get("title") or ""
+    latest_at = (latest.get("published_at") or "")[:16].replace("T", " ")
+    oldest_at = (oldest.get("published_at") or "")[:16].replace("T", " ")
+    range_label = (
+        f"{oldest_at}Z → {latest_at}Z" if n > 1 else f"{latest_at}Z"
+    )
+
+    children = "\n".join(_render_event(e) for e in items_sorted)
+
+    return (
+        f'<article class="event channel-cluster" '
+        f'data-source="Regime channels" data-tier="4" '
+        f'data-channel="{html.escape(handle)}">'
+        '<button class="cluster-toggle" type="button" aria-expanded="false">'
+        '<div class="head">'
+        '<div class="source-info">'
+        '<div class="src-row">'
+        '<span class="tier-mark t4" aria-hidden="true"></span>'
+        f'<span class="src">{html.escape(display)}</span>'
+        f'<span class="cluster-count">{n} post{"s" if n != 1 else ""}</span>'
+        '</div>'
+        f'<div class="src-detail">{html.escape(detail)}</div>'
+        '</div>'
+        f'<div class="time">{html.escape(range_label)}</div>'
+        '</div>'
+        f'<h3 class="cluster-teaser">Latest: {html.escape(html.unescape(teaser_title))}</h3>'
+        f'<div class="cluster-foot">'
+        f'<span class="cluster-expand">Expand to read all {n} post{"s" if n != 1 else ""}</span>'
+        '</div>'
+        '</button>'
+        f'<div class="cluster-body" hidden>{children}</div>'
+        '</article>'
+    )
 
 
 def _render_day_shape(day_shape: str, n_items: int) -> str:

@@ -421,6 +421,101 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   cursor: help;
 }
 
+/* ----- Regime channel clusters --------------------------------------- */
+/* Telegram regime-channel posts are aggregated into one collapsible block
+   per channel. The cluster header looks like a normal event card with the
+   channel name, post count, and the latest item as a teaser. Click to
+   expand and reveal the individual posts inside. */
+.channel-cluster-zone {
+  margin-top: 36px;
+  padding-top: 18px;
+  border-top: 2px solid var(--rule);
+  position: relative;
+}
+.channel-cluster-zone::before {
+  content: "Regime-channel layer · expand to read individual posts";
+  display: block;
+  font-family: var(--body); font-size: 10.5px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent); font-weight: 700;
+  margin-bottom: 14px;
+}
+.event.channel-cluster {
+  padding: 0;
+  border-left: 2px solid var(--accent-deep);
+}
+.cluster-toggle {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  padding: 18px 22px;
+  cursor: pointer;
+  transition: background var(--t-fast);
+  font-family: inherit;
+}
+.cluster-toggle:hover { background: var(--paper-card); }
+.cluster-toggle[aria-expanded="true"] {
+  background: var(--paper-card);
+  border-bottom: 1px solid var(--rule-hair);
+}
+.cluster-count {
+  font-family: var(--mono); font-size: 11px;
+  color: var(--ink-faint);
+  margin-left: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.cluster-teaser {
+  margin: 8px 0 6px;
+  font-family: var(--headline);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+.cluster-foot {
+  font-family: var(--body); font-size: 11.5px;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+}
+.cluster-expand::before {
+  content: "▸ ";
+  color: var(--accent);
+  font-size: 13px;
+  display: inline-block;
+  transition: transform var(--t-fast);
+}
+.cluster-toggle[aria-expanded="true"] .cluster-expand::before {
+  content: "▾ ";
+}
+.cluster-toggle[aria-expanded="true"] .cluster-expand {
+  color: var(--ink-soft);
+}
+.cluster-body {
+  padding: 14px 22px 18px;
+}
+.cluster-body .event {
+  border-bottom: 1px dashed var(--rule-hair);
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  /* tone down child events — they're the detail layer underneath the
+     cluster header, not new top-level cards. */
+  border-left: 0;
+}
+.cluster-body .event:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .cluster-toggle { padding: 14px 14px; }
+  .cluster-teaser { font-size: 15.5px; }
+  .cluster-body { padding: 10px 14px 14px; }
+}
+
 /* ----- Filter / sort panel ------------------------------------------- */
 
 .filters {
