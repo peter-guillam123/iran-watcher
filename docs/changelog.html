@@ -53,6 +53,13 @@
 </header>
 
 <div class="entry milestone">
+  <h2>UN OCHA / ReliefWeb adapter switched on <span class="date">4 May 2026</span></h2>
+  <p>The <code>appname</code> registration came through this morning — <code>TheGuardian-TestBrief-wt9es</code>, the suffix is ReliefWeb's own. The OCHA / ReliefWeb adapter has been wired in since v1; the gate that's been blocking it since November 2025 is now lifted, and the source switches on without code changes beyond the secret rotation.</p>
+  <p>Two adapter-level wrinkles ironed out before the first run. <strong>(1)</strong> ReliefWeb's ISO 8601 parser rejects microsecond-precision timestamps — <code>2026-04-20T07:17:00.123456+00:00</code> returns 400, <code>2026-04-20T07:17:00+00:00</code> works. Strip microseconds before sending. <strong>(2)</strong> ReliefWeb publishes the same UN / ICRC / WHO releases in English, French and Spanish, so the brief was getting the same situation report three times. Added a <code>language.code = en</code> filter at the API level — drops the duplicates without doing a translation pass.</p>
+  <p>First-run smoke test pulled 25 unique English-language Iran-tagged reports from the last fortnight: WFP situation reports, UNHCR refugee updates, ICRC president statements, WHO escalation reports, IOM mobility reports. Tier 1 (clean API), so it sits with UK Parliament, Federal Register and OFAC at the top of the documentary stack. Closes the last named gap from the v1 scoping document.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Cluster teaser tightened, latest deduped <span class="date">3 May 2026 (late)</span></h2>
   <p>Two related fixes after eyeballing the broadcast zone live. <strong>(1)</strong> The cluster header was rendering the latest tweet's full body as a Playfair-headline teaser, which made an IDF strike post look more visually significant than an Iran International edited headline. The teaser now drops to body register (Public Sans, 14px italic, ink-soft) and truncates hard at ~120 characters with an ellipsis. The Iran International / Times of Israel / Jerusalem Post documents above keep their proper headlines. The visual hierarchy now reads <em>documents at headline weight, broadcasts at snippet weight</em>, which matches the editorial weighting. <strong>(2)</strong> Expanding a multi-post cluster was showing the latest post twice — once as the teaser at the top and again as the first event card inside the expander. Dedup: when N&nbsp;&gt;&nbsp;1, the expander shows posts 2…N (skipping the teased latest); the expand label adapts to <em>"Expand to read previous N-1 posts"</em>. Single-post clusters keep the post in the expander since the snippet is just a preview of it.</p>
 </div>

@@ -20,12 +20,20 @@ def fetch(since: datetime) -> list[dict]:
             "RELIEFWEB_APPNAME not set — ReliefWeb v2 requires a pre-approved appname. "
             "See module docstring for the registration form."
         )
+    # ReliefWeb's ISO 8601 parser rejects microsecond precision — it wants
+    # second-precision timestamps. `2026-04-20T07:17:00.123456+00:00` is
+    # rejected; `2026-04-20T07:17:00+00:00` is accepted. Strip microseconds.
+    since_iso = since.replace(microsecond=0).isoformat()
     body = {
         "filter": {
             "operator": "AND",
             "conditions": [
                 {"field": "primary_country.iso3", "value": "irn"},
-                {"field": "date.created", "value": {"from": since.isoformat()}},
+                {"field": "date.created", "value": {"from": since_iso}},
+                # ReliefWeb publishes the same UN / ICRC / WHO releases in
+                # English, French and Spanish. Without this filter the brief
+                # gets the same situation report three times. English only.
+                {"field": "language.code", "value": "en"},
             ],
         },
         "fields": {
