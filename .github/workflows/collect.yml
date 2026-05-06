@@ -2,9 +2,17 @@ name: collect
 
 on:
   schedule:
-    # 06:00 UTC — 07:00 BST (UK summer) / 06:00 GMT (UK winter, an hour
-    # earlier than 07:00 UK because GitHub cron does not follow DST).
-    - cron: "0 6 * * *"
+    # Twice daily — morning brief by 7am UK, afternoon brief by 4pm UK.
+    # Both runs land on the SAME dated page; the afternoon run regenerates
+    # today's brief with whatever's new since the morning. 30-minute lead
+    # is generous (the run itself is ~2 minutes) but leaves slack for
+    # GitHub Actions queue delays.
+    #
+    # 05:30 UTC = 06:30 BST (UK summer) / 05:30 GMT (UK winter, an hour
+    # earlier than 06:30 UK because GitHub cron does not follow DST).
+    - cron: "30 5 * * *"
+    # 14:30 UTC = 15:30 BST (UK summer) / 14:30 GMT (UK winter).
+    - cron: "30 14 * * *"
   workflow_dispatch:
 
 permissions:
