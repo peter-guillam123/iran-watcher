@@ -23,7 +23,7 @@
 <main class="" id="main">
 <header class="masthead"><a class="wordmark" href="./">Iran Watcher</a><span class="dateline">Daily aggregator · est. 2026</span></header>
 <nav class="site-nav"><a class="nav-item" href="./">Home</a><a class="nav-item current" href="archive.html">Archive</a><a class="nav-item" href="comparisons.html">Comparisons</a><a class="nav-item" href="about.html">About</a><a class="nav-item" href="changelog.html">Changelog</a></nav>
-<header class="page-header"><h1>Archive</h1><div class="meta">18 daily briefs.</div></header><section class="archive" aria-label="Daily archive"><div class="day"><a href="2026-05-06.html">Wed 06 May 2026</a><span class="count">80 items</span></div><div class="day"><a href="2026-05-05.html">Tue 05 May 2026</a><span class="count">88 items</span></div><div class="day"><a href="2026-05-04.html">Mon 04 May 2026</a><span class="count">62 items</span></div><div class="day"><a href="2026-05-03.html">Sun 03 May 2026</a><span class="count">62 items</span></div><div class="day"><a href="2026-05-02.html">Sat 02 May 2026</a><span class="count">48 items</span></div><div class="day"><a href="2026-05-01.html">Fri 01 May 2026</a><span class="count">43 items</span></div><div class="day"><a href="2026-04-30.html">Thu 30 Apr 2026</a><span class="count">8 items</span></div><div class="day"><a href="2026-04-29.html">Wed 29 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-28.html">Tue 28 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-27.html">Mon 27 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-26.html">Sun 26 Apr 2026</a><span class="count">3 items</span></div><div class="day"><a href="2026-04-25.html">Sat 25 Apr 2026</a><span class="count">6 items</span></div><div class="day"><a href="2026-04-24.html">Fri 24 Apr 2026</a><span class="count">11 items</span></div><div class="day"><a href="2026-04-23.html">Thu 23 Apr 2026</a><span class="count">12 items</span></div><div class="day"><a href="2026-04-22.html">Wed 22 Apr 2026</a><span class="count">17 items</span></div><div class="day"><a href="2026-04-21.html">Tue 21 Apr 2026</a><span class="count">20 items</span></div><div class="day"><a href="2026-04-20.html">Mon 20 Apr 2026</a><span class="count">8 items</span></div><div class="day"><a href="2026-04-19.html">Sun 19 Apr 2026</a><span class="count">2 items</span></div></section>
+<header class="page-header"><h1>Archive</h1><div class="meta">18 daily briefs.</div></header><section class="archive" aria-label="Daily archive"><div class="day"><a href="2026-05-06.html">Wed 06 May 2026</a><span class="count">72 items</span></div><div class="day"><a href="2026-05-05.html">Tue 05 May 2026</a><span class="count">88 items</span></div><div class="day"><a href="2026-05-04.html">Mon 04 May 2026</a><span class="count">62 items</span></div><div class="day"><a href="2026-05-03.html">Sun 03 May 2026</a><span class="count">62 items</span></div><div class="day"><a href="2026-05-02.html">Sat 02 May 2026</a><span class="count">48 items</span></div><div class="day"><a href="2026-05-01.html">Fri 01 May 2026</a><span class="count">43 items</span></div><div class="day"><a href="2026-04-30.html">Thu 30 Apr 2026</a><span class="count">8 items</span></div><div class="day"><a href="2026-04-29.html">Wed 29 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-28.html">Tue 28 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-27.html">Mon 27 Apr 2026</a><span class="count">10 items</span></div><div class="day"><a href="2026-04-26.html">Sun 26 Apr 2026</a><span class="count">3 items</span></div><div class="day"><a href="2026-04-25.html">Sat 25 Apr 2026</a><span class="count">6 items</span></div><div class="day"><a href="2026-04-24.html">Fri 24 Apr 2026</a><span class="count">11 items</span></div><div class="day"><a href="2026-04-23.html">Thu 23 Apr 2026</a><span class="count">12 items</span></div><div class="day"><a href="2026-04-22.html">Wed 22 Apr 2026</a><span class="count">17 items</span></div><div class="day"><a href="2026-04-21.html">Tue 21 Apr 2026</a><span class="count">20 items</span></div><div class="day"><a href="2026-04-20.html">Mon 20 Apr 2026</a><span class="count">8 items</span></div><div class="day"><a href="2026-04-19.html">Sun 19 Apr 2026</a><span class="count">2 items</span></div></section>
 <footer class="site"><span>Iran Watcher · primary-source aggregator for the Iran / Middle East beat</span><span><a href="https://github.com/peter-guillam123/iran-watcher" rel="noopener">Source on GitHub</a></span></footer>
 </main>
 <script>
@@ -193,6 +193,28 @@
   // Clickable threads — each click toggles a "filter to just this thread's
   // events" mode. Clicking the same thread again clears it. Clicking a
   // different thread switches the filter without an extra click.
+  //
+  // When a thread becomes active, automatically expand any broadcast
+  // cluster whose data-child-ids contains an event id from the thread.
+  // The user shouldn't have to click "expand" on each cluster — clicking
+  // a thread is the action of "show me everything related to this".
+  // Clusters stay expanded after the thread is deactivated; the user can
+  // collapse them manually if they want. Same direction-of-action as
+  // every other expand-on-activate UI in the world.
+  function expandRelatedClusters(threadIds){
+    if(!threadIds || threadIds.size === 0) return;
+    document.querySelectorAll('.event.channel-cluster').forEach(function(cluster){
+      var childIds = (cluster.dataset.childIds || '').split('|').filter(Boolean);
+      var match = childIds.some(function(id){ return threadIds.has(id); });
+      if(!match) return;
+      var toggle = cluster.querySelector('.cluster-toggle');
+      var body = cluster.querySelector('.cluster-body');
+      if(toggle && body && toggle.getAttribute('aria-expanded') !== 'true'){
+        toggle.setAttribute('aria-expanded', 'true');
+        body.removeAttribute('hidden');
+      }
+    });
+  }
   function setActiveThread(btn){
     threadBtns.forEach(function(b){
       var on = (b === btn);
@@ -202,6 +224,7 @@
     if(btn){
       var ids = (btn.dataset.threadIds || '').split('|').filter(Boolean);
       activeThreadIds = new Set(ids);
+      expandRelatedClusters(activeThreadIds);
     } else {
       activeThreadIds = null;
     }

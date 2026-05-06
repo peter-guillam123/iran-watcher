@@ -212,6 +212,28 @@
   // Clickable threads — each click toggles a "filter to just this thread's
   // events" mode. Clicking the same thread again clears it. Clicking a
   // different thread switches the filter without an extra click.
+  //
+  // When a thread becomes active, automatically expand any broadcast
+  // cluster whose data-child-ids contains an event id from the thread.
+  // The user shouldn't have to click "expand" on each cluster — clicking
+  // a thread is the action of "show me everything related to this".
+  // Clusters stay expanded after the thread is deactivated; the user can
+  // collapse them manually if they want. Same direction-of-action as
+  // every other expand-on-activate UI in the world.
+  function expandRelatedClusters(threadIds){
+    if(!threadIds || threadIds.size === 0) return;
+    document.querySelectorAll('.event.channel-cluster').forEach(function(cluster){
+      var childIds = (cluster.dataset.childIds || '').split('|').filter(Boolean);
+      var match = childIds.some(function(id){ return threadIds.has(id); });
+      if(!match) return;
+      var toggle = cluster.querySelector('.cluster-toggle');
+      var body = cluster.querySelector('.cluster-body');
+      if(toggle && body && toggle.getAttribute('aria-expanded') !== 'true'){
+        toggle.setAttribute('aria-expanded', 'true');
+        body.removeAttribute('hidden');
+      }
+    });
+  }
   function setActiveThread(btn){
     threadBtns.forEach(function(b){
       var on = (b === btn);
@@ -221,6 +243,7 @@
     if(btn){
       var ids = (btn.dataset.threadIds || '').split('|').filter(Boolean);
       activeThreadIds = new Set(ids);
+      expandRelatedClusters(activeThreadIds);
     } else {
       activeThreadIds = null;
     }
