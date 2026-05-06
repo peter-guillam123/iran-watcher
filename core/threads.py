@@ -139,7 +139,14 @@ def synthesise_threads(events: list[dict]) -> dict:
     )
 
     try:
-        client = anthropic.Anthropic()
+        # max_retries lifted from the SDK default of 2 to 5 because the
+        # threads synthesis is the single most important LLM call in the
+        # pipeline (it produces both the day-shape kicker and the threads
+        # block). When the API is briefly overloaded, dropping the entire
+        # synthesis for the day is a heavy editorial cost; an extra
+        # 30-60s of retries is cheap insurance. Overload (529) and rate-
+        # limit (429) errors are retryable by default in the SDK.
+        client = anthropic.Anthropic(max_retries=5)
         response = client.messages.create(
             model=MODEL,
             max_tokens=4000,
