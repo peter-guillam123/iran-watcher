@@ -301,6 +301,79 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   letter-spacing: 0.14em;
 }
 
+/* ----- Edition header (Morning briefing / Evening update) ----------- */
+/* When a date has both a morning and an evening edition rendered on the
+   same page, each section gets a header band so the reader can tell at a
+   glance which briefing they're reading. */
+.edition-header {
+  margin: 32px 0 18px;
+  padding: 14px 0 12px;
+  border-top: 2px solid var(--rule);
+  border-bottom: 1px solid var(--rule-hair);
+  scroll-margin-top: 12px;
+}
+.edition-header:first-of-type {
+  margin-top: 22px;
+}
+.edition-title {
+  margin: 0 0 4px;
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+.edition-meta {
+  font-family: var(--body);
+  font-size: 12px;
+  color: var(--ink-faint);
+  letter-spacing: 0;
+}
+
+/* In-page jump nav at the top when both editions are present.
+   "Jump to: Morning · Evening" — small and quiet, sits above the first
+   edition section. Lets the reader skip directly to the evening update if
+   they've already read the morning. */
+.edition-jump {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin: 14px 0 0;
+  padding: 0;
+  font-family: var(--body);
+}
+.edition-jump-label {
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  font-weight: 700;
+}
+.edition-jump-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(139, 26, 26, 0.06);
+  border: 1px solid rgba(139, 26, 26, 0.22);
+  text-decoration: none;
+  border-radius: 0;
+  letter-spacing: 0.02em;
+  transition: background var(--t-fast);
+}
+.edition-jump-pill:hover {
+  background: rgba(139, 26, 26, 0.14);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .edition-header { margin-top: 24px; }
+  .edition-title { font-size: 19px; }
+  .edition-jump-label { font-size: 9.5px; }
+}
+
 /* ----- Day shape (one-line shape-of-the-day) ------------------------ */
 /* Sits above the threads block. A small uppercase label, then a single
    sentence in body register — the support layer for the threads beneath,

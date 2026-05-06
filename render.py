@@ -667,7 +667,172 @@ def _render_pills(events: list[dict]) -> str:
 
 # Brief body (shared by dated pages and homepage) --------------------------
 
+def _editions_for(date_str: str) -> list[tuple[str, dict]]:
+    """Return the editions available for a date, in display order.
+
+    Possible files for a given date:
+      - data/{date}-morning.json  → morning briefing (24h window)
+      - data/{date}-evening.json  → evening update (since-this-morning window)
+      - data/{date}.json          → legacy single-edition (pre-twice-daily)
+
+    If a legacy single-edition file is present alongside no edition files,
+    we treat it as a single unlabelled briefing. This keeps every existing
+    archive day rendering correctly without a one-shot data migration.
+    """
+    out: list[tuple[str, dict]] = []
+    morning_path = DATA_DIR / f"{date_str}-morning.json"
+    evening_path = DATA_DIR / f"{date_str}-evening.json"
+    legacy_path = DATA_DIR / f"{date_str}.json"
+
+    if morning_path.exists():
+        out.append(("morning", json.loads(morning_path.read_text())))
+    elif legacy_path.exists():
+        out.append(("single", json.loads(legacy_path.read_text())))
+    if evening_path.exists():
+        out.append(("evening", json.loads(evening_path.read_text())))
+    return out
+
+
+def _edition_label(kind: str) -> dict:
+    """Display strings for each edition kind. The day_shape label and the
+    section header are different — the kicker is short and editorial,
+    the section header carries the time stamp."""
+    return {
+        "morning": {
+            "section": "Morning briefing",
+            "shape_label": "Morning shape",
+            "section_id": "morning",
+            "blurb": "Last 24 hours, in by 7am UK.",
+        },
+        "evening": {
+            "section": "Evening update",
+            "shape_label": "Since this morning",
+            "section_id": "evening",
+            "blurb": "What’s developed since the morning briefing.",
+        },
+        "single": {
+            "section": "",  # no header for legacy single-edition pages
+            "shape_label": "Today’s shape",
+            "section_id": "today",
+            "blurb": "",
+        },
+    }.get(kind, {"section": "", "shape_label": "Today’s shape", "section_id": "today", "blurb": ""})
+
+
+def _render_edition_intro(kind: str, payload: dict) -> str:
+    """Section header + day-shape kicker + threads block, no events list."""
+    cfg = _edition_label(kind)
+    events = payload.get("events", [])
+    day_shape_html = _render_day_shape(
+        payload.get("day_shape") or "", len(events), label=cfg["shape_label"]
+    )
+    threads_html = _render_threads(payload.get("threads") or [])
+    generated_at = (payload.get("generated_at") or "")[:16].replace("T", " ")
+
+    if cfg["section"]:
+        header = (
+            f'<header class="edition-header" id="edition-{cfg["section_id"]}">'
+            f'<h2 class="edition-title">{html.escape(cfg["section"])}</h2>'
+            f'<div class="edition-meta">'
+            f'{html.escape(cfg["blurb"])} · '
+            f'{len(events)} item{"s" if len(events) != 1 else ""} · '
+            f'generated {generated_at}Z'
+            f'</div>'
+            f'</header>'
+        )
+    else:
+        header = ""
+
+    return f"{header}{day_shape_html}{threads_html}"
+
+
+def _render_edition_jump_nav(editions: list[tuple[str, dict]]) -> str:
+    """Small pill-style anchor nav at the top when both editions exist."""
+    if len(editions) <= 1:
+        return ""
+    items = []
+    for kind, _ in editions:
+        cfg = _edition_label(kind)
+        if not cfg["section"]:
+            continue
+        items.append(
+            f'<a class="edition-jump-pill" href="#edition-{cfg["section_id"]}">'
+            f'{html.escape(cfg["section"])}'
+            '</a>'
+        )
+    if not items:
+        return ""
+    return (
+        '<nav class="edition-jump" aria-label="Jump to briefing">'
+        '<span class="edition-jump-label">Jump to:</span>'
+        + "".join(items)
+        + '</nav>'
+    )
+
+
+def _multi_edition_body(editions: list[tuple[str, dict]], *, include_diagnostics: bool = True) -> str:
+    """Render a date page with one or more editions stacked at the top, then
+    a single combined events list with a shared filter row at the bottom."""
+    if not editions:
+        return '<p class="empty">No briefing data for this date.</p>'
+
+    # Combined events: union across editions, deduped by id. Later editions
+    # win on collision (preserves freshest figures detection / translation).
+    by_id: dict[str, dict] = {}
+    for _, p in editions:
+        for e in p.get("events", []):
+            by_id[e["id"]] = e
+    combined_events = sorted(
+        by_id.values(),
+        key=lambda e: e.get("published_at") or "",
+        reverse=True,
+    )
+
+    # Edition intros stacked at the top (each with its day-shape + threads).
+    jump_nav = _render_edition_jump_nav(editions)
+    intros = "".join(_render_edition_intro(kind, payload) for kind, payload in editions)
+
+    # ONE combined events section with shared filters. Source pill counts
+    # reflect the deduped union.
+    pills_html = _render_pills(combined_events)
+    items_html = _render_events_with_clusters(combined_events)
+    if not items_html:
+        items_html = '<p class="empty">No items matched the Iran/Middle East filter in this window.</p>'
+
+    diag_html = ""
+    if include_diagnostics:
+        # Show diagnostics from the most recent edition only (or both if
+        # we want — keep simple for now).
+        last_payload = editions[-1][1]
+        rows = []
+        for d in last_payload.get("diagnostics", []):
+            if d.get("ok"):
+                rows.append(
+                    f'<li><code>{html.escape(d["source"])}</code> — '
+                    f'fetched {d["fetched"]}, kept {d["kept"]}</li>'
+                )
+            else:
+                rows.append(
+                    f'<li><code>{html.escape(d["source"])}</code> — '
+                    f'error: {html.escape((d.get("error") or "")[:200])}</li>'
+                )
+        if rows:
+            diag_html = (
+                '<section class="diag" aria-label="Source run diagnostics">'
+                f'<h4>Source run ({_edition_label(editions[-1][0])["section"] or "today"})</h4>'
+                '<ul>' + "".join(rows) + '</ul></section>'
+            )
+
+    return (
+        f"{jump_nav}{intros}"
+        f"{pills_html}<section class=\"events\">{items_html}</section>{diag_html}"
+    )
+
+
 def _brief_body(payload: dict, *, include_diagnostics: bool = True) -> str:
+    """Single-edition rendering — used by historical comparison pages and the
+    "demo last 7 days" pages that don't go through the dated multi-edition
+    flow. Multi-edition dated pages use _multi_edition_body instead."""
     events = payload.get("events", [])
     day_shape_html = _render_day_shape(payload.get("day_shape") or "", len(events))
     threads_html = _render_threads(payload.get("threads") or [])
@@ -894,22 +1059,22 @@ def _truncate_teaser(text: str, max_chars: int = 120) -> str:
     return cut.rstrip(",.;:—–-") + "…"
 
 
-def _render_day_shape(day_shape: str, n_items: int) -> str:
+def _render_day_shape(day_shape: str, n_items: int, label: str = "Today’s shape") -> str:
     """The one-sentence shape-of-the-day line. Sits above the threads block.
 
     The model writes a single concrete sentence describing the most
     consequential developments and noteworthy absences. This is the 5-second
     skim a 7am editor reads before scrolling. We render it with a small
-    sans-caps marker ("TODAY'S SHAPE") and the headline-weight text on its
-    own row so it carries genuine editorial weight without competing with
-    the threads block beneath.
+    sans-caps marker ("TODAY'S SHAPE", "MORNING SHAPE", "SINCE THIS MORNING")
+    and the headline-weight text on its own row so it carries genuine
+    editorial weight without competing with the threads block beneath.
     """
     if not day_shape:
         return ""
     text = html.escape(html.unescape(day_shape))
     return (
         '<section class="day-shape" aria-label="Day shape">'
-        '<span class="day-shape-label">Today’s shape</span>'
+        f'<span class="day-shape-label">{html.escape(label)}</span>'
         f'<p class="day-shape-text">{text}</p>'
         '</section>'
     )
@@ -973,17 +1138,31 @@ def render_day(
     prev_stem: str | None = None,
     next_stem: str | None = None,
 ) -> str:
-    payload = json.loads((DATA_DIR / f"{date_str}.json").read_text())
-    events = payload.get("events", [])
+    editions = _editions_for(date_str)
+    # Combined event count for the page header
+    by_id: dict[str, dict] = {}
+    for _, p in editions:
+        for e in p.get("events", []):
+            by_id[e["id"]] = e
+    n_total = len(by_id)
 
     try:
         pretty_date = datetime.fromisoformat(date_str).strftime("%A %d %B %Y")
     except ValueError:
         pretty_date = date_str.replace("-", " ").title()
 
-    window_since = (payload.get("window_since") or "")[:16].replace("T", " ")
-    window_until = (payload.get("window_until") or "")[:16].replace("T", " ")
-    generated_at = (payload.get("generated_at") or "")[:19].replace("T", " ")
+    # Per-edition counts for the page meta line
+    per_edition_counts = []
+    for kind, payload in editions:
+        n = len(payload.get("events", []))
+        cfg = _edition_label(kind)
+        if cfg["section"]:
+            per_edition_counts.append(
+                f'{html.escape(cfg["section"])} {n}'
+            )
+        else:
+            per_edition_counts.append(f'{n} items')
+    counts_str = " · ".join(per_edition_counts) if per_edition_counts else f"{n_total} items"
 
     prev_link = (
         f'<a class="prev" href="{prev_stem}.html">← {_pretty_short(prev_stem)}</a>'
@@ -997,9 +1176,7 @@ def render_day(
     header = (
         f'<header class="page-header">'
         f'<h1>{html.escape(pretty_date)}</h1>'
-        f'<div class="meta">{len(events)} items · '
-        f'window {window_since}Z to {window_until}Z · '
-        f'generated {generated_at}Z</div>'
+        f'<div class="meta">{counts_str} · {n_total} unique items</div>'
         f'</header>'
     )
 
@@ -1014,7 +1191,7 @@ def render_day(
         f'</nav>'
     )
 
-    body = header + nav_top + _brief_body(payload) + nav_bottom
+    body = header + nav_top + _multi_edition_body(editions) + nav_bottom
 
     return _page(f"Iran watcher · {pretty_date}", body)
 
@@ -1076,30 +1253,50 @@ DEMO_ENTRY = {
 }
 
 
-def render_home(latest_stem: str | None) -> str:
-    """The homepage: most recent brief shown inline, framed as 'Today's report'."""
-    if latest_stem:
-        payload = json.loads((DATA_DIR / f"{latest_stem}.json").read_text())
-        events = payload.get("events", [])
+def render_home(latest_date: str | None) -> str:
+    """The homepage: today's brief shown inline, framed as 'Today's report'.
+    If both morning and evening editions exist, both are shown stacked."""
+    if latest_date:
+        editions = _editions_for(latest_date)
         try:
-            pretty_date = datetime.fromisoformat(latest_stem).strftime("%A %d %B %Y")
+            pretty_date = datetime.fromisoformat(latest_date).strftime("%A %d %B %Y")
         except ValueError:
-            pretty_date = latest_stem
-        generated_at = payload.get("generated_at") or ""
+            pretty_date = latest_date
+
+        # Pick the most recent edition's generated_at for the "last updated" stamp.
+        latest_payload = editions[-1][1] if editions else {}
+        generated_at = latest_payload.get("generated_at") or ""
+
+        # Combined unique count for the meta line, plus per-edition counts.
+        by_id: dict[str, dict] = {}
+        for _, p in editions:
+            for e in p.get("events", []):
+                by_id[e["id"]] = e
+        n_total = len(by_id)
+
+        per_ed = []
+        for kind, p in editions:
+            cfg = _edition_label(kind)
+            n = len(p.get("events", []))
+            if cfg["section"]:
+                per_ed.append(f'{html.escape(cfg["section"])} {n}')
+            else:
+                per_ed.append(f'{n} items')
+        counts_meta = " · ".join(per_ed) if per_ed else f"{n_total} items"
 
         intro = (
             f'<header class="page-header">'
             f'<h1>Today’s report</h1>'
             f'<div class="meta">'
             f'{html.escape(pretty_date)}'
-            f' <span class="dot">·</span> {len(events)} items'
+            f' <span class="dot">·</span> {counts_meta}'
             f' <span class="dot">·</span> last updated '
             f'<time class="last-updated" datetime="{html.escape(generated_at)}" '
             f'data-generated-at="{html.escape(generated_at)}">{html.escape(generated_at[:16].replace("T", " "))}Z</time>'
             f'</div>'
             f'</header>'
         )
-        brief = _brief_body(payload, include_diagnostics=False)
+        brief = _multi_edition_body(editions, include_diagnostics=False)
     else:
         intro = (
             '<header class="page-header">'
@@ -1192,27 +1389,58 @@ def render_comparisons() -> str:
 def main() -> int:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
-    all_stems = [p.stem for p in sorted(DATA_DIR.glob("*.json"))]
-    dated = []
-    for stem in all_stems:
+    # Enumerate every unique date that has at least one edition file.
+    # A date can have data/{date}.json (legacy), data/{date}-morning.json,
+    # data/{date}-evening.json, or any combination. Strip edition suffix
+    # to get the underlying date.
+    all_files = [p.stem for p in sorted(DATA_DIR.glob("*.json"))]
+    date_set: set[str] = set()
+    non_dated_stems: list[str] = []
+    for stem in all_files:
+        # Strip -morning / -evening suffix if present
+        base = stem
+        for suf in ("-morning", "-evening"):
+            if base.endswith(suf):
+                base = base[: -len(suf)]
+                break
         try:
-            datetime.fromisoformat(stem)
-            dated.append(stem)
+            datetime.fromisoformat(base)
+            date_set.add(base)
         except ValueError:
-            continue
+            non_dated_stems.append(stem)
+
+    dated = sorted(date_set)
     prev_of: dict[str, str | None] = {}
     next_of: dict[str, str | None] = {}
-    for i, stem in enumerate(dated):
-        prev_of[stem] = dated[i - 1] if i > 0 else None
-        next_of[stem] = dated[i + 1] if i + 1 < len(dated) else None
+    for i, date in enumerate(dated):
+        prev_of[date] = dated[i - 1] if i > 0 else None
+        next_of[date] = dated[i + 1] if i + 1 < len(dated) else None
 
     days_for_archive: list[tuple[str, int]] = []
-    for stem in reversed(all_stems):
+    for date in reversed(dated):
+        editions = _editions_for(date)
+        # Combined unique events for archive count
+        by_id = {}
+        for _, p in editions:
+            for e in p.get("events", []):
+                by_id[e["id"]] = e
+        count = len(by_id)
+        out = DOCS_DIR / f"{date}.html"
+        out.write_text(render_day(date, prev_of.get(date), next_of.get(date)))
+        days_for_archive.append((date, count))
+        print(f"  wrote {out.name} ({count} items)", file=sys.stderr)
+
+    # Render any non-dated payloads (matched-window comparisons, demo files)
+    # using the legacy single-edition flow.
+    for stem in non_dated_stems:
+        if stem == "translation_cache":
+            continue
         payload = json.loads((DATA_DIR / f"{stem}.json").read_text())
         count = len(payload.get("events", []))
         out = DOCS_DIR / f"{stem}.html"
-        out.write_text(render_day(stem, prev_of.get(stem), next_of.get(stem)))
-        days_for_archive.append((stem, count))
+        # These pages are matched-window views; reuse render_day's frame
+        # but with no prev/next nav since they're outside the daily archive.
+        out.write_text(render_day(stem))
         print(f"  wrote {out.name} ({count} items)", file=sys.stderr)
 
     latest_dated = dated[-1] if dated else None

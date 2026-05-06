@@ -62,10 +62,37 @@ def main(
     window_days: int = 1,
     label: str | None = None,
     until: datetime | None = None,
+    edition: str | None = None,
 ) -> int:
+    """Collect events, run translation + figures + threads passes, write JSON.
+
+    `edition` switches between two daily editions:
+      - "morning"  → 24h window back from `until`. File: data/{date}-morning.json
+      - "evening"  → window starts at today 05:00 UTC ("since the morning
+                     brief"). File: data/{date}-evening.json
+      - None       → legacy single-edition behaviour. File: data/{date}.json
+                     Used by historical comparisons and matched-window runs.
+    """
     until_dt = until or datetime.now(timezone.utc)
-    since = until_dt - timedelta(days=window_days)
-    today = label or until_dt.date().isoformat()
+
+    if edition == "evening":
+        # Evening window starts at 05:00 UTC today — slightly before the
+        # morning run's 05:30 UTC fire time, so we catch any items that
+        # published in the gap. The evening brief is a "since this morning"
+        # delta, not a full 24h re-read.
+        since = until_dt.replace(hour=5, minute=0, second=0, microsecond=0)
+        if since > until_dt:
+            # Edge case: until_dt is before 05:00 UTC (manual run early in
+            # the day). Fall back to morning window so we have something.
+            since = until_dt - timedelta(days=window_days)
+    else:
+        since = until_dt - timedelta(days=window_days)
+
+    date_label = label or until_dt.date().isoformat()
+    if edition in ("morning", "evening"):
+        out_stem = f"{date_label}-{edition}"
+    else:
+        out_stem = date_label
 
     all_events: list[dict] = []
     diagnostics: list[dict] = []
@@ -108,11 +135,12 @@ def main(
     day_shape = synthesis.get("day_shape", "")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = DATA_DIR / f"{today}.json"
+    out_path = DATA_DIR / f"{out_stem}.json"
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "window_since": since.isoformat().replace("+00:00", "Z"),
         "window_until": until_dt.isoformat().replace("+00:00", "Z"),
+        "edition": edition,
         "diagnostics": diagnostics,
         "day_shape": day_shape,
         "threads": threads,
@@ -149,10 +177,14 @@ def _matches(event: dict) -> bool:
 
 
 if __name__ == "__main__":
+    import os
     days = int(sys.argv[1]) if len(sys.argv) > 1 else 1
     label = sys.argv[2] if len(sys.argv) > 2 else None
     until_arg = sys.argv[3] if len(sys.argv) > 3 else None
+    edition_arg = sys.argv[4] if len(sys.argv) > 4 else os.environ.get("EDITION") or None
+    if edition_arg in ("", "none", "None"):
+        edition_arg = None
     until_dt = (
         datetime.fromisoformat(until_arg.replace("Z", "+00:00")) if until_arg else None
     )
-    raise SystemExit(main(days, label, until_dt))
+    raise SystemExit(main(days, label, until_dt, edition_arg))

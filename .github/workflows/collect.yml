@@ -36,10 +36,34 @@ jobs:
       - name: Sync deps
         run: uv sync --frozen
 
+      - name: Determine edition
+        id: edition
+        run: |
+          # Map cron schedule → edition. Morning run writes to
+          # data/{date}-morning.json with a 24h window; evening writes
+          # to data/{date}-evening.json with a "since this morning"
+          # window so the second briefing is a delta, not a full re-read.
+          # workflow_dispatch defaults to morning if before 11:00 UTC
+          # else evening (so manual runs land in the most appropriate
+          # slot).
+          if [ "${{ github.event.schedule }}" = "30 14 * * *" ]; then
+            echo "edition=evening" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 5 * * *" ]; then
+            echo "edition=morning" >> "$GITHUB_OUTPUT"
+          else
+            hour=$(date -u +%H)
+            if [ "$hour" -ge 11 ]; then
+              echo "edition=evening" >> "$GITHUB_OUTPUT"
+            else
+              echo "edition=morning" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
       - name: Collect
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EDITION: ${{ steps.edition.outputs.edition }}
         run: uv run python collect.py 1
 
       - name: Render
