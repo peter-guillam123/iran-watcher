@@ -505,18 +505,31 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   opacity: 0.85;
 }
 
-/* "translated" pill on event summaries -------------------------------- */
-.event .summary .translated {
+/* "Translated · Persian" badge in event head row.
+   Marks any card whose title/summary was auto-translated from a
+   non-English source (currently Telegram regime channels in Persian).
+   Promoted from the end-of-summary position because the title/summary
+   dedup pass was hiding it on most translated cards. Now visible at
+   scan time, regardless of whether the summary survived. */
+.translated-badge {
   display: inline-block;
-  margin-left: 6px;
-  font-family: var(--body); font-size: 9.5px;
-  font-weight: 700; letter-spacing: 0.14em;
+  margin-left: 4px;
+  padding: 1px 7px 2px;
+  font-family: var(--body);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ink-faint);
-  border: 1px solid var(--rule-soft);
-  padding: 1px 6px;
-  vertical-align: 2px;
+  color: var(--accent);
+  background: rgba(139, 26, 26, 0.08);
+  border: 1px solid rgba(139, 26, 26, 0.25);
+  border-radius: 0;
   cursor: help;
+  vertical-align: 1px;
+  white-space: nowrap;
+}
+.translated-badge:hover {
+  background: rgba(139, 26, 26, 0.14);
 }
 
 /* ----- Broadcast layer (clusters) ----------------------------------- */

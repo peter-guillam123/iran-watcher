@@ -425,6 +425,40 @@ def _render_parliament(e: dict) -> str:
 _TRAILING_ELLIPSIS_RE = re.compile(r"[…\.…]+$")
 _WS_RE = re.compile(r"\s+")
 
+# Language code → display name. Used to label "Translated · Persian" badges
+# on cards where Claude translated the title/summary from the original.
+_LANG_NAMES = {
+    "fa": "Persian",
+    "ar": "Arabic",
+    "he": "Hebrew",
+    "ku": "Kurdish",
+    "tr": "Turkish",
+    "ru": "Russian",
+}
+
+
+def _translated_badge_html(event: dict) -> str:
+    """Small badge marking a card as auto-translated, with the source
+    language named. Visible in the head row regardless of whether the
+    summary survived the title/summary dedup pass.
+
+    Returns empty string if the event isn't translated."""
+    if not event.get("title_en"):
+        return ""
+    lang_code = (event.get("details") or {}).get("language") or ""
+    lang_name = _LANG_NAMES.get(lang_code.lower(), "")
+    label = f"Translated · {lang_name}" if lang_name else "Translated"
+    tooltip = (
+        f"Auto-translated from {lang_name} by Claude. "
+        if lang_name
+        else "Auto-translated by Claude. "
+    ) + "Click the headline link for the original."
+    return (
+        f'<span class="translated-badge" title="{html.escape(tooltip)}">'
+        f'{html.escape(label)}'
+        '</span>'
+    )
+
 
 def _normalise_for_compare(s: str) -> str:
     """Lower-case, strip, collapse whitespace, drop trailing ellipsis. Used
@@ -496,12 +530,14 @@ def _render_event(e: dict) -> str:
     detail_html = (
         f'<div class="src-detail">{source_detail}</div>' if source_detail else ""
     )
+    translated_html = _translated_badge_html(e)
     head = (
         f'<div class="head">'
         f'<div class="source-info">'
         f'<div class="src-row">'
         f'<span class="tier-mark t{tier}" aria-hidden="true"></span>'
         f'<span class="src">{source_h}</span>'
+        f'{translated_html}'
         f'</div>'
         f'{detail_html}'
         f'</div>'
@@ -513,11 +549,9 @@ def _render_event(e: dict) -> str:
     if cat.startswith("parliament-"):
         body = _render_parliament(e)
     elif summary:
-        translated_note = (
-            '<span class="translated" title="Auto-translated by Claude — original via the source link">translated</span>'
-            if is_translated else ""
-        )
-        body = f'<p class="summary">{summary} {translated_note}</p>' if translated_note else f'<p class="summary">{summary}</p>'
+        # Translation marker is in the head row now (via translated_html)
+        # so the reader sees it even when the summary is dropped.
+        body = f'<p class="summary">{summary}</p>'
     else:
         body = ""
 
@@ -807,6 +841,7 @@ def _render_broadcast_cluster(
         f'<span class="src">{html.escape(display)}</span>'
         f'<span class="cluster-count">{n} post{"s" if n != 1 else ""}</span>'
         f'{fig_count_html}'
+        f'{_translated_badge_html(latest)}'
         '</div>'
         f'<div class="src-detail">{html.escape(detail)}</div>'
         '</div>'
