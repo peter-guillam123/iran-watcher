@@ -218,6 +218,7 @@
     });
   }
   function setActiveThread(btn){
+    var previouslyInactive = !activeThreadIds;
     threadBtns.forEach(function(b){
       var on = (b === btn);
       b.dataset.active = on ? '1' : '0';
@@ -231,6 +232,20 @@
       activeThreadIds = null;
     }
     applyFilter();
+    // After a thread is ACTIVATED (clicked while not-yet-active or
+    // switched-to), scroll the filter row + events section into view.
+    // Click-to-clear (going from active → inactive) leaves the scroll
+    // position alone — the user is already where they want to be.
+    if(btn){
+      var target = document.querySelector('.filters') || document.querySelector('.events');
+      if(target){
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        target.scrollIntoView({
+          behavior: reduced ? 'auto' : 'smooth',
+          block: 'start',
+        });
+      }
+    }
   }
   threadBtns.forEach(function(btn){
     btn.addEventListener('click', function(){
