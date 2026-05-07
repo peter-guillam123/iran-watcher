@@ -53,6 +53,14 @@
 </header>
 
 <div class="entry milestone">
+  <h2>Three deadline-day fixes <span class="date">7 May 2026 (morning)</span></h2>
+  <p>Morning of 7 May: Dan flagged that the morning brief hadn't landed by 8:42am UK — the deadlines matter to him because his news days are planned around them. Three fixes in one go.</p>
+  <p><strong>(1) Cron reliability.</strong> GitHub Actions schedule is best-effort and can be delayed by 30+ minutes during high load or skipped entirely (which is what happened today). Each edition now has a <em>primary</em> cron (5:30 / 14:30 UTC) and a <em>backup</em> cron 20 minutes later. The workflow checks if today's edition file was written in the last hour and skips the work if so — primary fires on time, backup no-ops; primary skips, backup catches it. Honest limitation: GitHub can still fail BOTH crons in a sustained outage, in which case we'd want an external scheduler hitting <code>workflow_dispatch</code> via the API. Two backup windows reduce the failure rate substantially without that infrastructure.</p>
+  <p><strong>(2) Edition order — evening on top.</strong> Was: morning briefing first, evening update below. Once the evening edition has landed, it's the freshest read — that's what the reader should see first. The "Jump to" pill nav still lets you flip down to the morning briefing whenever you want.</p>
+  <p><strong>(3) Thread click → smooth-scroll to filtered events.</strong> Was: clicking a thread filtered the events list but you still had to scroll past two edition headers, day-shape kickers and threads blocks to reach the actual filtered content. Now the click also smooth-scrolls the filter row + events section to the top of the viewport, so the active filter context (source pills + refine toggles) and the filtered events sit together at the top. Click-to-clear leaves the scroll alone — you're already where you want to be. <code>prefers-reduced-motion</code> respected.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Two editions per day — morning and evening preserved <span class="date">6 May 2026 (afternoon)</span></h2>
   <p>Was: morning run wrote <code>data/{date}.json</code>, evening run overwrote the same file. The morning's threads, day-shape and source mix were lost the moment the afternoon refresh fired. Dan flagged this — he wanted to keep both briefings visible on the same page, not have the morning replaced.</p>
   <p>Now each run writes its own edition file: <code>data/{date}-morning.json</code> and <code>data/{date}-evening.json</code>. The morning briefing is the 24h catch-up read, in by 7am UK. The evening update is "what's developed since this morning" — a delta with a window starting at 05:00 UTC today, in by 4pm UK. Different editorial register, different window shape, both stacked on the same dated page.</p>
