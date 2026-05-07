@@ -2,17 +2,27 @@ name: collect
 
 on:
   schedule:
-    # Twice daily — morning brief by 7am UK, afternoon brief by 4pm UK.
-    # Both runs land on the SAME dated page; the afternoon run regenerates
-    # today's brief with whatever's new since the morning. 30-minute lead
-    # is generous (the run itself is ~2 minutes) but leaves slack for
-    # GitHub Actions queue delays.
+    # Twice daily — morning briefing by 7am UK, evening update by 4pm UK.
+    # Each is a separate edition file (data/{date}-morning.json,
+    # data/{date}-evening.json), neither overwrites the other.
+    #
+    # Critical to Dan's workflow: he plans his news days around these
+    # two deadlines. Missing them costs editorial value.
+    #
+    # GitHub Actions schedule is best-effort — it can be delayed by
+    # 30+ minutes during high load and occasionally skips entirely.
+    # Belt and braces: each edition has a PRIMARY cron and a BACKUP
+    # cron 20 minutes later. The workflow checks if today's edition
+    # is already fresh (written in the last hour) and skips the work
+    # if so. So if the primary fires we get one run; if it skips, the
+    # backup catches it; if both fire, the backup no-ops.
     #
     # 05:30 UTC = 06:30 BST (UK summer) / 05:30 GMT (UK winter, an hour
     # earlier than 06:30 UK because GitHub cron does not follow DST).
-    - cron: "30 5 * * *"
-    # 14:30 UTC = 15:30 BST (UK summer) / 14:30 GMT (UK winter).
-    - cron: "30 14 * * *"
+    - cron: "30 5 * * *"   # morning primary
+    - cron: "50 5 * * *"   # morning backup (20 min after primary)
+    - cron: "30 14 * * *"  # evening primary
+    - cron: "50 14 * * *"  # evening backup
   workflow_dispatch:
 
 permissions:
@@ -39,27 +49,56 @@ jobs:
       - name: Determine edition
         id: edition
         run: |
-          # Map cron schedule → edition. Morning run writes to
-          # data/{date}-morning.json with a 24h window; evening writes
-          # to data/{date}-evening.json with a "since this morning"
-          # window so the second briefing is a delta, not a full re-read.
-          # workflow_dispatch defaults to morning if before 11:00 UTC
-          # else evening (so manual runs land in the most appropriate
-          # slot).
-          if [ "${{ github.event.schedule }}" = "30 14 * * *" ]; then
-            echo "edition=evening" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "30 5 * * *" ]; then
-            echo "edition=morning" >> "$GITHUB_OUTPUT"
-          else
-            hour=$(date -u +%H)
-            if [ "$hour" -ge 11 ]; then
-              echo "edition=evening" >> "$GITHUB_OUTPUT"
-            else
+          # Map cron schedule → edition. Both primary and backup crons
+          # for a slot map to the same edition. workflow_dispatch picks
+          # by current UTC hour (< 11 → morning, else evening).
+          case "${{ github.event.schedule }}" in
+            "30 5 * * *"|"50 5 * * *")
               echo "edition=morning" >> "$GITHUB_OUTPUT"
+              ;;
+            "30 14 * * *"|"50 14 * * *")
+              echo "edition=evening" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              hour=$(date -u +%H)
+              if [ "$hour" -ge 11 ]; then
+                echo "edition=evening" >> "$GITHUB_OUTPUT"
+              else
+                echo "edition=morning" >> "$GITHUB_OUTPUT"
+              fi
+              ;;
+          esac
+
+      - name: Skip if today's edition is already fresh
+        id: skip
+        run: |
+          # If today's edition file was written in the last hour, the
+          # primary cron already fired — the backup should no-op rather
+          # than burn API spend regenerating identical content. We still
+          # let workflow_dispatch override (skip the skip) so a manual
+          # run always actually runs.
+          DATE=$(date -u +%Y-%m-%d)
+          EDITION="${{ steps.edition.outputs.edition }}"
+          FILE="data/${DATE}-${EDITION}.json"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual run — never skip"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ -f "$FILE" ]; then
+            MTIME_EPOCH=$(stat -c %Y "$FILE")
+            NOW=$(date +%s)
+            AGE=$((NOW - MTIME_EPOCH))
+            if [ "$AGE" -lt 3600 ]; then
+              echo "$FILE is ${AGE}s old (< 1h) — primary cron already fired, skipping backup run"
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              exit 0
             fi
           fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
 
       - name: Collect
+        if: steps.skip.outputs.skip != 'true'
         env:
           RELIEFWEB_APPNAME: ${{ secrets.RELIEFWEB_APPNAME }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -67,9 +106,11 @@ jobs:
         run: uv run python collect.py 1
 
       - name: Render
+        if: steps.skip.outputs.skip != 'true'
         run: uv run python render.py
 
       - name: Commit
+        if: steps.skip.outputs.skip != 'true'
         run: |
           git config user.name 'iran-watcher-bot'
           git config user.email 'iran-watcher-bot@users.noreply.github.com'
