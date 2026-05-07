@@ -668,7 +668,10 @@ def _render_pills(events: list[dict]) -> str:
 # Brief body (shared by dated pages and homepage) --------------------------
 
 def _editions_for(date_str: str) -> list[tuple[str, dict]]:
-    """Return the editions available for a date, in display order.
+    """Return the editions available for a date, in DISPLAY order — newest
+    edition first. Once the evening update has landed, the evening section
+    sits above the morning briefing so the freshest read is what the
+    reader sees first when they open the page.
 
     Possible files for a given date:
       - data/{date}-morning.json  → morning briefing (24h window)
@@ -684,12 +687,15 @@ def _editions_for(date_str: str) -> list[tuple[str, dict]]:
     evening_path = DATA_DIR / f"{date_str}-evening.json"
     legacy_path = DATA_DIR / f"{date_str}.json"
 
-    if morning_path.exists():
-        out.append(("morning", json.loads(morning_path.read_text())))
-    elif legacy_path.exists():
-        out.append(("single", json.loads(legacy_path.read_text())))
+    # Evening first if it exists — newest read at the top of the page.
     if evening_path.exists():
         out.append(("evening", json.loads(evening_path.read_text())))
+    if morning_path.exists():
+        out.append(("morning", json.loads(morning_path.read_text())))
+    elif not evening_path.exists() and legacy_path.exists():
+        # Only fall back to legacy single-edition if neither edition file
+        # exists for this date.
+        out.append(("single", json.loads(legacy_path.read_text())))
     return out
 
 
