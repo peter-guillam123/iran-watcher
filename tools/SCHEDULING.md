@@ -71,8 +71,10 @@ fine-grained is preferred — minimum blast radius if leaked.)
 - **Advanced → Request method**: `POST`
 - **Advanced → Request headers**: add two headers
   - `Accept` = `application/vnd.github+json`
-  - `Authorization` = `Bearer ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
-    (replace with the PAT from step 1)
+  - `Authorization` = `Bearer github_pat_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
+    (replace with the PAT from step 1, keeping the full prefix —
+    fine-grained tokens start with `github_pat_`; classic tokens
+    start with `ghp_`; either works, both must be sent in full)
   - `X-GitHub-Api-Version` = `2022-11-28`
   - `User-Agent` = `iran-watcher-cron`
 - **Advanced → Request body**:
