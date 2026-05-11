@@ -31,6 +31,13 @@ on:
     - cron: "15 15 * * *"  # evening backup +45m
     - cron: "45 15 * * *"  # evening backup +1h15m
   workflow_dispatch:
+  # External trigger path. An outside scheduler (cron-job.org) calls
+  # GitHub's POST /repos/.../dispatches with event_type set to one of
+  # these values, and this workflow fires regardless of GH's own
+  # scheduled-cron reliability. The internal schedule above stays as
+  # the primary; this is the parallel safety net.
+  repository_dispatch:
+    types: [morning_brief, evening_brief]
 
 permissions:
   contents: write
@@ -56,9 +63,30 @@ jobs:
       - name: Determine edition
         id: edition
         run: |
-          # Map cron schedule → edition. All primary and backup crons
-          # for a slot map to the same edition. workflow_dispatch picks
-          # by current UTC hour (< 11 → morning, else evening).
+          # Edition resolution order:
+          #   1. repository_dispatch action name (external trigger via
+          #      cron-job.org → POST /dispatches with morning_brief or
+          #      evening_brief). This is the most reliable signal.
+          #   2. Schedule cron expression (internal GH Actions schedule).
+          #      All primary + backup crons for a slot map to the same
+          #      edition.
+          #   3. Fallback: pick by current UTC hour (< 11 → morning,
+          #      else evening). Used by workflow_dispatch.
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            case "${{ github.event.action }}" in
+              morning_brief)
+                echo "edition=morning" >> "$GITHUB_OUTPUT"
+                ;;
+              evening_brief)
+                echo "edition=evening" >> "$GITHUB_OUTPUT"
+                ;;
+              *)
+                echo "Unknown dispatch action: ${{ github.event.action }}" >&2
+                exit 1
+                ;;
+            esac
+            exit 0
+          fi
           case "${{ github.event.schedule }}" in
             "30 5 * * *"|"50 5 * * *"|"15 6 * * *"|"45 6 * * *")
               echo "edition=morning" >> "$GITHUB_OUTPUT"
