@@ -61,6 +61,13 @@
 </div>
 
 <div class="entry milestone">
+  <h2>Cron hardening: four firings per edition <span class="date">11 May 2026</span></h2>
+  <p>This morning both the 05:30 UTC primary cron and the 05:50 UTC backup silently dropped — no run at all until I manually triggered one at 08:15 UTC. Dan plans his news days around the two delivery deadlines (7am and 4pm UK), so a missed morning brief is a real editorial cost, not just a cosmetic one.</p>
+  <p>The fix is more belt-and-braces: each edition now fires FOUR times spread over ~75 minutes, not two over 20 minutes. Morning crons at 05:30, 05:50, 06:15 and 06:45 UTC; evening crons at 14:30, 14:50, 15:15 and 15:45 UTC. The existing "skip if today's edition is already fresh" gate (added with the morning/evening split) means later firings no-op cleanly when an earlier one succeeded — verified working from a real run yesterday that detected the file was 2 seconds old and exited without burning Anthropic API spend. So we get robust delivery without redundant work.</p>
+  <p>GitHub Actions' scheduling is documented as best-effort — runs can be delayed by 30+ minutes during high load and occasionally skip entirely. Two consecutive crons skipping was a more severe failure than I'd planned around. Four firings should mean a ~30+ minute window of GH Actions outage is needed to miss a brief entirely; if that happens often we'll need to move to an external trigger (cron-job.org → repository_dispatch) or a watchdog workflow that escalates.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Two editions per day — morning and evening preserved <span class="date">6 May 2026 (afternoon)</span></h2>
   <p>Was: morning run wrote <code>data/{date}.json</code>, evening run overwrote the same file. The morning's threads, day-shape and source mix were lost the moment the afternoon refresh fired. Dan flagged this — he wanted to keep both briefings visible on the same page, not have the morning replaced.</p>
   <p>Now each run writes its own edition file: <code>data/{date}-morning.json</code> and <code>data/{date}-evening.json</code>. The morning briefing is the 24h catch-up read, in by 7am UK. The evening update is "what's developed since this morning" — a delta with a window starting at 05:00 UTC today, in by 4pm UK. Different editorial register, different window shape, both stacked on the same dated page.</p>

@@ -11,18 +11,25 @@ on:
     #
     # GitHub Actions schedule is best-effort — it can be delayed by
     # 30+ minutes during high load and occasionally skips entirely.
-    # Belt and braces: each edition has a PRIMARY cron and a BACKUP
-    # cron 20 minutes later. The workflow checks if today's edition
-    # is already fresh (written in the last hour) and skips the work
-    # if so. So if the primary fires we get one run; if it skips, the
-    # backup catches it; if both fire, the backup no-ops.
+    # On 2026-05-11 the morning primary AND its 20-min backup BOTH
+    # silently dropped, leaving Dan without a morning brief. So each
+    # edition now has FOUR firings spread over ~75 minutes — primary
+    # plus three backups. The workflow checks if today's edition file
+    # was written in the last hour and skips the work if so, so
+    # extra firings are free when the primary fired on time.
     #
-    # 05:30 UTC = 06:30 BST (UK summer) / 05:30 GMT (UK winter, an hour
-    # earlier than 06:30 UK because GitHub cron does not follow DST).
+    # Morning slot (target: by 7am UK).
+    # 05:30 UTC = 06:30 BST / 05:30 GMT.
     - cron: "30 5 * * *"   # morning primary
-    - cron: "50 5 * * *"   # morning backup (20 min after primary)
+    - cron: "50 5 * * *"   # morning backup +20m
+    - cron: "15 6 * * *"   # morning backup +45m
+    - cron: "45 6 * * *"   # morning backup +1h15m
+    # Evening slot (target: by 4pm UK).
+    # 14:30 UTC = 15:30 BST / 14:30 GMT.
     - cron: "30 14 * * *"  # evening primary
-    - cron: "50 14 * * *"  # evening backup
+    - cron: "50 14 * * *"  # evening backup +20m
+    - cron: "15 15 * * *"  # evening backup +45m
+    - cron: "45 15 * * *"  # evening backup +1h15m
   workflow_dispatch:
 
 permissions:
@@ -49,14 +56,14 @@ jobs:
       - name: Determine edition
         id: edition
         run: |
-          # Map cron schedule → edition. Both primary and backup crons
+          # Map cron schedule → edition. All primary and backup crons
           # for a slot map to the same edition. workflow_dispatch picks
           # by current UTC hour (< 11 → morning, else evening).
           case "${{ github.event.schedule }}" in
-            "30 5 * * *"|"50 5 * * *")
+            "30 5 * * *"|"50 5 * * *"|"15 6 * * *"|"45 6 * * *")
               echo "edition=morning" >> "$GITHUB_OUTPUT"
               ;;
-            "30 14 * * *"|"50 14 * * *")
+            "30 14 * * *"|"50 14 * * *"|"15 15 * * *"|"45 15 * * *")
               echo "edition=evening" >> "$GITHUB_OUTPUT"
               ;;
             *)
