@@ -42,8 +42,9 @@ permissions needed for `repository_dispatch`.
 4. Repository access: **Only select repositories** →
    `peter-guillam123/iran-watcher`
 5. Repository permissions:
-   - **Contents: Read-only** (required so the API recognises the
-     token has repo access)
+   - **Contents: Read and write** (required — the dispatches
+     endpoint is a write operation, even though the workflow
+     doesn't mutate repo contents directly. Read-only returns 403.)
    - **Metadata: Read-only** (auto-granted)
 6. Generate token. Copy it immediately — GitHub only shows it once.
 
