@@ -1,0 +1,1230 @@
+{
+  "generated_at": "2026-05-13T16:39:15.920035Z",
+  "window_since": "2026-05-13T05:00:00Z",
+  "window_until": "2026-05-13T16:37:47.109172Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "ok": false,
+      "error": "Client error '403 Forbidden' for url 'https://www.iaea.org/feeds/news'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 19,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 33,
+      "kept": 33,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 60,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    }
+  ],
+  "day_shape": "47 items: Araghchi lands in New Delhi for BRICS foreign ministers' meeting, White House issues NDAA §1245(d) presidential determination on Iran oil sanctions, Iran executes Ehsan Afrashteh for alleged Mossad espionage, Tehran rejects Kuwaiti accusations, nothing from UK Parliament or OFAC.",
+  "threads": [
+    {
+      "label": "BRICS foreign ministers convene in Delhi",
+      "summary": "Iranian Foreign Minister Araghchi arrived in New Delhi for the BRICS foreign ministers' meeting, with Israeli press framing the gathering as overshadowed by the US-Israeli war on Iran. Jerusalem Post and Times of Israel noted the forum brings Iran and the UAE together and will test the bloc's ability to produce a joint statement.",
+      "event_ids": [
+        "telegram:iribnews/338746",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mlpzxfksi42t",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlpwqurwcs2g"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "US-Iran deal positioning and Gulf alignment",
+      "summary": "The White House issued a Presidential Determination under NDAA §1245(d)(4)(B) and (C) on Iran oil-trade sanctions, while Israeli officials told CNN they fear Trump may strike a \"bad deal\" with Tehran. Iran International reported Tehran is looking to China for guarantees in any future US agreement; IRIB cited Middle East Eye quoting US Ambassador Huckabee telling Gulf states they must choose between Iran and Israel.",
+      "event_ids": [
+        "fedreg:2026-09624",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mlqgw7rvan2t",
+        "iranintl:https://www.iranintl.com/en/202605136577",
+        "telegram:iribnews/338741"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Espionage cases and covert contacts",
+      "summary": "Iran executed Ehsan Afrashteh on accusations of spying for Mossad according to the judiciary's Mizan News, and the Jewish Chronicle reported a suspected IRGC agent offered a Briton £40,000 to kill a London-based journalist. Times of Israel cited reports that Mossad and Shin Bet chiefs secretly visited the UAE during the Iran war.",
+      "event_ids": [
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlpqmbdlwj2g",
+        "iranintl:https://www.iranintl.com/en/202605138421",
+        "iranintl:https://www.iranintl.com/en/202605131032",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlqkjuyiac2k"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran-Kuwait diplomatic row",
+      "summary": "IRIB reported Iran's Foreign Ministry rejected as \"entirely unfounded\" Kuwaiti claims that Tehran was planning hostile measures against Kuwait. Defa Press separately promoted a forthcoming film 'Tigers' dramatising a 1980s Iranian F-5 strike on a US base in Kuwait.",
+      "event_ids": [
+        "telegram:iribnews/338749",
+        "telegram:defapress_ir/58710"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Regime channels amplify Western war-cost coverage",
+      "summary": "Defa Press cited CNN reporting the Pentagon's latest estimate of the war with Iran at $29 billion, up from $25 billion two weeks earlier. IRIB amplified Economist and Financial Times pieces describing food-price shocks in the US, a one-third drop in Saudi oil exports, and Asian countries reverting to coal.",
+      "event_ids": [
+        "telegram:defapress_ir/58716",
+        "telegram:iribnews/338734",
+        "telegram:iribnews/338748",
+        "telegram:iribnews/338737"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/338749",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:33:20Z",
+      "title": "رد ادعای بی اساس کویت در رابطه با ۴ شهروند ایرانی 🔹 وزارت خارجه ایران: ادعاهای مطرح شده در بیانیه‌های وزارت…",
+      "url": "https://t.me/iribnews/338749",
+      "summary": "رد ادعای بی اساس کویت در رابطه با ۴ شهروند ایرانی 🔹 وزارت خارجه ایران: ادعاهای مطرح شده در بیانیه‌های وزارت خارجه و وزارت کشور کویت مبنی بر برنامه ریزی ایران برای انجام اقدامات خصمانه علیه کویت را مطلقا بی‌اساس و مردود می‌دانیم. 🔹 اقدام ناشایست دولت کویت در…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338749"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Refutation of unfounded Kuwaiti allegations regarding 4 Iranian citizens",
+      "summary_en": "Refutation of unfounded Kuwaiti allegations regarding 4 Iranian citizens. Iran's Foreign Ministry: The allegations raised in statements by Kuwait's Foreign Ministry and Interior Ministry concerning Iran's planning of hostile measures against Kuwait are entirely unfounded and rejected. The inappropriate action of Kuwait's government in...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338748",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:30:46Z",
+      "title": "اکونومیست: طولانی شدن بحران ایران می‌تواند آسیب جبران‌ناپذیری به کشورهای حاشیه خلیج‌ [فارس] وارد کند 🔹…",
+      "url": "https://t.me/iribnews/338748",
+      "summary": "اکونومیست: طولانی شدن بحران ایران می‌تواند آسیب جبران‌ناپذیری به کشورهای حاشیه خلیج‌ [فارس] وارد کند 🔹 کشورهای شورای همکاری خلیج‌ [فارس] تاکنون ده‌ها میلیارد دلار برای این مدیریت اين بحران از اقتصاد خود هزینه کرده‌اند، اما با گذشت هفته‌ها و تبدیل شدن این هفته‌ها به ماه‌ها، خطر آسیب‌های بلندمدت افزایش می‌یابد. 🔹 صادرات نفت عربستان از زمان شروع جنگ حدود یک‌سوم کاهش یافته، در حالی که صادرات امارات به نصف رسیده است. بحرین، کویت و قطر نیز تقریباً هیچ صادراتی نداشته‌اند. در دبی هم طبق تخمین‌ها نرخ اشغال هتل‌ها به ۱۰ درصد کاهش یافته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338748"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Economist: Prolongation of Iran crisis could inflict irreparable harm on Persian Gulf littoral states",
+      "summary_en": "The Economist: Prolongation of Iran crisis could inflict irreparable harm on Persian Gulf littoral states. The Gulf Cooperation Council countries have thus far spent tens of billions of dollars from their economies to manage this crisis, but as weeks pass and turn into months, the risk of long-term damage increases. Saudi Arabia's oil exports have declined by approximately one-third since the war began, while Emirates' exports have halved. Bahrain, Kuwait and Qatar have seen virtually no exports. In Dubai, hotel occupancy rates are estimated to have fallen to 10 percent.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58730",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:28:01Z",
+      "title": "💢 امیر ولی‌وند: مردم دغدغه همیشگی شهید امیر سپهبد موسوی بود 🔸 امیر سرتیپ حسین ولی‌وند زمانی، مشاور فرمانده کل…",
+      "url": "https://t.me/defapress_ir/58730",
+      "summary": "💢 امیر ولی‌وند: مردم دغدغه همیشگی شهید امیر سپهبد موسوی بود 🔸 امیر سرتیپ حسین ولی‌وند زمانی، مشاور فرمانده کل ارتش، با اشاره به چیستی جنگی شناختی، اظهار داشت: در گذشته جنگ، جنگ سخت بود و همین موضوع در ذهن عموم جامعه، جا افتاده است. در حال حاضر، اما شیوه جنگ‌ها تغییر کرده و دشمنان می‌کوشند بدون استفاده از سلاح سخت و فیزیکی، به اهداف خود دست یابند، در حقیقت می‌خواهند کاری کنند که با عملیات روانی و اقدامات غیرسخت، اهداف خود را محقق سازند. در این مسیر شایعه سازی کرده، جو روانی ایجاد می‌کنند و بدون شلیک حتی یک گلوله، به اهدافشان دست پیدا می‌کنند. این مسیر در حقیقت جنگ شناختی نام دارد. 🔸 جنگ شناختی ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58730"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Amir Valipanah: The people were the constant concern of the late commander Mousavi",
+      "summary_en": "Amir Valipanah: The people were the constant concern of the late commander Mousavi. Brigadier General Hossein Valipanah, adviser to the Commander-in-Chief of the Armed Forces, whilst referring to cognitive warfare, stated: In the past war, war was difficult and this subject has taken root in the minds of the general public. Currently, however, the method of wars has changed and enemies seek to achieve their objectives without using hard and physical weapons. In fact, they want to achieve their goals through psychological operations and soft measures. They create rumours, establish a psychological atmosphere and achieve their aims without firing a single shot. This method is in fact called cognitive warfare.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338747",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:17:08Z",
+      "title": "#اخبار_کوتاه 🔹 رئیس اتحادیه ملی محصولات کشاورزی: ممنوعیت صادرات فلفل دلمه به روسیه برداشته شده و صادرات این…",
+      "url": "https://t.me/iribnews/338747",
+      "summary": "#اخبار_کوتاه 🔹 رئیس اتحادیه ملی محصولات کشاورزی: ممنوعیت صادرات فلفل دلمه به روسیه برداشته شده و صادرات این محصول از روز شنبه از سر گرفته می‌شود. 🔹 معاون اقتصادی استاندار تهران:  طرح تشدید نظارت بر بازار استان تهران از ۲۳ اردیبهشت با عنوان «انصاف ۲»اجرا می‌شود. 🔹 مدیرکل استاندارد تهران: شهربازی‌های غیراستاندارد تهران تحت رصد قرار می‌گیرند و طرح ویژه بازرسی از اواخر اردیبهشت آغاز می‌شود؛ تجهیزات فاقد مجوز معتبر پلمب خواهند شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338747"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Short news: Union head of agricultural products: Ban on bell pepper exports to Russia lifted and exports of this product resume from Saturday",
+      "summary_en": "Short news. Union head of agricultural products: The ban on bell pepper exports to Russia has been lifted and exports of this product will resume from Saturday. Deputy economic officer of Tehran province governor: The plan to intensify market oversight in Tehran province will be implemented from 23 Ordibehesht under the name 'Justice 2'. General Director of Tehran Standards: Non-standard amusement parks in Tehran will be monitored and a special inspection plan will commence in late Ordibehesht; equipment lacking valid licences will be sealed.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58729",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:08:36Z",
+      "title": "🎥 سردار حسن‌زاده: آمادگی کامل نیرو‌های رزمی برای مقابله با تحرکات دشمن/ همه اهداف رزمایش «قائد شهید» محقق شد…",
+      "url": "https://t.me/defapress_ir/58729",
+      "summary": "🎥 سردار حسن‌زاده: آمادگی کامل نیرو‌های رزمی برای مقابله با تحرکات دشمن/ همه اهداف رزمایش «قائد شهید» محقق شد 🔸 فرمانده سپاه محمد رسول الله (ص) با تأکید بر اینکه رزمایش «قائد شهید» با حضور نیرو‌های واکنش سریع، نیرو‌های ویژه و تکاور سپاه و بسیج انجام شده است،…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58729"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Commander Hasanzadeh: Armed forces fully prepared to counter enemy movements/ all objectives of 'Qaid Shahid' exercise achieved",
+      "summary_en": "Video: Commander Hasanzadeh: Armed forces fully prepared to counter enemy movements/ all objectives of 'Qaid Shahid' exercise achieved. The commander of the Muhammad Rasul Allah Corps, emphasising that the 'Qaid Shahid' exercise was conducted with the participation of rapid response forces, special forces and commando units of the Corps and the Basij...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338746",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:05:01Z",
+      "title": "عراقچی به منظور شرکت در نشست وزرای خارجه کشورهای عضو بریکس وارد دهلی‌نو  شد. @iribnews",
+      "url": "https://t.me/iribnews/338746",
+      "summary": "عراقچی به منظور شرکت در نشست وزرای خارجه کشورهای عضو بریکس وارد دهلی‌نو  شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338746"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Araghchi arrived in New Delhi to participate in the meeting of foreign ministers of BRICS member states",
+      "summary_en": "Araghchi arrived in New Delhi to participate in the meeting of foreign ministers of BRICS member states.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338745",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:03:01Z",
+      "title": "🎦 دیوارنگاره میدان انقلاب با تصویری از ملی‌پوشان فوتبال @iribnews",
+      "url": "https://t.me/iribnews/338745",
+      "summary": "🎦 دیوارنگاره میدان انقلاب با تصویری از ملی‌پوشان فوتبال @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338745"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Wall mural at Revolution Square featuring images of football national team players",
+      "summary_en": "Video: Wall mural at Revolution Square featuring images of football national team players.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338744",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T16:00:12Z",
+      "title": "بلومبرگ: نرخ بیکاری فرانسه برای نخستین بار در پنج سال گذشته به بالای ۸ درصد رسید 🔹 این آمار ضربه سختی به…",
+      "url": "https://t.me/iribnews/338744",
+      "summary": "بلومبرگ: نرخ بیکاری فرانسه برای نخستین بار در پنج سال گذشته به بالای ۸ درصد رسید 🔹 این آمار ضربه سختی به وعده‌های دولت برای درباره اشتغال وارد کرده و نشان‌دهنده رکود در بازار کار دومین اقتصاد بزرگ اروپاست. 🔹 کاهش تقاضای مصرف‌کننده و نرخ بهره بالا باعث شده تا شرکت‌ها از استخدام نیروهای جدید خودداری کنند و روند اخراج‌ها در بخش‌های صنعتی افزایش یابد. 🔹 گزارش مرکز آمار فرانسه حاکی از آن است که نرخ بیکاری در میان جوانان کمتر از  ۲۵ سال با سرعت بیشتری رشد کرده و به مرز ۱۸ درصد نزدیک شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338744"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bloomberg: France's unemployment rate reached above 8 percent for the first time in five years",
+      "summary_en": "Bloomberg: France's unemployment rate reached above 8 percent for the first time in five years. This figure dealt a severe blow to government promises regarding employment and is indicative of a slowdown in the labour market of Europe's second-largest economy. Reduced consumer demand and high interest rates have caused companies to refrain from hiring new staff and layoffs in industrial sectors have increased. According to a French statistics office report, unemployment among young people under 25 has grown at a faster rate and approached 18 percent.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338743",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:51:21Z",
+      "title": "جاسوسی صهیونیست‌ها از کاربران استارلینک 🔹 یک تحقیق هاآرتص نشان می‌دهد دو شرکت صهیونیستی با توسعه فناوری…",
+      "url": "https://t.me/iribnews/338743",
+      "summary": "جاسوسی صهیونیست‌ها از کاربران استارلینک 🔹 یک تحقیق هاآرتص نشان می‌دهد دو شرکت صهیونیستی با توسعه فناوری توانسته‌اند موقعیت مکانی کاربران استارلینک و در برخی موارد اطلاعات کاربران آنها را شناسایی کنند. 🔹 این شرکت‌ها مکان پایانه‌های استارلینک را در سراسر جهان نقشه‌برداری می‌کنند و مکان کسانی را که از طریق این دستگاه‌ها به اینترنت متصل می‌شوند، افشا می‌کنند. 🔹 به نوشته هاآرتص، این شرکت‌ها می‌توانند دستگاه‌های ارتباط ماهواره‌ای را پیدا کرده، تعداد دستگاه‌های متصل به هر ایستگاه پایه را رصد و کاربران را از طریق شماره تلفن همراه یا حساب‌های رسانه‌های اجتماعی مرتبط آنها شناسایی کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338743"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Surveillance of Starlink users by the Zionist regime",
+      "summary_en": "Surveillance of Starlink users by the Zionist regime. A Haaretz investigation shows that two Israeli companies, through developing technology, have been able to identify the location of Starlink users and in some cases their user information. These companies map the location of Starlink terminals worldwide and disclose the locations of those connecting to the internet through these devices. According to Haaretz, these companies can locate satellite communication devices, monitor the number of devices connected to each base station and identify users through their mobile phone numbers or associated social media accounts.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605136577",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-13T15:46:33Z",
+      "title": "Iran looks to China for guarantees in future US deal",
+      "url": "https://www.iranintl.com/en/202605136577",
+      "summary": "Iran is increasingly looking to China not just as an economic partner, but as the only major power capable of offering credible guarantees in both the Persian Gulf and any future agreement between Tehran and Washington.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338742",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:37:02Z",
+      "title": "مدیرکل آموزش و پرورش شهرستان‌های استان تهران: ارزشیابی نهایی حضوری برای دانش‌آموزان دبستان منتفی است 🔹 نمره…",
+      "url": "https://t.me/iribnews/338742",
+      "summary": "مدیرکل آموزش و پرورش شهرستان‌های استان تهران: ارزشیابی نهایی حضوری برای دانش‌آموزان دبستان منتفی است 🔹 نمره نهایی بر اساس عملکرد مستمر کلاسی توسط معلم و تأیید مدیر مدرسه اعلام می‌شود. 🔹 برای پایه‌های هفتم، هشتم، نهم و دهم، کارگروه تخصصی روز شنبه تشکیل شده و تصمیم نهایی متعاقباً اعلام می‌گردد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338742"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Director General of Education in Tehran province towns: Final on-site assessment is cancelled for primary school students",
+      "summary_en": "Director General of Education in Tehran province towns: Final on-site assessment is cancelled for primary school students. Final grades will be announced based on continuous classroom performance by the teacher and confirmed by the school principal. For grades 7, 8, 9 and 10, a specialised working group met on Saturday and a final decision will be announced accordingly.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58721",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:35:13Z",
+      "title": "📸 گزارش تصویری/ رونمایی از خودروهای کتابخانه سیار dnws.ir/003Ux8 @Defapress_ir",
+      "url": "https://t.me/defapress_ir/58721",
+      "summary": "📸 گزارش تصویری/ رونمایی از خودروهای کتابخانه سیار dnws.ir/003Ux8 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58721"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photo report: Unveiling of mobile library vehicles",
+      "summary_en": "Photo report: Unveiling of mobile library vehicles.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338741",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:30:57Z",
+      "title": "سفیر آمریکا در سرزمین‌های اشغالی خطاب به کشورهای خلیج فارس: باید بین ایران و اسرائیل یکی را انتخاب کنید میدل…",
+      "url": "https://t.me/iribnews/338741",
+      "summary": "سفیر آمریکا در سرزمین‌های اشغالی خطاب به کشورهای خلیج فارس: باید بین ایران و اسرائیل یکی را انتخاب کنید میدل ایست آی نوشته است: 🔹️ مایک هاکبی (سفیر آمریکا در اسرائیل) به کشورهای عرب حاشیه خلیج فارس هشدار داد که باید میان اتحاد با ایران یا همکاری راهبردی با اسرائیل و آمریکا یکی را انتخاب کنند. 🔹️ به گفته هاکبی، آمریکا به کشورهایی که همچنان به دنبال نزدیکی دیپلماتیک با ایران هستند، امتیازات نظامی یا اقتصادی سابق را نخواهد داد. 🔹 این سخنان نشان‌دهنده تغییر جهت جدی در سیاست خارجی آمریکا و اجبار متحدان سنتی به همسویی کامل با راهبردهای تل‌آویو است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338741"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "US Ambassador to occupied territories tells Persian Gulf states: You must choose between Iran and Israel",
+      "summary_en": "US Ambassador to occupied territories tells Persian Gulf states: You must choose between Iran and Israel. Middle East Eye reported: Mike Huckabee (US Ambassador to Israel) warned Arab states bordering the Persian Gulf that they must choose between aligning with Iran or pursuing strategic cooperation with Israel and the United States. According to Huckabee, the US will not grant former military or economic benefits to countries that continue to seek diplomatic proximity with Iran. These statements demonstrate a serious shift in US foreign policy and pressure on traditional allies to fully align with Tel Aviv's strategies.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338740",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:25:21Z",
+      "title": "پزشکیان در بازدید از اردوی تیم ملی فوتبال: 🔹 تیم ملی فوتبال، نماینده غرور، وحدت و اراده ملت ایران است. 🔹 با…",
+      "url": "https://t.me/iribnews/338740",
+      "summary": "پزشکیان در بازدید از اردوی تیم ملی فوتبال: 🔹 تیم ملی فوتبال، نماینده غرور، وحدت و اراده ملت ایران است. 🔹 با تمام توان برای سربلندی ایران در میدان حاضر شوید. 🔹 ملت ایران از فرزندان پرتلاش خود حمایت خواهد کرد. 🔹 ایرانِ متحد و سربلند، بزرگ‌ترین سرمایه ملت ماست.…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338740"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian during visit to national football team camp:",
+      "summary_en": "Pezeshkian during visit to national football team camp: The national football team is the representative of the pride, unity and will of the Iranian people. With all your strength take to the field for Iran's glory. The Iranian people will support your hardworking sons. A united and proud Iran is our nation's greatest asset...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58720",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:22:23Z",
+      "title": "💢 پزشکیان: تیم ملی فوتبال نماینده غرور، وحدت و اراده ملت ایران است 🔸 رئیس جمهور با حضور در کمپ تیم‌های ملی…",
+      "url": "https://t.me/defapress_ir/58720",
+      "summary": "💢 پزشکیان: تیم ملی فوتبال نماینده غرور، وحدت و اراده ملت ایران است 🔸 رئیس جمهور با حضور در کمپ تیم‌های ملی فوتبال گفت: آنچه برای ما اهمیت دارد، مجاهدت صادقانه، تلاش مسئولانه و به‌کارگیری همه ظرفیت‌ها برای سربلندی ایران عزیز است. 🔸 نتیجه، محصول اراده، تدبیر، تلاش و البته مشیت الهی خواهد بود؛ اما آنچه ملت ایران از فرزندان خود انتظار دارد، ایستادن شرافتمندانه و جنگیدن با همه توان در میدان رقابت است. 🔸 در تمام مقاطع زندگی، آنچه انسان را از دشواری‌ها عبور می‌دهد، امید، تلاش بی‌وقفه و اتکال به خداوند متعال است. امروز نیز در مسئولیت خطیر ریاست‌جمهوری، نه در پی نام و جایگاه، بلکه صرفاً با هدف خدمت به ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58720"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: National football team represents the pride, unity and will of the Iranian people",
+      "summary_en": "Pezeshkian: National football team represents the pride, unity and will of the Iranian people. The President, whilst visiting the national football team camp, said: What matters to us is sincere struggle, responsible effort and employing all capacities for Iran's glory. The result will be the product of will, prudence, effort and of course divine will; however, what the Iranian people expect of their sons is an honourable stance and fighting with all strength on the field of competition. At all stages of life, what sustains a person through difficulties is hope, unceasing effort and reliance on Almighty God. Today too, in the grave responsibility of the presidency, I am not seeking name and position, but solely with the aim of serving...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338739",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:09:45Z",
+      "title": "همتی: تأمین ارز دارو بدون مشکل ادامه دارد 🔹 رئیس‌ بانک مرکزی: بانک مرکزی با همکاری شبکه بانکی و دستگاه‌های…",
+      "url": "https://t.me/iribnews/338739",
+      "summary": "همتی: تأمین ارز دارو بدون مشکل ادامه دارد 🔹 رئیس‌ بانک مرکزی: بانک مرکزی با همکاری شبکه بانکی و دستگاه‌های مرتبط، حمایت از صنعت دارو و تسهیل تأمین مالی این بخش را با جدیت دنبال می‌کند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338739"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hemati: Provision of foreign currency for medicines continues without difficulty",
+      "summary_en": "Hemati: Provision of foreign currency for medicines continues without difficulty. Central Bank Governor: The Central Bank, in cooperation with the banking network and relevant bodies, is seriously pursuing support for the pharmaceutical industry and facilitating financial provision for this sector.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338738",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:07:16Z",
+      "title": "🎦 ایستادگی بر سر یک عهد که به هفتاد و سومین شب رسیده است 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/338738",
+      "summary": "🎦 ایستادگی بر سر یک عهد که به هفتاد و سومین شب رسیده است 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338738"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Standing firm on a covenant that has reached its seventy-third night",
+      "summary_en": "Video: Standing firm on a covenant that has reached its seventy-third night.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58718",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:06:18Z",
+      "title": "سقوط جت آموزشی فراصوت نیروی هوایی آمریکا یک فروند هواپیمای T-38C Talon نیروی هوایی آمریکا در غرب آلاباما سقوط…",
+      "url": "https://t.me/defapress_ir/58718",
+      "summary": "سقوط جت آموزشی فراصوت نیروی هوایی آمریکا یک فروند هواپیمای T-38C Talon نیروی هوایی آمریکا در غرب آلاباما سقوط کرد. هر دو خلبان با موفقیت با استفاده از صندلی نجات از هواپیما خارج شدند. علت این حادثه در حال حاضر مشخص نیست و توسط هیئت تحقیقات ایمنی بررسی خواهد شد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58718"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Crash of US Air Force supersonic training jet: A T-38C Talon aircraft of the US Air Force crashed in western Alabama. Both pilots successfully ejected using ejection seats. The cause of the incident is currently unknown and will be investigated by the Safety Investigation Board.",
+      "summary_en": "Crash of US Air Force supersonic training jet: A T-38C Talon aircraft of the US Air Force crashed in western Alabama. Both pilots successfully ejected using ejection seats. The cause of the incident is currently unknown and will be investigated by the Safety Investigation Board.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338737",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T15:02:23Z",
+      "title": "جنگ با ایران، دنیا را به عصر زغال‌سنگ برگرداند روزنامه انگلیسی فایننشال تایمز در گزارشی آورده است: 🔹 اختلال…",
+      "url": "https://t.me/iribnews/338737",
+      "summary": "جنگ با ایران، دنیا را به عصر زغال‌سنگ برگرداند روزنامه انگلیسی فایننشال تایمز در گزارشی آورده است: 🔹 اختلال در عرضه سوخت باعث شده بسیاری از کشورها به‌ویژه در آسیا، به استفاده از زغال‌سنگ روی بیاورند تا جایی که در ماه‌های اخیر، زغال‌سنگ به بزرگ‌ترین محموله از نظر حجم برای کشتی‌های متوسط تبدیل شده است. 🔹 این روند نشان می‌دهد که در شرایط اختلال انرژی، برخی کشورها در حال بازگشت به استفاده از سوخت‌هایی مانند زغال‌سنگ هستند؛ زیرا دسترسی به نفت و گاز دشوارتر یا پرهزینه‌تر شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338737"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "War with Iran would return the world to the coal age: The British Financial Times newspaper reported: Supply disruptions have caused many countries, particularly in Asia, to turn to coal use to the point that in recent months coal has become the largest shipment by volume for medium-sized vessels.",
+      "summary_en": "War with Iran would return the world to the coal age. The British Financial Times newspaper reported: Supply disruptions have caused many countries, particularly in Asia, to turn to coal use to the point that in recent months coal has become the largest shipment by volume for medium-sized vessels. This trend shows that in conditions of energy disruption, some countries are reverting to the use of fuels such as coal; because access to oil and gas has become more difficult or expensive.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlqkjuyiac2k",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-13T14:52:07.733978Z",
+      "title": "Reports: Mossad, Shin Bet chiefs secretly visited UAE during Iran war",
+      "url": "https://www.timesofisrael.com/reports-mossad-shin-bet-chiefs-each-secretly-visited-uae-during-iran-war/",
+      "summary": "Reports: Mossad, Shin Bet chiefs secretly visited UAE during Iran war",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338736",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:49:27Z",
+      "title": "پزشکیان در بازدید از اردوی تیم ملی فوتبال: 🔹 تیم ملی فوتبال، نماینده غرور، وحدت و اراده ملت ایران است. 🔹 با…",
+      "url": "https://t.me/iribnews/338736",
+      "summary": "پزشکیان در بازدید از اردوی تیم ملی فوتبال: 🔹 تیم ملی فوتبال، نماینده غرور، وحدت و اراده ملت ایران است. 🔹 با تمام توان برای سربلندی ایران در میدان حاضر شوید. 🔹 ملت ایران از فرزندان پرتلاش خود حمایت خواهد کرد. 🔹 ایرانِ متحد و سربلند، بزرگ‌ترین سرمایه ملت ماست. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338736"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian during visit to national football team camp: The national football team is the representative of the pride, unity and will of the Iranian people",
+      "summary_en": "Pezeshkian during visit to national football team camp: The national football team is the representative of the pride, unity and will of the Iranian people. With all your strength take to the field for Iran's glory. The Iranian people will support your hardworking sons. A united and proud Iran is our nation's greatest asset.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338735",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:36:01Z",
+      "title": "🔺 صرفه‌جویی روزانه ۲۰ میلیون لیتری بنزین با همراهی مردم کرامت ویس‌کرمی، مدیرعامل شرکت ملی پخش فرآورده‌های…",
+      "url": "https://t.me/iribnews/338735",
+      "summary": "🔺 صرفه‌جویی روزانه ۲۰ میلیون لیتری بنزین با همراهی مردم کرامت ویس‌کرمی، مدیرعامل شرکت ملی پخش فرآورده‌های نفتی ایران: 🔹 اگر هر خانوار در کشور روزانه تنها یک لیتر مصرف بنزین خود را کاهش دهد، با در نظر گرفتن حدود ۲۰ میلیون خانوار، روزانه حدود ۲۰ میلیون لیتر از مصرف بنزین صرفه‌جویی می‌شود 🔹 هم‌اکنون نگرانی در خصوص تأمین پایدار سوخت کشور وجود ندارد، اما لازم است به مدیریت مصرف توجه داشت کاهش یک‌ونیم میلیارد لیتری مصرف نفت‌گاز در ۱۴۰۴ 🔹 با مدیریت مصرف در بخش‌های مختلف، سال گذشته یک‌ونیم میلیارد لیتر در مصرف نفت‌گاز صرفه‌جویی شد که منجر به صفر شدن واردات و یک میلیارد دلار صرفه‌جویی ارزی شد. 🔹 ظرفیت ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338735"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Daily fuel savings of 20 million litres with public participation: National Oil Products Distribution Company CEO: If every household in the country reduces its daily petrol consumption by just one litre, given approximately 20 million households, approximately 20 million litres of petrol will be saved daily.",
+      "summary_en": "Daily fuel savings of 20 million litres with public participation. National Oil Products Distribution Company CEO Karamati Vis-Karami: If every household in the country reduces its daily petrol consumption by just one litre, given approximately 20 million households, approximately 20 million litres of petrol will be saved daily. There are currently no concerns regarding sustainable fuel supply to the country, but consumption management must be prioritised. 1.5 billion litres reduction in oil and gas consumption in 1404. Through consumption management across different sectors, last year 1.5 billion litres were saved in oil and gas consumption, which resulted in zero imports and 1 billion dollars in foreign exchange savings.",
+      "has_figures": true,
+      "figures_examples": [
+        "20 million",
+        "1.5 billion",
+        "1 billion"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/338734",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:34:21Z",
+      "title": "اکونومیست: آمریکا با شوک جدیدی در قیمت مواد غذایی روبه‌رو شده است 🔹 در حال حاضر، بیشترین فشار ناشی از جنگ…",
+      "url": "https://t.me/iribnews/338734",
+      "summary": "اکونومیست: آمریکا با شوک جدیدی در قیمت مواد غذایی روبه‌رو شده است 🔹 در حال حاضر، بیشترین فشار ناشی از جنگ ایران بر قیمت مواد غذایی آمریکا در دو مرحله بسته‌بندی و حمل‌ونقل زنجیره تأمین دیده می‌شود. 🔹 بخش زیادی از بسته‌بندی مواد غذایی از پلاستیک است که خود از نفت تولید می‌گردد. مواد اولیه پتروشیمی اکنون حدود ۴۰٪ گران‌تر شده‌اند. 🔹 همچنین ۸۰ تا ۹۰ درصد از محصولات غذایی آمریکا با کامیون جابه‌جا می‌شوند. با افزایش قیمت سوخت، رساندن غذا به قفسه فروشگاه‌ها به‌طور قابل‌توجهی گران‌تر شده و این روند همچنان ادامه خواهد داشت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338734"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Economist: America faces a new food price shock",
+      "summary_en": "The Economist: America faces a new food price shock. Currently, the greatest pressure from the Iran war on US food prices is seen in two stages of food packaging and transport in the supply chain. A large portion of food packaging is plastic, which itself is produced from oil. Petrochemical raw materials have now become approximately 40 percent more expensive. Additionally, 80 to 90 percent of American food products are transported by truck. With rising fuel prices, getting food to shop shelves has become significantly more expensive and this process will continue.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58717",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:34:04Z",
+      "title": "پورجمشیدیان: دنبال پوشش بیمه‌ای برای زوار اربعین هستیم رئیس ستاد مرکزی اربعین گفت: دنبال پوشش بیمه‌ای برای…",
+      "url": "https://t.me/defapress_ir/58717",
+      "summary": "پورجمشیدیان: دنبال پوشش بیمه‌ای برای زوار اربعین هستیم رئیس ستاد مرکزی اربعین گفت: دنبال پوشش بیمه‌ای برای همه زوار اربعین هستیم تا هرکس ثبت‌نام می‌کند، همزمان تحت پوشش بیمه قرار بگیرد. بیش از یک میلیون نفر از مردم عراق برای حضور در مراسم تشییع پیکر مطهر و نورانی رهبر شهید و قائد شهید امت اسلامی ابراز علاقه و ثبت‌نام کردند. بخش‌های زیادی از مردم و دولت عراق و عتبات عالیات در کشور تقاضا دارند که پیکر مطهر رهبر شهید انقلاب در کشور عراق هم تشییع شود. این موارد پیام‌های رضایت‌بخش و امیدوارکننده‌ای برای وحدت امت اسلامی است. ستاد مرکزی اربعین هم برای آنچه مسئولان تصمیم بگیرند، آمادگی دارد. dnws.ir/0",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58717"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pourjamshidian: We are pursuing health insurance coverage for Arbaeen pilgrims",
+      "summary_en": "Pourjamshidian: We are pursuing health insurance coverage for Arbaeen pilgrims. The head of the Central Arbaeen Headquarters said: We are pursuing health insurance coverage for all Arbaeen pilgrims so that whoever registers is simultaneously covered by insurance. Over one million people from Iraq expressed interest and registered to attend the funeral procession of the Pure and Luminous body of the Leader, the slain Qaid of the Islamic nation. Many sections of the Iraqi people and government and the holy shrines in the country have requested that the pure body of the slain leader of the revolution also be carried in procession in Iraq. These matters convey satisfactory and encouraging messages for Islamic unity. The Central Arbaeen Headquarters is also prepared for whatever decision officials make.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338733",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:27:01Z",
+      "title": "🎦 هلاکت نظامی صهیونیست در حمله پهپادی حزب‌الله @iribnews",
+      "url": "https://t.me/iribnews/338733",
+      "summary": "🎦 هلاکت نظامی صهیونیست در حمله پهپادی حزب‌الله @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338733"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Death of a Zionist soldier in Hezbollah drone attack",
+      "summary_en": "Video: Death of a Zionist soldier in Hezbollah drone attack.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338732",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:25:11Z",
+      "title": "🔺 نانوایی‌های متخلف پلمب می‌شوند معاون اقتصادی استانداری تهران: 🔹 از این پس هر واحدی که به طور مکرر مرتکب…",
+      "url": "https://t.me/iribnews/338732",
+      "summary": "🔺 نانوایی‌های متخلف پلمب می‌شوند معاون اقتصادی استانداری تهران: 🔹 از این پس هر واحدی که به طور مکرر مرتکب تخلف شود پلمب خواهد شد. 🔹 تا زمانی که نانوایی جایگزین واحد پلمب شده شود، نانوایی سیار در آن محدوده مستقر خواهد شد. 🔹 سهمیه آرد آن واحد نیز در اختیار سایر نانوایی‌های دولتی آن محدوده قرار خواهد گرفت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338732"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Non-compliant bakeries to be sealed: Deputy Economic Officer of Tehran Province Governor:",
+      "summary_en": "Non-compliant bakeries to be sealed. Deputy Economic Officer of Tehran Province Governor: From now on any unit that repeatedly commits violations will be sealed. Until a replacement bakery is established for the sealed unit, a mobile bakery will be stationed in that area. The flour quota of that unit will also be placed at the disposal of other state bakeries in that area.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338731",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:20:10Z",
+      "title": "🔺 رئیس کل دادگستری بوشهر: ۹۰ هزار لیتر گازوئیل قاچاق در بندر ریگ کشف شد رئیس کل دادگستری استان بوشهر: 🔹 در…",
+      "url": "https://t.me/iribnews/338731",
+      "summary": "🔺 رئیس کل دادگستری بوشهر: ۹۰ هزار لیتر گازوئیل قاچاق در بندر ریگ کشف شد رئیس کل دادگستری استان بوشهر: 🔹 در راستای مقابله با قاچاق سوخت و صیانت از منابع ملی، با صدور دستور قضایی و اقدام مشترک نیرو‌های خدوم دریابانی و فراجا، مقدار ۹۰ هزار لیتر گازوئیل قاچاق کشف شد. 🔹 این عملیات در پی رصد و پایش دقیق در بندر ریگ انجام شد و نیرو‌های عملیاتی موفق شدند این محموله سوخت قاچاق را توقیف کنند. 🔹 پرونده قضایی در این خصوص تشکیل شده و اقدامات لازم برای شناسایی و برخورد با عوامل مرتبط در دست پیگیری است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338731"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Chief Prosecutor of Bushehr province: 90,000 litres of smuggled diesel discovered at Rig Port",
+      "summary_en": "Chief Prosecutor of Bushehr province: 90,000 litres of smuggled diesel discovered at Rig Port. Chief Prosecutor of Bushehr province: In pursuit of combating fuel smuggling and protecting national resources, through issuing judicial orders and coordinated action by naval and FRAJA forces, 90,000 litres of smuggled diesel were discovered. This operation was carried out following precise monitoring and surveillance at Rig Port and operational forces succeeded in seizing this shipment of smuggled fuel. A legal file has been opened in this regard and necessary measures to identify and deal with those involved are being pursued.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/338730",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T14:15:01Z",
+      "title": "🔺 صدور قبض برق تا سقف ۶۰ هزار تومان در ماه برای مشترکان خوش مصرف مصطفی رجبی مشهدی معاون برق و انرژی وزارت…",
+      "url": "https://t.me/iribnews/338730",
+      "summary": "🔺 صدور قبض برق تا سقف ۶۰ هزار تومان در ماه برای مشترکان خوش مصرف مصطفی رجبی مشهدی معاون برق و انرژی وزارت نیرو: 🔹 برای کسانی که مصرف برقشان زیر الگو است حدود ماهیانه ۶۰ هزار تومان محاسبه می‌شود و برای کسانی که بیش از الگو مصرف می‌کنند به صورت پلکانی و افزایشی خواهد بود. 🔹 همچنین بر اساس مصوبه سازمان امور استخدامی ساعات کاری ادارات از روز شنبه از ۷ صبح تا ۱۳ می‌باشد بنابراین انتظار می‌رود تمامی همکاران از ساعت ۱۲ سیستم‌های سرمایشی خود را به منظور صرفه جویی و مدیریت انرژی خاموش کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/338730"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Issuing electricity bills capped at 60,000 tomans per month for good consumers",
+      "summary_en": "Issuing electricity bills capped at 60,000 tomans per month for good consumers. Mostafa Rajabi Mashhadi, Deputy Minister of Power and Energy: For those whose electricity consumption is below the standard approximately 60,000 tomans monthly is calculated and for those consuming above standard it will be tiered and incremental. Additionally, based on the Administrative Affairs Organisation decision, office working hours from Saturday are from 7 am to 1 pm, therefore all colleagues are expected to switch off their cooling systems from 12 o'clock onwards for the purpose of conservation and energy management.",
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4211886",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-05-13T14:03:11+00:00",
+      "title": "Iran (Islamic Republic of) - Emergency Fact Sheet (April 2026)",
+      "url": "https://reliefweb.int/node/4211886",
+      "summary": "Iran hosts 1.65 million refugees and others in need of international protection, the majority Afghans, many of whom, alongside host communities, face significant protection risks and humanitarian needs amid the ongoing crisis. Cross-border movements from Iran remain limited, but the risk of escalation and larger-scale refugee outflows continues.",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "1.65 million"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mlqhpjtvy62n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-13T14:01:35.098000Z",
+      "title": "After being stranded for over two months, the Chinese supertanker Yuan Hua Hu sailed through the Strait of Hormuz, carrying 2 million…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-896072",
+      "summary": "After being stranded for over two months, the Chinese supertanker Yuan Hua Hu sailed through the Strait of Hormuz, carrying 2 million barrels of Iraqi crude. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "2 million"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/58716",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T13:59:55Z",
+      "title": "سی‌ان‌ان: هزینه نهایی جنگ علیه ایران یک تریلیون دلار است رسانه آمریکایی در گزارشی نوشت: پنتاگون در آخرین…",
+      "url": "https://t.me/defapress_ir/58716",
+      "summary": "سی‌ان‌ان: هزینه نهایی جنگ علیه ایران یک تریلیون دلار است رسانه آمریکایی در گزارشی نوشت: پنتاگون در آخرین برآورد خود اعلام کرد که جنگ با ایران تاکنون ۲۹ میلیارد دلار برای آمریکا هزینه داشته است. برآورد جدید از برآورد ۲۵ میلیارد دلاری پنتاگون که دو هفته پیش به کنگره ارائه شده بود، بیشتر است. سی‌ان‌ان، برآورد‌های غیررسمی خارج از دولت آمریکا را بسیار بالاتر از این برآورد‌های دولتی عنوان کرد و نوشت: یک کارشناس مدرسه حکمرانی کندی دانشگاه هاروارد در ماه آوریل گفته بود این درگیری ممکن است در نهایت یک تریلیون دلار برای مالیات‌دهندگان آمریکایی هزینه داشته باشد. dnws.ir/003UwV @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58716"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "CNN: The final cost of war against Iran is one trillion dollars",
+      "summary_en": "CNN: The final cost of war against Iran is one trillion dollars. The American media reported: The Pentagon in its latest estimate announced that the war with Iran has cost America 29 billion dollars to date. The new estimate exceeds the Pentagon's 25 billion dollar estimate presented to Congress two weeks ago. CNN cited unofficial estimates outside the US government as being much higher than these official government estimates and wrote: A scholar at the Kennedy School of Governance at Harvard University said in April that this conflict could ultimately cost American taxpayers one trillion dollars.",
+      "has_figures": true,
+      "figures_examples": [
+        "29 billion",
+        "25 billion"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605135976",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-13T13:55:14Z",
+      "title": "How one Tehran hospital became a window into Iran’s January massacre",
+      "url": "https://www.iranintl.com/en/202605135976",
+      "summary": "Alghadir hospital in east Tehran is one of the places where the January massacre could be seen in full: a five-body morgue overflowing, blood on the floors, and families searching through blankets and body covers for the people they loved.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605132363",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-13T13:54:29Z",
+      "title": "Cambridge probes Iran scholar over alleged fabricated interviews",
+      "url": "https://www.iranintl.com/en/202605132363",
+      "summary": "A University of Arkansas Iranian-American professor fired from her tenured position in late March is now facing investigations in Britain over allegations of academic misconduct tied to her research on Iran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mlqgw7rvan2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-13T13:47:25.552000Z",
+      "title": "Israel is concerned that US President Donald Trump may reach a \"bad deal\" with Iran, and is trying to influence negotiations to address key…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-896066",
+      "summary": "Israel is concerned that US President Donald Trump may reach a \"bad deal\" with Iran, and is trying to influence negotiations to address key issues, Israeli officials told CNN.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58715",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T13:34:02Z",
+      "title": "مراسم بزرگداشت چهلمین روز شهادت سردار فتحعلی‌زاده برگزار شد مراسم بزرگداشت چهلمین روز شهادت مجاهد خستگی…",
+      "url": "https://t.me/defapress_ir/58715",
+      "summary": "مراسم بزرگداشت چهلمین روز شهادت سردار فتحعلی‌زاده برگزار شد مراسم بزرگداشت چهلمین روز شهادت مجاهد خستگی ناپذیر، اسطوره عملیات نیرو‌های مسلح، سردار سرتیپ پاسدار شهید حاج «محمدعلی فتحعلی‌زاده» فرمانده یگان ویژه فاتحین در مسجد پیامبر اعظم صل‌الله علیه‌وآله شهرک شهید محلاتی برگزار شد. جمعی از فرماندهان و مسئولین نیروی زمینی سپاه، پیشکسوتان و همرزمان این شهید در این مراسم حضور داشتند. dnws.ir/003Uwk @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58715"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commemorative ceremony held for fortieth day of martyrdom of Commander Fathalilizadeh",
+      "summary_en": "Commemorative ceremony held for fortieth day of martyrdom of Commander Fathalilizadeh. The commemorative ceremony for the fortieth day of martyrdom of the indefatigable mujahid, legend of armed forces operations, Commander Major General Haj Mohammad Ali Fathalilizadeh, commander of the Fatiheen special unit was held at the Prophet's Mosque in Shahid Moallati township. A number of commanders and officials of the IRGC Ground Forces, veterans and comrades of this martyr attended the ceremony.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58714",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T13:12:21Z",
+      "title": "💢 شیخ نعیم قاسم: قدردان حمایت خالصانه ایران از مقاومت هستیم 🔸 دبیرکل حزب الله لبنان در پیامی به آیت‌الله…",
+      "url": "https://t.me/defapress_ir/58714",
+      "summary": "💢 شیخ نعیم قاسم: قدردان حمایت خالصانه ایران از مقاومت هستیم 🔸 دبیرکل حزب الله لبنان در پیامی به آیت‌الله اعرافی، مدیر حوزه‌های علمیه ایران: ما در لبنان با دشمنی وحشی و متجاوز اسرائیلی روبه‌رو هستیم که با پشتوانه کامل آمریکا و سکوت جهانی، به دنبال اشغال، گسترش و سلب اراده ملت‌های منطقه است؛ اما تاریخ مقاومت درس عبرت است. 🔸 علی‌رغم شهادت سید حسن نصرالله و ده‌ها فرمانده و مجاهد گرانقدر، و علی‌رغم ویرانی‌ها، دشمن جز ناامیدی، عقب‌نشینی و شکست چیزی به دست نخواهد آورد. 🔸 ما قدردان حمایت خالصانه و مستمر جمهوری اسلامی ایران از ابتدا تا امروز هستیم. 🔸 حمایتی که از دستور امام خمینی (ره) آغاز شد و تحت هدا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58714"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sheikh Naim Qassem: We are grateful for Iran's sincere support for the resistance",
+      "summary_en": "Sheikh Naim Qassem: We are grateful for Iran's sincere support for the resistance. The Secretary-General of Hezbollah in a message to Ayatollah Arafi, director of Iran's seminaries: We in Lebanon face a savage and aggressive Israeli enemy who, with full American backing and global silence, seeks occupation, expansion and the removal of the will of the peoples of the region; however, the history of resistance is a lesson. Despite the martyrdom of Sayed Hassan Nasrallah and dozens of precious commanders and mujahideen, and despite the destruction, the enemy will gain nothing but despair, withdrawal and defeat. We are grateful for the sincere and continuous support of the Islamic Republic of Iran from the beginning until today. Support that began with the order of Imam Khomeini and continues under the guidance...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58712",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T12:26:01Z",
+      "title": "💢 علاقه لهستان به هواپیمای هشدار زودهنگام آمریکا 🔸 با توجه به تنش‌های امنیتی شرق اروپا، لهستان در تلاش است با…",
+      "url": "https://t.me/defapress_ir/58712",
+      "summary": "💢 علاقه لهستان به هواپیمای هشدار زودهنگام آمریکا 🔸 با توجه به تنش‌های امنیتی شرق اروپا، لهستان در تلاش است با بازسازی گسترده سامانه دفاع هوایی، بازدارندگی خود را در مقابل جنگ احتمالی پیش رو تقویت کند. 🔸 لهستان که در سال ۲۰۲۴ دو فروند هواپیمای هشدار زودهنگام و کنترل هوایی موسوم به «اری‌آی» را وارد خدمت کرد، حالا به‌دنبال جایگزینی آنها با سامانه‌ای پیشرفته‌تر است. 🔸 لهستان در حال بازسازی گسترده ساختار دفاع هوایی خود است و با توجه به تنش‌های امنیتی شرق اروپا، تلاش می‌کند سامانه‌هایی را انتخاب کند که هم در میدان نبرد مدرن کارآمد باشند و هم با تجهیزات پیشرفته ناتو، به‌ویژه اف-۳۵، هماهنگی کامل داشته",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58712"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Poland's interest in US early warning aircraft",
+      "summary_en": "Poland's interest in US early warning aircraft. Given Eastern European security tensions, Poland is seeking to strengthen its deterrence against potential forthcoming war through extensive overhaul of its air defence system. Poland, which commissioned two early warning and air control aircraft known as 'AWACS' in 2024, is now looking to replace them with a more advanced system. Poland is extensively restructuring its air defence architecture and given Eastern European security tensions is seeking to select systems that are both effective on the modern battlefield and fully compatible with advanced NATO equipment, particularly the F-35.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58711",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T12:15:14Z",
+      "title": "💢 ۱۰ کتابخانه سیار به کتاب‌خانه‌های عمومی کشور اضافه شدند 🔸 آیین بهره‌برداری از ۱۰ دستگاه خودروی کتابخانه…",
+      "url": "https://t.me/defapress_ir/58711",
+      "summary": "💢 ۱۰ کتابخانه سیار به کتاب‌خانه‌های عمومی کشور اضافه شدند 🔸 آیین بهره‌برداری از ۱۰ دستگاه خودروی کتابخانه عمومی سیار در آستانه روز پاسداشت زبان پارسی و بزرگداشت حکیم ابوالقاسم فردوسی برگزار شد. 🔸 سید عباس صالحی، وزیر فرهنگ در حاشیه مراسم رونمایی از ۱۰ کتابخانه سیار و در جمع خبرنگاران گفت: یکی از آرمان‌ها و دغدغه‌های مهم انقلاب اسلامی، تحقق عدالت بوده است. خوشبختانه در حوزه‌های مختلف، مسیر عدالت تا حد قابل توجهی پیش رفته است. 🔸 به نظر می‌رسد نظامی که آرمانش عدالت بوده، در بسیاری از بخش‌ها موفق عمل کرده، اما در حوزه عدالت فرهنگی همچنان با فاصله‌ای نسبت به این آرمان مواجه هستیم. هنوز بخش‌هایی از ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58711"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "10 mobile libraries added to public libraries of the country",
+      "summary_en": "10 mobile libraries added to public libraries of the country. The commissioning ceremony of 10 mobile public library vehicles was held on the eve of Persian Language Day and the commemoration of Hakeem Abolghasem Firdawsi. Seyyed Abbas Salihi, Minister of Culture, at the margins of the unveiling ceremony of 10 mobile libraries and among journalists said: One of the ideals and important concerns of the Islamic Revolution has been the realisation of justice. Fortunately, in various fields, the path of justice has progressed considerably. It appears that a system whose ideal has been justice has acted successfully in many areas, but in the realm of cultural justice we still face a distance from this ideal. There are still sections of...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58710",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T12:01:01Z",
+      "title": "💢 فیلم سینمایی «ببرها» روایت حمله دو فروند اف ۵ نهاجا به پایگاه آمریکایی ساخته می‌شود 🔸 فیلم سینمایی «ببرها»…",
+      "url": "https://t.me/defapress_ir/58710",
+      "summary": "💢 فیلم سینمایی «ببرها» روایت حمله دو فروند اف ۵ نهاجا به پایگاه آمریکایی ساخته می‌شود 🔸 فیلم سینمایی «ببرها» روایت حمله تاریخی و حماسی دو فروند «شکاری تایگر اف ۵» نیروی هوایی ارتش به پایگاه آمریکایی بوهرینگ در کشور کویت در روز دوم جنگ تحمیلى سوم، به نویسندگی «مهدی یزدانی‌خُرم» و تهیه کنندگی «حبیب والی‌نژاد» تولید خواهد شد. 🔸 نوشتن این اثر سینمایی بعد از اتمامِ دوره تحقیق و پژوهش، آغاز شده‌است. 🔸 جزئیات بیشتر از «ببرها» که با حمایت مستقیم ارتش و به‌ویژه نیروی هوایی تولید خواهدشد، به‌زودى منتشر می‌شود. dnws.ir/003UwI @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58710"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Cinema film 'Tigers' to be made depicting attack of two F-5 aircraft of Navy Air Force on American base",
+      "summary_en": "Cinema film 'Tigers' to be made depicting attack of two F-5 aircraft of Navy Air Force on American base. The cinema film 'Tigers' depicting the historic and epic attack of two 'Sharkati Tiger F-5' fighter aircraft of the Army Air Force on the American Boehring base in Kuwait on the second day of the Third Imposed War will be produced, written by Mahdi Yazdani-khurram and produced by Habib Valinjad. Writing of this cinema work has commenced following completion of research and study periods. Further details about 'Tigers', which will be produced with direct support from the Army and particularly the Air Force, will be released soon.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/58709",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-05-13T11:43:57Z",
+      "title": "♨️ بسته خبری استان‌ها 💢 آیت‌الله علم‌الهدی: اگر اسلام و انقلاب اولویت باشد شهادت رقم می‌خورد dnws.ir/003Uw3 💢…",
+      "url": "https://t.me/defapress_ir/58709",
+      "summary": "♨️ بسته خبری استان‌ها 💢 آیت‌الله علم‌الهدی: اگر اسلام و انقلاب اولویت باشد شهادت رقم می‌خورد dnws.ir/003Uw3 💢 زلزله در درون؛ چگونه «ما» طوفان را تغییر دادیم dnws.ir/003Usz 💢 پیروزی غرورآفرین در عملیات بیت المقدس جلوه‌ای از ایمان، ایثار و مجاهدت ملت ایران بود dnws.ir/003Uw1 💢 وحدت قدرتی فراتر از توان موشکی می‌آفریند dnws.ir/003Uvh 💢 فیلم/ انزجار کودکان و نوجوانان جویباری از نتانیاهو و ترامپ dnws.ir/003Uto 💢 شهید تنگسیری؛ فرمانده‌ای جهادی و ولایت‌مدار dnws.ir/003UvI 💢 تصاویر/ هفتاد و دومین شب از حضور مردم خراسان‌شمالی در خونخواهی شهادت قائد امت اسلامی dnws.ir/003Uv4 💢 دیدار سرهنگ کاظمی با خانواد",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/58709"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Regional news package",
+      "summary_en": "Regional news package. Ayatollah Alamolhoda: If Islam and the Revolution are prioritised, martyrdom is written. Earthquake within; how 'we' changed the storm. Glorious victory in Operation Al-Quds was a reflection of the faith, sacrifice and struggle of the Iranian people. Unity creates a power beyond missile capacity. Film/ Children and teenagers' abhorrence of Netanyahu and Trump. Martyr Tangsiri; a jihadi and principled commander. Photos: Seventy-second night of the presence of Khorasan Shomali people mourning the martyrdom of the leader of the Islamic nation. Meeting of Colonel Kazemi with the family...",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mlpzxfksi42t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-05-13T09:55:26.807000Z",
+      "title": "The US-Israeli war on Iran is set to cast a shadow over a two-day meeting of the foreign ministers of the BRICS grouping that kicks off in…",
+      "url": "https://www.jpost.com/international/article-896033",
+      "summary": "The US-Israeli war on Iran is set to cast a shadow over a two-day meeting of the foreign ministers of the BRICS grouping that kicks off in New Delhi on Thursday, testing the bloc's ability to reach a unified position and produce a joint statement.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlpwqurwcs2g",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-13T08:58:07.524068Z",
+      "title": "War overshadows BRICS forum bringing together Iran and UAE in India",
+      "url": "https://www.timesofisrael.com/war-overshadows-brics-forum-bringing-together-iran-and-uae-in-india/",
+      "summary": "War overshadows BRICS forum bringing together Iran and UAE in India",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605131032",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-13T08:18:20Z",
+      "title": "Suspected IRGC agent offered Briton money to target journalist - Jewish Chronicle",
+      "url": "https://www.iranintl.com/en/202605131032",
+      "summary": "A British-Iranian man said a suspected Iran-linked agent offered him £40,000 ($53,000) to kill a London-based journalist critical of Tehran, the Jewish Chronicle reported.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "£40,000",
+        "$53,000"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mlpqmbdlwj2g",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-05-13T07:08:10.501290Z",
+      "title": "Iran executes man accused of spying on behalf of Israel’s Mossad",
+      "url": "https://www.timesofisrael.com/iran-executes-man-accused-of-spying-on-behalf-of-israels-mossad/",
+      "summary": "Iran executes man accused of spying on behalf of Israel’s Mossad",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202605138421",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-05-13T05:12:52Z",
+      "title": "Iran executes man over accusations of spying for Israel",
+      "url": "https://www.iranintl.com/en/202605138421",
+      "summary": "Iran executed Ehsan Afrashteh on Wednesday on accusations of espionage and intelligence cooperation with Israel, the judiciary’s Mizan News reported.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-09624",
+      "source": "US Federal Register",
+      "source_detail": "White House — Presidential Document",
+      "source_tier": 1,
+      "category": "executive-order",
+      "published_at": "2026-05-13T00:00:00Z",
+      "title": "Presidential Determination Pursuant to Section 1245(d)(4)(B) and (C) of the National Defense Authorization Act for Fiscal Year 2012",
+      "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09624/presidential-determination-pursuant-to-section-1245d4b-and-c-of-the-national-defense-authorization",
+      "summary": "",
+      "details": {
+        "document_type": "Presidential Document",
+        "agencies": "Executive Office of the President",
+        "document_number": "2026-09624"
+      },
+      "tags": [
+        "executive-order"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-09503",
+      "source": "US Federal Register",
+      "source_detail": "Homeland Security Department",
+      "source_tier": 1,
+      "category": "agency-rule",
+      "published_at": "2026-05-13T00:00:00Z",
+      "title": "Notification of the Revocation of Facility Exemptions From the Port Security Advisory",
+      "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09503/notification-of-the-revocation-of-facility-exemptions-from-the-port-security-advisory",
+      "summary": "The U.S. Coast Guard announces that it is revoking port facility exemptions from the Port Security Advisory for Equatorial Guinea.",
+      "details": {
+        "document_type": "Notice",
+        "agencies": "Homeland Security Department, Coast Guard",
+        "document_number": "2026-09503"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    }
+  ]
+}
