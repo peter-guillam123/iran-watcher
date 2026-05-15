@@ -61,6 +61,14 @@
 </div>
 
 <div class="entry milestone">
+  <h2>Tanker Trackers added · maritime-OSINT gap (mostly) closed <span class="date">15 May 2026</span></h2>
+  <p>The 14 May ISW comparison identified maritime-OSINT as the most obvious v2 gap — vessel-name-specific reporting like the <em>Hui Chuan</em> seizure and Indian-livestock-carrier sinking that ISW pulled from Windward AI and Lloyd's List subscription wires. Lloyd's List Intelligence is £15k+/year enterprise pricing; Windward AI is B2B sanctions-screening at undisclosed-but-similar tiers. Not realistic.</p>
+  <p>Free workaround: <strong>Tanker Trackers via Bluesky</strong>. The private maritime OSINT team ISW <em>themselves</em> cite in footnotes as "Tanker Trackers" runs an active Bluesky account at <code>@tankertrackers.com</code> with the same content they put on X. Their editorial register is exactly what we want — visual-evidence-only, deliberately neutral on official claims. Wired in as a third Bluesky account, tier 2, no API key needed (free AT Protocol read API).</p>
+  <p>Backfill smoke test on last fortnight: 7 raw posts, 4 Iran-relevant kept after the local filter. The kept items include "Iran Oil Tanker Likely Beat US Blockade", a 25-tanker April export tally, and the LPG-blockade-evasion story. Exactly the vessel-level intel the 14 May comparison flagged as missing.</p>
+  <p>What we still don't reach: UKMTO incident advisories (their entire <code>ukmto.org</code> domain is WAF-403-blocked, PDFs included — only realistic path would be a headless browser, not worth the complexity), and the broader Lloyd's List + Windward analyst-grade tracking. But for the Iran-oil specific lane, Tanker Trackers is structurally the right add.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Cron hardening: four firings per edition <span class="date">11 May 2026</span></h2>
   <p>This morning both the 05:30 UTC primary cron and the 05:50 UTC backup silently dropped — no run at all until I manually triggered one at 08:15 UTC. Dan plans his news days around the two delivery deadlines (7am and 4pm UK), so a missed morning brief is a real editorial cost, not just a cosmetic one.</p>
   <p>The fix is more belt-and-braces: each edition now fires FOUR times spread over ~75 minutes, not two over 20 minutes. Morning crons at 05:30, 05:50, 06:15 and 06:45 UTC; evening crons at 14:30, 14:50, 15:15 and 15:45 UTC. The existing "skip if today's edition is already fresh" gate (added with the morning/evening split) means later firings no-op cleanly when an earlier one succeeded — verified working from a real run yesterday that detected the file was 2 seconds old and exited without burning Anthropic API spend. So we get robust delivery without redundant work.</p>

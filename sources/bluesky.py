@@ -44,6 +44,18 @@ ACCOUNTS = [
         "source_detail": "The Jerusalem Post · Bluesky",
         "category": "jpost-bsky",
     },
+    {
+        # Private maritime OSINT outfit, the actual source ISW cites in
+        # footnotes as "Tanker Trackers" for vessel-level Iran-oil
+        # tracking. Editorial register: visual-evidence-only, methodically
+        # neutral on official claims from either side. The closest free
+        # equivalent to Lloyd's List / Windward AI vessel intel we can
+        # plug into this stack.
+        "handle": "tankertrackers.com",
+        "source": "Tanker Trackers",
+        "source_detail": "Tanker Trackers · Bluesky",
+        "category": "tankertrackers-bsky",
+    },
 ]
 
 URL_RE = re.compile(r"https?://\S+")

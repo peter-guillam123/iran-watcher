@@ -32,6 +32,7 @@ SOURCE_ORDER = [
     "ReliefWeb",
     "Times of Israel",
     "Jerusalem Post",
+    "Tanker Trackers",
     "Iran International",
     "Regime channels",
 ]
