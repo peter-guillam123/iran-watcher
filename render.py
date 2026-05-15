@@ -1221,6 +1221,19 @@ def render_day(
 
 COMPARISONS = [
     {
+        "href": "compare-isw-2026-05-14.html",
+        "title": "14 May 2026 · Hormuz special, with UK Parliament back",
+        "blurb": (
+            "218 matched items against ISW's narrow Hormuz special report. "
+            "We have the 27-nation UK MoD joint statement as a direct gov.uk "
+            "document, IRIB crowing about Japan's permitted transit (which "
+            "corroborates ISW's \"friendly-states exemption\" thesis from the "
+            "regime side), the Araghchi-at-BRICS cycle and 10 UK Parliament "
+            "Q&amp;As. ISW retains the named maritime incidents and the "
+            "cumulative vessel figures from Windward AI / Lloyd's List."
+        ),
+    },
+    {
         "href": "compare-isw-2026-05-01.html",
         "title": "1 May 2026 · sharpest case yet",
         "blurb": (
