@@ -27,6 +27,8 @@ SOURCE_ORDER = [
     "US Federal Register",
     "CENTCOM",
     "IDF",
+    "Avichay Adraee",
+    "Manni Fabian",
     "UN Press",
     "IAEA",
     "ReliefWeb",
@@ -909,7 +911,11 @@ def _render_events_with_clusters(events: list[dict]) -> str:
     # Bluesky and X-via-rss.app handles we treat as broadcast clusters
     # rather than inline cards. Bluesky is excluded — Times of Israel and
     # Jerusalem Post are newspapers, not broadcasts.
-    MILITARY_SOURCES = {"IDF", "CENTCOM"}
+    # Official-body military broadcast sources — get clustered into the
+    # "Military spokes" sub-block of the broadcast layer. Manni Fabian is
+    # tier 2 too but a JOURNALIST, not an official spokesperson — he stays
+    # inline in the document zone alongside the Israeli press.
+    MILITARY_SOURCES = {"IDF", "CENTCOM", "Avichay Adraee"}
 
     document_events: list[dict] = []
     military: dict[str, list[dict]] = {}        # source -> events

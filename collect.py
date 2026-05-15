@@ -52,7 +52,7 @@ ADAPTERS = [
     ("gov_uk",           gov_uk.fetch,           True),   # department feeds, filter locally
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
     ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
-    ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF + CENTCOM via rss.app — official military broadcasts during a live Iran/Hezbollah war, curated by definition. Local filter dropped IDF strike posts that said "southern Lebanon" without naming Hezbollah.
+    ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF / CENTCOM / Avichay Adraee / Manni Fabian via rss.app — official military broadcasts and the named ToI military correspondent ISW cites. Curated by definition during a live Iran/Hezbollah war. Local filter previously dropped IDF strike posts mentioning "southern Lebanon" without naming Hezbollah, so we skip it.
     ("bluesky",          bluesky.fetch,          True),   # Times of Israel + Jerusalem Post via Bluesky — global English news feeds, filter locally for Iran-relevance
     ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
 ]

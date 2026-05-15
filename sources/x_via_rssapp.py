@@ -1,23 +1,28 @@
-"""IDF and CENTCOM via X, surfaced through rss.app.
+"""Iran-beat X accounts surfaced through rss.app.
 
 X (Twitter) doesn't expose a usable public scraping path any more, but
-rss.app's free tier wraps any public X account in a JSON Feed for two
-URLs per account. Chris set those up; the URLs below are the result.
+rss.app wraps any public X account in a JSON Feed. Chris set the feeds
+up on his rss.app account; the URLs below are the result.
 
-Editorially these are the same provenance band as the US State Department
-or UK gov.uk Atom — official-body broadcasts — so they sit at tier 2.
-The content is partial in the same way every press-spox feed is partial
-(the IDF will say its strikes succeeded; CENTCOM will say its blockade
-is working) and the source-line makes the X-via-rss.app delivery mechanism
-visible so the reader knows what they're reading.
+Current accounts:
+  - @IDF             — Israel Defense Forces (English)        official-body
+  - @CENTCOM         — US Central Command                     official-body
+  - @AvichayAdraee   — IDF Arabic spokesperson (Arabic)       official-body
+  - @manniefabian    — Times of Israel military correspondent journalist
 
-Closes most of the tactical-military gap to ISW. ISW's 1 May report
-cited "40+ Hezbollah infrastructure sites dismantled" and "45 commercial
-vessels redirected" — both are now in our feed.
+Editorially the four official-body accounts (IDF / CENTCOM / Adraee)
+sit in the same provenance band as the US State Department or UK
+gov.uk Atom — tier 2 broadcast layer. Manni Fabian is tier 2 too but
+sits in the document zone (he's a journalist, not a spokesperson, and
+the renderer treats the broadcast clustering as official-body only).
 
-Free-tier risk: rss.app may throttle, paywall or rate-limit. The adapter
-fails gracefully on any non-200 (one feed's failure doesn't take down
-the other) and the diagnostics block records it.
+Arabic items (Adraee) get details.language = "ar" so the translation
+pass picks them up and produces English title_en / summary_en. The
+"Translated · Arabic" badge surfaces this on the rendered card.
+
+Free-tier risk: rss.app may throttle, paywall or rate-limit. The
+adapter fails gracefully on any non-200 (one feed's failure doesn't
+take down the others) and the diagnostics block records it.
 """
 
 from datetime import datetime, timezone
@@ -35,6 +40,7 @@ FEEDS = [
         "source": "IDF",
         "source_detail": "Israel Defense Forces · X (via rss.app)",
         "category": "idf-x",
+        "language": None,  # English
     },
     {
         "url": "https://rss.app/feeds/v1.1/gaCZVDmivtEgTH6P.json",
@@ -42,6 +48,32 @@ FEEDS = [
         "source": "CENTCOM",
         "source_detail": "U.S. Central Command · X (via rss.app)",
         "category": "centcom-x",
+        "language": None,  # English
+    },
+    {
+        # IDF Arabic spokesperson — the IDF's voice to the Arab world.
+        # Often more operationally specific than the English account,
+        # frequently ahead on strike confirmations and evacuation
+        # warnings to Lebanese / Syrian / Gazan civilians. Arabic text;
+        # the translation pass picks it up because language = "ar".
+        "url": "https://rss.app/feeds/v1.1/xSmJQT3k8F2k3jKo.json",
+        "handle": "@AvichayAdraee",
+        "source": "Avichay Adraee",
+        "source_detail": "IDF Arabic spokesperson · X (via rss.app)",
+        "category": "idf-arabic-x",
+        "language": "ar",
+    },
+    {
+        # Times of Israel's military correspondent. The specific
+        # reporter ISW cites in footnotes for IDF strike counts and
+        # named-commander operations. Has a Bluesky account that's
+        # dormant since July 2025 — lives on X.
+        "url": "https://rss.app/feeds/v1.1/iQSgdrj6tT64Hlig.json",
+        "handle": "@manniefabian",
+        "source": "Manni Fabian",
+        "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+        "category": "manniefabian-x",
+        "language": None,  # English
     },
 ]
 
@@ -82,6 +114,21 @@ def _fetch_one(cfg: dict, since: datetime) -> list[dict]:
         if not title or title == text[:len(title)]:
             title = _short_title(text)
 
+        details = {"handle": cfg["handle"]}
+        if cfg.get("language"):
+            details["language"] = cfg["language"]
+
+        # Journalist accounts (Manni Fabian) are tier 2 but editorially
+        # different from official-body broadcasts (IDF / CENTCOM /
+        # Adraee). The tags drive whether they end up in the military-
+        # spokes broadcast cluster on the rendered page.
+        is_official_body = cfg["category"] != "manniefabian-x"
+        tags = ["x-twitter"]
+        if is_official_body:
+            tags += ["official-body", "claim"]
+        else:
+            tags += ["journalist"]
+
         out.append({
             "id": f"x_via_rssapp:{item_id}",
             "source": cfg["source"],
@@ -92,8 +139,8 @@ def _fetch_one(cfg: dict, since: datetime) -> list[dict]:
             "title": title,
             "url": url,
             "summary": text[:600],
-            "details": {"handle": cfg["handle"]},
-            "tags": ["x-twitter", "official-body", "claim"],
+            "details": details,
+            "tags": tags,
         })
     return out
 

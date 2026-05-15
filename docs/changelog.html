@@ -61,6 +61,15 @@
 </div>
 
 <div class="entry milestone">
+  <h2>Two new X feeds: Manni Fabian and Avichay Adraee <span class="date">15 May 2026 (late afternoon)</span></h2>
+  <p>Chris upgraded his rss.app account, which lifts the two-feeds-per-account free-tier cap. Two new X feeds added — each filling a distinct named gap.</p>
+  <p><strong>@manniefabian</strong> — Times of Israel's military correspondent. The specific journalist ISW cites in footnotes for IDF strike counts, named-commander operations, drone-attack tallies. He has a Bluesky account but it's been dormant since July 2025; he lives on X. Surfaced at tier 2 in the document zone alongside the ToI / JPost / Iran International coverage — he's a journalist, not an official spokesperson, so he doesn't go in the broadcast cluster zone.</p>
+  <p><strong>@AvichayAdraee</strong> — the IDF's Arabic-language spokesperson. Speaks to the Arab world specifically, often with evacuation warnings to Lebanese, Syrian, or Gazan civilians and strike confirmations ahead of the English IDF account. Arabic content; the existing translation pass picks it up automatically (the adapter now sets <code>details.language = "ar"</code> on rss.app feeds so the translator fires on Arabic items). Surfaced at tier 2 in the broadcast layer's "Military spokes" sub-block alongside IDF and CENTCOM — same provenance band, different audience.</p>
+  <p>Backfill smoke test on last 3 days: IDF 2, CENTCOM 0 (quiet day), Adraee 9, Fabian 25. Volume manageable, on-beat by definition during active war.</p>
+  <p>The adapter generalised slightly to support per-feed configuration: each feed now carries a <code>language</code> field (None = English / "ar" / "fa" / "he") that flows into <code>details.language</code> and through to the translation trigger. Tags also differentiate journalist-tier accounts from official-body broadcasts so the renderer correctly bins them into the document zone vs the broadcast cluster zone.</p>
+</div>
+
+<div class="entry milestone">
   <h2>Tanker Trackers added · maritime-OSINT gap (mostly) closed <span class="date">15 May 2026</span></h2>
   <p>The 14 May ISW comparison identified maritime-OSINT as the most obvious v2 gap — vessel-name-specific reporting like the <em>Hui Chuan</em> seizure and Indian-livestock-carrier sinking that ISW pulled from Windward AI and Lloyd's List subscription wires. Lloyd's List Intelligence is £15k+/year enterprise pricing; Windward AI is B2B sanctions-screening at undisclosed-but-similar tiers. Not realistic.</p>
   <p>Free workaround: <strong>Tanker Trackers via Bluesky</strong>. The private maritime OSINT team ISW <em>themselves</em> cite in footnotes as "Tanker Trackers" runs an active Bluesky account at <code>@tankertrackers.com</code> with the same content they put on X. Their editorial register is exactly what we want — visual-evidence-only, deliberately neutral on official claims. Wired in as a third Bluesky account, tier 2, no API key needed (free AT Protocol read API).</p>
