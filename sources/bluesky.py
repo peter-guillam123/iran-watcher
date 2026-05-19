@@ -90,6 +90,13 @@ def _fetch_account(acct: dict, since: datetime) -> list[dict]:
         # and reply chains where the post being shown isn't the outlet's own.
         if record.get("$type") != "app.bsky.feed.post":
             continue
+        # Skip replies (record.reply set) — these are thread continuations
+        # like Tanker Trackers' "2/2)" follow-up post. The lead post in a
+        # thread isn't itself a reply, so we keep "1/2)" and standalone
+        # posts. Without this filter, a 2/2 fragment renders as a card
+        # with no real headline content beyond the thread-position label.
+        if record.get("reply"):
+            continue
 
         published = _parse_dt(record.get("createdAt"))
         if published is None or published < since:

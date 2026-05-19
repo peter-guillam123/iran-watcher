@@ -29,6 +29,15 @@ IRAN_TERMS = [
     "strait of hormuz", "persian gulf",
     "jcpoa", "snapback", "fordow", "natanz", "isfahan",
     "centcom", "mahan air",
+    # War-theatre primary names — added when Manni Fabian's filter started
+    # dropping on-beat Lebanon/Gaza coverage (PIJ commander killed in
+    # Lebanon, Israeli Navy intercepting Gaza-bound activist boats).
+    # These were originally excluded so the IDF X feed wouldn't dilute,
+    # but IDF/CENTCOM/Adraee bypass the filter at the adapter level
+    # anyway — so adding these here only catches journalist X content
+    # and Bluesky press coverage on the same beat.
+    "lebanon", "lebanese", "gaza", "gazan",
+    "islamic jihad", "pij",
 ]
 # These are picked up only when paired with an Iran-relevant context word
 # in the same item. We accept them on their own when prefixed by 'iran' or
@@ -52,10 +61,17 @@ ADAPTERS = [
     ("gov_uk",           gov_uk.fetch,           True),   # department feeds, filter locally
     ("iran_international", iran_international.fetch, False),  # all items already Iran-relevant
     ("telegram",         telegram.fetch,         False),  # regime channels — Iran-relevant by definition
-    ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF / CENTCOM / Avichay Adraee / Manni Fabian via rss.app — official military broadcasts and the named ToI military correspondent ISW cites. Curated by definition during a live Iran/Hezbollah war. Local filter previously dropped IDF strike posts mentioning "southern Lebanon" without naming Hezbollah, so we skip it.
-    ("bluesky",          bluesky.fetch,          True),   # Times of Israel + Jerusalem Post via Bluesky — global English news feeds, filter locally for Iran-relevance
-    ("reliefweb",        reliefweb.fetch,        False),  # gated until appname registered
+    ("x_via_rssapp",     x_via_rssapp.fetch,     False),  # IDF / CENTCOM / Adraee official-body broadcasts skip the filter (curated by definition during the live Iran/Hezbollah war). Journalist accounts on this adapter (Manni Fabian) get force-filtered below — they post off-beat content (Eurovision retweets, internal Israeli politics) the filter should drop.
+    ("bluesky",          bluesky.fetch,          True),   # Times of Israel + Jerusalem Post + Tanker Trackers via Bluesky — global feeds, filter locally for Iran-relevance
+    ("reliefweb",        reliefweb.fetch,        False),  # tier 1, server-side Iran-only filter
 ]
+
+# Sources within an otherwise-unfiltered adapter that DO need the Iran
+# filter applied to them — used to drop off-beat content from journalist
+# X accounts (e.g. Manni Fabian retweeting Eurovision coverage) without
+# also dropping IDF / CENTCOM / Adraee strike confirmations which mention
+# "southern Lebanon" but not "Hezbollah" by name.
+FORCE_FILTER_SOURCES = {"Manni Fabian"}
 
 
 def main(
@@ -100,11 +116,21 @@ def main(
     for name, fn, needs_local_filter in ADAPTERS:
         try:
             raw = fn(since)
-            kept = [
-                e for e in raw
-                if (not needs_local_filter or _matches(e))
-                and _within_until(e, until_dt)
-            ]
+            kept = []
+            for e in raw:
+                if not _within_until(e, until_dt):
+                    continue
+                # Adapter-level filter (skipped for already-Iran-filtered
+                # feeds like federal_register, telegram, etc.)
+                needs_filter = needs_local_filter
+                # Per-source override: certain journalist accounts within
+                # otherwise-unfiltered adapters need the keyword filter
+                # applied to drop their off-beat content.
+                if e.get("source") in FORCE_FILTER_SOURCES:
+                    needs_filter = True
+                if needs_filter and not _matches(e):
+                    continue
+                kept.append(e)
             all_events.extend(kept)
             diagnostics.append({"source": name, "fetched": len(raw), "kept": len(kept), "ok": True})
             print(f"  {name}: fetched={len(raw)} kept={len(kept)}", file=sys.stderr)
