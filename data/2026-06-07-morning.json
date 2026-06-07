@@ -1,0 +1,2024 @@
+{
+  "generated_at": "2026-06-07T08:36:40.200435Z",
+  "window_since": "2026-06-06T08:34:15.892715Z",
+  "window_until": "2026-06-07T08:34:15.892715Z",
+  "edition": "morning",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 38,
+      "kept": 38,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 22,
+      "kept": 19,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 85,
+      "kept": 21,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    }
+  ],
+  "day_shape": "84 items: CENTCOM downs two Iranian attack drones over Strait of Hormuz, IDF reports ~150 Hezbollah sites struck and two soldiers killed in south Lebanon, student protests across ~20 Iranian provinces, heavy Khamenei messaging cycle on Imam Khomeini anniversary, nothing from UK Parliament or OFAC.",
+  "threads": [
+    {
+      "label": "Strait of Hormuz drone interception",
+      "summary": "US Central Command said American forces shot down two Iranian one-way attack drones threatening international maritime traffic in the Strait of Hormuz. The Jerusalem Post and Times of Israel carried the CENTCOM statement alongside reporting on parallel US-Iran nuclear consultations.",
+      "event_ids": [
+        "x_via_rssapp:6306bae1824c03ad0f11a6ec81a46a49",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnofegptq72h",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmfjkzzcx2f"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "South Lebanon strikes and IDF casualties",
+      "summary": "The IDF said it struck around 150 Hezbollah infrastructure sites across southern Lebanon over the weekend and announced two soldiers killed in separate incidents, including Cpt. Shahar Gamla, 24. Four reservists were moderately wounded by a Hezbollah FPV drone, two rockets were intercepted, and an Israeli strike near Tebnit/Tabnin killed a Lebanese army general and two soldiers.",
+      "event_ids": [
+        "x_via_rssapp:6cc816165431f0051446e9f1f4680de6",
+        "x_via_rssapp:b3045e09a1c67ecd2d3608c5ca802d10",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnng4wf7ix2q",
+        "x_via_rssapp:07cb6035999f2fde1a09b8ce8da4b59e",
+        "x_via_rssapp:b1a6ced358e8454c34bf92e8c2f4e82e",
+        "x_via_rssapp:ed6adb5145baacc510328b7cdcaaef6b",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmjglqinj27",
+        "x_via_rssapp:53a9848b1c2263fdc8ed1397a1158a1f",
+        "x_via_rssapp:36b6f13a74964889c9d5bfb3b438081d",
+        "telegram:iribnews/343535"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran student protests spread",
+      "summary": "Iran International, the Jerusalem Post and Times of Israel reported high school student protests in around 20 provinces against final exam rules and university entrance changes, with violence and arrests reported. The reports cited the opposition outlet's tally and noted demonstrations met by security force responses.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnoqmsgzro2e",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnop6gki7c26",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnnbwivvmf2l",
+        "iranintl:https://www.iranintl.com/en/202606060092",
+        "iranintl:https://www.iranintl.com/en/202606061140"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Khamenei Imam Khomeini anniversary cycle",
+      "summary": "Khamenei's office published a sequence of posts marking the 37th anniversary of Imam Khomeini's passing, including a message asserting that 'the future of the Persian Gulf will be a future without America' and warnings on enemy 'hybrid warfare.' Parliament Speaker Qalibaf echoed themes praising Basij relief work in messages carried by IRIB and Defa Press.",
+      "event_ids": [
+        "telegram:rahbar_enghelab_ir/606",
+        "telegram:rahbar_enghelab_ir/605",
+        "telegram:rahbar_enghelab_ir/604",
+        "telegram:rahbar_enghelab_ir/603",
+        "telegram:rahbar_enghelab_ir/602",
+        "telegram:rahbar_enghelab_ir/601",
+        "telegram:rahbar_enghelab_ir/600",
+        "telegram:iribnews/343541",
+        "telegram:defapress_ir/60391"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Gaza strikes on Hamas commanders",
+      "summary": "The IDF and Shin Bet said they killed Sakr Abu Karim, a Nukhba cell commander who led the October 7 raid on Kissufim, in a strike on Tuesday. A separate overnight airstrike in southern Gaza killed Hamas cell commander Muhanad Othman Yassin Farwana.",
+      "event_ids": [
+        "x_via_rssapp:71553c5c894ed345ef5476597ac019d2",
+        "x_via_rssapp:e52bff874e5a9b058532da50d58a22c0",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnnt6uzlov2u",
+        "x_via_rssapp:1233dd8bd1a02c7c239714709c8de354",
+        "x_via_rssapp:08516222fb81879c383076ac53edc303"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Post-war Iran economy and infrastructure",
+      "summary": "Iran's Deputy Energy Minister said over 7,000 megawatts of power plant capacity were damaged in the 'Ramadan war' with 2,500 megawatts restored, and denied scheduled blackouts pending 10-15% household consumption cuts. The Atomic Energy Organisation head said Bushehr remains operational, and IRIB cited a Bloomberg report on India raising LPG prices a second time due to refinery losses linked to Iran's war.",
+      "event_ids": [
+        "telegram:iribnews/343538",
+        "telegram:iribnews/343536",
+        "telegram:iribnews/343537",
+        "telegram:iribnews/343531",
+        "reliefweb:4215087"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran-US diplomacy and sanctions",
+      "summary": "Iran International reported the Trump administration's sanctions on Iran's largest cryptocurrency exchange, while Times of Israel cited a source saying the US is considering using Iranian funds to help Gulf states rebuild. A parliamentary commission member told Defa Press that any negotiations with Washington are conditional on five Iranian conditions and practical verification.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202606055401",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnoo5y6hwd2a",
+        "telegram:defapress_ir/60385",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmpakcgmg23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnol5x2qwl2n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnolosfflg2h"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:defapress_ir/60391",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:33:55Z",
+      "title": "💢 قالیباف: گره‌های بزرگ به دست مردم باز می‌شود 🔸 رئیس مجلس شورای اسلامی با تقدیر از فعالیت‌های گروه‌های جهادی…",
+      "url": "https://t.me/defapress_ir/60391",
+      "summary": "💢 قالیباف: گره‌های بزرگ به دست مردم باز می‌شود 🔸 رئیس مجلس شورای اسلامی با تقدیر از فعالیت‌های گروه‌های جهادی در امدادرسانی به شهروندان، تأکید کرد: قدرت واقعی جمهوری اسلامی در روحیه جهادی مردم نهفته است و هر جا دست مردم باز باشد، گره‌های بزرگ باز می‌شود. 🔸 تجربه این روز‌ها بار دیگر نشان داد هرجا دست مردم باز باشد گره‌های بزرگ باز می‌شود. در جنگ تحمیلی سوم که دشمن با موشک باران شهر‌ها زندگی مردم را مختل کرد بار دیگر گروه‌های جهادی پا به میدان کمک و امداد رسانی گذاشتند و در کنار همه مردم آسیب دیده فارغ از قشر و سلیقه آن‌ها ایستادند. 🔸 بنده به نوبه خودم قدردان این دل‌های بزرگ و دستان پرتلاش هستم ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60391"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: Major knots will be untied by the people's hands. The Speaker of the Islamic Consultative Assembly, appreciating the activities of Basij groups in providing relief to citizens, emphasised: the true power of the Islamic Republic lies in the people's Basij spirit and wherever the people's hands are open, major knots are untied.",
+      "summary_en": "Qalibaf: Major knots will be untied by the people's hands. The Speaker of the Islamic Consultative Assembly, appreciating the activities of Basij groups in providing relief to citizens, emphasised: the true power of the Islamic Republic lies in the people's Basij spirit and wherever the people's hands are open, major knots are untied. The experience of these days has again shown that wherever the people's hands are open, major knots are untied. In the Third Imposed War, when the enemy disrupted people's lives through missile bombardment of cities, Basij groups once again took to the field of aid and relief, standing alongside all affected people regardless of their social class or preference. I myself am grateful for these great hearts and hardworking hands.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnoqmsgzro2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-07T08:26:10.988000Z",
+      "title": "Student protests erupted across Iran in response to the country’s education policies and changes to university entrance requirements.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-898574",
+      "summary": "Student protests erupted across Iran in response to the country’s education policies and changes to university entrance requirements.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343548",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:26:09Z",
+      "title": "🔺 وزیر کشور پاکستان با عراقچی دیدار کرد 🔹 محسن نقوی، وزیر کشور پاکستان امروز یکشنبه با سید عباس عراقچی، وزیر…",
+      "url": "https://t.me/iribnews/343548",
+      "summary": "🔺 وزیر کشور پاکستان با عراقچی دیدار کرد 🔹 محسن نقوی، وزیر کشور پاکستان امروز یکشنبه با سید عباس عراقچی، وزیر امور خارجه ایران دیدار و رایزنی کرد.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343548"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pakistan's Interior Minister met with Araghchi. Mohsin Naqvi, Pakistan's Interior Minister, met and conferred today, Sunday, with Seyyed Abbas Araghchi, Iran's Foreign Minister.",
+      "summary_en": "Pakistan's Interior Minister met with Araghchi. Mohsin Naqvi, Pakistan's Interior Minister, met and conferred today, Sunday, with Seyyed Abbas Araghchi, Iran's Foreign Minister.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343547",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:18:38Z",
+      "title": "🔺 احتمال شنیده شدن صدای انفجار  کنترل شده در خارج از محدوده یزد معاون سیاسی، امنیتی و اجتماعی استاندار : 🔹…",
+      "url": "https://t.me/iribnews/343547",
+      "summary": "🔺 احتمال شنیده شدن صدای انفجار  کنترل شده در خارج از محدوده یزد معاون سیاسی، امنیتی و اجتماعی استاندار : 🔹 احتمال شنیده شدن صدای انفجار کنترل شده در محدوده خارج از شهر یزد وجود دارد. 🔹 این انفجارها،  امروز یکشنبه ۱۷ خرداد ماه از ساعت ۱۰:۳۰ تا ۱۴ بعداز ظهر صورت می گیرد  و جای هیچ نگرانی وجود ندارد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343547"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Possibility of hearing controlled explosion sounds outside Yazd boundaries. Political, security and social deputy to the governor: There is a possibility of hearing the sounds of controlled explosions in the area outside Yazd city.",
+      "summary_en": "Possibility of hearing controlled explosion sounds outside Yazd boundaries. Political, security and social deputy to the governor: There is a possibility of hearing the sounds of controlled explosions in the area outside Yazd city. These explosions will take place today, Sunday, 17 Khordad, from 10:30 in the morning until 14:00 in the afternoon, and there is no cause for concern.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343546",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:12:18Z",
+      "title": "🔺 وزیر کشور پاکستان با عراقچی دیدار کرد 🔹 محسن نقوی، وزیر کشور پاکستان امروز یکشنبه با سید عباس عراقچی، وزیر…",
+      "url": "https://t.me/iribnews/343546",
+      "summary": "🔺 وزیر کشور پاکستان با عراقچی دیدار کرد 🔹 محسن نقوی، وزیر کشور پاکستان امروز یکشنبه با سید عباس عراقچی، وزیر امور خارجه ایران دیدار و رایزنی کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343546"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pakistan's Interior Minister met with Araghchi. Mohsin Naqvi, Pakistan's Interior Minister, met and conferred today, Sunday, with Seyyed Abbas Araghchi, Iran's Foreign Minister.",
+      "summary_en": "Pakistan's Interior Minister met with Araghchi. Mohsin Naqvi, Pakistan's Interior Minister, met and conferred today, Sunday, with Seyyed Abbas Araghchi, Iran's Foreign Minister.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343545",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:10:28Z",
+      "title": "🔺 آغاز عرضه گواهی اسقاط خودرو از ۱۷ خرداد 🔹 عرضه گواهی اسقاط خودرو با نرخ جدید از ۱۷ خرداد آغاز می‌شود و نحوه…",
+      "url": "https://t.me/iribnews/343545",
+      "summary": "🔺 آغاز عرضه گواهی اسقاط خودرو از ۱۷ خرداد 🔹 عرضه گواهی اسقاط خودرو با نرخ جدید از ۱۷ خرداد آغاز می‌شود و نحوه اعمال آن برای خودروسازان مشخص شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343545"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Vehicle scrapping certificate sales begin from 17 Khordad. Vehicle scrapping certificate sales at the new rate will begin from 17 Khordad and the method of implementation for automakers has been specified.",
+      "summary_en": "Vehicle scrapping certificate sales begin from 17 Khordad. Vehicle scrapping certificate sales at the new rate will begin from 17 Khordad and the method of implementation for automakers has been specified.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343544",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:06:25Z",
+      "title": "🎦 سناریوهای افزایش مبلغ کالابرگ به دولت ارائه شد معاون وزیر کار: 🔹 مرحله جدید کالابرگ الکترونیکی از ۱۵ خرداد…",
+      "url": "https://t.me/iribnews/343544",
+      "summary": "🎦 سناریوهای افزایش مبلغ کالابرگ به دولت ارائه شد معاون وزیر کار: 🔹 مرحله جدید کالابرگ الکترونیکی از ۱۵ خرداد آغاز شده و تاکنون حدود ۴ میلیون و ۲۰۰ هزار خانوار خرید خود را انجام داده‌اند که معادل ۸۰ درصد در ۱۵ روز ابتدایی است. 🔹 دولت سناریوهای مختلفی برای افزایش مبلغ کالابرگ بر اساس تورم و شرایط اقتصادی بررسی کرده اما تصمیم نهایی هنوز به دلیل محدودیت‌های بودجه‌ای اتخاذ نشده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343544"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Scenarios for increasing waybill amount presented to government. Deputy Minister of Labour: The new phase of electronic waybill began on 15 Khordad and to date approximately 4 million and 200 thousand households have completed their purchases, equivalent to 80 per cent in the initial 15 days.",
+      "summary_en": "Scenarios for increasing waybill amount presented to government. Deputy Minister of Labour: The new phase of electronic waybill began on 15 Khordad and to date approximately 4 million and 200 thousand households have completed their purchases, equivalent to 80 per cent in the initial 15 days. The government has examined various scenarios for increasing the waybill amount based on inflation and economic conditions, but a final decision has not yet been made due to budgetary constraints.",
+      "has_figures": true,
+      "figures_examples": [
+        "4 million",
+        "200 thousand"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/60390",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T08:01:55Z",
+      "title": "💢 عشق به اهل‌بیت «محمدحسین» را آسمانی کرد 🔸 در میان آوار‌های بمباران کلانتری‌های کرج در روز‌های آغازین «جنگ…",
+      "url": "https://t.me/defapress_ir/60390",
+      "summary": "💢 عشق به اهل‌بیت «محمدحسین» را آسمانی کرد 🔸 در میان آوار‌های بمباران کلانتری‌های کرج در روز‌های آغازین «جنگ تحمیلی سوم»، پیکر جوانی یافت شد که پیش از شهادت، غسل شهادت کرده بود. محمد‌حسین نوروزی، ۲۴ ساله، از نیرو‌های پلیس راهور زنجان، در ۱۱ اسفندماه در بمباران کلانتری ۳۱ کوی کارمندان کرج به شهادت رسید. پدر او، محمد نوروزی، مردی ۴۶ ساله که در سن جوانی پدر شهید شده است، در گفت‌وگویی صمیمی، روایتی دردناک، اما سرشار از معنویت از تربیت، زندگی و شهادت پسرش را بازگو کرد. 🔸 محمد نوروزی خاطره‌ای از آخرین لحظات پسرش را به یاد می‌آورد: «در آخرین تماس‌هایمان، محمد‌حسین گفت که شب تا صبح به خاطر شهادت مقام م",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60390"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Love of the Ahl al-Bayt made 'Mohammad Hossein' celestial. Among the rubble of bombardment of Karaj police stations in the early days of the Third Imposed War, the body of a young man was found who had performed the ritual washing of martyrdom before his martyrdom.",
+      "summary_en": "Love of the Ahl al-Bayt made 'Mohammad Hossein' celestial. Among the rubble of bombardment of Karaj police stations in the early days of the Third Imposed War, the body of a young man was found who had performed the ritual washing of martyrdom before his martyrdom. Mohammad Hossein Norouzi, 24 years old, from the traffic police forces of Zanjan, was martyred on 11 Esfand in the bombardment of police station 31 in Kar Employees neighbourhood of Karaj. His father, Mohammad Norouzi, a 46-year-old man who lost his father at a young age, recounted in an intimate conversation a painful yet spiritually rich account of the upbringing, life and martyrdom of his son. Mohammad Norouzi recalls a memory from his son's final moments: 'In our last calls, Mohammad Hossein said that he spent the night in remembrance of the status of the Imam'",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnop6gki7c26",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-07T08:00:16.037000Z",
+      "title": "Iranian high school students have been holding mass protests in around 20 different provinces, the opposition-affiliated Iran International…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mnop6gki7c26",
+      "summary": "Iranian high school students have been holding mass protests in around 20 different provinces, the opposition-affiliated Iran International said in a report on Saturday, adding that some demonstrations have been met with violence and arrests from authorities",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343543",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:53:40Z",
+      "title": "🔺 طرح رایگان‌شدن مترو برای ۵ دهک درآمدی در شورای شهر تهران رأی نیاورد. @iribnews",
+      "url": "https://t.me/iribnews/343543",
+      "summary": "🔺 طرح رایگان‌شدن مترو برای ۵ دهک درآمدی در شورای شهر تهران رأی نیاورد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343543"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Plan to make metro free for the five lowest income deciles did not pass a vote in Tehran City Council.",
+      "summary_en": "Plan to make metro free for the five lowest income deciles did not pass a vote in Tehran City Council.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343542",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:52:43Z",
+      "title": "مدیر شبکه ۳ سیما تصادف کرد 🔹 رئیس اورژانس نطنز : شب گذشته (شنبه‌شب) در محدوده ابیازن در آزادراه اصفهان ـ…",
+      "url": "https://t.me/iribnews/343542",
+      "summary": "مدیر شبکه ۳ سیما تصادف کرد 🔹 رئیس اورژانس نطنز : شب گذشته (شنبه‌شب) در محدوده ابیازن در آزادراه اصفهان ـ نطنز، یک سانحه رانندگی رخ داد که منجر به مصدومیت سه نفر از جمله علی فروغی، مدیر شبکه سه سیما شد. 🔹 این حادثه در ساعات پایانی شب رخ داد و در پی آن، خودروی مذکور دچار آسیب شد و بر اساس اطلاعات اولیه، علی فروغی با دو همراه دیگر در این تصادف دچار آسیب‌دیدگی جزیی شدند. 🔹 در پی وقوع حادثه، نیرو‌های امدادی بلافاصله در محل حاضر شدند و مصدومان را جهت درمان تکمیلی به بیمارستان خاتم‌الانبیا (ص) منتقل کردند و مصدومان در زمان حاضر تحت مراقبت و مداوای پزشکی قرار دارند و حال عمومی آنها مساعد است. @iribnew",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343542"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Manager of Channel 3 had an accident. Head of Natanz Emergency Services: Last night (Saturday night) a traffic accident occurred in the Abyazeh area on the Isfahan-Natanz motorway, resulting in injuries to three people, including Ali Foroughi, manager of Channel 3.",
+      "summary_en": "Manager of Channel 3 had an accident. Head of Natanz Emergency Services: Last night (Saturday night) a traffic accident occurred in the Abyazeh area on the Isfahan-Natanz motorway, resulting in injuries to three people, including Ali Foroughi, manager of Channel 3. The accident occurred in the late hours of the night, after which the vehicle was damaged and based on initial reports, Ali Foroughi and two others sustained minor injuries in the collision. Following the accident, emergency services immediately arrived at the scene and transferred the injured to Khatam al-Anbia Hospital for further treatment, and the injured are currently under medical care and observation, with their general condition satisfactory.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343541",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:46:45Z",
+      "title": "🔺 رئیس مجلس: هرجا دست مردم باز باشد گره‌های بزرگ باز می‌شود قالیباف در پیامی به گروه های جهادی: 🔹 تجربه این…",
+      "url": "https://t.me/iribnews/343541",
+      "summary": "🔺 رئیس مجلس: هرجا دست مردم باز باشد گره‌های بزرگ باز می‌شود قالیباف در پیامی به گروه های جهادی: 🔹 تجربه این روزها بار دیگر نشان داد هرجا دست مردم باز باشد گره های بزرگ باز می‌شود. در جنگ تحمیلی سوم که دشمن با موشک باران شهرها زندگی مردم را مختل کرد بار دیگر گروه های جهادی پا به میدان کمک و امداد رسانی گذاشتند و در کنار همه مردم آسیب دیده فارغ از قشر و سلیقه آن ها ایستادند. 🔹 بنده به نوبه خودم قدردان این دل های بزرگ و دستان پرتلاش هستم که نشان دادند قدرت واقعی جمهوری اسلامی ایران در همین مردم و روحیه جهادی آن ها نهفته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343541"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Speaker of Parliament: Wherever the people's hands are open, major knots are untied. Qalibaf in a message to Basij groups: The experience of these days has again shown that wherever the people's hands are open, major knots are untied.",
+      "summary_en": "Speaker of Parliament: Wherever the people's hands are open, major knots are untied. Qalibaf in a message to Basij groups: The experience of these days has again shown that wherever the people's hands are open, major knots are untied. In the Third Imposed War, when the enemy disrupted people's lives through missile bombardment of cities, Basij groups once again took to the field of aid and relief, standing alongside all affected people regardless of their social class or preference. I myself am grateful for these great hearts and hardworking hands that have demonstrated that the true power of the Islamic Republic of Iran lies in these people and their Basij spirit.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60389",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:45:26Z",
+      "title": "📸 تصویر منتشرنشده از سردار سیدمجید موسوی در کنار شهید سیدحسن نصرالله 🔸 در این تصویر شهیدان محمدرضا زاهدی و…",
+      "url": "https://t.me/defapress_ir/60389",
+      "summary": "📸 تصویر منتشرنشده از سردار سیدمجید موسوی در کنار شهید سیدحسن نصرالله 🔸 در این تصویر شهیدان محمدرضا زاهدی و محمود باقری نیز حضور دارند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60389"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Unpublished photograph of Commander Seyyed Majid Mousavi alongside martyr Seyyed Hassan Nasrallah. In this photograph, martyrs Mohammad Reza Zahedi and Mahmoud Bagheri are also present.",
+      "summary_en": "Unpublished photograph of Commander Seyyed Majid Mousavi alongside martyr Seyyed Hassan Nasrallah. In this photograph, martyrs Mohammad Reza Zahedi and Mahmoud Bagheri are also present.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnoo5y6hwd2a",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-07T07:42:07.173521Z",
+      "title": "US considering using Iranian funds to help Gulf states rebuild, source says",
+      "url": "https://www.timesofisrael.com/us-considering-using-iranian-funds-to-help-gulf-states-rebuild-source-says/",
+      "summary": "US considering using Iranian funds to help Gulf states rebuild, source says",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4215087",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-06-07T07:30:51+00:00",
+      "title": "Islamic Republic of Iran: Humanitarian Update No. 05 | As of 31 May 2026",
+      "url": "https://reliefweb.int/node/4215087",
+      "summary": "This Humanitarian Update is produced by OCHA Regional Office for the Middle East and North Africa (ROMENA) on behalf of and in collaboration with UN agencies and humanitarian organisations. It covers the period from 1 to 31 May 2026. Highlights A temporary ceasefire announced on 7 April for an initial two-week period has subsequently been extended, although conditions remain fragile and subject to…",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343539",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:29:58Z",
+      "title": "🔺 تمدید اعتبار تشکل‌های کارگری و کارفرمایی تا پایان شهریور 🔹 معاونت روابط کار وزارت تعاون، کار و رفاه اجتماعی…",
+      "url": "https://t.me/iribnews/343539",
+      "summary": "🔺 تمدید اعتبار تشکل‌های کارگری و کارفرمایی تا پایان شهریور 🔹 معاونت روابط کار وزارت تعاون، کار و رفاه اجتماعی با صدور اطلاعیه‌ای از تمدید اعتبار تشکل‌های کارگری، کارفرمایی و کانون‌های کارگران بازنشسته تا پایان شهریورماه سال جاری خبر داد 🔹 بر اساس این اطلاعیه، از تاریخ صدور نامه، برگزاری مجامع عمومی حضوری تشکل‌های مذکور در سطح استان‌ها، پس از هماهنگی و اخذ تأییدیه مراجع ذی‌ربط، بلامانع خواهد بود. 🔹 معاونت روابط کار هدف از این تصمیم را تسهیل امور اجرایی تشکل‌ها و حفظ استمرار فعالیت‌های قانونی آنها در شرایط موجود عنوان کرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343539"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Extension of credentials of workers' and employers' organisations until the end of Shahrivar. The Labour Relations Deputy of the Ministry of Cooperation, Labour and Social Welfare announced the extension of the credentials of workers' organisations, employers' organisations and retired workers' associations until the end of Shahrivar of the current year.",
+      "summary_en": "Extension of credentials of workers' and employers' organisations until the end of Shahrivar. The Labour Relations Deputy of the Ministry of Cooperation, Labour and Social Welfare announced the extension of the credentials of workers' organisations, employers' organisations and retired workers' associations until the end of Shahrivar of the current year. Based on this announcement, from the date of issuance of the letter, holding in-person general assemblies of the aforementioned organisations at the provincial level, subject to coordination and obtaining approval from relevant authorities, will be permitted. The Labour Relations Deputy stated that the objective of this decision is to facilitate the administrative affairs of organisations and maintain the continuity of their lawful activities under current conditions.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343540",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:29:58Z",
+      "title": "🔺 بقایی: کودکان مدرسه میناب عمرشان کوتاه بود اما به بخشی از حافظه تاریخی ایرانیان بدل شدند  سخنگوی وزارت امور…",
+      "url": "https://t.me/iribnews/343540",
+      "summary": "🔺 بقایی: کودکان مدرسه میناب عمرشان کوتاه بود اما به بخشی از حافظه تاریخی ایرانیان بدل شدند  سخنگوی وزارت امور خارجه در مراسم بزرگداشت روز جهانی کودکان قربانی جنگ«یادمان شهدای میناب»: 🔹 اندوه به خاطر فقدان کودک، پاسداشت فطرت و وجدان انسانی است. 🔹 کودکان معصوم‌ترین…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343540"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri: The children of Minab school had short lives but became part of Iranians' historical memory. Spokesperson of the Ministry of Foreign Affairs at the commemoration of the International Day for Children Killed in War, 'Memorial to the Martyrs of Minab': Sorrow for the loss of a child is respect for human nature and conscience.",
+      "summary_en": "Bagheri: The children of Minab school had short lives but became part of Iranians' historical memory. Spokesperson of the Ministry of Foreign Affairs at the commemoration of the International Day for Children Killed in War, 'Memorial to the Martyrs of Minab': Sorrow for the loss of a child is respect for human nature and conscience. Innocent children are the first victims of war, whether those killed by bullets, bombs and missiles, those whose bodies and souls bear permanent wounds, or those who carry throughout their lives the heavy sorrow of losing their parents and loved ones.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343538",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:29:26Z",
+      "title": "🎦 معاون وزیر نیرو: در جنگ رمضان بیش از ۷ هزار مگاوات از نیروگاه‌های کشور آسیب دید که بیش از ۲هزار و ۵۰۰…",
+      "url": "https://t.me/iribnews/343538",
+      "summary": "🎦 معاون وزیر نیرو: در جنگ رمضان بیش از ۷ هزار مگاوات از نیروگاه‌های کشور آسیب دید که بیش از ۲هزار و ۵۰۰ مگاوات به شبکه برگشته است @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343538"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy Energy Minister: In the Ramadan war, more than 7,000 megawatts from the country's power plants were damaged, more than 2,500 megawatts of which has been returned to the grid.",
+      "summary_en": "Deputy Energy Minister: In the Ramadan war, more than 7,000 megawatts from the country's power plants were damaged, more than 2,500 megawatts of which has been returned to the grid.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343537",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:21:03Z",
+      "title": "🎦 نیروگاه بوشهر با امتیاز ۱۰۰ در جمع ۱۰ نیروگاه برتر اتمی جهان است 🔹 رئیس سازمان انرژی اتمی : وضعیت نیروگاه…",
+      "url": "https://t.me/iribnews/343537",
+      "summary": "🎦 نیروگاه بوشهر با امتیاز ۱۰۰ در جمع ۱۰ نیروگاه برتر اتمی جهان است 🔹 رئیس سازمان انرژی اتمی : وضعیت نیروگاه اتمی بوشهر خوب است و این نیروگاه به هیچ وجه متوقف نشده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343537"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bushehr nuclear plant with a score of 100 is among the world's top 10 nuclear plants. Head of the Atomic Energy Organisation: The status of the Bushehr nuclear plant is good and this plant has in no way been halted.",
+      "summary_en": "Bushehr nuclear plant with a score of 100 is among the world's top 10 nuclear plants. Head of the Atomic Energy Organisation: The status of the Bushehr nuclear plant is good and this plant has in no way been halted.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343536",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:18:44Z",
+      "title": "🎦 معاون وزیر نیرو: خاموشی برنامه‌ریزی‌شده نداریم 🔹 اگر که حدود ۱۰ تا ۱۵ درصد در بخش خانگی بتونیم کاهش مصرف را…",
+      "url": "https://t.me/iribnews/343536",
+      "summary": "🎦 معاون وزیر نیرو: خاموشی برنامه‌ریزی‌شده نداریم 🔹 اگر که حدود ۱۰ تا ۱۵ درصد در بخش خانگی بتونیم کاهش مصرف را داشته باشیم با همکاری خوب مردم نگرانی‌ها تو این بخش منتفی هست. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343536"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy Energy Minister: We do not have scheduled blackouts. If we can achieve a reduction of consumption of around 10 to 15 per cent in the domestic sector, with good cooperation from the people, concerns in this area will be eliminated.",
+      "summary_en": "Deputy Energy Minister: We do not have scheduled blackouts. If we can achieve a reduction of consumption of around 10 to 15 per cent in the domestic sector, with good cooperation from the people, concerns in this area will be eliminated.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343535",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:15:18Z",
+      "title": "🔺 تداوم حملات هوایی رژیم صهیونیستی به «النبطیه» 🔹 شبکه خبری المیادین گزارش داد که جنگنده‌های رژیم متجاوز…",
+      "url": "https://t.me/iribnews/343535",
+      "summary": "🔺 تداوم حملات هوایی رژیم صهیونیستی به «النبطیه» 🔹 شبکه خبری المیادین گزارش داد که جنگنده‌های رژیم متجاوز صهیونیستی دو بار شهرک «الدویر» در شهرستان النبطیه در جنوب لبنان را بمباران کردند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343535"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Continuation of Zionist regime's air strikes on 'Al-Nabatiyya'. Al-Mayadeen news network reported that Zionist occupation fighter jets twice bombed the 'Al-Dwair' village in Al-Nabatiyya district in southern Lebanon.",
+      "summary_en": "Continuation of Zionist regime's air strikes on 'Al-Nabatiyya'. Al-Mayadeen news network reported that Zionist occupation fighter jets twice bombed the 'Al-Dwair' village in Al-Nabatiyya district in southern Lebanon.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60388",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T07:14:55Z",
+      "title": "💢 یمن؛ برگ برنده در آستین محور مقاومت 🔸 تهدید انصارالله به پیوستن به نبرد، یک هشدار جدی برای آمریکا و اسرائیل…",
+      "url": "https://t.me/defapress_ir/60388",
+      "summary": "💢 یمن؛ برگ برنده در آستین محور مقاومت 🔸 تهدید انصارالله به پیوستن به نبرد، یک هشدار جدی برای آمریکا و اسرائیل است. در حالی که جنگ فرسایشی در لبنان همچنان ادامه دارد، گشودن جبههٔ سوم در یمن می‌تواند توان لجستیک و نظامی اسرائیل را به شدت تحلیل ببرد. 🔸 توصیف رهبر انصارالله یمن از وضعیت دشمنان (آمریکا و اسرائیل) با تعبیر «بوی ضعف و سستی»، نشان‌دهندهٔ ارزیابی راهبردی انصارالله از شرایط کنونی است. 🔸 تشدید حملات اسرائیل به لبنان و غزه و هم‌زمانی آن با مذاکرات حساس ایران و آمریکا (که تاکنون به نتیجهٔ قطعی نرسیده است) از دیدگاه یمنی‌ها، یک «فرصت راهبردی» برای گسترش دامنهٔ فشار بر محور غرب محسوب می‌شود.",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60388"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yemen: A trump card up the Resistance Axis's sleeve. The threat by Ansarallah to join the battle is a grave warning to America and Israel. As the exhausting war continues in Lebanon, opening a third front in Yemen could severely undermine Israel's logistical and military capacity.",
+      "summary_en": "Yemen: A trump card up the Resistance Axis's sleeve. The threat by Ansarallah to join the battle is a grave warning to America and Israel. As the exhausting war continues in Lebanon, opening a third front in Yemen could severely undermine Israel's logistical and military capacity. Ansarallah's leader's description of the enemies' (America and Israel's) situation as carrying 'a scent of weakness and lassitude' demonstrates Ansarallah's strategic assessment of the current situation. The intensification of Israel's attacks on Lebanon and Gaza, concurrent with sensitive negotiations between Iran and America (which have not yet reached a definitive conclusion), from the Yemeni perspective is considered a 'strategic opportunity' to expand the scope of pressure on the Western axis.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343534",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:59:58Z",
+      "title": "🔺 اولویت ثبت ادعا در سکوی «کاتب» برای خریداران املاک قولنامه‌ای است معاون امور املاک و کاداستر سازمان ثبت…",
+      "url": "https://t.me/iribnews/343534",
+      "summary": "🔺 اولویت ثبت ادعا در سکوی «کاتب» برای خریداران املاک قولنامه‌ای است معاون امور املاک و کاداستر سازمان ثبت اسناد و املاک کشور: 🔹 امکان تعیین تکلیف مالکیت‌ها بر اساس مدارک خرید و مستندات موجود فراهم شده است 🔹 متقاضیان املاک روستایی به بنیاد مسکن مراجعه کنند و متقاضیان املاک شهری به فرآیند قانون تعیین تکلیف وضع ثبتی جهت صدور اسناد مالکیت رسمی هدایت خواهند شد 🔹 امکان ثبت ادعا برای همه املاک شهری، روستایی و اراضی کشاورزی در سامانه جدید مشروط به قرار نگرفتن ملک مورد نظر در محدوده اراضی ملی یا دولتی است @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343534"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Priority for filing claims in the 'Kateb' platform is for buyers of promissory note properties. Deputy for Real Estate and Cadastre Affairs of the Land Registry Organisation of the Country: The possibility of determining ownership status based on purchase documents and existing records has been provided.",
+      "summary_en": "Priority for filing claims in the 'Kateb' platform is for buyers of promissory note properties. Deputy for Real Estate and Cadastre Affairs of the Land Registry Organisation of the Country: The possibility of determining ownership status based on purchase documents and existing records has been provided. Prospective purchasers of rural property should contact the Housing Foundation, and prospective purchasers of urban property will be guided to the legal process for determining and registering status in order to issue formal property deeds. The possibility of filing claims for all urban properties, rural properties and agricultural lands in the new system is conditional on the property not being located within national or state lands.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnolosfflg2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-07T06:57:48.788000Z",
+      "title": "Iranian and African journalists were denied the visas they needed to cover the FIFA World Cup in the US.",
+      "url": "https://www.jpost.com/international/article-898562",
+      "summary": "Iranian and African journalists were denied the visas they needed to cover the FIFA World Cup in the US.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:71553c5c894ed345ef5476597ac019d2",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-06-07T06:56:00Z",
+      "title": "🔴 ELIMINATED: Sakr Abu Karim, a Hamas Nukhba cell commander who was among the leaders of the infiltration into the Kisufim area during the October 7 massacre. Throughout the war Abu Karim advanced and executed attacks against IDF troops, and recently violated the ceasefire by attempting to rebuild Hamas’ forces and keeping a large weapons cache in his home. An additional Hamas terrorist who served as a communications operative was also eliminated in the strike.",
+      "url": "https://x.com/IDF/status/2063515525758464479",
+      "summary": "🔴 ELIMINATED: Sakr Abu Karim, a Hamas Nukhba cell commander who was among the leaders of the infiltration into the Kisufim area during the October 7 massacre. \n\nThroughout the war Abu Karim advanced and executed attacks against IDF troops, and recently violated the ceasefire by attempting to rebuild Hamas’ forces and keeping a large weapons cache in his home. \n\nAn additional Hamas terrorist who served as a communications operative was also eliminated in the strike.— Israel Defense Forces (@IDF) Jun 7, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343533",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:54:58Z",
+      "title": "🔺 انسداد موقت جاده چالوس و آزادراه تهران_شمال به دلیل کوچ عشایر رئیس پلیس راه راهور فراجا: 🔹 محور کرج–چالوس و…",
+      "url": "https://t.me/iribnews/343533",
+      "summary": "🔺 انسداد موقت جاده چالوس و آزادراه تهران_شمال به دلیل کوچ عشایر رئیس پلیس راه راهور فراجا: 🔹 محور کرج–چالوس و آزادراه تهران_شمال از ساعت ۱۵ روز دوشنبه ۱۸ خرداد تا ساعت ۱۵ روز سه‌شنبه ۱۹ خرداد به مدت یک روز به‌ علت عبور احشام و کوچ فصلی عشایر به‌صورت موقت مسدود می شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343533"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Temporary closure of Chalus road and Tehran-North motorway due to nomadic migration. Head of the Road Police: The Karaj-Chalus route and Tehran-North motorway will be temporarily closed from 15:00 on Monday, 18 Khordad until 15:00 on Tuesday, 19 Khordad for a period of one day due to the passage of livestock and seasonal nomadic migration.",
+      "summary_en": "Temporary closure of Chalus road and Tehran-North motorway due to nomadic migration. Head of the Road Police: The Karaj-Chalus route and Tehran-North motorway will be temporarily closed from 15:00 on Monday, 18 Khordad until 15:00 on Tuesday, 19 Khordad for a period of one day due to the passage of livestock and seasonal nomadic migration.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343532",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:49:58Z",
+      "title": "🔺 بقایی: کودکان مدرسه میناب عمرشان کوتاه بود اما به بخشی از حافظه تاریخی ایرانیان بدل شدند سخنگوی وزارت امور…",
+      "url": "https://t.me/iribnews/343532",
+      "summary": "🔺 بقایی: کودکان مدرسه میناب عمرشان کوتاه بود اما به بخشی از حافظه تاریخی ایرانیان بدل شدند سخنگوی وزارت امور خارجه در مراسم بزرگداشت روز جهانی کودکان قربانی جنگ«یادمان شهدای میناب»: 🔹 اندوه به خاطر فقدان کودک، پاسداشت فطرت و وجدان انسانی است. 🔹 کودکان معصوم‌ترین و اولین قربانیان جنگ هستند چه آنها که قربانی گلوله و بمب و موشک می‌شوند چه آنها که جسم و روحشان زخم‌های دائمی برمی‌دارد و چه آنها که تا پایان عمر داغ سنگین از دست دادن پدر و مادر و عزیزانشان را به دوش می‌کشند. 🔹 امروز در اینجا گرد هم آمده‌ایم تا از کودکان معصوم یاد کنیم که بال‌های کوچکشان پران و پاک به هم خورد و سینه آسمان را شکافت تا ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343532"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri: The children of Minab school had short lives but became part of Iranians' historical memory. Spokesperson of the Ministry of Foreign Affairs at the commemoration of the International Day for Children Killed in War, 'Memorial to the Martyrs of Minab': Sorrow for the loss of a child is respect for human nature and conscience.",
+      "summary_en": "Bagheri: The children of Minab school had short lives but became part of Iranians' historical memory. Spokesperson of the Ministry of Foreign Affairs at the commemoration of the International Day for Children Killed in War, 'Memorial to the Martyrs of Minab': Sorrow for the loss of a child is respect for human nature and conscience. Innocent children are the first victims of war, whether those killed by bullets, bombs and missiles, those whose bodies and souls bear permanent wounds, or those who carry throughout their lives the heavy sorrow of losing their parents and loved ones. Today we have gathered here to remember innocent children whose small wings were shattered and who tore open the breast of the sky so that",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnol5x2qwl2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-07T06:48:23.653000Z",
+      "title": "Five Iranian soccer plays recieve US visas just 10 days before their opening match in the 2026 FIFA World Cup.",
+      "url": "https://www.jpost.com/international/article-898556",
+      "summary": "Five Iranian soccer plays recieve US visas just 10 days before their opening match in the 2026 FIFA World Cup.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60387",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:46:55Z",
+      "title": "💢 آئین بزرگداشت شهدای اقتدار ایران برگزار می‌شود 🔸 همزمان با نخستین سالگرد آغاز دفاع مقدس دوم موسوم به جنگ ۱۲…",
+      "url": "https://t.me/defapress_ir/60387",
+      "summary": "💢 آئین بزرگداشت شهدای اقتدار ایران برگزار می‌شود 🔸 همزمان با نخستین سالگرد آغاز دفاع مقدس دوم موسوم به جنگ ۱۲ روزه و شهادت شهدای اقتدار ایران، مراسم گرامیداشت جمعی از فرماندهان والامقام شهید این جنگ؛ سرداران شهید؛ محمدحسین ربانی، غلامرضا محرابی، فضل‌الله نوذری، محمدحسن محققی و محمود باقری و محمدسعید ایزدی روز چهارشنبه ۲۰ خردادماه از ساعت ۱۶:۳۰ در مقبرة‌الشهدای شهدای شهرک شهید محلاتی برگزار خواهد شد. 🔸 این مراسم با حضور خانواده‌های معظم شهدا، همرزمان، فرماندهان نظامی و اقشار مختلف مردم برگزار می‌شود. dnws.ir/003WNJ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60387"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ceremony to commemorate the martyrs of Iran's dignity to be held. Concurrent with the first anniversary of the start of the second sacred defence, known as the 12-day war, and the martyrdom of the martyrs of Iran's dignity, a ceremony to honour several distinguished commanders who were martyred in this war; the commanders: Seyyed Mohammad Hossein Rabbani, Gholamreza Mehrabhi, Fazlollah Nozari, Mohammad Hasan Mohammadi and Mahmoud Bagheri and Mohammad Saeid Izadi will be held on Wednesday, 20 Khordad from 16:30 at the Cemetery of Martyrs in the Shahid Mahalati district. This ceremony will be held with the presence of the martyrs' honoured families, comrades, military commanders and various sections of the people.",
+      "summary_en": "Ceremony to commemorate the martyrs of Iran's dignity to be held. Concurrent with the first anniversary of the start of the second sacred defence, known as the 12-day war, and the martyrdom of the martyrs of Iran's dignity, a ceremony to honour several distinguished commanders who were martyred in this war; the commanders: Seyyed Mohammad Hossein Rabbani, Gholamreza Mehrabhi, Fazlollah Nozari, Mohammad Hasan Mohammadi and Mahmoud Bagheri and Mohammad Saeid Izadi will be held on Wednesday, 20 Khordad from 16:30 at the Cemetery of Martyrs in the Shahid Mahalati district. This ceremony will be held with the presence of the martyrs' honoured families, comrades, military commanders and various sections of the people.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343531",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:44:58Z",
+      "title": "🔺 افزایش دوباره قیمت گاز در هند بلومبرگ نوشت: 🔹 هند بار دیگر به سبب تشدید زیان‌ پالایشگاه‌های این کشور در پی…",
+      "url": "https://t.me/iribnews/343531",
+      "summary": "🔺 افزایش دوباره قیمت گاز در هند بلومبرگ نوشت: 🔹 هند بار دیگر به سبب تشدید زیان‌ پالایشگاه‌های این کشور در پی جنگ ایران، قیمت گاز مایع را افزایش داد. 🔹 این دومین بار از زمان آغاز جنگ ایران است که هند، قیمت گاز مایع خانگی (LPG) را افزایش می‌دهد؛ اقدامی که با هدف کاهش زیان شرکت‌های دولتی توزیع‌کننده سوخت و جبران هزینه‌های ناشی از فروش یارانه‌ای انجام شده است. 🔹 بر اساس اعلام دولت هند، قیمت هر سیلندر ۱۴.۲ کیلوگرمی گاز مایع در سراسر کشور ۲۹ روپیه (حدود ۳۱ سنت آمریکا) افزایش یافته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343531"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Fresh increase in gas prices in India. Bloomberg wrote: India has again, due to worsening losses at the country's refineries following Iran's war, increased the price of liquefied gas.",
+      "summary_en": "Fresh increase in gas prices in India. Bloomberg wrote: India has again, due to worsening losses at the country's refineries following Iran's war, increased the price of liquefied gas. This is the second time since the start of Iran's war that India has increased the price of domestic liquefied petroleum gas (LPG); an action taken with the aim of reducing losses for state-owned fuel distribution companies and offsetting the costs resulting from subsidised sales. According to India's announcement, the price of each 14.2-kilogramme cylinder of liquefied gas across the country has increased by 29 rupees (approximately 31 US cents).",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343530",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:39:58Z",
+      "title": "🎦 دستجردی، دبیر ستاد جمعیت: ۱۱ نوۀ رهبر شهید انقلاب را در بیمارستان شریعتی و رسالت تهران به‌دنیا آورده‌ام.…",
+      "url": "https://t.me/iribnews/343530",
+      "summary": "🎦 دستجردی، دبیر ستاد جمعیت: ۱۱ نوۀ رهبر شهید انقلاب را در بیمارستان شریعتی و رسالت تهران به‌دنیا آورده‌ام. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343530"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dastjerdi, secretary of the population headquarters: I have delivered 11 grandsons of the Leader and Martyr of the Revolution in Shariati and Resalat hospitals in Tehran.",
+      "summary_en": "Dastjerdi, secretary of the population headquarters: I have delivered 11 grandsons of the Leader and Martyr of the Revolution in Shariati and Resalat hospitals in Tehran.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnokhy5ifq2x",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-07T06:36:07.718541Z",
+      "title": "War and economic hardship dampen World Cup excitement in Iran",
+      "url": "https://www.timesofisrael.com/war-and-economic-hardship-dampen-world-cup-excitement-in-iran/",
+      "summary": "War and economic hardship dampen World Cup excitement in Iran",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:e52bff874e5a9b058532da50d58a22c0",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-07T06:36:00Z",
+      "title": "A Hamas terrorist who participated in the October 7 onslaught and was planning attacks on troops was killed in an Israeli strike in the Gaza Strip last week, the IDF and Shin Bet announce. The military says that on Tuesday it struck and killed Sakr Abu Karim, a commander of a Nukhba Force cell and the leader of the Hamas raid in the Kissufim area on October 7, 2023. Throughout the war, Abu Karim advanced and carried out attacks on troops in Gaza, and recently, \"he violated the ceasefire agreement and stored numerous weapons in his home, while attempting to rebuild the organization and conduct terrorist training to advance additional terror attack plans,\" the IDF says. Alongside Abu Karim, th",
+      "url": "https://x.com/manniefabian/status/2063510432439017710",
+      "summary": "A Hamas terrorist who participated in the October 7 onslaught and was planning attacks on troops was killed in an Israeli strike in the Gaza Strip last week, the IDF and Shin Bet announce.\n\nThe military says that on Tuesday it struck and killed Sakr Abu Karim, a commander of a Nukhba Force cell and the leader of the Hamas raid in the Kissufim area on October 7, 2023.\n\nThroughout the war, Abu Karim advanced and carried out attacks on troops in Gaza, and recently, \"he violated the ceasefire agreement and stored numerous weapons in his home, while attempting to rebuild the organization and conduc",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/343529",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:33:58Z",
+      "title": "🔺 انهدام باند تولید داروهای تقلبی در فارس 🔹 معاون غذا و داروی دانشگاه علوم پزشکی شیراز از کشف محصولات غیرمجاز…",
+      "url": "https://t.me/iribnews/343529",
+      "summary": "🔺 انهدام باند تولید داروهای تقلبی در فارس 🔹 معاون غذا و داروی دانشگاه علوم پزشکی شیراز از کشف محصولات غیرمجاز به ارزش ۱۳ میلیارد ریال خبر داد. 🔹 شهروندان برای اطمینان از سلامت کالا، حتماً «برچسب اصالت» محصول را چک کنند. برای استعلام، کد ۲۰ رقمی روی کالا را به شماره ۲۰۰۰۸۸۲۲ پیامک کرده یا از اپلیکیشن TTAC استفاده کنید. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/343529"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dismantling of counterfeit medicine production ring in Fars. Deputy for Food and Medicine of Shiraz University of Medical Sciences announced the discovery of unauthorised products worth 13 billion rials.",
+      "summary_en": "Dismantling of counterfeit medicine production ring in Fars. Deputy for Food and Medicine of Shiraz University of Medical Sciences announced the discovery of unauthorised products worth 13 billion rials. Citizens, to ensure product safety, must check the 'authenticity label' on the product. To verify, send the 20-digit code on the product to 20008822 via SMS or use the TTAC application.",
+      "has_figures": true,
+      "figures_examples": [
+        "13 billion"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/60386",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T06:24:55Z",
+      "title": "🎥 نخستین خیمه عزای محرم در کربلا برافراشته شد 🔸 درحالی که تنها ۱۰ روز تا محرم باقی مانده، این خیمه با نظم و…",
+      "url": "https://t.me/defapress_ir/60386",
+      "summary": "🎥 نخستین خیمه عزای محرم در کربلا برافراشته شد 🔸 درحالی که تنها ۱۰ روز تا محرم باقی مانده، این خیمه با نظم و تزیینات ویژه برپا شده و کربلا را در آستانه عزایی باشکوه قرار داده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60386"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The first Muharram mourning tent in Karbala has been erected. With only 10 days remaining until Muharram, this tent has been set up with special arrangements and decorations, placing Karbala on the eve of a grand mourning ceremony.",
+      "summary_en": "The first Muharram mourning tent in Karbala has been erected. With only 10 days remaining until Muharram, this tent has been set up with special arrangements and decorations, placing Karbala on the eve of a grand mourning ceremony.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60385",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T05:59:55Z",
+      "title": "💢 حیات‌مقدم: مذاکره با آمریکا منوط به اجرای شروط پنجگانه و راستی‌آزمایی عملی است 🔸 عضو کمیسیون امنیت ملی و…",
+      "url": "https://t.me/defapress_ir/60385",
+      "summary": "💢 حیات‌مقدم: مذاکره با آمریکا منوط به اجرای شروط پنجگانه و راستی‌آزمایی عملی است 🔸 عضو کمیسیون امنیت ملی و سیاست خارجی مجلس شورای اسلامی در گفت‌وگو با دفاع‌پرس با تأکید بر بی‌اعتمادی ایران به آمریکا، گفت: ورود به هرگونه مذاکره با واشنگتن منوط به اجرای عملی پنج شرط از سوی طرف آمریکایی و راستی‌آزمایی آن است و تا زمانی که این شروط محقق نشود، جمهوری اسلامی ایران وارد مذاکره نخواهد شد. 🔸 ایران پیش از هرگونه مذاکره، پنج پیش‌شرط را برای طرف آمریکایی تعیین کرده است که از جمله مهم‌ترین آنها پرداخت غرامت، آزادسازی اموال و دارایی‌های بلوکه‌شده ایران و پایان دادن به جنگ و تنش‌آفرینی در جبهه‌های مختلف منطق",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60385"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hayatmqaddam: Negotiations with America are conditional on implementing five conditions and practical verification. Member of the National Security and Foreign Policy Commission of the Islamic Consultative Assembly in conversation with Defapress, emphasising Iran's distrust of America, said: Entry into any negotiation with Washington is conditional on the practical implementation of five conditions by the American side and verification of this, and until these conditions are met, the Islamic Republic of Iran will not enter into negotiations.",
+      "summary_en": "Hayatmqaddam: Negotiations with America are conditional on implementing five conditions and practical verification. Member of the National Security and Foreign Policy Commission of the Islamic Consultative Assembly in conversation with Defapress, emphasising Iran's distrust of America, said: Entry into any negotiation with Washington is conditional on the practical implementation of five conditions by the American side and verification of this, and until these conditions are met, the Islamic Republic of Iran will not enter into negotiations. Prior to any negotiation, Iran has set five preconditions for the American side, the most important of which include compensation payments, unfreezing of Iran's assets and resources, and ending war and tension-raising activities on various fronts in the region.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b1a6ced358e8454c34bf92e8c2f4e82e",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-07T05:58:00Z",
+      "title": "Two rockets launched by Hezbollah from Lebanon at northern Israel a short while ago were intercepted, the military says. Sirens had sounded in the border communities of Yiftah and Ramot Naftali amid the attack.",
+      "url": "https://x.com/manniefabian/status/2063500803072029070",
+      "summary": "Two rockets launched by Hezbollah from Lebanon at northern Israel a short while ago were intercepted, the military says.\n\nSirens had sounded in the border communities of Yiftah and Ramot Naftali amid the attack.— Emanuel (Mannie) Fabian (@manniefabian) Jun 7, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60384",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T05:23:55Z",
+      "title": "💢 دست برتر ارتش با شلیک پهپاد‌های راهبردی شهید «دانا» 🔸 امروزه دیگر بر کسی پوشیده نیست که جمهوری اسلامی ایران…",
+      "url": "https://t.me/defapress_ir/60384",
+      "summary": "💢 دست برتر ارتش با شلیک پهپاد‌های راهبردی شهید «دانا» 🔸 امروزه دیگر بر کسی پوشیده نیست که جمهوری اسلامی ایران در زمره قدرت‌های برتر پهپادی جهان قرار دارد؛ جایگاهی که نه بر پایه واردات، بلکه بر مبنای نوآوری، بهره‌گیری از ظرفیت‌های بومی، تجربه عملیاتی میدانی و تا حدودی هم مهندسی معکوس حاصل شده است. 🔸 نقطه عطف این توانمندی را می‌توان در حادثه سقوط پهپاد جاسوسی «آرکیو ۱۷۰» آمریکا در خاک ایران یافت؛ جایی که نیروهای مسلح با رمزگشایی از فناوری بال پرنده، خانواد‌ه‌ای از پهپاد‌های رادارگریز شامل «صاعقه» و «شاهد ۱۷۱» را خلق کرد که قادرند بدون شناسایی‌شدن به عمق خطوط دشمن نفوذ کنند. 🔸 ترکیب شلیک اخطار مو",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60384"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Army gains upper hand with firing of strategic Shahed 'Dana' drones. Nowadays it is no secret that the Islamic Republic of Iran is ranked among the world's leading drone powers; a position achieved not on the basis of imports, but on the foundation of innovation, utilisation of domestic capacities, field operational experience and, to an extent, reverse engineering.",
+      "summary_en": "Army gains upper hand with firing of strategic Shahed 'Dana' drones. Nowadays it is no secret that the Islamic Republic of Iran is ranked among the world's leading drone powers; a position achieved not on the basis of imports, but on the foundation of innovation, utilisation of domestic capacities, field operational experience and, to an extent, reverse engineering. The watershed moment in this capability can be found in the incident of the crash of the American RQ-170 spy drone on Iranian soil; where the armed forces, by decrypting the wing-swept technology, created a family of stealth drones including 'Saeqeh' and 'Shahed 171' which are capable of penetrating deep into enemy lines without being detected. The combination of warning-shot firing from",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnofguc6wf22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-07T05:06:00.585000Z",
+      "title": "Republicans clash with Trump over key issues such as the Iran war, the White House ballroom, and support for Ukraine ahead of the midterm…",
+      "url": "https://www.jpost.com/american-politics/article-898549",
+      "summary": "Republicans clash with Trump over key issues such as the Iran war, the White House ballroom, and support for Ukraine ahead of the midterm elections.\n\nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnofegptq72h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-07T05:04:39.121000Z",
+      "title": "The US shot down two Iranian one-way attack drones threatening international maritime traffic in the Strait of Hormuz, US Central Command…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-898548",
+      "summary": "The US shot down two Iranian one-way attack drones threatening international maritime traffic in the Strait of Hormuz, US Central Command announced early Sunday morning. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60383",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T04:49:55Z",
+      "title": "💢 نمانیده نجباء در ایران: سلاح مقاومت را فقط به امام مهدی (عج) تحویل می‌دهیم 🔸 سید عباس موسوی، نماینده دبیرکل…",
+      "url": "https://t.me/defapress_ir/60383",
+      "summary": "💢 نمانیده نجباء در ایران: سلاح مقاومت را فقط به امام مهدی (عج) تحویل می‌دهیم 🔸 سید عباس موسوی، نماینده دبیرکل جنبش نجباء در ایران در گفت‌وگو با دفاع‌پرس، گفت: فشار برای خلع سلاح مقاومت با هدف تبدیل عراق به پایگاهی امن برای آمریکا و محلی جهت هدف قرار دادن ایران انجام می‌شود. برخی سیاست‌مداران داخلی به‌دلیل منافع شخصی، این پروژه را پیگیری می‌کنند و این رفتار لکه ننگی است که پاک نخواهد شد. 🔸 پروژه تحویل سلاح، طرحی آمریکایی-صهیونیستی است که خودشان علناً خواستار آن شده‌اند و متأسفانه دولت عراق تحت فشار، به آن تن داده است. 🔸 «سلاح مقدس و منضبط مقاومت» امانتی است که تنها علیه اشغالگران، تروریست‌ها و ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60383"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Nujaba representative in Iran: We deliver the resistance's weapons only to Imam al-Mahdi. Seyyed Abbas Mousavi, representative of Nujaba movement's secretary-general in Iran, in conversation with Defapress, said: Pressure to disarm the resistance is aimed at turning Iraq into a safe base for America and a place to target Iran.",
+      "summary_en": "Nujaba representative in Iran: We deliver the resistance's weapons only to Imam al-Mahdi. Seyyed Abbas Mousavi, representative of Nujaba movement's secretary-general in Iran, in conversation with Defapress, said: Pressure to disarm the resistance is aimed at turning Iraq into a safe base for America and a place to target Iran. Some domestic politicians, due to personal interests, are pursuing this project, and this behaviour is a stain of disgrace that will not be wiped clean. The weapon handover project is an American-Zionist plan that they themselves have openly called for, and regrettably, the Iraqi government, under pressure, has consented to it. The 'sacred and disciplined weapons of resistance' are a trust that only against occupiers, terrorists and",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60373",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T04:25:29Z",
+      "title": "📸 صفحه نخست روزنامه های یکشنبه ۱۷ خرداد ۱۴۰۵ @Defapress_ir",
+      "url": "https://t.me/defapress_ir/60373",
+      "summary": "📸 صفحه نخست روزنامه های یکشنبه ۱۷ خرداد ۱۴۰۵ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60373"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Front pages of newspapers on Sunday, 17 Khordad 1405.",
+      "summary_en": "Front pages of newspapers on Sunday, 17 Khordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:07cb6035999f2fde1a09b8ce8da4b59e",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-07T03:45:00Z",
+      "title": "Four IDF reservists were moderately wounded by an explosive-laden first-person view (FPV) drone launched by Hezbollah in southern Lebanon yesterday, the military says. The troops were taken to a hospital and their families were notified.",
+      "url": "https://x.com/manniefabian/status/2063467460422983770",
+      "summary": "Four IDF reservists were moderately wounded by an explosive-laden first-person view (FPV) drone launched by Hezbollah in southern Lebanon yesterday, the military says.\n\nThe troops were taken to a hospital and their families were notified.— Emanuel (Mannie) Fabian (@manniefabian) Jun 7, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/60372",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-07T03:39:01Z",
+      "title": "💢 تقویم روز شهید علی یزدان طالبی: خود را بزرگتر از مردم احساس نکنید که کبر است و کبر آدمی را به هلاکت می…",
+      "url": "https://t.me/defapress_ir/60372",
+      "summary": "💢 تقویم روز شهید علی یزدان طالبی: خود را بزرگتر از مردم احساس نکنید که کبر است و کبر آدمی را به هلاکت می ­افکند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/60372"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Calendar of the day of martyr Ali Yazdan Talib: Do not feel greater than the people, for that is arrogance, and arrogance destroys a person.",
+      "summary_en": "Calendar of the day of martyr Ali Yazdan Talib: Do not feel greater than the people, for that is arrogance, and arrogance destroys a person.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:6306bae1824c03ad0f11a6ec81a46a49",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-06-07T00:53:00Z",
+      "title": "Earlier today, U.S. forces in the Middle East shot down two Iranian one-way attack drones that threatened international maritime traffic in the Strait of Hormuz. American forces remain postured and ready to continue defending against Iranian aggression.",
+      "url": "https://x.com/CENTCOM/status/2063424127508037983",
+      "summary": "Earlier today, U.S. forces in the Middle East shot down two Iranian one-way attack drones that threatened international maritime traffic in the Strait of Hormuz. \n\nAmerican forces remain postured and ready to continue defending against Iranian aggression.— U.S. Central Command (@CENTCOM) Jun 7, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnnt6uzlov2u",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-06T23:39:25.142000Z",
+      "title": "The IDF struck and successfully killed a Hamas terrorist cell commander in the southern Gaza Strip, the military announced.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-898539",
+      "summary": "The IDF struck and successfully killed a Hamas terrorist cell commander in the southern Gaza Strip, the military announced. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnnoya3nlq2x",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T22:24:08.142167Z",
+      "title": "Two IDF soldiers killed in southern Lebanon as fighting against Hezbollah continues",
+      "url": "https://www.timesofisrael.com/two-idf-soldiers-killed-in-separate-incidents-in-south-lebanon-as-fighting-continues/",
+      "summary": "Two IDF soldiers killed in southern Lebanon as fighting against Hezbollah continues",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnnnuhtckz2l",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T22:04:08.305413Z",
+      "title": "Iranian regime could still fall, but US stopped war too early, ex-Mossad agent says",
+      "url": "https://www.timesofisrael.com/iranian-regime-could-still-fall-but-us-stopped-war-too-early-ex-mossad-agent-says/",
+      "summary": "Iranian regime could still fall, but US stopped war too early, ex-Mossad agent says",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:5252c16e9e325cd99636dad692bd2579",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-06-06T22:00:00Z",
+      "title": "Two U.S. Air Force F-35A stealth fighter jets fly over the Middle East during a patrol.— U.S. Central Command…",
+      "url": "https://x.com/CENTCOM/status/2063380644005064895",
+      "summary": "Two U.S. Air Force F-35A stealth fighter jets fly over the Middle East during a patrol.— U.S. Central Command (@CENTCOM) Jun 6, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ed6adb5145baacc510328b7cdcaaef6b",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T19:54:00Z",
+      "title": "An apparent Hezbollah drone struck near Israeli forces in southern Lebanon a short while ago, the military says. No injuries were caused in the incident. The drone triggered sirens in the border community of Margaliot.",
+      "url": "https://x.com/manniefabian/status/2063348793735569440",
+      "summary": "An apparent Hezbollah drone struck near Israeli forces in southern Lebanon a short while ago, the military says.\n\nNo injuries were caused in the incident.\n\nThe drone triggered sirens in the border community of Margaliot.— Emanuel (Mannie) Fabian (@manniefabian) Jun 6, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnng4wf7ix2q",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T19:45:42.095000Z",
+      "title": "Two IDF soldiers were killed in separate incidents in southern Lebanon over the weekend, the military announces.",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mnng4wf7ix2q",
+      "summary": "Two IDF soldiers were killed in separate incidents in southern Lebanon over the weekend, the military announces. \n\nRead more on The Times of Israel",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/606",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T19:23:29Z",
+      "title": "🚨 دشمن بر تاب‌آوری مردم و ایجاد خطای محاسباتی مسئولان تمرکز دارد ✍ بخشی از پیام رهبر انقلاب اسلامی به‌مناسبت…",
+      "url": "https://t.me/rahbar_enghelab_ir/606",
+      "summary": "🚨 دشمن بر تاب‌آوری مردم و ایجاد خطای محاسباتی مسئولان تمرکز دارد ✍ بخشی از پیام رهبر انقلاب اسلامی به‌مناسبت سی و هفتمین سالگرد ارتحال حضرت امام خمینی (ره) ۱۴/خرداد/۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/606"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The enemy focuses on people's resilience and creating miscalculation by officials. Part of the message of the Leader of the Islamic Revolution on the occasion of the thirty-seventh anniversary of the passing of Imam Khomeini.",
+      "summary_en": "The enemy focuses on people's resilience and creating miscalculation by officials. Part of the message of the Leader of the Islamic Revolution on the occasion of the thirty-seventh anniversary of the passing of Imam Khomeini. 14 Khordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b3045e09a1c67ecd2d3608c5ca802d10",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T19:19:00Z",
+      "title": "Two IDF soldiers were killed in separate incidents in southern Lebanon over the weekend, the military announces. Cpt. Shahar Gamla, 24, a deputy platoon commander in the Commando Brigade's Egoz Unit, from Natur, was severely injured by a Hezbollah drone late Thursday. He was taken to a hospital, and this morning, Gamla succumbed to his wounds. In a separate incident on Friday, Sgt. Ohad Yaari, 21, of the Givati Brigade's Shaked Battalion, from Rehovot, was killed by a suspected accidental firearm discharge in southern Lebanon. The IDF says the circumstances of the incident are under investigation by the Military Police.",
+      "url": "https://x.com/manniefabian/status/2063340101678330076",
+      "summary": "Two IDF soldiers were killed in separate incidents in southern Lebanon over the weekend, the military announces.\n\nCpt. Shahar Gamla, 24, a deputy platoon commander in the Commando Brigade's Egoz Unit, from Natur, was severely injured by a Hezbollah drone late Thursday.\n\nHe was taken to a hospital, and this morning, Gamla succumbed to his wounds.\n\nIn a separate incident on Friday, Sgt. Ohad Yaari, 21, of the Givati Brigade's Shaked Battalion, from Rehovot, was killed by a suspected accidental firearm discharge in southern Lebanon.\n\nThe IDF says the circumstances of the incident are under invest",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606055401",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-06T18:48:41Z",
+      "title": "From banks to blockchains: US opens new front in Iran sanctions",
+      "url": "https://www.iranintl.com/en/202606055401",
+      "summary": "The Trump administration's sanctions on Iran's largest cryptocurrency exchange mark an escalation in Washington's effort to disrupt the financial infrastructure Tehran uses to operate outside the formal banking system.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnnbwivvmf2l",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T18:30:31.597291Z",
+      "title": "Iranian students protest across country over exam changes; several arrests reported",
+      "url": "https://www.timesofisrael.com/iranian-students-protest-across-country-over-exam-changes-several-arrests-reported/",
+      "summary": "Iranian students protest across country over exam changes; several arrests reported",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/605",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T18:15:13Z",
+      "title": "📝 #مسطور | آینده خلیج فارس، آینده‌ای بدون امریکا خواهد بود 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای…",
+      "url": "https://t.me/rahbar_enghelab_ir/605",
+      "summary": "📝 #مسطور | آینده خلیج فارس، آینده‌ای بدون امریکا خواهد بود 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب: به حول و قوّه الهی آینده‌ی درخشان منطقه‌ی خلیج فارس، آینده‌ای بدون امریکا و در خدمت #پیشرفت ، آسایش و رفاه ملت‌هایش خواهد بود. ما با همسایگان‌مان در پهنه‌ی آبی خلیج فارس و دریای عمان «هم‌سرنوشت» هستیم و بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در آن شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ آب‌هایش. و زنجیره‌ی این ظفر که به لطف پروردگار تبارک و تعالی در سایه‌ی تدابیر و سیاست‌های مقاومت و راهبرد ایران قوی محقّق شده است، طلیعه‌ی #نظم_جدید منطقه و جهان خواهد ",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/605"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The future of the Persian Gulf will be a future without America. An excerpt from the message of His Eminence Ayatollah Seyyed Mustafa Khamenei, Leader of the Revolution: By God's will and strength, the brilliant future of the Persian Gulf region will be a future without America and in service of the progress, peace and welfare of its peoples.",
+      "summary_en": "The future of the Persian Gulf will be a future without America. An excerpt from the message of His Eminence Ayatollah Seyyed Mustafa Khamenei, Leader of the Revolution: By God's will and strength, the brilliant future of the Persian Gulf region will be a future without America and in service of the progress, peace and welfare of its peoples. We are partners in destiny with our neighbours in the waters of the Persian Gulf and the Sea of Oman, and foreigners from thousands of kilometres away, who harbour covetous designs in committing mischief, have no place there except at the bottom of its waters. And the chain of this victory, which by the grace of the Almighty Lord has been achieved in the shadow of Iran's resistance policies and strategy, will be the vanguard of a new order for the region and the world.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:1233dd8bd1a02c7c239714709c8de354",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-06-06T18:11:00Z",
+      "title": "🔴 ELIMINATED: Muhanad Othman Yassin Farwana, a terrorist cell commander in Hamas’ military wing. Throughout the war and recently, Farwana was involved in advancing numerous terrorist attack plans against IDF troops and Israeli civilians, and posed an immediate threat to IDF troops operating in the area. He was eliminated in a precise aerial strike in order to remove the threat.",
+      "url": "https://x.com/IDF/status/2063322987374248337",
+      "summary": "🔴 ELIMINATED: Muhanad Othman Yassin Farwana, a terrorist cell commander in Hamas’ military wing.\n\nThroughout the war and recently, Farwana was involved in advancing numerous terrorist attack plans against IDF troops and Israeli civilians, and posed an immediate threat to IDF troops operating in the area.\nHe was eliminated in a precise aerial strike in order to remove the threat.— Israel Defense Forces (@IDF) Jun 6, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606064036",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-06T18:01:24Z",
+      "title": "Iran turns to LA-based singer for state-backed religious event",
+      "url": "https://www.iranintl.com/en/202606064036",
+      "summary": "The appearance of Iranian pop singer Gheysar, who has spent nearly four decades living in Los Angeles, at a state-backed religious celebration in Tehran has sparked widespread debate over politics, culture, and the possible return of exiled artists.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:08516222fb81879c383076ac53edc303",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T17:45:00Z",
+      "title": "A Hamas operative who was advancing attacks was killed in an airstrike in the southern Gaza Strip overnight, the IDF says. Throughout the war and recently, Muhanad Othman Yassin Farwana, a commander of a Hamas cell, had \"advanced numerous terror attack plans against IDF troops and the State of Israel, and posed an immediate threat to IDF troops operating in the area,\" the military says. \"The terrorist was eliminated in a precise aerial strike in order to remove the threat,\" the military adds.",
+      "url": "https://x.com/manniefabian/status/2063316295593185749",
+      "summary": "A Hamas operative who was advancing attacks was killed in an airstrike in the southern Gaza Strip overnight, the IDF says.\n\nThroughout the war and recently, Muhanad Othman Yassin Farwana, a commander of a Hamas cell, had \"advanced numerous terror attack plans against IDF troops and the State of Israel, and posed an immediate threat to IDF troops operating in the area,\" the military says.\n\n\"The terrorist was eliminated in a precise aerial strike in order to remove the threat,\" the military adds.— Emanuel (Mannie) Fabian (@manniefabian) Jun 6, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:9da2c19561359d3dfa94176c2b3ddd51",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-06-06T17:37:00Z",
+      "title": "Maj. Enkhtuvshin Namjildorj from the Mongolian Air Force talks about M4 familiarization training during…",
+      "url": "https://x.com/CENTCOM/status/2063314331639369902",
+      "summary": "Maj. Enkhtuvshin Namjildorj from the Mongolian Air Force talks about M4 familiarization training during Exercise Regional Cooperation 26. U.S. forces and our partners are stronger when we train and operate together. \nVideo\n  — U.S. Central Command (@CENTCOM) Jun 6, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:6cc816165431f0051446e9f1f4680de6",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T17:00:00Z",
+      "title": "The IDF says it struck around 150 Hezbollah infrastructure sites across southern Lebanon over the weekend. The targets included weapon depots, command centers, rocket launchers, and other infrastructure, according to the IDF.",
+      "url": "https://x.com/manniefabian/status/2063305026412441968",
+      "summary": "The IDF says it struck around 150 Hezbollah infrastructure sites across southern Lebanon over the weekend.\n\nThe targets included weapon depots, command centers, rocket launchers, and other infrastructure, according to the IDF. \nVideo\n  — Emanuel (Mannie) Fabian (@manniefabian) Jun 6, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606061140",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-06T16:16:25Z",
+      "title": "Inside Rasht's bloody crackdown: witnesses detail secret removals of bodies",
+      "url": "https://www.iranintl.com/en/202606061140",
+      "summary": "Security forces opened fire on protesters, blocked medical aid and secretly removed bodies as they crushed demonstrations in Rasht, northern Iran, during January’s nationwide uprising, eyewitness accounts and documents sent to Iran International show.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/604",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T15:33:51Z",
+      "title": "🇮🇷 قیام لِلّٰه، زیربنای مکتب امام است 📝 قیام لِلّٰه، زیربنای مکتب امام است و از جمله مهمترین آثار و برکات…",
+      "url": "https://t.me/rahbar_enghelab_ir/604",
+      "summary": "🇮🇷 قیام لِلّٰه، زیربنای مکتب امام است 📝 قیام لِلّٰه، زیربنای مکتب امام است و از جمله مهمترین آثار و برکات وجودی ایشان، هدایت و تربیت و تأثیر شگرف بر جامعه بر اساس همین مبنا می‌باشد. همین حرکت الهی، منشأ نزول برکات و توجهات ربوبی و جاری شدن سنت حضرت حق جل‌ و علا در هدایت جامعه به مسیر حق است که وَالَّذینَ جاهَدوا فینا لَنَهدِیَنَّهُم سُبُلَنا. ۱۴/خرداد/۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/604"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Uprising for God is the foundation of the Imam's school. Uprising for God is the foundation of the Imam's school and among the most important effects and blessings of his existence are guidance, education and remarkable influence on society on this basis. This divine movement is the source of the descent of blessings and divine attentions and the operation of God's way in guiding society to the path of truth, such that those who strive in Our way, We shall guide them to Our paths.",
+      "summary_en": "Uprising for God is the foundation of the Imam's school. Uprising for God is the foundation of the Imam's school and among the most important effects and blessings of his existence are guidance, education and remarkable influence on society on this basis. This divine movement is the source of the descent of blessings and divine attentions and the operation of God's way in guiding society to the path of truth, such that those who strive in Our way, We shall guide them to Our paths. 14 Khordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnmxtp3mtk27",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-06T15:29:58.929000Z",
+      "title": "The story of a family from London who make aliyah to northern Israel, navigating a war with Iran, adjustment, and a new life in Ma’alot,…",
+      "url": "https://www.jpost.com/aliyah/article-898291",
+      "summary": "The story of a family from London who make aliyah to northern Israel, navigating a war with Iran, adjustment, and a new life in Ma’alot, 10km from the Lebanese border. \nwww.jpost.com/aliyah/artic...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "10km"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmw7gvnzy26",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T15:00:46.627905Z",
+      "title": "Lebanon inaugurates a second international airport amid Israel-Hezbollah war",
+      "url": "https://www.timesofisrael.com/lebanon-inaugurates-a-second-international-airport-amid-israel-hezbollah-war/",
+      "summary": "Lebanon inaugurates a second international airport amid Israel-Hezbollah war",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmw6nthfu2f",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T15:00:20.388000Z",
+      "title": "Ella Ben Emanuel: \"I just want them to come home. All of them. From Gaza and Lebanon. From naval ships and underground bases. I’m proud of…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mnmw6nthfu2f",
+      "summary": "Ella Ben Emanuel: \"I just want them to come home. All of them. From Gaza and Lebanon. From naval ships and underground bases. I’m proud of our army, but we are so, so tired.\"\n\n*The posts on The Blogs are contributed by third parties.\n\nblogs.timesofisrael.com/we-are-all-s...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/603",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T14:29:54Z",
+      "title": "📊 #نمودار_درختی | پیام رهبر معظم انقلاب به مناسبت عید غدیر و سی‌وهفتمین سالگرد ارتحال حضرت امام خمینی(ره) و…",
+      "url": "https://t.me/rahbar_enghelab_ir/603",
+      "summary": "📊 #نمودار_درختی | پیام رهبر معظم انقلاب به مناسبت عید غدیر و سی‌وهفتمین سالگرد ارتحال حضرت امام خمینی(ره) و سالگرد آغاز رهبری حضرت آیت‌الله شهید سیدعلی خامنه‌ای ۱۴/خرداد/۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/603"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Tree diagram: Message of the Leader of the Revolution on the occasion of Eid al-Ghadir and the thirty-seventh anniversary of the passing of Imam Khomeini and the anniversary of the beginning of the leadership of Ayatollah Shahid Seyyed Ali Khamenei. 14 Khordad 1405.",
+      "summary_en": "Tree diagram: Message of the Leader of the Revolution on the occasion of Eid al-Ghadir and the thirty-seventh anniversary of the passing of Imam Khomeini and the anniversary of the beginning of the leadership of Ayatollah Shahid Seyyed Ali Khamenei. 14 Khordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606066895",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-06T14:28:34Z",
+      "title": "British couple jailed in Iran remain on hunger strike as health fears grow",
+      "url": "https://www.iranintl.com/en/202606066895",
+      "summary": "A British couple imprisoned in Tehran’s Evin prison remain on hunger strike over access restrictions, raising health concerns as one of them is now barely able to walk, sources familiar with the matter told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:740d2b2d717d2d1855bc6e2728cd8b8b",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-06-06T14:21:00Z",
+      "title": "Earlier today, IDF and Border Police soldiers were dispatched to several locations in the area of Huwara, following a report of the suspected theft of livestock belonging to Israeli civilians. The soldiers operated to remove the Israeli civilians and the livestock from the area and to prevent confrontation. Subsequently, a number of rioters arrived in the area, and violent confrontations broke out between Israeli civilians and Palestinians, involving the hurling of rocks and the use of batons. The IDF is aware of the claim that several Palestinians were injured. The soldiers operated to disperse the gatherings using riot dispersal means. The disturbances were dispersed, and security forces r",
+      "url": "https://x.com/IDF/status/2063264961925656849",
+      "summary": "Earlier today, IDF and Border Police soldiers were dispatched to several locations in the area of Huwara, following a report of the suspected theft of livestock belonging to Israeli civilians. The soldiers operated to remove the Israeli civilians and the livestock from the area and to prevent confrontation.\n\nSubsequently, a number of rioters arrived in the area, and violent confrontations broke out between Israeli civilians and Palestinians, involving the hurling of rocks and the use of batons. The IDF is aware of the claim that several Palestinians were injured.\n\nThe soldiers operated to disp",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmpakcgmg23",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T12:56:07.553687Z",
+      "title": "Iran slams US ‘discriminatory treatment’ over World Cup visa refusals",
+      "url": "https://www.timesofisrael.com/iran-slams-us-discriminatory-treatment-over-world-cup-visa-refusals/",
+      "summary": "Iran slams US ‘discriminatory treatment’ over World Cup visa refusals",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:cabf80a18e501d2e2a6a4ec4706a2b0c",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-06-06T12:34:00Z",
+      "title": "U.S. Sailors and Marines aboard USS Tripoli (LHA 7) rappel out of an MH-60S Sea Hawk while the ship sails in…",
+      "url": "https://x.com/CENTCOM/status/2063238189339304402",
+      "summary": "U.S. Sailors and Marines aboard USS Tripoli (LHA 7) rappel out of an MH-60S Sea Hawk while the ship sails in the Arabian Sea.— U.S. Central Command (@CENTCOM) Jun 6, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/602",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T12:26:20Z",
+      "title": "⚠️ تردید و ترس و اختلاف‌افکنی نقشه دشمن است 🔻 مروری بر نکات کلیدی مطرح شده از سوی رهبر معظم انقلاب درباره‌ی…",
+      "url": "https://t.me/rahbar_enghelab_ir/602",
+      "summary": "⚠️ تردید و ترس و اختلاف‌افکنی نقشه دشمن است 🔻 مروری بر نکات کلیدی مطرح شده از سوی رهبر معظم انقلاب درباره‌ی مقابله با «جنگ ترکیبی دشمن» ✍ براساس پیام به‌مناسبت سی و هفتمین سالگرد ارتحال حضرت امام خمینی (ره) ۱۴/خرداد/۱۴۰۵ 🖨 نسخه کیفیت اصلی 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/602"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Doubt, fear and sowing discord are the enemy's plot. A review of key points raised by the Leader of the Revolution regarding countering the enemy's 'hybrid warfare'. Based on the message on the occasion of the thirty-seventh anniversary of the passing of Imam Khomeini.",
+      "summary_en": "Doubt, fear and sowing discord are the enemy's plot. A review of key points raised by the Leader of the Revolution regarding countering the enemy's 'hybrid warfare'. Based on the message on the occasion of the thirty-seventh anniversary of the passing of Imam Khomeini. 14 Khordad 1405. High-quality original version.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mnmm4p6gwu2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-06T12:00:16.251000Z",
+      "title": "Opinion: Victory will not be achieved in Washington’s meeting rooms, but on the day the Iranian people are finally liberated from the…",
+      "url": "https://www.jpost.com/jerusalem-report/article-898205",
+      "summary": "Opinion: Victory will not be achieved in Washington’s meeting rooms, but on the day the Iranian people are finally liberated from the regime. Until then, we must not relent. \nwww.jpost.com/jerusalem-re...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606060092",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-06T11:33:42Z",
+      "title": "Iran student protests widen over final exams and university entrance rules",
+      "url": "https://www.iranintl.com/en/202606060092",
+      "summary": "High school students in about 20 Iranian provinces have held protests against education policies, final exam rules and changes affecting the national university entrance exam, with some gatherings met by violence and arrests.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/601",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T11:19:58Z",
+      "title": "🔎 #اشاره رهبر انقلاب به کهن‌ترین دست‌نوشته موجود از حضرت امام خمینی(ره) و نخستین سند مکتوب انقلاب اسلامی 📖…",
+      "url": "https://t.me/rahbar_enghelab_ir/601",
+      "summary": "🔎 #اشاره رهبر انقلاب به کهن‌ترین دست‌نوشته موجود از حضرت امام خمینی(ره) و نخستین سند مکتوب انقلاب اسلامی 📖 قالَ اللهُ تَعالی قُل اِنَّما اَعِظُکُم بِواحِدَة‌ اَن تَقوموا لله مَثنی و فُرادی. خداوند تبارک و تعالی در این آیه‌ی شریفه خطاب به رسول‌ اعظم‌ صلی‌الله‌علیه‌وآله می‌فرمایند به امّت بگو من شما را تنها به یک امر موعظه می‌کنم که برای خدا دو نفر دو نفر یا هر یک به تنهایی بپاخیزید. این کریمه، مَطلع اولین پیام و یکی از قدیمی‌ترین اسنادی است که شخصیت بی‌بدیل عبد صالح و روح بزرگ عصر و زمان ما، رهبر کبیر انقلاب و بنیانگذار جمهوری اسلامی، در آن، ملّت ایران را به قیام برای خدا دعوت کرده است. | ۱۴/خر",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/601"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reference by the Leader of the Revolution to the oldest surviving manuscript of Imam Khomeini and the first written document of the Islamic Revolution. God the Most High said: Say, I only exhort you to do one thing: stand up for God, in pairs and singly.",
+      "summary_en": "Reference by the Leader of the Revolution to the oldest surviving manuscript of Imam Khomeini and the first written document of the Islamic Revolution. God the Most High said: Say, I only exhort you to do one thing: stand up for God, in pairs and singly. The Almighty, in this honourable verse, addresses the Greatest Prophet, saying to the people: I exhort you only to one matter, that you should stand up for God in pairs or singly. This verse is the opening of the first message and one of the oldest documents in which the unique personality, the great spirit of our era and time, the great leader of the Revolution and founder of the Islamic Republic, invited the Iranian nation to rise for God.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/600",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-06T11:19:17Z",
+      "title": "📸 گزارش تصویری گوشه‌ای از غرس کردن #نهال_امید توسط مردم 👈🏼 شما میتوانید عکس یا فیلم کاشت نهال خود را برای ما…",
+      "url": "https://t.me/rahbar_enghelab_ir/600",
+      "summary": "📸 گزارش تصویری گوشه‌ای از غرس کردن #نهال_امید توسط مردم 👈🏼 شما میتوانید عکس یا فیلم کاشت نهال خود را برای ما ارسال نمایید. 🔗 شرکت در پویش: 💻 pooyesh.rahbar-enghelab.ir 👤 @rahbar_contact",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/600"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photographic report of a glimpse of planting trees of hope by people. You can send us photos or videos of your tree planting. Participation in the campaign: rahbar-enghelab.ir/pooyesh. Contact: rahbar_contact.",
+      "summary_en": "Photographic report of a glimpse of planting trees of hope by people. You can send us photos or videos of your tree planting. Participation in the campaign available online. Contact details provided.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmjglqinj27",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T11:12:07.867088Z",
+      "title": "Israeli strike kills Lebanese army general, two soldiers; IDF says incident under review",
+      "url": "https://www.timesofisrael.com/israeli-strike-kills-lebanese-army-general-two-soldiers-idf-says-incident-under-review/",
+      "summary": "Israeli strike kills Lebanese army general, two soldiers; IDF says incident under review",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:36b6f13a74964889c9d5bfb3b438081d",
+      "source": "Avichay Adraee",
+      "source_detail": "IDF Arabic spokesperson · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-arabic-x",
+      "published_at": "2026-06-06T10:13:00Z",
+      "title": "🔸في وقت سابق اليوم (السبت) رصد جيش الدفاع مركبة كانت تتحرك بصورة مشبوهة باتجاه القوات قرب كقر تبنيت في جنوب لبنان. 🔸وكانت المركبة تسير في منطقة قتال نشطة تم إخلاؤها كما ورد إنذار من وقوع عملية إطلاق نار باتجاه قوات جيش الدفاع في المنطقة. كما تشير المعلومات المتوافرة لدى جيش الدفاع إلى أن حزب الله ينشط بشكل واسع في هذه المنطقة. 🔸عقب رصد المركبة، وبناءً على المعلومات التحذيرية والخطر الذي شكّلته على القوات، تم استهدافها حيث تبين نتائج الفحص الأولي إلى أن ضابطين وجنديًا من الجيش اللبناني كانا داخل المركبة. ولا يزال الحادث قيد التحقيق. 🔸يذكر ان الحديث عن منطقة قتال تتطلب تنسيق الحركة مع جيش الدفاع. 🔸يجري جيش الدفاع تحقيقًا في الحادث وسيستخلص الدروس اللازمة وفقًا للنتائج. نؤكد ان قوات جيش ال",
+      "url": "https://x.com/AvichayAdraee/status/2063202582202401179",
+      "summary": "🔸في وقت سابق اليوم (السبت) رصد جيش الدفاع مركبة كانت تتحرك بصورة مشبوهة باتجاه القوات قرب كقر تبنيت في جنوب لبنان.\n\n🔸وكانت المركبة تسير في منطقة قتال نشطة تم إخلاؤها كما ورد إنذار من وقوع عملية إطلاق نار باتجاه قوات جيش الدفاع في المنطقة. كما تشير المعلومات المتوافرة لدى جيش الدفاع إلى أن حزب الله ينشط بشكل واسع في هذه المنطقة.\n\n🔸عقب رصد المركبة، وبناءً على المعلومات التحذيرية والخطر الذي شكّلته على القوات، تم استهدافها حيث تبين نتائج الفحص الأولي إلى أن ضابطين وجنديًا من الجيش اللبناني كانا داخل المركبة. ولا يزال الحادث قيد التحقيق.\n\n🔸يذكر ان الحديث عن منطقة قتال تتطلب تنسيق الحركة مع جيش الد",
+      "details": {
+        "handle": "@AvichayAdraee",
+        "language": "ar"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "title_en": "Earlier today (Saturday), the IDF identified a vehicle moving suspiciously towards troops near the village of Tabnin in southern Lebanon. The vehicle was travelling in an active combat zone that had been evacuated, and a warning was issued of a shooting attack against IDF troops in the area.",
+      "summary_en": "Earlier today (Saturday), the IDF identified a vehicle moving suspiciously towards troops near the village of Tabnin in southern Lebanon. The vehicle was travelling in an active combat zone that had been evacuated, and a warning was issued of a shooting attack against IDF troops in the area. Available information indicates that Hezbollah is operating widely in this area. Following identification of the vehicle and based on intelligence warnings and the threat it posed to the troops, it was targeted. Initial examination results showed that two officers and a soldier from the Lebanese army were inside the vehicle. The incident remains under investigation. It should be noted that an active combat zone requires coordinated movement with the IDF.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmfjkzzcx2f",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T10:02:12.807721Z",
+      "title": "US, Iran trade fire in Gulf as Trump team consults experts for nuclear talks",
+      "url": "https://www.timesofisrael.com/us-iran-trade-fire-in-gulf-as-trump-team-consults-experts-for-nuclear-talks/",
+      "summary": "US, Iran trade fire in Gulf as Trump team consults experts for nuclear talks",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:53a9848b1c2263fdc8ed1397a1158a1f",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-06-06T09:39:00Z",
+      "title": "Earlier today, the IDF identified a vehicle moving suspiciously toward IDF soldiers near the area of Tebnit in Lebanon. The vehicle was traveling through an active combat zone that had been evacuated. The IDF had received concrete indications that Hezbollah would direct fire toward IDF soldiers from the same area. Additional intelligence and operational information indicate that Hezbollah conducts extensive terrorist operations in this area. Following the identification of the vehicle, and in light of the concrete indication of Hezbollah fire in the area alongside the threat posed to the soldiers, the vehicle was struck. An initial inquiry indicates that two officers and a soldier in the Leb",
+      "url": "https://x.com/IDF/status/2063194008529109114",
+      "summary": "Earlier today, the IDF identified a vehicle moving suspiciously toward IDF soldiers near the area of Tebnit in Lebanon.\n\nThe vehicle was traveling through an active combat zone that had been evacuated. The IDF had received concrete indications that Hezbollah would direct fire toward IDF soldiers from the same area. Additional intelligence and operational information indicate that Hezbollah conducts extensive terrorist operations in this area.\n\nFollowing the identification of the vehicle, and in light of the concrete indication of Hezbollah fire in the area alongside the threat posed to the sol",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:424404021a44a97dd5447a0e3b557f7b",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T09:38:00Z",
+      "title": "The IDF confirms that it struck a vehicle belonging to the Lebanese army in southern Lebanon this morning, saying it was traveling in an active combat zone. The strike killed a brigadier general, a captain, and another soldier, according to the Lebanese Armed Forces. The IDF says that it identified a vehicle \"moving suspiciously\" toward Israeli forces near the village of Kfar Tebnit. \"The vehicle was traveling in an active combat and evacuated area,\" the military says, adding that troops in the area had been on alert regarding potential attacks by Hezbollah, and that the IDF holds intelligence indicating that \"Hezbollah operates extensively in this area.\" The military says that it emphasizes",
+      "url": "https://x.com/manniefabian/status/2063193732371935366",
+      "summary": "The IDF confirms that it struck a vehicle belonging to the Lebanese army in southern Lebanon this morning, saying it was traveling in an active combat zone.\n\nThe strike killed a brigadier general, a captain, and another soldier, according to the Lebanese Armed Forces.\n\nThe IDF says that it identified a vehicle \"moving suspiciously\" toward Israeli forces near the village of Kfar Tebnit. \n\n\"The vehicle was traveling in an active combat and evacuated area,\" the military says, adding that troops in the area had been on alert regarding potential attacks by Hezbollah, and that the IDF holds intellig",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:f467c73b332ad20ccb3f457a3636babe",
+      "source": "Avichay Adraee",
+      "source_detail": "IDF Arabic spokesperson · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-arabic-x",
+      "published_at": "2026-06-06T09:29:00Z",
+      "title": "🔸في وقت سابق اليوم (السبت) رصد جيش الدفاع مركبة كانت تتحرك بصورة مشبوهة باتجاه القوات قرب قرية تبنين في جنوب لبنان. 🔸وكانت المركبة تسير في منطقة قتال نشطة تم إخلاؤها كما ورد إنذار من وقوع عملية إطلاق نار باتجاه قوات جيش الدفاع في المنطقة. كما تشير المعلومات المتوافرة لدى جيش الدفاع إلى أن حزب الله ينشط بشكل واسع في هذه المنطقة. 🔸عقب رصد المركبة، وبناءً على المعلومات التحذيرية والخطر الذي شكّلته على القوات، تم استهدافها حيث تبين نتائج الفحص الأولي إلى أن ضابطين وجنديًا من الجيش اللبناني كانا داخل المركبة. ولا يزال الحادث قيد التحقيق. 🔸يذكر ان الحديث عن منطقة قتال تتطلب تنسيق الحركة مع جيش الدفاع. 🔸يجري جيش الدفاع تحقيقًا في الحادث وسيستخلص الدروس اللازمة وفقًا للنتائج. نؤكد ان قوات جيش ا",
+      "url": "https://x.com/AvichayAdraee/status/2063191546229338361",
+      "summary": "🔸في وقت سابق اليوم (السبت) رصد جيش الدفاع مركبة كانت تتحرك بصورة مشبوهة باتجاه القوات قرب قرية تبنين في جنوب لبنان.\n\n🔸وكانت المركبة تسير في منطقة قتال نشطة تم إخلاؤها كما ورد إنذار من وقوع عملية إطلاق نار باتجاه قوات جيش الدفاع في المنطقة. كما تشير المعلومات المتوافرة لدى جيش الدفاع إلى أن حزب الله ينشط بشكل واسع في هذه المنطقة.\n\n🔸عقب رصد المركبة، وبناءً على المعلومات التحذيرية والخطر الذي شكّلته على القوات، تم استهدافها حيث تبين نتائج الفحص الأولي إلى أن ضابطين وجنديًا من الجيش اللبناني كانا داخل المركبة. ولا يزال الحادث قيد التحقيق.\n\n🔸يذكر ان الحديث عن منطقة قتال تتطلب تنسيق الحركة مع جيش ال",
+      "details": {
+        "handle": "@AvichayAdraee",
+        "language": "ar"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "title_en": "Earlier today (Saturday), the IDF identified a vehicle moving suspiciously towards troops near the village of Tabnin in southern Lebanon. The vehicle was travelling in an active combat zone that had been evacuated, and a warning was issued of a shooting attack against IDF troops in the area.",
+      "summary_en": "Earlier today (Saturday), the IDF identified a vehicle moving suspiciously towards troops near the village of Tabnin in southern Lebanon. The vehicle was travelling in an active combat zone that had been evacuated, and a warning was issued of a shooting attack against IDF troops in the area. Available information indicates that Hezbollah is operating widely in this area. Following identification of the vehicle and based on intelligence warnings and the threat it posed to the troops, it was targeted. Initial examination results showed that two officers and a soldier from the Lebanese army were inside the vehicle. The incident remains under investigation. It should be noted that an active combat zone requires coordinated movement with the army.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mnmcx552z22b",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-06T09:16:06.899000Z",
+      "title": "Darializa Avila Chevalier, a candidate for Congress in New York City, has defended participating in an anti-Israel, pro-Hamas rally on…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mnmcx552z22b",
+      "summary": "Darializa Avila Chevalier, a candidate for Congress in New York City, has defended participating in an anti-Israel, pro-Hamas rally on October 8, 2023, the day after the Hamas onslaught in Israel.\n\nwww.timesofisrael.com/mamdani-back...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:736151041ead40ad4dd9bdf1fe7a86a3",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-06-06T08:50:00Z",
+      "title": "The Lebanese army says a strike carried out by Israel this morning in southern Lebanon killed a senior commander, another officer, and a soldier. The strike hit a military vehicle on a road between Kfar Tebnit and Khardali in the Nabatieh area, \"resulting in the deaths of two officers, holding the ranks of brigadier general and captain, and one soldier,\" according to the Lebanese Armed Forces. The IDF has not yet commented on the strike.",
+      "url": "https://x.com/manniefabian/status/2063181808515084729",
+      "summary": "The Lebanese army says a strike carried out by Israel this morning in southern Lebanon killed a senior commander, another officer, and a soldier.\n\nThe strike hit a military vehicle on a road between Kfar Tebnit and Khardali in the Nabatieh area, \"resulting in the deaths of two officers, holding the ranks of brigadier general and captain, and one soldier,\" according to the Lebanese Armed Forces.\n\nThe IDF has not yet commented on the strike.— Emanuel (Mannie) Fabian (@manniefabian) Jun 6, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    }
+  ]
+}
