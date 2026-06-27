@@ -1,0 +1,1095 @@
+{
+  "generated_at": "2026-06-27T15:47:32.194273Z",
+  "window_since": "2026-06-27T05:00:00Z",
+  "window_until": "2026-06-27T15:46:12.924339Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 4,
+      "kept": 4,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 30,
+      "kept": 30,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 29,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "41 items dominated by regime-channel coverage of a 'martyred leader' funeral build-up and IRGC Strait of Hormuz readiness claims, alongside Israeli press reports of anti-Hamas protests in Gaza and Iran Foreign Ministry ceasefire-violation claims; nothing from UK Parliament, State Dept or OFAC.",
+  "threads": [
+    {
+      "label": "Funeral preparations for 'martyred leader'",
+      "summary": "Regime channels said a national headquarters has been formed for the funeral of the 'revolution's martyred leader', with 1,000 Tehran schools prepared for pilgrims and the first vice president ordering deployment of executive capacities. Police chief Radan and government spokesman Mohajrani framed the procession as a display of national unity, alongside a Khamenei office message on preserving unity.",
+      "event_ids": [
+        "telegram:iribnews/347577",
+        "telegram:defapress_ir/62044",
+        "telegram:defapress_ir/62043",
+        "telegram:iribnews/347569",
+        "telegram:rahbar_enghelab_ir/690"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Strait of Hormuz and ceasefire claims",
+      "summary": "IRIB quoted the Supreme Leader's IRGC representative saying forces are 'ready for mission' in the Persian Gulf and Strait of Hormuz, and reported Iran-Oman consultations on a framework for managing the strait. The Jerusalem Post reported Iran's Foreign Ministry claiming a US strike on Iran and an alleged attack on Lebanon violated the ceasefire.",
+      "event_ids": [
+        "telegram:iribnews/347575",
+        "telegram:iribnews/347572",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpaxivbjqj23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpb5jjroxy26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpbi5eujku23"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Lebanon-Israel agreement denounced",
+      "summary": "Defa Press carried Ansarullah Yemen official Mohammad al-Farah calling the Lebanon-Israel agreement 'a coalition to destroy resistance', and Hezbollah parliamentary bloc head Mohammad Raed saying the Lebanese government has come under 'American guardianship'. The outlet framed the deal as transferring the battle into Lebanese territory.",
+      "event_ids": [
+        "telegram:defapress_ir/62049",
+        "telegram:defapress_ir/62046"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Anti-Hamas protests in Gaza",
+      "summary": "The Times of Israel reported hundreds of Palestinians demonstrating in Gaza on Friday with signs reading 'Hamas out' and 'We want to live'. The Jerusalem Post followed up saying planned anti-Hamas demonstrations were largely suppressed after Hamas deployed armed operatives and imposed movement restrictions.",
+      "event_ids": [
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpbihiagjk2n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpbrf3osk726"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran economic and infrastructure strain",
+      "summary": "IRIB said the Central Bank will allocate $2 billion for industrial sector imports in a first phase, citing 'removal of oil export restrictions', while Tehran's electricity distribution CEO said air conditioners consume 3,500 megawatts. Iran International cited Shargh daily on repeated banking system failures and reported on the limits of direct-to-cell satellite tech against Iran's internet shutdown.",
+      "event_ids": [
+        "telegram:iribnews/347571",
+        "telegram:iribnews/347578",
+        "iranintl:https://www.iranintl.com/en/202606277877",
+        "iranintl:https://www.iranintl.com/en/202606260731"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/347581",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T15:40:46Z",
+      "title": "قهرمانی تیم فوتسال بانوان ایران در رقابت‌های ۲۰۲۶ کافا 🔹 تیم ملی فوتسال بانوان ایران در دومین دیدار خود از…",
+      "url": "https://t.me/iribnews/347581",
+      "summary": "قهرمانی تیم فوتسال بانوان ایران در رقابت‌های ۲۰۲۶ کافا 🔹 تیم ملی فوتسال بانوان ایران در دومین دیدار خود از رقابت‌های قهرمانی کافا ۲۰۲۶ که به میزبانی شهر دوشنبه تاجیکستان برگزار می‌شد، برابر تیم میزبان به میدان رفت و با نمایشی برتر موفق شد حریف خود را با نتیجه۸ بر یک شکست دهد. 🔹 گل‌های این بازی را شقایق معتمدی (۲ گل)، الهام عنافجه (۲ گل)، مارال ترکمان (۲ گل)، فرشته کریمی و مریم قائدامینی به ثمر رساندند. 🔹 گفتنی است، تیم ملی فوتسال بانوان ایران در نخستین دیدار خود برابر قرقیزستان به میدان رفت و با نمایشی برتر موفق شد حریف خود را با نتیجه ۵ بر صفر شکست دهد. 🔹 تیم ملی فوتسال بانوان روز یکشنبه از س",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347581"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran women's futsal team champions in 2026 AFC competition",
+      "summary_en": "Iran women's futsal team champions in 2026 AFC competition. In its second match of the 2026 AFC championship competition, which was hosted in Dushanbe, Tajikistan, Iran's national women's futsal team faced the host team and delivered a superior performance, defeating their opponents 8-1. The goals in this match were scored by Shaghayegh Motamedi (2 goals), Elham Anafaje (2 goals), Maral Turkman (2 goals), Farshte Karimi and Maryam Qaidaminini. In its first match, Iran's national women's futsal team faced Kyrgyzstan and with a superior display defeated their opponents 5-0. On Sunday, the national women's futsal team will face...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62049",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T15:28:35Z",
+      "title": "💢 انصارالله یمن: توافق لبنان و رژیم صهیونیستی، ائتلاف برای نابودی مقاومت است 🔸 «محمد الفرح» عضو دفتر سیاسی…",
+      "url": "https://t.me/defapress_ir/62049",
+      "summary": "💢 انصارالله یمن: توافق لبنان و رژیم صهیونیستی، ائتلاف برای نابودی مقاومت است 🔸 «محمد الفرح» عضو دفتر سیاسی جنبش انصارالله یمن تأکید کرد که توافق بین دولت لبنان و رژیم صهیونیستی، ائتلافی برای نابودی مقاومت است. 🔸 خطرناک‌ترین جنبه این توافق، موفقیت دشمن اسرائیلی در انتقال نبرد به داخل لبنان است و نتیجه حتمی این توافق یکی از دو سناریو خواهد بود؛ جنگ داخلی ویرانگر لبنان یا اشغال مستقیم لبنان توسط صهیونیست‌ها؛ بنابراین مردم لبنان حق دارند این دولت دست‌نشانده را با هر وسیله ممکن سرنگون کنند. dnws.ir/003XYq @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62049"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ansarullah Yemen: Lebanon-Zionist regime agreement is a coalition to destroy resistance",
+      "summary_en": "Ansarullah Yemen: Lebanon-Zionist regime agreement is a coalition to destroy resistance. Mohammad al-Farah, a member of the Ansarullah movement's political bureau, stressed that the agreement between the Lebanese government and the Zionist regime is a coalition to destroy resistance. The most dangerous aspect of this agreement is the Israeli enemy's success in transferring the battle into Lebanese territory, and the inevitable result of this agreement will be one of two scenarios: either destructive civil war in Lebanon or direct occupation of Lebanon by Zionists; therefore, the Lebanese people have the right to overthrow this puppet government by any possible means.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpbrf3osk726",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-27T15:25:32.738000Z",
+      "title": "Report: Planned anti-Hamas demonstrations in Gaza were largely suppressed after Hamas deployed armed operatives and imposed movement…",
+      "url": "https://www.jpost.com/middle-east/article-900645",
+      "summary": "Report: Planned anti-Hamas demonstrations in Gaza were largely suppressed after Hamas deployed armed operatives and imposed movement restrictions.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347580",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T15:21:38Z",
+      "title": "گفتگوی تلفنی وزرای خارجه ایران و ونزوئلا 🔹 وزیر امور خارجه کشورمان در این گفت‌وگوی تلفنی، ضمن ابراز تسلیت و…",
+      "url": "https://t.me/iribnews/347580",
+      "summary": "گفتگوی تلفنی وزرای خارجه ایران و ونزوئلا 🔹 وزیر امور خارجه کشورمان در این گفت‌وگوی تلفنی، ضمن ابراز تسلیت و همدردی صمیمانه ملت و دولت ایران با مردم و دولت ونزوئلا، به‌ویژه خانواده‌های جان‌باختگان زمین‌لرزه سهمگین اخیر، برای مجروحان این حادثه نیز آرزوی بهبودی و سلامتی کرد. 🔹 عراقچی همچنین با تأکید بر اینکه جمهوری اسلامی ایران در این شرایط دشوار در کنار مردم ونزوئلا ایستاده است، آمادگی کشورمان را برای ارائه هرگونه مساعدت و مشارکت در عملیات امداد و نجات اعلام کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347580"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Telephone conversation between Iranian and Venezuelan foreign ministers",
+      "summary_en": "Telephone conversation between Iranian and Venezuelan foreign ministers. In this telephone conversation, Iran's foreign minister expressed the sincere condolences and sympathy of the Iranian nation and government with the people and government of Venezuela, especially the families of those killed in the recent devastating earthquake, and wished the injured in this incident recovery and good health. Araghchi also, emphasising that the Islamic Republic of Iran stands with the people of Venezuela in these difficult circumstances, announced the readiness of our country to provide any assistance and participate in rescue and relief operations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347579",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T15:16:09Z",
+      "title": "🎦 زنجان عزادار امام سجاد(ع) 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/347579",
+      "summary": "🎦 زنجان عزادار امام سجاد(ع) 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347579"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Zanjan mourns Imam Sajjad",
+      "summary_en": "Zanjan mourns Imam Sajjad",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62047",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T15:01:30Z",
+      "title": "💢 نقص فنی متعدد، آتش‌سوزی و انتشار دود از پنج‌ماهه گذشته در پالایشگاه‌ بازان رژیم صهیونیستی 🔸 سخنگوی سازمان…",
+      "url": "https://t.me/defapress_ir/62047",
+      "summary": "💢 نقص فنی متعدد، آتش‌سوزی و انتشار دود از پنج‌ماهه گذشته در پالایشگاه‌ بازان رژیم صهیونیستی 🔸 سخنگوی سازمان آتش‌نشانی رژیم‌ صهیونیستی از وقوع یک آتش‌سوزی در مجتمع پالایشگاه بازان شهر حیفا خبر داد. 🔸 این سخنگو نیز اعلام کرد هفت تیم آتش‌نشانی از به محل حادثه اعزام شدند و بررسی اولیه نشان داد اختلال در تجهیزات صنعتی این پالایشگاه منجر به آتش‌سوزی در منطقه شده است. 🔸 به گفته کارشناسان حادثه فوق سومین رخداد نقص صنعتی طی کمتر از پنج ماه در این پالایشگاه است که نشان از عدم توانایی متخصصین رژیم صهیونیستی در حل نواقص مشکوک پیش امده در این مجتمع دارد. 🔸 پیش‌ازاین نیز، در ۱۴ بهمن‌ماه، نقص در تجهیزات برق‌",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62047"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Multiple technical faults, fire and smoke emission over past five months at Zionist regime's Bazan refinery",
+      "summary_en": "Multiple technical faults, fire and smoke emission over past five months at Zionist regime's Bazan refinery. The spokesman for the Zionist regime's fire service reported the occurrence of a fire at the Bazan refinery complex in the city of Haifa. This spokesman also announced that seven fire service teams were dispatched to the site and preliminary investigation showed that a malfunction in the industrial equipment of this refinery caused the fire in the area. According to experts, the aforementioned incident is the third industrial fault occurrence in less than five months at this refinery, which shows the Zionist regime's specialists' lack of capability in resolving suspicious defects that have occurred in this complex. Previously, on 14 Bahman, a fault occurred in electrical equipment...",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpbpxsmcux2c",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-27T15:00:14.190000Z",
+      "title": "Rainbow flags fluttered among the sea of Iranian and Egyptian banners at Seattle’s World Cup stadium Friday, as teams from two of the most…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mpbpxsmcux2c",
+      "summary": "Rainbow flags fluttered among the sea of Iranian and Egyptian banners at Seattle’s World Cup stadium Friday, as teams from two of the most repressive countries for lesbian, gay, bisexual and transgender people took to the field. \n\nRead more on ToI.\n\nwww.timesofisrael.com/rainbow-flag...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62046",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:56:04Z",
+      "title": "💢 محمد رعد: دولت لبنان زیر قیمومیت آمریکا رفت 🔸 رئیس فراکسیون حزب‌الله به اقدام دولت غربگرای لبنان در امضای…",
+      "url": "https://t.me/defapress_ir/62046",
+      "summary": "💢 محمد رعد: دولت لبنان زیر قیمومیت آمریکا رفت 🔸 رئیس فراکسیون حزب‌الله به اقدام دولت غربگرای لبنان در امضای توافق ذلت‌بار با رژیم صهیونیستی واکنش نشان داد. dnws.ir/003XYc @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62046"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Mohammad Raed: Lebanese government has come under American guardianship",
+      "summary_en": "Mohammad Raed: Lebanese government has come under American guardianship. The head of Hezbollah's parliamentary bloc responded to the westward-leaning Lebanese government's act of signing a humiliating agreement with the Zionist regime.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347578",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:53:01Z",
+      "title": "🎦 کولرها اندازه‌ی ۳ میلیون و ۵۰۰ هزار خانواده برق مصرف می‌کنند مدیرعامل شرکت توزیع برق تهران بزرگ: 🔹 هر یک…",
+      "url": "https://t.me/iribnews/347578",
+      "summary": "🎦 کولرها اندازه‌ی ۳ میلیون و ۵۰۰ هزار خانواده برق مصرف می‌کنند مدیرعامل شرکت توزیع برق تهران بزرگ: 🔹 هر یک مگاوات معادل مصرف برق هزار خانواده است. 🔹 وسایل سرمایشی در تهران سه هزار و ۵۰۰ مگاوات معادل سه میلیون و ۵۰۰ هزار خانواده برق مصرف می کنند. 🔹 مشترکان کولرهای گازی خود را روی عدد ۲۵ درجه و کولر آبی را روی دور کند تنظیم کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347578"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Air conditioners consume electricity equivalent to 3.5 million households, CEO of Greater Tehran Electricity Distribution Company",
+      "summary_en": "Air conditioners consume electricity equivalent to 3.5 million households, CEO of Greater Tehran Electricity Distribution Company. One megawatt is equivalent to the electricity consumption of one thousand households. Air-conditioning equipment in Tehran consumes 3,500 megawatts, equivalent to the electricity consumption of 3.5 million households. Users of air-conditioning units should set their gas air conditioners to 25 degrees and water-based coolers to gentle speed.",
+      "has_figures": true,
+      "figures_examples": [
+        "3.5 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/347577",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:51:09Z",
+      "title": "۱۰۰۰ مدرسه تهران آماده اسکان زائران رهبر شهید 🔹 مدیرکل رفاه و پشتیبانی وزارت آموزش‌وپرورش: بیش از هزار مدرسه…",
+      "url": "https://t.me/iribnews/347577",
+      "summary": "۱۰۰۰ مدرسه تهران آماده اسکان زائران رهبر شهید 🔹 مدیرکل رفاه و پشتیبانی وزارت آموزش‌وپرورش: بیش از هزار مدرسه در تهران برای اسکان زائران آماده شده است 🔹 زائران بر اساس تقسیم‌بندی ستاد برگزاری مراسم به مراکز اسکان هدایت می‌شوند و ثبت‌نام متقاضیان حضور و همچنین میزبانان مردمی نیز از طریق بات «باید برخاست» در پیام‌رسان‌های بله، ایتا و سروش‌پلاس انجام می‌شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347577"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "1,000 Tehran schools ready to accommodate pilgrims of the martyred leader",
+      "summary_en": "1,000 Tehran schools ready to accommodate pilgrims of the martyred leader. Director General of Welfare and Support of the Ministry of Education: More than one thousand schools in Tehran have been prepared to accommodate pilgrims. Pilgrims are guided to accommodation centres based on the ceremony organising committee's division, and registration of those wishing to attend and also public hosts is carried out through the 'Baayed Barkhasht' bot in messaging apps Bale, ITRA and Soroush Plus.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347576",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:48:01Z",
+      "title": "🔺 پیام سید عباس عراقچی وزیر امور خارجه به آیین گرامیداشت شهدای بمباران شیمیایی سردشت 🔹 با درود بی‌پایان به…",
+      "url": "https://t.me/iribnews/347576",
+      "summary": "🔺 پیام سید عباس عراقچی وزیر امور خارجه به آیین گرامیداشت شهدای بمباران شیمیایی سردشت 🔹 با درود بی‌پایان به روح پرفتوح رهبر شهید و همه شهدای والامقام تجاوز اخیر، یاد شهدای جنایت هولناک بمباران شیمیایی سردشت، جانبازان سرافراز شیمیایی و تمامی شهیدان راه عزت، استقلال و سربلندی ایران اسلامی را با نهایت احترام و افتخار گرامی می‌داریم. 🔹 سی‌ونهمین سالگرد فاجعه جانسوز بمباران شیمیایی شهر سردشت و روز ملی مبارزه با سلاح‌های شیمیایی و میکروبی در حالی گرامی داشته می‌شود که تاریخ، برگ خونین اما پرافتخار دیگری از مظلومیت و مقاومت ملت ایران را پیش روی جهانیان گشوده است. 🔹 سردشت تنها یک شهر نیست؛ نماد مظلومیت",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347576"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Message from Seyyed Abbas Araghchi, Foreign Minister, to the ceremony commemorating the martyrs of the chemical bombing of Sardasht",
+      "summary_en": "Message from Seyyed Abbas Araghchi, Foreign Minister, to the ceremony commemorating the martyrs of the chemical bombing of Sardasht. With endless salutations to the bright soul of the martyred leader and all the honourable martyrs of the recent aggression, we respectfully and honourably commemorate the martyrs of the horrific crime of the chemical bombing of Sardasht, the brave chemical war victims and all the martyrs of the path of dignity, independence and pride of the Islamic Republic of Iran. The 39th anniversary of the burning tragedy of the chemical bombing of the city of Sardasht and the national day of struggle against chemical and biological weapons is being commemorated at a time when history has opened another blood-stained but glorious page of the suffering and resistance of the Iranian nation before the world. Sardasht is not merely a city; it is a symbol of suffering...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347575",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:44:01Z",
+      "title": "🎦 نماینده ولی فقیه در سپاه: رزمندگان سپاه در خلیج فارس و تنگه هرمز آماده ماموریت‌اند @iribnews",
+      "url": "https://t.me/iribnews/347575",
+      "summary": "🎦 نماینده ولی فقیه در سپاه: رزمندگان سپاه در خلیج فارس و تنگه هرمز آماده ماموریت‌اند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347575"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Supreme Leader's representative in IRGC: IRGC fighters are ready for mission in the Persian Gulf and Strait of Hormuz",
+      "summary_en": "Supreme Leader's representative in IRGC: IRGC fighters are ready for mission in the Persian Gulf and Strait of Hormuz",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347573",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:40:01Z",
+      "title": "📸 دیدار سفیر ایران در گرجستان با وزیر امور خارجه 🔹 سید علی موجانی سفیر جمهوری اسلامی ایران در تفلیس، امروز…",
+      "url": "https://t.me/iribnews/347573",
+      "summary": "📸 دیدار سفیر ایران در گرجستان با وزیر امور خارجه 🔹 سید علی موجانی سفیر جمهوری اسلامی ایران در تفلیس، امروز شنبه با سید عباس عراقچی وزیر امور خارجه دیدار و گفتگو کرد. 🔹 این دیدار سفیر کشورمان گزارشی از وضعیت روابط دوجانبه، ابتکارها و اقدامات صورت گرفته و برنامه‌های در دست انجام برای توسعه روابط و گسترش همکاری‌ها میان جمهوری اسلامی ایران و گرجستان ارائه کرد. 🔹 وزیر امور خارجه با اشاره به روابط تاریخی و پیوندهای دیرینه ایران و گرجستان، بر ضرورت تقویت همکاری‌ها و گسترش تعاملات و رایزنی‌های دوجانبه در تمامی حوزه‌های مورد علاقه، در چارچوب احترام متقابل و منافع مشترک تأکید کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347573"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting between Iran's ambassador to Georgia and foreign minister",
+      "summary_en": "Meeting between Iran's ambassador to Georgia and foreign minister. Seyyed Ali Mojani, ambassador of the Islamic Republic of Iran in Tbilisi, met and held talks with Seyyed Abbas Araghchi, foreign minister, on Saturday. During this meeting, Iran's ambassador presented a report on the state of bilateral relations, the initiatives and measures taken and programmes underway to develop relations and expand cooperation between the Islamic Republic of Iran and Georgia. The foreign minister, referring to the historical relations and long-standing ties between Iran and Georgia, emphasised the necessity of strengthening cooperation and expanding bilateral interactions and consultations in all areas of interest, within the framework of mutual respect and shared interests.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62045",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:38:27Z",
+      "title": "💢 آماده‌باش هلال‌احمر در پی احتمال وقوع سیلاب و بارش‌های شدید در ۹ استان 🔸 معاون عملیات سازمان امدادونجات…",
+      "url": "https://t.me/defapress_ir/62045",
+      "summary": "💢 آماده‌باش هلال‌احمر در پی احتمال وقوع سیلاب و بارش‌های شدید در ۹ استان 🔸 معاون عملیات سازمان امدادونجات جمعیت هلال‌احمر با اشاره به هشدار سازمان مدیریت بحران کشور درباره احتمال وقوع بارش‌های شدید و سیلاب در ۹ استان، از آماده‌باش کامل نیروهای عملیاتی، تیم‌های امداد و نجات و پایگاه‌های هلال‌احمر خبر داد. dnws.ir/003XYb @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62045"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Red Crescent alert following likelihood of floods and heavy rainfall in 9 provinces",
+      "summary_en": "Red Crescent alert following likelihood of floods and heavy rainfall in 9 provinces. The deputy for operations of the Iran Red Crescent Society's rescue and relief organisation, referring to the warning issued by the country's crisis management organisation about the likelihood of heavy rainfall and floods in 9 provinces, reported full alert of operational forces, rescue teams and Red Crescent bases.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347572",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:36:22Z",
+      "title": "🎦 ایران و عمان درباره چارچوب اداره تنگه هرمز و خدمات دریایی رایزنی می‌کنند مهاجرانی: 🔹 وزارت امور خارجه اعلام…",
+      "url": "https://t.me/iribnews/347572",
+      "summary": "🎦 ایران و عمان درباره چارچوب اداره تنگه هرمز و خدمات دریایی رایزنی می‌کنند مهاجرانی: 🔹 وزارت امور خارجه اعلام کرده است که ایران و عمان گفت‌وگوهایی را برای تعیین چارچوب اداره آینده و خدمات دریایی در تنگه هرمز انجام خواهند داد و جمهوری اسلامی ایران مصمم است این موضوع را با هماهنگی و تبادل نظر با همسایگان خود پیش ببرد. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347572"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran and Oman consult on framework for managing Strait of Hormuz and maritime services, Mohajrani",
+      "summary_en": "Iran and Oman consult on framework for managing Strait of Hormuz and maritime services, Mohajrani. The Ministry of Foreign Affairs has announced that Iran and Oman will hold discussions to determine the framework for future management and maritime services in the Strait of Hormuz, and the Islamic Republic of Iran is determined to advance this matter with coordination and consultation with its neighbours.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347571",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:33:02Z",
+      "title": "🎦 تخصیص دو میلیارد دلار ارز در گام نخست به واردات بخش صنعت سخنگوی دولت: 🔹 بانک مرکزی اعلام کرده است که با…",
+      "url": "https://t.me/iribnews/347571",
+      "summary": "🎦 تخصیص دو میلیارد دلار ارز در گام نخست به واردات بخش صنعت سخنگوی دولت: 🔹 بانک مرکزی اعلام کرده است که با توجه به معافیت‌های اخیر و رفع محدودیت‌های صادرات نفتی، از امروز، شنبه ششم تیرماه، تخصیص و تأمین ارز برای واردات افزایش معناداری خواهد داشت و در نخستین مرحله، دو میلیارد دلار برای بخش صنعت تأمین می‌شود. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347571"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Allocation of 2 billion dollars in currency in first step to industrial sector imports, government spokesman",
+      "summary_en": "Allocation of 2 billion dollars in currency in first step to industrial sector imports, government spokesman. The Central Bank has announced that taking into account recent exemptions and removal of oil export restrictions, from today, Saturday 6th of Tir month, the allocation and provision of foreign currency for imports will see significant increase, and in the first phase, 2 billion dollars will be provided for the industrial sector.",
+      "has_figures": true,
+      "figures_examples": [
+        "2 billion"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/347570",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:31:01Z",
+      "title": "🔺 زلزله ۶ ریشتری در افغانستان 🔹 منابع خبری از وقوع زلزله ۶ ریشتری در منطقه هندوکش در افغانستان خبر می دهند.…",
+      "url": "https://t.me/iribnews/347570",
+      "summary": "🔺 زلزله ۶ ریشتری در افغانستان 🔹 منابع خبری از وقوع زلزله ۶ ریشتری در منطقه هندوکش در افغانستان خبر می دهند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347570"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "6-magnitude earthquake in Afghanistan",
+      "summary_en": "6-magnitude earthquake in Afghanistan. News sources report the occurrence of a 6-magnitude earthquake in the Hindu Kush region in Afghanistan.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62044",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:30:05Z",
+      "title": "💢 عارف: ظرفیت‌های مردمی و اجرایی برای مراسم وداع با رهبر شهید به کارگرفته شود 🔸 معاون اول رئیس‌جمهور در حکمی…",
+      "url": "https://t.me/defapress_ir/62044",
+      "summary": "💢 عارف: ظرفیت‌های مردمی و اجرایی برای مراسم وداع با رهبر شهید به کارگرفته شود 🔸 معاون اول رئیس‌جمهور در حکمی به استاندار تهران در خصوص برگزاری مراسم وداع و تشییع رهبر شهید انقلاب اسلامی، بر استفاده از همه ظرفیت‌های مردمی، اجرایی و انقلابی تاکید کرد. dnws.ir/003XYZ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62044"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Aref: Popular and executive capacities should be employed for farewell ceremony to martyred leader",
+      "summary_en": "Aref: Popular and executive capacities should be employed for farewell ceremony to martyred leader. In an order to the governor of Tehran regarding the holding of the farewell and funeral ceremony for the martyred leader of the Islamic Revolution, the first vice president emphasised the use of all popular, executive and revolutionary capacities.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62043",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:27:49Z",
+      "title": "💢 سردار رادان: تشییع رهبر شهید نمایش عشق و علاقه یک ملت به رهبرشان است 🔸 فرمانده کل انتظامی کشور با اشاره به…",
+      "url": "https://t.me/defapress_ir/62043",
+      "summary": "💢 سردار رادان: تشییع رهبر شهید نمایش عشق و علاقه یک ملت به رهبرشان است 🔸 فرمانده کل انتظامی کشور با اشاره به اهمیت مراسم تشییع رهبر شهید گفت: این مراسم صرفاً یک تشییع نیست، بلکه جلوه‌ای از قدرت، صلابت، اتحاد و عشق مردم به امام شهید و آرمان‌های انقلاب اسلامی است. 🔸 چند دهه است که تشییع تاریخی حضرت امام خمینی (ره) مورد توجه جهانیان قرار دارد و مطمئن هستیم این مراسم نیز در تاریخ به عنوان یکی از بی نظیرترین تشییع‌ها ثبت خواهد شد. 🔸 از برخی کشور‌های همسایه از جمله افغانستان، پاکستان و عراق اعلام شده که افراد زیادی برای شرکت در مراسم تشییع به ایران خواهند آمد و در مقابل تعدادی از هموطنان نیز برای حض",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62043"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Radan: Funeral procession of martyred leader is display of nation's love and affection for their leader",
+      "summary_en": "Commander Radan: Funeral procession of martyred leader is display of nation's love and affection for their leader. The commander-in-chief of police, referring to the importance of the martyred leader's funeral ceremony, said: This ceremony is not merely a funeral, but rather a manifestation of the power, resilience, unity and people's love for Imam the Martyr and the ideals of the Islamic Revolution. For several decades, the historic funeral of Imam Khomeini (may he rest in peace) has been the subject of global attention, and we are confident that this ceremony will also be recorded in history as one of the most unprecedented funerals. From some neighbouring countries including Afghanistan, Pakistan and Iraq, it has been announced that many people will come to Iran to participate in the funeral ceremony, and in return, a number of fellow citizens will also prepare to attend...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347569",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:26:55Z",
+      "title": "🎦 تشکیل ستاد ملی تشییع رهبر شهید انقلاب؛ هر خانه، یک موکب مهاجرانی، سخنگوی دولت: 🔹 برگزاری منظم جلسات ستاد…",
+      "url": "https://t.me/iribnews/347569",
+      "summary": "🎦 تشکیل ستاد ملی تشییع رهبر شهید انقلاب؛ هر خانه، یک موکب مهاجرانی، سخنگوی دولت: 🔹 برگزاری منظم جلسات ستاد مراسم تشییع و وداع با رهبر شهید انقلاب و خانواده ایشان خبر داد و گفت: این جلسات در استان‌ها نیز فعال است و ریاست ستاد بر عهده معاون اول رئیس‌جمهور و مسئولیت استانی با استانداران است. 🔹 طرح «هر خانه یک موکب و یک زائرسرا» برای مردمی‌تر شدن مراسم اجرا می‌شود تا شاهد وداع با امام شهیدمان باشیم؛ کسی که در راه اعتلای نام بزرگ ایران، جان خود را فدای جمهوری اسلامی ایران کرد. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347569"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Formation of national headquarters for funeral of revolution's martyred leader; every home, one mourning hall, Mohajrani, government spokesman",
+      "summary_en": "Formation of national headquarters for funeral of revolution's martyred leader; every home, one mourning hall, Mohajrani, government spokesman. The regular holding of sessions of the committee organising the funeral and farewell ceremony for the revolution's martyred leader and his family was announced, and he said: These sessions are also active in the provinces and the committee is headed by the first vice president with provincial responsibility resting with the governors. The scheme 'Every home a mourning hall and a pilgrim house' will be implemented to make the ceremony more popular so we witness the farewell to our martyred Imam; he who in pursuit of upholding the great name of Iran sacrificed his life for the Islamic Republic of Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347568",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:23:02Z",
+      "title": "🔺 برگزاری امتحانات نهایی در زمان‌های اعلام‌شده وزیر آموزش‌وپرورش: 🔹 امتحانات نهایی مطابق برنامه زمان‌بندی…",
+      "url": "https://t.me/iribnews/347568",
+      "summary": "🔺 برگزاری امتحانات نهایی در زمان‌های اعلام‌شده وزیر آموزش‌وپرورش: 🔹 امتحانات نهایی مطابق برنامه زمان‌بندی اعلام‌شده، برگزار خواهد شد. 🔹 جزئیات دقیق زمان‌بندی و اطلاعیه‌های تکمیلی از سوی وزارت آموزش‌وپرورش اعلام می شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347568"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Final examinations to be held at announced times, education minister",
+      "summary_en": "Final examinations to be held at announced times, education minister. Final examinations will be held according to the announced timetable. Detailed timing and supplementary announcements will be made by the Ministry of Education.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62042",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:18:42Z",
+      "title": "💢 صدیقی: ثبت‌نام زائران اربعین در سامانه سماح از نهم تیرماه آغاز می‌شود 🔸 دبیر ستاد اربعین خوزستان:  زائران…",
+      "url": "https://t.me/defapress_ir/62042",
+      "summary": "💢 صدیقی: ثبت‌نام زائران اربعین در سامانه سماح از نهم تیرماه آغاز می‌شود 🔸 دبیر ستاد اربعین خوزستان:  زائران در طول این سفر ممکن است در معرض مخاطراتی همچون بیماری، حوادث رانندگی و مسائل حمل‌ونقل قرار گیرند؛ از این رو، بیمه بهترین راهکار برای جبران خسارت‌های ناخواسته خواهد بود. 🔸 از تمامی متقاضیان زیارت اربعین تقاضا می‌شود ضمن ثبت‌نام در سامانه سماح که از نهم تیرماه آغاز می‌شود، حتماً نسبت به تهیه بیمه اقدام کنند. 🔸 حق‌بیمه تعیین‌شده بسیار ناچیز است اما پوشش‌های بسیار مناسبی در حوزه‌های درمانی و پرداخت غرامت فوت ارائه می‌دهد. 🔸 تجربیات سنوات گذشته نشان می‌دهد زائرانی که بدون بیمه دچار حادثه شده‌",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62042"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sadeqi: Registration of Arbaeen pilgrims in Samah system to begin on 9th of Tir month",
+      "summary_en": "Sadeqi: Registration of Arbaeen pilgrims in Samah system to begin on 9th of Tir month. Secretary of the Arbaeen headquarters in Khuzestan: During this journey pilgrims may face dangers such as illness, traffic accidents and transportation problems; therefore, insurance is the best solution for compensating for unwanted losses. All those seeking to visit Arbaeen are requested to, whilst registering in the Samah system which begins on 9th of Tir month, be sure to obtain insurance. The insurance premium set is very modest but provides very appropriate coverage in healthcare and death compensation areas. Past experience shows pilgrims who suffered accidents without insurance...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347567",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:14:48Z",
+      "title": "🎦 برنامه‌های سازمان بازرسی مسئله‌محور شد؛ هر بازرسی باید یک مشکل مشخص از جامعه را حل کند خدائیان رئیس سازمان…",
+      "url": "https://t.me/iribnews/347567",
+      "summary": "🎦 برنامه‌های سازمان بازرسی مسئله‌محور شد؛ هر بازرسی باید یک مشکل مشخص از جامعه را حل کند خدائیان رئیس سازمان بازرسی کشور: 🔹 از ۲۱۴ گلوگاه فساد، تاکنون ۷۴ مورد رفع شده است؛ این یعنی یک سوم بسترهای شناسایی‌شده، حذف شده‌اند. 🔹 بازرسی‌های استانی جزیرهای لغو شد؛ اکنون برنامه‌ها به صورت سراسری اجرا می‌شود؛ مانند طرح مبارزه با فرار مالیاتی که همه استانها همزمان آن را دنبال میکنند. 🔹 نظارت هوشمند جایگزین روش سنتی شد؛ با الکترونیکی شدن دستگاه‌ها، بازرسی سنتی کارایی ندارد، بنابراین دسترسی به سامانه‌ها و نظارت الکترونیکی در دستور کار قرار گرفت. 🔹 سامانه «« 136.ir »؛ پل ارتباطی هوشمند با مردم؛ گزارشهای تل",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347567"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Inspection organisation's programmes became problem-oriented; every inspection must solve a specific problem in society, Khodaian, head of the State Inspection Organisation",
+      "summary_en": "Inspection organisation's programmes became problem-oriented; every inspection must solve a specific problem in society, Khodaian, head of the State Inspection Organisation. Of 214 corruption hotspots identified, 74 have been resolved so far; this means one third of the identified breeding grounds have been eliminated. Provincial inspections ceased to be isolated; now programmes are implemented nationwide; such as the plan to combat tax evasion which all provinces pursue simultaneously. Smart monitoring replaced the traditional method; with the digitisation of organisations, traditional inspection is not effective, so access to systems and electronic monitoring were placed on the agenda. The 136.ir system; an intelligent communication bridge with the people; reports received...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62032",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:09:16Z",
+      "title": "📷 دسته عزاداری سومین روز شهادت امام حسین(ع) dnws.ir/003XYX @Defapress_ir",
+      "url": "https://t.me/defapress_ir/62032",
+      "summary": "📷 دسته عزاداری سومین روز شهادت امام حسین(ع) dnws.ir/003XYX @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62032"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Mourning procession on the third day of the martyrdom of Imam Hussein",
+      "summary_en": "Mourning procession on the third day of the martyrdom of Imam Hussein",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347566",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:08:45Z",
+      "title": "🔺 فرماندار ماکو: براثر بارندگی شدید و ‌جاری شدن سیل در سه روستای بری، پنجرلو و ولی کندی شهرستان ماکو بیش از…",
+      "url": "https://t.me/iribnews/347566",
+      "summary": "🔺 فرماندار ماکو: براثر بارندگی شدید و ‌جاری شدن سیل در سه روستای بری، پنجرلو و ولی کندی شهرستان ماکو بیش از ۱۱۰ منزل دچار ابگرفتگی شدند تاجفر: 🔹 در این حادثه همچنین بیش از سه دهنه پل و بیش از صد متر از جاده مرزی ماکو به بورالان تخریب شد. 🔹 تاکنون ۳۳ دستگاه چادر در بین خانوار‌های آسیب دیده به همراه اقلام زیستی از جمله موکت و پتو توزیع شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347566"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Governor of Maku: Due to heavy rainfall and flooding in three villages Bari, Panjarlo and Vali Kandi in Maku county, over 110 homes were inundated, Tajefor",
+      "summary_en": "Governor of Maku: Due to heavy rainfall and flooding in three villages Bari, Panjarlo and Vali Kandi in Maku county, over 110 homes were inundated, Tajefor. In this incident, over three bridge spans and over one hundred metres of the Maku to Bourlane border road were also destroyed. To date, 33 tents have been distributed to affected households along with living supplies including carpets and blankets.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62030",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:06:26Z",
+      "title": "💢 دیدار مالکی با سفیر ایران در عراق 🔸 رئیس ائتلاف دولت قانون، روز شنبه، از محمد کاظم آل صادق، سفیر جمهوری…",
+      "url": "https://t.me/defapress_ir/62030",
+      "summary": "💢 دیدار مالکی با سفیر ایران در عراق 🔸 رئیس ائتلاف دولت قانون، روز شنبه، از محمد کاظم آل صادق، سفیر جمهوری اسلامی ایران در عراق، برای گفت‌و‌گو درباره روابط دوجانبه و آخرین تحولات سیاسی و امنیتی در منطقه، استقبال کرد. 🔸 در این دیدار، علاوه بر گفت‌و‌گو درباره آخرین تحولات سیاسی و امنیتی در منطقه، روابط دوجانبه بین عراق و جمهوری اسلامی ایران و راه‌های تقویت همکاری مشترک به گونه‌ای که در خدمت منافع دو ملت همسایه باشد، مورد بررسی قرار گرفت. dnws.ir/003XYW @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62030"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Maliki meets with Iran's ambassador to Iraq",
+      "summary_en": "Maliki meets with Iran's ambassador to Iraq. The head of the Rule of Law coalition, on Saturday, received Mohammad Kazem Ale Sadegh, ambassador of the Islamic Republic of Iran to Iraq, for talks regarding bilateral relations and the latest political and security developments in the region. In this meeting, besides discussion of the latest political and security developments in the region, bilateral relations between Iraq and the Islamic Republic of Iran and ways to strengthen mutual cooperation in a manner that serves the interests of the two neighbouring nations, were reviewed.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347565",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T14:03:06Z",
+      "title": "🎦 شناسایی ۲ هزار بستر فساد؛ ۲۱۴ مورد در اولویت پیشگیری خدائیان، رئیس سازمان بازرسی کشور: 🔹 بازرسی با رویکرد…",
+      "url": "https://t.me/iribnews/347565",
+      "summary": "🎦 شناسایی ۲ هزار بستر فساد؛ ۲۱۴ مورد در اولویت پیشگیری خدائیان، رئیس سازمان بازرسی کشور: 🔹 بازرسی با رویکرد پیشگیرانه به جای برخوردی، از میان ۲۰۰۰ مسئله شناسایی‌شده، ۲۱۴ مورد به عنوان «گلوگاه‌های فساد» در دستور کار قرار گرفت. 🔹 حذف بستر، نیازی به برخورد نمی‌گذارد؛ اقدام پیشگیرانه هم کم‌هزینه است و هم تأثیر دائمی دارد، چون با از بین رفتن زمینه، خودبه‌خود فسادی شکل نمی‌گیرد. 🔹 شفافیت؛ راهکاری کلیدی برای قطع زنجیره مشکلات؛ عدم شفافیت میتواند سرچشمه بسیاری از بی سامانی ها باشد. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347565"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Identification of 2,000 corruption breeding grounds; 214 cases prioritised for prevention, Khodaian, head of the State Inspection Organisation",
+      "summary_en": "Identification of 2,000 corruption breeding grounds; 214 cases prioritised for prevention, Khodaian, head of the State Inspection Organisation. Inspection with a preventive approach rather than punitive, from amongst 2,000 identified problems, 214 cases were placed as 'corruption hotspots' on the agenda. Eliminating the breeding ground requires no confrontation; preventive action is both low-cost and has lasting effect, because with the elimination of the environment, corruption does not form by itself. Transparency; a key solution to break the chain of problems; lack of transparency can be the source of many disorders.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347564",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T13:56:22Z",
+      "title": "🔺 نشست مشترک سران قوای مجریه، مقننه و قضائیه به میزبانی  رئیس‌جمهور در نهاد ریاست جمهوری برگزار شد @iribnews",
+      "url": "https://t.me/iribnews/347564",
+      "summary": "🔺 نشست مشترک سران قوای مجریه، مقننه و قضائیه به میزبانی  رئیس‌جمهور در نهاد ریاست جمهوری برگزار شد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347564"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Joint meeting of the heads of executive, legislative and judicial branches hosted by the president at the presidency institution",
+      "summary_en": "Joint meeting of the heads of executive, legislative and judicial branches hosted by the president at the presidency institution",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62029",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T13:47:17Z",
+      "title": "💢 نشست سران قوا برگزار شد 🔸 نشست مشترک سران قوای مجریه، مقننه و قضائیه امروز به میزبانی رئیس جمهور برگزار شد.…",
+      "url": "https://t.me/defapress_ir/62029",
+      "summary": "💢 نشست سران قوا برگزار شد 🔸 نشست مشترک سران قوای مجریه، مقننه و قضائیه امروز به میزبانی رئیس جمهور برگزار شد. dnws.ir/003XYU @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62029"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of heads of branches held",
+      "summary_en": "Meeting of heads of branches held. Joint meeting of the heads of executive, legislative and judicial branches was held today hosted by the president.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347563",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T13:41:26Z",
+      "title": "🔺 دیدار نوری المالکی با سفیر ایران در بغداد 🔹 رئیس ائتلاف دولت قانون عراق در دیدار با سفیر جمهوری اسلامی…",
+      "url": "https://t.me/iribnews/347563",
+      "summary": "🔺 دیدار نوری المالکی با سفیر ایران در بغداد 🔹 رئیس ائتلاف دولت قانون عراق در دیدار با سفیر جمهوری اسلامی ایران در بغداد، بر اهمیت تداوم ارتباط و هماهنگی عراق با محیط منطقه‌ای و حمایت از هر اقدامی که به تقویت امنیت و ثبات این کشور منجر شود، تأکید کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347563"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of Nouri al-Maliki with Iran's ambassador in Baghdad",
+      "summary_en": "Meeting of Nouri al-Maliki with Iran's ambassador in Baghdad. In a meeting with the Islamic Republic of Iran's ambassador in Baghdad, the head of Iraq's Rule of Law coalition emphasised the importance of continuing contact and coordination of Iraq with its regional environment and support for any measure that would strengthen the security and stability of this country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/347562",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T13:21:31Z",
+      "title": "🎦 یک کشته و ۱۳ زخمی در برخورد هواپیما به یک آسمان‌خراش در چین 🔹 در پی برخورد یک هواپیما به ساختمانی حدود ۵۲۰…",
+      "url": "https://t.me/iribnews/347562",
+      "summary": "🎦 یک کشته و ۱۳ زخمی در برخورد هواپیما به یک آسمان‌خراش در چین 🔹 در پی برخورد یک هواپیما به ساختمانی حدود ۵۲۰ متری در پکن دستکم ۱۳ نفر زخمی شده و خلبان جان خود را از دست داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/347562"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "One dead and 13 injured in plane collision with skyscraper in China",
+      "summary_en": "One dead and 13 injured in plane collision with skyscraper in China. Following a plane's collision with a building approximately 520 metres tall in Beijing, at least 13 people were injured and the pilot lost his life.",
+      "has_figures": true,
+      "figures_examples": [
+        "13 injured"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpbihiagjk2n",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-06-27T12:45:50.257000Z",
+      "title": "Hundreds of Palestinians took to the streets in the Gaza Strip on Friday to protest the Hamas terror group.",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mpbihiagjk2n",
+      "summary": "Hundreds of Palestinians took to the streets in the Gaza Strip on Friday to protest the Hamas terror group.\n\nFootage appeared to show protesters carrying signs reading, “God willing, Hamas out,” “We are not pawns,” and “We want to live.” \n\nRead more on The Times of Israel.",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpbi5eujku23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-27T12:40:10.110000Z",
+      "title": "WATCH: US-Iran agreement triggers debate over deterrence collapse and whether the next conflict may be closer than expected, as explored in…",
+      "url": "https://www.jpost.com/podcast/article-900439",
+      "summary": "WATCH: US-Iran agreement triggers debate over deterrence collapse and whether the next conflict may be closer than expected, as explored in this week’s Deep Dive episode. \nwww.jpost.com/podcast/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpb5jjroxy26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-27T09:30:06.435000Z",
+      "title": "It's a pause, not peace. Gulf states brace for next round of Iran war",
+      "url": "https://www.jpost.com/jerusalem-report/article-900359",
+      "summary": "It's a pause, not peace. Gulf states brace for next round of Iran war\nArab analysts and policymakers say the agreement may reduce tensions temporarily, but it does little to address concerns over Iran’s regional influence, missile program, and support for proxies.\nwww.jpost.com/jerusalem-re...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606260731",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-27T09:24:30Z",
+      "title": "Direct-to-cell offers Iranians future hope, not a fix today",
+      "url": "https://www.iranintl.com/en/202606260731",
+      "summary": "Direct-to-cell satellite technology could one day help Iranians bypass part of the Islamic Republic’s digital blockade, but it is not yet a practical solution to the country’s internet shutdown despite widespread hopes.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606276706",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-27T08:41:35Z",
+      "title": "Swedish court upholds dismissal of migration official over Iran security concerns",
+      "url": "https://www.iranintl.com/en/202606276706",
+      "summary": "A Swedish court upheld the dismissal of a Migration Agency case officer after finding the agency had lawful grounds to fire him based on security concerns linked to contacts with Iranian intelligence operatives and people connected to organized crime.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpaxivbjqj23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-27T07:42:22.958000Z",
+      "title": "Iran claims to strike US-linked targets. According to a statement from Iran's Foreign Ministry, the US attack on Iran, and an alleged…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-900639",
+      "summary": "Iran claims to strike US-linked targets. According to a statement from Iran's Foreign Ministry, the US attack on Iran, and an alleged attack on Lebanon \"in coordination with the United States,\" are both violations of the ceasefire agreement.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606277877",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-27T07:38:47Z",
+      "title": "Iran’s banks keep failing, but no one explains why – Iranian daily",
+      "url": "https://www.iranintl.com/en/202606277877",
+      "summary": "Iranian daily Shargh says Iran’s banking system is trapped in a familiar cycle: cyberattack, service collapse, public confusion, brief official statements and a gradual return to normal without any clear report on what failed or who was responsible.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpax5qgqol2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-06-27T07:36:08.844000Z",
+      "title": "At the UN Human Rights Council in Geneva, Dr. Cochav Elkayam-Levy outlined findings on Hamas sexual crimes during Oct 7 and hostage…",
+      "url": "https://www.jpost.com/israel-news/article-900638",
+      "summary": "At the UN Human Rights Council in Geneva, Dr. Cochav Elkayam-Levy outlined findings on Hamas sexual crimes during Oct 7 and hostage captivity, citing patterns of abuse and calling for global accountability. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/690",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-06-27T07:00:21Z",
+      "title": "🎞 حفظ وحدت؛ وظیفه اساسیِ جان‌فدایان 🔻 توصیه‌های مهم رهبر انقلاب اسلامی درباره شکر نعمت «وحدت ملی» و انسجام…",
+      "url": "https://t.me/rahbar_enghelab_ir/690",
+      "summary": "🎞 حفظ وحدت؛ وظیفه اساسیِ جان‌فدایان 🔻 توصیه‌های مهم رهبر انقلاب اسلامی درباره شکر نعمت «وحدت ملی» و انسجام حول پرچم جمهوری اسلامی ایران 🗓 بر اساس پیام ۷/خرداد/۱۴۰۵ 📀 نسخه کیفیت اصلی 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/690"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Preserving unity; the fundamental duty of devotees",
+      "summary_en": "Preserving unity; the fundamental duty of devotees Important recommendations of the Leader of the Islamic Revolution concerning gratitude for the blessing of \"national unity\" and cohesion around the flag of the Islamic Republic of Iran Based on message 7/Khordad/1405",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606279367",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-06-27T05:18:32Z",
+      "title": "Iran held by Egypt, waits on results in bid for first World Cup knockout place",
+      "url": "https://www.iranintl.com/en/202606279367",
+      "summary": "Iran’s official national team missed the chance to qualify automatically for the World Cup knockout stage for the first time in its history after a 1-1 draw with Egypt in Seattle, but can still advance depending on results in other groups.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    }
+  ]
+}
