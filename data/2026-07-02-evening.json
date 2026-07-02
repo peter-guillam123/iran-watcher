@@ -1,0 +1,1726 @@
+{
+  "generated_at": "2026-07-02T16:20:30.142601Z",
+  "window_since": "2026-07-02T05:00:00Z",
+  "window_until": "2026-07-02T16:17:51.586724Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-07-02&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 2,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 24,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 6,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 40,
+      "kept": 40,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 9,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 60,
+      "kept": 12,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    }
+  ],
+  "day_shape": "69 items dominated by Khamenei funeral logistics and tributes across regime channels, UN Security Council session on Iran's attack on Bahrain with UK statement, CENTCOM claiming 14 Iranian drones downed, and IDF strike on Hezbollah operative in south Lebanon.",
+  "threads": [
+    {
+      "label": "Khamenei funeral preparations in Tehran",
+      "summary": "Iranian state media, Defa Press and Khamenei's office posted extensive logistics for Friday's farewell ceremony, with the Foreign Ministry spokesman claiming representatives from around 100 countries would attend. Tehran was divided into four traffic rings, 14 reception centres opened, and delegations including Lebanon's Supreme Shia Council and Nabih Berri's eulogy were announced.",
+      "event_ids": [
+        "telegram:iribnews/348330",
+        "telegram:iribnews/348326",
+        "telegram:iribnews/348324",
+        "telegram:iribnews/348322",
+        "telegram:iribnews/348318",
+        "telegram:iribnews/348317",
+        "telegram:iribnews/348314",
+        "telegram:defapress_ir/62339",
+        "telegram:defapress_ir/62337",
+        "telegram:defapress_ir/62336",
+        "telegram:defapress_ir/62334",
+        "telegram:defapress_ir/62332",
+        "telegram:defapress_ir/62331",
+        "telegram:defapress_ir/62330",
+        "telegram:defapress_ir/62329",
+        "telegram:defapress_ir/62327",
+        "telegram:defapress_ir/62324",
+        "telegram:rahbar_enghelab_ir/723",
+        "telegram:iribnews/348325",
+        "telegram:iribnews/348327",
+        "telegram:defapress_ir/62341",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpo7edgdrb2y",
+        "iranintl:https://www.iranintl.com/en/202607028414"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "UNSC on Iran-Bahrain and CENTCOM posture",
+      "summary": "The UN Security Council convened at Bahrain's request following Iran's attack on the kingdom, with the UK's Ambassador Kariuki delivering a solidarity statement. CENTCOM Commander Adm. Brad Cooper said a joint C-UAS unit in Bahrain had shot down 14 Iranian one-way attack drones, while Iran's Foreign Ministry spokesman Bagheri denounced the Manama regional security dialogue.",
+      "event_ids": [
+        "unpress:https://press.un.org/en/blog/sc16405",
+        "govuk:https://www.gov.uk/government/speeches/we-stand-in-solidarity-with-bahrain-kuwait-and-all-our-partners-across-the-gulf-uk-statement-at-the-un-security-council#2026-07-02T14:49:06Z",
+        "x_via_rssapp:2b63a2b5c0810749e393d3af5ddadd21",
+        "x_via_rssapp:4d2188fefd04d96cb6da8e5cb7f69e01",
+        "telegram:defapress_ir/62340",
+        "telegram:iribnews/348320",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnrsg7vh32y"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IDF operations in south Lebanon",
+      "summary": "The IDF said troops of the Egoz Commando Unit killed a Hezbollah operative emerging from a tunnel shaft at the Ali Taher ridge inside the south Lebanon security zone. Soldiers also located an underground shaft, rockets, mortars and explosive devices around At-Tiri and Maroun al-Ras.",
+      "event_ids": [
+        "x_via_rssapp:1cfa46d1e877ecc093092c5c641f7466",
+        "x_via_rssapp:032887a935524ef765847e19d2b95441",
+        "x_via_rssapp:d2664235f92ad583e7ff27cab18a2288",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnq2odwwd2y"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran internal security and Kurdish clashes",
+      "summary": "Defa Press claimed a five-man team from the dissolved Democrat group was dismantled on the north-west border, and reported three armed robbers killed in Zahedan. Iran International reported the re-arrest of environmental activists Houman Jokar and Sepideh Kashani, while the Jerusalem Post cited PJAK-IRGC clashes and further strikes on Kurdish opposition groups.",
+      "event_ids": [
+        "telegram:defapress_ir/62326",
+        "telegram:iribnews/348313",
+        "iranintl:https://www.iranintl.com/en/202607029308",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnns5pcc52z"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran hardliner backlash over US MoU",
+      "summary": "Iran International reported ultra-hardliners accusing Parliament Speaker Ghalibaf and President Pezeshkian of a 'coup' over a US-Iran memorandum said to contradict the slain Supreme Leader's position. A separate report noted debate over dissolving the IRGC following the recent war.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202606309540",
+        "iranintl:https://www.iranintl.com/en/202607015432"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Strait of Hormuz and Iran spy arrest",
+      "summary": "Khatam al-Anbiya Central Command warned any US interference in the Strait of Hormuz would meet a 'decisive and swift response'. Israeli authorities announced the arrest of Behrouz Sobirgon, a Tajik citizen with a Russian passport, on suspicion of spying for Iran since January 2026.",
+      "event_ids": [
+        "telegram:defapress_ir/62323",
+        "x_via_rssapp:a5a71fd7c563a32e1fe9ac9092d296a6"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Damascus explosion and Syria diplomacy",
+      "summary": "Syria's Ministry of Health reported five dead and 16 injured in an explosion at a café near the Damascus Palace of Justice, with the cause under investigation. The Jerusalem Post reported Syria's foreign minister visiting Beirut to meet government and Hezbollah leaders after Trump suggested Syria should 'take care of Hezbollah'.",
+      "event_ids": [
+        "telegram:iribnews/348321",
+        "telegram:iribnews/348312",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnq2odwwd2y"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/348331",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T16:07:01Z",
+      "title": "📸 مرکز وکلای قوه قضاییه: سامانه ثبت شکایات حقوقی علیه تجاوزات رژیم صهیونیستی و آمریکا راه‌اندازی شد @iribnews",
+      "url": "https://t.me/iribnews/348331",
+      "summary": "📸 مرکز وکلای قوه قضاییه: سامانه ثبت شکایات حقوقی علیه تجاوزات رژیم صهیونیستی و آمریکا راه‌اندازی شد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348331"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bar Association Centre of the Judiciary: System for filing legal complaints against Zionist regime and US transgressions launched",
+      "summary_en": "Bar Association Centre of the Judiciary: System for filing legal complaints against Zionist regime and US transgressions launched",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348330",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T16:01:27Z",
+      "title": "بیانیه ۱۰ ماده‌ای جمعی از اعضای مجلس خبرگان رهبری پیرو پیام راهگشای رهبر حکیم انقلاب اسلامی و حوادث اخیر 🔹…",
+      "url": "https://t.me/iribnews/348330",
+      "summary": "بیانیه ۱۰ ماده‌ای جمعی از اعضای مجلس خبرگان رهبری پیرو پیام راهگشای رهبر حکیم انقلاب اسلامی و حوادث اخیر 🔹 جمعی از اعضای مجلس خبرگان رهبری در پیرو پیام راهگشای رهبر حکیم انقلاب اسلامی (مدظله‌العالی) و حوادث اخیر، بیانیه ۱۰ ماده‌ای خطاب به مردم بصیر و انقلابی…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348330"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ten-point statement from members of the Assembly of Experts of the Leadership following the wise message of the Leader of the Islamic Revolution and recent events",
+      "summary_en": "Ten-point statement from members of the Assembly of Experts of the Leadership following the wise message of the Leader of the Islamic Revolution and recent events. A group of members of the Assembly of Experts of the Leadership, in response to the wise message of the Leader of the Islamic Revolution (may his glory be everlasting) and recent events, issued a ten-point statement addressed to the aware and revolutionary people.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62342",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T16:01:01Z",
+      "title": "💢 شهید اکبرزاده روایتگر اقتدار نیروی دریایی سپاه بود 🔸 عزیز غضنفری در مراسم وداع شهید سردار محمداکبرزاده…",
+      "url": "https://t.me/defapress_ir/62342",
+      "summary": "💢 شهید اکبرزاده روایتگر اقتدار نیروی دریایی سپاه بود 🔸 عزیز غضنفری در مراسم وداع شهید سردار محمداکبرزاده معاون سیاسی نیروی دریایی سپاه اظهار کرد: زمانی که شهید اکبرزاده تصمیم گرفت از استان مازندران به تهران منتقل شود، برای استفاده از توانمندی‌های او در بخش‌های مختلف سپاه پیشنهاد‌هایی مطرح شد، اما به محض آنکه موضوع خدمت در نیروی دریایی سپاه مطرح شد، با اشتیاق فراوان این مسیر را انتخاب کرد. 🔸 با وجود آنکه شهید اکبرزاده اهل شمال کشور بود و به‌خوبی از دشواری‌های خدمت در جنوب و مناطق عملیاتی دریایی آگاهی داشت، اصرار داشت فعالیت خود را در نیروی دریایی سپاه ادامه دهد و این انتخاب را فرصتی ارزشمند برا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62342"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Martyr Akbarzadeh was the narrator of the might of the IRGC Navy",
+      "summary_en": "Martyr Akbarzadeh was the narrator of the might of the IRGC Navy. Aziz Ghazanfari, during the farewell ceremony for Martyr Commander Mohammad Akbarzadeh, deputy political officer of the IRGC Navy, stated: When Martyr Akbarzadeh decided to transfer from Mazandaran Province to Tehran, various proposals were made to utilise his capabilities in different IRGC sectors, but as soon as the matter of service in the IRGC Navy was raised, he eagerly chose this path. Although Martyr Akbarzadeh was from the northern part of the country and was well aware of the difficulties of service in the south and maritime operational areas, he insisted on continuing his activities in the IRGC Navy, considering this choice a valuable opportunity.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348328",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:46:53Z",
+      "title": "سید عباس عراقچی و والدراک جاينسكه وزرای امور خارجه جمهوری اسلامی ایران و جمهوری نيكاراگوئه @iribnews",
+      "url": "https://t.me/iribnews/348328",
+      "summary": "سید عباس عراقچی و والدراک جاينسكه وزرای امور خارجه جمهوری اسلامی ایران و جمهوری نيكاراگوئه @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348328"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Seyed Abbas Araghchi and Waldrack Jainskahe, Foreign Ministers of the Islamic Republic of Iran and the Republic of Nicaragua",
+      "summary_en": "Seyed Abbas Araghchi and Waldrack Jainskahe, Foreign Ministers of the Islamic Republic of Iran and the Republic of Nicaragua",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348327",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:43:31Z",
+      "title": "شیرودی: پروازهای داخلی و خارجی شنبه و یکشنبه برقرار است رئیس سازمان هواپیمایی کشوری: 🔹 با توجه به محدودیت‌های…",
+      "url": "https://t.me/iribnews/348327",
+      "summary": "شیرودی: پروازهای داخلی و خارجی شنبه و یکشنبه برقرار است رئیس سازمان هواپیمایی کشوری: 🔹 با توجه به محدودیت‌های ترافیکی گسترده و افزایش قابل توجه حجم تردد، شرکت‌های هواپیمایی باید به مسافران اطلاع دهند که حداقل ۳ تا ۴ ساعت پیش از زمان پرواز در فرودگاه حاضر شوند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348327"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Shirudi: Domestic and international flights will operate on Saturday and Sunday. Head of Civil Aviation Organisation: Given extensive traffic restrictions and a significant increase in traffic volume, airlines must inform passengers to arrive at the airport at least three to four hours before flight time.",
+      "summary_en": "Shirudi: Domestic and international flights will operate on Saturday and Sunday. Head of Civil Aviation Organisation: Given extensive traffic restrictions and a significant increase in traffic volume, airlines must inform passengers to arrive at the airport at least three to four hours before flight time.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:4d2188fefd04d96cb6da8e5cb7f69e01",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-02T15:34:00Z",
+      "title": "The start of July marks the end of a busy and successful first six months in 2026 at CENTCOM.",
+      "url": "https://x.com/CENTCOM/status/2072705381415964829",
+      "summary": "The start of July marks the end of a busy and successful first six months in 2026 at CENTCOM. \nVideo\n  — U.S. Central Command (@CENTCOM) Jul 2, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62341",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:29:01Z",
+      "title": "💢 سخنگوی وزارت دفاع: تمامی ظرفیت‌های وزارت دفاع برای خدمت‌رسانی به زائران و تشییع‌کنندگان قائد شهید به‌کار…",
+      "url": "https://t.me/defapress_ir/62341",
+      "summary": "💢 سخنگوی وزارت دفاع: تمامی ظرفیت‌های وزارت دفاع برای خدمت‌رسانی به زائران و تشییع‌کنندگان قائد شهید به‌کار گرفته شده است 🔸 سردار سرتیپ پاسدار رضا طلایی‌نیک، سخنگوی وزارت دفاع، با اشاره به جایگاه والای قائد شهید امت اظهار داشت: امام خامنه‌ای شهید، همانند حضرت امام خمینی (ره)، قهرمان قرن بیست‌ویکم در بیداری اسلامی و نهضت ضد استکباری جهان بود؛ همان‌گونه که امام راحل (ره) در قرن بیستم پرچمدار این نهضت عظیم به شمار می‌رفت. 🔸 در تهران، زائرسرای مردمی وزارت دفاع با ظرفیت اسکان و پذیرایی از ۱۵۰ هزار نفر در منطقه سرخه‌حصار آماده شده و همچنین تمامی ظرفیت‌های وزارت دفاع و سازمان‌های تابعه در تهران، قم و ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62341"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Defence Ministry Spokesman: All capacities of the Defence Ministry have been mobilised to serve pilgrims and mourners of the Martyr Leader",
+      "summary_en": "Defence Ministry Spokesman: All capacities of the Defence Ministry have been mobilised to serve pilgrims and mourners of the Martyr Leader. Brigadier General Reza Talainik, spokesman for the Defence Ministry, referring to the exalted position of the Martyr Leader of the Nation, stated: The Imam Khamenei, the Martyr, like Imam Khomeini (may God rest his soul), was the hero of the twenty-first century in the Islamic awakening and the anti-imperialism movement of the world; just as the late Imam (may God rest his soul) was the standard-bearer of this great movement in the twentieth century. In Tehran, the Defence Ministry's public reception centre with a capacity to accommodate and serve 150,000 people has been prepared in the Sorkhe Hesar area, and all capacities of the Defence Ministry and its affiliated organisations in Tehran, Qom and other areas have been mobilised.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348326",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:26:12Z",
+      "title": "🎦 چه اقداماتی برای تامین آب شرب و بنزین خودروهای زائران مراسم وداع با رهبری شهید انجام شده است؟ @iribnews",
+      "url": "https://t.me/iribnews/348326",
+      "summary": "🎦 چه اقداماتی برای تامین آب شرب و بنزین خودروهای زائران مراسم وداع با رهبری شهید انجام شده است؟ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348326"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What measures have been taken to ensure drinking water and fuel for pilgrims' vehicles at the ceremony to bid farewell to the Martyr Leader?",
+      "summary_en": "What measures have been taken to ensure drinking water and fuel for pilgrims' vehicles at the ceremony to bid farewell to the Martyr Leader?",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62340",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:15:20Z",
+      "title": "💢 واکنش بقائی به برگزاری نشست امنیتی در منامه 🔸 اسماعیل بقائی سخنگوی وزارت امور خارجه، امروز (پنجشنبه) ۱۱…",
+      "url": "https://t.me/defapress_ir/62340",
+      "summary": "💢 واکنش بقائی به برگزاری نشست امنیتی در منامه 🔸 اسماعیل بقائی سخنگوی وزارت امور خارجه، امروز (پنجشنبه) ۱۱ تیرماه در واکنش به بیانیه سنتکام درباره برگزاری «گفوگوی امنیت منطقه‌ای» در بحرین، عنوان کرد: هیأت حاکمه آمریکا بار‌ها ثابت کرده است که هیچ ارزشی برای صلح و امنیت کشور‌های منطقه غرب آسیا قائل نیست. 🔸 بقائی در این باره یادآور شد: چنین گردهمایی‌هایی چیزی جز نمایش و ظاهرسازی با هدف سرپوش گذاشتن بر سیاست‌های بی‌ثبات کننده و اقدامات غیرقانونی آمریکا در غرب آسیا نیست. 🔸 سخنگوی دستگاه دیپلماسی در شبکه ایکس نوشت: کشور‌های منطقه باید بسیار هوشیار و محتاط باشند و درس‌های روشن پیامد‌های تجاوز نظامی اخ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62340"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri's reaction to holding a security meeting in Manama",
+      "summary_en": "Bagheri's reaction to holding a security meeting in Manama. Ismail Bagheri, spokesman for the Ministry of Foreign Affairs, today (Thursday) 11 Tir, responding to CENTCOM's statement about holding a 'regional security dialogue' in Bahrain, stated: The US ruling establishment has repeatedly demonstrated that it attaches no value to peace and security in West Asian countries. Bagheri recalled in this regard: Such gatherings are nothing but a show and facade aimed at covering up destabilising policies and illegal actions by the US in West Asia. The Foreign Ministry spokesman wrote on the X platform: Countries in the region must be very vigilant and careful and learn clear lessons from the consequences of recent military aggression by the US and the Zionist regime.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348325",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:11:28Z",
+      "title": "افزایش کارت‌های جایگاه‌ها برای مراسم تشییع سخنگوی اتحادیه جایگاه‌داران سوخت: 🔹 مردم در صورت امکان از ظرفیت…",
+      "url": "https://t.me/iribnews/348325",
+      "summary": "افزایش کارت‌های جایگاه‌ها برای مراسم تشییع سخنگوی اتحادیه جایگاه‌داران سوخت: 🔹 مردم در صورت امکان از ظرفیت کامل خودروها و وسایل حمل‌ونقل عمومی برای جابجایی در مراسم تشییع استفاده کنند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348325"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Increase in fuel station cards for funeral ceremony. Spokesman of fuel station operators' union: People should, if possible, make full use of vehicle capacity and public transport facilities to travel to the funeral ceremony.",
+      "summary_en": "Increase in fuel station cards for funeral ceremony. Spokesman of fuel station operators' union: People should, if possible, make full use of vehicle capacity and public transport facilities to travel to the funeral ceremony.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpocslwz372z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T15:09:15.304962Z",
+      "title": "The IDF said it would investigate a video filmed and circulated by soldiers in which a Palestinian from Gaza was blindfolded and tied to a…",
+      "url": "https://www.jpost.com/israel-news/article-901263",
+      "summary": "The IDF said it would investigate a video filmed and circulated by soldiers in which a Palestinian from Gaza was blindfolded and tied to a broomstick.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348324",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:05:49Z",
+      "title": "🎦 تصاویر هوایی از مصلی امام خمینی در آستانهٔ وداع با رهبر شهید انقلاب @iribnews",
+      "url": "https://t.me/iribnews/348324",
+      "summary": "🎦 تصاویر هوایی از مصلی امام خمینی در آستانهٔ وداع با رهبر شهید انقلاب @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348324"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Aerial images of Imam Khomeini Prayer Ground on the eve of bidding farewell to the Martyr Leader of the Revolution",
+      "summary_en": "Aerial images of Imam Khomeini Prayer Ground on the eve of bidding farewell to the Martyr Leader of the Revolution",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62339",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T15:03:01Z",
+      "title": "💢 عزیمت هیئت عالی‌رتبه مجلس اعلای شیعیان لبنان به تهران 🔸 شیخ علی الخطیب، نایب‌رئیس مجلس اعلای شیعیان لبنان،…",
+      "url": "https://t.me/defapress_ir/62339",
+      "summary": "💢 عزیمت هیئت عالی‌رتبه مجلس اعلای شیعیان لبنان به تهران 🔸 شیخ علی الخطیب، نایب‌رئیس مجلس اعلای شیعیان لبنان، در رأس هیئتی از این شورا، بیروت را به مقصد تهران ترک کرد. 🔸 این هیئت به‌منظور حضور در مراسم تشییع رهبر شهید جمهوری اسلامی ایران، حضرت آیت‌الله سیدعلی خامنه‌ای، به ایران سفر کرده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62339"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Departure of high-ranking delegation of the Supreme Shia Council of Lebanon to Tehran",
+      "summary_en": "Departure of high-ranking delegation of the Supreme Shia Council of Lebanon to Tehran. Sheikh Ali al-Khatib, Vice President of the Supreme Shia Council of Lebanon, headed a delegation from this council and left Beirut for Tehran. This delegation has travelled to Iran to participate in the funeral ceremony of the Martyr Leader of the Islamic Republic of Iran, His Eminence Ayatollah Seyed Ali Khamenei.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348323",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:55:40Z",
+      "title": "دعوای ترامپ و ناتو بالا گرفت رئیس جمهور آمریکا: 🔹 ایالات متحده تاکنون بیش از هر کشور دیگری برای محافظت از…",
+      "url": "https://t.me/iribnews/348323",
+      "summary": "دعوای ترامپ و ناتو بالا گرفت رئیس جمهور آمریکا: 🔹 ایالات متحده تاکنون بیش از هر کشور دیگری برای محافظت از ناتو هزینه کرده است، بدون اینکه هیچ سودی از این کار ببرد: ایالات متحده ۹۹۹ میلیارد دلار، بریتانیا ۹۰.۵ میلیارد دلار، فرانسه ۶۶.۵ میلیارد دلار، ایتالیا ۴۸.۸ میلیارد دلار، لهستان ۴۴.۳ میلیارد دلار. دیگر کشورها، از جمله آلمان، بسیار کمتر از این هستند. (۲۰۱۴-۲۰۲۵) مسخره است! @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348323"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Trump and NATO dispute escalates. US President: The United States has spent more than any other country to protect NATO without gaining any benefit from it: United States 999 billion dollars, Britain 90.5 billion dollars, France 66.5 billion dollars, Italy 48.8 billion dollars, Poland 44.3 billion dollars. Other countries, including Germany, are far less. (2014-2025) It's ridiculous!",
+      "summary_en": "Trump and NATO dispute escalates. US President: The United States has spent more than any other country to protect NATO without gaining any benefit from it: United States 999 billion dollars, Britain 90.5 billion dollars, France 66.5 billion dollars, Italy 48.8 billion dollars, Poland 44.3 billion dollars. Other countries, including Germany, are far less. (2014-2025) It's ridiculous!",
+      "has_figures": true,
+      "figures_examples": [
+        "999 billion",
+        "90.5 billion",
+        "66.5 billion",
+        "48.8 billion"
+      ]
+    },
+    {
+      "id": "x_via_rssapp:1cfa46d1e877ecc093092c5c641f7466",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-07-02T14:54:00Z",
+      "title": "🔴ELIMINATED: A Hezbollah terrorist who exited one of the access shafts of the underground terror infrastructure at the Ali al-Taher Ridge, within the Security Zone. The terrorist posed an immediate threat to IDF soldiers operating in the area.",
+      "url": "https://x.com/IDF/status/2072695420355002388",
+      "summary": "🔴ELIMINATED: A Hezbollah terrorist who exited one of the access shafts of the underground terror infrastructure at the Ali al-Taher Ridge, within the Security Zone.\n\nThe terrorist posed an immediate threat to IDF soldiers operating in the area.— Israel Defense Forces (@IDF) Jul 2, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/we-stand-in-solidarity-with-bahrain-kuwait-and-all-our-partners-across-the-gulf-uk-statement-at-the-un-security-council#2026-07-02T14:49:06Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-07-02T14:49:06Z",
+      "title": "We stand in solidarity with Bahrain, Kuwait, and all our partners across the Gulf: UK statement at the UN Security Council",
+      "url": "https://www.gov.uk/government/speeches/we-stand-in-solidarity-with-bahrain-kuwait-and-all-our-partners-across-the-gulf-uk-statement-at-the-un-security-council",
+      "summary": "Statement by Ambassador James Kariuki, UK Chargé d’Affaires to the UN, at the UN Security Council meeting on Bahrain.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348322",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:46:55Z",
+      "title": "پیام نبیه‌بری در رثای رهبر شهید: امتی در قامت یک مرد رئیس پارلمان لبنان: 🔹 سرورم، ای امام! برخی واژه‌ها…",
+      "url": "https://t.me/iribnews/348322",
+      "summary": "پیام نبیه‌بری در رثای رهبر شهید: امتی در قامت یک مرد رئیس پارلمان لبنان: 🔹 سرورم، ای امام! برخی واژه‌ها معنایی فراتر از آن دارند که در فرهنگ‌های لغت بگنجند. 🔹 برخی موضع‌گیری‌ها از مرزهای زمان فراتر می‌روند، و برخی مردان چنان‌اند که از شمار افراد فراتر می‌ایستند؛ آن‌گونه که گفته می‌شود: امتی در قامت یک مرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348322"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Nabih Berri's message in eulogy of the Martyr Leader: A nation in the form of one man. Speaker of Lebanese Parliament: My Lord, O Imam! Some words have meanings far beyond what dictionaries can contain. Some positions transcend the boundaries of time, and some men stand apart from the number of individuals; as it is said: a nation in the form of one man.",
+      "summary_en": "Nabih Berri's message in eulogy of the Martyr Leader: A nation in the form of one man. Speaker of Lebanese Parliament: My Lord, O Imam! Some words have meanings far beyond what dictionaries can contain. Some positions transcend the boundaries of time, and some men stand apart from the number of individuals; as it is said: a nation in the form of one man.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62338",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:44:34Z",
+      "title": "💢 سردار جمیری: امروز همه عدالتخواهان عالم به امام شهید ما افتخار می‌کنند 🔸 سردار «فتح‌الله جمیری» فرمانده…",
+      "url": "https://t.me/defapress_ir/62338",
+      "summary": "💢 سردار جمیری: امروز همه عدالتخواهان عالم به امام شهید ما افتخار می‌کنند 🔸 سردار «فتح‌الله جمیری» فرمانده سپاه امام علی بن ابی‌طالب (ع) امروز در نشست خبری تشریح جزییات مراسم تشییع رهبر شهید انقلاب در استان قم در سالن جلسات ستاد فرماندهی تیپ ۸۳ امام جعفر صادق (ع) اظهار داشت: تمامی هماهنگی‌های مراسم تشییع صورت گرفته و لازم است اصحاب رسانه پوشش مناسب تصویری و خبری مراسم و انتقال عزت و اقتدار ایران اسلامی را در صدر کار خود قرار دهند. 🔸 قم مرکز تشیع و مبدأ انقلاب اسلامی است و نگاه جهان به این شهر مقدس، نگاهی ویژه و الگوست. امروز جهان تشنه عدالت است و منتظر اخبار و تصاویری است که از قم به سراسر دنیا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62338"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Jamiri: Today all seekers of justice in the world take pride in our Martyr Imam",
+      "summary_en": "Commander Jamiri: Today all seekers of justice in the world take pride in our Martyr Imam. Commander Fathollah Jamiri, commander of the Imam Ali ibn Abi Talib Corps of the IRGC, stated today in a press briefing detailing the arrangements for the funeral ceremony of the Martyr Leader of the Revolution in Qom Province at the headquarters of the 83rd Imam Jafar Sadiq Corps: All coordination for the funeral ceremony has been completed and it is necessary for media personnel to prioritise appropriate visual and news coverage of the ceremony and the transmission of the glory and might of Islamic Iran to the world. Qom is the centre of Shiism and the source of the Islamic Revolution, and the world's view of this holy city is a special and exemplary view. Today the world thirsts for justice and is waiting for news and images from Qom to reach the world.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348321",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:41:07Z",
+      "title": "۵ کشته و ۱۶ زخمی در انفجار نزدیک کاخ دادگستری دمشق 🔹 وزارت بهداشت سوریه اعلام کرد که بر اثر انفجار در داخل یک…",
+      "url": "https://t.me/iribnews/348321",
+      "summary": "۵ کشته و ۱۶ زخمی در انفجار نزدیک کاخ دادگستری دمشق 🔹 وزارت بهداشت سوریه اعلام کرد که بر اثر انفجار در داخل یک کافه نزدیک کاخ دادگستری در دمشق، ۵ نفر کشته و ۱۶ نفر زخمی شدند. 🔹 علت انفجار هنوز مشخص نیست و هیچ نهاد رسمی تاکنون بیانیه‌ای درباره این حادثه صادر نکرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348321"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Five dead and 16 injured in explosion near Damascus Palace of Justice",
+      "summary_en": "Five dead and 16 injured in explosion near Damascus Palace of Justice. Syria's Ministry of Health announced that as a result of an explosion inside a café near the Palace of Justice in Damascus, five people were killed and 16 were injured. The cause of the explosion is still unclear and no official body has issued a statement about the incident so far.",
+      "has_figures": true,
+      "figures_examples": [
+        "16 injured"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpob4vnjxm27",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T14:39:14.367000Z",
+      "title": "Opinion: Decades of diplomacy and sanctions relief have only emboldened Iran, allowing Tehran to advance its nuclear program and expand its…",
+      "url": "https://www.jpost.com/opinion/article-901078",
+      "summary": "Opinion: Decades of diplomacy and sanctions relief have only emboldened Iran, allowing Tehran to advance its nuclear program and expand its support for terrorist proxies. \n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpoawiuzyt2y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T14:35:39.847000Z",
+      "title": "Opinion: Israeli victims of Hamas sexual violence were brought before the UN Human Rights Council in Geneva, where their suffering has too…",
+      "url": "https://www.jpost.com/opinion/article-901081",
+      "summary": "Opinion: Israeli victims of Hamas sexual violence were brought before the UN Human Rights Council in Geneva, where their suffering has too often been ignored or dismissed. \n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348320",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:34:42Z",
+      "title": "بقایی: برگزاری نشست امنیتی با کشورهای منطقه، تلاش برای سرپوش‌گذاشتن بر سیاست‌های مخرب آمریکا علیه صلح و امنیت…",
+      "url": "https://t.me/iribnews/348320",
+      "summary": "بقایی: برگزاری نشست امنیتی با کشورهای منطقه، تلاش برای سرپوش‌گذاشتن بر سیاست‌های مخرب آمریکا علیه صلح و امنیت منطقه است سخنگوی وزارت امور خارجه، در واکنش به بیانیه آمریکا درباره برگزاری به‌اصطلاح «گفتگوی امنیت منطقه‌ای» در بحرین: 🔹 هیات حاکمه آمریکا بارها ثابت کرده است که هیچ ارزشی برای صلح و امنیت کشورهای منطقه غرب آسیا قائل نیست. 🔹 چنین گردهمایی‌هایی چیزی جز نمایش و ظاهرسازی با هدف سرپوش‌گذاشتن بر سیاست‌های بی‌ثبات‌کننده و اقدامات غیرقانونی آمریکا در غرب آسیا نیست. 🔹 کشورهای منطقه باید بسیار هوشیار و محتاط باشند و درس‌های روشن پیامدهای تجاوز نظامی اخیر آمریکا-رژیم صهیونیستی و اقدامات مخرب آن",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348320"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri: Holding a security meeting with regional countries is an attempt to cover up America's destructive policies against peace and security in the region",
+      "summary_en": "Bagheri: Holding a security meeting with regional countries is an attempt to cover up America's destructive policies against peace and security in the region. The Foreign Ministry spokesman, responding to America's statement about holding a so-called 'regional security dialogue' in Bahrain: The US ruling establishment has repeatedly demonstrated that it attaches no value to peace and security in West Asian countries. Such gatherings are nothing but a show and facade aimed at covering up destabilising policies and illegal actions by the US in West Asia. Countries in the region must be very vigilant and careful and learn clear lessons from the consequences of recent military aggression by the US and the Zionist regime and its destructive actions.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:d2664235f92ad583e7ff27cab18a2288",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-02T14:34:00Z",
+      "title": "A Hezbollah operative who emerged from the terror group's underground facility at the Ali Taher ridge in southern Lebanon was killed in an airstrike earlier today, the IDF says. The military says troops of the Egoz Commando Unit spotted a Hezbollah operative emerging from one of the tunnel shafts on the ridge, which is located inside the IDF's south Lebanon security zone. \"The terrorist posed an immediate threat to our forces,\" the IDF says, adding that the Israeli Air Force struck \"and eliminated the terrorist to remove the threat.\" The IDF says it continues to operate at the Ali Taher ridge, beneath which Hezbollah has a massive underground complex, where some 30 operatives are holed up. T",
+      "url": "https://x.com/manniefabian/status/2072690501262733691",
+      "summary": "A Hezbollah operative who emerged from the terror group's underground facility at the Ali Taher ridge in southern Lebanon was killed in an airstrike earlier today, the IDF says.\n\nThe military says troops of the Egoz Commando Unit spotted a Hezbollah operative emerging from one of the tunnel shafts on the ridge, which is located inside the IDF's south Lebanon security zone.\n\n\"The terrorist posed an immediate threat to our forces,\" the IDF says, adding that the Israeli Air Force struck \"and eliminated the terrorist to remove the threat.\" \n\nThe IDF says it continues to operate at the Ali Taher ri",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "30 operatives"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/348319",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:14:17Z",
+      "title": "🎦 ایجاد چهار حلقه ترافیکی برای مراسم وداع و تشییع رهبر شهید انقلاب رئیس ستاد مراسم وداع و تشییع رهبر شهید…",
+      "url": "https://t.me/iribnews/348319",
+      "summary": "🎦 ایجاد چهار حلقه ترافیکی برای مراسم وداع و تشییع رهبر شهید انقلاب رئیس ستاد مراسم وداع و تشییع رهبر شهید انقلاب در استان تهران: 🔹 برای مدیریت حضور گسترده مردم در مراسم بدرقه ی رهبر شهید انقلاب، تهران به چهار حلقه ترافیکی تقسیم شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348319"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Creation of four traffic rings for the farewell and funeral ceremony of the Martyr Leader of the Revolution. Head of the Farewell and Funeral Ceremony Headquarters in Tehran Province: To manage the extensive presence of people at the farewell ceremony of the Martyr Leader of the Revolution, Tehran has been divided into four traffic rings.",
+      "summary_en": "Creation of four traffic rings for the farewell and funeral ceremony of the Martyr Leader of the Revolution. Head of the Farewell and Funeral Ceremony Headquarters in Tehran Province: To manage the extensive presence of people at the farewell ceremony of the Martyr Leader of the Revolution, Tehran has been divided into four traffic rings.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpo7edgdrb2y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T14:07:36.373000Z",
+      "title": "Iran prepares for the funeral of supreme leader Ayatollah Ali Khamenei with a week of mass mourning, including processions throughout Iraq…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901258",
+      "summary": "Iran prepares for the funeral of supreme leader Ayatollah Ali Khamenei with a week of mass mourning, including processions throughout Iraq and Iran.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348318",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T14:00:09Z",
+      "title": "🎦 سخنگوی وزارت امور خارجه: از بیش از ۱۰۰ کشور جهان برای شرکت در مراسم بدرقه و تشییع رهبر شهید انقلاب اسلامی…",
+      "url": "https://t.me/iribnews/348318",
+      "summary": "🎦 سخنگوی وزارت امور خارجه: از بیش از ۱۰۰ کشور جهان برای شرکت در مراسم بدرقه و تشییع رهبر شهید انقلاب اسلامی حضور خواهند یافت  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348318"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Foreign Ministry Spokesman: Representatives from over 100 countries in the world will attend the farewell and funeral ceremony of the Martyr Leader of the Islamic Revolution",
+      "summary_en": "Foreign Ministry Spokesman: Representatives from over 100 countries in the world will attend the farewell and funeral ceremony of the Martyr Leader of the Islamic Revolution",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:032887a935524ef765847e19d2b95441",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-07-02T14:00:00Z",
+      "title": "🔎LOCATED: An underground shaft and a weapons storage facility containing rockets and mortars in the area of At-Tiri in southern Lebanon. Additionally, in the area of Maroun al-Ras, IDF soldiers located explosive devices, weapons & additional military equipment.",
+      "url": "https://x.com/IDF/status/2072681920664653831",
+      "summary": "🔎LOCATED: An underground shaft and a weapons storage facility containing rockets and mortars in the area of At-Tiri in southern Lebanon.\n\nAdditionally, in the area of Maroun al-Ras, IDF soldiers located explosive devices, weapons & additional military equipment.— Israel Defense Forces (@IDF) Jul 2, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348317",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:54:17Z",
+      "title": "🎦 سخنگوی وزارت امور خارجه: از بیش از ۱۰۰ کشور جهان برای شرکت در مراسم بدرقه و تشییع رهبر شهید انقلاب اسلامی…",
+      "url": "https://t.me/iribnews/348317",
+      "summary": "🎦 سخنگوی وزارت امور خارجه: از بیش از ۱۰۰ کشور جهان برای شرکت در مراسم بدرقه و تشییع رهبر شهید انقلاب اسلامی حضور خواهند یافت @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348317"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Foreign Ministry Spokesman: Representatives from over 100 countries in the world will attend the farewell and funeral ceremony of the Martyr Leader of the Islamic Revolution",
+      "summary_en": "Foreign Ministry Spokesman: Representatives from over 100 countries in the world will attend the farewell and funeral ceremony of the Martyr Leader of the Islamic Revolution",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62337",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:51:01Z",
+      "title": "🎥 سردار حسن‌زاده: در بام شبستان مصلی، فضا برای حضور خانوادگی فراهم شده 🔸 رئیس ستاد برگزاری آیین وداع و تشییع…",
+      "url": "https://t.me/defapress_ir/62337",
+      "summary": "🎥 سردار حسن‌زاده: در بام شبستان مصلی، فضا برای حضور خانوادگی فراهم شده 🔸 رئیس ستاد برگزاری آیین وداع و تشییع پیکر مطهر آقای شهید ایران در تهران: توصیه می‌کنیم زمانی که خانواده‌ها تشریف می‌آورند، به‌ویژه اگر افراد مسن‌تری همراه‌شان هستند، به‌سمت‌ جاهایی که ازدحام وجود دارد، گرایش نشان ندهند. 🔸 ممکن است در برخی مسیرها، مسیرهای دورتر انتخاب شود، اما با ازدحام کمتر. این موضوع هم به تردد و در واقع عبور و مرور همه کمک می‌کند و هم باعث می‌شود خانواده‌ها بتوانند بهتر از برنامه‌ها استفاده کنند. 🔸 به همین منظور، ما در مصلی، بام شبستان را پیش‌بینی کرده‌ایم تا خانواده‌ها به آنجا مراجعه کنند. آن‌ها می‌توان",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62337"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Hasanzadeh: Space has been provided for family attendance on the roof of the prayer ground vestry",
+      "summary_en": "Commander Hasanzadeh: Space has been provided for family attendance on the roof of the prayer ground vestry. Head of the Headquarters for Organising the Farewell and Funeral Ceremony of the Pure Body of Iran's Martyr Leader in Tehran: We recommend that when families come, especially if they are accompanied by elderly people, they avoid heading towards places where crowding exists. It is possible that in some routes, longer routes may be chosen, but with less crowding. This both helps traffic flow and passage for everyone and also allows families to better use the programmes. For this purpose, we have provided the roof of the prayer ground vestry at the prayer ground for families to visit. They will be able.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62336",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:28:30Z",
+      "title": "💢 دعوت فرمانده کل ارتش از عموم ملت ایران برای حضور در مراسم بدرقۀ پیکر مطهر فرمانده شهید کل قوا 🔸 ملت شریف،…",
+      "url": "https://t.me/defapress_ir/62336",
+      "summary": "💢 دعوت فرمانده کل ارتش از عموم ملت ایران برای حضور در مراسم بدرقۀ پیکر مطهر فرمانده شهید کل قوا 🔸 ملت شریف، پرافتخار و داغ دیده ایران؛ شهادت قائد ملت، امام امت و فرمانده مجاهد و معظم  انقلاب اسلامی، حضرت آیت‌الله العظمی سیدعلی حسینی خامنه‌ای، (رضوان الله تعالی علیه)، آن بزرگمرد صبر و مقاومت، به دست دشمنان کینه‌توز، آمریکای جنایتکار و رژیم غاصب صهیونیستی، داغی عظیم بر قلب ملت ایران، مسلمانان جهان و آزادگان عالم گذاشت. دشمنان قسم خورده ملت ایران، در اوج خباثت، گمان می‌بردند با این جنایت می‌توانند اراده ملت بزرگ ایران را در هم بشکنند و روح مقاومت را از این سرزمین جدا کنند اما نه تنها به هیچ‌یک از",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62336"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander-in-Chief of the Armed Forces invites the entire Iranian nation to attend the farewell ceremony of the pure body of the Martyr Commander of all the Armed Forces",
+      "summary_en": "Commander-in-Chief of the Armed Forces invites the entire Iranian nation to attend the farewell ceremony of the pure body of the Martyr Commander of all the Armed Forces. Noble, glorious and grieving nation of Iran; the martyrdom of the nation's leader, the leader of the nation and the honourable, tireless commander of the Islamic Revolution, His Eminence Ayatollah al-Uzma Seyed Ali Hosseini Khamenei (may God's mercy be upon him), that great man of patience and resistance, by the hands of bitter enemies, criminal America and the usurping Zionist regime, left a profound wound on the heart of the Iranian nation, the Muslim world and all the free people of the world. The sworn enemies of the Iranian nation, in their utmost malice, thought that with this crime they could break the will of the great Iranian nation and separate the spirit of resistance from this land, but not only did they fail to achieve any of their goals.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348314",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:24:54Z",
+      "title": "📸 دیدار سید عباس عراقچی و امیرخان متقی وزرای امور خارجه جمهوری اسلامی ایران و افغانستان @iribnews",
+      "url": "https://t.me/iribnews/348314",
+      "summary": "📸 دیدار سید عباس عراقچی و امیرخان متقی وزرای امور خارجه جمهوری اسلامی ایران و افغانستان @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348314"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of Seyed Abbas Araghchi and Amir Khan Muttaqi, Foreign Ministers of the Islamic Republic of Iran and Afghanistan",
+      "summary_en": "Meeting of Seyed Abbas Araghchi and Amir Khan Muttaqi, Foreign Ministers of the Islamic Republic of Iran and Afghanistan",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62335",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:17:58Z",
+      "title": "💢 شهادت ۱۰۰ نیروی الحشد الشعبی در حملات اخیر آمریکا و اسرائیل 🔸 رئیس سازمان الحشد الشعبی از شهادت ۱۰۰ نفر از…",
+      "url": "https://t.me/defapress_ir/62335",
+      "summary": "💢 شهادت ۱۰۰ نیروی الحشد الشعبی در حملات اخیر آمریکا و اسرائیل 🔸 رئیس سازمان الحشد الشعبی از شهادت ۱۰۰ نفر از نیروهای خود طی جنگ اخیر و در حملات آمریکا و رژیم صهیونیستی خبر داد. 🔸 فالح الفیاض افزود که بیشترین شمار شهدای الحشد الشعبی طی سه سال گذشته از استان‌های نینوا، صلاح‌الدین و الانبار بوده‌اند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62335"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "100 Popular Mobilisation Forces fighters martyred in recent US and Israeli attacks",
+      "summary_en": "100 Popular Mobilisation Forces fighters martyred in recent US and Israeli attacks. The head of the Popular Mobilisation Forces announced the martyrdom of 100 of its personnel during the recent war and in attacks by America and the Zionist regime. Falih al-Fayyadh added that the largest number of Popular Mobilisation Forces martyrs over the past three years has been from the provinces of Nineveh, Saladin and Anbar.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348313",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:10:56Z",
+      "title": "🔺 درگیری عوامل انتظامی با یک تیم سارق مسلح در زاهدان فرماندهی انتظامی سیستان و بلوچستان: 🔹 در این درگیری…",
+      "url": "https://t.me/iribnews/348313",
+      "summary": "🔺 درگیری عوامل انتظامی با یک تیم سارق مسلح در زاهدان فرماندهی انتظامی سیستان و بلوچستان: 🔹 در این درگیری مسلحانه که در خیابان بزرگمهر وجانبازان زاهدان به‌وقوع پیوست،۳ سارق مسلح به هلاکت رسیدند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348313"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Clash between police forces and an armed robbery gang in Zahedan. Police Command of Sistan and Baluchestan Province: In this armed clash that took place on Bozorgmehr and Janbazi Street in Zahedan, three armed robbers were killed.",
+      "summary_en": "Clash between police forces and an armed robbery gang in Zahedan. Police Command of Sistan and Baluchestan Province: In this armed clash that took place on Bozorgmehr and Janbazi Street in Zahedan, three armed robbers were killed.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348312",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T13:05:23Z",
+      "title": "🎦 انفجار در دمشق 🔹 رسانه‌های سوریه از زخمی شدن تعدادی در پی انفجار داخل یک کافه در پایتخت این کشور دمشق خبر…",
+      "url": "https://t.me/iribnews/348312",
+      "summary": "🎦 انفجار در دمشق 🔹 رسانه‌های سوریه از زخمی شدن تعدادی در پی انفجار داخل یک کافه در پایتخت این کشور دمشق خبر داده‌اند. 🔹 خبرگزاری رسمی سانا گزارش داد که انفجار در منطقه حجاز دمشق رخ داده و ماهیت آن در دست بررسی است.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348312"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion in Damascus. Syrian media reported casualties following an explosion inside a café in the capital, Damascus. Syrian state news agency SANA reported that the explosion occurred in the Hajaz area of Damascus and its nature is under investigation.",
+      "summary_en": "Explosion in Damascus. Syrian media reported casualties following an explosion inside a café in the capital, Damascus. Syrian state news agency SANA reported that the explosion occurred in the Hajaz area of Damascus and its nature is under investigation.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607028414",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T12:57:16Z",
+      "title": "Khamenei funeral preparations draw complaints of forced attendance",
+      "url": "https://www.iranintl.com/en/202607028414",
+      "summary": "Dozens of messages sent to Iran International say Iranian authorities and state-linked institutions are pressuring workers, businesses and charities to take part in funeral ceremonies for slain Supreme Leader Ali Khamenei.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/723",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T12:40:22Z",
+      "title": "📝 #مسطور | عمری تلاش قائد شهید برای برپایی و قوام نظام اسلامی 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی…",
+      "url": "https://t.me/rahbar_enghelab_ir/723",
+      "summary": "📝 #مسطور | عمری تلاش قائد شهید برای برپایی و قوام نظام اسلامی 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی: از خصوصیات دیگر قائد شهید ما ایران‌دوستی و تلاش مستمر برای استقلال هرچه بیشتر #ایران_عزیز بود که در کنار آن بر وحدت کلمه و انسجام ملّی تأکید داشتند. ایشان عمری را در تلاش برای برپائی نظام اسلامی و قوام و بقاء آن طی کردند و در عین حال جمهوری اسلامی بدون مردم از نظر ایشان بی‌معنا می‌نمود. 🗓 ۲۰ فروردین ۱۴۰۵ ✍ مجموعه متنی مسطور به بازخوانی پیام‌ها و متون حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی می‌پردازد. 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/723"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A lifetime of effort by the Martyr Leader for establishing and maintaining the Islamic system. An excerpt from the message of His Eminence Ayatollah Seyed Mujtaba Khamenei, Leader of the Islamic Revolution: Among the other characteristics of our Martyr Leader was love for Iran and continuous effort for the independence of our beloved Iran, alongside which he emphasised national unity and cohesion. He spent a lifetime working to establish the Islamic system and ensure its continuity and permanence, and at the same time, the Islamic Republic without people seemed meaningless to him.",
+      "summary_en": "A lifetime of effort by the Martyr Leader for establishing and maintaining the Islamic system. An excerpt from the message of His Eminence Ayatollah Seyed Mujtaba Khamenei, Leader of the Islamic Revolution: Among the other characteristics of our Martyr Leader was love for Iran and continuous effort for the independence of our beloved Iran, alongside which he emphasised national unity and cohesion. He spent a lifetime working to establish the Islamic system and ensure its continuity and permanence, and at the same time, the Islamic Republic without people seemed meaningless to him.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62334",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T12:15:57Z",
+      "title": "💢 اطلاعیه شماره ۲ قرارگاه برگزاری آیین وداع و تشییع قائد عظیم الشأن شهید امت 🔸 هموطنان عزیز تا حد امکان…",
+      "url": "https://t.me/defapress_ir/62334",
+      "summary": "💢 اطلاعیه شماره ۲ قرارگاه برگزاری آیین وداع و تشییع قائد عظیم الشأن شهید امت 🔸 هموطنان عزیز تا حد امکان برنامه سفر خود به تهران را به گونه‌ای مدیریت کنند که از حداکثر ظرفیت اسکان و ارائه خدمات به زائرین در تهران استفاده شود به عنوان مثال سفر را کوتاه کنند تا تعداد بیشتری از مشتاقان شرکت در مراسم بتوانند حضور پیدا کنند . 🔸 مبادی و جاده‌های ورودی به پایتخت همواره باز است و هیچگونه منعی برای ورود وجود ندارد. 🔸 زائران گرامی اخبار و اطلاعیه‌ها را از مراجع رسمی پیگیری کنند و به ویژه مراقب شایعات و اخبار جعلی باشند. 🔸 پیش‌بینی و توجه به محدودیت‌های ترافیکی در سطح شهر تهران و حفظ آرامش در هنگام حرکت ه",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62334"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bulletin No. 2 from the Headquarters for Organising the Farewell and Funeral Ceremony of the Great Martyr Leader. Dear compatriots, to the extent possible, manage your travel plans to Tehran such that full use is made of accommodation and service provision capacities for pilgrims in the capital. For example, shorten your stay so that more enthusiasts can participate in the ceremony. Entry routes and roads to the capital are always open and there are no restrictions on entry. Respected pilgrims, follow news and bulletins from official sources and be especially careful of rumours and false reports. Attention to traffic restrictions across Tehran and maintaining calm during movement.",
+      "summary_en": "Bulletin No. 2 from the Headquarters for Organising the Farewell and Funeral Ceremony of the Great Martyr Leader. Dear compatriots, to the extent possible, manage your travel plans to Tehran such that full use is made of accommodation and service provision capacities for pilgrims in the capital. For example, shorten your stay so that more enthusiasts can participate in the ceremony. Entry routes and roads to the capital are always open and there are no restrictions on entry. Respected pilgrims, follow news and bulletins from official sources and be especially careful of rumours and false reports. Attention to traffic restrictions across Tehran and maintaining calm during movement.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62333",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T11:58:57Z",
+      "title": "💢 فراخوان بسیج عمومی انصارالله در یمن 🔸 کارشکنی ائتلاف سعودی در پرداخت حقوق کارکنان و تداوم غارت منابع انرژی…",
+      "url": "https://t.me/defapress_ir/62333",
+      "summary": "💢 فراخوان بسیج عمومی انصارالله در یمن 🔸 کارشکنی ائتلاف سعودی در پرداخت حقوق کارکنان و تداوم غارت منابع انرژی یمن توسط، سرانجام ارتش و قبایل متحد صنعا را به سمت یک آرایش نظامی و تسلیحاتی بی‌سابقه در مرز‌های شمالی سوق داد. 🔸 تحرکات میدانی و تسلیحاتی بی‌سابقه در یمن طی روز‌های اخیر، این کشور را پس از ماه‌ها آرامش نسبی، در آستانه یک درگیری نظامی و رویارویی زمینی همه‌جانبه قرار داده است. در پی تداوم محاصره اقتصادی، غارت منابع انرژی توسط ائتلاف و بن‌بست کامل در روند پرداخت حقوق کارکنان دولت، رهبر انصارالله با اعلام فرمان «بسیج عمومی و هجرت»، صد‌ها هزار نیروی قبیله‌ای و ارتش یمن را در حالت آماده‌باش ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62333"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "General mobilisation call by Ansarallah in Yemen. Saudi coalition obstruction in paying employees' wages and continued looting of Yemen's energy resources has ultimately driven Sanaa's army and allied tribes towards an unprecedented military and armed mobilisation along the northern borders. Unprecedented field and military movements in Yemen in recent days have placed the country, after months of relative calm, on the threshold of military conflict and comprehensive ground confrontation. Following continued economic blockade, looting of energy resources by the coalition and complete deadlock in government employees' wage payments, the Ansarallah leader, announcing a 'general mobilisation and migration' order, has placed hundreds of thousands of tribal and Yemeni army forces on standby.",
+      "summary_en": "General mobilisation call by Ansarallah in Yemen. Saudi coalition obstruction in paying employees' wages and continued looting of Yemen's energy resources has ultimately driven Sanaa's army and allied tribes towards an unprecedented military and armed mobilisation along the northern borders. Unprecedented field and military movements in Yemen in recent days have placed the country, after months of relative calm, on the threshold of military conflict and comprehensive ground confrontation. Following continued economic blockade, looting of energy resources by the coalition and complete deadlock in government employees' wage payments, the Ansarallah leader, announcing a 'general mobilisation and migration' order, has placed hundreds of thousands of tribal and Yemeni army forces on standby.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2b63a2b5c0810749e393d3af5ddadd21",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-02T11:55:00Z",
+      "title": "“Today, I was proud to recognize American Soldiers and Sailors assigned to a Joint Counter-Unmanned Aerial…",
+      "url": "https://x.com/CENTCOM/status/2072650321772396590",
+      "summary": "“Today, I was proud to recognize American Soldiers and Sailors assigned to a Joint Counter-Unmanned Aerial System (C-UAS) unit in Bahrain for their exceptional performance in shooting down 14 Iranian one-way attack drones over the past several weeks. The incredible professionalism, skill, and dedication they displayed saved lives.” — Adm. Brad Cooper, CENTCOM Commander— U.S. Central Command (@CENTCOM) Jul 2, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnxm2l4f724",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T11:48:45.743000Z",
+      "title": "AI is Israel’s next national-security battlefield as global standing sinks, Bennett says.",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-901230",
+      "summary": "AI is Israel’s next national-security battlefield as global standing sinks, Bennett says.\nIsrael must become technologically indispensable, claiming Netanyahu abandoned an Iran strategy that could have helped weaken the regime. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62332",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T11:32:27Z",
+      "title": "💢 بررسی آخرین تمهیدات برگزاری آیین وداع و تشییع پیکر مطهر رهبر شهید 🔸 رییس جمهور در جلسه ستاد برگزاری آیین…",
+      "url": "https://t.me/defapress_ir/62332",
+      "summary": "💢 بررسی آخرین تمهیدات برگزاری آیین وداع و تشییع پیکر مطهر رهبر شهید 🔸 رییس جمهور در جلسه ستاد برگزاری آیین تشییع رهبر شهید انقلاب با اشاره به بسیج همه ظرفیت‌های ملی برای برگزاری باشکوه، منظم و ایمن این مراسم، خواستار تداوم هماهنگی میان دستگاه‌های اجرایی، امدادی، خدماتی، امنیتی و نظامی شد و بر رصد مستمر وضعیت معابر، مدیریت هوشمند جمعیت و اطلاع‌رسانی دقیق و مستمر به مردم تأکید کرد. dnws.ir/003Xsv @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62332"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Review of latest arrangements for the farewell and funeral ceremony of the pure body of the Martyr Leader. The President, in a meeting of the funeral ceremony headquarters, referring to the mobilisation of all national capacities for a grand, orderly and safe ceremony, called for continued coordination among executive, relief, service, security and military agencies and emphasised continuous monitoring of road conditions, intelligent crowd management and accurate and continuous public information.",
+      "summary_en": "Review of latest arrangements for the farewell and funeral ceremony of the pure body of the Martyr Leader. The President, in a meeting of the funeral ceremony headquarters, referring to the mobilisation of all national capacities for a grand, orderly and safe ceremony, called for continued coordination among executive, relief, service, security and military agencies and emphasised continuous monitoring of road conditions, intelligent crowd management and accurate and continuous public information.",
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/blog/sc16405",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-07-02T11:21:38Z",
+      "title": "Security Council, 10189th Meeting (AM) Iran",
+      "url": "https://press.un.org/en/blog/sc16405",
+      "summary": "The Security Council will meet today, at the request of Bahrain, following Iran’s recent attack on the kingdom. Bahrain’s Foreign Minister Abdullatif bin Rashid al-Zayani is expected to participate in the session.",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607029308",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T11:18:25Z",
+      "title": "Iran re-arrests environmental activists from 2018 espionage case, lawyer says",
+      "url": "https://www.iranintl.com/en/202607029308",
+      "summary": "Iranian security forces arrested environmental activists Houman Jokar and Sepideh Kashani at their home on Wednesday and seized their electronic devices, their lawyer said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpnvqsn55w2a",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-02T11:15:38.655000Z",
+      "title": "Israel was marking 1,000 days since the October 7, 2023, Hamas massacre on Thursday, with somber memorials, marches and protests planned…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mpnvqsn55w2a",
+      "summary": "Israel was marking 1,000 days since the October 7, 2023, Hamas massacre on Thursday, with somber memorials, marches and protests planned across the country.\n\nRead more: www.timesofisrael.com/families-to-...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62331",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T11:14:57Z",
+      "title": "💢 بقائی: از حدود ۱۰۰ کشور میهمانانی برای مراسم وداع با رهبر شهید داریم 🔸 سخنگوی وزارت خارجه گفت: فردا جمعه…",
+      "url": "https://t.me/defapress_ir/62331",
+      "summary": "💢 بقائی: از حدود ۱۰۰ کشور میهمانانی برای مراسم وداع با رهبر شهید داریم 🔸 سخنگوی وزارت خارجه گفت: فردا جمعه مقامات عالی‌رتبه کشورها و شخصیت‌های سیاسی در مراسم وداع شرکت می‌کنند. 🔸 از حدود ساعت ۱۴، مقامات عالی‌رتبه کشور‌ها و شخصیت‌های سیاسی در این مراسم حضور خواهند یافت. در مجموع، از حدود ۱۰۰ کشور، میهمانانی خواهیم داشت. اعم از شخصیت‌ها، روسای دولت‌ها، روسای مجالس، وزرای امور خارجه یا نمایندگان ویژه دولت‌ها و تعداد زیادی از شخصیت‌ها و گروه‌های مردمی. 🔸 مراسم وداع و تشییع پیکر مطهر رهبر شهید انقلاب اسلامی، رویدادی تاریخی و بسیار مهم تلقی می‌شود؛ نه‌تنها برای ملت ایران، بلکه برای مردم منطقه، مسلما",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62331"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri: We have guests from around 100 countries for the farewell ceremony with the Martyr Leader. Foreign Ministry spokesman said: Tomorrow, Friday, high-ranking officials and political figures of countries will participate in the farewell ceremony. From around 14:00 onwards, high-ranking officials and political figures of countries will attend the ceremony. In total, we will have guests from around 100 countries. Including figures, heads of state, heads of parliaments, foreign ministers or special government representatives and a large number of figures and popular groups.",
+      "summary_en": "Bagheri: We have guests from around 100 countries for the farewell ceremony with the Martyr Leader. Foreign Ministry spokesman said: Tomorrow, Friday, high-ranking officials and political figures of countries will participate in the farewell ceremony. From around 14:00 onwards, high-ranking officials and political figures of countries will attend the ceremony. In total, we will have guests from around 100 countries. Including figures, heads of state, heads of parliaments, foreign ministers or special government representatives and a large number of figures and popular groups.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnvfmyz2j2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T11:09:22.593000Z",
+      "title": "Analysis: One of the latest ideas circulating around Gaza’s post-war transition is the creation of Hamas-free camps, but much of the plan’s…",
+      "url": "https://www.jpost.com/middle-east/article-901221",
+      "summary": "Analysis: One of the latest ideas circulating around Gaza’s post-war transition is the creation of Hamas-free camps, but much of the plan’s institutional architecture only exists on paper.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607021379",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T10:57:40Z",
+      "title": "Dust storm blankets central Iran as air quality worsens",
+      "url": "https://www.iranintl.com/en/202607021379",
+      "summary": "A dust storm has affected large parts of central and eastern Iran this week, with air quality reaching hazardous levels in some areas, visibility falling and authorities closing roads in parts of the country on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62330",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T10:56:57Z",
+      "title": "💢 مراسم وداع با همسر شهید رهبر انقلاب برگزار شد 🔸 مراسم وداع با معلم شهید خانم زهرا حداد عادل، عروس رهبر شهید…",
+      "url": "https://t.me/defapress_ir/62330",
+      "summary": "💢 مراسم وداع با همسر شهید رهبر انقلاب برگزار شد 🔸 مراسم وداع با معلم شهید خانم زهرا حداد عادل، عروس رهبر شهید انقلاب و همسر شهید رهبر معظم انقلاب شب گذشته (چهارشنبه ۱۰ تیرماه ۱۴۰۵) در مدرسه فرهنگ تهران برگزار شد. 🔸 بانو زهرا حداد عادل یکی از مدیران مدارس علوم انسانی فرهنگ بود. وی پس از اتمام دوره متوسطه در سال ۱۳۷۷ با آیت الله سید مجتبی خامنه‌ای رهبر انقلاب اسلامی ازدواج کرد. 🔸 زهرا حداد عادل، نهم اسفند ماه ۱۴۰۴ در جریان حمله آمریکایی-صهیونیستی به ایران و در جریان جنگ رمضان، به همراه رهبر شهید انقلاب به شهادت رسید. dnws.ir/003XsH @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62330"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Farewell ceremony held for the spouse of the Martyr Leader of the Revolution",
+      "summary_en": "Farewell ceremony held for the spouse of the Martyr Leader of the Revolution. A farewell ceremony was held for late teacher Zahra Hadad Adel, the bride of the Martyr Leader of the Revolution and spouse of the Supreme Leader of the Revolution, last night (Wednesday, 10 Tir 1405) at Farhang Tehran School. Zahra Hadad Adel was one of the administrators of Farhang schools in the humanities. After completing secondary school in 1377, she married Ayatollah Seyed Mujtaba Khamenei, Leader of the Islamic Revolution. Zahra Hadad Adel, on 9 Esfand 1404, during the US-Zionist attack on Iran and during the Ramadan war, was martyred along with the Martyr Leader of the Revolution.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62329",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T10:31:06Z",
+      "title": "💢 پزشکیان: عروج سرخ رهبر شهید پایان راه نیست؛ آغاز فصلی نوین است 🔸 رئیس جمهور گفت: پرچمی که قائد عظیم‌الشأن…",
+      "url": "https://t.me/defapress_ir/62329",
+      "summary": "💢 پزشکیان: عروج سرخ رهبر شهید پایان راه نیست؛ آغاز فصلی نوین است 🔸 رئیس جمهور گفت: پرچمی که قائد عظیم‌الشأن برای برافراشته ماندنش مجاهدت کرد، بر زمین نخواهد ماند. 🔸 امروز ایران اسلامی در یکی از باشکوه‌ترین مقاطع تاریخی خود ایستاده است؛ لحظه‌ای تاریخی که مردم عزیز ایران در سوگ رهبر فرزانه انقلاب، آن مجاهد خستگی‌ناپذیر و پرچمدار مقتدر مقاومت، گرد هم می‌آیند. 🔸 شهادت این رهبر عظیم‌الشأن، اگرچه اندوهی عمیق بر دل آحاد ملت ما، امت اسلامی و همه آزادگان جهان نشاند، اما این حقیقت انکارناپذیر را آشکار ساخت که بنای استوار این نظام بر ستون‌های مستحکم ایمان، آرمان و اراده ملتی بزرگ پایدار است. این عروج سرخ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62329"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: The red ascension of the Martyr Leader is not an end of the road; it is the beginning of a new chapter. President said: The flag for which the great leader strove to keep raised will not fall to the ground. Today Islamic Iran stands at one of the most glorious moments in its history; a historic moment when the dear Iranian people, mourning their wise leader of the revolution, that tireless mujahid and mighty standard-bearer of resistance, gather together. Although the martyrdom of this great leader has left a profound sorrow in the hearts of our nation, the Islamic nation and all the free people of the world, it revealed the undeniable truth that the solid foundation of this system rests on the firm pillars of faith, ideals and the will of a great nation.",
+      "summary_en": "Pezeshkian: The red ascension of the Martyr Leader is not an end of the road; it is the beginning of a new chapter. President said: The flag for which the great leader strove to keep raised will not fall to the ground. Today Islamic Iran stands at one of the most glorious moments in its history; a historic moment when the dear Iranian people, mourning their wise leader of the revolution, that tireless mujahid and mighty standard-bearer of resistance, gather together. Although the martyrdom of this great leader has left a profound sorrow in the hearts of our nation, the Islamic nation and all the free people of the world, it revealed the undeniable truth that the solid foundation of this system rests on the firm pillars of faith, ideals and the will of a great nation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/722",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T10:30:45Z",
+      "title": "💬 تحوّل قضائی آنچنان باشد که مردم آثار مثبت آن را در زندگی روزمره‌ی خود مشاهده نمایند.| ۷/تیر/۱۴۰۵ 📲…",
+      "url": "https://t.me/rahbar_enghelab_ir/722",
+      "summary": "💬 تحوّل قضائی آنچنان باشد که مردم آثار مثبت آن را در زندگی روزمره‌ی خود مشاهده نمایند.| ۷/تیر/۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/722"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Judicial transformation should be such that people observe its positive effects in their daily lives. 7 Tir 1405",
+      "summary_en": "Judicial transformation should be such that people observe its positive effects in their daily lives. 7 Tir 1405",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62328",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T10:10:14Z",
+      "title": "🎥 حال و هوای آماده‌سازی مصلای تهران برای مراسم بیعت و بدرقه رهبر شهید dnws.ir/003XsW @Defapress_ir",
+      "url": "https://t.me/defapress_ir/62328",
+      "summary": "🎥 حال و هوای آماده‌سازی مصلای تهران برای مراسم بیعت و بدرقه رهبر شهید dnws.ir/003XsW @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62328"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Atmosphere of preparations at Tehran's Mosalla for the allegiance and farewell ceremony of the Martyr Leader",
+      "summary_en": "Atmosphere of preparations at Tehran's Mosalla for the allegiance and farewell ceremony of the Martyr Leader",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607029255",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T10:09:20Z",
+      "title": "Turkey’s tighter residency rules leave more Iranians in limbo",
+      "url": "https://www.iranintl.com/en/202607029255",
+      "summary": "Turkey’s tougher residency rules are leaving growing numbers of Iranians facing legal uncertainty, financial losses and difficult choices over whether they can remain in a country that was once among their most accessible migration destinations.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnrsg7vh32y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T10:04:56.882000Z",
+      "title": "After taking hits in the Iran War, CENTCOM is considering moving US bases out of the Gulf region and into Israel's Negev desert.",
+      "url": "https://jpost.com/middle-east/article-901210",
+      "summary": "After taking hits in the Iran War, CENTCOM is considering moving US bases out of the Gulf region and into Israel's Negev desert. \njpost.com/middle-east/article-901210",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4219198",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-07-02T10:03:23+00:00",
+      "title": "Iran-Afghanistan - Returns Emergency Response #31 (as of 27 June 2026)",
+      "url": "https://reliefweb.int/node/4219198",
+      "summary": "",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62327",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T09:55:59Z",
+      "title": "💢 استاندار تهران: آمادگی کامل پایتخت برای میزبانی از زائران رهبر شهید/ ۱۴ زائرسرا در تهران آماده پذیرایی از…",
+      "url": "https://t.me/defapress_ir/62327",
+      "summary": "💢 استاندار تهران: آمادگی کامل پایتخت برای میزبانی از زائران رهبر شهید/ ۱۴ زائرسرا در تهران آماده پذیرایی از زائران است 🔸 «محمدصادق معتمدیان» رئیس ستاد مراسم وداع و بدرقه رهبر شهید در تهران با تشریح آخرین اقدامات اجرایی برای برگزاری این مراسم، از آماده‌سازی کامل زیرساخت‌های امنیتی، درمانی، ارتباطی و حمل‌ونقلی خبر داد و گفت: با بسیج ظرفیت‌های ملی، استانی و مردمی، تهران آماده میزبانی از زائران و عزاداران رهبر شهید است و تمامی سناریوهای لازم برای مدیریت جمعیت، اسکان، سلامت و تردد پیش‌بینی شده است. 🔸 تعامل و همکاری مجموعه‌های اطلاعاتی، امنیتی و نظامی کشور در شرایط مطلوبی قرار دارد و مراسم وداع و بد",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62327"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Governor of Tehran: Capital fully prepared to host pilgrims of the Martyr Leader. 14 reception centres in Tehran ready to serve pilgrims. Mohammad Sadiq Motamediyan, head of the funeral and farewell ceremony headquarters in Tehran, detailing the latest implementation measures for this ceremony, announced the complete preparation of security, medical, communications and transport infrastructure and said: With mobilisation of national, provincial and popular capacities, Tehran is prepared to host pilgrims and mourners of the Martyr Leader, and all necessary scenarios for crowd management, accommodation, health and transport have been planned. Interaction and cooperation among intelligence, security and military organisations of the country are in optimal conditions and the farewell and farewell ceremony.",
+      "summary_en": "Governor of Tehran: Capital fully prepared to host pilgrims of the Martyr Leader. 14 reception centres in Tehran ready to serve pilgrims. Mohammad Sadiq Motamediyan, head of the funeral and farewell ceremony headquarters in Tehran, detailing the latest implementation measures for this ceremony, announced the complete preparation of security, medical, communications and transport infrastructure and said: With mobilisation of national, provincial and popular capacities, Tehran is prepared to host pilgrims and mourners of the Martyr Leader, and all necessary scenarios for crowd management, accommodation, health and transport have been planned. Interaction and cooperation among intelligence, security and military organisations of the country are in optimal conditions and the farewell and farewell ceremony.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607015432",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T09:42:58Z",
+      "title": "Talk of dissolving IRGC revives debate over Iran's dual military",
+      "url": "https://www.iranintl.com/en/202607015432",
+      "summary": "A state-TV commentator’s claim that factions want to dissolve the IRGC has revived debate over Iran’s dual military structure, the Guards’ expanding political and economic role, and whether the army-IRGC system remains an asset after a war that exposed its reach and costs.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnq2odwwd2y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T09:33:46.157000Z",
+      "title": "Syria's foreign minister is visiting Beirut to speak with government and Hezbollah leaders, not long after Trump suggested Syria should…",
+      "url": "https://www.jpost.com/middle-east/article-901203",
+      "summary": "Syria's foreign minister is visiting Beirut to speak with government and Hezbollah leaders, not long after Trump suggested Syria should \"take care of Hezbollah.\"\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/721",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T09:32:30Z",
+      "title": "📊 #نمودار_درختی | پیام رهبر انقلاب اسلامی به مناسبت هفته قوّه قضائیه و سالگرد شهادت آیت‌الله بهشتی و یارانش…",
+      "url": "https://t.me/rahbar_enghelab_ir/721",
+      "summary": "📊 #نمودار_درختی | پیام رهبر انقلاب اسلامی به مناسبت هفته قوّه قضائیه و سالگرد شهادت آیت‌الله بهشتی و یارانش ۷/تیر/۱۴۰۵ 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/721"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Tree diagram: Message of the Leader of the Islamic Revolution on the occasion of Judiciary Week and the anniversary of the martyrdom of Ayatollah Beheshti and his companions. 7 Tir 1405",
+      "summary_en": "Tree diagram: Message of the Leader of the Islamic Revolution on the occasion of Judiciary Week and the anniversary of the martyrdom of Ayatollah Beheshti and his companions. 7 Tir 1405",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62326",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T09:26:42Z",
+      "title": "💢 تیم ۵ نفره گروهک منحله دمکرات به صورت کامل متلاشی شد 🔸 در پی ورود یک تیم از گروهک منحله دمکرات به مرزهای…",
+      "url": "https://t.me/defapress_ir/62326",
+      "summary": "💢 تیم ۵ نفره گروهک منحله دمکرات به صورت کامل متلاشی شد 🔸 در پی ورود یک تیم از گروهک منحله دمکرات به مرزهای شمالغرب کشور در روز گذشته برای اقدامات خرابکارانه و تروریستی، با رصد اطلاعاتی سربازان گمنام امام زمان عجل الله تعالی فرجه الشریف در استان آذربایجان غربی و پشتیبانی آتش رزمندگان قرارگاه حمزه سیدالشهدا علیه السلام نیروی زمینی سپاه این اشرار در کمین رزمندگان قرارگاه حمزه گرفتار و به صورت کامل متلاشی شدند. 🔸 در این درگیری که در ارتفاعات مرزی شهرستان پیرانشهر صورت گرفت، این تیم ۵ نفره بطور کامل منهدم شد و اجساد آنان به همراه انواع سلاح و تجهیزات در اختیار رزمندگان اسلام قرار گرفت. 🔸 قرارگاه حم",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62326"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Five-man team of dissolved Democrat group completely dismantled. Following the entry of a team from the dissolved Democrat group into the country's north-western borders to carry out sabotage and terrorist activities, through intelligence monitoring by soldiers of the Awaited One (may God hasten his appearance) in West Azerbaijan Province and with support from fighters of the Hamza Sayyid al-Shuhada headquarters of the IRGC Ground Forces, these villains were caught in an ambush by Hamza headquarters fighters and completely dismantled. In this clash that took place in the mountainous border areas of Piranshahr County, this five-man team was completely destroyed and their bodies along with various weapons and equipment came into the possession of Islamic fighters.",
+      "summary_en": "Five-man team of dissolved Democrat group completely dismantled. Following the entry of a team from the dissolved Democrat group into the country's north-western borders to carry out sabotage and terrorist activities, through intelligence monitoring by soldiers of the Awaited One (may God hasten his appearance) in West Azerbaijan Province and with support from fighters of the Hamza Sayyid al-Shuhada headquarters of the IRGC Ground Forces, these villains were caught in an ambush by Hamza headquarters fighters and completely dismantled. In this clash that took place in the mountainous border areas of Piranshahr County, this five-man team was completely destroyed and their bodies along with various weapons and equipment came into the possession of Islamic fighters.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62325",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T09:22:57Z",
+      "title": "🎥 انتشار نماهنگ «جاودانگی» با صدای علیرضا افتخاری برای تشییع رهبر شهید 🔸 همزمان با برگزاری آیین تشییع رهبر…",
+      "url": "https://t.me/defapress_ir/62325",
+      "summary": "🎥 انتشار نماهنگ «جاودانگی» با صدای علیرضا افتخاری برای تشییع رهبر شهید 🔸 همزمان با برگزاری آیین تشییع رهبر شهید، نماهنگ «جاودانگی» با صدای علیرضا افتخاری منتشر شد؛ اثری که در ادای احترام به مقام والای شهید و همراهی با حال و هوای سوگ و حماسه مردم تولید و در اختیار مخاطبان قرار گرفته است. dnws.ir/003Xrm @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62325"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Release of music video 'Immortality' with vocals by Alireza Eftekhari for the funeral of the Martyr Leader. Simultaneous with the funeral ceremony of the Martyr Leader, the music video 'Immortality' with vocals by Alireza Eftekhari was released; a work produced and made available to audiences in tribute to the exalted status of the martyr and in accompaniment with the atmosphere of mourning and epic of the people.",
+      "summary_en": "Release of music video 'Immortality' with vocals by Alireza Eftekhari for the funeral of the Martyr Leader. Simultaneous with the funeral ceremony of the Martyr Leader, the music video 'Immortality' with vocals by Alireza Eftekhari was released; a work produced and made available to audiences in tribute to the exalted status of the martyr and in accompaniment with the atmosphere of mourning and epic of the people.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62324",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T08:59:36Z",
+      "title": "💢 دعوت بنیاد حفظ آثار و نشر ارزش‌های دفاع مقدس و مقاومت از مردم برای حضور در آیین بدرقه رهبر شهید 🔸 بنیاد حفظ…",
+      "url": "https://t.me/defapress_ir/62324",
+      "summary": "💢 دعوت بنیاد حفظ آثار و نشر ارزش‌های دفاع مقدس و مقاومت از مردم برای حضور در آیین بدرقه رهبر شهید 🔸 بنیاد حفظ آثار و نشر ارزش‌های دفاع مقدس و مقاومت با صدور اطلاعیه‌ای از آحاد مردم شریف ایران خواست تا با حضوری گسترده و حماسی در آیین بدرقه رهبر شهید، پیام عزت و ایستادگی را به جهانیان مخابره کنند. 🔸 در این اطلاعیه آمده است: ملت بزرگ و مقاوم ایران اسلامی این فرصت ارزشمند و تاریخی را مغتنم شمرده و با قلبی آکنده از اندوه و حسرت، اما عزمی راسخ در ادامه راه پر افتخار شهدا، با گام‌هایی استوار و حضوری باشکوه در مراسم وداع و تشییع پیکر پاک و مطهر رهبر مجاهد و شهید راه عزت، آزادی و اقتدار ایران، حماسه ما",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62324"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Foundation for Preservation of Sacred Defence and Promotion of Resistance Values invites people to attend the farewell ceremony of the Martyr Leader. The Foundation for Preservation of Sacred Defence and Promotion of Resistance Values, through issuing a bulletin, called on members of the noble Iranian people to participate with broad and epic presence in the farewell ceremony of the Martyr Leader, conveying a message of glory and steadfastness to the world. The bulletin states: The great and resilient nation of Islamic Iran considers this valuable and historic opportunity, and with hearts full of sorrow and regret, but with steadfast resolve to continue the glorious path of martyrs, with firm steps and grand presence at the farewell and funeral ceremony of the pure and sacred body of the mujahid leader and martyr of the path of glory, freedom and power of Iran, epic.",
+      "summary_en": "Foundation for Preservation of Sacred Defence and Promotion of Resistance Values invites people to attend the farewell ceremony of the Martyr Leader. The Foundation for Preservation of Sacred Defence and Promotion of Resistance Values, through issuing a bulletin, called on members of the noble Iranian people to participate with broad and epic presence in the farewell ceremony of the Martyr Leader, conveying a message of glory and steadfastness to the world. The bulletin states: The great and resilient nation of Islamic Iran considers this valuable and historic opportunity, and with hearts full of sorrow and regret, but with steadfast resolve to continue the glorious path of martyrs, with firm steps and grand presence at the farewell and funeral ceremony of the pure and sacred body of the mujahid leader and martyr of the path of glory, freedom and power of Iran, epic.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnns5pcc52z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T08:53:12.932000Z",
+      "title": "After days of reported clashes between the Kurdish Free Life Party (PJAK) and Iran's Islamic Revolutionary Guard Corps (IRGC), the Iranian…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901200",
+      "summary": "After days of reported clashes between the Kurdish Free Life Party (PJAK) and Iran's Islamic Revolutionary Guard Corps (IRGC), the Iranian regime is striking at other Kurdish opposition groups. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62323",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-02T08:29:57Z",
+      "title": "💢 هرگونه دخالت آمریکا در تنگه هرمز با واکنش قاطع و سریع نیروهای مسلح مواجه می شود 🔸 قرارگاه مرکزی حضرت خاتم…",
+      "url": "https://t.me/defapress_ir/62323",
+      "summary": "💢 هرگونه دخالت آمریکا در تنگه هرمز با واکنش قاطع و سریع نیروهای مسلح مواجه می شود 🔸 قرارگاه مرکزی حضرت خاتم الانبیا(ص): تنگه هرمز میدان بازی آمریکای متجاوز نیست، بلکه قلمرو حاکمیت مسلم جمهوری اسلامی ایران است. امنیت و حفظ ثبات این آبراه حیاتی، خط قرمز نیروهای مسلح قدرتمند ایران اسلامی می‌باشد. 🔸 تمام شناورهای نفتکش و تجاری موظفند برای هرگونه تردد امن از تنگه هرمز، از مسیری که ایران تعیین نموده است، اقدام نمایند. 🔸 هرگونه عدم تمکین و خروج از مسیر تعیین‌شده یا بی‌توجهی به پروتکل‌های ناوبری جمهوری اسلامی ایران در تنگه هرمز، با پاسخ بی‌درنگ و مقتدرانه نیروهای مسلح مواجه شده و امنیت شناورهای متخلف ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62323"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Any US interference in the Strait of Hormuz will be met with a decisive and swift response from the armed forces. Central Command of Khatam al-Anbiya: The Strait of Hormuz is not a playground for transgressing America, but rather a clear domain of sovereignty of the Islamic Republic of Iran. The security and preservation of the stability of this vital waterway is a red line for Iran's powerful armed forces. All oil tankers and merchant vessels are obliged to use the route designated by Iran for any safe passage through the Strait of Hormuz. Any non-compliance or deviation from the designated route or disregard for Iran's navigation protocols in the Strait of Hormuz will be met with an immediate and powerful response from the armed forces, and the security of non-compliant vessels.",
+      "summary_en": "Any US interference in the Strait of Hormuz will be met with a decisive and swift response from the armed forces. Central Command of Khatam al-Anbiya: The Strait of Hormuz is not a playground for transgressing America, but rather a clear domain of sovereignty of the Islamic Republic of Iran. The security and preservation of the stability of this vital waterway is a red line for Iran's powerful armed forces. All oil tankers and merchant vessels are obliged to use the route designated by Iran for any safe passage through the Strait of Hormuz. Any non-compliance or deviation from the designated route or disregard for Iran's navigation protocols in the Strait of Hormuz will be met with an immediate and powerful response from the armed forces, and the security of non-compliant vessels.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnlrh5f642x",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T08:17:01.725000Z",
+      "title": "Report: The transfer of American currency from the US to Iraq has resumed following a suspension intended to pressure the country to…",
+      "url": "https://www.jpost.com/middle-east/article-901194",
+      "summary": "Report: The transfer of American currency from the US to Iraq has resumed following a suspension intended to pressure the country to distance itself from Iran, The New York Times reported on Thursday.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a5a71fd7c563a32e1fe9ac9092d296a6",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-02T08:17:00Z",
+      "title": "A man from Tajikistan holding a Russian passport was recently arrested on suspicion of spying in Israel on behalf of Iran and working to recruit additional spies, Israeli authorities announce. A joint investigation by the police, Shin Bet, and Defense Ministry found that Behrouz Sobirgon, a Tajik citizen, was in contact with an Iranian handler from January 2026, with most of his \"security activity\" taking place during the recent war with Iran. A statement says that during the war, Sobrigon \"sought to help Iran achieve operational successes and advance its objectives in the international arena against the State of Israel.\" The investigation found that Sobirgon was approached with \"an innocent",
+      "url": "https://x.com/manniefabian/status/2072595536205554154",
+      "summary": "A man from Tajikistan holding a Russian passport was recently arrested on suspicion of spying in Israel on behalf of Iran and working to recruit additional spies, Israeli authorities announce. \n\nA joint investigation by the police, Shin Bet, and Defense Ministry found that Behrouz Sobirgon, a Tajik citizen, was in contact with an Iranian handler from January 2026, with most of his \"security activity\" taking place during the recent war with Iran.\n\nA statement says that during the war, Sobrigon \"sought to help Iran achieve operational successes and advance its objectives in the international are",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202606309540",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-02T07:55:44Z",
+      "title": "Iran ultra-hardliners accuse Ghalibaf, Pezeshkian of ‘coup’ over US deal",
+      "url": "https://www.iranintl.com/en/202606309540",
+      "summary": "Iran’s ultra-hardliners have escalated their campaign against the US-Iran memorandum, accusing Parliament Speaker Mohammad Bagher Ghalibaf and President Masoud Pezeshkian of forcing through a deal they say amounts to a “coup” against the position of the slain Supreme Leader.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpnicmko7r2g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-02T07:15:02.790000Z",
+      "title": "When Hezbollah escalated the war with a record drone assault.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-897342",
+      "summary": "When Hezbollah escalated the war with a record drone assault.\nNorthern Israel has been under immense strain. Though the headlines have faded and the fighting has subsided, thousands of families still need urgent support to rebuild. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-13440",
+      "source": "US Federal Register",
+      "source_detail": "Transportation Department",
+      "source_tier": 1,
+      "category": "agency-rule",
+      "published_at": "2026-07-02T00:00:00Z",
+      "title": "Enabling Supersonic Overland Flight",
+      "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13440/enabling-supersonic-overland-flight",
+      "summary": "This proposal would advance the United States' leadership in next-generation aviation by replacing the longstanding prohibition on civil supersonic flight over land with a modern, performance-based regulatory framework. Consistent with national policy set forth by the Executive Order of June 6, 2025, Leading the World in Supersonic Flight, this action would enable the safe, efficient, and commercially viable operation of civil supersonic aircraft in the United States. Current regulations prohibit flight operations of civil aircraft at a true flight Mach number greater than 1 in the U.S., except under the conditions and limitations of an operation-specific authorization from the Administrator, to protect the public from sonic boom. FAA has determined the general ban on civil supersonic flight is outdated and no longer appropriate due to advancements in technology, flight techniques that prevent sonic booms from reaching the surface, and increased interest in civil supersonic flight. FAA proposes to repeal this outdated and unnecessary prohibition and establish a corresponding interim noise-based certification standard to allow supersonic flights without an operation-specific special authorization clearing the way for next-generation supersonic flight. This rule removes regulatory barriers, provides clear pathways for testing and early commercial operations, and positions the United States to serve as the leader in setting global standards for supersonic flight. These actions will ensure that the United States leads the world in the safe, lawful, and rapid development and deployment of next-generation supersonic aviation.",
+      "details": {
+        "document_type": "Proposed Rule",
+        "agencies": "Transportation Department, Federal Aviation Administration",
+        "document_number": "2026-13440"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-13375",
+      "source": "US Federal Register",
+      "source_detail": "Defense Department",
+      "source_tier": 1,
+      "category": "agency-rule",
+      "published_at": "2026-07-02T00:00:00Z",
+      "title": "Defense Federal Acquisition Regulation Supplement: Modifications to Printed Circuit Board Acquisition Restrictions (DFARS Case 2022-D011)",
+      "url": "https://www.federalregister.gov/documents/2026/07/02/2026-13375/defense-federal-acquisition-regulation-supplement-modifications-to-printed-circuit-board-acquisition",
+      "summary": "DoD is seeking information that will assist in the development of a revision to the Defense Federal Acquisition Regulation Supplement (DFARS) to implement sections of the National Defense Authorization Acts for Fiscal Years 2021 and 2022 that address the prohibition on the acquisition of covered printed circuit boards from a covered nation.",
+      "details": {
+        "document_type": "Proposed Rule",
+        "agencies": "Defense Department, Defense Acquisition Regulations System",
+        "document_number": "2026-13375"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    }
+  ]
+}
