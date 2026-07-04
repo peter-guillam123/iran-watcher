@@ -1,0 +1,1205 @@
+{
+  "generated_at": "2026-07-04T15:39:54.685962Z",
+  "window_since": "2026-07-04T05:00:00Z",
+  "window_until": "2026-07-04T15:38:28.514557Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 36,
+      "kept": 36,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 28,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "44 items dominated by Khamenei farewell coverage from Tehran with 100+ diplomatic delegations claimed and a leaked German report projecting up to 3,000 possible deaths, plus Ayalon calling the reported US-Iran deal a 'massive surrender'; nothing from UK Parliament or OFAC.",
+  "threads": [
+    {
+      "label": "Khamenei farewell ceremony logistics",
+      "summary": "Iranian state broadcaster IRIB and IRGC-affiliated Defa Press ran continuous coverage of the farewell at Tehran's Imam Khomeini prayer ground, with the cabinet declaring Sunday 14 Tir a public holiday. Commander Hasanzadeh said the funeral would run 10 to 12 hours on land toward Azadi Square, with prayers set for 8am the following day.",
+      "event_ids": [
+        "telegram:iribnews/348944",
+        "telegram:iribnews/348938",
+        "telegram:defapress_ir/62616",
+        "telegram:iribnews/348933",
+        "telegram:iribnews/348932",
+        "telegram:iribnews/348931",
+        "telegram:defapress_ir/62609",
+        "telegram:defapress_ir/62618",
+        "telegram:defapress_ir/62615",
+        "telegram:iribnews/348926",
+        "telegram:defapress_ir/62612"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Regime messaging around martyrdom narrative",
+      "summary": "Khamenei's office, Defa Press and IRIB pushed a martyrdom framing, with the Foreign Ministry calling his death 'the beginning of a new phase' and President Pezeshkian writing that 'the flag will not fall'. Defa Press cited RIA Novosti and a Sana'a University professor casting Khamenei as a symbol of global resistance, while crowds chanted 'We are the Sajiil missile, the enemy is Israeli'.",
+      "event_ids": [
+        "telegram:defapress_ir/62617",
+        "telegram:defapress_ir/62614",
+        "telegram:rahbar_enghelab_ir/727",
+        "telegram:rahbar_enghelab_ir/726",
+        "telegram:defapress_ir/62607",
+        "telegram:defapress_ir/62613",
+        "telegram:iribnews/348930",
+        "telegram:iribnews/348929",
+        "telegram:defapress_ir/62598"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "External reporting on funeral scale and risk",
+      "summary": "Iran International cited Germany's Die Welt reporting a classified document projecting 1,500 to 3,000 possible deaths across the week-long funeral, and framed the ceremonies as a state effort to recast a wartime death as martyrdom. The Jerusalem Post reported chants of 'Death to America' and 'Revenge, revenge' at the Tehran ceremonies.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202607048936",
+        "iranintl:https://www.iranintl.com/en/202607046084",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpskn6dekq23"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "US-Iran deal reactions and regional readouts",
+      "summary": "Former Israeli deputy foreign minister Danny Ayalon told the Jerusalem Post the current US-Iran deal amounts to a 'massive surrender' to the Islamic Republic, and a separate JPost podcast with historian Gil Troy discussed US-Israel strains and the Iran war. CENTCOM marked America's 250th on X, and Defa Press circulated a report of a US MH-60S Seahawk crash in the northern Indian Ocean.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpt7iy2mna2t",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpta627x6p2g",
+        "x_via_rssapp:c3838fd640d7f94496d34998bff1a7ff",
+        "telegram:iribnews/348924"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic security and regional militant items",
+      "summary": "Iran's Ministry of Intelligence, via Defa Press, claimed the dismantling of four operational cells of a 'terrorist-takfiri' group in Sistan and Baluchestan with ten arrests. The Jerusalem Post reported Hamas executed a 47-year-old Gazan accused of helping Israeli strikes that killed senior operatives including Izz al-Din Haddad, and Times of Israel published a podcast on Shia Lebanese turning against Hezbollah.",
+      "event_ids": [
+        "telegram:defapress_ir/62606",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpsgxxqmzp22",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpsp72ntpw23"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/348944",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:35:31Z",
+      "title": "ستاد وداع با رهبر شهید انقلاب اسلامی: نماز بر پیکر مطهر رهبر شهید انقلاب اسلامی رأس ساعت ۸ صبح فردا در تهران…",
+      "url": "https://t.me/iribnews/348944",
+      "summary": "ستاد وداع با رهبر شهید انقلاب اسلامی: نماز بر پیکر مطهر رهبر شهید انقلاب اسلامی رأس ساعت ۸ صبح فردا در تهران اقامه خواهد شد  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348944"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Farewell headquarters for the martyred leader of the Islamic Revolution: Prayer will be held over the pure body of the martyred leader of the Islamic Revolution at 8 a.m. tomorrow in Tehran...",
+      "summary_en": "Farewell headquarters for the martyred leader of the Islamic Revolution: Prayer will be held over the pure body of the martyred leader of the Islamic Revolution at 8 a.m. tomorrow in Tehran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62618",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:30:13Z",
+      "title": "💢 رئیس پلیس راهور فراجا: هیچ محدودیتی برای ورود زائران به شهر تهران وجود ندارد 🔸 سردار «حسینی» گفت:…",
+      "url": "https://t.me/defapress_ir/62618",
+      "summary": "💢 رئیس پلیس راهور فراجا: هیچ محدودیتی برای ورود زائران به شهر تهران وجود ندارد 🔸 سردار «حسینی» گفت: محدودیت‌های ترافیکی آیین وداع و تشییع پیکر مطهر رهبر شهید انقلاب، صرفاً در محدوده اطراف مصلی تهران و با هدف مدیریت حضور میلیونی زائران و برگزاری منظم و ایمن مراسم وداع و تشییع رهبر شهید اعمال شده است و هیچ محدودیتی برای ورود زائران به شهر تهران وجود ندارد. 🔸 محدودیت‌ها و ممنوعیت‌های تردد تنها در شعاع پیرامونی مصلی تهران اعمال شده و این محدوده، فضای محصور میان بزرگراه‌های همت، بزرگراه مدرس، خیابان شهید مطهری و خیابان سهروردی را در بر می‌گیرد. 🔸 تمامی ۱۴ مبادی ورودی تهران از شمال، جنوب، شرق و غرب ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62618"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Traffic police commander: There are no restrictions on pilgrims entering Tehran. Commander Hossein said:...",
+      "summary_en": "Traffic police commander: There are no restrictions on pilgrims entering Tehran. Commander Hossein said: Traffic restrictions for the farewell and funeral ceremony of the pure body of the martyred leader of the Islamic Revolution have been applied only within the perimeter of Tehran's prayer ground and with the aim of managing the presence of millions of pilgrims and conducting an orderly and safe farewell and funeral ceremony for the martyred leader, and there are no restrictions on pilgrims entering Tehran. Restrictions and traffic prohibitions have only been applied within the perimeter surrounding Tehran's prayer ground, and this area encompasses the enclosed space between Hemat, Modares, Shahid Motahari and Sohrevardi streets. All 14 entry points to Tehran from north, south, east and west",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348943",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:30:05Z",
+      "title": "🎦 دلگیرترین غروب مصلای تهران 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/348943",
+      "summary": "🎦 دلگیرترین غروب مصلای تهران 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348943"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The most sorrowful sunset of Tehran's prayer ground",
+      "summary_en": "The most sorrowful sunset of Tehran's prayer ground",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348942",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:28:22Z",
+      "title": "🎦 نمایی از وداع تاریخی امت با آقای شهید ایران در مصلای تهران 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/348942",
+      "summary": "🎦 نمایی از وداع تاریخی امت با آقای شهید ایران در مصلای تهران 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348942"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A scene of the historic farewell of the nation with Iran's martyred master at Tehran's prayer ground",
+      "summary_en": "A scene of the historic farewell of the nation with Iran's martyred master at Tehran's prayer ground",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348941",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:25:13Z",
+      "title": "🎦 خانوادگی برای وداع با امامشان آمده‌اند @iribnews",
+      "url": "https://t.me/iribnews/348941",
+      "summary": "🎦 خانوادگی برای وداع با امامشان آمده‌اند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348941"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Families have come to bid farewell to their leader",
+      "summary_en": "Families have come to bid farewell to their leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348940",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:25:04Z",
+      "title": "الجزیره: بیش از ۱۰۰ هیئت دیپلماتیک از کشورهای مختلف جهان در مراسم تشییع رهبر شهید انقلاب شرکت کرده‌اند 🔹 طبق…",
+      "url": "https://t.me/iribnews/348940",
+      "summary": "الجزیره: بیش از ۱۰۰ هیئت دیپلماتیک از کشورهای مختلف جهان در مراسم تشییع رهبر شهید انقلاب شرکت کرده‌اند 🔹 طبق گزارش الجزیره، میلیون‌ها نفر در تهران و شهرهای مختلف ایران برای شرکت در مراسم تشییع آیت‌الله سید علی خامنه‌ای آماده می‌شوند؛ مراسمی که رسانه‌ها آن را «تاریخی» و «بی‌سابقه از نظر گستردگی» توصیف کرده‌اند. 🔹 این شبکه می‌گوید خیابان‌های اصلی و مصلای امام خمینی (ره) از نخستین ساعات روز مملو از جمعیت بوده و مقام‌ها پیش‌بینی کرده‌اند بیش از ۱۰ میلیون نفر در روزهای آتی در این آیین‌ها شرکت کنند؛ رقمی که از نگاه تحلیلگران نشان‌دهنده ابعاد کم‌سابقه این تجمع عمومی است. 🔹 الجزیره همچنین گزارش داده ک",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348940"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Al Jazeera: More than 100 diplomatic delegations from various countries in the world have participated in the funeral ceremony of the martyred leader of the Islamic Revolution. According to...",
+      "summary_en": "Al Jazeera: More than 100 diplomatic delegations from various countries in the world have participated in the funeral ceremony of the martyred leader of the Islamic Revolution. According to Al Jazeera's report, millions of people in Tehran and various cities in Iran are preparing to participate in the funeral ceremony of Ayatollah Sayed Ali Khamenei; a ceremony that media outlets have described as 'historic' and 'unprecedented in scope'. The network says the main streets and Imam Khomeini's prayer ground have been crowded since the early hours of the day, and authorities have predicted that more than 10 million people will participate in these ceremonies in the coming days; a figure that, according to analysts, demonstrates the unprecedented scale of this public gathering. Al Jazeera has also reported",
+      "has_figures": true,
+      "figures_examples": [
+        "10 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/348939",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:20:22Z",
+      "title": "🎦 خردسال‌ها به یاد آقای شهید ایران به مراسم بدرقه آمدند @iribnews",
+      "url": "https://t.me/iribnews/348939",
+      "summary": "🎦 خردسال‌ها به یاد آقای شهید ایران به مراسم بدرقه آمدند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348939"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Young children came to the farewell ceremony in memory of Iran's martyred master",
+      "summary_en": "Young children came to the farewell ceremony in memory of Iran's martyred master",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348938",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:18:31Z",
+      "title": "ایران یکشنبه تعطیل شد 🔹 هیئت دولت پس از درخواستهای متعدد از استانهای مختلف کشور برای فراهم شدن امکان حضور…",
+      "url": "https://t.me/iribnews/348938",
+      "summary": "ایران یکشنبه تعطیل شد 🔹 هیئت دولت پس از درخواستهای متعدد از استانهای مختلف کشور برای فراهم شدن امکان حضور مردم در مراسم وداع و تشییع قائد عظیم الشان انقلاب اسلامی و با هدف تسهیل و امکان حضور گسترده اقشار مختلف مردم در آیینهای سوگواری، روز یکشنبه ۱۴ تیرماه…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348938"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran closed on Sunday. The cabinet, following multiple requests from various provinces of the country to enable people's participation in the farewell and funeral ceremony...",
+      "summary_en": "Iran closed on Sunday. The cabinet, following multiple requests from various provinces of the country to enable people's participation in the farewell and funeral ceremony of the great leader of the Islamic Revolution, and with the aim of facilitating and enabling broad participation of various sections of people in the mourning ceremonies, declared Sunday, 14 Tir...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62617",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:17:34Z",
+      "title": "💢 بیانیه وزارت امور خارجه به‌مناسبت وداع با رهبر شهید انقلاب 🔸 وزارت امور خارجه در بیانیه‌ای اعلام کرد: شهادت…",
+      "url": "https://t.me/defapress_ir/62617",
+      "summary": "💢 بیانیه وزارت امور خارجه به‌مناسبت وداع با رهبر شهید انقلاب 🔸 وزارت امور خارجه در بیانیه‌ای اعلام کرد: شهادت رهبر بزرگمان، نه پایان راه، بلکه آغاز مرحله‌ای نوین در مسیر اعتلای اسلام و ایران عزیز است. 🔸 ملت بزرگ و قدرشناس ایران در غم فقدان امام و رهبر فرزانه خود، حضرت آیت‌الله العظمی سید علی خامنه‌ای (قدس سره الشریف)، عزادار است و وداع تاریخی با آن بزرگمرد را به فرصتی برای تجدید میثاق با آرمان‌های والای ایشان و صیانت از دستاورد‌های بی‌بدیل استقلال، عزت و اقتدار ایران اسلامی تبدیل کرده است. 🔸 وزارت امور خارجه جمهوری اسلامی ایران، ضمن عرض تبریک و تسلیت مجدد به‌مناسبت شهادت رهبر عزیز انقلاب به جا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62617"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Statement from the Ministry of Foreign Affairs on the occasion of farewell to the martyred leader of the Islamic Revolution. The ministry announced: The martyrdom...",
+      "summary_en": "Statement from the Ministry of Foreign Affairs on the occasion of farewell to the martyred leader of the Islamic Revolution. The ministry announced: The martyrdom of our great leader is not an end to the path, but the beginning of a new phase in the advancement of Islam and dear Iran. The great and grateful nation of Iran mourns the loss of their wise leader and imam, His Eminence Ayatollah al-Uzma Sayed Ali Khamenei, and has transformed the historic farewell to that great man into an opportunity to renew the covenant with his lofty ideals and to preserve the unparalleled achievements of independence, dignity and power of Islamic Iran. The Ministry of Foreign Affairs of the Islamic Republic of Iran, while expressing renewed congratulations and condolences on the occasion of the martyrdom of the dear leader of the revolution",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348937",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:11:08Z",
+      "title": "🎦 تاریخ این روزها را فراموش نخواهد کرد 🔹 مردم امروز \"باید برخاست\" را معنا کردند 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/348937",
+      "summary": "🎦 تاریخ این روزها را فراموش نخواهد کرد 🔹 مردم امروز \"باید برخاست\" را معنا کردند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348937"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "History will not forget these days. Today people gave meaning to 'arise'",
+      "summary_en": "History will not forget these days. Today people gave meaning to 'arise'",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348936",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:07:44Z",
+      "title": "🎦 داغت نمیشه باورم ای رهبرم... 🔹 لحظاتی از نوحه‌خوانی حسین ستوده در مراسم وداع مردم عزادار با «آقای شهید…",
+      "url": "https://t.me/iribnews/348936",
+      "summary": "🎦 داغت نمیشه باورم ای رهبرم... 🔹 لحظاتی از نوحه‌خوانی حسین ستوده در مراسم وداع مردم عزادار با «آقای شهید ایران» در مصلای تهران @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348936"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "I cannot believe you are gone, my leader... Moments from the lamentation of Hossein Setudeh at the farewell ceremony of the mourning people with 'Iran's martyred master...",
+      "summary_en": "I cannot believe you are gone, my leader... Moments from the lamentation of Hossein Setudeh at the farewell ceremony of the mourning people with 'Iran's martyred master' at Tehran's prayer ground",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348935",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T15:02:57Z",
+      "title": "🎦 حضور پرشور بانوان در مراسم وداع با امام مجاهد شهید @iribnews",
+      "url": "https://t.me/iribnews/348935",
+      "summary": "🎦 حضور پرشور بانوان در مراسم وداع با امام مجاهد شهید @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348935"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Strong presence of women in the farewell ceremony with the holy warrior martyred leader",
+      "summary_en": "Strong presence of women in the farewell ceremony with the holy warrior martyred leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348934",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:59:23Z",
+      "title": "نزدیک‌ترین تصویر از پیکر رهبر شهید انقلاب در مصلای امام خمینی تهران @iribnews",
+      "url": "https://t.me/iribnews/348934",
+      "summary": "نزدیک‌ترین تصویر از پیکر رهبر شهید انقلاب در مصلای امام خمینی تهران @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348934"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Closest image of the martyred leader's body at Imam Khomeini's prayer ground in Tehran",
+      "summary_en": "Closest image of the martyred leader's body at Imam Khomeini's prayer ground in Tehran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62616",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:59:13Z",
+      "title": "💢 جزئیات جدید از برگزاری مراسم وداع و اقامه نماز بر پیکر قائد شهید امت 🔸 رئیس ستاد برگزاری آیین وداع، نماز و…",
+      "url": "https://t.me/defapress_ir/62616",
+      "summary": "💢 جزئیات جدید از برگزاری مراسم وداع و اقامه نماز بر پیکر قائد شهید امت 🔸 رئیس ستاد برگزاری آیین وداع، نماز و تشییع رهبر شهید انقلاب در تهران با اشاره به استقبال گسترده مردم از مراسم وداع با رهبر شهید، گفت: برای برگزاری مراسم تشییعی ۱۲ ساعته برنامه‌ریزی کرده‌ایم. 🔸 به دلیل بازخورد بسیار مثبت مراسم وداع در نخستین روز برگزاری، بسیاری از مردم درخواست کردند این برنامه بار دیگر تکرار شود؛ به‌گونه‌ای که مراسم با پخش بخش‌هایی از بیانات و صدای رهبر شهید آغاز شود. 🔸 با توجه به تماس‌های مکرر کاروان‌ها، مجموعه‌ها، نهاد‌ها و گروه‌های مردمی که مسئولیت هدایت زائران را بر عهده دارند، درخواست شده است که زمان ب",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62616"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "New details on holding the farewell ceremony and prayer over the body of the martyred leader of the nation. The head of the headquarters for holding the farewell, prayer and funeral ceremony...",
+      "summary_en": "New details on holding the farewell ceremony and prayer over the body of the martyred leader of the nation. The head of the headquarters for holding the farewell, prayer and funeral ceremony of the martyred leader of the Islamic Revolution in Tehran, referring to the broad reception of the farewell ceremony by the people with the martyred leader, said: We have planned a 12-hour funeral ceremony. Due to very positive feedback from the farewell ceremony on the first day of holding, many people requested that this programme be repeated again; in such a way that the ceremony begins with broadcast of some of the statements and voice of the martyred leader. Given repeated contact from convoys, groups, institutions and popular organisations responsible for guiding pilgrims, it has been requested that the time be",
+      "has_figures": true,
+      "figures_examples": [
+        "12-hour"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/348933",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:55:07Z",
+      "title": "سردار حسن‌زاده: در روز تشییع از هر نقطه ابتدایی که بتوانیم خودروی حامل پیکر را وارد جمعیت می‌کنیم. 🔹…",
+      "url": "https://t.me/iribnews/348933",
+      "summary": "سردار حسن‌زاده: در روز تشییع از هر نقطه ابتدایی که بتوانیم خودروی حامل پیکر را وارد جمعیت می‌کنیم. 🔹 برنامه‌ریزی شده که تا میدان آزادی و حتی پس از آن، تشییع انجام شود.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348933"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Hasanzadeh: On the day of the funeral, we will enter the vehicle carrying the body into the crowd from any initial point we can. Plans have been made for the funeral to take place up to Azadi Square and even beyond.",
+      "summary_en": "Commander Hasanzadeh: On the day of the funeral, we will enter the vehicle carrying the body into the crowd from any initial point we can. Plans have been made for the funeral to take place up to Azadi Square and even beyond.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348932",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:54:39Z",
+      "title": "سردار حسن‌زاده: قطعا تشییع پیکر رهبر شهید به‌طور زمینی انجام خواهد شد 🔹 مراسم وداع با پیکر رهبر شهید انقلاب…",
+      "url": "https://t.me/iribnews/348932",
+      "summary": "سردار حسن‌زاده: قطعا تشییع پیکر رهبر شهید به‌طور زمینی انجام خواهد شد 🔹 مراسم وداع با پیکر رهبر شهید انقلاب تا ساعت ۲۰ روز یکشنبه ۱۴ تیر پیش‌بینی شده است. 🔹 ما مکلفیم که رأس ساعت ۲۰ یکشنبه پیکرهای مطهر را به نقطه‌ای منتقل کنیم که برای مراسم تشییع آماده شوند.…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348932"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Hasanzadeh: The funeral of the martyred leader's body will certainly be carried out on land. The farewell ceremony with the martyred leader's body is planned until 8 p.m. on Sunday, 14 Tir. We are obliged to transfer the pure bodies at 8 p.m. Sunday to a location that will be prepared for the funeral ceremony...",
+      "summary_en": "Commander Hasanzadeh: The funeral of the martyred leader's body will certainly be carried out on land. The farewell ceremony with the martyred leader's body is planned until 8 p.m. on Sunday, 14 Tir. We are obliged to transfer the pure bodies at 8 p.m. Sunday to a location that will be prepared for the funeral ceremony...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348931",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:53:34Z",
+      "title": "🎦 سردار حسن‌زاده: برای تشییع ۱۰ تا ۱۲ ساعته در تهران آماده‌ایم 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/348931",
+      "summary": "🎦 سردار حسن‌زاده: برای تشییع ۱۰ تا ۱۲ ساعته در تهران آماده‌ایم 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348931"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Hasanzadeh: We are ready for a 10 to 12-hour funeral in Tehran",
+      "summary_en": "Commander Hasanzadeh: We are ready for a 10 to 12-hour funeral in Tehran",
+      "has_figures": true,
+      "figures_examples": [
+        "12-hour"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/348930",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:48:16Z",
+      "title": "🎦 موشک‌های سجیل قرمز 🔹 ما موشک سجیلیم، دشمن اسرائیلیم 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/348930",
+      "summary": "🎦 موشک‌های سجیل قرمز 🔹 ما موشک سجیلیم، دشمن اسرائیلیم 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348930"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Red Sajiil missiles. We are the Sajiil missile, the enemy is Israeli",
+      "summary_en": "Red Sajiil missiles. We are the Sajiil missile, the enemy is Israeli",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348929",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:46:16Z",
+      "title": "🎦 مردم هم‌نوا در مصلی: ما موشک سجیلیم، دشمن اسرائیلیم @iribnews",
+      "url": "https://t.me/iribnews/348929",
+      "summary": "🎦 مردم هم‌نوا در مصلی: ما موشک سجیلیم، دشمن اسرائیلیم @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348929"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "People in unison at the prayer ground: We are the Sajiil missile, the enemy is Israeli",
+      "summary_en": "People in unison at the prayer ground: We are the Sajiil missile, the enemy is Israeli",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348928",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:45:31Z",
+      "title": "🎦 خاطره‌ی متکی از دیدار رهبری شهید و پوتین و تعجب پوتین از میزان کتابخوانی رهبری شهید 🌐 iribnews.ir 🆔…",
+      "url": "https://t.me/iribnews/348928",
+      "summary": "🎦 خاطره‌ی متکی از دیدار رهبری شهید و پوتین و تعجب پوتین از میزان کتابخوانی رهبری شهید 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348928"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Motaki's memory of a meeting between the martyred leader and Putin and Putin's surprise at the martyred leader's extent of reading",
+      "summary_en": "Motaki's memory of a meeting between the martyred leader and Putin and Putin's surprise at the martyred leader's extent of reading",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348926",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:41:03Z",
+      "title": "بازدید شهردار تهران از معاونت حمل‌ونقل و ترافیک 🔹 زاکانی: همه تمهیدات لازم برای میزبانی از مردم عزادار در…",
+      "url": "https://t.me/iribnews/348926",
+      "summary": "بازدید شهردار تهران از معاونت حمل‌ونقل و ترافیک 🔹 زاکانی: همه تمهیدات لازم برای میزبانی از مردم عزادار در مراسم بدرقه رهبر شهید انقلاب اندیشیده شده و تهران از مردم دیگر شهرها پذیرایی می‌کند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348926"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Tehran's mayor visits the transport and traffic department. Zakani: All necessary measures have been taken to host the mourning people in the farewell ceremony of the martyred leader of the Islamic Revolution, and Tehran is receiving people from other cities.",
+      "summary_en": "Tehran's mayor visits the transport and traffic department. Zakani: All necessary measures have been taken to host the mourning people in the farewell ceremony of the martyred leader of the Islamic Revolution, and Tehran is receiving people from other cities.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/727",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:36:02Z",
+      "title": "🔖 📎 شهیدِ کشوردوست 🎞 از خصوصیات دیگر ایشان [رهبر شهید انقلاب]، ایران‌دوستی و تلاش مستمر برای استقلال هرچه…",
+      "url": "https://t.me/rahbar_enghelab_ir/727",
+      "summary": "🔖 📎 شهیدِ کشوردوست 🎞 از خصوصیات دیگر ایشان [رهبر شهید انقلاب]، ایران‌دوستی و تلاش مستمر برای استقلال هرچه بیشتر #ایران_عزیز بود که در کنار آن بر وحدت کلمه و انسجام ملّی تأکید داشتند. ۲۰/فروردین/۱۴۰۵ 🔁 بازنشر به مناسبت بدرقه آقای شهید ایران | #یگانه_دوران ▪️ مراسم وداع در مصلای امام خمینی(ره): شنبه ۱۳ تیر ماه و یک شنبه ۱۴ تیرماه ▪️ مراسم تشییع تهران: از ساعت ۶ صبح دوشنبه ۱۵ تیرماه 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/727"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The patriotic martyr. Among the other characteristics of His Eminence [the martyred leader of the Islamic Revolution], patriotism and continuous effort for the ever-increasing independence of dear Iran were accompanied by emphasis on unity of word and national cohesion.",
+      "summary_en": "The patriotic martyr. Among the other characteristics of His Eminence [the martyred leader of the Islamic Revolution], patriotism and continuous effort for the ever-increasing independence of dear Iran were accompanied by emphasis on unity of word and national cohesion. 20 Farvardin 1405 Reposted on the occasion of the farewell of Iran's martyred master | The unique era. Farewell ceremony at Imam Khomeini's prayer ground: Saturday 13 Tir and Sunday 14 Tir. Tehran funeral ceremony: from 6 a.m. Monday 15 Tir",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348925",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:33:28Z",
+      "title": "🎦 ای دنیا می‌بینی! آقام از دستم رفت... 🔹 لحظاتی از نوحه‌خوانی محمدحسین پویانفر در مراسم وداع مردم عزادار با…",
+      "url": "https://t.me/iribnews/348925",
+      "summary": "🎦 ای دنیا می‌بینی! آقام از دستم رفت... 🔹 لحظاتی از نوحه‌خوانی محمدحسین پویانفر در مراسم وداع مردم عزادار با «آقای شهید ایران» در مصلای امام خمینی تهران @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348925"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "O world, do you see! My master has slipped from my hands... Moments from the lamentation of Mohammad Hossein Pouyanfar at the farewell ceremony of the mourning people with 'Iran's martyred master' at Imam Khomeini's prayer ground in Tehran",
+      "summary_en": "O world, do you see! My master has slipped from my hands... Moments from the lamentation of Mohammad Hossein Pouyanfar at the farewell ceremony of the mourning people with 'Iran's martyred master' at Imam Khomeini's prayer ground in Tehran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/348924",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:33:04Z",
+      "title": "سقوط یک بالگرد ارتش آمریکا در شمال اقیانوس هند رسانه‌ها اعلام کردند که یک فروند بالگرد MH-60S Seahawk نیروی…",
+      "url": "https://t.me/iribnews/348924",
+      "summary": "سقوط یک بالگرد ارتش آمریکا در شمال اقیانوس هند رسانه‌ها اعلام کردند که یک فروند بالگرد MH-60S Seahawk نیروی دریایی آمریکا که از ناو هواپیمابر USS George H.W. Bush به پرواز درآمده بود، در روز چهارشنبه در شمال اقیانوس هند سقوط کرده و یک خدمه از چهار خدمه‌ی آن مفقود شده و تا به امروز پیدا نشده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/348924"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Crash of a US military helicopter in the northern Indian Ocean. Media reported that an MH-60S Seahawk helicopter of the US Navy that had taken off from the aircraft carrier USS George H.W. Bush crashed in the northern Indian Ocean on Wednesday, with one of its four crew members missing and not found to date.",
+      "summary_en": "Crash of a US military helicopter in the northern Indian Ocean. Media reported that an MH-60S Seahawk helicopter of the US Navy that had taken off from the aircraft carrier USS George H.W. Bush crashed in the northern Indian Ocean on Wednesday, with one of its four crew members missing and not found to date.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62615",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:18:59Z",
+      "title": "💢 آغاز خدمت‌رسانی رایگان بیمارستان تخصصی سپاه به زائران مراسم وداع و تشییع در مصلای تهران 🔸 سردار علی…",
+      "url": "https://t.me/defapress_ir/62615",
+      "summary": "💢 آغاز خدمت‌رسانی رایگان بیمارستان تخصصی سپاه به زائران مراسم وداع و تشییع در مصلای تهران 🔸 سردار علی صفربخشی، فرمانده مرکز بهداری رزمی غرب نیروی زمینی سپاه از آغاز به کار بیمارستان تخصصی امام حسین (ع) جهت خدمت‌رسانی به زائران و شرکت‌کنندگان در مراسم وداع و تشییع پیکر مطهر رهبر شهید خبر داد. 🔸 سردار بخشی:  این مرکز درمانی که از امروز تا پایان مراسم فعال است، در ضلع شرقی مصلای امام خمینی (ره) (درب شماره یک) مستقر شده تا تمامی نیازهای پزشکی شرکت‌کنندگان را پوشش دهد. 🔸 در کنار بیمارستان امام حسین (ع)، تعداد ۲۵ پست امداد در نقاط مختلف پیش‌بینی شده است. ما برای تمامی مراحل درمان، یک چرخه و زنجیره ا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62615"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Start of free medical services by the Sepah specialist hospital to pilgrims of the farewell and funeral ceremony at Tehran's prayer ground. Commander Ali Safarbakhshi, commander of the West Land Force combat health centre of the Sepah, announced the start of Imam Hossein specialist hospital to provide medical services to pilgrims and participants in the farewell and funeral ceremony of the martyred leader's pure body. Commander Bakhshi: This medical centre, which is active from today until the end of the ceremony, is located on the eastern side of Imam Khomeini's prayer ground (gate number one) to cover all medical needs of participants. In addition to Imam Hossein hospital, 25 first-aid posts have been planned at various points. We have planned an entire cycle and chain for all stages of treatment,",
+      "summary_en": "Start of free medical services by the Sepah specialist hospital to pilgrims of the farewell and funeral ceremony at Tehran's prayer ground. Commander Ali Safarbakhshi, commander of the West Land Force combat health centre of the Sepah, announced the start of Imam Hossein specialist hospital to provide medical services to pilgrims and participants in the farewell and funeral ceremony of the martyred leader's pure body. Commander Bakhshi: This medical centre, which is active from today until the end of the ceremony, is located on the eastern side of Imam Khomeini's prayer ground (gate number one) to cover all medical needs of participants. In addition to Imam Hossein hospital, 25 first-aid posts have been planned at various points. We have planned an entire cycle and chain for all stages of treatment,",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpta627x6p2g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-04T14:05:17.999000Z",
+      "title": "Podcast: On America's 250th birthday, Presidential Historian Gil Troy discusses the rocky relationship between the US and Israel, citing…",
+      "url": "https://www.jpost.com/podcast/article-901236",
+      "summary": "Podcast: On America's 250th birthday, Presidential Historian Gil Troy discusses the rocky relationship between the US and Israel, citing anti-Zionism in American government and developments in the Iran war. \nwww.jpost.com/podcast/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62614",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T14:01:16Z",
+      "title": "💢 پزشکیان: پرچم قائد شهید بر زمین نمی‌ماند 🔸 رئیس‌جمهور در شبکه اجتماعی ایکس نوشت: ملت بزرگ ایران با قلب‌هایی…",
+      "url": "https://t.me/defapress_ir/62614",
+      "summary": "💢 پزشکیان: پرچم قائد شهید بر زمین نمی‌ماند 🔸 رئیس‌جمهور در شبکه اجتماعی ایکس نوشت: ملت بزرگ ایران با قلب‌هایی مالامال از اندوه و اراده‌هایی آکنده از امید، ثابت خواهند کرد پرچمی که قائد شهید برای برافراشته ماندنش مجاهدت کرد بر زمین نخواهد ماند. 🔸 وَنُريدُ أَنْ نَمُنَّ عَلَى الَّذينَ اسْتُضْعِفُوا فِي الْأَرْضِ وَ نَجْعَلَهُمْ أَئِمَّةً وَنَجْعَلَهُمُ الْوَارثِينَ. dnws.ir/003Y11 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62614"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: The martyred leader's flag will not fall to the ground. The president wrote on the social network X: The great nation of Iran, with hearts full of sorrow and wills filled with hope, will prove that the flag for which the martyred leader strove to keep unfurled will not fall to the ground.",
+      "summary_en": "Pezeshkian: The martyred leader's flag will not fall to the ground. The president wrote on the social network X: The great nation of Iran, with hearts full of sorrow and wills filled with hope, will prove that the flag for which the martyred leader strove to keep unfurled will not fall to the ground.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpt7iy2mna2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-04T13:53:31.168000Z",
+      "title": "Danny Ayalon, a former deputy foreign minister and Israel's former ambassador to the US, called the current deal between the US and Iran a…",
+      "url": "https://www.jpost.com/israel-news/article-901382",
+      "summary": "Danny Ayalon, a former deputy foreign minister and Israel's former ambassador to the US, called the current deal between the US and Iran a \"massive surrender\" to the Islamic regime.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62613",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:20:25Z",
+      "title": "💢 استاد دانشگاه صنعا: امام خامنه‌ای «شهید بشریت» و معمار بیداری ملت‌هاست 🔸 حبیب عبدالله محمد الرمیمه در…",
+      "url": "https://t.me/defapress_ir/62613",
+      "summary": "💢 استاد دانشگاه صنعا: امام خامنه‌ای «شهید بشریت» و معمار بیداری ملت‌هاست 🔸 حبیب عبدالله محمد الرمیمه در گفت‌و‌گو با دفاع‌پرس گفت: امام خامنه‌ای شخصیتی افسانه‌ای است که نفوذش در قلب‌ها نظم نوین جهانی را شکل خواهد داد. 🔸 مراسم تشییع و تدفین آیت‌الله سید علی خامنه‌ای، رویدادی استثنایی در تاریخ معاصر منطقه است. برگزاری این مراسم در شهر‌های ایران و عراق، منعکس‌کننده نفوذ عمیق سیاسی و مذهبی ایشان در طول دهه‌هاست. این مراسم مبین شکست پروژه صهیونیستی-آمریکایی است که از زمان تصدی مقام رهبری پس از درگذشت امام خمینی (ره) در سال ۱۹۸۹، به دنبال ایجاد دیوار نفرت به عنوان مرز بین ملت‌ها بود. 🔸 منطقه امروز در",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62613"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "University of Sana'a professor: Imam Khamenei is 'the martyr of humanity' and architect of nations' awakening. Habib Abdullah Muhammad al-Rammah, in conversation with Defapress, said: Imam Khamenei is a legendary figure whose influence on hearts will shape the new world order. The funeral and burial ceremony of Ayatollah Sayed Ali Khamenei is an exceptional event in the contemporary history of the region. The holding of this ceremony in cities of Iran and Iraq reflects the deep political and religious influence of His Eminence over decades. This ceremony demonstrates the failure of the Zionist-American project that, since assuming leadership after the death of Imam Khomeini in 1989, sought to create a wall of hatred as a border between nations. The region today is in",
+      "summary_en": "University of Sana'a professor: Imam Khamenei is 'the martyr of humanity' and architect of nations' awakening. Habib Abdullah Muhammad al-Rammah, in conversation with Defapress, said: Imam Khamenei is a legendary figure whose influence on hearts will shape the new world order. The funeral and burial ceremony of Ayatollah Sayed Ali Khamenei is an exceptional event in the contemporary history of the region. The holding of this ceremony in cities of Iran and Iraq reflects the deep political and religious influence of His Eminence over decades. This ceremony demonstrates the failure of the Zionist-American project that, since assuming leadership after the death of Imam Khomeini in 1989, sought to create a wall of hatred as a border between nations. The region today is in",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/726",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:11:26Z",
+      "title": "🔖 📎 چهره ممتاز حکمرانان تاریخ ایران ⏺️ این کرسی سابقه جلوس کسی را دارا  است که بعد از بیش از ۶۰ سال مجاهدت در…",
+      "url": "https://t.me/rahbar_enghelab_ir/726",
+      "summary": "🔖 📎 چهره ممتاز حکمرانان تاریخ ایران ⏺️ این کرسی سابقه جلوس کسی را دارا  است که بعد از بیش از ۶۰ سال مجاهدت در راه خدا و گذشتن از انواع لذائذ و راحتیها، به گوهری تابناک و چهره‌ای ممتاز نه فقط در عصر حاضر بلکه در طول تاریخ حکمرانان این کشور بدل شده است. ۲۱/اسفند/۱۴۰۴ 🔁 بازنشر به مناسبت بدرقه آقای شهید ایران | #یگانه_دوران ▪️ مراسم وداع در مصلای امام خمینی(ره): شنبه ۱۳ تیر ماه و یک شنبه ۱۴ تیرماه ▪️ مراسم تشییع تهران: از ساعت ۶ صبح دوشنبه ۱۵ تیرماه 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/726"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Distinguished figure of the rulers of Iran's history. This chair has the history of someone who, after more than 60 years of struggle in God's path and foregoing all pleasures and comforts, has become a radiant gem and a distinguished figure not only in the present age but throughout the history of the rulers of this country.",
+      "summary_en": "Distinguished figure of the rulers of Iran's history. This chair has the history of someone who, after more than 60 years of struggle in God's path and foregoing all pleasures and comforts, has become a radiant gem and a distinguished figure not only in the present age but throughout the history of the rulers of this country. 21 Esfand 1404 Reposted on the occasion of the farewell of Iran's martyred master | The unique era. Farewell ceremony at Imam Khomeini's prayer ground: Saturday 13 Tir and Sunday 14 Tir. Tehran funeral ceremony: from 6 a.m. Monday 15 Tir",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62612",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:10:35Z",
+      "title": "💢 ستاد وداع با رهبر شهید انقلاب اسلامی: نماز بر پیکر مطهر رهبر شهید انقلاب اسلامی رأس ساعت ۸ صبح فردا در…",
+      "url": "https://t.me/defapress_ir/62612",
+      "summary": "💢 ستاد وداع با رهبر شهید انقلاب اسلامی: نماز بر پیکر مطهر رهبر شهید انقلاب اسلامی رأس ساعت ۸ صبح فردا در تهران اقامه خواهد شد  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62612"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Farewell headquarters for the martyred leader of the Islamic Revolution: Prayer will be held over the pure body of the martyred leader of the Islamic Revolution at 8 a.m. tomorrow in Tehran",
+      "summary_en": "Farewell headquarters for the martyred leader of the Islamic Revolution: Prayer will be held over the pure body of the martyred leader of the Islamic Revolution at 8 a.m. tomorrow in Tehran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62611",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:04:38Z",
+      "title": "🎥 مداحی میثم مطیعی در رثای رهبر شهید امت  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/62611",
+      "summary": "🎥 مداحی میثم مطیعی در رثای رهبر شهید امت  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62611"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Eulogising recitation by Meysam Motiei in lamentation of the martyred leader of the nation",
+      "summary_en": "Eulogising recitation by Meysam Motiei in lamentation of the martyred leader of the nation",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62610",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:02:18Z",
+      "title": "🎥 ادای احترام نظامی به پیشگاه رهبر  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/62610",
+      "summary": "🎥 ادای احترام نظامی به پیشگاه رهبر  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62610"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Military tribute at the presence of the leader",
+      "summary_en": "Military tribute at the presence of the leader",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:c3838fd640d7f94496d34998bff1a7ff",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-04T13:02:00Z",
+      "title": "Since America's founding, the nation's best have honorably served in uniform with the sacrifice and support…",
+      "url": "https://x.com/CENTCOM/status/2073391893770027130",
+      "summary": "Since America's founding, the nation's best have honorably served in uniform with the sacrifice and support of loved ones. Today, on America's 250th, we honor the millions who've deployed abroad, defended freedom, and proudly served across the CENTCOM theater. Happy 4th of July! 🇺🇸— U.S. Central Command (@CENTCOM) Jul 4, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62609",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T13:00:52Z",
+      "title": "💢 یکشنبه ۱۴ تیر در سراسر کشور تعطیل اعلام شد 🔸 هیئت دولت با هدف تسهیل حضور گستردۀ مردم در مراسم وداع و تشییع…",
+      "url": "https://t.me/defapress_ir/62609",
+      "summary": "💢 یکشنبه ۱۴ تیر در سراسر کشور تعطیل اعلام شد 🔸 هیئت دولت با هدف تسهیل حضور گستردۀ مردم در مراسم وداع و تشییع رهبر شهید انقلاب اسلامی، روز یکشنبه ۱۴ تیرماه را در سراسر کشور تعطیل رسمی اعلام کرد. dnws.ir/003Y0r @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62609"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sunday, 14 Tir, declared a public holiday across the country. The cabinet, with the aim of facilitating broad participation of people in the farewell and funeral ceremony...",
+      "summary_en": "Sunday, 14 Tir, declared a public holiday across the country. The cabinet, with the aim of facilitating broad participation of people in the farewell and funeral ceremony of the martyred leader of the Islamic Revolution, declared Sunday, 14 Tir a public holiday across the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62608",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T12:53:08Z",
+      "title": "📸 وداع مردم با قائد شهید در مصلی تهران  dnws.ir/003Xy4  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/62608",
+      "summary": "📸 وداع مردم با قائد شهید در مصلی تهران  dnws.ir/003Xy4  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62608"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Farewell of people with the martyred leader at Tehran's prayer ground",
+      "summary_en": "Farewell of people with the martyred leader at Tehran's prayer ground",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62607",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T12:50:55Z",
+      "title": "💢 خبرگزاری ریانووستی: رهبر شهید ایران در تاریخ جهان جاودانه شد 🔸 خبرگزاری ریانووستی روسیه نوشت: آیت الله سید…",
+      "url": "https://t.me/defapress_ir/62607",
+      "summary": "💢 خبرگزاری ریانووستی: رهبر شهید ایران در تاریخ جهان جاودانه شد 🔸 خبرگزاری ریانووستی روسیه نوشت: آیت الله سید علی خامنه‌ای به عنوان نماد مقاومت در برابر شر جهانی شناخته خواهد شد؛ مقاومتی که ناگزیر به پیروزی روح بر جسم و زندگی جاوید بر مرگ منجر می‌شود. 🔸 وداع با رهبر ۸۶ ساله، نه تنها به شلوغ‌ترین مراسم خاکسپاری تاریخ بشر تبدیل خواهد شد، بلکه نمایشی از ایمان و اراده ملتی کهن خواهد بود. 🔸 رهبر شهید در هر صورت پس از هشت سال ریاست جمهوری و ۳۷ سال رهبری در تاریخ ایران به عنوان یک چهره ماندگار تبدیل می‌شد، اما شهادت وی به دست دشمنان، احترام به رهبر شهید را به سطحی غیرقابل‌تصور ارتقا داده و او را به نم",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62607"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "RIA Novosti agency: Iran's martyred leader became immortal in world history. Russia's RIA Novosti agency wrote: Ayatollah Sayed Ali Khamenei will be recognised as a symbol of resistance against global evil; a resistance that inevitably leads to the triumph of spirit over body and eternal life over death. The farewell to the 86-year-old leader will not only turn into the most crowded burial ceremony in human history, but will be a demonstration of the faith and will of an ancient nation. In any case, after eight years as president and 37 years as leader, the martyred leader would have become a lasting figure in Iran's history, but his martyrdom at the hands of enemies has elevated respect for the martyred leader to an inconceivable level and made him",
+      "summary_en": "RIA Novosti agency: Iran's martyred leader became immortal in world history. Russia's RIA Novosti agency wrote: Ayatollah Sayed Ali Khamenei will be recognised as a symbol of resistance against global evil; a resistance that inevitably leads to the triumph of spirit over body and eternal life over death. The farewell to the 86-year-old leader will not only turn into the most crowded burial ceremony in human history, but will be a demonstration of the faith and will of an ancient nation. In any case, after eight years as president and 37 years as leader, the martyred leader would have become a lasting figure in Iran's history, but his martyrdom at the hands of enemies has elevated respect for the martyred leader to an inconceivable level and made him",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62606",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T12:23:58Z",
+      "title": "💢 انهدام ۴ هسته‌ عملیاتی گروهک تروریستی - تکفیری پیش از هرگونه اقدام 🔸 وزارت اطلاعات: سربازان گمنام امام‌زمان…",
+      "url": "https://t.me/defapress_ir/62606",
+      "summary": "💢 انهدام ۴ هسته‌ عملیاتی گروهک تروریستی - تکفیری پیش از هرگونه اقدام 🔸 وزارت اطلاعات: سربازان گمنام امام‌زمان (عج) در اداره‌ کل اطلاعات سیستان و بلوچستان در چند عملیات مشترک با رزمندگان سپاه و فراجا در شهرهای زاهدان، چابهار، ایرانشهر، خاش و تفتان، ضمن انهدام این هسته‌ها، ده تروریست را بازداشت کردند و دو نفر را هم به هلاکت رساندند. 🔸 از محل اختفا و خانه‌ی امن این تروریست‌های تکفیری شمار قابل توجهی سلاح‌ سبک و نیمه سنگین جنگی از جمله یک قبضه تیربار گرینوف،سه قبضه کلاشینکف، ۱۷ قبضه انواع کلت کمری،چهارده نارنجک و یک دستگاه استارلینک کشف و ضبط شده. 🔸 وزارت اطلاعات از مردم خواسته هرگونه موارد مشکوک ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62606"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dismantling of 4 operational cells of a terrorist-takfiri group before any action. Ministry of Intelligence: The hidden soldiers of Imam Zaman in the Intelligence Organisation of Sistan and Baluchestan, in several joint operations with Sepah and state police fighters in the cities of Zahedan, Chabahar, Iranshahr, Khash and Taftan, while dismantling these cells, arrested ten terrorists and killed two. From the hideouts and safe houses of these takfiri terrorists, a considerable number of light and semi-heavy weapons were found and seized, including one Groza rifle, three Kalashnikovs, 17 various pistols, fourteen grenades and one Starlink device. The Ministry of Intelligence has asked the public to report any suspicious cases...",
+      "summary_en": "Dismantling of 4 operational cells of a terrorist-takfiri group before any action. Ministry of Intelligence: The hidden soldiers of Imam Zaman in the Intelligence Organisation of Sistan and Baluchestan, in several joint operations with Sepah and state police fighters in the cities of Zahedan, Chabahar, Iranshahr, Khash and Taftan, while dismantling these cells, arrested ten terrorists and killed two. From the hideouts and safe houses of these takfiri terrorists, a considerable number of light and semi-heavy weapons were found and seized, including one Groza rifle, three Kalashnikovs, 17 various pistols, fourteen grenades and one Starlink device. The Ministry of Intelligence has asked the public to report any suspicious cases",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/62598",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-04T12:20:21Z",
+      "title": "💢 کولیوند: قدرت امروز نیرو‌های مسلح محصول اندیشه و راهبرد رهبر شهید است 🔸 رئیس جمعیت هلال‌احمر در گفت‌و‌گو با…",
+      "url": "https://t.me/defapress_ir/62598",
+      "summary": "💢 کولیوند: قدرت امروز نیرو‌های مسلح محصول اندیشه و راهبرد رهبر شهید است 🔸 رئیس جمعیت هلال‌احمر در گفت‌و‌گو با دفاع‌پرس با اشاره به اقتدار مثال‌زدنی نیرو‌های مسلح، این توانمندی را مرهون پرورش و راهبرد‌های رهبر شهید دانست و گفت: انتقال این میراث گران‌بها به نسل…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/62598"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kolivand: The power of today's armed forces is the product of the thought and strategy of the martyred leader. The head of the Red Crescent Society, in conversation with Defapress, referring to the exemplary power of the armed forces, attributed this capability to the nurturing and strategies of the martyred leader and said: The transfer of this precious heritage to the next generation...",
+      "summary_en": "Kolivand: The power of today's armed forces is the product of the thought and strategy of the martyred leader. The head of the Red Crescent Society, in conversation with Defapress, referring to the exemplary power of the armed forces, attributed this capability to the nurturing and strategies of the martyred leader and said: The transfer of this precious heritage to the next generation...",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607046084",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-04T10:14:38Z",
+      "title": "Behind the funeral: Khamenei’s coffin becomes stage for Iran’s wounded power",
+      "url": "https://www.iranintl.com/en/202607046084",
+      "summary": "As Ali Khamenei’s coffin is carried through days of state-orchestrated mourning, the Islamic Republic is trying to recast a humiliating wartime death as martyrdom, continuity and power, and repair a system wounded by war and public distrust.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mpsp72ntpw23",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-04T09:01:39.323000Z",
+      "title": "LAZAR FOCUS: Why Shia Lebanese turned against Hezbollah after the second war.",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mpsp72ntpw23",
+      "summary": "LAZAR FOCUS: Why Shia Lebanese turned against Hezbollah after the second war.\n\nStream the new episode on all podcast platforms.",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607048936",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-04T07:53:49Z",
+      "title": "Classified warning projected up to 3,000 deaths at Khamenei funeral - Die Welt",
+      "url": "https://www.iranintl.com/en/202607048936",
+      "summary": "Iranian authorities are preparing for the possibility that Ali Khamenei’s week-long funeral ceremonies could leave between 1,500 and 3,000 people dead, Germany’s WELT reported, citing a classified document and municipal sources in Tehran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpskn6dekq23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-04T07:40:02.975000Z",
+      "title": "Chants of “Death to America” and “Revenge, revenge” echoed through Tehran as Iran began mass funeral ceremonies for Ayatollah Ali Khamenei.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901377",
+      "summary": "Chants of “Death to America” and “Revenge, revenge” echoed through Tehran as Iran began mass funeral ceremonies for Ayatollah Ali Khamenei. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mpsgxxqmzp22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-04T06:34:30.557000Z",
+      "title": "Report: Hamas has executed a 47-year-old Gazan accused of working with Israeli intelligence, alleging he helped facilitate strikes that…",
+      "url": "https://www.jpost.com/middle-east/article-901375",
+      "summary": "Report: Hamas has executed a 47-year-old Gazan accused of working with Israeli intelligence, alleging he helped facilitate strikes that killed senior Hamas operatives, including Izz al-Din Haddad. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    }
+  ]
+}
