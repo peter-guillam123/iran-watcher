@@ -1,0 +1,1846 @@
+{
+  "generated_at": "2026-07-08T16:16:01.247294Z",
+  "window_since": "2026-07-08T05:00:00Z",
+  "window_until": "2026-07-08T16:13:39.707159Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-07-08&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 33,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 34,
+      "kept": 34,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 3,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 65,
+      "kept": 32,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    }
+  ],
+  "day_shape": "75 items: overnight US strikes on Iranian bases at Bandar Abbas and Bushehr with Trump saying he may 'hit Iran tonight' and calling the MoU void, Khamenei funeral procession through Najaf-Karbala with Iraq predicting 7 million attendees, no UK Parliament or OFAC items.",
+  "threads": [
+    {
+      "label": "US-Iran strikes and Hormuz clashes",
+      "summary": "Iran's Fars News cited officials confirming US strikes hit two Iranian military bases overnight, with Trump telling reporters at the NATO summit in Ankara he 'would probably hit Iran tonight' and declared the US-Iran MoU nullified. NATO Secretary General Mark Rutte called the strikes 'absolutely necessary'; Macron said Iran violated the agreement by striking Gulf bases but expected 60-day ceasefire talks to continue.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq56rlz7fa23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4udddzjk26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4trbekzv2s",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4g5avjwc27",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gh7g2sp2b",
+        "iranintl:https://www.iranintl.com/en/202607080326",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5axfpyom23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq55e4iwwq2m",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5etzqagx2m"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iranian casualty and damage claims",
+      "summary": "IRIB claimed eight Iranian army servicemen were killed at Bandar Abbas and Bushehr in the dawn US strikes, while Hormozgan airport authorities said Bandar Abbas airport infrastructure was undamaged. Khamenei adviser Ali Akbar Velayati warned that 'adventurism will be answered immediately'; Iran International reported Trump called Iran's leaders 'liars and scums'.",
+      "event_ids": [
+        "telegram:iribnews/350182",
+        "telegram:iribnews/350170",
+        "telegram:defapress_ir/63024",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5etzqagx2m"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Khamenei funeral procession in Iraq",
+      "summary": "Regime channels ran continuous coverage of the funeral procession carrying Ali Khamenei's body along the Najaf-Karbala Arbaeen pilgrimage route toward the shrine between the two holy shrines, with burial planned Thursday at Imam Reza's shrine in Mashhad. IRIB cited the Iraqi government predicting attendance in Karbala would reach 7 million, and a 'Ya Litharat al-Khamenei' banner was raised on the route.",
+      "event_ids": [
+        "telegram:defapress_ir/63029",
+        "telegram:iribnews/350185",
+        "telegram:iribnews/350184",
+        "telegram:iribnews/350183",
+        "telegram:defapress_ir/63028",
+        "telegram:iribnews/350179",
+        "telegram:iribnews/350178",
+        "telegram:defapress_ir/63027",
+        "telegram:iribnews/350177",
+        "telegram:iribnews/350176",
+        "telegram:iribnews/350175",
+        "telegram:defapress_ir/63026",
+        "telegram:iribnews/350174",
+        "telegram:iribnews/350173",
+        "telegram:iribnews/350171",
+        "telegram:defapress_ir/63025",
+        "telegram:iribnews/350168",
+        "telegram:iribnews/350167",
+        "telegram:iribnews/350166",
+        "telegram:defapress_ir/63023",
+        "telegram:defapress_ir/63021",
+        "telegram:defapress_ir/63002",
+        "telegram:iribnews/350180",
+        "telegram:rahbar_enghelab_ir/740",
+        "telegram:rahbar_enghelab_ir/741"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Political fractures around Khamenei succession",
+      "summary": "Iran International reported the funeral 'exposed deep divisions' with hardline attacks on the president and negotiators, absence of former presidents, and renewed calls for revenge. Jerusalem Post reported hardline Iranian lawmakers urged assassination of Trump during his Turkey visit; Press TV cited threats to close Hormuz and 'strike at least twice the number of targets hit'.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202607075663",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4v2xavid2l",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5etzqagx2m",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4xvw7yhj2s"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "January crackdown victim profiles",
+      "summary": "Jerusalem Post published a series of interviews with families of Iranians killed by security forces during Iran's January crackdown on anti-regime protests, including Adel Matlabnejad, Rasoul Ziaei, Abolfazl Jahedi, Ermia Lachiani, Taha Naderi, Mehdi Eskandarian, Mani Yousefi and Mostafa Adgarsalehi. Iran International separately reported twelve Isfahan protesters face imminent execution after the Supreme Court upheld death sentences over the alleged killing of four Basij members.",
+      "event_ids": [
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mq5inqsdeb22",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5ij7plxb24",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hmk63lr2j",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5fwimlvc26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5fl2si6q26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq56fc6fey2j",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq55kgjozy27",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq54pl2neb26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq53um52lx2p",
+        "iranintl:https://www.iranintl.com/en/202607084988"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Israel-Gaza-Lebanon operations",
+      "summary": "The IDF announced the killing of Nukhba cell commander Mohammed Emad Alrahman Abu Taima in southern Gaza, arrested 20 suspects in a West Bank overnight operation, and killed a Hezbollah operative in southern Lebanon. Netanyahu claimed on Newsmax that Iran possesses chemical weapons; Finance Minister Bezalel Smotrich said Israel would settle all of Gaza; Trump said he expected Israel to withdraw from southern Lebanon.",
+      "event_ids": [
+        "x_via_rssapp:d9e916847654c904f22299362d2c1be3",
+        "x_via_rssapp:815731ecaef3ec5eb82df8f5a6527ef0",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hx4eg2d2j",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4ghw6crc2r",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4wknv3yi2p",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4jxiljcp26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5ih7abkh26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5h45csds2p",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gkvq53f24"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Regional humanitarian and economic ripples",
+      "summary": "UNHCR's Emergency Update #21 noted hostilities in Iran and Lebanon since late February had driven refugee returns to Afghanistan and Syria in adverse conditions. IRIB reported Brent crude crossed $80 per barrel; the INSS survey cited by Jerusalem Post found 43% of Israelis said the war with Iran ended without a decisive outcome; a water-agreement row with Jordan was also reported.",
+      "event_ids": [
+        "reliefweb:4220555",
+        "telegram:iribnews/350181",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gejksof24",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4zeblraa2m"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:defapress_ir/63029",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T16:12:23Z",
+      "title": "🎥 تصاویری از خودروی حامل پیکر مطهر رهبر شهید انقلاب در مسیر پیاده‌روی نجف به کربلا؛ عمود ۹۶۰ @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63029",
+      "summary": "🎥 تصاویری از خودروی حامل پیکر مطهر رهبر شهید انقلاب در مسیر پیاده‌روی نجف به کربلا؛ عمود ۹۶۰ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63029"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Images of the vehicle carrying the pure body of the martyred leader of the revolution on the path of the Najaf-Karbala walking pilgrimage",
+      "summary_en": "Images of the vehicle carrying the pure body of the martyred leader of the revolution on the path of the Najaf-Karbala walking pilgrimage",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350185",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T16:06:04Z",
+      "title": "🎦 امام شهید از نیجریه هم زائر دارد @iribnews",
+      "url": "https://t.me/iribnews/350185",
+      "summary": "🎦 امام شهید از نیجریه هم زائر دارد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350185"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The martyred Imam also has pilgrims from Nigeria",
+      "summary_en": "The martyred Imam also has pilgrims from Nigeria",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mq5inqsdeb22",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-08T16:03:53.228000Z",
+      "title": "In the immediate aftermath of the October 7, 2023, Hamas attack, attention turned to Hezbollah on the northern border, but recent comments…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mq5inqsdeb22",
+      "summary": "In the immediate aftermath of the October 7, 2023, Hamas attack, attention turned to Hezbollah on the northern border, but recent comments have raised fears that a potent threat may actually be a possibly underestimated adversary: the Houthis in Yemen.\n\nRead: www.timesofisrael.com/alarm-over-p...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5ij7plxb24",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T16:01:19.776000Z",
+      "title": "Interview: Adel Matlabnejad is remembered as an honorable, compassionate man who spent his life helping others before he was killed during…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901895",
+      "summary": "Interview: Adel Matlabnejad is remembered as an honorable, compassionate man who spent his life helping others before he was killed during Iran's January crackdown on anti-regime protestors.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5ih7abkh26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T16:00:11.171000Z",
+      "title": "Beyond reestablishing Gush Katif, the bloc of Israeli settlements in Gaza removed by the state in 2005, Israel will settle all of Gaza,…",
+      "url": "https://www.jpost.com/israel-news/article-901850",
+      "summary": "Beyond reestablishing Gush Katif, the bloc of Israeli settlements in Gaza removed by the state in 2005, Israel will settle all of Gaza, Finance Minister Bezalel Smotrich said.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hyimpcn2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:51:58.843000Z",
+      "title": "The state asked the High Court to dismiss a petition calling for the release of detained Gazan doctors, arguing that their cases had been…",
+      "url": "https://www.jpost.com/israel-news/article-901900",
+      "summary": "The state asked the High Court to dismiss a petition calling for the release of detained Gazan doctors, arguing that their cases had been reviewed and that their release could harm state security. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hx4eg2d2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:51:12.567000Z",
+      "title": "WATCH: The IDF arrested 20 suspects, including several suspected of Hamas affiliation, across the West Bank in an overnight operation…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-901891",
+      "summary": "WATCH: The IDF arrested 20 suspects, including several suspected of Hamas affiliation, across the West Bank in an overnight operation between Tuesday and Wednesday, the military announced. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350184",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:49:55Z",
+      "title": "خبرنگار صداوسیما: 🎦 پیکر مطهر رهبر شهید نزدیک بین‌الحرمین است و به‌زودی وارد این مکان مقدس می‌شود 🌐…",
+      "url": "https://t.me/iribnews/350184",
+      "summary": "خبرنگار صداوسیما: 🎦 پیکر مطهر رهبر شهید نزدیک بین‌الحرمین است و به‌زودی وارد این مکان مقدس می‌شود 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350184"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "IRIB correspondent: The pure body of the martyred leader is close to the area between the two holy shrines and will shortly enter this sacred place",
+      "summary_en": "IRIB correspondent: The pure body of the martyred leader is close to the area between the two holy shrines and will shortly enter this sacred place",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350183",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:49:41Z",
+      "title": "🎦 آقایی که راه اربعین را در دوره معاصر برای زوار سیدالشهدا گشود، بالاخره به مشایه رسید @iribnews",
+      "url": "https://t.me/iribnews/350183",
+      "summary": "🎦 آقایی که راه اربعین را در دوره معاصر برای زوار سیدالشهدا گشود، بالاخره به مشایه رسید @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350183"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The man who opened the path of Arbaeen in the contemporary era for pilgrims to Sayyed al-Shuhada has finally reached the walking procession",
+      "summary_en": "The man who opened the path of Arbaeen in the contemporary era for pilgrims to Sayyed al-Shuhada has finally reached the walking procession",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hna3mrk2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:45:40.711000Z",
+      "title": "WATCH: Footage showing the ruins of the compound of former Iranian supreme leader Ali Khamenei was released on Wednesday by the supreme…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901885",
+      "summary": "WATCH: Footage showing the ruins of the compound of former Iranian supreme leader Ali Khamenei was released on Wednesday by the supreme leader's website. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5hmk63lr2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:45:18.093000Z",
+      "title": "Interview: Family members of Rasoul Ziaei, who was killed during Iran's January crackdown on anti-regime protestors, remember him as a…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901892",
+      "summary": "Interview: Family members of Rasoul Ziaei, who was killed during Iran's January crackdown on anti-regime protestors, remember him as a young man full of joy, ambition, and dreams. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350182",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:39:42Z",
+      "title": "به دنبال حملات بامداد ارتش تروریستی آمریکا؛ ۸ نفر از دلاورمردان ارتش به شهادت رسیدند 🔹 روابط عمومی ارتش گزارش…",
+      "url": "https://t.me/iribnews/350182",
+      "summary": "به دنبال حملات بامداد ارتش تروریستی آمریکا؛ ۸ نفر از دلاورمردان ارتش به شهادت رسیدند 🔹 روابط عمومی ارتش گزارش داد به دنبال تجاوز جنایتکارانه ارتش تروریستی آمریکا به مناطقی از جنوب ایران اسلامی در بامداد امروز، ۸ نفر از دلاورمردان  نیروهای هوایی و دریایی ارتش جمهوری اسلامی ایران در بندرعباس و بوشهر، حین دفاع از میهن اسلامی، بر اثر اصابت پرتابه‌های دشمن به شهادت رسیدند. 🔹 سروان علی معینی از پایگاه شهید یاسینی بوشهر، ستوانیکم علی مهدی‌زاده، ستوانسوم حامددورای، استواردوم امیرحسین قاسمی، استواردوم علیرضا زارعی ثانی و استواردوم علیرضا بالیده از پایگاه شهید عبدالکریمی بندرعباس و ناواستواردوم شهاب امی",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350182"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Following dawn attacks by the terrorist US army; 8 servicemen were martyred. The Army Public Relations reported that following the criminal aggression of the terrorist US army against areas in southern Islamic Iran at dawn today, 8 brave personnel from the air and naval forces of the Islamic Republic of Iran's Army were martyred in Bandar Abbas and Bushehr while defending their Islamic homeland as a result of enemy projectile strikes. Sergeant Ali Moini from Bushehr's Yasini Martyrs Base, Second Lieutenant Ali Mahdizadeh, Third Lieutenant Hamad Dorai, Petty Officer First Class Amir Hossein Ghasemi, Petty Officer First Class Alireza Zarei Sani and Petty Officer First Class Alireza Balide from Bandar Abbas's Abdul Karim Martyrs Base and Naval Petty Officer Shahab Ammi",
+      "summary_en": "Following dawn attacks by the terrorist US army; 8 servicemen were martyred. The Army Public Relations reported that following the criminal aggression of the terrorist US army against areas in southern Islamic Iran at dawn today, 8 brave personnel from the air and naval forces of the Islamic Republic of Iran's Army were martyred in Bandar Abbas and Bushehr while defending their Islamic homeland as a result of enemy projectile strikes. Sergeant Ali Moini from Bushehr's Yasini Martyrs Base, Second Lieutenant Ali Mahdizadeh, Third Lieutenant Hamad Dorai, Petty Officer First Class Amir Hossein Ghasemi, Petty Officer First Class Alireza Zarei Sani and Petty Officer First Class Alireza Balide from Bandar Abbas's Abdul Karim Martyrs Base and Naval Petty Officer Shahab Ammi",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5h45csds2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:36:07.694000Z",
+      "title": "US President Trump said that he thought Israel would withdraw troops from southern Lebanon because it wanted to take that step, despite…",
+      "url": "https://www.jpost.com/middle-east/article-901901",
+      "summary": "US President Trump said that he thought Israel would withdraw troops from southern Lebanon because it wanted to take that step, despite comments from Israel's leader indicating otherwise.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350181",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:35:19Z",
+      "title": "قیمت نفت خام برنت از مرز ۸۰ دلار در هر بشکه عبور کرد. @iribnews",
+      "url": "https://t.me/iribnews/350181",
+      "summary": "قیمت نفت خام برنت از مرز ۸۰ دلار در هر بشکه عبور کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350181"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The price of Brent crude oil crossed the $80 per barrel mark.",
+      "summary_en": "The price of Brent crude oil crossed the $80 per barrel mark.",
+      "has_figures": true,
+      "figures_examples": [
+        "$80"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gkvq53f24",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:26:29.264000Z",
+      "title": "Trump says he expects to remove Syria from US terrorism list, says Damascus could help with Hezbollah and Lebanon.",
+      "url": "https://www.jpost.com/middle-east/article-901898",
+      "summary": "Trump says he expects to remove Syria from US terrorism list, says Damascus could help with Hezbollah and Lebanon. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gh7g2sp2b",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:24:25.248000Z",
+      "title": "Macron says Iran violated its agreement with the US by striking Gulf bases, but expects 60-day ceasefire talks to continue.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901878",
+      "summary": "Macron says Iran violated its agreement with the US by striking Gulf bases, but expects 60-day ceasefire talks to continue.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5gejksof24",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:22:54.863000Z",
+      "title": "A recent INSS survey found that the majority of Israelis do not believe Israel emerged as the victor in the war against Iran, with 43%…",
+      "url": "https://www.jpost.com/israel-news/article-901897",
+      "summary": "A recent INSS survey found that the majority of Israelis do not believe Israel emerged as the victor in the war against Iran, with 43% saying the war ended without a decisive outcome.\n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "43%"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/350180",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:20:37Z",
+      "title": "دیدار فرزند قائد شهید امت با جمعی از علمای عراق 🔹 همزمان با تشییع پیکر قائد شهید امت در عراق، جمعی از علما و…",
+      "url": "https://t.me/iribnews/350180",
+      "summary": "دیدار فرزند قائد شهید امت با جمعی از علمای عراق 🔹 همزمان با تشییع پیکر قائد شهید امت در عراق، جمعی از علما و روحانیون، برای عرض تسلیت با فرزند رهبر شهید، در دفتر نمایندگی رهبر معظم انقلاب اسلامی در نجف اشرف‌ دیدار کردند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350180"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of the son of the martyred leader of the nation with a group of Iraqi scholars. Coinciding with the funeral procession of the martyred leader of the nation in Iraq, a group of scholars and clerics met with the son of the martyred leader at the office of the representative of the Supreme Leader of the Islamic Revolution in Najaf Ashraf to offer their condolences.",
+      "summary_en": "Meeting of the son of the martyred leader of the nation with a group of Iraqi scholars. Coinciding with the funeral procession of the martyred leader of the nation in Iraq, a group of scholars and clerics met with the son of the martyred leader at the office of the representative of the Supreme Leader of the Islamic Revolution in Najaf Ashraf to offer their condolences.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63028",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:18:52Z",
+      "title": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63028",
+      "summary": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63028"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "summary_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350179",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:17:59Z",
+      "title": "در انتظار آخرین دیدار؛ 🎦 دسته‌های عزاداری در مشهد به راه افتاد 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/350179",
+      "summary": "در انتظار آخرین دیدار؛ 🎦 دسته‌های عزاداری در مشهد به راه افتاد 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350179"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Awaiting the final farewell; mourning processions set out in Mashhad",
+      "summary_en": "Awaiting the final farewell; mourning processions set out in Mashhad",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5fwimlvc26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:15:03.866000Z",
+      "title": "Interview: Abolfazl Jahedi, an 18-year-old from Tehran, dreamed of studying firefighting and serving his country by saving lives before…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901870",
+      "summary": "Interview: Abolfazl Jahedi, an 18-year-old from Tehran, dreamed of studying firefighting and serving his country by saving lives before being killed by regime security forces during January's anti-regime protests.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5fl2si6q26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T15:08:40.772000Z",
+      "title": "Among the victims of Iran's January crackdown on anti-regime protestors was Ermia Lachiani, described by family members as a hardworking…",
+      "url": "https://www.jpost.com/middle-east/article-901862",
+      "summary": "Among the victims of Iran's January crackdown on anti-regime protestors was Ermia Lachiani, described by family members as a hardworking young man whose kind heart was his true strength. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:df22763e5296b85f640433ce1bc9e6db",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-07-08T15:07:00Z",
+      "title": "🇮🇱🇻🇪The National Rehabilitation Plan of the Israeli Delegation in Venezuela Was Presented to the President of Venezuela and Senior Government Officials The Home Front Command’s engineering teams continue to conduct structural assessments together with the local authorities, prioritizing high-rise residential buildings in order to enable for as many residents as possible to return to their homes.",
+      "url": "https://x.com/IDF/status/2074873116510044225",
+      "summary": "🇮🇱🇻🇪The National Rehabilitation Plan of the Israeli Delegation in Venezuela Was Presented to the President of Venezuela and Senior Government Officials\n\nThe Home Front Command’s engineering teams continue to conduct structural assessments together with the local authorities, prioritizing high-rise residential buildings in order to enable for as many residents as possible to return to their homes.— Israel Defense Forces (@IDF) Jul 8, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607082152",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-08T15:05:46Z",
+      "title": "Hamas gives up Gaza government, but not Iran ties",
+      "url": "https://www.iranintl.com/en/202607082152",
+      "summary": "Hamas says it is stepping away from governing Gaza. But is it actually giving up power or turning away from its longtime backers in Tehran?",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350178",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:05:21Z",
+      "title": "🎦 تصاویری از «صحن آزادی» حرم رضوی در آستانه میزبانی قائد شهید امت @iribnews",
+      "url": "https://t.me/iribnews/350178",
+      "summary": "🎦 تصاویری از «صحن آزادی» حرم رضوی در آستانه میزبانی قائد شهید امت @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350178"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Images of the 'Sahn-e Azadi' courtyard of the Razavi shrine as it prepares to host the martyred leader",
+      "summary_en": "Images of the 'Sahn-e Azadi' courtyard of the Razavi shrine as it prepares to host the martyred leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63027",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T15:04:40Z",
+      "title": "🎥 پوشش زنده/ تصاویر هوایی از بین‌الحرمین و سیل جمعیت حاضر در مراسم تشییع قائد شهید  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63027",
+      "summary": "🎥 پوشش زنده/ تصاویر هوایی از بین‌الحرمین و سیل جمعیت حاضر در مراسم تشییع قائد شهید  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63027"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Live coverage: Aerial images from the area between the two holy shrines and the flood of crowds at the funeral procession of the martyred leader",
+      "summary_en": "Live coverage: Aerial images from the area between the two holy shrines and the flood of crowds at the funeral procession of the martyred leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350177",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:57:57Z",
+      "title": "خبرنگار صداوسیما: 🎦 پیکر مطهر رهبری شهید تا یک ساعت دیگر وارد بین‌الحرمین می‌شود 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/350177",
+      "summary": "خبرنگار صداوسیما: 🎦 پیکر مطهر رهبری شهید تا یک ساعت دیگر وارد بین‌الحرمین می‌شود 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350177"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "IRIB correspondent: The pure body of the martyred leader will enter the area between the two holy shrines within an hour",
+      "summary_en": "IRIB correspondent: The pure body of the martyred leader will enter the area between the two holy shrines within an hour",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5etzqagx2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T14:55:47.884000Z",
+      "title": "Report: Iran threatened to close the Hormuz and \"strike at least twice the number of targets hit\" in response to any US attack, according…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901896",
+      "summary": "Report: Iran threatened to close the Hormuz and \"strike at least twice the number of targets hit\" in response to any US attack, according to state broadcaster Press TV on Wednesday. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350176",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:51:03Z",
+      "title": "🎦 مردم در بین‌الحرمین چشم‌انتظار امام شهید @iribnews",
+      "url": "https://t.me/iribnews/350176",
+      "summary": "🎦 مردم در بین‌الحرمین چشم‌انتظار امام شهید @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350176"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "People at the area between the two holy shrines awaiting the martyred Imam",
+      "summary_en": "People at the area between the two holy shrines awaiting the martyred Imam",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350175",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:45:51Z",
+      "title": "🎦 آماده سازی حرم مطهر امام رضا علیه السلام، برای برگزاری مراسم وداع با رهبر عزیز شهید...  @iribnews",
+      "url": "https://t.me/iribnews/350175",
+      "summary": "🎦 آماده سازی حرم مطهر امام رضا علیه السلام، برای برگزاری مراسم وداع با رهبر عزیز شهید...  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350175"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Preparations at the holy shrine of Imam Reza, peace be upon him, for holding the farewell ceremony with the dear martyred leader",
+      "summary_en": "Preparations at the holy shrine of Imam Reza, peace be upon him, for holding the farewell ceremony with the dear martyred leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63026",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:41:01Z",
+      "title": "💢 اطلاعیه آستان قدس رضوی در خصوص مراسم تشییع و تدفین رهبر شهید انقلاب اسلامی 🔸 پس از پایان مراسم تشییع در…",
+      "url": "https://t.me/defapress_ir/63026",
+      "summary": "💢 اطلاعیه آستان قدس رضوی در خصوص مراسم تشییع و تدفین رهبر شهید انقلاب اسلامی 🔸 پس از پایان مراسم تشییع در مسیر خیابان امام رضا (ع)، نماز برپیکر مطهر رهبر شهید و سایر اعضای خانواده ایشان در حرم مطهر رضوی اقامه می شود. 🔸 بدین منظور، با توجه به اینکه صحن پیامبر اعظم (ص) و صحن‌های پیرامونی در نقطه انتهایی مسیر تشییع و تردد زائران گرانقدر قرار دارد، صفوف باشکوه نماز، در ضلع شمالی حرم مطهر، در امتداد خیابان شیخ طبرسی برپا خواهد شد. 🔸 همچنین ویژه‌برنامه‌های عزاداری با حضور ذاکران اهل بیت (ع) و قاریان بین‌المللی کلام الله مجید، با محوریت صحن پیامبر اعظم (ص)، به صورت مستمر برقرار خواهد بود. 🔸 بر این اس",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63026"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Statement from the Astan Quds Razavi regarding the funeral and burial ceremony of the martyred leader of the Islamic Revolution. After the conclusion of the funeral procession along Imam Reza Street, prayers will be performed over the pure body of the martyred leader and other family members at the holy Razavi shrine. For this purpose, given that the Prophet's courtyard and the surrounding courtyards are at the final point of the funeral route and pilgrims' passage, the grand funeral prayer will be held on the northern side of the holy shrine, along Sheikh Tabarsi Street. Furthermore, mourning programmes featuring speakers and international Quranic reciters will be held continuously centred around the Prophet's courtyard.",
+      "summary_en": "Statement from the Astan Quds Razavi regarding the funeral and burial ceremony of the martyred leader of the Islamic Revolution. After the conclusion of the funeral procession along Imam Reza Street, prayers will be performed over the pure body of the martyred leader and other family members at the holy Razavi shrine. For this purpose, given that the Prophet's courtyard and the surrounding courtyards are at the final point of the funeral route and pilgrims' passage, the grand funeral prayer will be held on the northern side of the holy shrine, along Sheikh Tabarsi Street. Furthermore, mourning programmes featuring speakers and international Quranic reciters will be held continuously centred around the Prophet's courtyard.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350174",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:36:53Z",
+      "title": "🎦 آقا اولین زائر پیاده‌روی اربعین امسال شدند 🔹 ماشین حمل پیکر رهبر شهید انقلاب در مشایه، مسیر پیاده‌روی…",
+      "url": "https://t.me/iribnews/350174",
+      "summary": "🎦 آقا اولین زائر پیاده‌روی اربعین امسال شدند 🔹 ماشین حمل پیکر رهبر شهید انقلاب در مشایه، مسیر پیاده‌روی اربعین از نجف به کربلا  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350174"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "He was the first pilgrim of this year's Arbaeen walking procession. The vehicle carrying the body of the martyred leader of the revolution is on the Arbaeen walking route from Najaf to Karbala",
+      "summary_en": "He was the first pilgrim of this year's Arbaeen walking procession. The vehicle carrying the body of the martyred leader of the revolution is on the Arbaeen walking route from Najaf to Karbala",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350173",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:30:01Z",
+      "title": "🎦 تصویر شهید لاریجانی در دست عراقی‌ها @iribnews",
+      "url": "https://t.me/iribnews/350173",
+      "summary": "🎦 تصویر شهید لاریجانی در دست عراقی‌ها @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350173"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Image of Martyr Larijani in the hands of Iraqis",
+      "summary_en": "Image of Martyr Larijani in the hands of Iraqis",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350172",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:25:48Z",
+      "title": "🎦 فقط یک بدرقه نبود، برگی از تاریخ بود... 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/350172",
+      "summary": "🎦 فقط یک بدرقه نبود، برگی از تاریخ بود... 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350172"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "It was not just a farewell, it was a page of history",
+      "summary_en": "It was not just a farewell, it was a page of history",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350171",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:22:31Z",
+      "title": "🎦 برافراشته‌شدن پرچم «یا لثارات الخامنه‌ای» در خیابان منتهی به حرم امام حسین(ع) @iribnews",
+      "url": "https://t.me/iribnews/350171",
+      "summary": "🎦 برافراشته‌شدن پرچم «یا لثارات الخامنه‌ای» در خیابان منتهی به حرم امام حسین(ع) @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350171"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The banner 'Ya Litharat al-Khamenei' raised on the street leading to the shrine of Imam Hussein, peace be upon him",
+      "summary_en": "The banner 'Ya Litharat al-Khamenei' raised on the street leading to the shrine of Imam Hussein, peace be upon him",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350170",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:15:20Z",
+      "title": "🔺 در حمله‌های شب گذشته آسیبی به فرودگاه بندرعباس وارد نشده است  اداره کل فرودگاه‌های هرمزگان: 🔹 در حمله دیشب…",
+      "url": "https://t.me/iribnews/350170",
+      "summary": "🔺 در حمله‌های شب گذشته آسیبی به فرودگاه بندرعباس وارد نشده است  اداره کل فرودگاه‌های هرمزگان: 🔹 در حمله دیشب در شهر بندرعباس، هیچ‌گونه آسیبی به زیر ساخت‌ها و تجهیزات فرودگاه بین‌المللی شهدای پرواز ۶۵۵ بندرعباس وارد نشده است. 🔹 از همه مسافران درخواست می‌شود…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350170"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "No damage was caused to Bandar Abbas airport in last night's attacks. General Administration of Hormozgan Airports: In last night's attack on the city of Bandar Abbas, no damage was caused to the infrastructure and equipment of Shahid Parvaz 655 International Airport in Bandar Abbas. All passengers are requested",
+      "summary_en": "No damage was caused to Bandar Abbas airport in last night's attacks. General Administration of Hormozgan Airports: In last night's attack on the city of Bandar Abbas, no damage was caused to the infrastructure and equipment of Shahid Parvaz 655 International Airport in Bandar Abbas. All passengers are requested",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63025",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:13:36Z",
+      "title": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63025",
+      "summary": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63025"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "summary_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350169",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T14:04:47Z",
+      "title": "🎦 شیون و زاری زنان عراقی برای زهرای ۱۴ ماهه شهید جنایت ترامپ قاتل؛ هنگامی که پیکر او وارد حرم سیدالشهدا…",
+      "url": "https://t.me/iribnews/350169",
+      "summary": "🎦 شیون و زاری زنان عراقی برای زهرای ۱۴ ماهه شهید جنایت ترامپ قاتل؛ هنگامی که پیکر او وارد حرم سیدالشهدا می‌شود @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350169"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iraqi women weeping and wailing for fourteen-month-old Zahra, victim of the crime of Trump the killer, as her body enters the shrine of Sayyed al-Shuhada",
+      "summary_en": "Iraqi women weeping and wailing for fourteen-month-old Zahra, victim of the crime of Trump the killer, as her body enters the shrine of Sayyed al-Shuhada",
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4220555",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-07-08T14:03:12+00:00",
+      "title": "UNHCR Middle East Situation: Emergency Update #21 as of 7 July 2026",
+      "url": "https://reliefweb.int/node/4220555",
+      "summary": "Since late February, hostilities in Iran and Lebanon have generated humanitarian and protection consequences across the region, including refugee returns in adverse circumstances to Afghanistan and Syria. While diplomatic efforts have contributed to a reduction in large-scale military activity, uncertainty remains high and the situation continues to unfold against an already fragile regional basel…",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350168",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:55:19Z",
+      "title": "🎦 جمعیت حاضر در بین‌الحرمین در آستانه مراسم تشییع پیکر رهبر شهید انقلاب در کربلا @iribnews",
+      "url": "https://t.me/iribnews/350168",
+      "summary": "🎦 جمعیت حاضر در بین‌الحرمین در آستانه مراسم تشییع پیکر رهبر شهید انقلاب در کربلا @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350168"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Crowds gathered at the area between the two holy shrines on the eve of the funeral procession of the martyred leader of the Islamic Revolution in Karbala",
+      "summary_en": "Crowds gathered at the area between the two holy shrines on the eve of the funeral procession of the martyred leader of the Islamic Revolution in Karbala",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63024",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:49:59Z",
+      "title": "💢 ولایتی: به ماجراجویی‌ها پاسخ فوری داده می‌شود 🔸 مشاور رهبر انقلاب: پیش‌تر هشدار داده بودیم «منطقه، محل قمار…",
+      "url": "https://t.me/defapress_ir/63024",
+      "summary": "💢 ولایتی: به ماجراجویی‌ها پاسخ فوری داده می‌شود 🔸 مشاور رهبر انقلاب: پیش‌تر هشدار داده بودیم «منطقه، محل قمار سیاسی کشورهای خرد نیست » و بارها ثابت کردیم که ماجراجویی‌ها پاسخ فوری داده می‌شود. 🔸 اما مسئولیت تنش آفرینی‌های تازه و اعتراف زبانی به لغو تفاهمنامه توسط سیاست باز راهزن و بدنام اپستینی که بارها مورد نقض عملی قرار گرفته بود، بار دیگر منطقه را به سمت آتش سوق می‌دهد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63024"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Velayati: Adventurism will be answered immediately. Adviser to the Leader of the Revolution: We had previously warned that 'the region is not a place for political gambling by petty powers' and repeatedly proved that adventurism is answered immediately. However, responsibility for new tension-creating actions and the verbal admission of the cancellation of an agreement by a notorious bandit policy that has been repeatedly violated practically again drives the region towards fire.",
+      "summary_en": "Velayati: Adventurism will be answered immediately. Adviser to the Leader of the Revolution: We had previously warned that 'the region is not a place for political gambling by petty powers' and repeatedly proved that adventurism is answered immediately. However, responsibility for new tension-creating actions and the verbal admission of the cancellation of an agreement by a notorious bandit policy that has been repeatedly violated practically again drives the region towards fire.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350167",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:49:18Z",
+      "title": "خبرنگار صداوسیما: 🎦 دولت عراق پیش‌بینی کرده است که جمعیت بدرقه کنندگان پیکر رهبری شهید در کربلا به ۷ میلیون…",
+      "url": "https://t.me/iribnews/350167",
+      "summary": "خبرنگار صداوسیما: 🎦 دولت عراق پیش‌بینی کرده است که جمعیت بدرقه کنندگان پیکر رهبری شهید در کربلا به ۷ میلیون نفر برسد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350167"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "IRIB correspondent: The Iraqi government has predicted that the number of people attending the funeral procession of the martyred leader in Karbala will reach 7 million",
+      "summary_en": "IRIB correspondent: The Iraqi government has predicted that the number of people attending the funeral procession of the martyred leader in Karbala will reach 7 million",
+      "has_figures": true,
+      "figures_examples": [
+        "7 million"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq5axfpyom23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T13:46:06.394000Z",
+      "title": "Analysis: As US-Iran clashes in the Strait of Hormuz reignite, questions have arisen regarding solutions to the ongoing cycle of repeated…",
+      "url": "https://www.jpost.com/middle-east/article-901857",
+      "summary": "Analysis: As US-Iran clashes in the Strait of Hormuz reignite, questions have arisen regarding solutions to the ongoing cycle of repeated tit-for-tat strikes. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350166",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:45:01Z",
+      "title": "🎦 بین الحرمین چشم انتظار رهبر شهید امت @iribnews",
+      "url": "https://t.me/iribnews/350166",
+      "summary": "🎦 بین الحرمین چشم انتظار رهبر شهید امت @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350166"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Between the two holy shrines awaiting the martyred leader of the nation",
+      "summary_en": "Between the two holy shrines awaiting the martyred leader of the nation",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63023",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:31:01Z",
+      "title": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63023",
+      "summary": "🎥 پوشش زنده/ کربلای معلی در انتظار ورود پیکر مطهر زعیم شهید امت  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63023"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "summary_en": "Live coverage: Holy Karbala awaiting the arrival of the pure body of the leader of the martyred nation",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq57n6cbfy27",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T13:22:28.952000Z",
+      "title": "Analysis: US President Donald Trump must realize that what is at stake in these Hormuz wars is far more than gas prices; it's about the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901877",
+      "summary": "Analysis: US President Donald Trump must realize that what is at stake in these Hormuz wars is far more than gas prices; it's about the future threat of Iranian nuclear weapons. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63022",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:12:55Z",
+      "title": "🎥 اعتراض مردم ترکیه به حضور سران ناتو در کشور خود 🔸 شهروندان ترکیه‌ای اعتراض خود را به حضور سران ناتو از جمله…",
+      "url": "https://t.me/defapress_ir/63022",
+      "summary": "🎥 اعتراض مردم ترکیه به حضور سران ناتو در کشور خود 🔸 شهروندان ترکیه‌ای اعتراض خود را به حضور سران ناتو از جمله رئیس تروریست آمریکا در کشورشان اعلام کردند. 🔸 نیرو‌های امنیتی ترکیه در پی شکل‌گیری اعتراضات علیه سازمان ناتو، با معترضان در خیابان‌های آنکارا درگیر شدند. 🔸 مردم ترکیه در حاشیه نشست ناتو در اعتراضاتی هماهنگ با شعار «ناتوی جنایتکار از کشورم خارج شو» به خیابان‌های شهرهای مختلف ترکیه آمده‌اند. dnws.ir/003YFP @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63022"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Turkish people's protest against the presence of NATO leaders in their country. Turkish citizens announced their protest against the presence of NATO leaders, including the terrorist head of America, in their country. Turkish security forces clashed with protesters on the streets of Ankara as protests against NATO formed. Turkish people joined coordinated protests on the streets of various Turkish cities with the slogan 'Criminal NATO, leave my country'.",
+      "summary_en": "Turkish people's protest against the presence of NATO leaders in their country. Turkish citizens announced their protest against the presence of NATO leaders, including the terrorist head of America, in their country. Turkish security forces clashed with protesters on the streets of Ankara as protests against NATO formed. Turkish people joined coordinated protests on the streets of various Turkish cities with the slogan 'Criminal NATO, leave my country'.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq56rlz7fa23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T13:07:04.181000Z",
+      "title": "BREAKING: US President Donald Trump said on Wednesday that he would \"probably hit Iran tonight\" during a press conference following the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901872",
+      "summary": "BREAKING: US President Donald Trump said on Wednesday that he would \"probably hit Iran tonight\" during a press conference following the NATO summit in Ankara.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq56fc6fey2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T13:00:10.395000Z",
+      "title": "Among the victims of Iran's January crackdown on anti-regime protestors was 18-year-old Taha Naderi, who was fatally shot by Iranian…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901846",
+      "summary": "Among the victims of Iran's January crackdown on anti-regime protestors was 18-year-old Taha Naderi, who was fatally shot by Iranian security forces outside an IRGC headquarters in Shahreza.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63021",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T13:00:06Z",
+      "title": "📸 گزارش تصویری/ تشییع پیکر مطهر قائد شهید امت در نجف اشرف   dnws.ir/003YDq  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63021",
+      "summary": "📸 گزارش تصویری/ تشییع پیکر مطهر قائد شهید امت در نجف اشرف   dnws.ir/003YDq  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63021"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photo report: Funeral procession of the pure body of the martyred leader of the nation in Najaf Ashraf",
+      "summary_en": "Photo report: Funeral procession of the pure body of the martyred leader of the nation in Najaf Ashraf",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63013",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T12:54:55Z",
+      "title": "🎥 بازدید فعال رسانه‌‌ای آمریکایی از موزه ملی انقلاب اسلامی و دفاع مقدس 🔸 «جکسون هینکل» در جریان سفر به ایران…",
+      "url": "https://t.me/defapress_ir/63013",
+      "summary": "🎥 بازدید فعال رسانه‌‌ای آمریکایی از موزه ملی انقلاب اسلامی و دفاع مقدس 🔸 «جکسون هینکل» در جریان سفر به ایران با حضور در موزه ملی انقلاب اسلامی و دفاع مقدس، از نمایشگاه «در لباس سربازی» بازدید کرد و با اسناد و روایت‌های مرتبط با نقش‌آفرینی رهبر شهید در دوران…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63013"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Visit of an American media activist to the National Museum of the Islamic Revolution and Holy Defence. 'Jackson Hinkle' during his visit to Iran visited the National Museum of the Islamic Revolution and Holy Defence and viewed the exhibition 'In Soldier's Uniform' and became acquainted with documents and narratives related to the role played by the martyred leader during",
+      "summary_en": "Visit of an American media activist to the National Museum of the Islamic Revolution and Holy Defence. 'Jackson Hinkle' during his visit to Iran visited the National Museum of the Islamic Revolution and Holy Defence and viewed the exhibition 'In Soldier's Uniform' and became acquainted with documents and narratives related to the role played by the martyred leader during",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq55kgjozy27",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T12:45:09.306000Z",
+      "title": "Among the victims of Iran's January crackdown on anti-regime protestors was Mehdi Eskandarian, a devoted family man who believed in a…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901851",
+      "summary": "Among the victims of Iran's January crackdown on anti-regime protestors was Mehdi Eskandarian, a devoted family man who believed in a better future for all Iranians. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq55e4iwwq2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T12:41:37.883000Z",
+      "title": "Analysis: After overnight clashes in the Gulf and the Strait of Hormuz, Gulf states are beginning to realize that Iran may not back down…",
+      "url": "https://www.jpost.com/middle-east/article-901860",
+      "summary": "Analysis: After overnight clashes in the Gulf and the Strait of Hormuz, Gulf states are beginning to realize that Iran may not back down from its demands to control the strait. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63012",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T12:32:55Z",
+      "title": "🎥 بازدید فعال رسانه‌‌ای آمریکایی از موزه ملی انقلاب اسلامی و دفاع مقدس 🔸 «جکسون هینکل» در جریان سفر به ایران…",
+      "url": "https://t.me/defapress_ir/63012",
+      "summary": "🎥 بازدید فعال رسانه‌‌ای آمریکایی از موزه ملی انقلاب اسلامی و دفاع مقدس 🔸 «جکسون هینکل» در جریان سفر به ایران با حضور در موزه ملی انقلاب اسلامی و دفاع مقدس، از نمایشگاه «در لباس سربازی» بازدید کرد و با اسناد و روایت‌های مرتبط با نقش‌آفرینی رهبر شهید در دوران دفاع مقدس آشنا شد. 🔸 وی در این بازدید از بخش‌های مختلف این نمایشگاه که شامل اسناد کمتر دیده‌شده، تصاویر تاریخی، آثار موزه‌ای و روایت‌های مستند از آن دوران است، بازدید کرد. 🔸 این نمایشگاه تلاش دارد تا زوایای گوناگون شخصیت و عملکرد رهبر فقید انقلاب اسلامی در مقطع حساس جنگ تحمیلی را برای مخاطبان به تصویر بکشد. dnws.ir/003YF0 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63012"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Visit of an American media activist to the National Museum of the Islamic Revolution and Holy Defence. 'Jackson Hinkle' during his visit to Iran visited the National Museum of the Islamic Revolution and Holy Defence and viewed the exhibition 'In Soldier's Uniform' and became acquainted with documents and narratives related to the role of the martyred leader during the period of Holy Defence. During this visit, he toured different sections of this exhibition which includes lesser-known documents, historic photographs, museum artefacts and documented accounts from that period. This exhibition seeks to portray various dimensions of the personality and performance of the late leader of the Islamic Revolution during the sensitive period of the imposed war for viewers.",
+      "summary_en": "Visit of an American media activist to the National Museum of the Islamic Revolution and Holy Defence. 'Jackson Hinkle' during his visit to Iran visited the National Museum of the Islamic Revolution and Holy Defence and viewed the exhibition 'In Soldier's Uniform' and became acquainted with documents and narratives related to the role of the martyred leader during the period of Holy Defence. During this visit, he toured different sections of this exhibition which includes lesser-known documents, historic photographs, museum artefacts and documented accounts from that period. This exhibition seeks to portray various dimensions of the personality and performance of the late leader of the Islamic Revolution during the sensitive period of the imposed war for viewers.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq54pl2neb26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T12:30:08.186000Z",
+      "title": "Among the victims of Iran's January crackdown on anti-regime protestors was Mani Yousefi, who gave his life for freedom and for the future…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901853",
+      "summary": "Among the victims of Iran's January crackdown on anti-regime protestors was Mani Yousefi, who gave his life for freedom and for the future of his younger brother.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq53um52lx2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T12:15:03.599000Z",
+      "title": "Among the victims of Iran's bloody crackdown on anti-regime protestors was Mostafa Adgarsalehi, an Iranian citizen who was not afraid to…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901855",
+      "summary": "Among the victims of Iran's bloody crackdown on anti-regime protestors was Mostafa Adgarsalehi, an Iranian citizen who was not afraid to dream of change for his people and to fight for that future. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63002",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T12:11:05Z",
+      "title": "📸 کاظمین میزبان پیکرهای مطهر اعضای خانواده رهبر شهید 🔸 شهر کاظمین، صبح امروز، میزبان پیکرهای مطهر اعضای…",
+      "url": "https://t.me/defapress_ir/63002",
+      "summary": "📸 کاظمین میزبان پیکرهای مطهر اعضای خانواده رهبر شهید 🔸 شهر کاظمین، صبح امروز، میزبان پیکرهای مطهر اعضای خانواده حضرت آیت‌الله العظمی سید علی خامنه‌ای، رهبر شهید انقلاب اسلامی بود.  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63002"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kazimayn hosts the pure bodies of members of the martyred leader's family. The city of Kazimayn this morning hosted the pure bodies of family members of His Eminence Ayatollah al-Ozma Sayed Ali Khamenei, the martyred leader of the Islamic Revolution.",
+      "summary_en": "Kazimayn hosts the pure bodies of members of the martyred leader's family. The city of Kazimayn this morning hosted the pure bodies of family members of His Eminence Ayatollah al-Ozma Sayed Ali Khamenei, the martyred leader of the Islamic Revolution.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq52jmpc652p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T11:51:01.294000Z",
+      "title": "“The prime minister of Israel has failed,” Rep. Haley Stevens said when asked about Iran at Michigan’s Democratic Senate primary debate,…",
+      "url": "https://www.jpost.com/american-politics/article-901856",
+      "summary": "“The prime minister of Israel has failed,” Rep. Haley Stevens said when asked about Iran at Michigan’s Democratic Senate primary debate, saying that both Prime Minister Benjamin Netanyahu and US President Donald Trump had failed to achieve “long-term peace.”\nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607084988",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-08T11:47:06Z",
+      "title": "Twelve prisoners at risk of execution in Isfahan protest case, lawyer says",
+      "url": "https://www.iranintl.com/en/202607084988",
+      "summary": "Twelve protesters in Isfahan face imminent execution after Iran’s Supreme Court upheld death sentences in a case built around the alleged killing of four Basij members, a lawyer familiar with the case told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4zeblraa2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T11:30:07.468000Z",
+      "title": "Jerusalem’s refusal to extend a water agreement with Amman until it changes its rhetoric will likely be interpreted as a “stab in the back”…",
+      "url": "https://www.jpost.com/israel-news/article-901731",
+      "summary": "Jerusalem’s refusal to extend a water agreement with Amman until it changes its rhetoric will likely be interpreted as a “stab in the back” after the support Jordan gave Israel during the Iran war, an expert in Israeli-Jordanian relations told The Jerusalem Post.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4xvw7yhj2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T11:04:12.711000Z",
+      "title": "Analysis: Former Iranian president Mahmoud Ahmadinejad is one of many leaders and former leaders of Iran whose fates have been entwined…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901849",
+      "summary": "Analysis: Former Iranian president Mahmoud Ahmadinejad is one of many leaders and former leaders of Iran whose fates have been entwined with the war. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4wknv3yi2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T10:40:00.968000Z",
+      "title": "Iran possesses chemical weapons, Prime Minister Benjamin Netanyahu claimed during an interview on Newsmax's The Record With Greta Van…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901824",
+      "summary": "Iran possesses chemical weapons, Prime Minister Benjamin Netanyahu claimed during an interview on Newsmax's The Record With Greta Van Susteran.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:d9e916847654c904f22299362d2c1be3",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-07-08T10:28:00Z",
+      "title": "🔴 ELIMINATED: Mohammed Emad Alrahman Abu Taima, a Nukhba cell commander in Hamas’ military wing, who infiltrated Kibbutz Nirim during the October 7 Massacre. Taima commanded a Nukhba cell that carried out ambushes against IDF troops. Alongside advancing attacks, he was involved in maintaining the operational readiness of terrorists & recruiting new terrorists to Hamas.",
+      "url": "https://x.com/IDF/status/2074802674852131288",
+      "summary": "🔴 ELIMINATED: Mohammed Emad Alrahman Abu Taima, a Nukhba cell commander in Hamas’ military wing, who infiltrated Kibbutz Nirim during the October 7 Massacre.\n\nTaima commanded a Nukhba cell that carried out ambushes against IDF troops. Alongside advancing attacks, he was involved in maintaining the operational readiness of terrorists & recruiting new terrorists to Hamas.— Israel Defense Forces (@IDF) Jul 8, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607072562",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-08T10:19:22Z",
+      "title": "From seized legacy to US prison, Hassan Nemazee life mirrors Iran’s upheaval",
+      "url": "https://www.iranintl.com/en/202607072562",
+      "summary": "Hassan Nemazee inherited one of Iran’s best-known charitable legacies, lost his family’s fortune to the 1979 revolution and later found a new cause inside a US prison: justice reform.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:815731ecaef3ec5eb82df8f5a6527ef0",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-08T10:18:00Z",
+      "title": "A Hamas terrorist who invaded Kibbutz Nirim during the October 7, 2023, onslaught was killed in an airstrike in the southern Gaza Strip yesterday, the military announces. The strike killed Mohammed Emad Alrahman Abu Taima, who served as the commander of a Nukhba Force cell in Hamas's military wing. During the Hamas-led attack on October 7, Abu Taima raided Kibbutz Nirim, according to the IDF. During the war, he commanded his Nukhba cell in ambushes against Israeli troops, and recently he worked to advance attacks, train operatives, and recruit more terrorists, the military says. The IDF says Abu Taima posed an \"immediate threat\" to Israeli troops in Gaza, and he was therefore \"eliminated in",
+      "url": "https://x.com/manniefabian/status/2074800378676232460",
+      "summary": "A Hamas terrorist who invaded Kibbutz Nirim during the October 7, 2023, onslaught was killed in an airstrike in the southern Gaza Strip yesterday, the military announces.\n\nThe strike killed Mohammed Emad Alrahman Abu Taima, who served as the commander of a Nukhba Force cell in Hamas's military wing.\n\nDuring the Hamas-led attack on October 7, Abu Taima raided Kibbutz Nirim, according to the IDF. \n\nDuring the war, he commanded his Nukhba cell in ambushes against Israeli troops, and recently he worked to advance attacks, train operatives, and recruit more terrorists, the military says.\n\nThe IDF s",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4v2xavid2l",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T10:13:20.381000Z",
+      "title": "Hardline Iranian lawmakers have urged the Islamic regime to assassinate US President Donald Trump during his visit to Turkey for the NATO…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901841",
+      "summary": "Hardline Iranian lawmakers have urged the Islamic regime to assassinate US President Donald Trump during his visit to Turkey for the NATO summit, according to social media posts by regime officials and Iranian media reports.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4udddzjk26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T10:00:07.726000Z",
+      "title": "Two Iranian military bases were struck by the US, Iran's semi-official Fars News Agency cited an official Iranian source as saying.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901804",
+      "summary": "Two Iranian military bases were struck by the US, Iran's semi-official Fars News Agency cited an official Iranian source as saying.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4trbekzv2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T09:50:01.551000Z",
+      "title": "US President Donald Trump said that he felt that the Memorandum of Understanding (MoU) with Iran was nullified following overnight strikes…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901822",
+      "summary": "US President Donald Trump said that he felt that the Memorandum of Understanding (MoU) with Iran was nullified following overnight strikes between the US and Iran in the Strait of Hormuz.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/741",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T09:45:49Z",
+      "title": "🔖 📎 قیامِ لله، زیربنای مکتب خامنه‌ای عزیز 📝 مکتب خامنه‌ای عزیز، همان مکتب خمینی کبیر در امتداد اسلام ناب…",
+      "url": "https://t.me/rahbar_enghelab_ir/741",
+      "summary": "🔖 📎 قیامِ لله، زیربنای مکتب خامنه‌ای عزیز 📝 مکتب خامنه‌ای عزیز، همان مکتب خمینی کبیر در امتداد اسلام ناب محمّدی صلی‌الله‌علیه‌وآله‌وسلم است که زیربنای آن قیامِ لله است و شاگردان این مکتب، صف در صف آماده‌ی اقامه‌ی حق، اِزاله‌ی باطل و مجاهده در این مسیر نورانی هستند. 🗓 ۱۴/خرداد/۱۴۰۵ 📝 انتشار به‌مناسبت بدرقه آقای شهید ایران | #یگانه_دوران ▪️ برنامه‌های بدرقه ‌آقای شهید ایران ⏺️ مراسم تشییع در عراق: چهارشنبه ۱۷ تیرماه ▪️ مراسم تشییع در مشهد و تدفین در حرم امام‌ رضا علیه السلام: پنج‌شنبه ۱۸ تیرماه 🖨 نسخه کیفیت اصلی 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/741"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Rising for God, the foundation of the esteemed Khamenei school. The esteemed Khamenei school is the same as the greater Khomeini school in continuation of pure Islamic faith as brought by Prophet Muhammad, peace be upon him and his family, whose foundation is rising for God, and the students of this school stand in ranks prepared to establish truth, eliminate falsehood and struggle on this illuminated path. Funeral programme for the martyred leader of Iran: Funeral ceremony in Iraq: Wednesday 17 Tir. Funeral ceremony in Mashhad and burial at the shrine of Imam Reza, peace be upon him: Thursday 18 Tir.",
+      "summary_en": "Rising for God, the foundation of the esteemed Khamenei school. The esteemed Khamenei school is the same as the greater Khomeini school in continuation of pure Islamic faith as brought by Prophet Muhammad, peace be upon him and his family, whose foundation is rising for God, and the students of this school stand in ranks prepared to establish truth, eliminate falsehood and struggle on this illuminated path. Funeral programme for the martyred leader of Iran: Funeral ceremony in Iraq: Wednesday 17 Tir. Funeral ceremony in Mashhad and burial at the shrine of Imam Reza, peace be upon him: Thursday 18 Tir.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607075663",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-08T08:23:08Z",
+      "title": "Khamenei funeral exposes deep political divisions in Iran",
+      "url": "https://www.iranintl.com/en/202607075663",
+      "summary": "Ali Khamenei's funeral was intended to project national unity, but hardline attacks on the president and Iran's negotiators, the absence of former presidents, and renewed calls for revenge exposed deep divisions within Iran's political establishment.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607080326",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-08T08:11:28Z",
+      "title": "Trump says Iran memorandum is over, calls Tehran leaders 'scums'",
+      "url": "https://www.iranintl.com/en/202607080326",
+      "summary": "US President Donald Trump said on Wednesday a memorandum of understanding with Iran aimed at ending the conflict was over, describing Iran's leaders as \"liars and scums\" and saying he no longer wanted to negotiate with them.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/740",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-08T07:42:19Z",
+      "title": "🔖 📎 احیاگر قدرت ملت 🗒 نقاط برجسته‌ی نوع نگاه شهید امام خامنه‌ای به مردم از منظر رهبر انقلاب اسلامی 📝 انتشار…",
+      "url": "https://t.me/rahbar_enghelab_ir/740",
+      "summary": "🔖 📎 احیاگر قدرت ملت 🗒 نقاط برجسته‌ی نوع نگاه شهید امام خامنه‌ای به مردم از منظر رهبر انقلاب اسلامی 📝 انتشار به‌مناسبت بدرقه آقای شهید ایران | #یگانه_دوران ▪️ برنامه‌های بدرقه ‌آقای شهید ایران ⏺️ مراسم تشییع در عراق: چهارشنبه ۱۷ تیرماه ▪️ مراسم تشییع در مشهد و تدفین در حرم امام‌ رضا علیه السلام: پنج‌شنبه ۱۸ تیرماه 🖨 نسخه کیفیت اصلی 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/740"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reviver of the nation's power Highlights of the approach of the martyred Imam Khamenei towards the people from the perspective of the Leader of the Islamic Revolution Published on the occasion of the funeral of Mr. Martyr of Iran",
+      "summary_en": "Reviver of the nation's power Highlights of the approach of the martyred Imam Khamenei towards the people from the perspective of the Leader of the Islamic Revolution Published on the occasion of the funeral of Mr. Martyr of Iran Funeral programmes of Mr. Martyr of Iran Funeral ceremony in Iraq: Wednesday, 17 Tir Funeral ceremony in Mashhad and burial in the shrine of Imam Reza: Thursday, 18 Tir High-quality print version",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4jxiljcp26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T06:54:33.066000Z",
+      "title": "Iran possesses chemical weapons, Prime Minister Benjamin Netanyahu claimed during an interview on Newsmax's The Record With Greta Van…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901824",
+      "summary": "Iran possesses chemical weapons, Prime Minister Benjamin Netanyahu claimed during an interview on Newsmax's The Record With Greta Van Susteran.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4ghw6crc2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T05:52:09.306000Z",
+      "title": "The IDF killed a Hezbollah terrorist while searching a structure where a reservist was injured last week, and though no soldiers were…",
+      "url": "https://www.jpost.com/israel-news/article-901815",
+      "summary": "The IDF killed a Hezbollah terrorist while searching a structure where a reservist was injured last week, and though no soldiers were killed, a military dog was shot. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mq4g5avjwc27",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-08T05:46:11.551000Z",
+      "title": "NATO Secretary General Mark Rutte said, \"The new attacks by the US on Iran were absolutely necessary.\"",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-901822",
+      "summary": "NATO Secretary General Mark Rutte said, \"The new attacks by the US on Iran were absolutely necessary.\"\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    }
+  ]
+}
