@@ -1,0 +1,1586 @@
+{
+  "generated_at": "2026-07-11T15:30:08.269995Z",
+  "window_since": "2026-07-11T05:00:00Z",
+  "window_until": "2026-07-11T15:28:03.541010Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 53,
+      "kept": 53,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 29,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "63 items dominated by regime-channel coverage of Ali Khamenei's funeral and son Mojtaba's vengeance message, Israeli strikes on Mansouri in south Lebanon, Iran's UN envoy warning on the Islamabad MoU, and IDF strike on Khan Younis; nothing from UK Parliament, State Department or OFAC.",
+  "threads": [
+    {
+      "label": "Khamenei funeral and mourning coverage",
+      "summary": "Regime channels ran heavy coverage of the funeral of Ali Khamenei ('Mr Martyr of Iran'), including crowd scenes in Mashhad, Imam Reza shrine ceremonies, and a launch of a new Rahbar.ir information portal for successor Mojtaba Khamenei. The Intelligence Ministry and various officials issued statements thanking mourners in Iran and Iraq for what they called a historic turnout.",
+      "event_ids": [
+        "telegram:iribnews/350918",
+        "telegram:iribnews/350912",
+        "telegram:defapress_ir/63258",
+        "telegram:defapress_ir/63256",
+        "telegram:rahbar_enghelab_ir/755",
+        "telegram:defapress_ir/63249",
+        "telegram:defapress_ir/63246",
+        "telegram:rahbar_enghelab_ir/766"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Mojtaba Khamenei vengeance message",
+      "summary": "Khamenei's office published a message attributed to new Supreme Leader Mojtaba Khamenei pledging to avenge his father's killing, saying 'criminals' would not die peacefully and that free peoples worldwide would carry out parts of the retribution. The Jerusalem Post reported the pledge, and Defa Press cited a funeral spokesman saying 'revenge' was the first step.",
+      "event_ids": [
+        "telegram:rahbar_enghelab_ir/776",
+        "telegram:rahbar_enghelab_ir/775",
+        "telegram:rahbar_enghelab_ir/774",
+        "telegram:rahbar_enghelab_ir/773",
+        "telegram:rahbar_enghelab_ir/772",
+        "telegram:rahbar_enghelab_ir/771",
+        "telegram:rahbar_enghelab_ir/770",
+        "telegram:rahbar_enghelab_ir/769",
+        "telegram:rahbar_enghelab_ir/767",
+        "telegram:rahbar_enghelab_ir/765",
+        "telegram:rahbar_enghelab_ir/764",
+        "telegram:defapress_ir/63254",
+        "telegram:defapress_ir/63252",
+        "telegram:rahbar_enghelab_ir/763",
+        "telegram:defapress_ir/63265",
+        "telegram:telegram:iribnews/350905",
+        "telegram:iribnews/350905",
+        "telegram:defapress_ir/63267",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqejds4kdc2m"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Israeli strikes on south Lebanon and Gaza",
+      "summary": "IRIB and Times of Israel military correspondent Emanuel Fabian reported repeated Israeli airstrikes on the town of Mansouri in the Tyre district of southern Lebanon. IRIB also reported an Israeli airstrike on al-Tina Street south of Khan Younis in Gaza.",
+      "event_ids": [
+        "telegram:iribnews/350909",
+        "telegram:iribnews/350907",
+        "telegram:iribnews/350901",
+        "x_via_rssapp:996e043a97fd34f2481e9f31d689bcb1",
+        "telegram:iribnews/350899"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran defence posture and Hormuz",
+      "summary": "Defence Minister Ibn al-Reza told the Majlis National Security Commission that defence production continued through the recent war and drone output tripled, while a joint image of the Artesh and IRGC navy commanders was published as a Hormuz-cooperation symbol. Defa Press also reported commendation of IRGC Navy commander Ali Azmayi for 'consolidating Iranian arrangements' in the Strait of Hormuz.",
+      "event_ids": [
+        "telegram:defapress_ir/63260",
+        "telegram:iribnews/350900",
+        "telegram:defapress_ir/63257",
+        "telegram:defapress_ir/63266",
+        "telegram:defapress_ir/63255",
+        "telegram:iribnews/350917"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran-US MoU under strain",
+      "summary": "IRIB reported Iran's UN envoy Iravani warning outside the Security Council that Tehran would not remain bound by the Islamabad MoU if the United States continued violating its commitments. Iran International published an analysis noting the 60-day MoU is running amid a broken ceasefire, renewed attacks on shipping in the Strait of Hormuz, and US strikes on Iran.",
+      "event_ids": [
+        "telegram:iribnews/350913",
+        "iranintl:https://www.iranintl.com/en/202607101962"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic economy and security",
+      "summary": "Iran International reported Iran faces the region's harshest combination of wartime economic contraction and inflation, while IRIB covered a temporary interbank network disruption affecting a share of 7,000 banking services. Defa Press reported two Basij members, Sajjad Alavi and Mehdi Honarmand, killed in a Mashhad patrol attack about 15km from the Imam Reza shrine.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202607114644",
+        "telegram:iribnews/350902",
+        "telegram:iribnews/350922",
+        "telegram:defapress_ir/63251",
+        "telegram:iribnews/350904"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Syria ISIS cell and regional items",
+      "summary": "The Jerusalem Post, citing Syria's SANA, reported Syrian forces captured an ISIS cell in southern Syria following bombings around Macron's visit earlier in the week. Separately, Judiciary chief Ejei told international lawyers that US and Israeli 'war criminals' should face punishment and pay damages for actions against Iran.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqexbch6mp2p",
+        "telegram:defapress_ir/63250",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqew3ocdvb2s"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/350918",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T15:21:15Z",
+      "title": "🎦 پنجره‌ دیگری از جمعیت حاضر در تشییع با شکوه «آقای شهید ایران» و شهدای خانواده ایشان در مشهد @iribnews",
+      "url": "https://t.me/iribnews/350918",
+      "summary": "🎦 پنجره‌ دیگری از جمعیت حاضر در تشییع با شکوه «آقای شهید ایران» و شهدای خانواده ایشان در مشهد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350918"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2a544d1006143909aba6bf74a6c6e086",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-11T15:18:00Z",
+      "title": "Earlier this week, Fleet Master Chief Lateef Compton, senior enlisted leader of U.S. Central Command, visited…",
+      "url": "https://x.com/CENTCOM/status/2075962965988163776",
+      "summary": "Earlier this week, Fleet Master Chief Lateef Compton, senior enlisted leader of U.S. Central Command, visited troops assigned to U.S. Air Forces Central and U.S. Army Central at Shaw Air Force Base in South Carolina. During the visit, he recognized troops, attended a symposium with non-commissioned officers, and toured multiple directorates and operations centers.— U.S. Central Command (@CENTCOM) Jul 11, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqexbch6mp2p",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-11T15:13:58.961000Z",
+      "title": "Syrian forces captured an ISIS cell in southern Syria on Thursday following terrorist bombings amid Macron's visit to the country earlier…",
+      "url": "https://www.jpost.com/middle-east/article-902145",
+      "summary": "Syrian forces captured an ISIS cell in southern Syria on Thursday following terrorist bombings amid Macron's visit to the country earlier this week, according to Syria's SANA state media. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqex2per5a2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-11T15:10:17.353000Z",
+      "title": "Reporter's Notebook: Tourism in northern Israel is on the mend as the ceasefire with Hezbollah continues on.",
+      "url": "https://www.jpost.com/israel-news/article-902166",
+      "summary": "Reporter's Notebook: Tourism in northern Israel is on the mend as the ceasefire with Hezbollah continues on.\n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63267",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T15:00:22Z",
+      "title": "💢 عطارزاده: قدم اول در خونخواهی امام‌ شهیدمان «انتقام» است 🔸 سخنگوی ستاد تشییع رهبر شهید انقلاب با انتشار…",
+      "url": "https://t.me/defapress_ir/63267",
+      "summary": "💢 عطارزاده: قدم اول در خونخواهی امام‌ شهیدمان «انتقام» است 🔸 سخنگوی ستاد تشییع رهبر شهید انقلاب با انتشار پیامی نوشت: آنچه در مراسم‌ وداع و تشییع پیکر مطهر امام‌ مجاهد شهید در ایران و عراق به‌صورت چشمگیری مشاهده شد، پرچم‌های سرخ یالثارات‌الحسین علیه‌السلام در دستان عزاداران رهبر شهید بود. 🔸 امروز مطالبه خونخواهی رهبر شهیدمان، خواست آزادگان جهان، امت اسلامی و آحاد ملت ایران است. 🔸 یقیناً قدم اول در خونخواهی امام‌ شهیدمان، «انتقام» است‌. dnws.ir/003YPV @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63267"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350917",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:58:16Z",
+      "title": "رئیس کمیسیون امنیت ملی مجلس در نشست مشترک با سرپرست وزارت دفاع: مجلس با تمام توان از نیروهای مسلح حمایت و از…",
+      "url": "https://t.me/iribnews/350917",
+      "summary": "رئیس کمیسیون امنیت ملی مجلس در نشست مشترک با سرپرست وزارت دفاع: مجلس با تمام توان از نیروهای مسلح حمایت و از هر طرح و لایحه‌ای که به تقویت بنیه دفاعی و افزایش توان بازدارندگی کشور منجر شود، پشتیبانی خواهد کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350917"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqew3ocdvb2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-11T14:52:56.185000Z",
+      "title": "Will Turkey box Israel out of Hamas's future role in Gaza?",
+      "url": "https://www.jpost.com/podcast/article-901876",
+      "summary": "Will Turkey box Israel out of Hamas's future role in Gaza?\nIsrael watches Turkey’s rise with concern as F-35 talks, Hamas’s refusal to disarm and Iran’s uranium stockpile reshape the regional threat map. \nwww.jpost.com/podcast/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350916",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:52:37Z",
+      "title": "🎦 فراگیر شدن تولید فولاد سبز در کشور 🔹 دبیر انجمن تولید کنندگان فولاد ایران: بیش از ۷۰ درصد تولید فولاد در…",
+      "url": "https://t.me/iribnews/350916",
+      "summary": "🎦 فراگیر شدن تولید فولاد سبز در کشور 🔹 دبیر انجمن تولید کنندگان فولاد ایران: بیش از ۷۰ درصد تولید فولاد در کشور به صورت احیای مستقیم و با حداقل آلایندگی است، فولادی که به فولاد سبز معروف است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350916"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63266",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:42:21Z",
+      "title": "📸 اتحاد فرماندهان نیروی دریایی ارتش و سپاه برای حفاظت از تنگه هرمز 🔸 تصویری از امیر دریادار شهرام ایرانی…",
+      "url": "https://t.me/defapress_ir/63266",
+      "summary": "📸 اتحاد فرماندهان نیروی دریایی ارتش و سپاه برای حفاظت از تنگه هرمز 🔸 تصویری از امیر دریادار شهرام ایرانی فرمانده نیروی دریایی ارتش جمهوری اسلامی ایران و دریادار پاسدار علی عظمایی فرمانده نیروی دریایی سپاه پاسداران انقلاب اسلامی، منتشر شد. 🔸 انتشار این تصویر، نمادی از هم‌افزایی و هماهنگی نیرو‌های مسلح جمهوری اسلامی ایران در صیانت از امنیت خلیج فارس و تنگه راهبردی هرمز به شمار می‌رود؛ دو فرمانده‌ای که در کنار یکدیگر مسئولیت پاسداری از یکی از مهم‌ترین گذرگاه‌های دریایی جهان را بر عهده دارند. dnws.ir/003YPU @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63266"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350915",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:21:05Z",
+      "title": "🎦 ۵۰ هزار سامانه خورشیدی در روستاها / تجهیز ۱۲ هزار مدرسه به نیروگاه؛ درآمد آن صرف آموزش می‌شود…",
+      "url": "https://t.me/iribnews/350915",
+      "summary": "🎦 ۵۰ هزار سامانه خورشیدی در روستاها / تجهیز ۱۲ هزار مدرسه به نیروگاه؛ درآمد آن صرف آموزش می‌شود سیگارودی،معاون سرمایه‌گذاری و توسعه ساتبا؛ 🔹 بیش از ۵۰ هزار سامانه خورشیدی کوچک‌مقیاس در روستاهای سراسر کشور، با همکاری نهادهای حمایتی راه‌اندازی شده و مردم از برق تولیدی آن بهره‌مند می‌شوند. 🔹 در فاز جدید، از هفته آینده ۱۲ هزار مدرسه با دستور رئیس‌جمهور و همکاری وزارت آموزش‌وپرورش به نیروگاه خورشیدی ۵ کیلوواتی مجهز می‌شوند. 🔹 تمام درآمد حاصل از این نیروگاه‌ها، مستقیماً به تجهیزات و مسائل آموزشی خود مدارس اختصاص خواهد یافت. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350915"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350914",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:10:01Z",
+      "title": "🎦 خودکفایی میراث امام شهید 🔹 در مسیر بدرقه رهبر شهید، برخی عزاداران با پلاکاردهایی که بر آن‌ها «خودکفایی» و…",
+      "url": "https://t.me/iribnews/350914",
+      "summary": "🎦 خودکفایی میراث امام شهید 🔹 در مسیر بدرقه رهبر شهید، برخی عزاداران با پلاکاردهایی که بر آن‌ها «خودکفایی» و «اقتصاد مقاومتی» نقش بسته بود، از میراثی سخن می‌گفتند که به باور آنان، مسیر پیشرفت و استقلال کشور را ترسیم کرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350914"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350913",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:06:01Z",
+      "title": "🔺 ایروانی: در صورت ادامه نقض تعهدات، ایران به تفاهم پایبند نمی‌ماند 🔹 نماینده ایران در سازمان ملل متحد، در…",
+      "url": "https://t.me/iribnews/350913",
+      "summary": "🔺 ایروانی: در صورت ادامه نقض تعهدات، ایران به تفاهم پایبند نمی‌ماند 🔹 نماینده ایران در سازمان ملل متحد، در اظهاراتی در جمع خبرنگاران خارج از نشست شورای امنیت سازمان ملل هشدار داد که اگر ایالات متحده به نقض تعهدات خود ذیل تفاهم‌نامه (اسلام‌آباد) ادامه دهد، ایران دیگر ملزم به اجرای تعهداتش در چارچوب این تفاهم‌نامه نخواهد بود. 🔹 ایروانی تاکید کرد: تهران به اجرای این تفاهم‌نامه متعهد است، مشروط بر آنکه ایالات متحده هم به‌طور کامل و صادقانه به تعهدات خود عمل کند. 🔹 حملات آمریکا به جزایر و شهرهای جنوبی ایران در روزهای ۷ و ۸ ژوئیه (شانزده و هفده تیر) نقض آشکار منشور ملل متحد است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350913"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63265",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:05:01Z",
+      "title": "💢 سفیر یمن: فرهنگ ملت ایران در مراسم وداع با رهبر شهید همه را متحیر کرد 🔸 ابراهیم محمد الدیلمی گفت: بعد از…",
+      "url": "https://t.me/defapress_ir/63265",
+      "summary": "💢 سفیر یمن: فرهنگ ملت ایران در مراسم وداع با رهبر شهید همه را متحیر کرد 🔸 ابراهیم محمد الدیلمی گفت: بعد از مراسم تشییع پیکر مطهر قائد شهید باشکوه و الهام بخش، منطقه شاهد تغییر و تحولات در مواضع خواهد بود و عرصه‌های جهاد و مقاومت بیش از پیش تقویت می‌شوند. 🔸 مشارکت هیئت یمنی در این مراسم بزرگ، تاکیدی بر ارتباط عمیق میان ایران و یمن به ویژه در بحبوحه محاصره دشمن علیه یمن و تحولات در مرحله بعد از حماسه طوفان الاقصی است. 🔸 حضور میلیونی مردم در تشییع پیکر شهید امام خامنه‌ای، فرهنگ ملت ایران و توانایی سازمانی استثنایی آنها را نشان داد و همه هیئت‌های خارجی شرکت کننده، تحت تاثیر این فرهنگ ایرانی‌ها قرا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63265"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350912",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T14:02:22Z",
+      "title": "🎦 حرم مطهر رضوی هم در خونخواهی آقای شهید مجاهد، به رنگ سرخ درآمد 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/350912",
+      "summary": "🎦 حرم مطهر رضوی هم در خونخواهی آقای شهید مجاهد، به رنگ سرخ درآمد 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350912"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350911",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:42:41Z",
+      "title": "🎦 هوا گرمتر می شود ، مدیریت مصرف آب و برق ضروری است رئیس مرکز ملی پیش بینی سازمان هواشناسی: 🔹 شهرهای جنوبی…",
+      "url": "https://t.me/iribnews/350911",
+      "summary": "🎦 هوا گرمتر می شود ، مدیریت مصرف آب و برق ضروری است رئیس مرکز ملی پیش بینی سازمان هواشناسی: 🔹 شهرهای جنوبی کشور در روزهای آینده دماهای 50 درجه سلسیوس و بیشتر را ثبت خواهند کرد. 🔹 تابش اشعه فرابنفش خورشید در روزهای آینده در محدوده خطرناک و بالاتر از آن قرار خواهد گرفت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350911"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350909",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:33:06Z",
+      "title": "🎦 حمله مجدد رژیم صهیونیستی به شهرک المنصوری در شهرستان صور لبنان  @iribnews",
+      "url": "https://t.me/iribnews/350909",
+      "summary": "🎦 حمله مجدد رژیم صهیونیستی به شهرک المنصوری در شهرستان صور لبنان  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350909"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63262",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:29:50Z",
+      "title": "💢 جوکار: تدابیر رهبر شهید کشور را به اوج عزت رساند 🔸 رئیس کمیسیون امور داخلی کشور و شوراهای مجلس در گفت‌وگو…",
+      "url": "https://t.me/defapress_ir/63262",
+      "summary": "💢 جوکار: تدابیر رهبر شهید کشور را به اوج عزت رساند 🔸 رئیس کمیسیون امور داخلی کشور و شوراهای مجلس در گفت‌وگو با دفاع‌پرس با تأکید بر سه محور اساسی «استقلال سیاسی، اقتصادی و فرهنگی» گفت: رهبر شهید با ادامه دادن شعار «ما می‌توانیم» که امام راحل (ره) بنیان نهادند، کشور را در عرصه‌های علمی، فناوری و سیاسی به نقطه‌ای مقتدر و تأثیرگذار در منطقه و جهان رساندند. 🔸 دشمنان سال‌ها در تلاش بودند فاصله مردم با نظام را القا کنند، اما این حضور کمنظیر که با شعار خون‌خواهی همراه بود، تمام معادلات آنها را بر هم زد و خشم آنان را برانگیخت. 🔸 با اتکا به رهنمود‌های رهبری و ایستادگی نیرو‌های مسلح، کشور در مسیر قله‌ها",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63262"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350908",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:29:22Z",
+      "title": "🔺 فوت ناگهانی بازیکن آفریقای‌جنوبی حاضر در جام جهانی ⚽️ جیدن آدامز، بازیکن تیم ملی آفریقای جنوبی که در جام…",
+      "url": "https://t.me/iribnews/350908",
+      "summary": "🔺 فوت ناگهانی بازیکن آفریقای‌جنوبی حاضر در جام جهانی ⚽️ جیدن آدامز، بازیکن تیم ملی آفریقای جنوبی که در جام جهانی ۲۰۲۶ برای کشورش مقابل مکزیک، چک و کره‌جنوبی به میدان رفته بود، در سن ۲۵ سالگی درگذشت. ⚽️ براساس گزارش‌ها، علت مرگ آدامز هنوز اعلام نشده اما برخی از احتمال خودکشی او خبر داده‌اند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350908"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350907",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:07:08Z",
+      "title": "🎦 حملهٔ هوایی رژیم صهیونیستی به شهرک المنصوری در شهرستان صور در جنوب لبنان  @iribnews",
+      "url": "https://t.me/iribnews/350907",
+      "summary": "🎦 حملهٔ هوایی رژیم صهیونیستی به شهرک المنصوری در شهرستان صور در جنوب لبنان  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350907"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350906",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:04:10Z",
+      "title": "اولویت ثبت‌نام حج با چه کسانی است؟ 🔹 براساس اعلام سازمان حج، از فردا دارندگان قبض‌های ودیعه‌گذاری به‌ترتیب…",
+      "url": "https://t.me/iribnews/350906",
+      "summary": "اولویت ثبت‌نام حج با چه کسانی است؟ 🔹 براساس اعلام سازمان حج، از فردا دارندگان قبض‌های ودیعه‌گذاری به‌ترتیب اولویت‌های تعیین‌شده می‌توانند برای ثبت‌نام اقدام کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350906"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63261",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:01:28Z",
+      "title": "💢 حفظ وحدت ملی، مهم‌ترین میراث رهبر شهید است 🔸 نویسنده و شاعر کودک و نوجوان در گفت‌و‌گو با دفاع‌پرس، گفت:…",
+      "url": "https://t.me/defapress_ir/63261",
+      "summary": "💢 حفظ وحدت ملی، مهم‌ترین میراث رهبر شهید است 🔸 نویسنده و شاعر کودک و نوجوان در گفت‌و‌گو با دفاع‌پرس، گفت: نگاه جامع امام شهید به حوزه‌های فرهنگ، علم، اقتصاد و معیشت مردم، الگویی ماندگار برای اداره کشور است و حفظ این وحدت، مهم‌ترین وظیفه مسئولان و آحاد جامعه در ادامه مسیر انقلاب خواهد بود. 🔸 رهبر شهید انقلاب تنها رهبر مردم ایران نبود، بلکه بسیاری از آزادگان جهان و ملت‌های مسلمان نیز با اندیشه و منش ایشان احساس پیوند می‌کردند؛ از همین رو، بازتاب این تشییع را نمی‌توان صرفاً در چارچوب ایران تحلیل کرد. 🔸 اگر مردم در میدان نبودند، بدون تردید شرایط جنگ به گونه دیگری رقم می‌خورد. دشمن روی ایجاد آشوب د",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63261"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350905",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T13:01:21Z",
+      "title": "🔺 قدم اول در خونخواهی امام‌ شهیدمان، «انتقام» است‌ سخنگوی ستاد تشییع رهبر شهید انقلاب: 🔹 آنچه در مراسم‌های…",
+      "url": "https://t.me/iribnews/350905",
+      "summary": "🔺 قدم اول در خونخواهی امام‌ شهیدمان، «انتقام» است‌ سخنگوی ستاد تشییع رهبر شهید انقلاب: 🔹 آنچه در مراسم‌های وداع و تشییع پیکر مطهر امام‌ مجاهد شهید در ایران و عراق بصورت چشمگیری مشاهده شد، پرچم‌های سرخ یالثارات‌الحسین علیه‌السلام در دستان عزاداران رهبر شهید بود. 🔹 امروز مطالبه خونخواهی رهبر شهیدمان، خواست آزادگان جهان، امت اسلامی و آحاد ملت ایران است. یقیناً قدم اول در خونخواهی امام‌ شهیدمان، «انتقام» است‌. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350905"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mqeps7hghh2e",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-11T13:00:17.183000Z",
+      "title": "One in eight young Americans has a favorable view of the Hamas terrorist group, according to a survey released on Thursday that, like other…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mqeps7hghh2e",
+      "summary": "One in eight young Americans has a favorable view of the Hamas terrorist group, according to a survey released on Thursday that, like other recent polls, has shown support for Israel dropping in the US public.\n\nRead more on The Times of Israel.\n\nwww.timesofisrael.com/1-in-8-young...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/776",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T12:59:27Z",
+      "title": "💬 عهد می‌بندیم که انتقام خون پاک شما  و همه‌‌ی شهیدان این دو جنگ را  از قاتلین جنایتکار و بی‌آبرو بگیریم. ✍…",
+      "url": "https://t.me/rahbar_enghelab_ir/776",
+      "summary": "💬 عهد می‌بندیم که انتقام خون پاک شما  و همه‌‌ی شهیدان این دو جنگ را  از قاتلین جنایتکار و بی‌آبرو بگیریم. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات_الحسین | #باید_برخاست 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/776"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350904",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T12:41:10Z",
+      "title": "🔺 مستمری تیر ماه مددجویان بهزیستی و كمیته امداد واریز شد سازمان هدفمندسازی یارانه‌ها: 🔹 ۱۲.۷ همت مجموع مستمری…",
+      "url": "https://t.me/iribnews/350904",
+      "summary": "🔺 مستمری تیر ماه مددجویان بهزیستی و كمیته امداد واریز شد سازمان هدفمندسازی یارانه‌ها: 🔹 ۱۲.۷ همت مجموع مستمری مددجویان و خانوارهای پشت نوبتی سازمان بهزیستی كشور مربوط به تیر ماه سال جاری به طور مستقیم به حساب ذی‌نفعان نهایی و مستمری مددجویان كمیته امداد امام خمینی (ره) به حساب آن نهاد جهت پرداخت به ذی‌نفعان واریز شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350904"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:996e043a97fd34f2481e9f31d689bcb1",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-11T12:33:00Z",
+      "title": "Lebanese media reports several Israeli strikes in the southern town of Mansouri a short while ago.",
+      "url": "https://x.com/manniefabian/status/2075921323843305588",
+      "summary": "Lebanese media reports several Israeli strikes in the southern town of Mansouri a short while ago. \nVideo\n  — Emanuel (Mannie) Fabian (@manniefabian) Jul 11, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350903",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T12:22:57Z",
+      "title": "🎦 قیطاسی دبیر شورای هماهنگی بانک‌های دولتی: از هموطنان عزیز درخواست می‌شود تمام گزارش‌ها و اطلاعیه‌ها را…",
+      "url": "https://t.me/iribnews/350903",
+      "summary": "🎦 قیطاسی دبیر شورای هماهنگی بانک‌های دولتی: از هموطنان عزیز درخواست می‌شود تمام گزارش‌ها و اطلاعیه‌ها را صرفاً از طریق سایت رسمی بانک خود پیگیری کنند. 🔹 هرگونه خبر یا اطلاعات از منابع دیگر، مورد تأیید بانک مرکزی و شورای هماهنگی نظام بانکی کشور نیست. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350903"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63260",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T12:20:51Z",
+      "title": "💢 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد 🔸 سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در…",
+      "url": "https://t.me/defapress_ir/63260",
+      "summary": "💢 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد 🔸 سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در نشست مشترک با کمیسیون امنیت ملی مجلس: جنگ اخیر نشان داد که  نخبگان ایرانی و سرمایه‌گذاری بر فناوری‌های نوین، مهم‌ترین مؤلفه اقتدار دفاعی کشور است. …",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63260"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350902",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T12:08:19Z",
+      "title": "🎦 اختلال موقت در شبکه ارتباطی بین‌بانکی؛ تراکنش‌ها در حال بازگشت به حالت عادی قیطاسی، دبیر شورای هماهنگی…",
+      "url": "https://t.me/iribnews/350902",
+      "summary": "🎦 اختلال موقت در شبکه ارتباطی بین‌بانکی؛ تراکنش‌ها در حال بازگشت به حالت عادی قیطاسی، دبیر شورای هماهنگی بانک‌های دولتی : 🔹 هم‌اکنون از ۷۰۰۰ خدمت بانکی، درصدی با خطا روبرو شده که ناشی از مشکل شبکه ارتباطی بین بانک‌هاست. 🔹 اطلاعات حساب مشتریان کاملاً سالم است و جای نگرانی نیست. 🔹 همکاران ما در تلاشند تا هرچه سریع‌تر مشکل را رفع کرده و خدمات کامل را ارائه دهند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350902"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63259",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:58:26Z",
+      "title": "♨️ بسته خبری استان‌ها 💢 تمدن نوین اسلامی؛ میراث ماندگار امام شهید برای آینده ایران dnws.ir/003YNT 💢 تصاویر/…",
+      "url": "https://t.me/defapress_ir/63259",
+      "summary": "♨️ بسته خبری استان‌ها 💢 تمدن نوین اسلامی؛ میراث ماندگار امام شهید برای آینده ایران dnws.ir/003YNT 💢 تصاویر/ مراسم بزرگداشت رهبر شهید انقلاب اسلامی در حرم مطهر رضوی dnws.ir/003YNF 💢 تأکید بر حفظ نقاط قوت نظام در برابر تلاطم‌های رسانه‌ای جنگ شناختی dnws.ir/003YN6 💢 استقامت نقشه راه عبور از فتنه‌ها برای رسیدن به ظهور است dnws.ir/003YMy 💢 تصاویر/ مزار مطهر رهبر شهید انقلاب اسلامی در حرم مطهر رضوی dnws.ir/003YMs 💢 خواهر شهید «میرغفاری»: راه شهدا با تبعیت از ولایت و حفظ حجاب ادامه می‌یابد dnws.ir/003YMd 💢 تمام آزادی خواهان دنیا خونخواه امام شهیدمان هستند dnws.ir/003YMc 💢 آیت‌الله خاتمی: حضور میلیونی",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63259"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350901",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:49:48Z",
+      "title": "🎦 حملهٔ هوایی رژیم صهیونیستی به شهرک المنصوری در شهرستان صور در جنوب لبنان @iribnews",
+      "url": "https://t.me/iribnews/350901",
+      "summary": "🎦 حملهٔ هوایی رژیم صهیونیستی به شهرک المنصوری در شهرستان صور در جنوب لبنان @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350901"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63258",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:45:51Z",
+      "title": "💢 گزارش اندیشکده آمریکایی از نفوذ مسکو در شرق آسیا زیر سایه بحران انرژی 🔸 مسکو فاقد منابع اقتصادی، ظرفیت…",
+      "url": "https://t.me/defapress_ir/63258",
+      "summary": "💢 گزارش اندیشکده آمریکایی از نفوذ مسکو در شرق آسیا زیر سایه بحران انرژی 🔸 مسکو فاقد منابع اقتصادی، ظرفیت سرمایه‌گذاری و حضور امنیتی لازم برای رقابت با واشنگتن یا پکن در منطقه جنوب شرق آسیاست؛ با این حال، اقدام روسیه در گرایش به این منطقه می‌تواند سرآغازی بر نقش جدید این کشور در جنوب شرق آسیا باشد. 🔸 تحولات اخیر در شرق آسیا و تعاملات فزاینده روسیه با کشور‌های حوزه جنوب شرق آسیا موسوم به «آسه‌آن»، نشان‌دهنده شکل‌گیری فصل جدیدی از رقابت‌های ژئوپلیتیک در جهان چندقطبی است. 🔸 در شرایطی که بحران‌های بین‌المللی انرژی و تنش‌های غرب آسیا، امنیت انرژی جهانی را با چالش‌های جدی مواجه کرده، کرملین با اتکا ب",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63258"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350900",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:44:26Z",
+      "title": "🔺 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد  سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در…",
+      "url": "https://t.me/iribnews/350900",
+      "summary": "🔺 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد  سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در نشست مشترک با کمیسیون امنیت ملی مجلس: 🔹 جنگ اخیر نشان داد که  نخبگان ایرانی و سرمایه‌گذاری بر فناوری‌های نوین، مهم‌ترین مؤلفه اقتدار دفاعی کشور است.…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350900"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607114644",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-11T11:32:43Z",
+      "title": "Iran faces region’s harshest mix of wartime contraction and inflation",
+      "url": "https://www.iranintl.com/en/202607114644",
+      "summary": "War has erased Iran’s already weak growth prospects. The economy shrinks as prices rise at one of the region’s fastest rates, forcing households to bear war, sanctions and years of economic mismanagement through fewer jobs, weaker incomes and collapsing purchasing power.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/350899",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:31:15Z",
+      "title": "🔺 حمله هوایی رژیم صهیونیستی به خان‌یونس 🔹 منابع خبری از حمله هوایی ارتش اشغالگر رژیم صهیونیستی به خیابان…",
+      "url": "https://t.me/iribnews/350899",
+      "summary": "🔺 حمله هوایی رژیم صهیونیستی به خان‌یونس 🔹 منابع خبری از حمله هوایی ارتش اشغالگر رژیم صهیونیستی به خیابان الطینه، واقع در جنوب منطقه «المسلخ» در جنوب شهر خان‌یونس، در نوار غزه خبر دادند. 🔹 این منطقه در ماه‌های اخیر بارها هدف حملات قرار گرفته و به یکی از نقاط پرتنش در جنوب نوار غزه تبدیل شده است. @iribews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/350899"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63257",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:23:14Z",
+      "title": "💢 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد 🔸 سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در…",
+      "url": "https://t.me/defapress_ir/63257",
+      "summary": "💢 سردار ابن‌الرضا: روند تولیدات دفاعی در اوج جنگ هم متوقف نشد 🔸 سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح در نشست مشترک با کمیسیون امنیت ملی مجلس: جنگ اخیر نشان داد که  نخبگان ایرانی و سرمایه‌گذاری بر فناوری‌های نوین، مهم‌ترین مؤلفه اقتدار دفاعی کشور است. 🔸 در اوج جنگ، نه تنها تولیدات دفاعی متوقف نشد بلکه ظرفیت تولید پهپاد سه برابر افزایش یافت. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63257"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607101962",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-11T11:18:31Z",
+      "title": "Is the Iran-US MoU dead – or are we asking the wrong question?",
+      "url": "https://www.iranintl.com/en/202607101962",
+      "summary": "Less than three weeks after Washington and Tehran began implementing a 60-day memorandum, the ceasefire is broken, commercial ships have again come under attack in the Strait of Hormuz, and US forces have struck Iran. Yet the two sides are still talking.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63256",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:14:22Z",
+      "title": "💢 راه‌اندازی پایگاه اطلاع‌رسانی رهبر معظم انقلاب اسلامی 🔸 پایگاه اطلاع‌رسانی رهبر معظم انقلاب، حضرت آیت‌الله…",
+      "url": "https://t.me/defapress_ir/63256",
+      "summary": "💢 راه‌اندازی پایگاه اطلاع‌رسانی رهبر معظم انقلاب اسلامی 🔸 پایگاه اطلاع‌رسانی رهبر معظم انقلاب، حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای راه‌اندازی شد. 🔸 مردم می‌توانند با مراجعه به نشانی Rahbar.ir به تازه‌ترین اخبار، اطلاعیه‌ها، پیام‌ها، بیانات، دیدارها، تصاویر، ویدئوها و سایر محتوای مرتبط با رهبر معظم انقلاب اسلامی دسترسی داشته باشند. dnws.ir/003YOl @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63256"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqejds4kdc2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-11T11:04:49.645000Z",
+      "title": "Iran's Supreme Leader Mojtaba Khamenei pledged to avenge the killing of his father, former Supreme Leader Ali Khamenei, saying those…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-902159",
+      "summary": "Iran's Supreme Leader Mojtaba Khamenei pledged to avenge the killing of his father, former Supreme Leader Ali Khamenei, saying those responsible would be held accountable and warning they would not escape justice. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/775",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T11:00:28Z",
+      "title": "📝 امید داریم که آقای شهیدمان یکی از آن ستارگانی باشد که حضرت بقیه‌الله (عج) را پس از ظهور همراهی خواهند کرد 🗒…",
+      "url": "https://t.me/rahbar_enghelab_ir/775",
+      "summary": "📝 امید داریم که آقای شهیدمان یکی از آن ستارگانی باشد که حضرت بقیه‌الله (عج) را پس از ظهور همراهی خواهند کرد 🗒 ای سرور عالی مقام! ای بزرگو‌ار! ای امام رئوف! یا اباالحسن الرّضا المرتضی که برترین صلوات خدا بر شما باد، اکنون جسم پاره پاره‌ی خادمی از خادمین حضرتتان و عترت طاهره، پس از سالها جِدّ و جَهد و مجاهدتِ بی‌وقفه به همراه ابدان شهدایی از خانواده‌اش که هر یک یادآور شهیدی از شهیدان دشت کربلا است، در این خاک پاک می‌آرمند تا آن روزی که به امر الهی، خورشید عالم‌تاب، حضرت بقیه‌الله عجل‌الله‌تعالی‌فرجه‌الشّریف، از پس ابرهای غیبت بیرون آید و بر مردمان کره‌ی خاکی، نور رحمت الهی را بتاباند که در آن رو",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/775"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/774",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:57:47Z",
+      "title": "📝 پدر شهید امت، عمری در آرزوی شهادت 🗒 ای پدر شهید امّت، نوشیدن شهد شهادت که عمری در آرزوی آن بودید، گوارایتان…",
+      "url": "https://t.me/rahbar_enghelab_ir/774",
+      "summary": "📝 پدر شهید امت، عمری در آرزوی شهادت 🗒 ای پدر شهید امّت، نوشیدن شهد شهادت که عمری در آرزوی آن بودید، گوارایتان باد. پوشیدن خلعت شهادت با بدنی که نشان‌ها از مادرتان زهرای اطهر و جدّتان اباعبدالله الحسین و اباالفضل العباس علیهم الصلاة و السّلام دارد، مبارکتان باشد. 💬 و شما ای همراهان مظلوم او که غافلگیرانه مورد هجوم دشمن قرار گرفتید و به شهادت رسیدید، خوشا به‌حالتان که اینک میهمان آن مولائی هستید که شاید بارها رأفت و لطفشان را درک کرده بودید. آن آقائی که باب رحمت الهی برای همه و بخصوص مردمان این سرزمین هستند، اینک میزبان شمایند و جوار امنشان خانه‌ی شما شده است. ✍ بخشی از پیام رهبر معظّم انقلاب به",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/774"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/773",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:56:56Z",
+      "title": "🖼 عهد می‌بندیم که انتقام خون پاک شما و همه‌‌ی شهیدان این دو جنگ را از قاتلین جنایتکار و بی‌آبرو بگیریم . ✍…",
+      "url": "https://t.me/rahbar_enghelab_ir/773",
+      "summary": "🖼 عهد می‌بندیم که انتقام خون پاک شما و همه‌‌ی شهیدان این دو جنگ را از قاتلین جنایتکار و بی‌آبرو بگیریم . ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات_الحسین | #باید_برخاست 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/773"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/772",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:56:15Z",
+      "title": "📝 جنایتکاران آرزوی مرگی آرام را به گور خواهند برد آزادگان سراسر دنیا هر یک بخشی از مأموریت انتقام را برعهده…",
+      "url": "https://t.me/rahbar_enghelab_ir/772",
+      "summary": "📝 جنایتکاران آرزوی مرگی آرام را به گور خواهند برد آزادگان سراسر دنیا هر یک بخشی از مأموریت انتقام را برعهده خواهند گرفت 🗒 این انتقام، خواست ملّت ما است و به‌طور حتمی باید صورت بگیرد. این جنایتکاران که فهرستی از صدر تا ذیل‌شان موجود است، آرزوی مرگی آرام و در بستر را با خود به گور خواهند برد. آنها باید بدانند که این امر، متوقّف بر وجود شخص من یا سایر مسئولان نیست. ما باشیم یا نباشیم، این مطلب محقّق خواهد شد و بزودی آحادی از آزادگان در سراسر دنیا هر یک بخشی از این مأموریت الهی را انجام خواهند داد. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/772"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/771",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:51:54Z",
+      "title": "🖼 شهادت گوارایتان باد 🗒 ای پدر شهید امّت، نوشیدن شهد شهادت که عمری در آرزوی آن بودید، گوارایتان باد. پوشیدن…",
+      "url": "https://t.me/rahbar_enghelab_ir/771",
+      "summary": "🖼 شهادت گوارایتان باد 🗒 ای پدر شهید امّت، نوشیدن شهد شهادت که عمری در آرزوی آن بودید، گوارایتان باد. پوشیدن خلعت شهادت با بدنی که نشان‌ها از مادرتان زهرای اطهر و جدّتان اباعبدالله الحسین و اباالفضل العباس علیهم الصلاة و السّلام دارد، مبارکتان باشد. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات_الحسین | #باید_برخاست 🖨 نسخه کیفیت اصلی 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/771"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/770",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:45:27Z",
+      "title": "📝 خونی که مظلومانه بر زمین ریخت، ملت ایران را بعثت بخشیده است 🗒 در زمره‌ی حسینیان، کسانی هستند که وقتی در راه…",
+      "url": "https://t.me/rahbar_enghelab_ir/770",
+      "summary": "📝 خونی که مظلومانه بر زمین ریخت، ملت ایران را بعثت بخشیده است 🗒 در زمره‌ی حسینیان، کسانی هستند که وقتی در راه حسین و برای مکتب و مرام حسین علیه‌السّلام، خونشان مظلومانه بر زمین میریزد، امّت اسلام به حرکت در می‌آید و آن زمان، به عاشورا و آن مکان، به کربلا متّصل میشود. 💬 حال هم همان شور حسینی، ملّت ما را بعثت بخشیده و مکتب خمینی کبیر و خامنه‌‌ای شهید را جلوه‌ای تازه داده است. این است آن غوغای حیات‌بخشی که انعکاس ندای مظلومیّت حسین علیه‌السّلام و ندای هَل مِن ناصرٍ یَنصُرُنیِ او در ایران و پس از آن در عراق و سایر کشورها بپا می‌کند و زلزله در باطل می‌اندازد. ✍ بخشی از پیام رهبر معظّم انقلاب به‌منا",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/770"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/769",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:42:42Z",
+      "title": "📝 عهد می‌بندیم از جنایتکاران انتقام بگیریم... 🗒 ای قتیل مظلوم! ای مظلوم سرافراز! ای بنده‌ی صالح خدا! حال که…",
+      "url": "https://t.me/rahbar_enghelab_ir/769",
+      "summary": "📝 عهد می‌بندیم از جنایتکاران انتقام بگیریم... 🗒 ای قتیل مظلوم! ای مظلوم سرافراز! ای بنده‌ی صالح خدا! حال که با چشمان اشکبار و دلهای شکسته با پیکر شما وداع میکنیم، با شما عهد می‌بندیم که مکتب شما را پاس بداریم و آن طریق مستقیمی که شما ترسیم کردید را با استقامت بپیماییم و در این راه از سختیها نهراسیم، و همچون شما به بِشارات و وعده‌های الهی دل ببندیم. عهد می‌بندیم که انتقام خون پاک شما و همه‌‌ی شهیدان این دو جنگ را از قاتلین جنایتکار و بی‌آبرو بگیریم. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات_الحسین | #باید_برخاست 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/769"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63255",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:40:34Z",
+      "title": "💢 تقدیر از عملکرد فرمانده دلاور نیروی دریایی سپاه برای تحکیم ترتیبات ایرانی در تنگه هرمز 🔸 یک منبع آگاه نظامی…",
+      "url": "https://t.me/defapress_ir/63255",
+      "summary": "💢 تقدیر از عملکرد فرمانده دلاور نیروی دریایی سپاه برای تحکیم ترتیبات ایرانی در تنگه هرمز 🔸 یک منبع آگاه نظامی در گفت‌و‌گو با دفاع‌پرس از قدردانی و تقدیر از عملکرد سردار علی عظمایی فرمانده نیروی دریایی سپاه پاسداران انقلاب اسلامی به دلیل تحکیم ترتیبات ایرانی تنگه هرمز خبر داد. 🔸 رزمندگان نیروی دریایی سپاه پاسداران انقلاب اسلامی هم‌زمان با برگزاری حماسه تشییع آقای شهید ایران و حضور رئیس دولت تروریستی آمریکا در منطقه برای شرکت در اجلاس ناتو، روند نقض عهد و پیمان‌شکنی دشمن آمریکایی در تنگه هرمز را از طریق برخورد قاطع با کشتی‌های متخلف، متوقف کردند. dnws.ir/003YOb @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63255"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/767",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:35:44Z",
+      "title": "📝 آقای شهید ایران، حسینی بود، حسینی زیست و حسینی شهید شد 🗒 السَّلامُ‌ علیکَ یا ثاراللهِ وَ‌ ابنَ ثاره وَ…",
+      "url": "https://t.me/rahbar_enghelab_ir/767",
+      "summary": "📝 آقای شهید ایران، حسینی بود، حسینی زیست و حسینی شهید شد 🗒 السَّلامُ‌ علیکَ یا ثاراللهِ وَ‌ ابنَ ثاره وَ الوِترَ المَوتور. السَّلامُ‌ علیکَ وَ علی جَدِّکَ وَ اَبیکَ وَ اُمِّکَ وَ اَخیکَ وَ المَعصومینَ مِن وُلدِک. سلام بر امامی که ندای حیات‌بخش قیامش، پژواکی عظیم و پرطنین از بعثت نبوی را تا اعماق دوردست تاریخ امتداد بخشید و از اثر آن انقلاب اسلامی ایران پدید آمد. انقلابی که از اساس حسینی بود و با شعار و مرام حسین ساخته شد و بالید. آقای شهید ایران هم با همین مرام رشد کرد. او حسینی بود، حسینی اندیشید، حسینی حرکت کرد، حسینی جهاد و مقاومت نمود، حسینی زیست، و حسینی خون خود را در راه مکتب حسین تقدیم ",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/767"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/766",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:34:40Z",
+      "title": "📖 متن کامل پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای، رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران | …",
+      "url": "https://t.me/rahbar_enghelab_ir/766",
+      "summary": "📖 متن کامل پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای، رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ 🔗 Rahbar.ir/s/1522 ▪️ #یالثارات_الحسین | #باید_برخاست 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/766"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63254",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:34:38Z",
+      "title": "💢 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای…",
+      "url": "https://t.me/defapress_ir/63254",
+      "summary": "💢 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای شهید ایران منتشر خواهد شد  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63254"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/765",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:33:25Z",
+      "title": "📝 انتقام خواست ملّت ما است و به‌طور حتمی باید صورت بگیرد بزودی آزادگان دنیا هر یک بخشی از این مأموریت الهی را…",
+      "url": "https://t.me/rahbar_enghelab_ir/765",
+      "summary": "📝 انتقام خواست ملّت ما است و به‌طور حتمی باید صورت بگیرد بزودی آزادگان دنیا هر یک بخشی از این مأموریت الهی را انجام خواهند داد 🗒 به پیشوای شهیدمان عرض میکنم: ای قتیل مظلوم! ای مظلوم سرافراز! ای بنده‌ی صالح خدا! حال که با چشمان اشکبار و دلهای شکسته با پیکر شما وداع میکنیم، با شما عهد می‌بندیم که مکتب شما را پاس بداریم و آن طریق مستقیمی که شما ترسیم کردید را با استقامت بپیماییم و در این راه از سختیها نهراسیم، و همچون شما به بِشارات و وعده‌های الهی دل ببندیم. 💬 عهد می‌بندیم که انتقام خون پاک شما و همه‌‌ی شهیدان این دو جنگ را از قاتلین جنایتکار و بی‌آبرو بگیریم. این انتقام، خواست ملّت ما است و به‌",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/765"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/764",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T10:32:25Z",
+      "title": "📝 تشکر رهبر انقلاب از حضور تاریخی ده‌ها میلیونی در ایران و عراق 🗒 جا دارد به همین مناسبت از حضور ده‌ها…",
+      "url": "https://t.me/rahbar_enghelab_ir/764",
+      "summary": "📝 تشکر رهبر انقلاب از حضور تاریخی ده‌ها میلیونی در ایران و عراق 🗒 جا دارد به همین مناسبت از حضور ده‌ها میلیونی، اعجاب‌برانگیز، دشمن‌شکن و تاریخی مردم در شهرها و روستاهای ایران و عراق خصوصاً تهران، قم، نجف، کربلا، و مشهد صمیمانه قدردانی کنم. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ ▪️ #یالثارات_الحسین | #باید_برخاست 🖨 نسخه کیفیت اصلی 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/764"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63253",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T09:55:51Z",
+      "title": "💢 قزوه: انتشار نخستین کتاب شعر برای قائد امت در مزار شریف/ تأثیرگذارترین جلسات شعر فارسی جهان متعلق به رهبر…",
+      "url": "https://t.me/defapress_ir/63253",
+      "summary": "💢 قزوه: انتشار نخستین کتاب شعر برای قائد امت در مزار شریف/ تأثیرگذارترین جلسات شعر فارسی جهان متعلق به رهبر شهید بود 🔸 دبیر جایزه جهانی ادبیات امام شهید (ره) با تأکید براینکه تاثیرگذارترین جلسات شعر فارسی جهان مربوط به جلسه دیدار رهبر شهید با شاعران بود، گفت: بعد از شهادت امام خامنه‌ای اولین کتاب شعر برای قائد امت در مزار شریف منتشر شد. 🔸 این سعادت را داریم که هم امام راحل و هم امام شهیدمان، هر دو به زیور هنر نخستین ما یعنی شعر آراسته بوده‌اند. این ویژگی نشان می‌دهد که انقلاب اسلامی، انقلابی صرفاً سیاسی نبود، بلکه جریانی فرهنگی و ادبی بود که در بطن خود اصالت هنر و اندیشه را جای داده است. 🔸 حدو",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63253"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mqefe6qp3j23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-11T09:53:28.022000Z",
+      "title": "Analysis: Lebanon cannot disarm Hezbollah without first dismantling the group's parallel state of financial, social and political…",
+      "url": "https://www.jpost.com/jerusalem-report/article-901692",
+      "summary": "Analysis: Lebanon cannot disarm Hezbollah without first dismantling the group's parallel state of financial, social and political institutions that sustain its power.\nwww.jpost.com/jerusalem-re...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63252",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T09:24:39Z",
+      "title": "💢 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای…",
+      "url": "https://t.me/defapress_ir/63252",
+      "summary": "💢 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای شهید ایران منتشر خواهد شد @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63252"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/763",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T09:23:41Z",
+      "title": "💬 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای…",
+      "url": "https://t.me/rahbar_enghelab_ir/763",
+      "summary": "💬 تا ساعتی دیگر؛ پیام مهم حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی به‌مناسبت تشییع و تدفین آقای شهید ایران منتشر خواهد شد. ▪️ #یالثارات_الحسین | #باید_برخاست 💻 Rahbar.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/763"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63251",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T09:20:00Z",
+      "title": "💢 شهادت ۲ بسیجی تامین امنیت در مشهد 🔸 روابط عمومی سپاه امام رضا (ع): دو تن از فرزندان غیور و بسیجی مشهدالرضا…",
+      "url": "https://t.me/defapress_ir/63251",
+      "summary": "💢 شهادت ۲ بسیجی تامین امنیت در مشهد 🔸 روابط عمومی سپاه امام رضا (ع): دو تن از فرزندان غیور و بسیجی مشهدالرضا به نامهای «سید سجاد علوی» و «مهدی هنرمند» که در حوالی میدان سرافرازان مشهد با فاصله حدود ۱۵ کیلومتری از حرم مطهر برای ایجاد آرامش و تامین امنیت در حال گشت زنی بودند مورد هدف قرار گرفته و به درجه رفیع شهادت نائل آمدند. 🔸 همچنین در این حادثه یک عابر پیاده توسط عوامل مهاجم به تیم گشت بسیج مجروح و به بیمارستان منتقل شد. 🔸 بی تردید عامل و یا عوامل این جنایت به سزای عمل خود خواهند رسید و مطابق قانون با آنها برخورد خواهد شد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63251"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63250",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T09:01:50Z",
+      "title": "💢 حجت‌الاسلام اژه‌ای: جنایتکاران جنگی باید هم مجازات شوند و هم خسارت بپردازند 🔸 رئیس قوه قضاییه در دیدار با…",
+      "url": "https://t.me/defapress_ir/63250",
+      "summary": "💢 حجت‌الاسلام اژه‌ای: جنایتکاران جنگی باید هم مجازات شوند و هم خسارت بپردازند 🔸 رئیس قوه قضاییه در دیدار با جمعی از وکلا و حقوقدانان بین‌المللی، بر پیگیری مجدانه پرونده جنایات جنگی آمریکا و رژیم صهیونیستی علیه ملت ایران تأکید کرد. 🔸 صهیونیست‌ها قریب به ۸ دهه است که مشغول جنایت، کشتار، نسل‌کشی و کودک‌کشی در فلسطین و لبنان هستند؛ ما با تمام وجود با صهیونیست‌های درنده و متوحش مبارزه می‌کنیم و هر جا عَلم و بیرق مبارزه با این انسان‌نمایان بلند شود، از همراهی و مساعدت دریغ نخواهیم ورزید. 🔸 اگر چه قدرت‌های جهانی و مستکبر در مجامع و محاکم بین‌المللی نفوذ دارند و اجازه نمی‌دهند پرونده مظلومین عالم به س",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63250"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63249",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T08:38:22Z",
+      "title": "💢 قدردانی وزارت اطلاعات از امت اسلامی بابت حضور تاریخی در آیین تشییع قائد شهید 🔸 تشییع عظیم و تاریخی بزرگ…",
+      "url": "https://t.me/defapress_ir/63249",
+      "summary": "💢 قدردانی وزارت اطلاعات از امت اسلامی بابت حضور تاریخی در آیین تشییع قائد شهید 🔸 تشییع عظیم و تاریخی بزرگ عالم مجاهد، رهبر حکیم و فرمانده بصیر جبهه مقاومت در ایران سربلند و عراق کریم، جلوه‌ای ماندگار از وفاداری و بصیرت امت اسلامی و تجدید عهد با آرمان‌های الهی مکتب اسلام بود، حماسه‌ای که بار دیگر عمق پیوند ملت‌های مومن و با عزت ایران و عراق را به نمایش گذاشت. 🔸 اینک که آقای شهید امت، خامنه‌ای عزیز، این دردانه تاریخ جهان اسلام و تشیع پس از عمری مجاهدت با بدرقه تاریخی ده‌ها میلیون شیفته و دلداده، در آغوش امام رئوف حضرت علی ابن موسی الرضا(علیه السلام) آرمیده است. 🔸 ما سربازان گمنام امام زمان(عج) د",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63249"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63248",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T08:25:50Z",
+      "title": "💢 دعای رهبر شهید انقلاب اسلامی برای پسرم شفابخش بود 🔸 «معصومه ابراهیمی هژیر» فرزند شهید حاج «ستار ابراهیمی…",
+      "url": "https://t.me/defapress_ir/63248",
+      "summary": "💢 دعای رهبر شهید انقلاب اسلامی برای پسرم شفابخش بود 🔸 «معصومه ابراهیمی هژیر» فرزند شهید حاج «ستار ابراهیمی هژیر» در گفت‌وگو با دفاع‌پرس گفت: در یکی از دیدارهای خصوصی با رهبر شهید انقلاب اسلامی، پس از آنکه ایشان برای شفای پسرم دعا کردند و انگشتری را به من سپردند، تب شدید او به طور کامل قطع شد و از آن زمان تاکنون به لطف خداوند در سلامت کامل زندگی می‌کند. 🔸 ما پنج فرزند شهید، شامل چهار خواهر و یک برادر، به همراه خواهران، برادر، همسران، فرزندان، دخترعموها، فرزندان عموی شهیدم، مادربزرگ و سایر بستگان، در مجموع ۲۶ نفر، به دیدار خصوصی با رهبر شهید انقلاب اسلامی رفتیم. ایشان با محبت فرمودند: «گردان حاج",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63248"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63247",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T08:01:37Z",
+      "title": "💢 برنامه آمریکا برای غارت معادن فلزات کمیاب در ارمنستان و آذربایجان 🔸 با حمایت آمریکا، یک «سازمان زمین‌شناسی…",
+      "url": "https://t.me/defapress_ir/63247",
+      "summary": "💢 برنامه آمریکا برای غارت معادن فلزات کمیاب در ارمنستان و آذربایجان 🔸 با حمایت آمریکا، یک «سازمان زمین‌شناسی ملی» در ارمنستان ایجاد خواهد شد تا به جستجوی معادن فلزات کمیاب بپردازد. 🔸 در اوایل خرداد، ارمنستان و آمریکا یک «تفاهم‌نامه اولیه» برای همکاری در زمینه فلزات خاکی کمیاب امضا کردند. به طرز جالبی و همزمان با امضای این تفاهمنامه، علاقه کسب‌وکار‌های آمریکایی به صنعت متالورژی این کشور کوچک قفقازی به شدت افزایش یافت. dnws.ir/003XzJ @defapress_world",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63247"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_enghelab_ir/755",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T07:58:58Z",
+      "title": "📷 گزارش تصویری؛ آیین بزرگداشت رهبر عظیم‌الشأن شهیدمان اعلی‌الله‌مقامه‌الشریف، از طرف رهبر انقلاب اسلامی در…",
+      "url": "https://t.me/rahbar_enghelab_ir/755",
+      "summary": "📷 گزارش تصویری؛ آیین بزرگداشت رهبر عظیم‌الشأن شهیدمان اعلی‌الله‌مقامه‌الشریف، از طرف رهبر انقلاب اسلامی در حرم مطهر رضوی 🗓 جمعه ۱۹/تیر/۱۴۰۵ 🔻 این مراسم امشب و فرداشب نیز پس از اقامه نماز جماعت مغرب و عشاء در صحن پیامبر اعظم(ص) برگزار می‌شود. 📲 @rahbar_enghelab_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_enghelab_ir/755"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/63246",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-11T07:40:47Z",
+      "title": "📸 مراسم بزرگداشت رهبر شهید انقلاب در میادین سطح شهر تهران برگزار می‌شود @Defapress_ir",
+      "url": "https://t.me/defapress_ir/63246",
+      "summary": "📸 مراسم بزرگداشت رهبر شهید انقلاب در میادین سطح شهر تهران برگزار می‌شود @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/63246"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    }
+  ]
+}
