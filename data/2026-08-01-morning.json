@@ -1,0 +1,1586 @@
+{
+  "generated_at": "2026-08-01T07:42:53.391922Z",
+  "window_since": "2026-07-31T07:41:18.290242Z",
+  "window_until": "2026-08-01T07:41:18.290242Z",
+  "edition": "morning",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 8,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 24,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 6,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 32,
+      "kept": 32,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 8,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 67,
+      "kept": 17,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "64 items: CENTCOM confirms active US naval blockade of Iran with 30 vessels redirected, Jerusalem Post reports US/Israel weighing energy-infrastructure bombing and land blockade, Khamenei channel hints at 'other fronts', White House renews Lebanon emergency, heavy regime Strait of Hormuz messaging.",
+  "threads": [
+    {
+      "label": "US naval blockade and Strait of Hormuz",
+      "summary": "CENTCOM said the USS Michael Murphy is supporting a US blockade of Iran, with 30 commercial vessels redirected, two disabled and two boarded as of 31 July, and rebutted Iranian claims that the Strait of Hormuz is closed. Regime outlets Defa Press quoted SNSC figure Zolqadr and MP Zare asserting Iranian sovereignty and warning the 'lock on Hormuz' would tighten.",
+      "event_ids": [
+        "x_via_rssapp:ba2d503d3977d58d1a7ad0db82f39482",
+        "x_via_rssapp:89c2a0e8115ef084b9050c6b1e7d2573",
+        "telegram:defapress_ir/64713",
+        "telegram:defapress_ir/64716",
+        "telegram:defapress_ir/64714"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Reported US/Israel escalation planning against Iran",
+      "summary": "The Jerusalem Post cited reports that the US and Israel are considering a land blockade of Iran and a bombing campaign against Iranian energy infrastructure that could begin over the weekend. Iran International reported the Trump administration outlined new military and financial measures, and Trump convened a Camp David cabinet meeting on the Iran war and gasoline prices.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mry5ixmn4m2n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxvn4nr7n2z",
+        "iranintl:https://www.iranintl.com/en/202607314992",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwqggdbj324",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwhmo6u3i25"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Khamenei and parliamentary messaging",
+      "summary": "Khamenei's office posted that studies had been conducted on 'opening other fronts where the enemy has little experience' to be activated if war continues, and a separate message on judicial reform. Parliament Speaker Qalibaf, carried repeatedly on IRIB and Defa Press, called for 'unity around the axis of guardianship' as the condition for a strong Iran.",
+      "event_ids": [
+        "telegram:rahbar_ir/902",
+        "telegram:rahbar_ir/903",
+        "telegram:defapress_ir/64717",
+        "telegram:iribnews/354326",
+        "telegram:iribnews/354325",
+        "telegram:defapress_ir/64720"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Gaza ceasefire framework and Hamas disarmament",
+      "summary": "The Board of Peace released the full text of a roadmap for implementing Trump's Gaza plan, with a two-week ceasefire intended to finalise Hamas disarmament before Israel withdraws from the Yellow Line. Yashar Party's Gadi Eisenkot warned the framework would 'leave Hamas in power', while a Hamas official said the group would refuse to implement disarmament without Israeli endorsement.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwzi7ptn424",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrx7xf4d6n2n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxyuhovi52t",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwi45y2ma25",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxicg2jnx2k"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "IDF strikes on Gaza operatives",
+      "summary": "The IDF and Shin Bet said an airstrike killed Ahmed Hussein Mohammed Kafina, a Mujahideen Brigades commander involved in kidnapping Noa Argamani and Avinatan Or on 7 October 2023. Separate strikes killed Hamas supply officer Muhammad al-Abed and commander Ahmad Ma'in Muhammad Anqar, both linked to weapons smuggling and planned attacks.",
+      "event_ids": [
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mrxxbzhoot2l",
+        "x_via_rssapp:6fdce5561222e0fade8336ea530814b2",
+        "x_via_rssapp:a15a25404f60fd404a33b53eacf93d8b",
+        "x_via_rssapp:ffe8fa62fa9a894159166ee04213f69e",
+        "x_via_rssapp:a7d29aa9d0013e6a3c3a9edf709dbda4"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran sanctions, finance and cyber pressure",
+      "summary": "The White House renewed the national emergency with respect to Lebanon via Federal Register notice, the US DOJ charged Turkish national Mohammad Yousef Hasna with conspiring to provide material support to Hamas, and a Reuters investigation reported an Iranian gambling network moved at least $4 billion through a Dubai crypto exchange. US officials also said Iran was suspected of a cyberattack on over 30 Minnesota municipal water systems.",
+      "event_ids": [
+        "fedreg:2026-15658",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mryjwkbbf42x",
+        "iranintl:https://www.iranintl.com/en/202607319067",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwmzma7aw23"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran executions and internal repression",
+      "summary": "Former UN prosecutor Payam Akhavan told Iran International the recent wave of public hangings of protesters amounts to 'murders' and a continuing crime against humanity. Iran International also reported security forces seized a Khorramabad hospital during January's crackdown and transferred wounded protesters to the morgue, while Tehran's prosecutor launched legal action against opponents of the executions.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202607313062",
+        "iranintl:https://www.iranintl.com/en/202607301967",
+        "iranintl:https://www.iranintl.com/en/202607317458"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:defapress_ir/64720",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:34:56Z",
+      "title": "💢 سردار اسدی: هر تعرضی به ایران با سیلی محکم مواجه می‌شود 🔸 معاون سابق بازرسی قرارگاه مرکزی خاتم‌الانبیاء (ص)…",
+      "url": "https://t.me/defapress_ir/64720",
+      "summary": "💢 سردار اسدی: هر تعرضی به ایران با سیلی محکم مواجه می‌شود 🔸 معاون سابق بازرسی قرارگاه مرکزی خاتم‌الانبیاء (ص) در گفت‌و‌گو با دفاع‌پرس، با اشاره به تهدیدات اخیر دشمن، گفت: نیرو‌های مسلح با داشتن پشتوانه مردمی، آماده پاسخ کوبنده به هرگونه اقدام خصمانه هستند و هرگونه تعرض دشمنان با سیلی محکمی مواجه خواهد شد. 🔸 امروز همان‌طور که طی پنج ماه گذشته دیده‌اید، مردم ما ذره‌ای نگرانی ندارند و به پشتوانه این ملت، نیرو‌های مسلح پای خود را بر گردن این قُلدر‌ها گذاشته‌اند. تنگه هرمز واقعاً در سیطره ماست و تا زمانی که از زورگویی دست برندارند، پای خود را از گردن متجاوزان برنمی‌داریم. 🔸 ما در میدان در مقابل همه",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64720"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Asadi: Any aggression against Iran will be met with a firm slap",
+      "summary_en": "Commander Asadi: Any aggression against Iran will be met with a firm slap. The former deputy inspector of the Khatam al-Anbia Central Headquarters, in an interview with Defapress, referring to the enemy's recent threats, said: The armed forces, with popular backing, are ready to deliver a crushing response to any hostile action, and any aggression by enemies will be met with a firm slap. Today, as you have seen over the past five months, our people have no concern whatsoever, and with the support of this nation, the armed forces have placed their foot on the neck of these bullies. The Strait of Hormuz is truly under our control, and as long as they do not refrain from bullying, we will not lift our foot from the neck of the aggressors. We are in the field against all",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64719",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:28:42Z",
+      "title": "📸 تصویری از شهید دکتر مصباح‌الهدی باقری در کنار رهبر شهید انقلاب اسلامی @Defapress_ir",
+      "url": "https://t.me/defapress_ir/64719",
+      "summary": "📸 تصویری از شهید دکتر مصباح‌الهدی باقری در کنار رهبر شهید انقلاب اسلامی @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64719"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A photograph of the late Dr Mostafa Bahari next to the Leader of the Islamic Revolution",
+      "summary_en": "A photograph of the late Dr Mostafa Bahari next to the Leader of the Islamic Revolution",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354340",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:26:06Z",
+      "title": "🔺 آغاز انتخاب واحد دانشگاه آزاد اسلامی از ۲۴ مرداد 🔹 دانشگاه آزاد اسلامی از انتخاب واحد نیم‌سال اول سال…",
+      "url": "https://t.me/iribnews/354340",
+      "summary": "🔺 آغاز انتخاب واحد دانشگاه آزاد اسلامی از ۲۴ مرداد 🔹 دانشگاه آزاد اسلامی از انتخاب واحد نیم‌سال اول سال تحصیلی ۱۴۰۶-۱۴۰۵ این دانشگاه از ۲۴ مرداد خبر داد. https://www.irib-news.ir/00Od8F @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354340"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Islamic Azad University unit selection begins on 24 Mordad",
+      "summary_en": "Islamic Azad University begins first semester unit selection for the 2025-2026 academic year from 24 Mordad.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354339",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:19:08Z",
+      "title": "🎦 روایت قالیباف از چگونگی شکل گیری میدانی به نام خیابان در جنگ تحمیلی سوم  @iribnews",
+      "url": "https://t.me/iribnews/354339",
+      "summary": "🎦 روایت قالیباف از چگونگی شکل گیری میدانی به نام خیابان در جنگ تحمیلی سوم  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354339"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf's account of how a place called a street was formed in the third imposed war",
+      "summary_en": "Qalibaf's account of how a place called a street was formed in the third imposed war",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354338",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:09:59Z",
+      "title": "🔺 شمار مجروحان ارتش آمریکا ده‌ها نفر افزایش یافت 🔹 وزارت جنگ آمریکا در به‌روزرسانی‌های آمار تلفات عملیات‌های…",
+      "url": "https://t.me/iribnews/354338",
+      "summary": "🔺 شمار مجروحان ارتش آمریکا ده‌ها نفر افزایش یافت 🔹 وزارت جنگ آمریکا در به‌روزرسانی‌های آمار تلفات عملیات‌های برون‌مرزی خود، شمار نظامیان آمریکایی مجروح در عملیات‌های مرتبط با جنگ علیه ایران را طی یک روز ۳۲ نفر افزایش داد. 🔹 آخرین آمار منتشرشده در سامانه رسمی وابسته به وزارت جنگ آمریکا (Defense Manpower Data Center) تا ۳۰ ژوئیه (هشتم مرداد) شمار مجروحان را ۲۳۶ نفر نشان می‌داد، اما این رقم در آمار ۳۱ ژوئیه (نهم مرداد) به ۲۶۸ نفر افزایش یافته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354338"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Number of wounded in US military increases by dozens",
+      "summary_en": "Number of wounded in US military increases by dozens. The US Department of Defense, in updating casualty figures for its overseas operations, increased the number of American military personnel wounded in operations related to the war against Iran by 32 in one day. The latest figures released on the official system of the US Department of Defense (Defense Manpower Data Center) through 30 July showed 236 wounded, but this figure increased to 268 as of 31 July.",
+      "has_figures": true,
+      "figures_examples": [
+        "236 wounded"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/64718",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T07:06:56Z",
+      "title": "💢 نقش رژیم صهیونیستی در بحران مهاجرتی اسپانیا 🔸 هجوم مهاجران مراکشی از تنگه جبل الطارق به دو شهر «سئوتا» و…",
+      "url": "https://t.me/defapress_ir/64718",
+      "summary": "💢 نقش رژیم صهیونیستی در بحران مهاجرتی اسپانیا 🔸 هجوم مهاجران مراکشی از تنگه جبل الطارق به دو شهر «سئوتا» و «ملیله» اسپانیا، حاصل توطئه جدید تل‌آویو و واشنگتن برای تنبیه مادرید به دلیل حمایت از ملت فلسطین در برابر نسل‌کشی اسرائیل است. 🔸 بحران جدید مهاجرت در اسپانیا موجب ایجاد درگیری در اتحادیه اروپا شده است. در این راستا مقام‌های ایتالیایی خواستار تعلیق عضویت اسپانیا در منطقه «شنگن» شدند. شنگن سیستمی از مرز‌های باز است که ۲۹ کشور اروپایی را در بر می‌گیرد که رسما کنترل‌ها را در مرز‌های مشترک خود لغو کرده‌اند. 🔸 در همین حال نخست وزیر اسپانیا، روز جمعه شبکه‌های قاچاق مهاجران را مسئول این وضعیت دان",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64718"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Zionist regime's role in Spain's migration crisis",
+      "summary_en": "The Zionist regime's role in Spain's migration crisis. The rush of Moroccan migrants across the Strait of Gibraltar into the Spanish cities of Ceuta and Melilla is the result of a new plot by Tel Aviv and Washington to punish Madrid for supporting the Palestinian people against Israel's genocide. The new migration crisis in Spain has caused tensions within the European Union. In this regard, Italian officials have called for suspending Spain's membership in the Schengen area. Schengen is a system of open borders encompassing 29 European countries that have formally abolished controls at their shared borders. Meanwhile, Spain's Prime Minister on Friday held human trafficking networks responsible for this situation",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354337",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:51:39Z",
+      "title": "🎦 تصادف اتوبوس BRT با عابر پیاده در خیابان ولیعصر 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/354337",
+      "summary": "🎦 تصادف اتوبوس BRT با عابر پیاده در خیابان ولیعصر 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354337"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Collision between BRT bus and pedestrian on Valiasr Street",
+      "summary_en": "Collision between BRT bus and pedestrian on Valiasr Street",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354335",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:41:20Z",
+      "title": "🎦 اولین واکنش عراقی‌ها وقتی خبرنگار صداوسیما را در مسیر اربعین می‌بینند 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/354335",
+      "summary": "🎦 اولین واکنش عراقی‌ها وقتی خبرنگار صداوسیما را در مسیر اربعین می‌بینند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354335"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354334",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:36:00Z",
+      "title": "🔺 حمله پهپادی به کویت 🔹 ستاد کل ارتش کویت اعلام کرد که سامانه‌های پدافندی این کشور در حال مقابله با «پهپادهای…",
+      "url": "https://t.me/iribnews/354334",
+      "summary": "🔺 حمله پهپادی به کویت 🔹 ستاد کل ارتش کویت اعلام کرد که سامانه‌های پدافندی این کشور در حال مقابله با «پهپادهای متخاصم» هستند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354334"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Drone attack on Kuwait",
+      "summary_en": "Drone attack on Kuwait. Kuwait's general military command announced that the country's air defence systems are countering hostile drones.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64717",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:33:04Z",
+      "title": "🎥 قالیباف: شرط ایران قوی، وحدت حول محور ولایت است 🔸 رئیس مجلس شورای اسلامی گفت: در گام دوم انقلاب باید متمرکز…",
+      "url": "https://t.me/defapress_ir/64717",
+      "summary": "🎥 قالیباف: شرط ایران قوی، وحدت حول محور ولایت است 🔸 رئیس مجلس شورای اسلامی گفت: در گام دوم انقلاب باید متمرکز بر قوی شدن باشیم که یک شرط آن وحدت حول محور ولایت است. 🔸 ما مسئولان در درجه اول باید بسط ید برای ولایت فقیه ایجاد کنیم. اگر می‌خواهیم ایران قوی داشته باشیم، باید از این نقطه شروع شود. 🔸 ما جنگ را پیروز شدیم ولی باید پیروزی را تثبیت و ثبت کنیم و حتما کشور هم باید امید به آینده داشته باشد و چشم‌انداز آینده آن روشن باشد. dnws.ir/003ZfK @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64717"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: The condition for a strong Iran is unity around the axis of guardianship",
+      "summary_en": "Qalibaf: The condition for a strong Iran is unity around the axis of guardianship. The Speaker of the Islamic Consultative Assembly said: In the second phase of the revolution, we must focus on strengthening, one condition of which is unity around the axis of the guardianship. We leaders must first create space for the guardianship of the jurist. If we want a strong Iran, this is where we must start. We won the war but we must consolidate and secure the victory, and the country must certainly have hope for the future and a bright vision ahead.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354333",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:30:27Z",
+      "title": "🎦 گامی بزرگ برای رسیدن به سبد غذایی سالم تر 🔹 حذف آنتی بیوتیک از چرخه غذایی دام با تولید یک واکسن ایرانی توسط…",
+      "url": "https://t.me/iribnews/354333",
+      "summary": "🎦 گامی بزرگ برای رسیدن به سبد غذایی سالم تر 🔹 حذف آنتی بیوتیک از چرخه غذایی دام با تولید یک واکسن ایرانی توسط محققان  پژوهشگاه رویان @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354333"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A major step towards a healthier food basket",
+      "summary_en": "A major step towards a healthier food basket. Eliminating antibiotics from livestock food cycles through the production of an Iranian vaccine by Royan Institute researchers",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354330",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:25:13Z",
+      "title": "📸 کودکان خادم؛ کوچک‌ترین میزبانان زائران اربعین 🔹 عکاس :مهدی رهنورد برای مشاهده عکسهای بیشتر به آدرس زیر…",
+      "url": "https://t.me/iribnews/354330",
+      "summary": "📸 کودکان خادم؛ کوچک‌ترین میزبانان زائران اربعین 🔹 عکاس :مهدی رهنورد برای مشاهده عکسهای بیشتر به آدرس زیر مراجعه نمایید: https://www.irib-news.ir/00Od32 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354330"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Child servants: the smallest hosts of Arbaeen pilgrims",
+      "summary_en": "Child servants: the smallest hosts of Arbaeen pilgrims. Photographer: Mehdi Rahnavarad. For more photos, visit the address below:",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354329",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:19:46Z",
+      "title": "📸 انتشار نخستین‌بار | تصویری از شهید دکتر مصباح‌الهدی باقری در کنار رهبر شهید انقلاب اسلامی 🔹 عکسی که مشاهده…",
+      "url": "https://t.me/iribnews/354329",
+      "summary": "📸 انتشار نخستین‌بار | تصویری از شهید دکتر مصباح‌الهدی باقری در کنار رهبر شهید انقلاب اسلامی 🔹 عکسی که مشاهده میکنید متعلق به آرشیو شخصی سرکار خانم سیده هدی حسینی خامنه‌ای است که برای انتشار در اختیار این رسانه قرار گرفته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354329"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "First publication: A photograph of the late Dr Mostafa Bahari next to the Leader of the Islamic Revolution",
+      "summary_en": "First publication: A photograph of the late Dr Mostafa Bahari next to the Leader of the Islamic Revolution. The photograph you see belongs to the personal archive of Mrs Seyedeh Hadi Hosseini Khamenei and has been provided to this media outlet for publication.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354328",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:13:04Z",
+      "title": "🎦 سرهنگ بهنام فر، فرمانده یگان حفاظت منابع طبیعی کشور: سامانه ۱۳۹ کشوری و ۱۵۰۴ استانی برای دریافت گزارش…",
+      "url": "https://t.me/iribnews/354328",
+      "summary": "🎦 سرهنگ بهنام فر، فرمانده یگان حفاظت منابع طبیعی کشور: سامانه ۱۳۹ کشوری و ۱۵۰۴ استانی برای دریافت گزارش تخلفات و تصرفات عرصه های منابع طبیعی آماده است 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354328"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Colonel Behnam Far, commander of the country's natural resources protection unit: A system with 139 provincial and 1504 district codes is ready to receive reports of violations and encroachments on natural resources areas",
+      "summary_en": "Colonel Behnam Far, commander of the country's natural resources protection unit: A system with 139 provincial and 1504 district codes is ready to receive reports of violations and encroachments on natural resources areas",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64716",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:11:56Z",
+      "title": "💢 زارع: اعمال حاکمیت ایران بر تنگه هرمز غیرقابل انکار است 🔸 سخنگوی کمیسیون برنامه، بودجه و محاسبات مجلس در…",
+      "url": "https://t.me/defapress_ir/64716",
+      "summary": "💢 زارع: اعمال حاکمیت ایران بر تنگه هرمز غیرقابل انکار است 🔸 سخنگوی کمیسیون برنامه، بودجه و محاسبات مجلس در گفت‌و‌گو با دفاع‌پرس گفت: ایران حق دارد در چارچوب منافع ملی و قوانین بین‌المللی، حاکمیت خود را بر تنگه هرمز اعمال کند و هیچ قدرت فرامنطقه‌ای حق تعیین تکلیف برای این موضوع را ندارد. 🔸 تنگه هرمز یکی از مهم‌ترین آبراه‌های بین‌المللی جهان است که بر اساس قواعد حقوق بین‌الملل و موقعیت جغرافیایی، حاکمیت و مدیریت آن در اختیار جمهوری اسلامی ایران و سلطنت عمان قرار دارد. 🔸 جمهوری اسلامی ایران همواره اعلام کرده است که امنیت منطقه باید توسط کشور‌های منطقه تأمین شود و حضور بیگانگان نه‌تنها کمکی به ثبا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64716"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Zare: Iran's sovereignty over the Strait of Hormuz is undeniable",
+      "summary_en": "Zare: Iran's sovereignty over the Strait of Hormuz is undeniable. The spokesperson for the Parliament's Planning, Budget and Accounting Commission, in an interview with Defapress, said: Iran has the right, within the framework of national interests and international law, to exercise its sovereignty over the Strait of Hormuz, and no extra-regional power has the right to determine the matter. The Strait of Hormuz is one of the world's most important international waterways which, based on international law and geographical position, is under the sovereignty and management of the Islamic Republic of Iran and the Sultanate of Oman. The Islamic Republic of Iran has always stated that regional security must be provided by regional countries and the presence of foreigners not only fails to stabilise but also increases instability",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354327",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T06:03:59Z",
+      "title": "🎦 امیر سرتیپ اکرمی نیا، سخنگوی ارتش: شهید خلبان مجید کاظمی با شجاعت و مهارت بی نظیر ماموریت خود را به سرانجام…",
+      "url": "https://t.me/iribnews/354327",
+      "summary": "🎦 امیر سرتیپ اکرمی نیا، سخنگوی ارتش: شهید خلبان مجید کاظمی با شجاعت و مهارت بی نظیر ماموریت خود را به سرانجام رساند و در برگشت هدف اصابت دشمن قرار گرفت 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354327"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier General Akrami Nia, Army spokesperson: The late pilot Majid Kazemi with unprecedented courage and skill completed his mission and was hit by enemy fire on return",
+      "summary_en": "Brigadier General Akrami Nia, Army spokesperson: The late pilot Majid Kazemi with unprecedented courage and skill completed his mission and was hit by enemy fire on return",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354326",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:47:27Z",
+      "title": "🎦 شرط ایران قوی وحدت حول محور ولایت است/ ما مسئولان باید برای رهبری بسط ید ایجاد کنیم  قالیباف رئیس مجلس در…",
+      "url": "https://t.me/iribnews/354326",
+      "summary": "🎦 شرط ایران قوی وحدت حول محور ولایت است/ ما مسئولان باید برای رهبری بسط ید ایجاد کنیم  قالیباف رئیس مجلس در شورای هماهنگی مجلس: 🔹 در دوره سوم انقلاب، قوی شدن ایران موضوع اول است، بعد از شهادت سردار سلیمانی، امام شهید ما متمرکز بر ایران قوی بودند و به آن تأکید…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354326"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The condition for a strong Iran is unity around the axis of guardianship / We officials must create space for leadership. Qalibaf, Speaker of Parliament, in the Parliament's coordination council:",
+      "summary_en": "The condition for a strong Iran is unity around the axis of guardianship / We officials must create space for leadership. Qalibaf, Speaker of Parliament, in the Parliament's coordination council: In the third phase of the revolution, strengthening Iran is the primary issue. After Martyr Commander Soleimani's martyrdom, our late Imam focused on a strong Iran and emphasised it. In the second phase of the revolution, we must focus on this strengthening, one condition of which is unity around the axis of guardianship.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354325",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:38:34Z",
+      "title": "🎦 شرط ایران قوی وحدت حول محور ولایت است/ ما مسئولان باید برای رهبری بسط ید ایجاد کنیم قالیباف رئیس مجلس در…",
+      "url": "https://t.me/iribnews/354325",
+      "summary": "🎦 شرط ایران قوی وحدت حول محور ولایت است/ ما مسئولان باید برای رهبری بسط ید ایجاد کنیم قالیباف رئیس مجلس در شورای هماهنگی مجلس: 🔹 در دوره سوم انقلاب، قوی شدن ایران موضوع اول است، بعد از شهادت سردار سلیمانی، امام شهید ما متمرکز بر ایران قوی بودند و به آن تأکید داشتند. در گام دوم انقلاب باید متمرکز بر این قوی شدن باشیم که یک شرط آن وحدت حول محور ولایت است. 🔹 ما مسئولان در درجه اول باید بسط ید برای ولایت فقیه ایجاد کنیم اگر می‌خواهیم ایران قوی داشته باشیم باید از این نقطه شروع شود. 🔹 ما جنگ را پیروز شدیم ولی باید پیروزی را تثبیت و ثبت کنیم و حتما کشور هم باید امید به آینده داشته باشد و چشم انداز آ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354325"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The condition for a strong Iran is unity around the axis of guardianship / We officials must create space for leadership. Qalibaf, Speaker of Parliament, in the Parliament's coordination council:",
+      "summary_en": "The condition for a strong Iran is unity around the axis of guardianship / We officials must create space for leadership. Qalibaf, Speaker of Parliament, in the Parliament's coordination council: In the third phase of the revolution, strengthening Iran is the primary issue. After Martyr Commander Soleimani's martyrdom, our late Imam focused on a strong Iran and emphasised it. In the second phase of the revolution, we must focus on this strengthening, one condition of which is unity around the axis of guardianship. We leaders must first create space for the guardianship of the jurist. If we want a strong Iran, we must start from this point. We won the war but we must consolidate and secure the victory, and the country must certainly have hope for the future and a bright vision ahead.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354324",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:35:25Z",
+      "title": "🎦 برگزاری دادگاه شرکت رامک خودرو با حضور شاکیان 🔹 این دادگاه در شعبه ۱۰۶۵ مجتمع قضایی ویژه امور اقتصادی تهران…",
+      "url": "https://t.me/iribnews/354324",
+      "summary": "🎦 برگزاری دادگاه شرکت رامک خودرو با حضور شاکیان 🔹 این دادگاه در شعبه ۱۰۶۵ مجتمع قضایی ویژه امور اقتصادی تهران برگزار شد. 🔹 هزار و ۸۶۵ نفر در این پرونده شاکی هستند و هزاران میلیارد تومان ، مالباخته اند. 🔹 این شاکیان از سال ۹۶ و ۹۷ برای خودرو تیولی نام نویسی کرده و مبالغ متفاوتی از ۴۵ میلیون تومان تا ۱۰۰ میلیون تومان برای هر خودرو پرداخت کرده اند اما هنوز خودرو خود را تحویل نگرفته اند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354324"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Trial of Ramak Khodro company held with plaintiffs present",
+      "summary_en": "Trial of Ramak Khodro company held with plaintiffs present. This trial was held in branch 1065 of the special judicial complex for economic affairs in Tehran. One thousand eight hundred and sixty-five people are plaintiffs in this case and have lost thousands of billions of tomans. These plaintiffs registered for Tire car sales from 2017 and 2018 and paid varying amounts from 45 million tomans to 100 million tomans per vehicle, but have not yet received their cars.",
+      "has_figures": true,
+      "figures_examples": [
+        "45 million",
+        "100 million"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/64715",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:34:56Z",
+      "title": "🎥 عراق؛ سرزمینِ «التماس برای پذیرایی» dnws.ir/003Z2f @Defapress_ir",
+      "url": "https://t.me/defapress_ir/64715",
+      "summary": "🎥 عراق؛ سرزمینِ «التماس برای پذیرایی» dnws.ir/003Z2f @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64715"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iraq: the land of 'requests for hospitality'",
+      "summary_en": "Iraq: the land of 'requests for hospitality'",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354323",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:29:09Z",
+      "title": "🔺 تعویق نام‌نویسی در آزمون کارشناسی ارشد رشته‌های علوم پزشکی 🔹 زمان نام‌نویسی در آزمون کارشناسی ارشد رشته‌های…",
+      "url": "https://t.me/iribnews/354323",
+      "summary": "🔺 تعویق نام‌نویسی در آزمون کارشناسی ارشد رشته‌های علوم پزشکی 🔹 زمان نام‌نویسی در آزمون کارشناسی ارشد رشته‌های علوم پزشکی سال ۱۴۰۵ که مقرر بود امروز ۱۰ مردادماه آغاز شود به دلایل فنی یک هفته به تعویق افتاد. 🔹 بر این اساس، داوطلبان متقاضی پس از آغاز فرآیند ثبت‌نام و با مراجعه به سامانه مرکز سنجش آموزش پزشکی نسبت به مطالعه دقیق دفترچه راهنمای ثبت‌نام و آگاهی از شرایط و ضوابط شرکت در آزمون اقدام کنند و پس از تکمیل اطلاعات مورد نیاز، مراحل نام‌نویسی خود را در مهلت تعیین‌شده به پایان برسانند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354323"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Postponement of medical sciences postgraduate exam registration",
+      "summary_en": "Postponement of medical sciences postgraduate exam registration. The registration period for the 2025 postgraduate exam in medical sciences fields, which was scheduled to start today, 10 Mordad, has been postponed by one week due to technical reasons. Accordingly, interested applicants, after the registration process begins, should visit the medical education assessment centre system to carefully study the registration guide and be aware of the conditions and regulations for taking the exam, and after completing the necessary information, complete their registration steps within the specified deadline.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354322",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:20:18Z",
+      "title": "🎦 نجف همچنان شاهد ورود زائران اربعین است اشکریز، خبرنگار خبرگزاری صداوسیما در نجف: 🔹 زائران کشورهای پاکستان،…",
+      "url": "https://t.me/iribnews/354322",
+      "summary": "🎦 نجف همچنان شاهد ورود زائران اربعین است اشکریز، خبرنگار خبرگزاری صداوسیما در نجف: 🔹 زائران کشورهای پاکستان، افغانستان و کشمیر ابتدا وارد مرز شلمچه و سپس شهر نجف می شوند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354322"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Najaf continues to witness Arbaeen pilgrims entering. Ashkriz, Press TV correspondent in Najaf:",
+      "summary_en": "Najaf continues to witness Arbaeen pilgrims entering. Ashkriz, Press TV correspondent in Najaf: Pilgrims from Pakistan, Afghanistan and Kashmir first enter Shalamcheh border and then Najaf city.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64714",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T05:05:56Z",
+      "title": "💢 پهپاد «حدید ۱۱۰»؛ چالش جدید سنتکام در خلیج فارس 🔸 در دهه‌های اخیر، پارادایم میلیتاریک (الگوی نظامی) جنگ‌های…",
+      "url": "https://t.me/defapress_ir/64714",
+      "summary": "💢 پهپاد «حدید ۱۱۰»؛ چالش جدید سنتکام در خلیج فارس 🔸 در دهه‌های اخیر، پارادایم میلیتاریک (الگوی نظامی) جنگ‌های مدرن دستخوش تحولات بنیادین شده است. ظهور پهپاد‌های انتحاری یا «مهمات پرسه‌زن»، معادلات نبرد را به نفع نیرو‌هایی تغییر داده که به جای تکیه بر پلتفرم‌های گران‌قیمت و پیچیده، بر ترکیب هوشمندی، سرعت عمل و هزینه پایین تمرکز دارند. 🔸 پهپاد «حدید ۱۱۰» می‌تواند یک چالش عمده برای ارتش تروریست ایالات متحده آمریکا در منطقه باشد؛ چرا که اکثر پایگاه‌های سنتکام در فاصله حدود ۴۰۰ کیلومتری مرز‌های ایران است و این پهپاد به خوبی می‌تواند برای تروریست‌های سنتکام، دردسرساز شود. 🔸 تلفیق موتور توربوجت، طراح",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64714"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hadid 110 drone: a new challenge for CENTCOM in the Persian Gulf",
+      "summary_en": "Hadid 110 drone: a new challenge for CENTCOM in the Persian Gulf. In recent decades, the military paradigm of modern warfare has undergone fundamental changes. The emergence of suicide drones or loitering munitions has changed the equations of battle in favour of forces that, instead of relying on expensive and complex platforms, focus on intelligent combination, speed of action and low cost. The Hadid 110 drone could be a major challenge for the terrorist US military in the region, as most CENTCOM bases are about 400 kilometres from Iran's borders and this drone can well cause trouble for CENTCOM's terrorists. The combination of a turbojet engine",
+      "has_figures": true,
+      "figures_examples": [
+        "110 drone",
+        "400 kilometres"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354321",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T04:55:15Z",
+      "title": "🔺 امروز آخرین مهلت اعتراض داوطلبان آزمون ارتقاء دستیاران تخصصی پزشکی 🔹 داوطلبان چهل و پنجمین آزمون ارتقاء…",
+      "url": "https://t.me/iribnews/354321",
+      "summary": "🔺 امروز آخرین مهلت اعتراض داوطلبان آزمون ارتقاء دستیاران تخصصی پزشکی 🔹 داوطلبان چهل و پنجمین آزمون ارتقاء دستیاران تخصصی پزشکی تا ساعت ۲۴ امروز دهم مرداد می‌توانند نسبت به اعتراض خود به این آزمون اقدام کنند. 🔹 نمرات ارزشیابی درون‌دانشگاهی پس از طی مراحل رسیدگی به اعتراضات و اعلام به معاونت آموزشی دانشکده، به هیچ عنوان قابل تغییر نخواهد بود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354321"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Today is the final deadline for medical residency promotion exam candidates to object",
+      "summary_en": "Today is the final deadline for medical residency promotion exam candidates to object. Candidates for the 45th medical residency promotion exam can object to this exam until 24:00 today, 10 Mordad. Assessment marks given within universities, after processing of objections and notification to the university's educational deputy, cannot be changed under any circumstances.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354320",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T04:50:03Z",
+      "title": "🎦 زارع زاده، مسئول سازمان بسیج جامعه پزشکی کشور: در اربعین امسال بیش از ۲۱۰ موکب درمانی راه اندازی کردیم 🌐…",
+      "url": "https://t.me/iribnews/354320",
+      "summary": "🎦 زارع زاده، مسئول سازمان بسیج جامعه پزشکی کشور: در اربعین امسال بیش از ۲۱۰ موکب درمانی راه اندازی کردیم 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354320"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Zarezadeh, head of the Basij organisation of the medical community: We have set up more than 210 medical camps this Arbaeen",
+      "summary_en": "Zarezadeh, head of the Basij organisation of the medical community: We have set up more than 210 medical camps this Arbaeen",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64713",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T04:42:19Z",
+      "title": "💢 ذوالقدر : ادامه آتش‌افروزی آمریکا قفل تنگه هرمز را محکم‌تر می‌کند 🔸 دبیر شورای عالی امنیت ملی تاکید کرد:…",
+      "url": "https://t.me/defapress_ir/64713",
+      "summary": "💢 ذوالقدر : ادامه آتش‌افروزی آمریکا قفل تنگه هرمز را محکم‌تر می‌کند 🔸 دبیر شورای عالی امنیت ملی تاکید کرد: ادامه محاصره دریایی و آتش‌افروزی رژیم آمریکا، هم قفل تنگه هرمز را محکم‌تر می‌کند و هم تنگه‌ها و گلوگاه‌های دیگر را می‌بندد؛ و تاوان آن‌ را اقتصاد جهانی، بازار انرژی و رای‌دهندگان آمریکایی خواهند داد. dnws.ir/003Zf3 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64713"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Zolqadr: Continued American fire makes the lock on the Strait of Hormuz tighter",
+      "summary_en": "Zolqadr: Continued American fire makes the lock on the Strait of Hormuz tighter. The secretary of the Supreme National Security Council emphasised: The continuation of maritime blockade and America's provocations will both make the lock on the Strait of Hormuz tighter and close other straits and chokepoints; and the world economy, the energy market and American voters will pay the price.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64704",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T04:32:33Z",
+      "title": "📸 صفحه نخست روزنامه های شنبه ۱۰ مرداد ۱۴۰۵ @Defapress_ir",
+      "url": "https://t.me/defapress_ir/64704",
+      "summary": "📸 صفحه نخست روزنامه های شنبه ۱۰ مرداد ۱۴۰۵ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64704"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Front pages of newspapers Saturday, 10 Mordad 1405",
+      "summary_en": "Front pages of newspapers Saturday, 10 Mordad 1405",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64703",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T03:36:01Z",
+      "title": "💢 تقویم روز شهید باقر یوسفی: امید که حداقل با ریخته شدن خونم به پیروی از آقا اباعبدالله الحسین(ع) رضایت خدا…",
+      "url": "https://t.me/defapress_ir/64703",
+      "summary": "💢 تقویم روز شهید باقر یوسفی: امید که حداقل با ریخته شدن خونم به پیروی از آقا اباعبدالله الحسین(ع) رضایت خدا را جلب نمایم. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64703"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Martyr Baqer Youssefi's calendar: I hope that at least by shedding my blood in the footsteps of Aba Abdollah al-Hussein, I will gain God's pleasure",
+      "summary_en": "Martyr Baqer Youssefi's calendar: I hope that at least by shedding my blood in the footsteps of Aba Abdollah al-Hussein, I will gain God's pleasure.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mryjwkbbf42x",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-01T03:33:45.624000Z",
+      "title": "Turkish national Mohammad Yousef Hasna was charged with conspiring to provide material support for Hamas under the guise of humanitarian…",
+      "url": "https://www.jpost.com/international/article-904254",
+      "summary": "Turkish national Mohammad Yousef Hasna was charged with conspiring to provide material support for Hamas under the guise of humanitarian fundraising by the US DOJ on Friday. \nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607313062",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-01T02:37:46Z",
+      "title": "Iran's hangings are 'murders,' says former UN prosecutor",
+      "url": "https://www.iranintl.com/en/202607313062",
+      "summary": "Iran's latest wave of public hangings of protesters amounts to \"killings\" and \"murders\" that form part of a continuing crime against humanity, former United Nations prosecutor Professor Payam Akhavan told Iran International's Eye for Iran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64702",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T02:35:03Z",
+      "title": "💢 پیوستن کانادا به برنامه ساخت جنگنده نسل آینده 🔸 کانادا به‌عنوان نخستین کشور با وضعیت عضو ناظر به برنامه…",
+      "url": "https://t.me/defapress_ir/64702",
+      "summary": "💢 پیوستن کانادا به برنامه ساخت جنگنده نسل آینده 🔸 کانادا به‌عنوان نخستین کشور با وضعیت عضو ناظر به برنامه جنگنده نسل آینده انگلیس، ایتالیا و ژاپن پیوست. dnws.ir/003ZWK @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64702"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Canada joins the next-generation fighter aircraft programme",
+      "summary_en": "Canada joins the next-generation fighter aircraft programme. Canada, as the first country with observer member status, has joined the next-generation fighter programme of the United Kingdom, Italy and Japan.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64701",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-01T01:33:01Z",
+      "title": "💢 پوتین: ناو‌های بزرگ جنگی به ستون فقرات نیروی دریایی روسیه تبدیل می‌شوند 🔸 روسیه قصد دارد ساختار ناوگان…",
+      "url": "https://t.me/defapress_ir/64701",
+      "summary": "💢 پوتین: ناو‌های بزرگ جنگی به ستون فقرات نیروی دریایی روسیه تبدیل می‌شوند 🔸 روسیه قصد دارد ساختار ناوگان دریایی خود را متوازن‌ کند و به جای تکیه صرف بر زیردریایی‌ها و ناوچه‌های موشک‌انداز، بازسازی ناوگان شناور‌های سطحی بزرگ اقیانوس‌پیما را در دستور کار قرار دهد. dnws.ir/003ZXp @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64701"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Putin: Large warships will become the backbone of Russia's navy",
+      "summary_en": "Putin: Large warships will become the backbone of Russia's navy. Russia intends to balance the structure of its naval fleet and instead of relying solely on submarines and missile corvettes, has put the reconstruction of large ocean-going surface ships on its agenda.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mry5ixmn4m2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T23:51:24.841000Z",
+      "title": "Report: The US and Israel are considering implementing a land blockade against Iran to further Tehran's economic isolation, The Telegraph…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904246",
+      "summary": "Report: The US and Israel are considering implementing a land blockade against Iran to further Tehran's economic isolation, The Telegraph reported on Friday.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mry5cbzs7n22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T23:47:41.025000Z",
+      "title": "Every congregational rabbi in Maine has signed onto a statement calling for peace and urging the state’s political leaders to stop using…",
+      "url": "https://www.jpost.com/diaspora/antisemitism/article-904247",
+      "summary": "Every congregational rabbi in Maine has signed onto a statement calling for peace and urging the state’s political leaders to stop using the term “genocide” to describe Israel’s war in Gaza.\nwww.jpost.com/diaspora/ant...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607314992",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-31T23:46:19Z",
+      "title": "US tightens military and financial pressure as Iran talks falter",
+      "url": "https://www.iranintl.com/en/202607314992",
+      "summary": "The Trump administration on Friday outlined military and financial measures against Tehran alongside negotiations that President Donald Trump said were being undermined by Iran’s conduct.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxyuhovi52t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T22:28:22.183000Z",
+      "title": "Yashar Party head Gadi Eisenkot warned on Friday that the government would be \"leaving Hamas in power\" under the BoP’s new framework for…",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-904244",
+      "summary": "Yashar Party head Gadi Eisenkot warned on Friday that the government would be \"leaving Hamas in power\" under the BoP’s new framework for implementing Trump’s peace plan in Gaza. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mrxxbzhoot2l",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-31T22:00:10.625000Z",
+      "title": "Gaza terrorist who kidnapped Noa Argamani, Avinatan Or on Oct. 7 killed in strike — IDF",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mrxxbzhoot2l",
+      "summary": "Gaza terrorist who kidnapped Noa Argamani, Avinatan Or on Oct. 7 killed in strike — IDF\n\nwww.timesofisrael.com/gaza-terrori...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxvn4nr7n2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T21:30:34.582000Z",
+      "title": "Report: The United States and Israel are allegedly planning to initiate a harsh bombing campaign on energy infrastructure in Iran that may…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904243",
+      "summary": "Report: The United States and Israel are allegedly planning to initiate a harsh bombing campaign on energy infrastructure in Iran that may begin over the weekend.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ba2d503d3977d58d1a7ad0db82f39482",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-31T20:41:00Z",
+      "title": "A U.S. Navy MH-60R Sea Hawk helicopter is prepared for flight aboard USS Michael Murphy (DDG 112) as the…",
+      "url": "https://x.com/CENTCOM/status/2083292028310581605",
+      "summary": "A U.S. Navy MH-60R Sea Hawk helicopter is prepared for flight aboard USS Michael Murphy (DDG 112) as the warship supports the U.S. blockade against Iran while sailing in regional waters. As of July 31, CENTCOM has redirected 30 commercial vessels, disabled 2, and boarded 2 to ensure full compliance. The U.S. military has also permitted nearly 30 ships to pass through the blockade for humanitarian aid.— U.S. Central Command (@CENTCOM) Jul 31, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "30 ships"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mrxrh7rsal2m",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-07-31T20:15:42.562000Z",
+      "title": "Victor Davis Hanson: Trump must set up an Iranian government-in-exile",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mrxrh7rsal2m",
+      "summary": "Victor Davis Hanson: Trump must set up an Iranian government-in-exile\n\nSpeaking to the Iranians is futile, says the leading classicist and military historian. He explains why American’s don’t have patience for war and why JD Vance is bashing Israel.\n\nFind out more on Lazar Focus",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607313930",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-31T20:12:34Z",
+      "title": "Why Iran's leaders failed to see this generation coming",
+      "url": "https://www.iranintl.com/en/202607313930",
+      "summary": "A gathering of thousands of teenagers at a Tehran mall to meet a popular YouTuber exposed a widening blind spot in Iran, some sociologists suggested: a generation whose values, social lives and sources of authority increasingly lie beyond the state's understanding.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607301967",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-31T18:21:06Z",
+      "title": "Security forces seized Iran hospital, sent wounded protesters to morgue",
+      "url": "https://www.iranintl.com/en/202607301967",
+      "summary": "Iranian security forces took control of a hospital in the western city of Khorramabad during January's nationwide crackdown, according to medical staff, transferring dozens of critically wounded protesters to the morgue instead of receiving further treatment.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrxicg2jnx2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T17:31:56.784000Z",
+      "title": "Interview: Prominent Palestinian-American scholar and former mediator in the hostage deal talks, Dr. Bishara Bahbah, describes what he…",
+      "url": "https://www.jpost.com/middle-east/article-904235",
+      "summary": "Interview: Prominent Palestinian-American scholar and former mediator in the hostage deal talks, Dr. Bishara Bahbah, describes what he characterized as Hamas's most far-reaching proposal. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/903",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-31T16:51:07Z",
+      "title": "📝 #مسطور | باید باب سفارش و توصیه در قوه قضائیه به طور کلّی مسدود شود 🗒 گزیده‌ای از پیام حضرت آیت‌الله…",
+      "url": "https://t.me/rahbar_ir/903",
+      "summary": "📝 #مسطور | باید باب سفارش و توصیه در قوه قضائیه به طور کلّی مسدود شود 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب : باید اجرای #عدالت به پایه‌ای برسد که هر مظلومی آن [قوه قضاییه] را مأمن خود بداند و بخصوص کسانی که به‌نوعی از قدرتی برخوردارند، جرأت تعدّی به حقوق دیگران را نداشته باشند و باب سفارش و توصیه در آن به طور کلّی مسدود شده و داشتن آشنا در بخشهایی از آن هیچ مزیّتی بشمار نیاید. 🗓 ۷/تیر/۱۴۰۵ ✍ مجموعه متنی مسطور به بازخوانی پیام‌ها و متون حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر انقلاب اسلامی می‌پردازد. 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/903"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The door to recommendations and intercession in the judiciary must be completely closed",
+      "summary_en": "The door to recommendations and intercession in the judiciary must be completely closed. An excerpt from a message by His Eminence Ayatollah Seyyed Mostafa Khamenei, Leader of the Islamic Revolution: Justice must be implemented at a level where every oppressed person considers it their refuge, and particularly those who have some power must not dare to infringe on the rights of others, and the door to recommendations and intercession in it must be completely closed, and having connections in parts of it should count for nothing. 7 Tir 1405. The Mastoor text collection reviews and revisits the messages and texts of His Eminence Ayatollah Seyyed Mostafa Khamenei, Leader of the Islamic Revolution.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:89c2a0e8115ef084b9050c6b1e7d2573",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-31T16:03:00Z",
+      "title": "🚫 CLAIM: Once again, the Iranian government claims it has closed the Strait of Hormuz. This is FALSE. ✅ FACT: The Strait of Hormuz remains open for commercial vessel transit. Iran does not control it. Thousands of ships have sailed through the international waterway over the past four months.",
+      "url": "https://x.com/CENTCOM/status/2083221914361692384",
+      "summary": "🚫 CLAIM: Once again, the Iranian government claims it has closed the Strait of Hormuz. This is FALSE.\n\n✅ FACT: The Strait of Hormuz remains open for commercial vessel transit. Iran does not control it. Thousands of ships have sailed through the international waterway over the past four months.— U.S. Central Command (@CENTCOM) Jul 31, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:6fdce5561222e0fade8336ea530814b2",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-31T15:23:00Z",
+      "title": "A Hamas commander who invaded Israel on October 7, 2023, and held Israeli hostages Romi Gonen and Cpl. Noa Marciano in captivity in the Gaza Strip was killed in an airstrike yesterday, the military and Shin Bet announce. The Thursday strike in Gaza City killed Abd al-Rahim Abd al-Hay Youssef Kardi, a deputy commander of a Hamas cell, who also served as a doctor at Shifa Hospital, according to the military. \"Kardi infiltrated Israeli territory during the October 7 massacre,\" the military says. The IDF says that at the start of the war, Kardi was involved in holding Gonen hostage in Gaza City, including at Shifa Hospital, and he was also involved in holding the body of Marciano, a surveillance",
+      "url": "https://x.com/manniefabian/status/2083211972573569107",
+      "summary": "A Hamas commander who invaded Israel on October 7, 2023, and held Israeli hostages Romi Gonen and Cpl. Noa Marciano in captivity in the Gaza Strip was killed in an airstrike yesterday, the military and Shin Bet announce.\n\nThe Thursday strike in Gaza City killed Abd al-Rahim Abd al-Hay Youssef Kardi, a deputy commander of a Hamas cell, who also served as a doctor at Shifa Hospital, according to the military.\n\n\"Kardi infiltrated Israeli territory during the October 7 massacre,\" the military says.\n\nThe IDF says that at the start of the war, Kardi was involved in holding Gonen hostage in Gaza City",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrx7xf4d6n2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T15:02:36.675000Z",
+      "title": "A two-week ceasefire is intended to finalize Hamas’s disarmament, but Israel will not withdraw from the Yellow Line until the process is…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-904233",
+      "summary": "A two-week ceasefire is intended to finalize Hamas’s disarmament, but Israel will not withdraw from the Yellow Line until the process is complete, sources said. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/902",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-07-31T13:36:39Z",
+      "title": "📱 در مورد گشودن جبهه‌های دیگری که دشمن در آن تجربه ناچیزی دارد و به‌شدت در آن آسیب‌پذیر خواهد بود مطالعاتی…",
+      "url": "https://t.me/rahbar_ir/902",
+      "summary": "📱 در مورد گشودن جبهه‌های دیگری که دشمن در آن تجربه ناچیزی دارد و به‌شدت در آن آسیب‌پذیر خواهد بود مطالعاتی صورت گرفته است و فعالسازی آن در صورت استمرار وضع جنگی و بنا بر رعایت مصالح صورت خواهد گرفت. ✍ بخشی از اولین پیام رهبر معظّم انقلاب | ۲۱/اسفند/۱۴۰۴ 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/902"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Studies have been conducted regarding opening other fronts where the enemy has little experience and will be severely vulnerable. Its activation will take place if the war situation continues and in accordance with the interests involved.",
+      "summary_en": "Studies have been conducted regarding opening other fronts where the enemy has little experience and will be severely vulnerable. Its activation will take place if the war situation continues and in accordance with the interests involved. - Part of the first message of the Supreme Leader of the Revolution | 21 Esfand 1404",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:0b1933e404f346db19460a771064a7c2",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-07-31T13:22:00Z",
+      "title": "U.S. Army Paratroopers fire a 155mm round from an M777 howitzer during a field artillery exercise in the…",
+      "url": "https://x.com/CENTCOM/status/2083181511256219855",
+      "summary": "U.S. Army Paratroopers fire a 155mm round from an M777 howitzer during a field artillery exercise in the Middle East.— U.S. Central Command (@CENTCOM) Jul 31, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrx2cp5yv424",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T13:21:33.555000Z",
+      "title": "Opinion: NYT’s distorted Gaza narrative. A new study via Claude Code shows that The New York Times fully adopted Hamas's strategy regarding…",
+      "url": "https://www.jpost.com/israel-news/article-904208",
+      "summary": "Opinion: NYT’s distorted Gaza narrative. A new study via Claude Code shows that The New York Times fully adopted Hamas's strategy regarding casualty reporting in Gaza. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwzi7ptn424",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T13:06:45.234000Z",
+      "title": "The Board of Peace on Friday released the full text of a roadmap for completing the implementation of US President Donald Trump's…",
+      "url": "https://www.jpost.com/middle-east/article-904230",
+      "summary": "The Board of Peace on Friday released the full text of a roadmap for completing the implementation of US President Donald Trump's comprehensive peace plan in Gaza. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ffe8fa62fa9a894159166ee04213f69e",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-07-31T12:35:00Z",
+      "title": "🔴ELIMINATED: Muhammad Al-Abed, a Hamas supply officer, and Ahmad Ma'in Muhammad Anqar, a Hamas commander. Al-Abed was involved in smuggling weapons into Gaza and facilitating the excavation of smuggling tunnels, while supplying weapons to the terrorist organizations’ military wings. In recent months, the terrorists advanced terrorist attack plans targeting Israeli civilians and IDF troops.",
+      "url": "https://x.com/IDF/status/2083169693716660632",
+      "summary": "🔴ELIMINATED: Muhammad Al-Abed, a Hamas supply officer, and Ahmad Ma'in Muhammad Anqar, a Hamas commander.\n\nAl-Abed was involved in smuggling weapons into Gaza and facilitating the excavation of smuggling tunnels, while supplying weapons to the terrorist organizations’ military wings. In recent months, the terrorists advanced terrorist attack plans targeting Israeli civilians and IDF troops.— Israel Defense Forces (@IDF) Jul 31, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a7d29aa9d0013e6a3c3a9edf709dbda4",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-31T12:08:00Z",
+      "title": "Two Hamas operatives who were advancing attacks on troops were killed in strikes in the Gaza Strip on Wednesday, the military says. The IDF says the strikes killed Muhammad al-Abed, a supply officer, and Ahmad Ma'in Muhammad Anqar, a commander in the terror group. Abed had been involved in \"smuggling weapons into the Gaza Strip and digging smuggling tunnels while supplying weapons to the military wings,\" during the war, according to the IDF. The IDF justifies the strike amid the ceasefire by saying that recently, both operatives had been advancing attacks. \"The terrorists posed a threat to IDF troops and were eliminated in precise aerial strikes,\" the military adds.",
+      "url": "https://x.com/manniefabian/status/2083162849417842754",
+      "summary": "Two Hamas operatives who were advancing attacks on troops were killed in strikes in the Gaza Strip on Wednesday, the military says.\n\nThe IDF says the strikes killed Muhammad al-Abed, a supply officer, and Ahmad Ma'in Muhammad Anqar, a commander in the terror group.\n\nAbed had been involved in \"smuggling weapons into the Gaza Strip and digging smuggling tunnels while supplying weapons to the military wings,\" during the war, according to the IDF.\n\nThe IDF justifies the strike amid the ceasefire by saying that recently, both operatives had been advancing attacks.\n\n\"The terrorists posed a threat to",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwsdhkxok24",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T10:58:49.466000Z",
+      "title": "Report: Saudi Arabia is preparing for a major attack against the Houthis by sea and possibly over land, Yemeni sources said.",
+      "url": "https://www.jpost.com/middle-east/article-904218",
+      "summary": "Report: Saudi Arabia is preparing for a major attack against the Houthis by sea and possibly over land, Yemeni sources said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a15a25404f60fd404a33b53eacf93d8b",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-07-31T10:53:00Z",
+      "title": "A top commander in the Mujahideen Brigades terror group, who took part in abducting Avinatan Or and Noa Argamani, and directed the abduction of Sudthisak Rinthalak during the October 7, 2023, onslaught, was killed in an Israeli strike in the Gaza Strip this week, the IDF announces. The military says the strike on Tuesday in southern Gaza killed Ahmed Hussein Mohammed Kafina, commander of the central Gaza area in Mujahideen Brigades, a relatively small Hamas-allied terror group in the Strip. \"Kafina planned and directed the group's terrorists' raid into the territory of the State of Israel during the October 7 massacre, and took part in the abduction of Avinatan Or and Noa Argamani, and in di",
+      "url": "https://x.com/manniefabian/status/2083144047556763784",
+      "summary": "A top commander in the Mujahideen Brigades terror group, who took part in abducting Avinatan Or and Noa Argamani, and directed the abduction of Sudthisak Rinthalak during the October 7, 2023, onslaught, was killed in an Israeli strike in the Gaza Strip this week, the IDF announces.\n\nThe military says the strike on Tuesday in southern Gaza killed Ahmed Hussein Mohammed Kafina, commander of the central Gaza area in Mujahideen Brigades, a relatively small Hamas-allied terror group in the Strip.\n\n\"Kafina planned and directed the group's terrorists' raid into the territory of the State of Israel du",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwqggdbj324",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T10:24:41.500000Z",
+      "title": "US President Donald Trump convened a cabinet meeting at his Camp David retreat as he grapples with how to resolve his war against Iran and…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904225",
+      "summary": "US President Donald Trump convened a cabinet meeting at his Camp David retreat as he grapples with how to resolve his war against Iran and bring down gasoline prices that are threatening Republicans in November midterm elections. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwpqewvwf2g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T10:12:21.806000Z",
+      "title": "What do Trump and Netanyahu's Iran policies suggest about their rumored-to-be fractured relationship?",
+      "url": "https://www.jpost.com/israel-news/article-904170",
+      "summary": "What do Trump and Netanyahu's Iran policies suggest about their rumored-to-be fractured relationship? \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607319067",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-31T09:38:19Z",
+      "title": "Iran gambling network helped channel $4 billion through crypto exchange - Reuters",
+      "url": "https://www.iranintl.com/en/202607319067",
+      "summary": "An illicit Iranian gambling network helped move at least $4 billion through an unlicensed Dubai-based cryptocurrency exchange that also handled funds for sanctioned Iranian institutions, a Reuters investigation found.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "$4 billion",
+        "4 billion"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/foreign-travel-advice/yemen#2026-07-31T09:35:27Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-07-31T09:35:27Z",
+      "title": "Yemen travel advice",
+      "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+      "summary": "FCDO travel advice for Yemen. Includes safety and security, insurance, entry requirements and legal differences.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwmzma7aw23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T09:23:50.322000Z",
+      "title": "Report: Iran is suspected of being behind a cyberattack targeting over 30 municipal water systems in Minnesota, US officials said.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904215",
+      "summary": "Report: Iran is suspected of being behind a cyberattack targeting over 30 municipal water systems in Minnesota, US officials said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202607317458",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-07-31T08:21:50Z",
+      "title": "Tehran prosecutor takes legal action against opponents of executions",
+      "url": "https://www.iranintl.com/en/202607317458",
+      "summary": "Tehran's prosecutor has launched legal action against an unspecified number of people for opposing the execution of detainees arrested during the January protests and defendants convicted in cases linked to the recent war, Iran's judiciary news outlet Mizan reported on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwi45y2ma25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T07:55:47.064000Z",
+      "title": "If Israel does not approve and endorse the Board of Peace's disarmament deal with Hamas, the terror group will refuse to implement it, a…",
+      "url": "https://www.jpost.com/middle-east/article-904212",
+      "summary": "If Israel does not approve and endorse the Board of Peace's disarmament deal with Hamas, the terror group will refuse to implement it, a Hamas official said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mrwhmo6u3i25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-07-31T07:47:07.222000Z",
+      "title": "Hours before Prime Minister Benjamin Netanyahu entered the Oval Office on Tuesday, US President Donald Trump publicly questioned why the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904211",
+      "summary": "Hours before Prime Minister Benjamin Netanyahu entered the Oval Office on Tuesday, US President Donald Trump publicly questioned why the Israeli leader had announced that he was bringing new intelligence about an Iranian site known as Pickaxe Mountain.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-15658",
+      "source": "US Federal Register",
+      "source_detail": "White House — Presidential Document",
+      "source_tier": 1,
+      "category": "executive-order",
+      "published_at": "2026-07-31T00:00:00Z",
+      "title": "Continuation of the National Emergency With Respect to Lebanon",
+      "url": "https://www.federalregister.gov/documents/2026/07/31/2026-15658/continuation-of-the-national-emergency-with-respect-to-lebanon",
+      "summary": "",
+      "details": {
+        "document_type": "Presidential Document",
+        "agencies": "Executive Office of the President",
+        "document_number": "2026-15658"
+      },
+      "tags": [
+        "executive-order"
+      ],
+      "has_figures": false
+    }
+  ]
+}
