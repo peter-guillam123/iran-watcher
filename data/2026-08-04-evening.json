@@ -1,0 +1,1354 @@
+{
+  "generated_at": "2026-08-04T16:27:34.093828Z",
+  "window_since": "2026-08-04T05:00:00Z",
+  "window_until": "2026-08-04T16:25:21.816435Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-08-04&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 26,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 33,
+      "kept": 33,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 3,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 49,
+      "kept": 10,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "52 items: Rubio confirms progress but no deal on Iran-Oman Strait of Hormuz shipping talks, Reuters reports US ATACMS/PrSM stocks nearly depleted in five-month Iran war, State Department imposes INKSNA nonproliferation measures, and Iran International reports Mojtaba Khamenei warned Pezeshkian a further resignation would be accepted.",
+  "threads": [
+    {
+      "label": "Iran-Oman Strait of Hormuz shipping talks",
+      "summary": "Rubio said talks between Iran and Oman on reopening Strait of Hormuz shipping have progressed but no final agreement is reached, with Jerusalem Post citing sources saying terms lie in Iran's favour. IRIB's Bagheri said negotiations continue and an informed source told Press TV a deal is within reach absent US 'sabotage'; Aramco's CEO said Hormuz flows are at a tenth of pre-conflict levels.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb7dgeitp22",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msapcdl4yj23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb554lfom2n",
+        "telegram:iribnews/354914",
+        "telegram:iribnews/354910",
+        "telegram:iribnews/354906",
+        "iranintl:https://www.iranintl.com/en/202608045484"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "US missile stocks depleted after Iran war",
+      "summary": "Reuters reported the US Army has used 'virtually all' of its ATACMS and Precision Strike Missile stocks during the five-month war with Iran, per two sources familiar with the data. IRIB amplified the report and Iran's military advisor Mohsen Rezaei claimed on Press TV that Iranian strikes in July killed hundreds of US soldiers.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608048014",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb554lfom2n",
+        "telegram:iribnews/354901",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msah7joa622t",
+        "iranintl:https://www.iranintl.com/en/202608041760"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Pezeshkian–Mojtaba Khamenei succession reporting",
+      "summary": "Iran International reported President Pezeshkian was driven to a secret Tehran location and seated in a car with tinted windows beside a voice presented as the supreme leader. Jerusalem Post reported Ayatollah Mojtaba Khamenei warned Pezeshkian any further resignation attempt would be accepted; Khamenei's office and Defa Press issued statements denying circulating claims about a response to the president's letter.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608045708",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msat6bjtnm2o",
+        "telegram:defapress_ir/64929",
+        "telegram:rahbar_ir/912",
+        "telegram:iribnews/354905"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Arbaeen pilgrimage logistics and diplomacy",
+      "summary": "Defa Press cited Karbala's governor claiming 22 million pilgrims took part in Arbaeen and Iran's Central Arbaeen Command reported over 3.34 million Iranians crossed borders, with Commander Radan allocating over 1,000 return buses. Foreign Minister Araghchi attended Dhuhr prayers at the Imam Hussain shrine and met the governors of Karbala and Basra and Badr Organisation's Hadi al-Ameri on the sidelines.",
+      "event_ids": [
+        "telegram:defapress_ir/64930",
+        "telegram:defapress_ir/64927",
+        "telegram:iribnews/354898",
+        "telegram:defapress_ir/64913",
+        "telegram:iribnews/354899",
+        "telegram:iribnews/354895",
+        "telegram:iribnews/354904",
+        "telegram:defapress_ir/64926"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Israel-Lebanon track and regional strikes",
+      "summary": "Jerusalem Post reported Israel and Lebanon resumed talks in Rome as Hezbollah's Naim Qassem denounced negotiations and accused President Aoun of abandoning a unifying role, while IDF Arabic spokesman Adraee addressed 'Hassan' on clearing southern Lebanon of Hezbollah. The IDF said it dismantled 10 weapons-production machines in Qabatiya, and Defa Press reported a Yemeni armed forces drone strike on Najran airport in Saudi Arabia.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msandvu47f2h",
+        "x_via_rssapp:c42eb39b6a5018fcd0f8995e4fc4f33a",
+        "x_via_rssapp:3f68bcbabe9164b670e9b98ae4f93091",
+        "telegram:defapress_ir/64914"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/354914",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T16:17:45Z",
+      "title": "ادامه مذاکرات ایران و عمان درباره تنگه هرمز 🔹 سخنگوی وزارت امور خارجه از تداوم مذاکرات ایران و عمان با هدف…",
+      "url": "https://t.me/iribnews/354914",
+      "summary": "ادامه مذاکرات ایران و عمان درباره تنگه هرمز 🔹 سخنگوی وزارت امور خارجه از تداوم مذاکرات ایران و عمان با هدف سامان‌دهی تردد ایمن کشتیرانی در تنگه هرمز خبر داد. 🔹 بقائی در گفت‌وگو با خبرگزاری صداوسیما: این مذاکرات به عنوان گفت‌وگو میان دو کشور ساحلی تنگه هرمز، با تمرکز بر تعیین مسیرهای رفت و برگشت ایمن برای کشتی‌ها در حال پیگیری است؛ مسیری که ضمن تأمین حقوق حاکمیتی، ملاحظات امنیت ملی ایران و عمان را نیز مدنظر قرار دهد. 🔹 گفتگوها تاکنون در هر دو سطح فنی و سیاسی مثبت ارزیابی می‌شود و ایران در تلاش است با همکاری عمان، سازوکارهای لازم برای ترتیبات آینده مدیریت تردد کشتیرانی در این گذرگاه راهبردی را ت",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354914"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran-Oman talks on Strait of Hormuz continue",
+      "summary_en": "Iran-Oman talks on Strait of Hormuz continue. The Foreign Ministry spokesman reported the continuation of Iran-Oman negotiations aimed at organising safe maritime transit through the Strait of Hormuz. Bagheri in a conversation with IRIB news agency: these negotiations, as talks between two littoral states of the Strait of Hormuz, are being pursued with a focus on defining safe shipping routes in and out; routes that whilst ensuring sovereignty rights, also take into account Iran and Oman's national security considerations. The talks have so far been assessed positively at both technical and political levels, and Iran is seeking, in cooperation with Oman, to establish the necessary mechanisms for future arrangements to manage maritime transit through this strategic passage.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64930",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T16:16:27Z",
+      "title": "💢 مشارکت ۲۲ میلیون زائر در مراسم اربعین 🔸 استاندار کربلای معلی «نصیف الخطابی» امروز سه‌شنبه خبر داد امسال ۲۲…",
+      "url": "https://t.me/defapress_ir/64930",
+      "summary": "💢 مشارکت ۲۲ میلیون زائر در مراسم اربعین 🔸 استاندار کربلای معلی «نصیف الخطابی» امروز سه‌شنبه خبر داد امسال ۲۲ میلیون زائر، در مراسم اربعین سید و سالار شهیدان شرکت کردند. 🔸 رئیس مرکز اطلاع‌رسانی امنیتی عراق «سعد معن» هم از موفقیت طرح برگزاری مراسم اربعین در این کشور خبر داد. 🔸 وی همچنین گفت که طرح زیارت اربعین با دقت انجام شد تا از نظامی شدن شهرهای عراق جلوگیری شود. dnws.ir/003Zre @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64930"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "22 million pilgrims participate in Arbaeen ceremonies",
+      "summary_en": "22 million pilgrims participate in Arbaeen ceremonies. Nasif al-Khattabi, Governor of Karbala, announced today, Tuesday, that 22 million pilgrims participated in the Arbaeen ceremonies of the Master and Leader of Martyrs this year. Saad Ma'an, head of Iraq's security media centre, also reported the success of the Arbaeen ceremony plan in the country. He also stated that the Arbaeen pilgrimage plan was carried out carefully to prevent the militarisation of Iraqi cities.",
+      "has_figures": true,
+      "figures_examples": [
+        "22 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354913",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T16:13:05Z",
+      "title": "🎦 رئیس مرکز تحقیقات صداوسیما: براساس تعریفی که ما از مخاطب داریم، مخاطب کسی است که ۱۵ دقیقه در روز تلویزیون…",
+      "url": "https://t.me/iribnews/354913",
+      "summary": "🎦 رئیس مرکز تحقیقات صداوسیما: براساس تعریفی که ما از مخاطب داریم، مخاطب کسی است که ۱۵ دقیقه در روز تلویزیون تماشا می‌کند 🔹 شاکری نژاد: براساس تعریف جهانی مخاطب کسی است که ۱۵ دقیقه در هفته تلویزیون تماشا می‌کند اما تعریفی که مبنای کار ماست؛ سخت گیرانه‌تر است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354913"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of IRIB Research Centre: According to our definition, an audience member is someone who watches television for 15 minutes a day",
+      "summary_en": "Head of IRIB Research Centre: according to our definition, an audience member is someone who watches television for 15 minutes a day. Shakeri Nejad: according to the global definition an audience member is someone who watches television for 15 minutes a week, but the definition we work by is more stringent.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354912",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T16:09:08Z",
+      "title": "🎦 رئیس مرکز تحقیقات سازمان صداوسیما: حوزه سنجش افکار عمومی و سنجش میزان مخاطب دو ماموریت اصلی ماست 🔹 شاکری…",
+      "url": "https://t.me/iribnews/354912",
+      "summary": "🎦 رئیس مرکز تحقیقات سازمان صداوسیما: حوزه سنجش افکار عمومی و سنجش میزان مخاطب دو ماموریت اصلی ماست 🔹 شاکری نژاد: هر چیزی که افکار عمومی مردم را درگیر کند ما در مورد آن نظرسنجی انجام می‌دهیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354912"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of IRIB Organisation Research Centre: Public opinion polling and measuring audience size are our two main mandates",
+      "summary_en": "Head of IRIB Organisation Research Centre: public opinion polling and measuring audience size are our two main mandates. Shakeri Nejad: we conduct surveys on anything that engages public opinion.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/913",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T16:04:14Z",
+      "title": "📝 #مسطور | قیام حسینی، قلّه‌ی بلند تاریخ در تقابل حق و باطل 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی…",
+      "url": "https://t.me/rahbar_ir/913",
+      "summary": "📝 #مسطور | قیام حسینی، قلّه‌ی بلند تاریخ در تقابل حق و باطل 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب : نهضت و قیام حسینی برای اقامه‌ی حق و اصلاح امّت و مقابله با ظلم و ستم، قلّه‌‌ی بلند تاریخ در تقابل حق و باطل، و عدل و ظلم است و درسهایی بس ارزشمند و فراموش نشدنی برای همه‌ی آزادگان جهان دارد. خون سیّدالشّهداء علیه‌السّلام را #خون_خدا می‌نامند که در رگهای عالم جاری شده و حماسه‌های حیات‌بخش می‌سازد. نهضت و انقلاب اسلامی ایران، از آن‌رو که شعبه‌ای برگرفته از همین سرچشمه‌ی نورانی است، باید همواره در پی دستیابی به اهداف قیام حسینی باشد. 🗓 ۷/تیر/۱۴۰۵ ✍ مجموعه متنی مسطور ب",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/913"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The Husseini uprising, the pinnacle of history in the confrontation between truth and falsehood",
+      "summary_en": "The Husseini uprising, the pinnacle of history in the confrontation between truth and falsehood. An excerpt from the message of His Eminence Ayatollah Seyyed Mojtaba Khamenei, Leader of the Revolution: the Husseini movement and uprising, to establish truth and reform the nation and confront oppression and tyranny, is the pinnacle of history in the confrontation between truth and falsehood, and justice and oppression, and contains lessons of immense value and unforgettable significance for all the free peoples of the world. The blood of the Master of Martyrs, peace be upon him, is called the blood of God, which flows through the veins of the world and creates life-giving epics. The Islamic Revolution and movement of Iran, being a branch stemming from this luminous source, must always be in pursuit of achieving the objectives of the Husseini uprising.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354911",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T15:58:25Z",
+      "title": "علی نعمتی مدافع سابق فولاد به لوسیل قطر پیوست @iribnews",
+      "url": "https://t.me/iribnews/354911",
+      "summary": "علی نعمتی مدافع سابق فولاد به لوسیل قطر پیوست @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354911"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ali Nemati, former Foolad defender, joins Al-Lusail Qatar",
+      "summary_en": "Ali Nemati, former Foolad defender, joins Al-Lusail Qatar",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354910",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T15:46:17Z",
+      "title": "یک منبع آگاه به پرس تی‌وی: بیش از دو هفته است که مذاکرات با طرف عمانی وارد فاز تازه‌ای شده و اگر کارشکنی…",
+      "url": "https://t.me/iribnews/354910",
+      "summary": "یک منبع آگاه به پرس تی‌وی: بیش از دو هفته است که مذاکرات با طرف عمانی وارد فاز تازه‌ای شده و اگر کارشکنی آمریکا و برخی دیگر متوقف شود، تفاهم دوجانبه ایران-عمان در دسترس است. 🔹 ایران تعهد خود طبق بند ۵ یادداشت تفاهم را در مشورت با عمان و گفتگو با سایر کشورهای منطقه با جدیت دنبال کرد و انتظار می‌رفت که در بازه زمانی ۳۰ روزه پیش‌بینی شده در بند ۵، به نتیجه برسد. اما متاسفانه مداخلات آمریکا و کارشکنی‌های برخی کشورهای منطقه این روند را دچار اختلال کرد. 🔹 هدف این مذاکرات، توافق بر سر یک کریدور جدید است که تأمین‌کننده حقوق و ملاحظات حاکمیتی ایران به عنوان دولت ساحلی متضرر از سوء استفاده‌های آمریکای م",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354910"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "An informed source to Press TV: Negotiations with the Omani side have entered a new phase for more than two weeks and if US sabotage and that of some other parties stops, an Iran-Oman agreement is within reach",
+      "summary_en": "An informed source to Press TV: negotiations with the Omani side have entered a new phase for more than two weeks and if US sabotage and that of some other parties stops, an Iran-Oman agreement is within reach. Iran pursued its commitment according to clause 5 of the understanding note in consultation with Oman and talks with other regional countries seriously and was expected to reach a result within the 30-day timeframe stipulated in clause 5. However, unfortunately US interventions and sabotage by some regional countries disrupted this process. The objective of these negotiations is to reach agreement on a new corridor that would secure Iran's sovereignty rights and considerations as a littoral state harmed by US misuse.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354909",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T15:34:01Z",
+      "title": "🔺 افزایش حملات و توهین‌ها علیه مسیحیان در قدس اشغالی 🔹 وال‌استریت ژورنال گزارش داده است که آزار مسیحیان در…",
+      "url": "https://t.me/iribnews/354909",
+      "summary": "🔺 افزایش حملات و توهین‌ها علیه مسیحیان در قدس اشغالی 🔹 وال‌استریت ژورنال گزارش داده است که آزار مسیحیان در قدس اشغالی، به‌ویژه در بخش قدیمی شهر، افزایش یافته است. این اقدامات بیشتر شامل آب دهان انداختن، توهین و تهدید روحانیان، راهبه‌ها و مراکز مذهبی مسیحیان است؛ تا جایی که برخی راهبه‌ها از ترس، بدون همراه از محل اقامت خود خارج نمی‌شوند. 🔹 در نیمه نخست سال ۲۰۲۶ دست‌کم ۱۰۷ مورد اقدام ضدمسیحی ثبت شده که بیش از دو برابر مدت مشابه در سال ۲۰۲۴ است. فعالان حقوق مذهبی می‌گویند بیشتر این موارد بدون مجازات می‌ماند و مقامات صهیونیست برای مقابله با آن‌ها اقدام جدی انجام نمی‌دهند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354909"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Increase in attacks and insults against Christians in occupied Jerusalem",
+      "summary_en": "Increase in attacks and insults against Christians in occupied Jerusalem. The Wall Street Journal has reported that harassment of Christians in occupied Jerusalem, particularly in the Old City, has increased. These actions mainly consist of spitting, insulting and threatening clergy, nuns and Christian religious centres, to the extent that some nuns, out of fear, do not leave their residence without accompaniment. At least 107 anti-Christian incidents were recorded in the first half of 2026, more than double the same period in 2024. Religious rights activists say most of these cases go unpunished and Zionist authorities take no serious action to counter them.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:c42eb39b6a5018fcd0f8995e4fc4f33a",
+      "source": "Avichay Adraee",
+      "source_detail": "IDF Arabic spokesperson · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-arabic-x",
+      "published_at": "2026-08-04T15:31:00Z",
+      "title": "حسن! لازم طول بالك، التحدي حلو بس خليه يكون واقعي. انشالله كل اللبنانيي يشوفوا جمال الجنوب بس ينضف من حزب الله الإرهابي ويتقدم السلام، هيك بنجي وبتشوف دولتنا وجمالها وسحرها.. تحياتي",
+      "url": "https://x.com/AvichayAdraee/status/2084663410533237201",
+      "summary": "حسن! لازم طول بالك، التحدي حلو بس خليه يكون واقعي.\nانشالله كل اللبنانيي يشوفوا جمال الجنوب بس ينضف من حزب الله الإرهابي ويتقدم السلام، هيك بنجي وبتشوف دولتنا وجمالها وسحرها..\nتحياتي \nVideo\n  — افيخاي ادرعي (@AvichayAdraee) Aug 4, 2026",
+      "details": {
+        "handle": "@AvichayAdraee",
+        "language": "ar"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "title_en": "Hassan! You need patience, the challenge is nice but make it realistic. God willing, all Lebanese will see the beauty of the South only when it is cleaned of the terrorist Hezbollah and peace advances; that's how we will come and see our state and its beauty and magic. My greetings.",
+      "summary_en": "Hassan! You need patience, the challenge is nice but make it realistic. God willing, all Lebanese will see the beauty of the South only when it is cleaned of the terrorist Hezbollah and peace advances; that's how we will come and see our state and its beauty and magic. My greetings.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354908",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T15:13:01Z",
+      "title": "🎦 تاکر کارلسون، مجری و فعال مشهور رسانه‌ای: جنگ ایران به‌ وضوح برخلاف چیزی است که ترامپ وعده داده بود 🔹 ما…",
+      "url": "https://t.me/iribnews/354908",
+      "summary": "🎦 تاکر کارلسون، مجری و فعال مشهور رسانه‌ای: جنگ ایران به‌ وضوح برخلاف چیزی است که ترامپ وعده داده بود 🔹 ما منافع اسرائیل را پیش از منافع خودمان اولویت قرار دادیم. ترامپ این کار را انجام داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354908"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Tucker Carlson, presenter and prominent media activist: the war with Iran clearly contradicts what Trump promised",
+      "summary_en": "Tucker Carlson, presenter and prominent media activist: the war with Iran clearly contradicts what Trump promised. We prioritised Israel's interests over our own. Trump did this.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354907",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:56:44Z",
+      "title": "یادداشت تحلیلی| مدیریت بر شناور‌های مضر در تنگه هرمز 🔹 دکتر حسن عابدینی، کارشناس ارشد مسائل بین الملل و معاون…",
+      "url": "https://t.me/iribnews/354907",
+      "summary": "یادداشت تحلیلی| مدیریت بر شناور‌های مضر در تنگه هرمز 🔹 دکتر حسن عابدینی، کارشناس ارشد مسائل بین الملل و معاون سیاسی صدا و سیما در یادداشتی نوشت: ایران از تنگه هرمز گرچه در ۴۷ سال کمتر به صورت واقعی وعملی در پاسداری از امنیت ملی استفاده کرده، دراین زمان به سبب تهدید نظامی دشمنان از همه ظرفیت آن برای دفاع مشروع بهره برداری شده است. 🔹 جمهوری اسلامی ایران در قبال آبراه هرمز سه حالت پیش رو دارد که زمان و پیامد هر یک متفاوت است: 🔹 ادامه مطلب: 👉 https://www.irib-news.ir/00OdyA @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354907"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Analytical note: Managing harmful vessels in the Strait of Hormuz",
+      "summary_en": "Analytical note: managing harmful vessels in the Strait of Hormuz. Dr Hassan Abidin, senior international affairs expert and political deputy of IRIB, wrote in a note: Iran, despite having less actually and practically used the Strait of Hormuz in 47 years for safeguarding national security, has in this time, due to military threats from enemies, drawn on all its capacity for legitimate defence. The Islamic Republic of Iran faces three options regarding the Strait of Hormuz, each with different timescales and consequences.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64929",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:53:27Z",
+      "title": "💢 تکذیب یک ادعا درباره واکنش رهبر انقلاب به نامه رییس جمهور 🔸 روابط عمومی دفتر رهبر انقلاب اسلامی در اطلاعیه…",
+      "url": "https://t.me/defapress_ir/64929",
+      "summary": "💢 تکذیب یک ادعا درباره واکنش رهبر انقلاب به نامه رییس جمهور 🔸 روابط عمومی دفتر رهبر انقلاب اسلامی در اطلاعیه ای تاکید کرد؛ مرجع رسمی انتشار پیام ها،اخبار و مطالب مرتبط با آیت الله سیدمجتبی حسینی خامنه ای، دفتر ایشان و دفتر حفظ و نشر آثار رهبر انقلاب است و هرگونه مطالبی خارج ازاین چارچوب فاقد سندیت و صحت می باشد. متن اطلاعیه روابط عمومی دفتر رهبر انقلاب اسلامی به این شرح است: بسم الله الرحمن الرحیم با گرامیداشت اربعین حسینی و ادای احترام به روح بلند رهبر شهید انقلاب به اطلاع مردم شریف و مبعوث شده ایران می رساند،در روزهای اخیر برخی نقل قول ها از رهبری معظم انقلاب اسلامی در فضای مجازی منتشر شده ا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64929"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Denial of a claim regarding the Leader of the Revolution's response to the President's letter",
+      "summary_en": "Denial of a claim regarding the Leader of the Revolution's response to the President's letter. The public relations office of the Office of the Leader of the Islamic Revolution stressed in a statement; the official source for the publication of messages, news and matters related to Ayatollah Seyyed Mojtaba Hosseini Khamenei, his office and the office for the preservation and publication of the Leader of the Revolution's works, is the official source, and any content outside this framework lacks authenticity and accuracy. The text of the public relations office statement of the Office of the Leader of the Islamic Revolution is as follows: In the name of God, the Most Compassionate, the Most Merciful. Commemorating the Arbaeen of Hussain and honouring the exalted spirit of the martyred leader of the revolution, we hereby inform the esteemed people and officials of Iran that in recent days some quotations from the esteemed Leader of the Islamic Revolution have been circulated in cyberspace.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/912",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:37:04Z",
+      "title": "📩 روابط عمومی دفتر رهبر انقلاب اسلامی در اطلاعیه‌ای تاکید کرد؛ ⚠️ مرجع رسمی انتشار پیام‌ها، اخبار و مطالب…",
+      "url": "https://t.me/rahbar_ir/912",
+      "summary": "📩 روابط عمومی دفتر رهبر انقلاب اسلامی در اطلاعیه‌ای تاکید کرد؛ ⚠️ مرجع رسمی انتشار پیام‌ها، اخبار و مطالب مرتبط با آیت‌الله سیدمجتبی حسینی خامنه‌ای، دفتر ایشان و دفتر حفظ و نشر آثار رهبر انقلاب است و هرگونه مطلبی خارج از این چارچوب فاقد سندیت و صحت می‌باشد 📖 متن اطلاعیه روابط عمومی دفتر رهبر انقلاب اسلامی به این شرح است: ✏️ بسم‌الله الرحمن الرحیم ▪️ با گرامیداشت اربعین حسینی و ادای احترام به روح بلند رهبر شهید انقلاب به اطلاع مردم شریف و مبعوث شده ایران می‌رساند، در روزهای اخیر برخی نقل قول‌ها از رهبری معظم انقلاب اسلامی در فضای مجازی منتشر شده است که متأسفانه زمینه‌ساز تشویش اذهان عمومی و ایج",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/912"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The public relations office of the Office of the Leader of the Islamic Revolution stressed in a statement: the official source for the publication of messages, news and matters related to Ayatollah Seyyed Mojtaba Hosseini Khamenei is the office",
+      "summary_en": "The public relations office of the Office of the Leader of the Islamic Revolution stressed in a statement: the official source for the publication of messages, news and matters related to Ayatollah Seyyed Mojtaba Hosseini Khamenei, his office and the office for the preservation and publication of the Leader of the Revolution's works, is the official source, and any content outside this framework lacks authenticity and accuracy. The text of the public relations office statement of the Office of the Leader of the Islamic Revolution is as follows: In the name of God, the Most Compassionate, the Most Merciful. Commemorating the Arbaeen of Hussain and honouring the exalted spirit of the martyred leader of the revolution, we hereby inform the esteemed people and officials of Iran that in recent days some quotations from the esteemed Leader of the Islamic Revolution have been circulated in cyberspace which unfortunately created grounds for disturbing public minds.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354906",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:35:14Z",
+      "title": "🔺 واشنگتن پست: هزینه ۱.۴ میلیارد دلاری حضور گارد ملی در واشنگتن؛ سناتور وارن: دلارهای مالیات‌دهندگان قلکی…",
+      "url": "https://t.me/iribnews/354906",
+      "summary": "🔺 واشنگتن پست: هزینه ۱.۴ میلیارد دلاری حضور گارد ملی در واشنگتن؛ سناتور وارن: دلارهای مالیات‌دهندگان قلکی برای شیرین‌کاری‌های سیاسی ترامپ نیست! 🔹 برآورد تازه‌ای نشان می‌دهد ادامه استقرار نیروهای گارد ملی در واشنگتن تا پایان دوره ترامپ، ۱.۴ میلیارد دلار دیگر برای مالیات‌دهندگان آمریکایی هزینه خواهد داشت. این رقم جدا از صدها میلیون دلاری است که تاکنون صرف این مأموریت شده؛ آن هم در شرایطی که وزارت جنگ آمریکا با کمبود بودجه روبه‌روست. 🔹 الیزابت وارن، سناتور دموکرات، این اقدام را «نمایش سیاسی ترامپ» خوانده است. آمار پلیس نیز نشان می‌دهد که جرایم خشونت‌آمیز واشنگتن کاهش محسوسی نداشته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354906"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Washington Post: cost of National Guard presence in Washington 1.4 billion dollars; Senator Warren: taxpayers' money is not for Trump's political embellishments!",
+      "summary_en": "Washington Post: cost of National Guard presence in Washington 1.4 billion dollars; Senator Warren: taxpayers' money is not for Trump's political embellishments! A recent estimate shows that continuing to deploy National Guard forces in Washington until the end of Trump's term will cost an additional 1.4 billion dollars for American taxpayers. This figure is separate from the hundreds of millions of dollars already spent on this mission; and this at a time when the US Department of Defense faces budget shortages. Elizabeth Warren, Democratic senator, has called this action a showcase of Trump's political theatre. Police statistics also show that violent crime in Washington has not declined noticeably.",
+      "has_figures": true,
+      "figures_examples": [
+        "1.4 billion"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354905",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:32:59Z",
+      "title": "دفتر رهبر انقلاب: مطلب منتشرشده در فضای مجازی که در آن فردی ادعایی را دربارهٔ واکنش رهبر انقلاب اسلامی به…",
+      "url": "https://t.me/iribnews/354905",
+      "summary": "دفتر رهبر انقلاب: مطلب منتشرشده در فضای مجازی که در آن فردی ادعایی را دربارهٔ واکنش رهبر انقلاب اسلامی به نامهٔ رئیس‌جمهور مطرح کرده از اساس کذب و خلاف واقع است متن اطلاعیهٔ روابط‌عمومی دفتر رهبر انقلاب: بسم‌الله الرحمن الرحیم 🔹 با گرامی‌داشت اربعین حسینی و ادای احترام به روح بلند رهبر شهید انقلاب به‌اطلاع مردم شریف و مبعوث‌شدهٔ ایران می رساند در روزهای گذشته برخی نقل‌قول‌ها از رهبری معظم انقلاب اسلامی در فضای مجازی منتشر شده که متاسفانه زمینه‌ساز تشویش اذهان عمومی و ایجاد انشقاق و اختلاف در جامعه است. بر همین اساس برخی نکات را درباره اخبار و مطالب مربوط به مقام معظم رهبری بیان می‌داریم. 🔹 مرج",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354905"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Office of the Leader of the Revolution: content circulated in cyberspace in which someone made claims about the Leader of the Islamic Revolution's response to the President's letter is fundamentally false and contrary to fact",
+      "summary_en": "Office of the Leader of the Revolution: content circulated in cyberspace in which someone made claims about the Leader of the Islamic Revolution's response to the President's letter is fundamentally false and contrary to fact. The text of the public relations office statement of the Office of the Leader of the Islamic Revolution: In the name of God, the Most Compassionate, the Most Merciful. Commemorating the Arbaeen of Hussain and honouring the exalted spirit of the martyred leader of the revolution, we hereby inform the esteemed people and officials of Iran that in recent days some quotations from the esteemed Leader of the Islamic Revolution have been circulated in cyberspace which unfortunately created grounds for disturbing public minds and creating rifts and divisions in society. On this basis we present some points regarding news and matters related to the esteemed Leader.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354904",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:19:27Z",
+      "title": "دیدار هادی العامری دبیر کل سازمان بدر عراق و عراقچی در حاشیه مراسم اربعین در کربلا @iribnews",
+      "url": "https://t.me/iribnews/354904",
+      "summary": "دیدار هادی العامری دبیر کل سازمان بدر عراق و عراقچی در حاشیه مراسم اربعین در کربلا @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354904"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting between Hadi al-Ameri, Secretary General of Iraq's Badr Organisation, and Araghchi on the sidelines of the Arbaeen ceremony in Karbala",
+      "summary_en": "Meeting between Hadi al-Ameri, Secretary General of Iraq's Badr Organisation, and Araghchi on the sidelines of the Arbaeen ceremony in Karbala",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb7dgeitp22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T14:18:04.229000Z",
+      "title": "US Secretary of State Marco Rubio said there has been progress in discussions with Iran and Oman to get more ships through the Strait of…",
+      "url": "https://www.jpost.com/middle-east/article-904566",
+      "summary": "US Secretary of State Marco Rubio said there has been progress in discussions with Iran and Oman to get more ships through the Strait of Hormuz, but no final agreement has been reached.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:3f68bcbabe9164b670e9b98ae4f93091",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-04T14:18:00Z",
+      "title": "🎯DISMANTLED: 10 weapon production machines used for the production of weapons & explosive devices in the…",
+      "url": "https://x.com/IDF/status/2084645098575290543",
+      "summary": "🎯DISMANTLED: 10 weapon production machines used for the production of weapons & explosive devices in the Qabatiya area in Judea & Samaria.— Israel Defense Forces (@IDF) Aug 4, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "10 weapon"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354903",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:15:11Z",
+      "title": "🎦 در آخرین نظرسنجی، اکثریت جامعه با ادامه تجمعات شبانه مردمی موافق بودند شاکری نژاد، رئیس مرکز تحقیقات سازمان…",
+      "url": "https://t.me/iribnews/354903",
+      "summary": "🎦 در آخرین نظرسنجی، اکثریت جامعه با ادامه تجمعات شبانه مردمی موافق بودند شاکری نژاد، رئیس مرکز تحقیقات سازمان صدا و سیما: 🔹 هر سال ۱۶۰ نظرسنجی از مردم در خصوص موضوعات روز کشور انجام می شود. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354903"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "In the latest poll, the majority of society approved the continuation of nightly popular gatherings Shakeri Nejad, head of IRIB Research Centre:",
+      "summary_en": "In the latest poll, the majority of society approved the continuation of nightly popular gatherings. Shakeri Nejad, head of IRIB Research Centre: 160 surveys are conducted with the public every year regarding current issues of the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64928",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:08:36Z",
+      "title": "💢 جهاد اسلامی: اسرائیل با چراغ سبز آمریکا، نسل‌کشی در غزه را ادامه می‌دهد 🔸 اسماعیل السنداوی، از رهبران جنبش…",
+      "url": "https://t.me/defapress_ir/64928",
+      "summary": "💢 جهاد اسلامی: اسرائیل با چراغ سبز آمریکا، نسل‌کشی در غزه را ادامه می‌دهد 🔸 اسماعیل السنداوی، از رهبران جنبش جهاد اسلامی فلسطین، در گفت‌وگویی ا با خبرگزاری «شهاب»، با تأکید بر اینکه گروه‌های فلسطینی با مسئولیت‌پذیری کامل با تمامی طرح‌ها و پیشنهادات برای برقراری آتش‌بس تعامل کرده‌اند، تصریح کرد  رژیم صهیونیستی باوجود تفاهم‌های حاصل‌شده، نه‌تنها به تعهدات خود عمل نکرده است. 🔸 به گفته او، رژیم اسرائیل حملات خود را تشدید و طرح‌های توسعه‌یافته‌ی خود برای تخریب غزه و کوچاندن اجباری ساکنان آن را در پیش گرفته است. 🔸 اشغالگران همچنان طرح خود را برای نابودی نوار غزه، کوچاندن ساکنان و غیرقابل‌تحمل کردن ز",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64928"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Islamic Jihad: Israel continues genocide in Gaza with US green light",
+      "summary_en": "Islamic Jihad: Israel continues genocide in Gaza with US green light. Ismail al-Sündaui, from the leadership of the Islamic Jihad movement in Palestine, in a conversation with news agency Shehab, while emphasising that Palestinian groups have responsibly engaged with all ceasefire plans and proposals, stated that the Zionist regime, despite the understandings reached, has not only failed to honour its commitments. According to him, the Israeli regime has intensified its attacks and adopted its developed plans for destroying Gaza and forcibly displacing its residents.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354902",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T14:07:03Z",
+      "title": "🎦 شبکه خبر، پرمخاطب ترین شبکه تلویزیونی ایران شاکری نژاد، رئیس مرکز تحقیقات سازمان صدا و سیما: 🔹 شبکه خبر پس…",
+      "url": "https://t.me/iribnews/354902",
+      "summary": "🎦 شبکه خبر، پرمخاطب ترین شبکه تلویزیونی ایران شاکری نژاد، رئیس مرکز تحقیقات سازمان صدا و سیما: 🔹 شبکه خبر پس از جنگ، به‌دلیل دقت، صحت و اعتماد مخاطب در خبررسانی در راس شبکه های پرمخاطب قرار گرفت. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354902"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "News network, most-watched television network in Iran Shakeri Nejad, head of IRIB Research Centre:",
+      "summary_en": "News network, most-watched television network in Iran. Shakeri Nejad, head of IRIB Research Centre: the News network, following the war, has topped the most-watched networks due to accuracy, truthfulness and the audience's confidence in news reporting.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb554lfom2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T13:38:45.279000Z",
+      "title": "The US Army has allegedly used up much of its stockpile of highly accurate long-range missiles during its war with Iran, raising concerns…",
+      "url": "https://www.jpost.com/international/article-904564",
+      "summary": "The US Army has allegedly used up much of its stockpile of highly accurate long-range missiles during its war with Iran, raising concerns about the military's readiness for future conflicts. \n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354901",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T13:31:01Z",
+      "title": "🔺 رویترز: ذخایر موشک‌های دوربرد دقیق آمریکا در جنگ با ایران به‌شدت کاهش یافته است 🔹 رویترز به نقل از چند منبع…",
+      "url": "https://t.me/iribnews/354901",
+      "summary": "🔺 رویترز: ذخایر موشک‌های دوربرد دقیق آمریکا در جنگ با ایران به‌شدت کاهش یافته است 🔹 رویترز به نقل از چند منبع آگاه گزارش داد ارتش آمریکا در جریان جنگ پنج‌ماهه با ایران، بخش بزرگی از ذخایر موشک‌های دوربرد خود را مصرف کرده است. به گفته این منابع، آمریکا تقریباً همه موشک‌های زمینی دوربرد از نوع «اتکمز» و «PrSM» را استفاده کرده و همچنین نزدیک به نیمی از ذخایر جهانی موشک‌های کروز «تاماهاوک» خود را به کار گرفته است. 🔹 بر اساس این گزارش، کاهش ذخایر موشکی باعث نگرانی برخی مقام‌های آمریکایی شده؛ زیرا ممکن است آمادگی ارتش این کشور برای بحران‌های احتمالی دیگر، از جمله در برابر روسیه یا چین، محدود شود. کا",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354901"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reuters: US long-range precision missile stocks have been severely depleted in war with Iran",
+      "summary_en": "Reuters: US long-range precision missile stocks have been severely depleted in war with Iran. Reuters reported, citing several informed sources, that the US military, during the five-month war with Iran, has consumed a large portion of its long-range missile stocks. According to these sources, the US has used almost all land-based long-range missiles of the ATACMS and PrSM type and has also used nearly half of its global Tomahawk cruise missile stocks. Based on this report, the reduction in missile stocks has caused concern among some US officials; as the readiness of this country's military for possible other crises, including against Russia or China, may be limited.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608045708",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-04T13:26:46Z",
+      "title": "Iran's president met Mojtaba Khamenei in the back seat of a car",
+      "url": "https://www.iranintl.com/en/202608045708",
+      "summary": "Iran's president was driven to a secret location in Tehran, led into the back seat of a car with tinted windows, and granted a few minutes in the dark beside a man he could not see. Afterwards, Masoud Pezeshkian asked whether the voice had really been the supreme leader's.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354899",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T13:25:01Z",
+      "title": "📸 حضور سید عباس عراقچی در نماز جماعت ظهر اربعین در حرم امام حسین (ع) @iribnews",
+      "url": "https://t.me/iribnews/354899",
+      "summary": "📸 حضور سید عباس عراقچی در نماز جماعت ظهر اربعین در حرم امام حسین (ع) @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354899"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Presence of Seyyed Abbas Araghchi in the congregational Dhuhr prayer of Arbaeen at the shrine of Imam Hussain, peace be upon him",
+      "summary_en": "Presence of Seyyed Abbas Araghchi in the congregational Dhuhr prayer of Arbaeen at the shrine of Imam Hussain, peace be upon him",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64927",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T13:20:20Z",
+      "title": "💢 هیچ مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد 🔸 رئیس ستاد مرکزی اربعین حسینی:  تاکنون بیش از…",
+      "url": "https://t.me/defapress_ir/64927",
+      "summary": "💢 هیچ مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد 🔸 رئیس ستاد مرکزی اربعین حسینی:  تاکنون بیش از سه میلیون و ۳۴۰ هزار نفر از هموطنان از مرزهای اربعینی کشور به مقصد عتبات عالیات مشرف شده‌اند. 🔸 نزدیک به دو میلیون و ۵۰۰ هزار نفر به کشور بازگشته‌اند. 🔸 در حال حاضر هیچ‌گونه مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد. 🔸 تمامی مواکب مستقر در مرزهای اربعینی تا روز جمعه به فعالیت خود ادامه می‌دهند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64927"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "No problems in the transit of pilgrims at the country's Arbaeen borders",
+      "summary_en": "No problems in the transit of pilgrims at the country's Arbaeen borders. Head of the Central Arbaeen Command: so far more than 3 million 340 thousand compatriots have crossed the country's Arbaeen borders heading to the holy shrines. Nearly 2 million 500 thousand have returned to the country. At present there are no problems in the transit of pilgrims at the country's Arbaeen borders. All the Mawakeb stationed at the country's Arbaeen borders will continue their activities until Friday.",
+      "has_figures": true,
+      "figures_examples": [
+        "3 million",
+        "340 thousand",
+        "2 million",
+        "500 thousand"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354898",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T13:18:01Z",
+      "title": "🔺 هیچ مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد رئیس ستاد مرکزی اربعین حسینی: 🔹 تاکنون بیش از سه…",
+      "url": "https://t.me/iribnews/354898",
+      "summary": "🔺 هیچ مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد رئیس ستاد مرکزی اربعین حسینی: 🔹 تاکنون بیش از سه میلیون و ۳۴۰ هزار نفر از هموطنان از مرزهای اربعینی کشور به مقصد عتبات عالیات مشرف شده‌اند. 🔹 نزدیک به دو میلیون و ۵۰۰ هزار نفر به کشور بازگشته‌اند. 🔹 در حال حاضر هیچ‌گونه مشکلی در تردد زائران در مرزهای اربعینی کشور وجود ندارد. 🔹 تمامی مواکب مستقر در مرزهای اربعینی تا روز جمعه به فعالیت خود ادامه می‌دهند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354898"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "No problems in the transit of pilgrims at the country's Arbaeen borders Head of the Central Arbaeen Command:",
+      "summary_en": "No problems in the transit of pilgrims at the country's Arbaeen borders. Head of the Central Arbaeen Command: so far more than 3 million 340 thousand compatriots have crossed the country's Arbaeen borders heading to the holy shrines. Nearly 2 million 500 thousand have returned to the country. At present there are no problems in the transit of pilgrims at the country's Arbaeen borders. All the Mawakeb stationed at the country's Arbaeen borders will continue their activities until Friday.",
+      "has_figures": true,
+      "figures_examples": [
+        "3 million",
+        "340 thousand",
+        "2 million",
+        "500 thousand"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msb3krdekm23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T13:10:35.746000Z",
+      "title": "Hamas will not change its mentality or abandon its goals, despite any deal, terror spokesperson Ghazi Hamad told Piers Morgan, avoiding a…",
+      "url": "https://www.jpost.com/middle-east/article-904547",
+      "summary": "Hamas will not change its mentality or abandon its goals, despite any deal, terror spokesperson Ghazi Hamad told Piers Morgan, avoiding a direct answer on disarmament and calling resistance to Israel the group’s “holy mission.”\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354897",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T13:04:40Z",
+      "title": "🎦 تعداد مصدومان حادثه شهرک صنعتی شمس‌آباد به ۱۸ نفر رسید + تصاویر اختصاصی رئیس اورژانس استان تهران: 🔹 حادثۀ…",
+      "url": "https://t.me/iribnews/354897",
+      "summary": "🎦 تعداد مصدومان حادثه شهرک صنعتی شمس‌آباد به ۱۸ نفر رسید + تصاویر اختصاصی رئیس اورژانس استان تهران: 🔹 حادثۀ شهرک صنعتی شمس‌آباد ۱۸ مصدوم داشته که ۵ مصدوم به مراکز درمانی منتقل شده‌ و اقدامات درمانی برای ۱۳ فرد دیگر در محل حادثه درحال انجام است. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354897"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Number of injured in Shams Abad industrial park incident reaches 18 + exclusive images. Head of Emergency Medicine in Tehran Province:",
+      "summary_en": "Number of injured in Shams Abad industrial park incident reaches 18 + exclusive images. Head of Emergency Medicine in Tehran Province: the incident in Shams Abad industrial park resulted in 18 injured, of whom 5 have been transferred to medical centres and medical procedures for the other 13 are being carried out at the scene of the incident.",
+      "has_figures": true,
+      "figures_examples": [
+        "18 injured"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/354896",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T12:59:05Z",
+      "title": "🎦 راهپیمایی جاماندگان اربعین در میشیگان آمریکا @iribnews",
+      "url": "https://t.me/iribnews/354896",
+      "summary": "🎦 راهپیمایی جاماندگان اربعین در میشیگان آمریکا @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354896"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "March of Arbaeen stragglers in Michigan, USA",
+      "summary_en": "March of Arbaeen stragglers in Michigan, USA",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/354895",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T12:40:34Z",
+      "title": "🔺 دیدار استانداران کربلا و بصره با عراقچی 🔹 نصیف الخطابی، استاندار کربلا و اسعد العیدانی، استاندار بصره با…",
+      "url": "https://t.me/iribnews/354895",
+      "summary": "🔺 دیدار استانداران کربلا و بصره با عراقچی 🔹 نصیف الخطابی، استاندار کربلا و اسعد العیدانی، استاندار بصره با عباس عراقچی، وزیر امور خارجه دیدار و گفتگو کردند. 🔹 در این دیدار بر نقش کلیدی همکاری‌های بین‌منطقه‌ای در تسهیل تردد زائران اربعین حسینی تأکید شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/354895"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of governors of Karbala and Basra with Araghchi",
+      "summary_en": "Meeting of governors of Karbala and Basra with Araghchi. Nasif al-Khattabi, Governor of Karbala, and Asaad al-Eidani, Governor of Basra, met and held talks with Abbas Araghchi, Foreign Minister. In this meeting, emphasis was placed on the key role of inter-regional cooperation in facilitating the transit of Arbaeen pilgrims.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64926",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T12:27:06Z",
+      "title": "💢 پورجمشیدیان: مدیریت مصرف آب کیفیت خدمات اربعین را ارتقا می‌دهد 🔸 رئیس ستاد مرکزی اربعین با تأکید بر این که…",
+      "url": "https://t.me/defapress_ir/64926",
+      "summary": "💢 پورجمشیدیان: مدیریت مصرف آب کیفیت خدمات اربعین را ارتقا می‌دهد 🔸 رئیس ستاد مرکزی اربعین با تأکید بر این که تأمین آب سالم و پایدار مهم‌ترین خدمت به زائران در مرز‌های اربعینی است، گفت: مدیریت علمی مصرف آب ضمن تضمین دسترسی پایدار زائران به این نیاز حیاتی، منابع لازم برای تقویت زیرساخت‌ها و ارتقای دیگر خدمات اربعین را فراهم می‌کند. 🔸 توسعه دسترسی زائران به آب آشامیدنی پایدار و استفاده از آب‌سردکن‌ها باید مورد توجه قرار گیرد و زائران نیز با همراه داشتن قمقمه و استفاده از آب سالم موجود در مرز‌ها می‌توانند در مدیریت مصرف آب نقش مؤثری داشته باشند. dnws.ir/003Zql @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64926"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pourjamshidian: water consumption management improves the quality of Arbaeen services",
+      "summary_en": "Pourjamshidian: water consumption management improves the quality of Arbaeen services. Head of the Central Arbaeen Command, whilst emphasising that the provision of safe and sustainable water is the most important service to pilgrims at the Arbaeen borders, said: scientific management of water consumption, whilst ensuring pilgrims' sustainable access to this vital need, provides the necessary resources to strengthen infrastructure and improve other Arbaeen services. Development of pilgrims' access to sustainable drinking water and the use of water coolers should be given attention, and pilgrims too, by carrying water bottles and using the safe water available at the borders, can play an effective role in water consumption management.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64917",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T12:21:16Z",
+      "title": "📷 راهپیمایی جاماندگان اربعین حسین/بخش سوم dnws.ir/003Zq9 @Defapress_ir",
+      "url": "https://t.me/defapress_ir/64917",
+      "summary": "📷 راهپیمایی جاماندگان اربعین حسین/بخش سوم dnws.ir/003Zq9 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64917"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "March of Arbaeen stragglers/part three",
+      "summary_en": "March of Arbaeen stragglers/part three",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:68c41e2630b5688fdf7204fe0d0f1f15",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-08-04T12:18:00Z",
+      "title": "A U.S. Air Force F-22 stealth fighter receives fuel from a KC-135 Stratotanker while in the skies over the…",
+      "url": "https://x.com/CENTCOM/status/2084614924030878207",
+      "summary": "A U.S. Air Force F-22 stealth fighter receives fuel from a KC-135 Stratotanker while in the skies over the Middle East. \nVideo\n  — U.S. Central Command (@CENTCOM) Aug 4, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64916",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T11:59:08Z",
+      "title": "💢 فرمانده سپاه تهران بزرگ: مردم مسیر مقاومت را تا پیروزی ادامه می‌دهند 🔸 فرمانده سپاه تهران بزرگ گفت: حضور…",
+      "url": "https://t.me/defapress_ir/64916",
+      "summary": "💢 فرمانده سپاه تهران بزرگ: مردم مسیر مقاومت را تا پیروزی ادامه می‌دهند 🔸 فرمانده سپاه تهران بزرگ گفت: حضور مردم در راهپیمایی جاماندگان اربعین، نشان‌دهنده تداوم مسیر مقاومت و ایستادگی است. dnws.ir/003ZqZ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64916"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander of Sepah Tehran: people continue the path of resistance to victory",
+      "summary_en": "Commander of Sepah Tehran: people continue the path of resistance to victory. The commander of Sepah Tehran said: the presence of people in the march of Arbaeen stragglers demonstrates the continuation of the path of resistance and steadfastness.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/911",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T11:45:14Z",
+      "title": "🖼 امتداد قیام ثارالله 📝 السَّلامُ‌ علیکَ یا ثاراللهِ وَ‌ ابنَ ثاره وَ الوِترَ المَوتور. السَّلامُ‌ علیکَ وَ…",
+      "url": "https://t.me/rahbar_ir/911",
+      "summary": "🖼 امتداد قیام ثارالله 📝 السَّلامُ‌ علیکَ یا ثاراللهِ وَ‌ ابنَ ثاره وَ الوِترَ المَوتور. السَّلامُ‌ علیکَ وَ علی جَدِّکَ وَ اَبیکَ وَ اُمِّکَ وَ اَخیکَ وَ المَعصومینَ مِن وُلدِک. سلام بر امامی که ندای حیات‌بخش قیامش، پژواکی عظیم و پرطنین از بعثت نبوی را تا اعماق دوردست تاریخ امتداد بخشید و از اثر آن انقلاب اسلامی ایران پدید آمد. انقلابی که از اساس حسینی بود و با شعار و مرام حسین ساخته شد و بالید. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت تشییع و تدفین آقای شهید ایران |  ۱۸/تیر/۱۴۰۵ 🖨 نسخه کیفیت اصلی ▪️ #یالثارات_الحسین | #باید_برخاست 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/911"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The continuation of the uprising of God's avenger",
+      "summary_en": "The continuation of the uprising of God's avenger. Peace be upon you, O avenger of God and son of he whose blood was avenged, and the wronged claim. Peace be upon you and upon your grandfather and father and mother and brother and the infallible ones among your offspring. Greetings to the Imam whose uprising's cry of life-giving, reverberating and resounding echo extended through the annals of distant history and from its effect the Islamic Revolution of Iran emerged. A revolution that was Husseini in its foundation and was built and grew with the slogan and principle of Hussain. From a message from the esteemed Leader of the Revolution on the occasion of the funeral and burial of the Martyr of Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64915",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T11:43:26Z",
+      "title": "🎥 واکنش زائران اربعین حسینی به زورگویی ترامپ dnws.ir/003Zqf @Defapress_ir",
+      "url": "https://t.me/defapress_ir/64915",
+      "summary": "🎥 واکنش زائران اربعین حسینی به زورگویی ترامپ dnws.ir/003Zqf @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64915"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reaction of Arbaeen pilgrims to Trump's bullying",
+      "summary_en": "Reaction of Arbaeen pilgrims to Trump's bullying",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64914",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T11:27:22Z",
+      "title": "💢 یمن از حمله پهپادی به فرودگاه نجران عربستان خبر داد 🔸 سخنگوی نیرو‌های مسلح یمن اعلام کرد که این کشور یک هدف…",
+      "url": "https://t.me/defapress_ir/64914",
+      "summary": "💢 یمن از حمله پهپادی به فرودگاه نجران عربستان خبر داد 🔸 سخنگوی نیرو‌های مسلح یمن اعلام کرد که این کشور یک هدف حساس در فرودگاه نجران عربستان را با پهپاد هدف قرار داده است. 🔸 سخنگوی نیرو‌های مسلح یمن خاطرنشان کرد که هرگونه نقض حریم هوایی این کشور بدون پاسخ و مجازات نخواهد ماند. dnws.ir/003Zqb @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64914"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yemen reports drone attack on Najran airport in Saudi Arabia",
+      "summary_en": "Yemen reports drone attack on Najran airport in Saudi Arabia. The spokesman for Yemen's armed forces announced that the country targeted a sensitive objective at Najran airport in Saudi Arabia with a drone. The spokesman for Yemen's armed forces stressed that any violation of this country's airspace will not go unanswered and unpunished.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64913",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T11:23:37Z",
+      "title": "🎥 سردار رادان: بیش‌از هزار اتوبوس برای بازگشت زائران پیش‌بینی شده‌است 🔸 یک سوم زائران هنوز بازنگشته‌اند که…",
+      "url": "https://t.me/defapress_ir/64913",
+      "summary": "🎥 سردار رادان: بیش‌از هزار اتوبوس برای بازگشت زائران پیش‌بینی شده‌است 🔸 یک سوم زائران هنوز بازنگشته‌اند که درخواست می‌شود از همه مرزها برای ورود به‌کشور استفاده کنند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64913"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Radan: over a thousand buses have been allocated for the return of pilgrims",
+      "summary_en": "Commander Radan: over a thousand buses have been allocated for the return of pilgrims. A third of pilgrims have yet to return and it is requested that all borders be used for entry to the country.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msauryqm662z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T11:09:22.108000Z",
+      "title": "Iran and Oman are close to reaching an agreement to reopen shipping traffic in the Strait of Hormuz, a source familiar with the details…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904533",
+      "summary": "Iran and Oman are close to reaching an agreement to reopen shipping traffic in the Strait of Hormuz, a source familiar with the details told The Jerusalem Post on Tuesday.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608049534",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-04T11:07:28Z",
+      "title": "Tehran hospital nurses beaten, dismissed after labor protest",
+      "url": "https://www.iranintl.com/en/202608049534",
+      "summary": "Nurses at a Tehran hospital were beaten and detained, with scores dismissed or suspended, after staging a strike over poor working conditions, Iran International has learned.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608048014",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-04T10:42:06Z",
+      "title": "US depleted 'virtually all' long-range precision missiles in Iran war - Reuters",
+      "url": "https://www.iranintl.com/en/202608048014",
+      "summary": "The US Army has used \"virtually all\" of its ATACMS and Precision Strike Missile supplies during the five-month war with Iran, two sources familiar with the data told Reuters.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msat6bjtnm2o",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T10:40:26.494000Z",
+      "title": "Ayatollah Mojtaba Khamenei reportedly warned Iranian President Pezeshkian that should he attempt to resign again, it would be accepted.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904539",
+      "summary": "Ayatollah Mojtaba Khamenei reportedly warned Iranian President Pezeshkian that should he attempt to resign again, it would be accepted.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/64903",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-04T10:38:03Z",
+      "title": "💢 حماسه جاماندگان اربعین حسینی در پایتخت 🔸 مراسم پیاده‌روی جاماندگان اربعین حسینی با حضور عاشقان سیدالشهداء…",
+      "url": "https://t.me/defapress_ir/64903",
+      "summary": "💢 حماسه جاماندگان اربعین حسینی در پایتخت 🔸 مراسم پیاده‌روی جاماندگان اربعین حسینی با حضور عاشقان سیدالشهداء (ع) از میدان آیینی امام حسین (ع) به سمت حرم عبدالعظیم حسنی (ع) در حال برگزاری است.  dnws.ir/003Zq3  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/64903"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Epic of Arbaeen stragglers in the capital",
+      "summary_en": "Epic of Arbaeen stragglers in the capital. The march of Arbaeen stragglers is being held with the presence of lovers of the Master of Martyrs, peace be upon him, from Imam Hussain Ceremonial Square towards the shrine of Abdul Azim Hassani, peace be upon him, in the capital.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msapcdl4yj23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T09:31:07.925000Z",
+      "title": "Iran and Oman are closer than ever to reaching an agreement to reopen shipping traffic in the Strait of Hormuz, US and Iranian officials…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904533",
+      "summary": "Iran and Oman are closer than ever to reaching an agreement to reopen shipping traffic in the Strait of Hormuz, US and Iranian officials told the New York Times on Monday, adding that the terms of the proposed agreement would lie heavily in Iran's favor. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608041760",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-04T09:06:29Z",
+      "title": "Tehran records heaviest damage in latest war, municipal report shows",
+      "url": "https://www.iranintl.com/en/202608041760",
+      "summary": "Tehran sustained the heaviest damage of any Iranian province during the 40-day conflict with US and Israel, with more than 50,000 homes damaged and the capital accounting for 650 reported strikes, according to a municipal report published on Monday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msandvu47f2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T08:56:13.196000Z",
+      "title": "Israel and Lebanon resumed talks in Rome as Hezbollah chief Naim Qassem denounced the negotiations and accused Lebanese President Joseph…",
+      "url": "https://www.jpost.com/middle-east/article-904530",
+      "summary": "Israel and Lebanon resumed talks in Rome as Hezbollah chief Naim Qassem denounced the negotiations and accused Lebanese President Joseph Aoun of abandoning his role as a unifying figure.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msamvlqv7v23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T08:48:12.617000Z",
+      "title": "Former Palestinian envoy to Lebanon, Ashraf Dabbour, was detained in Lebanon. Lebanon is now deciding whether or not to hand him over to…",
+      "url": "https://www.jpost.com/middle-east/article-904529",
+      "summary": "Former Palestinian envoy to Lebanon, Ashraf Dabbour, was detained in Lebanon. Lebanon is now deciding whether or not to hand him over to the Palestinian Authority, which accuses him of corruption.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608045484",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-04T08:34:17Z",
+      "title": "Aramco sidesteps Hormuz as Iran crisis cuts flows to a tenth",
+      "url": "https://www.iranintl.com/en/202608045484",
+      "summary": "Saudi Aramco is routing crude around the Strait of Hormuz via its East-West pipeline as the Iran-related crisis has cut shipping through the strait to a tenth of pre-conflict levels, Chief Executive Amin Nasser said on Tuesday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msain6w3lv2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T07:31:56.045000Z",
+      "title": "Iran planned on striking Ukraine in retaliation for its earlier strike on an Iranian vessel, but called it off after an \"apology,\" said…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904506",
+      "summary": "Iran planned on striking Ukraine in retaliation for its earlier strike on an Iranian vessel, but called it off after an \"apology,\" said Iran's military advisor to the Supreme Leader.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msah7joa622t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-04T07:06:23.813000Z",
+      "title": "Iran killed hundreds of US soldiers in strikes throughout July and wounded hundreds more, claimed Mohsen Rezaei, Iran's military advisor to…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904511",
+      "summary": "Iran killed hundreds of US soldiers in strikes throughout July and wounded hundreds more, claimed Mohsen Rezaei, Iran's military advisor to Supreme Leader Mojtaba Khamenei, in an interview on Monday with regime-owned Press TV.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-15759",
+      "source": "US Federal Register",
+      "source_detail": "State Department",
+      "source_tier": 1,
+      "category": "agency-rule",
+      "published_at": "2026-08-04T00:00:00Z",
+      "title": "Imposition of Nonproliferation Measures Against Foreign Persons, Including a Ban on U.S. Government Procurement",
+      "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15759/imposition-of-nonproliferation-measures-against-foreign-persons-including-a-ban-on-us-government",
+      "summary": "A determination has been made that a number of foreign persons have engaged in activities that warrant the imposition of measures pursuant to the Iran, North Korea, and Syria Nonproliferation Act (INKSNA).",
+      "details": {
+        "document_type": "Notice",
+        "agencies": "State Department",
+        "document_number": "2026-15759"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    }
+  ]
+}
