@@ -1,0 +1,1324 @@
+{
+  "generated_at": "2026-08-08T14:57:29.036955Z",
+  "window_since": "2026-08-08T05:00:00Z",
+  "window_until": "2026-08-08T14:55:49.136742Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 40,
+      "kept": 40,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 30,
+      "kept": 4,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "50 items dominated by regime-channel Journalist Day messaging and Pezeshkian/IRGC statements tying Strait of Hormuz reopening to US concessions, a reported maritime incident 18nm off Khusab, Oman, and a JPost report on US Gen. Caine seeking an Iran-war off-ramp; nothing from UK Parliament, State Department or OFAC.",
+  "threads": [
+    {
+      "label": "Strait of Hormuz conditions and Oman talks",
+      "summary": "IRGC spokesman Mohbati and Foreign Minister Araghchi said on regime channels that reopening the Strait of Hormuz is conditional on US acceptance of Iran's terms, while Oman negotiations continue. The SNSC secretary said via IRIB that the strait will not open 'until America corrects its conduct'; Araghchi said Tehran is 'very close' to an Oman agreement.",
+      "event_ids": [
+        "telegram:iribnews/355411",
+        "telegram:iribnews/355408",
+        "telegram:defapress_ir/65108",
+        "telegram:defapress_ir/65107"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Maritime incident off Oman coast",
+      "summary": "Defa Press and IRIB relayed a UKMTO report of an incident 18 nautical miles east of Khusab, Oman, with a projectile causing a fire aboard a vessel. Both regime outlets cited the UK Maritime Trade Operations organisation as the source.",
+      "event_ids": [
+        "telegram:defapress_ir/65112",
+        "telegram:iribnews/355407"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Reported US Joint Chiefs off-ramp search",
+      "summary": "The Jerusalem Post reported that US Chairman of the Joint Chiefs Gen. Dan Caine has been seeking an off-ramp in the Iran war over escalation concerns. Defa Press amplified the same account, framing Caine as pressing Trump for a diplomatic exit while avoiding appearing weak.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mskiopinjx2t",
+        "telegram:defapress_ir/65100"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Journalist Day messaging cycle",
+      "summary": "Regime outlets ran heavy Journalist Day content, with statements from Khamenei, judiciary chief Ezzati, parliament speaker Qalibaf, the General Staff and IRGC praising 'revolutionary media' and wartime coverage. IRIB officials said over 50 journalists reported through the war and that broadcasts ran from 7 locations under bombardment.",
+      "event_ids": [
+        "telegram:rahbar_ir/918",
+        "telegram:iribnews/355418",
+        "telegram:iribnews/355417",
+        "telegram:iribnews/355416",
+        "telegram:iribnews/355415",
+        "telegram:defapress_ir/65113",
+        "telegram:defapress_ir/65104",
+        "telegram:defapress_ir/65103",
+        "telegram:defapress_ir/65102",
+        "telegram:defapress_ir/65097",
+        "telegram:defapress_ir/65096",
+        "telegram:defapress_ir/65095"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic crackdown and dissent",
+      "summary": "Iran International and Jerusalem Post reported on Iran's continuing executions, arrests on national-security grounds, the summoning of cleric Mohammad-Bagher Kharrazi for calling to replace the Islamic Republic with an 'Islamic government', and the reported abduction and killing of pro-establishment singer Hamidreza Rajabzadeh. Iran International also reported nearly one million people dropped off social security rolls in the past year.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mslahu7mur26",
+        "iranintl:https://www.iranintl.com/en/202608082745",
+        "iranintl:https://www.iranintl.com/en/202608084712",
+        "iranintl:https://www.iranintl.com/en/202608084871",
+        "iranintl:https://www.iranintl.com/en/202608083256"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:defapress_ir/65114",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:45:11Z",
+      "title": "💢 بهرامی‌پور: باید زمینه شکل‌گیری نظام حقوقی نوین مبتنی بر دادرسی عادلانه فراهم شود 🔸 مسئول سازمان بسیج…",
+      "url": "https://t.me/defapress_ir/65114",
+      "summary": "💢 بهرامی‌پور: باید زمینه شکل‌گیری نظام حقوقی نوین مبتنی بر دادرسی عادلانه فراهم شود 🔸 مسئول سازمان بسیج حقوقدانان کشور، در آیین گرامیداشت روز بسیج حقوقدانان و هفته حقوق بشر اسلامی، گفت: جبهه حقوقدانان آزادی‌خواه عالم باید با مطالبه‌گری، زمینه شکل‌گیری یک نظام حقوقی نوین مبتنی بر عدالت و دادرسی‌های عادلانه و منصفانه را فراهم کنند تا مردم دنیا شاهد رفتار‌های دوگانه دستگاه‌های بین‌المللی نباشند. 🔸 زادگاه حقوق بشر اسلامی، متون فقهی و اسلامی ماست؛ اما امروز شاهد هستیم که در مقابل این آموزه‌ها، حقوق بشر آمریکایی در بسیاری از نقاط دنیا استقرار یافته که در واقع ابزاری برای سوءاستفاده نظام استکباری تبد",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65114"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bahrami Pour: The groundwork must be laid for the formation of a new legal system based on fair adjudication",
+      "summary_en": "Bahrami Pour: The groundwork must be laid for the formation of a new legal system based on fair adjudication. The head of the Basij Organisation of Legal Experts said at a ceremony marking the day of Basij legal experts and the week of Islamic human rights: The front of freedom-loving legal experts worldwide must, through advocacy, lay the groundwork for the formation of a new legal system based on justice and fair and equitable adjudication so that the people of the world do not witness the duplicitous conduct of international bodies. The birthplace of Islamic human rights lies in our jurisprudential and Islamic texts; however, today we witness that in the face of these teachings, American human rights has taken root in many parts of the world, which in fact serves as a tool for the exploitation of the imperialist system to abuse.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355418",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:41:33Z",
+      "title": "🎦 معاون سیاسی رسانه ملی: در ایام جنگ بیش از ۵۰ خبرنگار صداوسیما به صورت خوداتکا و به اصطلاح کوله پشتی کار…",
+      "url": "https://t.me/iribnews/355418",
+      "summary": "🎦 معاون سیاسی رسانه ملی: در ایام جنگ بیش از ۵۰ خبرنگار صداوسیما به صورت خوداتکا و به اصطلاح کوله پشتی کار خبری را یک تنه انجام دادند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355418"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy for Political Affairs at State Media: During the war, more than 50 IRIB journalists independently and on their own initiative conducted news reporting work single-handedly",
+      "summary_en": "Deputy for Political Affairs at State Media: During the war, more than 50 IRIB journalists independently and on their own initiative conducted news reporting work single-handedly.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355417",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:30:01Z",
+      "title": "🎦 معاون سیاسی رسانه ملی: به دلیل شرایط پدافندی، برنامه های شبکه خبر از ۷ جای  مختلف پخش می شود 🔹 در ایام جنگ…",
+      "url": "https://t.me/iribnews/355417",
+      "summary": "🎦 معاون سیاسی رسانه ملی: به دلیل شرایط پدافندی، برنامه های شبکه خبر از ۷ جای  مختلف پخش می شود 🔹 در ایام جنگ گویندگان و مجریان خبر ۲۴ ساعته زیر بمباران کار می کردند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355417"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy for Political Affairs at State Media: Due to air defence conditions, news network programmes were broadcast from 7 different locations",
+      "summary_en": "Deputy for Political Affairs at State Media: Due to air defence conditions, news network programmes were broadcast from 7 different locations. During the war, newsreaders and news anchors worked 24 hours under bombardment.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/355416",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:27:55Z",
+      "title": "🎦 رئیس رسانه ملی ۸۰ شب در محل کار پای آنتن نشست تا دچار مشکل نشویم معاون سیاسی رسانه ملی: 🔹 خبرنگارانی داشتیم…",
+      "url": "https://t.me/iribnews/355416",
+      "summary": "🎦 رئیس رسانه ملی ۸۰ شب در محل کار پای آنتن نشست تا دچار مشکل نشویم معاون سیاسی رسانه ملی: 🔹 خبرنگارانی داشتیم که ۱۶۰ شب متوالی از تجمعات گزارش گرفتند و منزل نرفتند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355416"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of State Media spent 80 nights at the workplace by the antenna so we would not encounter problems: Deputy for Political Affairs at State Media: We had journalists who reported from gatherings for 160 consecutive nights and did not go home.",
+      "summary_en": "Head of State Media spent 80 nights at the workplace by the antenna so we would not encounter problems: Deputy for Political Affairs at State Media: We had journalists who reported from gatherings for 160 consecutive nights and did not go home.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355415",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:20:13Z",
+      "title": "🎦 معاون سیاسی رسانه ملی: اقدام بهنگام رسانه ملی در همان شب ۲۳ خرداد که فرماندهان ما شهید شدند این بود که…",
+      "url": "https://t.me/iribnews/355415",
+      "summary": "🎦 معاون سیاسی رسانه ملی: اقدام بهنگام رسانه ملی در همان شب ۲۳ خرداد که فرماندهان ما شهید شدند این بود که بلافاصله از همه جا پوشش زنده داشتیم. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355415"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy for Political Affairs at State Media: The timely action of state media on the very night of 23 Khordad when our commanders were martyred was that we immediately had live coverage from everywhere.",
+      "summary_en": "Deputy for Political Affairs at State Media: The timely action of state media on the very night of 23 Khordad when our commanders were martyred was that we immediately had live coverage from everywhere.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65113",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:15:24Z",
+      "title": "🎥 خبرنگارانی که در یک ‌سال اخیر به شهادت رسیدند 🔸 به‌مناسبت روز خبرنگار، خبرگزاری دفاع مقدس تصاویری از…",
+      "url": "https://t.me/defapress_ir/65113",
+      "summary": "🎥 خبرنگارانی که در یک ‌سال اخیر به شهادت رسیدند 🔸 به‌مناسبت روز خبرنگار، خبرگزاری دفاع مقدس تصاویری از خبرنگاران و فعالان عرصه رسانه را که در جنگ‌های تحمیلی اخیر در ایران و جبهه مقاومت به شهادت رسیدند، منتشر کرد. dnws.ir/003a3x @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65113"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Journalists martyred in recent years: On the occasion of Journalist Day, the Sacred Defence News Agency released images of journalists and media activists who were martyred in the recent imposed wars in Iran and the resistance front.",
+      "summary_en": "Journalists martyred in recent years: On the occasion of Journalist Day, the Sacred Defence News Agency released images of journalists and media activists who were martyred in the recent imposed wars in Iran and the resistance front.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355414",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:15:01Z",
+      "title": "🎦 معاون سیاسی رسانه ملی: هر خبری حتما باید صحت سنجی و راستی آزمایی شود تا از آنتن شبکه خبر پخش شود 🔹 ما…",
+      "url": "https://t.me/iribnews/355414",
+      "summary": "🎦 معاون سیاسی رسانه ملی: هر خبری حتما باید صحت سنجی و راستی آزمایی شود تا از آنتن شبکه خبر پخش شود 🔹 ما نمی‌توانیم بر مبنای شایعه و اخبار جعلی کار کنیم. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355414"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy for Political Affairs at State Media: Every piece of news must absolutely be verified and fact-checked before it is broadcast on the news network antenna. We cannot operate on the basis of rumour and false news.",
+      "summary_en": "Deputy for Political Affairs at State Media: Every piece of news must absolutely be verified and fact-checked before it is broadcast on the news network antenna. We cannot operate on the basis of rumour and false news.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355413",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:10:01Z",
+      "title": "🎦 رسانه ملی در ایام جنگ در میدان بود و از مردم گفت معاون سیاسی رسانه ملی: 🔹 در ایام جنگ، بخش اخبار خارجی تمام…",
+      "url": "https://t.me/iribnews/355413",
+      "summary": "🎦 رسانه ملی در ایام جنگ در میدان بود و از مردم گفت معاون سیاسی رسانه ملی: 🔹 در ایام جنگ، بخش اخبار خارجی تمام وقت خبرها و رویدادها و بازتاب‌هایی که در رسانه‌های دیگر اتفاق می‌افتاد رصد می کرد. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355413"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "State Media was in the field during the war and spoke from the people: Deputy for Political Affairs at State Media: During the war, the foreign news section monitored all the time the news, events and repercussions that were occurring in other media outlets.",
+      "summary_en": "State Media was in the field during the war and spoke from the people: Deputy for Political Affairs at State Media: During the war, the foreign news section monitored all the time the news, events and repercussions that were occurring in other media outlets.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mslahu7mur26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-08T14:05:04.120000Z",
+      "title": "As Iran’s executions continue outside the international spotlight, the regime is expanding its broader crackdown, with arrests and harsher…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-904899",
+      "summary": "As Iran’s executions continue outside the international spotlight, the regime is expanding its broader crackdown, with arrests and harsher sentences increasingly justified on national-security grounds. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355412",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T14:02:09Z",
+      "title": "🔺 اعلام کشته شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔹 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته شدن…",
+      "url": "https://t.me/iribnews/355412",
+      "summary": "🔺 اعلام کشته شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔹 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته شدن صغیر بن عزیز رئیس ستاد مشترک مزدوران سعودی در حملات موشکی دقیق اخیر نیروهای مسلح یمن به اردوگاه مزدوران خبر داد.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355412"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Announcement of the killing of the chief of staff of Saudi mercenaries in Marib, Yemen",
+      "summary_en": "Announcement of the killing of the chief of staff of Saudi mercenaries in Marib, Yemen. The defence ministry of the government of mercenaries and the Aden-backed government announced the killing of Saghir bin Aziz, chief of staff of Saudi mercenaries, in the recent precision missile strikes by Yemen's armed forces on the mercenary camp.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355411",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:55:01Z",
+      "title": "🎦 معاون سیاسی رسانه ملی: اتفاقات یک سال گذشته بی نظیر بود و برای اولین بار آمریکا دوران افول خودش را شروع کرد…",
+      "url": "https://t.me/iribnews/355411",
+      "summary": "🎦 معاون سیاسی رسانه ملی: اتفاقات یک سال گذشته بی نظیر بود و برای اولین بار آمریکا دوران افول خودش را شروع کرد و الان در موضوع تنگه هرمز گیر افتاده اند 🔹 عابدینی: ۱۰ روز تمام کشور رهبر نداشت و مردم کشور را رهبری کردند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355411"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy for Political Affairs at State Media: The events of the past year were unprecedented and for the first time America has begun its own period of decline and is now stuck in the matter of the Strait of Hormuz. Secretary: For 10 full days the country had no leader and the people led the country.",
+      "summary_en": "Deputy for Political Affairs at State Media: The events of the past year were unprecedented and for the first time America has begun its own period of decline and is now stuck in the matter of the Strait of Hormuz. Secretary: For 10 full days the country had no leader and the people led the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65112",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:54:22Z",
+      "title": "💢 وقوع حادثه دریایی در سواحل عمان 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۱۸ مایل دریایی در شرق…",
+      "url": "https://t.me/defapress_ir/65112",
+      "summary": "💢 وقوع حادثه دریایی در سواحل عمان 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۱۸ مایل دریایی در شرق خصب در سلطان‌نشین عمان خبر داد. 🔸 این پرتابه باعث بروز آتش‌سوزی در کشتی شده است. dnws.ir/003a40 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65112"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Maritime incident off the coasts of Oman: Britain's maritime trade operations organisation reported an incident 18 nautical miles east of Khusab in the Sultanate of Oman. The projectile caused a fire to break out on the vessel.",
+      "summary_en": "Maritime incident off the coasts of Oman: Britain's maritime trade operations organisation reported an incident 18 nautical miles east of Khusab in the Sultanate of Oman. The projectile caused a fire to break out on the vessel.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355410",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:53:35Z",
+      "title": "🔺 توصیه‌ام به رسانه‌های داخلی کشورمان با همه تفاوتهای فکری، سیاسی و فرهنگی که ممکن است داشته باشند این است که…",
+      "url": "https://t.me/iribnews/355410",
+      "summary": "🔺 توصیه‌ام به رسانه‌های داخلی کشورمان با همه تفاوتهای فکری، سیاسی و فرهنگی که ممکن است داشته باشند این است که از پرداختن به نقاط ضعف بطور جدی خودداری کنند. 🔹 بخشی از پیام رهبر معظّم انقلاب به‌مناسبت آغاز سال ۱۴۰۵ شمسی | ۲۹/اسفند/۱۴۰۴ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355410"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "My recommendation to our country's domestic media is that despite all the ideological, political and cultural differences that may exist, they refrain seriously from addressing weaknesses. Part of the message of the Supreme Leader of the Revolution on the occasion of the beginning of the year 1405 solar hijri.",
+      "summary_en": "My recommendation to our country's domestic media is that despite all the ideological, political and cultural differences that may exist, they refrain seriously from addressing weaknesses. Part of the message of the Supreme Leader of the Revolution on the occasion of the beginning of the year 1405 solar hijri.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/918",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:49:55Z",
+      "title": "📝 توصیه‌ام به رسانه‌های داخلی کشورمان با همه تفاوتهای فکری، سیاسی و فرهنگی که ممکن است داشته باشند این است که…",
+      "url": "https://t.me/rahbar_ir/918",
+      "summary": "📝 توصیه‌ام به رسانه‌های داخلی کشورمان با همه تفاوتهای فکری، سیاسی و فرهنگی که ممکن است داشته باشند این است که از پرداختن به نقاط ضعف بطور جدی خودداری کنند. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت آغاز سال ۱۴۰۵ شمسی | ۲۹/اسفند/۱۴۰۴ 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/918"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "My recommendation to our country's domestic media is that despite all the ideological, political and cultural differences that may exist, they refrain seriously from addressing weaknesses.",
+      "summary_en": "My recommendation to our country's domestic media is that despite all the ideological, political and cultural differences that may exist, they refrain seriously from addressing weaknesses. Part of the message of the Supreme Leader of the Revolution on the occasion of the beginning of the year 1405 solar hijri.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355409",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:41:54Z",
+      "title": "🎦 وقتی بارش باران در عصر تابستان اهالی پایتخت را غافلگیر می کند 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/355409",
+      "summary": "🎦 وقتی بارش باران در عصر تابستان اهالی پایتخت را غافلگیر می کند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355409"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "When rainfall in summer afternoon surprises the inhabitants of the capital",
+      "summary_en": "When rainfall in summer afternoon surprises the inhabitants of the capital.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355408",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:41:34Z",
+      "title": "🔺 دبیر شورای‌عالی امنیت ملی در پیامی به‌مناسبت روز خبرنگار: تا آمریکا رفتارش را تصحیح نکند، تنگهٔ هرمز باز…",
+      "url": "https://t.me/iribnews/355408",
+      "summary": "🔺 دبیر شورای‌عالی امنیت ملی در پیامی به‌مناسبت روز خبرنگار: تا آمریکا رفتارش را تصحیح نکند، تنگهٔ هرمز باز نخواهد شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355408"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Secretary of the Supreme National Security Council in a message on the occasion of Journalist Day: Until America corrects its conduct, the Strait of Hormuz will not open.",
+      "summary_en": "Secretary of the Supreme National Security Council in a message on the occasion of Journalist Day: Until America corrects its conduct, the Strait of Hormuz will not open.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msl6i4tpib2q",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-08T13:29:25.616000Z",
+      "title": "A Ukrainian strike on an Iranian vessel in the Caspian Sea may appear to mark the convergence of two separate conflicts. In reality, the…",
+      "url": "https://www.jpost.com/international/article-904896",
+      "summary": "A Ukrainian strike on an Iranian vessel in the Caspian Sea may appear to mark the convergence of two separate conflicts. In reality, the Russia-Ukraine and US-Iran wars may be more intertwined than previously thought. \n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355407",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:19:15Z",
+      "title": "🔺 وقوع حادثه دریایی در سواحل عمان 🔹 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۱۸ مایل دریایی در شرق…",
+      "url": "https://t.me/iribnews/355407",
+      "summary": "🔺 وقوع حادثه دریایی در سواحل عمان 🔹 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۱۸ مایل دریایی در شرق خصب در سلطان نشین عمان خبر داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355407"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Maritime incident off the coasts of Oman. Britain's maritime trade operations organisation reported an incident 18 nautical miles east of Khusab in the Sultanate of Oman.",
+      "summary_en": "Maritime incident off the coasts of Oman. Britain's maritime trade operations organisation reported an incident 18 nautical miles east of Khusab in the Sultanate of Oman.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355406",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T13:16:34Z",
+      "title": "🔺 سقوط آسانسور در میدان آرژانتین با ۹ مصدوم   سخنگوی اورژانس تهران: 🔹 حادثه سقوط آسانسور امروز در ساعت ۱۲:۳۷…",
+      "url": "https://t.me/iribnews/355406",
+      "summary": "🔺 سقوط آسانسور در میدان آرژانتین با ۹ مصدوم   سخنگوی اورژانس تهران: 🔹 حادثه سقوط آسانسور امروز در ساعت ۱۲:۳۷ دقیقه در خیابان احمد قصیر میدان آرژانتین به سامانه ۱۱۵ اعلام شد. 🔹 یک دستگاه اتوبوس آمبولانس، یک دستگاه موتور، سه دستگاه آمبولانس به همراه یک دستگاه…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355406"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Lift collapse in Argentina Square with 9 injured. Spokesman for Tehran Emergency Services: The lift collapse incident today at 12:37 was reported to system 115 on Ahmad Qasir Street in Argentina Square.",
+      "summary_en": "Lift collapse in Argentina Square with 9 injured. Spokesman for Tehran Emergency Services: The lift collapse incident today at 12:37 was reported to system 115 on Ahmad Qasir Street in Argentina Square. One bus ambulance, one motorcycle, three ambulances along with one command vehicle were dispatched to the scene and so far this incident has resulted in 9 injured.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65111",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T12:56:20Z",
+      "title": "💢 کشته‌شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔸 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته‌شدن «صغیر…",
+      "url": "https://t.me/defapress_ir/65111",
+      "summary": "💢 کشته‌شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔸 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته‌شدن «صغیر بن عزیز» رئیس ستاد مشترک مزدوران سعودی در حملات موشکی دقیق اخیر نیروهای مسلح یمن به اردوگاه مزدوران خبر داد. dnws.ir/003a3l @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65111"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Killing of the chief of staff of Saudi mercenaries in Marib, Yemen. The defence ministry of the government of mercenaries and the Aden-backed government announced the killing of Saghir bin Aziz, chief of staff of Saudi mercenaries, in the recent precision missile strikes by Yemen's armed forces on the mercenary camp.",
+      "summary_en": "Killing of the chief of staff of Saudi mercenaries in Marib, Yemen. The defence ministry of the government of mercenaries and the Aden-backed government announced the killing of Saghir bin Aziz, chief of staff of Saudi mercenaries, in the recent precision missile strikes by Yemen's armed forces on the mercenary camp.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msl4byzjjw26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-08T12:50:12.855000Z",
+      "title": "Lebanese Kataeb leader Sami Gemayel says the Shiite population is a victim of Hezbollah and there should, therefore, be an “intifada”…",
+      "url": "https://www.jpost.com/middle-east/article-904893",
+      "summary": "Lebanese Kataeb leader Sami Gemayel says the Shiite population is a victim of Hezbollah and there should, therefore, be an “intifada” (uprising) /seperation against the group. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355404",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T12:45:05Z",
+      "title": "🎦 آتش‌سوزی ساختمان اداره مالیات اندونزی را ویران کرد 🔹 آتش‌سوزی مهیبی در جاکارتا، پایتخت اندونزی، رخ داد و به…",
+      "url": "https://t.me/iribnews/355404",
+      "summary": "🎦 آتش‌سوزی ساختمان اداره مالیات اندونزی را ویران کرد 🔹 آتش‌سوزی مهیبی در جاکارتا، پایتخت اندونزی، رخ داد و به سرعت  ساختمان ۱۶ طبقه مالیات این کشور را  فرا گرفت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355404"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Fire destroys Indonesia's tax office building. A massive fire broke out in Jakarta, the capital of Indonesia, and rapidly engulfed the 16-storey tax building of the country.",
+      "summary_en": "Fire destroys Indonesia's tax office building. A massive fire broke out in Jakarta, the capital of Indonesia, and rapidly engulfed the 16-storey tax building of the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355403",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T12:30:49Z",
+      "title": "🔺 اعلام کشته شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔹 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته شدن…",
+      "url": "https://t.me/iribnews/355403",
+      "summary": "🔺 اعلام کشته شدن رئیس ستاد مشترک مزدوران سعودی در مأرب یمن 🔹 وزارت دفاع دولت مزدور و سرسپرده عدن از کشته شدن صغیر بن عزیز رئیس ستاد مشترک مزدوران سعودی در حملات موشکی دقیق اخیر نیروهای مسلح یمن به اردوگاه مزدوران خبر داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355403"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Announcement of the killing of the chief of staff of Saudi mercenaries in Marib, Yemen. The defence ministry of the government of mercenaries and the Aden-backed government announced the killing of Saghir bin Aziz, chief of staff of Saudi mercenaries, in the recent precision missile strikes by Yemen's armed forces on the mercenary camp.",
+      "summary_en": "Announcement of the killing of the chief of staff of Saudi mercenaries in Marib, Yemen. The defence ministry of the government of mercenaries and the Aden-backed government announced the killing of Saghir bin Aziz, chief of staff of Saudi mercenaries, in the recent precision missile strikes by Yemen's armed forces on the mercenary camp.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608083256",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-08T12:25:05Z",
+      "title": "What the Islamic Republic does to its women footballers",
+      "url": "https://www.iranintl.com/en/202608083256",
+      "summary": "Late last month, Iran's finest striker sat across from the country's judiciary chief and asked him to help her find a job. Last week, two of her former teammates became Australian citizens. Between those two scenes lies everything the Islamic Republic offers its sportswomen.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:824432a8b3c14c80bdf43cb92fdc21b0",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-08T12:25:00Z",
+      "title": "An IDF soldier was moderately hurt in an \"operational accident\" in southern Lebanon earlier today, the military says. The IDF says the soldier was taken to a hospital and his family was notified.",
+      "url": "https://x.com/manniefabian/status/2086066355720143278",
+      "summary": "An IDF soldier was moderately hurt in an \"operational accident\" in southern Lebanon earlier today, the military says.\n\nThe IDF says the soldier was taken to a hospital and his family was notified.— Emanuel (Mannie) Fabian (@manniefabian) Aug 8, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65110",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T12:21:01Z",
+      "title": "💢 پزشکیان: معیشت مردم در اولویت کاری دولت است 🔸 رئیس جمهور گفت: معیشت مردم و تأمین کالا‌های اساسی در اولویت…",
+      "url": "https://t.me/defapress_ir/65110",
+      "summary": "💢 پزشکیان: معیشت مردم در اولویت کاری دولت است 🔸 رئیس جمهور گفت: معیشت مردم و تأمین کالا‌های اساسی در اولویت کاری دولت قرار دارد و با وجود دو جنگ تحمیلی با کمبود کالا در کشور مواجه نبودیم. 🔸 ایران با اتکا به میدان و دیپلماسی در تفاهم‌نامه اسلام‌آباد با قدرت عمل کرده و علت برخورد ایران با آمریکا در روز‌های گذشته، تخلف طرف آمریکایی از این تفاهم‌نامه بوده است. 🔸 آمریکا استعمارگر و قاتل است و اگر، زورش برسد دلش نمی‌خواهد جمهوری اسلامی باشد و در این امر شکی نیست. dnws.ir/003a3O @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65110"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: People's livelihoods are a priority for the government. The President said: people's livelihoods and the provision of essential goods are a priority for the government's work and despite two imposed wars we have not faced a shortage of goods in the country. Iran has acted with power in the Islamabad agreement relying on the field and diplomacy, and the reason for Iran's conduct towards America in recent days has been America's violation of this agreement. America is colonialist and a killer and if it had the power it would not want the Islamic Republic to exist and there is no doubt in this matter.",
+      "summary_en": "Pezeshkian: People's livelihoods are a priority for the government. The President said: people's livelihoods and the provision of essential goods are a priority for the government's work and despite two imposed wars we have not faced a shortage of goods in the country. Iran has acted with power in the Islamabad agreement relying on the field and diplomacy, and the reason for Iran's conduct towards America in recent days has been America's violation of this agreement. America is colonialist and a killer and if it had the power it would not want the Islamic Republic to exist and there is no doubt in this matter.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65109",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T12:09:01Z",
+      "title": "♨️ بسته خبری استان‌ها 💢 «روایت حضور، خدمت و امید»؛ سه مأموریت قرارگاه رسانه‌ای شهید نائینی در سمنان…",
+      "url": "https://t.me/defapress_ir/65109",
+      "summary": "♨️ بسته خبری استان‌ها 💢 «روایت حضور، خدمت و امید»؛ سه مأموریت قرارگاه رسانه‌ای شهید نائینی در سمنان dnws.ir/003a0g 💢 سرهنگ حر زاده: خبرنگاران راویان بی‌پیرایه حق و حقیقت هستند+ فیلم dnws.ir/003a1q 💢 ادای احترام اصحاب رسانه همدان به مقام شامخ شهدا+ تصاویر dnws.ir/003a32 💢 خبرنگار؛ روایتگر روز‌هایی که نباید فراموش شوند dnws.ir/003a0a 💢 رسانه در میدان جنگ؛ از مدیریت ادراک تا تولید امید dnws.ir/003a1F 💢 رسانه‌ها؛ ستون فقرات جنگ روایت‌ها dnws.ir/003a12 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65109"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Provincial news package: \"Narrative of Presence, Service and Hope\"; three missions of Shahid Naini media command in Semnan. Colonel Her Zade: Journalists are unsullied narrators of truth and rights. Respect paid by Hamadan media personnel to the lofty status of the martyrs. Journalist; the narrator of days that should not be forgotten. Media in the field of war; from perception management to hope production. Media; the backbone of war narratives.",
+      "summary_en": "Provincial news package: \"Narrative of Presence, Service and Hope\"; three missions of Shahid Naini media command in Semnan. Colonel Her Zade: Journalists are unsullied narrators of truth and rights. Respect paid by Hamadan media personnel to the lofty status of the martyrs. Journalist; the narrator of days that should not be forgotten. Media in the field of war; from perception management to hope production. Media; the backbone of war narratives.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355402",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:58:06Z",
+      "title": "⚽️ محل میزبانی استقلال و پرسپولیس در لیگ برتر مشخص شد 🔹 دیدارهای استقلال و پرسپولیس در فصل جدید لیگ برتر در…",
+      "url": "https://t.me/iribnews/355402",
+      "summary": "⚽️ محل میزبانی استقلال و پرسپولیس در لیگ برتر مشخص شد 🔹 دیدارهای استقلال و پرسپولیس در فصل جدید لیگ برتر در ورزشگاه شهر قدس انجام خواهند شد؛ بدین ترتیب به احتمال فراوان این دیدارها با حضور تماشاگران انجام می‌شوند. 🔹 دیدارهای لیگ برتر فصل آینده از جمعه ۲۳ مرداد آغاز می‌شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355402"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The venue for Esteghlal and Persepolis hosting in the Premier League has been determined. Matches between Esteghlal and Persepolis in the new Premier League season will be held at Shahr Qods Stadium; this way these matches will likely be held with the presence of spectators. Premier League matches of the next season will begin on Friday 23 Mordad.",
+      "summary_en": "The venue for Esteghlal and Persepolis hosting in the Premier League has been determined. Matches between Esteghlal and Persepolis in the new Premier League season will be held at Shahr Qods Stadium; this way these matches will likely be held with the presence of spectators. Premier League matches of the next season will begin on Friday 23 Mordad.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65108",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:55:24Z",
+      "title": "💢 سردار محبی: بازشدن تنگه هرمز منوط به پذیرش کامل شروط ایران است 🔸 سخنگوی سپاه پاسداران انقلاب اسلامی گفت:…",
+      "url": "https://t.me/defapress_ir/65108",
+      "summary": "💢 سردار محبی: بازشدن تنگه هرمز منوط به پذیرش کامل شروط ایران است 🔸 سخنگوی سپاه پاسداران انقلاب اسلامی گفت: بازگشایی تنگه هرمز تابع سازوکار و شرایط اختصاصی جمهوری اسلامی ایران است و ارتباطی به مذاکرات ایران و عمان ندارد. 🔸 تنگه هرمز برای ما صرفاً یک آبراه اقتصادی نیست، بلکه یک مؤلفه قدرت جغرافیایی و استراتژیک است. 🔸 بازشدن تنگه هرمز منوط به پذیرش کامل شروط ایران از سوی آمریکا و دست برداشتن آنان از دخالت در روند مذاکرات منطقه‌ای است؛ هر زمان که آمریکا شرایط ایران را بپذیرد، قطعاً تنگه هرمز باز خواهد شد. dnws.ir/003a3H @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65108"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Mohbati: Opening the Strait of Hormuz is conditional on America's full acceptance of Iran's conditions. The spokesman for the Islamic Revolution Guards Corps said: Opening the Strait of Hormuz is subject to the mechanism and special conditions of the Islamic Republic of Iran and has no connection to Iran-Oman negotiations. The Strait of Hormuz is not merely an economic waterway for us, but rather a component of geographic and strategic power. Opening the Strait of Hormuz is conditional on America's full acceptance of Iran's conditions and their refraining from interference in the process of regional negotiations; whenever America accepts Iran's conditions, the Strait of Hormuz will certainly open.",
+      "summary_en": "Commander Mohbati: Opening the Strait of Hormuz is conditional on America's full acceptance of Iran's conditions. The spokesman for the Islamic Revolution Guards Corps said: Opening the Strait of Hormuz is subject to the mechanism and special conditions of the Islamic Republic of Iran and has no connection to Iran-Oman negotiations. The Strait of Hormuz is not merely an economic waterway for us, but rather a component of geographic and strategic power. Opening the Strait of Hormuz is conditional on America's full acceptance of Iran's conditions and their refraining from interference in the process of regional negotiations; whenever America accepts Iran's conditions, the Strait of Hormuz will certainly open.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355401",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:45:49Z",
+      "title": "🔺 سقوط آسانسور در میدان آرژانتین با ۹ مصدوم سخنگوی اورژانس تهران: 🔹 حادثه سقوط آسانسور امروز در ساعت ۱۲:۳۷…",
+      "url": "https://t.me/iribnews/355401",
+      "summary": "🔺 سقوط آسانسور در میدان آرژانتین با ۹ مصدوم سخنگوی اورژانس تهران: 🔹 حادثه سقوط آسانسور امروز در ساعت ۱۲:۳۷ دقیقه در خیابان احمد قصیر میدان آرژانتین به سامانه ۱۱۵ اعلام شد. 🔹 یک دستگاه اتوبوس آمبولانس، یک دستگاه موتور، سه دستگاه آمبولانس به همراه یک دستگاه خودرو فرماندهی به محل حادثه اعزام شد و تاکنون این حادثه ۹ مصدوم داشته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355401"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Lift collapse in Argentina Square with 9 injured. Spokesman for Tehran Emergency Services: The lift collapse incident today at 12:37 was reported to system 115 on Ahmad Qasir Street in Argentina Square. One bus ambulance, one motorcycle, three ambulances along with one command vehicle were dispatched to the scene and so far this incident has resulted in 9 injured.",
+      "summary_en": "Lift collapse in Argentina Square with 9 injured. Spokesman for Tehran Emergency Services: The lift collapse incident today at 12:37 was reported to system 115 on Ahmad Qasir Street in Argentina Square. One bus ambulance, one motorcycle, three ambulances along with one command vehicle were dispatched to the scene and so far this incident has resulted in 9 injured.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65107",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:41:01Z",
+      "title": "💢 عراقچی: مذاکرات با عمان در حال انجام است/ خیلی به توافق نزدیک هستیم 🔸 وزیر امور خارجه کشورمان در رابطه با…",
+      "url": "https://t.me/defapress_ir/65107",
+      "summary": "💢 عراقچی: مذاکرات با عمان در حال انجام است/ خیلی به توافق نزدیک هستیم 🔸 وزیر امور خارجه کشورمان در رابطه با باز شدن تنگه هرمز گفت: مذاکرات با عمان در حال انجام است و خیلی به توافق نزدیک هستیم، اما باز شدن تنگه هرمز تابع شرایط دیگری است. 🔸 در گذشته TSS یا مسیری وجود داشت که دیگر از نظر جمهوری اسلامی این مسیر برای تردد کشتی‌ها قابل قبول نیست و لازم است یک TSS جدیدی در نظر گرفته شود که البته دارای پیچیدگی‌های گسترده فنی و حقوقی است. 🔸 موارد نقض تفاهم‌نامه پاکستان باید یک به یک پیگیری شود و این امریکا بود که تفاهم‌نامه را نقض کرد. dnws.ir/003a3P @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65107"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Araghchi: Negotiations with Oman are ongoing / We are very close to an agreement. Our Foreign Minister regarding the opening of the Strait of Hormuz said: Negotiations with Oman are ongoing and we are very close to an agreement, but opening the Strait of Hormuz is subject to other conditions. In the past there was a TSS or a route that from the perspective of the Islamic Republic is no longer acceptable for the passage of ships and it is necessary to establish a new TSS which of course has extensive technical and legal complexities. Instances of violation of the Pakistan agreement must be pursued one by one and it was America that violated the agreement.",
+      "summary_en": "Araghchi: Negotiations with Oman are ongoing / We are very close to an agreement. Our Foreign Minister regarding the opening of the Strait of Hormuz said: Negotiations with Oman are ongoing and we are very close to an agreement, but opening the Strait of Hormuz is subject to other conditions. In the past there was a TSS or a route that from the perspective of the Islamic Republic is no longer acceptable for the passage of ships and it is necessary to establish a new TSS which of course has extensive technical and legal complexities. Instances of violation of the Pakistan agreement must be pursued one by one and it was America that violated the agreement.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355400",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:39:39Z",
+      "title": "🎦 پزشکیان: آمریکا استعمارگر و قاتل است   رئیس جمهور در نشست خبری با خبرنگاران 🔹 آمریکا نمی‌خواهد جمهوری…",
+      "url": "https://t.me/iribnews/355400",
+      "summary": "🎦 پزشکیان: آمریکا استعمارگر و قاتل است   رئیس جمهور در نشست خبری با خبرنگاران 🔹 آمریکا نمی‌خواهد جمهوری اسلامی باشد ولی گفت‌وگوها او را وادار به همراهی کرد؛ چرا دستاوردها را خراب می‌کنیم.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355400"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: America is colonialist and a killer. The President at a press conference with journalists: America does not want the Islamic Republic to exist but dialogue compelled it to come along; why are we spoiling the achievements.",
+      "summary_en": "Pezeshkian: America is colonialist and a killer. The President at a press conference with journalists: America does not want the Islamic Republic to exist but dialogue compelled it to come along; why are we spoiling the achievements.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/355399",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:37:57Z",
+      "title": "🎦 پزشکیان: آمریکا استعمارگر و قاتل است رئیس جمهور در نشست خبری با خبرنگاران 🔹 آمریکا نمی‌خواهد جمهوری اسلامی…",
+      "url": "https://t.me/iribnews/355399",
+      "summary": "🎦 پزشکیان: آمریکا استعمارگر و قاتل است رئیس جمهور در نشست خبری با خبرنگاران 🔹 آمریکا نمی‌خواهد جمهوری اسلامی باشد ولی گفت‌وگوها او را وادار به همراهی کرد؛ چرا دستاوردها را خراب می‌کنیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/355399"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: America is colonialist and a killer. The President at a press conference with journalists: America does not want the Islamic Republic to exist but dialogue compelled it to come along; why are we spoiling the achievements.",
+      "summary_en": "Pezeshkian: America is colonialist and a killer. The President at a press conference with journalists: America does not want the Islamic Republic to exist but dialogue compelled it to come along; why are we spoiling the achievements.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65106",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T11:24:20Z",
+      "title": "💢 همان ذهنیت عامل بمباران اتمی هیروشیما، امروز در واشنگتن حاکم است 🔸 مسعود پزشکیان در فضای مجازی نوشت: در…",
+      "url": "https://t.me/defapress_ir/65106",
+      "summary": "💢 همان ذهنیت عامل بمباران اتمی هیروشیما، امروز در واشنگتن حاکم است 🔸 مسعود پزشکیان در فضای مجازی نوشت: در سالروز بمباران اتمی آمریکا علیه هیروشیما و ناگازاکی ــ که از بزرگ‌ترین جنایت‌ها علیه بشریت به شمار می‌رود ــ کسانی که این فاجعه هولناک را محکوم می‌کنند، باید همان ذهنیتی را که امروز نیز در واشنگتن حاکم است و تهدید به نابودی ملت‌ها و تخریب زیرساخت‌های غیرنظامی می‌کند، محکوم کنند. dnws.ir/003a2g @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65106"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The very mentality of the perpetrators of the atomic bombing of Hiroshima prevails in Washington today. Masoud Pezeshkian wrote on social media: On the anniversary of America's atomic bombing of Hiroshima and Nagasaki—which is counted among the greatest crimes against humanity—those who condemn this terrible tragedy must condemn that very mentality which prevails in Washington today and threatens the destruction of nations and the demolition of civilian infrastructure.",
+      "summary_en": "The very mentality of the perpetrators of the atomic bombing of Hiroshima prevails in Washington today. Masoud Pezeshkian wrote on social media: On the anniversary of America's atomic bombing of Hiroshima and Nagasaki—which is counted among the greatest crimes against humanity—those who condemn this terrible tragedy must condemn that very mentality which prevails in Washington today and threatens the destruction of nations and the demolition of civilian infrastructure.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65105",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T10:56:01Z",
+      "title": "💢 بررسی طرح ساخت پناهگاه‌های شهری در صحن شورا 🔸 سیدمحمد آقامیری رئیس کمیته عمران شورای اسلامی شهر تهران در…",
+      "url": "https://t.me/defapress_ir/65105",
+      "summary": "💢 بررسی طرح ساخت پناهگاه‌های شهری در صحن شورا 🔸 سیدمحمد آقامیری رئیس کمیته عمران شورای اسلامی شهر تهران در گفت‌و‌گو با دفاع‌پرس، از تدوین طرحی برای ساماندهی ساخت و توسعه پناهگاه‌های شهری خبر داد. 🔸 بر اساس بررسی‌های انجام‌شده، بیش از ۸۰ ایستگاه مترو قابلیت استفاده به‌عنوان پناهگاه را دارند و این موضوع نیز به شهروندان اطلاع‌رسانی شده است. همچنین تعدادی از پارکینگ‌های زیرسطحی در محلات مختلف نیز شناسایی شده‌اند که در شرایط اضطراری امکان استفاده از آنها به‌عنوان پناهگاه وجود دارد. 🔸 خوشبختانه کشور از ثبات و امنیت مناسبی برخوردار بوده و تاکنون شرایطی ایجاد نشده که شهروندان به‌طور گسترده نیاز به است",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65105"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Examination of the plan for building urban shelters in the council chamber. Seyyed Mohammad Aghamiri, head of the construction committee of the Tehran Islamic City Council, in conversation with Sacred Defence Press, announced the drafting of a plan for the organising of the construction and development of urban shelters. Based on investigations carried out, more than 80 metro stations have the capacity to be used as shelters and this matter has also been communicated to citizens. A number of underground car parks in various districts have also been identified which in emergency situations have the potential to be used as shelters. Fortunately, the country has enjoyed suitable stability and security and so far conditions have not arisen requiring citizens on a widespread scale to",
+      "summary_en": "Examination of the plan for building urban shelters in the council chamber. Seyyed Mohammad Aghamiri, head of the construction committee of the Tehran Islamic City Council, in conversation with Sacred Defence Press, announced the drafting of a plan for the organising of the construction and development of urban shelters. Based on investigations carried out, more than 80 metro stations have the capacity to be used as shelters and this matter has also been communicated to citizens. A number of underground car parks in various districts have also been identified which in emergency situations have the potential to be used as shelters. Fortunately, the country has enjoyed suitable stability and security and so far conditions have not arisen requiring citizens on a widespread scale to",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608076370",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-08T10:20:47Z",
+      "title": "Iran moves to ratify Caspian Sea pact with seabed rights still unsettled",
+      "url": "https://www.iranintl.com/en/202608076370",
+      "summary": "Iran is moving to ratify the Caspian treaty it left dormant for seven years, choosing the depths of a war to settle the status of its one quiet frontier, and reopening the oldest wound in its modern diplomacy: the belief that Tehran signed away half a sea.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65104",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T10:16:01Z",
+      "title": "💢 مجاهدت اصحاب رسانه بخش مهمی از منظومه قدرت ملی است 🔸 ستاد کل نیروهای مسلح و قرارگاه مرکزی حضرت خاتم‌الانبیا…",
+      "url": "https://t.me/defapress_ir/65104",
+      "summary": "💢 مجاهدت اصحاب رسانه بخش مهمی از منظومه قدرت ملی است 🔸 ستاد کل نیروهای مسلح و قرارگاه مرکزی حضرت خاتم‌الانبیا (ص) در پیامی به‌مناسبت روز خبرنگار، تأکید کرد: مجاهدت‌های اصحاب رسانه، بخش مهمی از منظومه قدرت ملی و دفاع از امنیت روانی جامعه محسوب می‌شود. 🔸 روز خبرنگار، فرصتی مغتنم برای تکریم جایگاه والای اصحاب رسانه و تجلیل از مجاهدانی است که با تعهد، شجاعت و ولایت‌مداری، به روایت حقانیت و تنویر و اقناع افکار عمومی می‌پردازند. این عزیزان در عرصه‌ی «جهاد تبیین»، با تمام توان در مسیر آگاهی‌بخشی به جامعه و روشنگری افکار عمومی در سطوح ملی و فراملی گام برمی‌دارند. 🔸 بی‌تردید، مجاهدت‌های اصحاب رسانه، بخ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65104"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The efforts of media personnel are an important part of the national power system. The General Staff of the Armed Forces and the Central Command of Khatam al-Anbiya in a message on the occasion of Journalist Day, emphasised: The efforts of media personnel constitute an important part of the national power system and defence of society's psychological security. Journalist Day is an opportune occasion to honour the lofty status of media personnel and to celebrate those who, with commitment, courage and loyalty to the principles of the revolution, devote themselves to narrating the truth and enlightening and persuading public opinion. These esteemed individuals in the field of 'explanation and exposition jihad', with all their capacity advance in the path of raising awareness in society and enlightening public opinion at national and international levels. Undoubtedly, the efforts of media personnel constitute an important part of",
+      "summary_en": "The efforts of media personnel are an important part of the national power system. The General Staff of the Armed Forces and the Central Command of Khatam al-Anbiya in a message on the occasion of Journalist Day, emphasised: The efforts of media personnel constitute an important part of the national power system and defence of society's psychological security. Journalist Day is an opportune occasion to honour the lofty status of media personnel and to celebrate those who, with commitment, courage and loyalty to the principles of the revolution, devote themselves to narrating the truth and enlightening and persuading public opinion. These esteemed individuals in the field of 'explanation and exposition jihad', with all their capacity advance in the path of raising awareness in society and enlightening public opinion at national and international levels. Undoubtedly, the efforts of media personnel constitute an important part of",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65103",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T09:21:43Z",
+      "title": "💢 حضور ناصر ابوشریف در خبرگزاری دفاع مقدس 🔸 نماینده جنبش جهاد اسلامی فلسطین در ایران به مناسبت روز خبرنگار در…",
+      "url": "https://t.me/defapress_ir/65103",
+      "summary": "💢 حضور ناصر ابوشریف در خبرگزاری دفاع مقدس 🔸 نماینده جنبش جهاد اسلامی فلسطین در ایران به مناسبت روز خبرنگار در خبرگزاری دفاع‌ مقدس حضور یافت. dnws.ir/003a2e @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65103"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The presence of Nasser Abu Sharif at the Sacred Defence News Agency. The representative of the Islamic Jihad Movement of Palestine in Iran was present at the Sacred Defence News Agency on the occasion of Journalist Day.",
+      "summary_en": "The presence of Nasser Abu Sharif at the Sacred Defence News Agency. The representative of the Islamic Jihad Movement of Palestine in Iran was present at the Sacred Defence News Agency on the occasion of Journalist Day.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65102",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T08:51:01Z",
+      "title": "💢 جهانگیر: بیش از ۵۰ هزار وکالت از مردم برای پیگیری جنایات آمریکا دریافت کرده‌ایم 🔸 سخنگوی قوه قضاییه در پاسخ…",
+      "url": "https://t.me/defapress_ir/65102",
+      "summary": "💢 جهانگیر: بیش از ۵۰ هزار وکالت از مردم برای پیگیری جنایات آمریکا دریافت کرده‌ایم 🔸 سخنگوی قوه قضاییه در پاسخ به دفاع‌پرس گفت: بیش از ۵۰ هزار وکالت از مردم دریافت و اقدامات لازم برای پیگیری این شکایات انجام شده و ابلاغ‌های واقعی نیز در خصوص شکایات مطرح‌شده به مبادی ذی‌ربط صورت گرفته است. 🔸 دعاوی مطرح‌شده در شعبه ۵۵ دادگاه حقوقی تهران علیه دولت آمریکا و سران رژیم صهیونیستی در حال پیگیری است. 🔸 از ابتدای جنگ رمضان، سامانه پیامکی با هدف پاسخگویی به نیازهای مردم در حوزه‌های کارشناسی، وکالت و سایر موضوعات مرتبط راه‌اندازی شده و به درخواست‌ها و پرسش‌های مردم پاسخ می‌دهد. dnws.ir/003a1y @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65102"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Jahangiri: We have received more than 50,000 powers of attorney from the people to pursue America's crimes. The spokesman for the judiciary, in response to Sacred Defence Press, said: We have received more than 50,000 powers of attorney from the people and necessary measures have been taken to pursue these complaints and actual notices have been issued regarding the complaints raised to relevant bodies. Cases raised in Branch 55 of the Tehran civil court are being pursued against the government of America and the leaders of the Zionist regime. Since the beginning of Ramadan war, an SMS system has been set up with the aim of responding to the needs of the people in the fields of expertise, legal representation and other related matters and responds to the requests and questions of the people.",
+      "summary_en": "Jahangiri: We have received more than 50,000 powers of attorney from the people to pursue America's crimes. The spokesman for the judiciary, in response to Sacred Defence Press, said: We have received more than 50,000 powers of attorney from the people and necessary measures have been taken to pursue these complaints and actual notices have been issued regarding the complaints raised to relevant bodies. Cases raised in Branch 55 of the Tehran civil court are being pursued against the government of America and the leaders of the Zionist regime. Since the beginning of Ramadan war, an SMS system has been set up with the aim of responding to the needs of the people in the fields of expertise, legal representation and other related matters and responds to the requests and questions of the people.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608084712",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-08T08:27:50Z",
+      "title": "Iranian religious singer abducted and killed - IRGC media",
+      "url": "https://www.iranintl.com/en/202608084712",
+      "summary": "Hamidreza Rajabzadeh, a pro-establishment Iranian religious singer, was abducted and killed after being missing for several days, the IRGC-affiliated Tasnim news agency reported on Saturday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65101",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T08:20:13Z",
+      "title": "🎥 به یاد خبرنگارِ شهید «فرشته باقری» dnws.ir/003a28 @Defapress_ir",
+      "url": "https://t.me/defapress_ir/65101",
+      "summary": "🎥 به یاد خبرنگارِ شهید «فرشته باقری» dnws.ir/003a28 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65101"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "In memory of the martyred journalist Farshte Bagheri.",
+      "summary_en": "In memory of the martyred journalist Farshte Bagheri.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608082745",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-08T08:14:57Z",
+      "title": "Cleric summoned after calling to replace Islamic Republic with ‘Islamic government’",
+      "url": "https://www.iranintl.com/en/202608082745",
+      "summary": "Iranian cleric Mohammad-Bagher Kharrazi was summoned to the Special Clerical Court after calling for the Islamic Republic to be replaced by a more hardline “Islamic government” and outlining plans to mobilize a 250,000-strong network capable of surrounding government sites.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65100",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T08:01:47Z",
+      "title": "💢 فرمانده ارتش تروریستی آمریکا در جست‌وجوی «رمپ خروج» 🔸 ژنرال «دن کین» رئیس ستاد مشترک ارتش تروریستی آمریکا،…",
+      "url": "https://t.me/defapress_ir/65100",
+      "summary": "💢 فرمانده ارتش تروریستی آمریکا در جست‌وجوی «رمپ خروج» 🔸 ژنرال «دن کین» رئیس ستاد مشترک ارتش تروریستی آمریکا، در روز‌های اخیر به صورت پنهانی و آشکار در تلاش است تا «دونالد ترامپ» رئیس‌جمهور آمریکا را برای یافتن یک راه خروج دیپلماتیک و سریع از جنگ با ایران متقاعد کند. 🔸 منابع آگاه می‌گویند که دن کین به شدت محتاط عمل می‌کند تا مبادا ترامپ او را یک ژنرال ضعیف یا شکست‌خورده تلقی کند. او تلاش می‌کند به ترامپ بفهماند که «نابود کردن» یک چیز است و «دستیابی به اهداف سیاسی و استراتژیک» چیزی کاملاً متفاوت. 🔸 سی‌ان‌ان در این زمینه می‌گوید: در هفته‌های گذشته «ژنرال دن کین» بالاترین مقام نظامی آمریکا، به طور",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65100"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander of America's terrorist army in search of an 'exit ramp'. General Dan Keen, chairman of the joint chiefs of staff of America's terrorist army, in recent days is secretly and openly attempting to persuade US President Donald Trump to find a diplomatic and swift way out of the war with Iran. Informed sources say that Dan Keen is acting very cautiously lest Trump regard him as a weak or defeated general. He is trying to make it clear to Trump that 'destroying' something is one thing and 'achieving political and strategic objectives' is something entirely different. CNN in this regard says: in recent weeks General Dan Keen, the highest-ranking US military official, in",
+      "summary_en": "Commander of America's terrorist army in search of an 'exit ramp'. General Dan Keen, chairman of the joint chiefs of staff of America's terrorist army, in recent days is secretly and openly attempting to persuade US President Donald Trump to find a diplomatic and swift way out of the war with Iran. Informed sources say that Dan Keen is acting very cautiously lest Trump regard him as a weak or defeated general. He is trying to make it clear to Trump that 'destroying' something is one thing and 'achieving political and strategic objectives' is something entirely different. CNN in this regard says: in recent weeks General Dan Keen, the highest-ranking US military official, in",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65099",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T07:32:23Z",
+      "title": "🎥 انیمیشن‌ خلبانان اف-۵ 🔸 وقتی حماسه‌سازی خلبانان نیروی هوایی ارتش جمهوری اسلامی ایران و بمباران پایگاه نظامی…",
+      "url": "https://t.me/defapress_ir/65099",
+      "summary": "🎥 انیمیشن‌ خلبانان اف-۵ 🔸 وقتی حماسه‌سازی خلبانان نیروی هوایی ارتش جمهوری اسلامی ایران و بمباران پایگاه نظامی آمریکا در کویت سوژه هنرمندان بین‌المللی می‌شود. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65099"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Animation of F-5 pilots. When the epic-making of the pilots of the air force of the Islamic Republic of Iran and the bombing of a US military base in Kuwait becomes the subject of international artists.",
+      "summary_en": "Animation of F-5 pilots. When the epic-making of the pilots of the air force of the Islamic Republic of Iran and the bombing of a US military base in Kuwait becomes the subject of international artists.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65098",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T07:19:01Z",
+      "title": "💢 سبک فرماندهی شهید دین‌شعاری/ چرا تخریب‌چی‌ها حاج‌محسن را «پدر» می‌دانستند؟ 🔸 «محمد علی‌قاسمی» از نیرو‌های…",
+      "url": "https://t.me/defapress_ir/65098",
+      "summary": "💢 سبک فرماندهی شهید دین‌شعاری/ چرا تخریب‌چی‌ها حاج‌محسن را «پدر» می‌دانستند؟ 🔸 «محمد علی‌قاسمی» از نیرو‌های گردان تخریب لشکر ۲۷ در گفت‌وگو با دفاع‌پرس گفت: تخریب‌چی‌ها شهید دین‌شعاری را فقط فرمانده نمی‌دانستند؛ او پدری بود که میان میدان مین، با مهربانی، مراقبت و حضور بی‌وقفه‌اش، امنیت روحی نیروها را تضمین می‌کرد و در سخت‌ترین لحظات کنارشان می‌ایستاد. 🔸 ما همیشه حاج محسن را می‌دیدیم. ایشان اخلاق جالبی داشتند: برنامه منظمی داشتند که وقتی برای مأموریت، شناسایی یا جلسات نرفته بودند، یک روز در میان یا دو روز در میان به یکی از چادر‌ها می‌آمدند و ناهار را با بچه‌ها می‌خوردند. 🔸 علیرغم اینکه حاج محسن ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65098"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The command style of Shahid Dineshvari / Why did demolition fighters call Hajj Mohsen 'father'? Mohammad Ali Ghasemi from the forces of the demolition squad of Division 27 in conversation with Sacred Defence Press said: Demolition fighters did not only know Shahid Dineshvari as a commander; he was a father who among the minefield, with kindness, care and constant presence, ensured the psychological security of the forces and stood by them in the most difficult moments. We always saw Hajj Mohsen. He had a wonderful character: he had an organised programme that when he did not go for missions, reconnaissance or meetings, he would come to one of the tents every other day or every two days and have lunch with the men. Despite the fact that Hajj Mohsen",
+      "summary_en": "The command style of Shahid Dineshvari / Why did demolition fighters call Hajj Mohsen 'father'? Mohammad Ali Ghasemi from the forces of the demolition squad of Division 27 in conversation with Sacred Defence Press said: Demolition fighters did not only know Shahid Dineshvari as a commander; he was a father who among the minefield, with kindness, care and constant presence, ensured the psychological security of the forces and stood by them in the most difficult moments. We always saw Hajj Mohsen. He had a wonderful character: he had an organised programme that when he did not go for missions, reconnaissance or meetings, he would come to one of the tents every other day or every two days and have lunch with the men. Despite the fact that Hajj Mohsen",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mskiopinjx2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-08T06:59:24.304000Z",
+      "title": "Report: US Chairman of the Joint Chiefs of Staff, Gen. Dan Caine, has been looking for an off-ramp in the Iran war over concerns regarding…",
+      "url": "https://www.jpost.com/international/article-904885",
+      "summary": "Report: US Chairman of the Joint Chiefs of Staff, Gen. Dan Caine, has been looking for an off-ramp in the Iran war over concerns regarding the implications of escalating US strikes against Iran.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65097",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T06:48:26Z",
+      "title": "💢 حجت‌الاسلام اژه‌ای: خبرنگار متعهد، هم‌سنگر رزمندگان پشت لانچر است 🔸 رئیس قوه قضاییه گفت: امروز که استکبار…",
+      "url": "https://t.me/defapress_ir/65097",
+      "summary": "💢 حجت‌الاسلام اژه‌ای: خبرنگار متعهد، هم‌سنگر رزمندگان پشت لانچر است 🔸 رئیس قوه قضاییه گفت: امروز که استکبار جهانی تمامی توان خود را در کارزار ناجوانمردانه جنگ شناختی به میدان آورده است، قلم خبرنگار متعهد ما، بسان تیری در چله‌ی کمان اقتدار ملی است. 🔸 خبرنگاری که سعی می‌کند خبرش درست و دقیق و سریع باشد و در عین حال التهاب و تشنج اجتماعی خلق نکند و امنیت روانی مردم را تثبیت کند، حقیقتاً هم‌سنگر همان رزمندگان پشت لانچر است که از تمامیت ارضی و عزت و اقتدار ایران عزیز دفاع و صیانت می‌کنند. 🔸 خبرنگار متعهد، دیده‌بان تیزبین میدان جنگ روایت‌هاست؛ او که با کلامی سدید و قلمی بصیر، خاکریز‌های ذهن جامعه را",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65097"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ayatollah Ezzati: The committed journalist is alongside the fighters behind the launcher. The head of the judiciary said: Today, when global arrogance has deployed all its power in a cowardly cognitive war campaign, the pen of our committed journalist is like an arrow in the bow of national might. A journalist who seeks to make his news accurate and precise and timely whilst not creating social tension and stabilizing the psychological security of the people is truly alongside those fighters behind the launcher who defend and protect Iran's territorial integrity and might. The committed journalist is the keen-eyed observer of the battlefield of narratives; he who with sound speech and discerning pen builds the ramparts of society's mind",
+      "summary_en": "Ayatollah Ezzati: The committed journalist is alongside the fighters behind the launcher. The head of the judiciary said: Today, when global arrogance has deployed all its power in a cowardly cognitive war campaign, the pen of our committed journalist is like an arrow in the bow of national might. A journalist who seeks to make his news accurate and precise and timely whilst not creating social tension and stabilizing the psychological security of the people is truly alongside those fighters behind the launcher who defend and protect Iran's territorial integrity and might. The committed journalist is the keen-eyed observer of the battlefield of narratives; he who with sound speech and discerning pen builds the ramparts of society's mind",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65096",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T06:17:01Z",
+      "title": "💢 قالیباف: مأموریت خبرنگاران دفاع از اقتدار فرهنگی ملت است 🔸 رئیس مجلس شورای اسلامی تاکید کرد: خبرنگاران…",
+      "url": "https://t.me/defapress_ir/65096",
+      "summary": "💢 قالیباف: مأموریت خبرنگاران دفاع از اقتدار فرهنگی ملت است 🔸 رئیس مجلس شورای اسلامی تاکید کرد: خبرنگاران رزمندگانی هستند که سنگرشان آگاهی، سلاح‌شان حقیقت و مأموریت‌شان دفاع از امنیت روانی، هویت ملی و اقتدار فرهنگی یک ملت است. 🔸 سرنوشت ملت‌ها علاوه بر آنکه در میدان آتش رقم بخورد، در میدان روایت تعیین می‌شود و میدان‌های نبرد تنها بر خاک و دریا و آسمان شکل نمی‌گیرند. صهیونیسم و استکبار جهانی تنها شهر‌ها را بمباران نمی‌کنند، آنها حقیقت را هدف قرار داده و اعتماد ملت‌ها را نشانه گرفته‌اند و اگر روزی با گلوله به جنگ تمدن‌ها می‌رفتند، اکنون با خبر، تصویر، شایعه و تحریف به میدان آمده‌اند. 🔸 جنگ تحمیلی ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65096"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: The mission of journalists is to defend the nation's cultural might. The speaker of the Islamic Consultative Assembly emphasised: Journalists are combatants whose trench is awareness, whose weapon is truth and whose mission is defence of psychological security, national identity and the cultural might of a nation. The fate of nations is determined not only on the field of fire but on the field of narrative and fields of battle do not take shape only on land and sea and in the sky. Zionism and global arrogance do not only bombard cities; they have targeted truth and aimed at the confidence of nations and if nations once went to war over civilisations with bullets, today they have entered the field with news, images, rumours and distortion. Imposed war",
+      "summary_en": "Qalibaf: The mission of journalists is to defend the nation's cultural might. The speaker of the Islamic Consultative Assembly emphasised: Journalists are combatants whose trench is awareness, whose weapon is truth and whose mission is defence of psychological security, national identity and the cultural might of a nation. The fate of nations is determined not only on the field of fire but on the field of narrative and fields of battle do not take shape only on land and sea and in the sky. Zionism and global arrogance do not only bombard cities; they have targeted truth and aimed at the confidence of nations and if nations once went to war over civilisations with bullets, today they have entered the field with news, images, rumours and distortion. Imposed war",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608084871",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-08T06:12:01Z",
+      "title": "Iran’s 7% unemployment rate masks deeper jobs crisis, experts say",
+      "url": "https://www.iranintl.com/en/202608084871",
+      "summary": "Nearly one million people dropped off Iran’s social security contribution rolls over the past year, a labor expert told ILNA, pointing to a sharp contraction in formal employment that he said is not reflected in the country’s official unemployment rate.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "7%"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/65095",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-08T05:51:01Z",
+      "title": "💢 سپاه: رسانه‌های انقلابی در برابر دروغ‌پراکنی دشمن ایستادگی کردند 🔸 سپاه در بیانیه‌ای به‌مناسبت روز خبرنگار…",
+      "url": "https://t.me/defapress_ir/65095",
+      "summary": "💢 سپاه: رسانه‌های انقلابی در برابر دروغ‌پراکنی دشمن ایستادگی کردند 🔸 سپاه در بیانیه‌ای به‌مناسبت روز خبرنگار تاکید کرد که رسانه‌های انقلابی در برابر دروغ‌پراکنی دشمن ایستادگی کردند. 🔸 رسانه‌های جهان، با اذعان به ناکامی واشنگتن در غلبه بر جمهوری اسلامی، به وضوح از «شکست» و «تله خودساخته» ترامپ در جنگ علیه ایران سخن می‌گویند و حتی اعتراف می‌کنند که تفاهم نامه‌های حاصله، چیزی جز «سند تسلیم آمریکا» در برابر واقعیت‌های میدانی و قدرت مذاکراتی ایران نبوده است. این اعترافات، بیانگر درخشش مولفه‌های اقتدار نظامی و بازدارندگی فعال کشور است. 🔸 مولفه‌هایی که مرهون هوشمندی راهبردی، ایستادگی ملت و پشتیبانی ه",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65095"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah: Revolutionary media resisted enemy disinformation",
+      "summary_en": "Sepah: Revolutionary media resisted enemy disinformation On Journalists' Day, Sepah emphasised that revolutionary media resisted the enemy's disinformation. The world's media, acknowledging Washington's failure to overcome the Islamic Republic, clearly speak of Trump's \"defeat\" and \"self-made trap\" in war against Iran, and even admit that the resulting agreements were nothing but \"a document of American surrender\" to Iranian battlefield realities and negotiating power. These admissions reflect the brilliance of the country's military authority and active deterrence components. Components that are indebted to strategic wisdom, the steadfastness of the nation and the support of the",
+      "has_figures": false
+    }
+  ]
+}
