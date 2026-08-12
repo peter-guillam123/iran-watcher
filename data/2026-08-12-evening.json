@@ -1,0 +1,1139 @@
+{
+  "generated_at": "2026-08-12T15:28:43.622084Z",
+  "window_since": "2026-08-12T05:00:00Z",
+  "window_until": "2026-08-12T15:26:43.573790Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-08-12&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 12,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 5,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 26,
+      "kept": 26,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 39,
+      "kept": 10,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "44 items: IDF strikes in southern Lebanon (Mansouri) and northern Gaza, Jerusalem Post reports Iran's new IRGC/military appointments include AMIA-linked figures, Iran International cites 916 executions since January, nothing from UK Parliament or OFAC.",
+  "threads": [
+    {
+      "label": "Israeli strikes in Lebanon and Gaza",
+      "summary": "The IDF struck the southern Lebanese village of Mansouri in Tyre, while Palestinian media reported one dead and one injured in a strike on a vehicle in Beit Lahiya. IRIB reported the Mansouri strike and alleged Israeli forces were deliberately setting fires in south Lebanon forests, citing The Guardian.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvcw6v5wx26",
+        "x_via_rssapp:b0cfbcaa394756679fb5cb2230abac9b",
+        "telegram:iribnews/356085",
+        "telegram:iribnews/356093"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran post-war command reshuffle",
+      "summary": "The Jerusalem Post reported Iran's newly appointed military and IRGC leaders include sanctioned officials and figures linked to the 1994 AMIA bombing, filling posts vacated after Israeli and US strikes. A senior Iranian source told Reuters there were no US-Iran talks to extend the ceasefire because Tehran considered the deal to have no start date.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvc6nlxmm2j",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msv4zd5yk62i",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msux3beybo26"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Gaza Board of Peace plan claims",
+      "summary": "Yisrael Beytenu chairman Avigdor Liberman claimed on X that the 15-point Gaza Board of Peace plan grants Hamas's military wing $160 million in cash, per Jerusalem Post. KAN News reported Hamas may receive up to $400 million in debt relief under the same plan, and the IDF disputed a separate Liberman claim that it ignored Gaza militants conducting a raid exercise.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvefw5xla26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvawvb2rn26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvfsiiwwf2i",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msursfas7k2b",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msuz4jz56u2z"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "IRGC messaging via PBS interview",
+      "summary": "Defa Press and IRIB carried remarks by IRGC supreme commander adviser Mohammad Naqdi in a PBS interview, saying an Iran without missiles would be more dangerous and that Iran's 'atom bomb' is influence in peoples' hearts. Ansarallah political bureau member Muhammad al-Bukhayti told Defa Press Yemeni forces would target any Israeli military or intelligence presence in Somalia.",
+      "event_ids": [
+        "telegram:iribnews/356097",
+        "telegram:defapress_ir/65374",
+        "telegram:defapress_ir/65371",
+        "telegram:defapress_ir/65385"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic pressures and environment",
+      "summary": "Iran International cited the Abdorrahman Boroumand Center reporting at least 916 executions in Iran since January, including 15 in August, and reported oil slicks reaching Qeshm mangroves and spreading toward Oman's coast. A separate Iran International Instagram poll indicated more than eight in ten respondents would leave Iran if given the opportunity.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608122187",
+        "iranintl:https://www.iranintl.com/en/202608126676",
+        "iranintl:https://www.iranintl.com/en/202608129472"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/356097",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T15:23:17Z",
+      "title": "سردار نقدی: اگر روزی ایران هیچ موشکی نداشته باشد، خطرناک‌تر خواهد شد ▫️ مشاور فرمانده کل سپاه در گفتگو با…",
+      "url": "https://t.me/iribnews/356097",
+      "summary": "سردار نقدی: اگر روزی ایران هیچ موشکی نداشته باشد، خطرناک‌تر خواهد شد ▫️ مشاور فرمانده کل سپاه در گفتگو با شبکه پی‌بی‌اس‌ آمریکا: 🔹 در ۴۳ سال گذشته برخلاف روسای جمهور ایران، هیچ‌یک از رؤسای جمهور آمریکا حاضر نشده‌اند با یک خبرنگار ایرانی مصاحبه کنند. 🔹 ما ۷۳ سال زیر ضربه آمریکا بودیم؛ ایران در برابر این فشارها ایستاده است، وحدت‌مان را حفظ کردیم، تمامیت ارضی‌مان را حفظ کردیم و نگذاشتیم دشمن به هدفش برسد. 🔹 در جنگ تحمیلی سوم یاد گرفتیم چگونه باید با آمریکا جنگید و ارتش آمریکا ضعیف‌تر از تصور بوده است. 🔹 اگر روزی ایران هیچ موشکی نداشته باشد، خطرناک‌تر خواهد شد و در آن صورت «نیرویی که اراده جنگ و د",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356097"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Naqdi: If Iran ever has no missiles, it will be more dangerous — Sepah supreme commander's adviser in conversation with US PBS network",
+      "summary_en": "Commander Naqdi: If Iran ever has no missiles, it will be more dangerous — Sepah supreme commander's adviser in conversation with US PBS network: Over the past 43 years, unlike Iranian presidents, not a single US president has been willing to give an interview to an Iranian journalist. We have been under American pressure for 73 years; Iran has stood against these pressures, we have preserved our unity, we have preserved our territorial integrity and we have not allowed the enemy to achieve its goal. In the imposed war we learned how to fight America and the American military proved weaker than imagined. If Iran ever has no missiles, it will be more dangerous and in that case a force that has the will to fight and",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65385",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T15:10:34Z",
+      "title": "💢 انصارالله: هرگونه حضور اسرائیل در سومالی و منطقه را هدف می‌گیریم 🔸 «محمد البخیتی» عضو دفتر سیاسی جنبش…",
+      "url": "https://t.me/defapress_ir/65385",
+      "summary": "💢 انصارالله: هرگونه حضور اسرائیل در سومالی و منطقه را هدف می‌گیریم 🔸 «محمد البخیتی» عضو دفتر سیاسی جنبش انصارالله یمن: نیروهای یمنی هرگونه حضور نظامی یا اطلاعاتی رژیم صهیونیستی در کشور «سومالی» یا سایر نقاط در نزدیکی مرزهای یمن را هدف قرار خواهند داد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65385"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ansarallah: We will target any Israeli presence in Somalia and the region — Muhammad al-Bukhayti, member of Ansarallah political bureau",
+      "summary_en": "Ansarallah: We will target any Israeli presence in Somalia and the region — Muhammad al-Bukhayti, member of Ansarallah political bureau of Yemen: Yemeni forces will target any military or intelligence presence of the Zionist regime in Somalia or other points near Yemen's borders.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvfsiiwwf2i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T15:07:07.009000Z",
+      "title": "The IDF disputed claims by Avigdor Liberman on Wednesday that the military ignored Gaza terrorists who were conducting an exercise in which…",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-905315",
+      "summary": "The IDF disputed claims by Avigdor Liberman on Wednesday that the military ignored Gaza terrorists who were conducting an exercise in which they practiced raiding a Jewish settlement.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356096",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T15:03:26Z",
+      "title": "#اخبار_کوتاه 🔹 غلامحسین محمدی، با حکم وزیر تعاون، کار و رفاه اجتماعی، سرپرست سازمان تأمین اجتماعی شد. 🔹…",
+      "url": "https://t.me/iribnews/356096",
+      "summary": "#اخبار_کوتاه 🔹 غلامحسین محمدی، با حکم وزیر تعاون، کار و رفاه اجتماعی، سرپرست سازمان تأمین اجتماعی شد. 🔹 یونیسف: بیش از ۳۵۵ کودک فلسطینی از کرانه باختری در بازداشتگاه اسرائیل زندانی هستند. 🔹 مراسم تشییع پیکر حسین (ایرج) خواجه امیری روز جمعه (۲۳ مرداد) ساعت ۱۰ در پهنه فرهنگی هنری رودکی، مقابل تالار وحدت برگزار می‌شود و سپس در قطعه هنرمندان به خاک سپرده خواهد شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356096"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Breaking News: Gholamhossein Mohammadi appointed as acting head of Social Security Organisation by minister of cooperation, labour and social welfare. UNICEF: More than 355 Palestinian children from the West Bank are imprisoned in Israeli detention. The funeral of Hussein (Iraj) Khajeh Amiri will be held on Friday (23 Mordad) at 10 am at Rudaki cultural-artistic complex, opposite Vahed Hall and will then be buried in the artists' section.",
+      "summary_en": "Breaking News: Gholamhossein Mohammadi appointed as acting head of Social Security Organisation by minister of cooperation, labour and social welfare. UNICEF: More than 355 Palestinian children from the West Bank are imprisoned in Israeli detention. The funeral of Hussein (Iraj) Khajeh Amiri will be held on Friday (23 Mordad) at 10 am at Rudaki cultural-artistic complex, opposite Vahed Hall and will then be buried in the artists' section.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65375",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T14:49:54Z",
+      "title": "📸 گزارش تصویری/ پیاده روی زائران حرم رضوی dnws.ir/003aJ7 @Defapress_ir",
+      "url": "https://t.me/defapress_ir/65375",
+      "summary": "📸 گزارش تصویری/ پیاده روی زائران حرم رضوی dnws.ir/003aJ7 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65375"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b0cfbcaa394756679fb5cb2230abac9b",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-12T14:43:00Z",
+      "title": "Palestinian media reports one dead and one injured in an Israeli strike targeting a vehicle in northern Gaza's Beit Lahiya a short while ago. There is no immediate comment from the IDF.",
+      "url": "https://x.com/manniefabian/status/2087550427046834259",
+      "summary": "Palestinian media reports one dead and one injured in an Israeli strike targeting a vehicle in northern Gaza's Beit Lahiya a short while ago. \n\nThere is no immediate comment from the IDF.— Emanuel (Mannie) Fabian (@manniefabian) Aug 12, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvefw5xla26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T14:42:11.469000Z",
+      "title": "The 15-point Gaza Board of Peace plan grants Hamas's military wing $160 million in cash, Yisrael Beytenu chairman Avigdor Liberman claimed…",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-905315",
+      "summary": "The 15-point Gaza Board of Peace plan grants Hamas's military wing $160 million in cash, Yisrael Beytenu chairman Avigdor Liberman claimed in an X/Twitter post on Wednesday.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "$160 million",
+        "160 million"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/65374",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T14:29:54Z",
+      "title": "🎥 سردار نقدی: امروز قرن غلبه اراده ملت‌هاست 🔸 مشاور عالی فرمانده سپاه در گفت‌وگو با شبکه پی‌بی‌اس‌ آمریکا:…",
+      "url": "https://t.me/defapress_ir/65374",
+      "summary": "🎥 سردار نقدی: امروز قرن غلبه اراده ملت‌هاست 🔸 مشاور عالی فرمانده سپاه در گفت‌وگو با شبکه پی‌بی‌اس‌ آمریکا: بمب اتم فقط یک بار در دنیا استفاده شد و بعد از آن  دیگر کاربری نداشته است و بمب اتم برای دارندگان آن فقط مایه دردسر است. 🔸 شرایط امروز جهان با زمان جنگ…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65374"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Naqdi: Today is the century of the triumph of people's will — Supreme adviser to Sepah commander in conversation with US PBS network",
+      "summary_en": "Commander Naqdi: Today is the century of the triumph of people's will — Supreme adviser to Sepah commander in conversation with US PBS network: The atomic bomb was used only once in the world and has had no use since, and the atomic bomb is only a source of trouble for those who possess it. Today's world conditions differ from the time of war",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356095",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T14:15:34Z",
+      "title": "🔺 طلای دوضرب دختر وزنه‌بردار ایران در تاشکند 🔹 در رقابت‌های دسته ۶۹ کیلوگرم جوانان آسیا، هانیه شریفی و هستی…",
+      "url": "https://t.me/iribnews/356095",
+      "summary": "🔺 طلای دوضرب دختر وزنه‌بردار ایران در تاشکند 🔹 در رقابت‌های دسته ۶۹ کیلوگرم جوانان آسیا، هانیه شریفی و هستی صدیقی به نمایندگی از ایران روی تخته رفتند که حاصل کار آنها یک مدال طلای دوضرب برای صدیقی بود. 🔹 هانیه شریفی در حرکت یک‌ضرب ابتدا وزنه ۹۱ کیلوگرمی را با موفقیت مهار کرد، اما در دو تلاش بعدی خود وزنه‌های ۹۶ و ۹۹ کیلوگرمی را از دست داد و با همین رکورد در جایگاه هفتم قرار گرفت. 🔹 صدیقی در دوضرب جبران کرد. او در حرکت نخست وزنه ۱۲۲ کیلوگرمی را بالای سر برد، در تلاش دوم در مهار ۱۲۶ کیلوگرم ناکام ماند، اما در حرکت سوم موفق شد همین وزنه را مهار کند و با ثبت رکورد ۱۲۶ کیلوگرم، مدال طلای دوضرب جوان",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356095"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Double gold for Iranian weightlifter's daughter in Tashkent — In the 69kg youth category competition in Asia, Hanieh Sharifi and Hasti Sadeghzadeh represented Iran on the platform, resulting in one double gold medal for Sadeghzadeh",
+      "summary_en": "Double gold for Iranian weightlifter's daughter in Tashkent — In the 69kg youth category competition in Asia, Hanieh Sharifi and Hasti Sadeghzadeh represented Iran on the platform, resulting in one double gold medal for Sadeghzadeh. Hanieh Sharifi in the snatch initially successfully cleared 91kg but failed on her next two attempts at 96kg and 99kg, finishing in seventh place. Sadeghzadeh made up for it in the clean and jerk. In the first lift she pressed 122kg overhead, failed to clean 126kg on her second attempt but successfully cleaned it on her third attempt, setting a 126kg record and winning the youth double gold",
+      "has_figures": true,
+      "figures_examples": [
+        "69kg",
+        "91kg",
+        "96kg",
+        "99kg"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvcw6v5wx26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T14:15:30.084000Z",
+      "title": "The IDF conducted strikes in southern Lebanon on Wednesday, according to Israeli media outlets citing Lebanese reports.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905314",
+      "summary": "The IDF conducted strikes in southern Lebanon on Wednesday, according to Israeli media outlets citing Lebanese reports.\n\nThe military later separately confirmed it had struck Mansouri, a municipality in Tyre, Army Radio reported. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:46a1900e155bafe642db1ecfb4bbe211",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-08-12T14:14:00Z",
+      "title": "A U.S. Sailor directs an F-35B fighter jet on the flight deck of USS Boxer (LHD 4).— U.S. Central Command…",
+      "url": "https://x.com/CENTCOM/status/2087543298785218896",
+      "summary": "A U.S. Sailor directs an F-35B fighter jet on the flight deck of USS Boxer (LHD 4).— U.S. Central Command (@CENTCOM) Aug 12, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65373",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T14:04:38Z",
+      "title": "💢 کویت مدعی خنثی‌سازی طرح تروریستی علیه تأسیسات حیاتی شد 🔸 وزارت کشور کویت مدعی شد که دستگاه امنیت این کشور…",
+      "url": "https://t.me/defapress_ir/65373",
+      "summary": "💢 کویت مدعی خنثی‌سازی طرح تروریستی علیه تأسیسات حیاتی شد 🔸 وزارت کشور کویت مدعی شد که دستگاه امنیت این کشور توانسته است یک طرح تروریستی برای هدف قرار دادن یکی از «تأسیسات حیاتی» را خنثی کند. 🔸 بر اساس این ادعا، فرد بازداشت‌شده آموزش‌هایی در زمینه ساخت مواد منفجره و پهپادها برای اجرای این طرح دریافت کرده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65373"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kuwait claims to have foiled terrorist plot against vital installations — Kuwait's interior ministry claimed that the country's security apparatus was able to thwart a terrorist plan to target one of the country's vital installations",
+      "summary_en": "Kuwait claims to have foiled terrorist plot against vital installations — Kuwait's interior ministry claimed that the country's security apparatus was able to thwart a terrorist plan to target one of the country's vital installations. According to this claim, the detained person received training in the manufacture of explosives and drones to carry out this plan.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvc6nlxmm2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T14:02:20.148000Z",
+      "title": "Iran’s newly appointed military and IRGC leaders include sanctioned officials and figures linked to the 1994 AMIA bombing. The appointments…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905313",
+      "summary": "Iran’s newly appointed military and IRGC leaders include sanctioned officials and figures linked to the 1994 AMIA bombing. The appointments fill senior positions left vacant following Israeli and US strikes. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65372",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:55:33Z",
+      "title": "📷 عزاداری ۲۸ صفر در بازار تهران @Defapress_ir",
+      "url": "https://t.me/defapress_ir/65372",
+      "summary": "📷 عزاداری ۲۸ صفر در بازار تهران @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65372"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Mourning on 28 Safar in Tehran bazaar",
+      "summary_en": "Picture: Mourning on 28 Safar in Tehran bazaar",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msvawvb2rn26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T13:40:06.046000Z",
+      "title": "Report: Hamas may receive up to $400 million in debt relief under the 15-point Gaza Board of Peace (BoP) plan, KAN News reported on…",
+      "url": "https://www.jpost.com/middle-east/article-905312",
+      "summary": "Report: Hamas may receive up to $400 million in debt relief under the 15-point Gaza Board of Peace (BoP) plan, KAN News reported on Tuesday, citing vague wording in the agreement.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "$400 million",
+        "400 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/356094",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:39:10Z",
+      "title": "🎦 روی موج رضوی 🔹 ویژه برنامه های رادیویی شهادت امام‌ رضا روی امواج رادیو 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/356094",
+      "summary": "🎦 روی موج رضوی 🔹 ویژه برنامه های رادیویی شهادت امام‌ رضا روی امواج رادیو 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356094"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "On the Razavi wave: Special radio programmes marking the death of Imam Reza on radio waves",
+      "summary_en": "On the Razavi wave: Special radio programmes marking the death of Imam Reza on radio waves",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65371",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:28:48Z",
+      "title": "💢 سردار نقدی: رسانه‌های غربی مانع بازتاب دیدگاه‌های ایران می‌شوند/ سران آمریکا جنگ را طبق منافع شخصی خود…",
+      "url": "https://t.me/defapress_ir/65371",
+      "summary": "💢 سردار نقدی: رسانه‌های غربی مانع بازتاب دیدگاه‌های ایران می‌شوند/ سران آمریکا جنگ را طبق منافع شخصی خود تنظیم می‌کنند/ بمب اتم ما نفوذ در دل‌های مردم دنیاست 🔸 مشاور عالی فرمانده سپاه در گفت‌وگو با شبکه پی‌بی‌اس‌ آمریکا با اشاره به اینکه سران آمریکا تصمیمات…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65371"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Naqdi: Western media prevent the reflection of Iran's views / US leaders organise war according to their personal interests / Our atom bomb is influence in the hearts of the world's peoples — Supreme adviser to Sepah commander in conversation with US PBS network",
+      "summary_en": "Commander Naqdi: Western media prevent the reflection of Iran's views / US leaders organise war according to their personal interests / Our atom bomb is influence in the hearts of the world's peoples — Supreme adviser to Sepah commander in conversation with US PBS network with reference to US leaders making decisions",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356093",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:28:01Z",
+      "title": "رژیم صهیونیستی عمدا جنگل‌های جنوب لبنان را به آتش می‌کشد به گزارش گاردین، آتش‌نشانان و ساکنان جنوب لبنان…",
+      "url": "https://t.me/iribnews/356093",
+      "summary": "رژیم صهیونیستی عمدا جنگل‌های جنوب لبنان را به آتش می‌کشد به گزارش گاردین، آتش‌نشانان و ساکنان جنوب لبنان می‌گویند ارتش رژیم صهیونیستی با شلیک منور و پرتاب مهمات، عمداً درخت‌ها و مزارع این منطقه را به آتش می‌کشد. به گفته مقام‌های محلی، در روزهای اخیر بخش‌های وسیعی از جنگل‌ها و زمین‌های کشاورزی، به‌ویژه باغ‌های زیتون، در آتش سوخته و حتی زمانی که آتش‌نشانان برای مهار شعله‌ها وارد عمل شدند، پهپادهای اسرائیلی به آن‌ها حمله کرده‌اند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356093"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Zionist regime deliberately sets fires in south Lebanon forests — According to The Guardian, firefighters and residents of south Lebanon say the Zionist regime's military is deliberately setting trees and farms in the region alight through illumination fire and ammunition drops",
+      "summary_en": "Zionist regime deliberately sets fires in south Lebanon forests — According to The Guardian, firefighters and residents of south Lebanon say the Zionist regime's military is deliberately setting trees and farms in the region alight through illumination fire and ammunition drops. According to local officials, in recent days large sections of forests and agricultural lands, especially olive groves, have burned, and even when firefighters moved in to contain the flames, Israeli drones attacked them.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356092",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:15:40Z",
+      "title": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند   دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر…",
+      "url": "https://t.me/iribnews/356092",
+      "summary": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند   دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر کشور پاکستان: 🔹 ما دولت، ارتش و ملت پاکستان را از سرمایه‌های بزرگ جهان اسلام می‌دانیم و خرسندیم که در تحولات منطقه‌ای، بیش از گذشته شاهد مشارکت و تحرکات…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356092"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister",
+      "summary_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister: We regard the government, army and people of Pakistan as great assets of the Islamic world and are pleased to see the participation and activities of Pakistan's prime minister and military commander more than ever in regional developments",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356091",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T13:12:19Z",
+      "title": "🎦 سقوط جنگنده F-16 نیروی هوایی ترکیه 🔹 این سانحه در شمال‌غرب ترکیه رخ داد و خلبان زنده ماند. @iribnews",
+      "url": "https://t.me/iribnews/356091",
+      "summary": "🎦 سقوط جنگنده F-16 نیروی هوایی ترکیه 🔹 این سانحه در شمال‌غرب ترکیه رخ داد و خلبان زنده ماند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356091"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Turkish Air Force F-16 fighter crashes — The incident occurred in north-west Turkey and the pilot survived.",
+      "summary_en": "Video: Turkish Air Force F-16 fighter crashes — The incident occurred in north-west Turkey and the pilot survived.",
+      "has_figures": true,
+      "figures_examples": [
+        "16 fighter"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/65370",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:57:01Z",
+      "title": "💢 سقوط یک فروند جنگنده اف-۱۶ در ترکیه 🔸 وزارت دفاع ترکیه از سقوط یک فروند جنگنده عسکری اف-۱۶ این کشور در…",
+      "url": "https://t.me/defapress_ir/65370",
+      "summary": "💢 سقوط یک فروند جنگنده اف-۱۶ در ترکیه 🔸 وزارت دفاع ترکیه از سقوط یک فروند جنگنده عسکری اف-۱۶ این کشور در استان یالووا طی یک پرواز تمرینی خبر داد 🔸 خلبان این جنگنده از این حادثه جان سالم به در برده است @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65370"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "F-16 fighter jet crashes in Turkey — Turkey's defence ministry reported the crash of an F-16 military fighter jet in Yalova province during a training flight",
+      "summary_en": "F-16 fighter jet crashes in Turkey — Turkey's defence ministry reported the crash of an F-16 military fighter jet in Yalova province during a training flight. The jet's pilot survived the incident.",
+      "has_figures": true,
+      "figures_examples": [
+        "16 fighter"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/356090",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:56:55Z",
+      "title": "🔺 ایرج خواجه امیری درگذشت 🔹 حسین خواجه‌امیری (ایرج)، پیشکسوت موسیقی درگذشت. 🔹 این هنرمند در دوران فعالیت هنری…",
+      "url": "https://t.me/iribnews/356090",
+      "summary": "🔺 ایرج خواجه امیری درگذشت 🔹 حسین خواجه‌امیری (ایرج)، پیشکسوت موسیقی درگذشت. 🔹 این هنرمند در دوران فعالیت هنری خود بیش از ۲۰۰۰ آواز، تصنیف و ترانه در برنامه‌های مختلف خواند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356090"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iraj Khajeh Amiri dies — Hussein Khajeh Amiri (Iraj), music veteran, has died. During his artistic career, this artist sang more than 2,000 songs, compositions and ballads in various programmes.",
+      "summary_en": "Iraj Khajeh Amiri dies — Hussein Khajeh Amiri (Iraj), music veteran, has died. During his artistic career, this artist sang more than 2,000 songs, compositions and ballads in various programmes.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356089",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:47:04Z",
+      "title": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند   دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر…",
+      "url": "https://t.me/iribnews/356089",
+      "summary": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند   دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر کشور پاکستان: 🔹 ما دولت، ارتش و ملت پاکستان را از سرمایه‌های بزرگ جهان اسلام می‌دانیم و خرسندیم که در تحولات منطقه‌ای، بیش از گذشته شاهد مشارکت و تحرکات…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356089"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister",
+      "summary_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister: We regard the government, army and people of Pakistan as great assets of the Islamic world and are pleased to see the participation and activities of Pakistan's prime minister and military commander more than ever in regional developments",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356087",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:43:45Z",
+      "title": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر…",
+      "url": "https://t.me/iribnews/356087",
+      "summary": "📸 محسن رضایی: ایران و پاکستان عقبه راهبردی یکدیگرند دبیر شورای عالی امنیت ملی در دیدار سید محسن نقوی، وزیر کشور پاکستان: 🔹 ما دولت، ارتش و ملت پاکستان را از سرمایه‌های بزرگ جهان اسلام می‌دانیم و خرسندیم که در تحولات منطقه‌ای، بیش از گذشته شاهد مشارکت و تحرکات نخست‌وزیر و فرمانده ارتش پاکستان هستیم. 🔹 ایران، پاکستان، ترکیه، عربستان، مصر و اندونزی، به‌عنوان کشورهای بزرگ جهان اسلام، وظیفه دارند در مسیر تحقق وحدت جهان اسلام گام بردارند. 🔹 دکتر پزشکیان رئیس‌جمهوری اسلامی ایران هم توجه خاصی به پاکستان دارد و معتقد است باید حجم مبادلات میان دو کشور چند برابر گذشته شود. 🔹 سرمایه بزرگی میان ایران و پاک",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356087"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister",
+      "summary_en": "Picture: Mohsen Rezaei: Iran and Pakistan are each other's strategic backlog — National Security Council secretary in meeting with Syed Mohsin Naqvi, Pakistan's interior minister: We regard the government, army and people of Pakistan as great assets of the Islamic world and are pleased to see the participation and activities of Pakistan's prime minister and military commander more than ever in regional developments. Iran, Pakistan, Turkey, Saudi Arabia, Egypt and Indonesia, as large Muslim countries, have a duty to take steps towards realising Islamic unity. Dr Pezeshkian, President of the Islamic Republic of Iran, also has special attention to Pakistan and believes the volume of trade between the two countries should increase several-fold. There is great capital between Iran and Pakistan",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msv4zd5yk62i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T12:29:52.554000Z",
+      "title": "There were no discussions between Iran and the United States to extend their ceasefire because, from Tehran's perspective, the deal had no…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905305",
+      "summary": "There were no discussions between Iran and the United States to extend their ceasefire because, from Tehran's perspective, the deal had no start date and therefore had nothing to extend, a senior Iranian source told Reuters on Wednesday.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356085",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:28:07Z",
+      "title": "📸 حمله جدید رژیم صهیونیستی به جنوب لبنان 🔹 ارتش رژیم صهیونیستی در ادامه حملات خود به خاک لبنان، شهرک…",
+      "url": "https://t.me/iribnews/356085",
+      "summary": "📸 حمله جدید رژیم صهیونیستی به جنوب لبنان 🔹 ارتش رژیم صهیونیستی در ادامه حملات خود به خاک لبنان، شهرک «المنصوری» در جنوب این کشور را هدف قرار داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356085"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Fresh attack by Zionist regime on south Lebanon — The Zionist regime's military, continuing its attacks on Lebanese soil, targeted the hamlet of al-Mansouri in the south of the country.",
+      "summary_en": "Picture: Fresh attack by Zionist regime on south Lebanon — The Zionist regime's military, continuing its attacks on Lebanese soil, targeted the hamlet of al-Mansouri in the south of the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65362",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:26:17Z",
+      "title": "📷 عزاداری ۲۸ صفر در حرم حضرت معصومه (س) dnws.ir/003aIh @Defapress_ir",
+      "url": "https://t.me/defapress_ir/65362",
+      "summary": "📷 عزاداری ۲۸ صفر در حرم حضرت معصومه (س) dnws.ir/003aIh @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65362"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Picture: Mourning on 28 Safar at the shrine of Fatima al-Maasuma",
+      "summary_en": "Picture: Mourning on 28 Safar at the shrine of Fatima al-Maasuma",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356084",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:19:23Z",
+      "title": "🔺 شرور قمه‌کش تهرانی دستگیر شد 🔹 شروری که با قمه‌کشی، ضرب‌وشتم شهروندان و عربده‌کشی در خیابان‌های تهران اقدام…",
+      "url": "https://t.me/iribnews/356084",
+      "summary": "🔺 شرور قمه‌کش تهرانی دستگیر شد 🔹 شروری که با قمه‌کشی، ضرب‌وشتم شهروندان و عربده‌کشی در خیابان‌های تهران اقدام به ایجاد رعب و وحشت می‌کرد و تصاویر اقداماتش را در فضای مجازی منتشر می‌کرد، دستگیر شده و در اختیار مرجع قضایی قرار گرفت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356084"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dagger-wielding thug arrested in Tehran — A criminal who terrorised Tehran streets with dagger-wielding, beating citizens and shouting and published images of his actions on social media has been arrested and handed over to judicial authorities.",
+      "summary_en": "Dagger-wielding thug arrested in Tehran — A criminal who terrorised Tehran streets with dagger-wielding, beating citizens and shouting and published images of his actions on social media has been arrested and handed over to judicial authorities.",
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/international-development-funding/syria-social-cohesion-programme-integrated-security-fund#2026-08-12T12:16:45Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-08-12T12:16:45Z",
+      "title": "Syria Social Cohesion Programme: Integrated Security Fund",
+      "url": "https://www.gov.uk/international-development-funding/syria-social-cohesion-programme-integrated-security-fund",
+      "summary": "The UK Office for Syria is inviting Syrian not-for-profit and civil society organisations to submit proposals for a social cohesion programme by 11 September 2026 for up to £2 million in accountable grant.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "£2 million",
+        "2 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/356083",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T12:06:54Z",
+      "title": "🔺 مهار آتش‌سوزی در مجتمع تجاری خلیج فارس قشم 🔹 آتش‌سوزی در مجتمع تجاری خلیج فارس قشم مهار و ۱۲ فرد محبوس نجات…",
+      "url": "https://t.me/iribnews/356083",
+      "summary": "🔺 مهار آتش‌سوزی در مجتمع تجاری خلیج فارس قشم 🔹 آتش‌سوزی در مجتمع تجاری خلیج فارس قشم مهار و ۱۲ فرد محبوس نجات یافتند. 🔹 حریق حدود ساعت ۱۳ و بیست دقیقه امروز در مجتمع تجاری خلیج فارس قشم صورت گرفت. https://www.irib-news.ir/00OfmH @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356083"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Fire at Persian Gulf commercial complex in Qeshm brought under control — Fire at Persian Gulf commercial complex in Qeshm brought under control and 12 trapped people rescued",
+      "summary_en": "Fire at Persian Gulf commercial complex in Qeshm brought under control — Fire at Persian Gulf commercial complex in Qeshm brought under control and 12 trapped people rescued. The fire broke out at approximately 1:20pm today at the Persian Gulf commercial complex in Qeshm.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608122245",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-12T12:02:38Z",
+      "title": "When the language of home is no longer the language of life",
+      "url": "https://www.iranintl.com/en/202608122245",
+      "summary": "The child understands every word her grandmother says in Persian. She answers in English. She can ask what's for dinner in her parents' language, but not describe her anxiety, her love or her future in it. She calls herself Iranian. Persian is no longer the language of her life.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356082",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T11:52:37Z",
+      "title": "🔺 احتمال شنیده شدن صدای انفجار در جاسک 🔹 فرمانداری شهرستان جاسک از احتمال شنیده‌شدن صدای انفجار در جاسک دراثر…",
+      "url": "https://t.me/iribnews/356082",
+      "summary": "🔺 احتمال شنیده شدن صدای انفجار در جاسک 🔹 فرمانداری شهرستان جاسک از احتمال شنیده‌شدن صدای انفجار در جاسک دراثر عملیات خنثی‌سازی مهمات دشمن خبر داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356082"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion sound likely to be heard in Jask — Jask county governor's office reported the possibility of hearing explosion sounds in Jask as a result of enemy ammunition disposal operations.",
+      "summary_en": "Explosion sound likely to be heard in Jask — Jask county governor's office reported the possibility of hearing explosion sounds in Jask as a result of enemy ammunition disposal operations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356081",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T11:38:01Z",
+      "title": "گروه‌های حقوق بشری آمریکا از دولت ترامپ به‌خاطر تحریم‌های سنگین علیه دادگاه کیفری بین‌المللی شکایت کردند به…",
+      "url": "https://t.me/iribnews/356081",
+      "summary": "گروه‌های حقوق بشری آمریکا از دولت ترامپ به‌خاطر تحریم‌های سنگین علیه دادگاه کیفری بین‌المللی شکایت کردند به گزارش گاردین چهار نهاد مهم حقوق بشری در آمریکا از دولت ترامپ شکایت کرده‌اند و می‌گویند تحریم‌های این دولت علیه دادگاه کیفری بین‌المللی عملاً دسترسی قربانیان جنایات جنگی به عدالت را محدود کرده است. بعد از بررسی پرونده جنایات رژیم صهیونیستی در فلسطین توسط دادگاه کیفری بین‌المللی، تحریم‌های آمریکا علیه این نهاد اعمال شد. شاکیان می‌گویند این تحریم‌ها باعث مسدود شدن حساب‌ها، محدودیت سفر و فشار بر وکلا و فعالان حقوقی شده و عملاً کسانی را که برای پاسخگو کردن عاملان جنایت تلاش می‌کنند، تنبیه می‌",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356081"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "US human rights groups sue Trump administration over heavy sanctions against International Criminal Court — According to The Guardian, four major US human rights organisations have sued the Trump administration, saying the administration's sanctions against the International Criminal Court have effectively restricted victims of war crimes' access to justice",
+      "summary_en": "US human rights groups sue Trump administration over heavy sanctions against International Criminal Court — According to The Guardian, four major US human rights organisations have sued the Trump administration, saying the administration's sanctions against the International Criminal Court have effectively restricted victims of war crimes' access to justice. After the International Criminal Court's investigation into the Zionist regime's crimes in Palestine, US sanctions against the body were imposed. The plaintiffs say these sanctions have caused accounts to be frozen, travel restrictions and pressure on lawyers and human rights activists and effectively punish those working to hold perpetrators of crime accountable.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356080",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T11:25:12Z",
+      "title": "🎦 جبهه مقاومت؛ کابوسی برای دشمن @iribnews",
+      "url": "https://t.me/iribnews/356080",
+      "summary": "🎦 جبهه مقاومت؛ کابوسی برای دشمن @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356080"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Resistance front; a nightmare for the enemy",
+      "summary_en": "Video: Resistance front; a nightmare for the enemy",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356079",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T11:20:15Z",
+      "title": "🎦 میدان داران، یکپارچه حامی نیروهای مسلح و مقاومت در برابر دشمنان @iribnews",
+      "url": "https://t.me/iribnews/356079",
+      "summary": "🎦 میدان داران، یکپارچه حامی نیروهای مسلح و مقاومت در برابر دشمنان @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356079"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Fielders united in support of armed forces and resistance against enemies",
+      "summary_en": "Video: Fielders united in support of armed forces and resistance against enemies",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msuz4jz56u2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T11:20:05.455000Z",
+      "title": "Hamas has intensified interrogations and torture against Palestinian residents of the Gaza Strip since the ceasefire came into effect in…",
+      "url": "https://www.jpost.com/middle-east/article-905295",
+      "summary": "Hamas has intensified interrogations and torture against Palestinian residents of the Gaza Strip since the ceasefire came into effect in October 2025, in an effort to bolster its authority over the Strip.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/356078",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-12T11:15:19Z",
+      "title": "🎦 ۱۴۰۰ موکب در مسیر حرم / ورود ۲۵۰ هزار زائر پیاده تا صبح امروز 🔹 در ۵ محور مواصلاتی منتهی به حرم مطهر رضوی،…",
+      "url": "https://t.me/iribnews/356078",
+      "summary": "🎦 ۱۴۰۰ موکب در مسیر حرم / ورود ۲۵۰ هزار زائر پیاده تا صبح امروز 🔹 در ۵ محور مواصلاتی منتهی به حرم مطهر رضوی، ۱۴۰۰ موکب خدمت‌رسان برای میزبانی شایسته از زائران حضرت علی‌بن‌موسی‌الرضا (ع) مستقر شده‌اند. 🔹 تا صبح امروز، حدود ۲۵۰ هزار زائر پیاده به مشهدالرضا رسیده‌اند و طبق آمار، ۷۰۰ هزار زائر دیگر نیز در حال طی مسیر هستند. 🔹 به گزارش پلیس راه، سفرها به مشهد ۲۶ درصد افزایش یافته و تاکنون حدود ۴۰ هزار خودرو وارد این شهر شده‌اند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/356078"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: 1,400 mokbs on the route to the shrine / Entry of 250,000 walking pilgrims by this morning — On 5 transport routes leading to the holy shrine of Imam Reza, 1,400 service-providing mokbs have been stationed to provide worthy hospitality to pilgrims of Imam Ali ibn Musa al-Reza",
+      "summary_en": "Video: 1,400 mokbs on the route to the shrine / Entry of 250,000 walking pilgrims by this morning — On 5 transport routes leading to the holy shrine of Imam Reza, 1,400 service-providing mokbs have been stationed to provide worthy hospitality to pilgrims of Imam Ali ibn Musa al-Reza. By this morning, approximately 250,000 walking pilgrims have arrived at Mashad al-Reza and according to statistics, 700,000 other pilgrims are also en route. According to road police reports, travel to Mashhad has increased 26 percent and so far approximately 40,000 vehicles have entered the city.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msux3beybo26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T10:43:35.520000Z",
+      "title": "Opinion: Iran’s leadership losses have created disruption, not transformation. The regime is rebuilding its command structure while…",
+      "url": "https://www.jpost.com/opinion/article-905288",
+      "summary": "Opinion: Iran’s leadership losses have created disruption, not transformation. The regime is rebuilding its command structure while preserving the institutions, ideology and strategic logic that have shaped its confrontation with Israel and the US. \nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608129472",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-12T10:10:01Z",
+      "title": "New online poll suggests eight in ten would like to leave Iran",
+      "url": "https://www.iranintl.com/en/202608129472",
+      "summary": "More than eight in 10 respondents to an Iran International Instagram poll said they would leave Iran if given the opportunity, reflecting deep frustration among those who took part over the country’s economic and social conditions.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608126676",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-12T09:42:04Z",
+      "title": "Oil slicks hit Qeshm mangroves and Oman coast in mounting war fallout",
+      "url": "https://www.iranintl.com/en/202608126676",
+      "summary": "Oil has reached mangrove forests on Iran's Qeshm island while a separate vast slick spreads toward Oman's coast, raising fears of environmental damage in waters already disrupted by war.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msursfas7k2b",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T09:09:08.747000Z",
+      "title": "IDF observers spotted several Palestinians stealing pipes, which are often used in manufacturing rockets, along the Yellow Line in Gaza,…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905273",
+      "summary": "IDF observers spotted several Palestinians stealing pipes, which are often used in manufacturing rockets, along the Yellow Line in Gaza, but the IDF responded too slowly to stop them. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608112237",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-12T07:51:51Z",
+      "title": "From Hormuz to Bab el-Mandeb, conflict converges on vital shipping lanes",
+      "url": "https://www.iranintl.com/en/202608112237",
+      "summary": "Six people were killed when Iran-backed Houthis attacked a vessel in Bab el-Mandeb, an escalation experts say reflects not a second front in the Iran war but two conflicts converging, as the Houthis pursue their own interests while adding pressure on Iran’s adversaries.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608122187",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-12T07:38:11Z",
+      "title": "At least 916 executed in Iran since January - rights group",
+      "url": "https://www.iranintl.com/en/202608122187",
+      "summary": "Iran has carried out at least 916 executions since the start of 2026, including 15 so far in August, the Abdorrahman Boroumand Center for Human Rights in Iran said on Tuesday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3msulc2yg5e2l",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-12T07:12:38.635000Z",
+      "title": "Lebanon's parliament voted to abolish the death penalty with a majority of 128 members in favor, while Hezbollah's parliamentary bloc voted…",
+      "url": "https://www.jpost.com/middle-east/article-905269",
+      "summary": "Lebanon's parliament voted to abolish the death penalty with a majority of 128 members in favor, while Hezbollah's parliamentary bloc voted against the legislation. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    }
+  ]
+}
