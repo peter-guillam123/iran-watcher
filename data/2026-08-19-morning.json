@@ -1,0 +1,1873 @@
+{
+  "generated_at": "2026-08-19T05:57:35.553706Z",
+  "window_since": "2026-08-18T05:55:17.629971Z",
+  "window_until": "2026-08-19T05:55:17.629971Z",
+  "edition": "morning",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-08-18&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 5,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 3,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 14,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 10,
+      "kept": 10,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 27,
+      "kept": 27,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 13,
+      "kept": 12,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 98,
+      "kept": 29,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "Trump halts Iran talks and posts Hormuz-as-US-territory claim while Iran says Strait stays shut until sanctions lift; Israel confirms Syrian airbase strike, IDF returns SFC Katz remains after 44 years, Khamenei issues Persian Gulf Day message.",
+  "threads": [
+    {
+      "label": "Hormuz closure and stalled US-Iran track",
+      "summary": "Iran's Ghalibaf said the Strait of Hormuz will stay closed until Washington lifts sanctions and the marine blockade and frees frozen assets, while Trump said no talks with Tehran are scheduled and posted a Truth Social claim declaring Hormuz US territory. Reuters reported two Chinese state tankers are avoiding Hormuz and Bab al-Mandab, and Jerusalem Post reported shipowners are avoiding the waterway; Defa Press cited Brookings on a February 2026 Hormuz shock, and Khamenei's office issued a Persian Gulf Day message saying foreigners have 'no place except in the depths of its waters'.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdvdqllv32i",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte2acc7cj2w",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte7y6aid72l",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteeoamvwe2z",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfsjrow6u2r",
+        "iranintl:https://www.iranintl.com/en/202608187920",
+        "iranintl:https://www.iranintl.com/en/202608184388",
+        "iranintl:https://www.iranintl.com/en/202608184357",
+        "telegram:defapress_ir/65770",
+        "telegram:defapress_ir/65785",
+        "telegram:rahbar_ir/949",
+        "telegram:rahbar_ir/951"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran regional posture and Iraq visit",
+      "summary": "Parliament Speaker Qalibaf departed Tehran for Baghdad leading a parliamentary delegation, saying Iran and Iraq would take 'major steps' on common security, while IRGC adviser Naqdi told Sputnik Iran's doctrine had turned offensive and Chief of Staff Abdollahi warned Gulf states against hosting US aircraft. Jerusalem Post reported Iran may have showcased a new drone in a strike on the Kurdistan Regional Government, and Iran denied responsibility for a Dubai missile attack, calling it a possible US-Israeli false flag.",
+      "event_ids": [
+        "telegram:iribnews/357072",
+        "telegram:iribnews/357071",
+        "telegram:iribnews/357068",
+        "telegram:iribnews/357065",
+        "telegram:iribnews/357061",
+        "telegram:defapress_ir/65787",
+        "telegram:defapress_ir/65786",
+        "telegram:defapress_ir/65784",
+        "telegram:defapress_ir/65783",
+        "telegram:defapress_ir/65782",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfk4gjubi2m",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtenzpwxj22i",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf5al6sqh25",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte3e2ll6j2w",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdowkta6a2m"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Israel strike on Syrian airbase",
+      "summary": "Netanyahu's office confirmed Israel struck a Syrian military airport overnight, saying Syria was about to breach a status quo by allowing Turkish deployment near Aleppo, and US envoy Tom Barrack said Washington was 'deeply concerned' and that a Israel-Syria-Turkey deconfliction mechanism was underway. Al-Hadath separately reported the IAEA discovered and collected nuclear material in Syria, with FM al-Shaibani saying it will remain under Damascus's control.",
+      "event_ids": [
+        "x_via_rssapp:20492df5dafd659f3538a9f1c7b29cb2",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf3g6czwh23",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf7npbzrz2l",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtege67uzz2r"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Gaza strikes and Katz remains returned",
+      "summary": "The IDF said it struck Hamas Nukhba commanders meeting near Gaza City port, including a company commander and three platoon commanders, with Palestinian media reporting six killed at a cafe, and announced the killing of Islamic Jihad commander Tareq Anwar Khamis Ra'i in Khan Younis. Israel also announced that the remains of SFC Yehuda Katz, missing since the 1982 battle of Sultan Yacoub, were recovered in a joint IDF-Mossad operation in Lebanon.",
+      "event_ids": [
+        "x_via_rssapp:0a5ad53cfea1210acf6a0f0050397b69",
+        "x_via_rssapp:8ad7b447fe72209a97016cced0b3df8b",
+        "x_via_rssapp:a68edc012a4d6fc1617f32ebf916e018",
+        "x_via_rssapp:c172c5640bdbc766d3d44ed9738fd495",
+        "x_via_rssapp:cd7366bbd4d75bfa37701097e42d2e36",
+        "x_via_rssapp:5229da55fdbe3c86c102bab9a56e41f4",
+        "x_via_rssapp:f23911cf4e2ef68d78cc32c9af556506",
+        "x_via_rssapp:7a53ec009408a18380b898bbe120674c",
+        "x_via_rssapp:b0c7d432ef55fd562e2b606433f9e93d",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mtevnatfb72y",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte2jamy7n2h",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteqi7kddp2z",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdzdbcl7h25"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "European and North American Iran actions",
+      "summary": "French FM Barrot expelled two Iranian diplomats, which Defa Press called 'unjustified' and a French source told Iran International Tehran's espionage allegations against detained French diplomats were 'completely false'. The US DOJ updated charges against 17 Mabna Institute individuals accused of IRGC-linked hacking; Canada deported a former Iranian Interior Ministry spokesman tied to the 2019 crackdown; and the Pentagon ordered 30 US universities including Harvard, MIT and UC Berkeley to audit research ties with Iran, China and Russia.",
+      "event_ids": [
+        "telegram:defapress_ir/65768",
+        "iranintl:https://www.iranintl.com/en/202608185310",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfsjrow6u2r",
+        "iranintl:https://www.iranintl.com/en/202608187302",
+        "iranintl:https://www.iranintl.com/en/202608170757",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtekfsqljj25"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "US regional diplomacy and force posture",
+      "summary": "Secretary Rubio spoke with UAE NSA Sheikh Tahnoon bin Zayed on regional security including Lebanon, while Jerusalem Post reported the US may downscale its Middle East presence following damage from Iranian attacks and that Washington is shortening its annual drill with Seoul from 11 to five days, with South Korea's FM linking the move to US pressure over Iran. Lebanese President Aoun told lawmakers extending UNIFIL's mandate is Lebanon's 'first option', and Jared Kushner warned Hamas the US could back Israel to 'finish the job' if disarmament commitments are broken.",
+      "event_ids": [
+        "state:https://www.state.gov/releases/preview/700621/",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfm5fwvvq2w",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfzkpai6x2m",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfkukqmls25",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteebw3ia42n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdzdbcl7h25"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran domestic protest and Basij anxiety",
+      "summary": "Iran International reported security forces detained three relatives of Kian Pirfalak, the nine-year-old killed in 2022 protests, in Izeh, and published a leaked audio in which Basij officials weigh the risk of new protests and fear online identification. Separate Iran International pieces described Iranian journalists' extended exile and life seven months after the January massacre, while Khamenei's office announced fortieth-day commemoration ceremonies for the 'Martyred Leader of Iran' in Tehran, Qom and Mashhad.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608189959",
+        "iranintl:https://www.iranintl.com/en/202608184899",
+        "iranintl:https://www.iranintl.com/en/202608189099",
+        "iranintl:https://www.iranintl.com/en/20260810.47",
+        "iranintl:https://www.iranintl.com/en/202608154867",
+        "telegram:rahbar_ir/948"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:defapress_ir/65787",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:52:44Z",
+      "title": "💢 هشدار رئیس ستاد کل نیروهای مسلح در خصوص کمک به ارتش متجاوز آمریکا 🔸 سرلشکر عبداللهی: کشورهای حاشیه جنوبی…",
+      "url": "https://t.me/defapress_ir/65787",
+      "summary": "💢 هشدار رئیس ستاد کل نیروهای مسلح در خصوص کمک به ارتش متجاوز آمریکا 🔸 سرلشکر عبداللهی: کشورهای حاشیه جنوبی خلیج فارس که با صدور بیانیه‌های مختلف اعلام می‌کنند اجازه استفاده آمریکا از سرزمین‌هایشان علیه ایران را نمی‌دهند، باید بدانند که چیزی از چشم ما پنهان نمی‌ماند. 🔸 این میزان هواپیمای نظامی، به‌ویژه هواپیمای سوخت‌رسان، در پایگاه‌های منطقه‌ای بدون اطلاع کشورهای میزبان بعید به نظر می‌رسد. 🔸 هشدار می‌دهیم: هرگونه کمک و تسهیل‌گری به ارتش متجاوز آمریکا به منزله مشارکت با نیروهای نظامی آمریکاست @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65787"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Warning from Chief of Staff of Armed Forces regarding assistance to US invading army",
+      "summary_en": "Warning from Chief of Staff of Armed Forces regarding assistance to US invading army. General Abdollahi: Southern Persian Gulf rim countries that announce through various statements they do not permit US use of their territories against Iran should know that nothing escapes our sight. The volume of military aircraft, especially tanker aircraft, at regional bases without the knowledge of host countries seems unlikely. We warn: any assistance and facilitation to the US invading army amounts to participation with US military forces.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357072",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:52:32Z",
+      "title": "🔺 قالیباف:شاهد نظم جديدی در آینده منطقه  خواهیم بود  رئیس مجلس در تشریح اهداف سفر هیئت پارلمانی ایران به…",
+      "url": "https://t.me/iribnews/357072",
+      "summary": "🔺 قالیباف:شاهد نظم جديدی در آینده منطقه  خواهیم بود  رئیس مجلس در تشریح اهداف سفر هیئت پارلمانی ایران به عراق: 🔹 این سفر با توجه به پیروزی نظام مقدس جمهوری اسلامی در جنگ تحمیلی رمضان، بسیار مهم است. 🔹 روابط دوجانبه بغداد و تهران در تحولات منطقه بسیار مهم…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357072"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: we will witness a new order in the region's future",
+      "summary_en": "Qalibaf: we will witness a new order in the region's future. Parliament Speaker outlining the objectives of Iran's parliamentary delegation visit to Iraq: This visit is very important given the victory of the sacred system of the Islamic Republic in the imposed Ramadan war. The bilateral relations of Baghdad and Tehran are very important in regional developments.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65786",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:49:45Z",
+      "title": "💢 قالیباف: گام‌های بلندی برای تحکیم امنیت مشترک ایران و عراق برمی‌داریم 🔸 رئیس مجلس شورای اسلامی نوشت:…",
+      "url": "https://t.me/defapress_ir/65786",
+      "summary": "💢 قالیباف: گام‌های بلندی برای تحکیم امنیت مشترک ایران و عراق برمی‌داریم 🔸 رئیس مجلس شورای اسلامی نوشت: همسایگی ایران و عراق بر پایه برادری در سخت‌ترین‌ روزها، مقاومت در برابر دخالت بیگانگان و باور به سرنوشت مشترک دو کشور بنا شده است. 🔸 در این سفر، گام‌های…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65786"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: we are taking major steps to strengthen Iran-Iraq common security",
+      "summary_en": "Qalibaf: we are taking major steps to strengthen Iran-Iraq common security. The Speaker of the Islamic Consultative Assembly wrote: Iran and Iraq's neighbourship is founded on brotherhood in the most difficult days, resistance against foreign interference and belief in the shared destiny of the two countries. In this visit, we will take practical and major steps to strengthen the endogenous and shared security of the two countries and the welfare of both nations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357071",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:46:05Z",
+      "title": "🔺 هشدار رئیس ستاد کل نیروهای مسلح در خصوص کمک به ارتش متجاوز آمریکا سرلشکر علی عبداللهی در ایکس نوشت: 🔹…",
+      "url": "https://t.me/iribnews/357071",
+      "summary": "🔺 هشدار رئیس ستاد کل نیروهای مسلح در خصوص کمک به ارتش متجاوز آمریکا سرلشکر علی عبداللهی در ایکس نوشت: 🔹 کشورهای حاشیه جنوبی خلیج فارس که با صدور بیانیه‌های مختلف اعلام می‌کنند اجازه استفاده آمریکا از سرزمین‌هایشان علیه ایران را نمی‌دهند، باید بدانند که چیزی از چشم ما پنهان نمی‌ماند. 🔹 این میزان هواپیمای نظامی، به‌ویژه هواپیمای سوخت‌رسان، در پایگاه‌های منطقه‌ای بدون اطلاع کشورهای میزبان بعید به نظر می‌رسد. 🔹 هشدار می‌دهیم: هرگونه کمک و تسهیل‌گری به ارتش متجاوز آمریکا به منزله مشارکت با نیروهای نظامی آمریکاست. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357071"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Warning from Chief of Staff of Armed Forces regarding assistance to US invading army",
+      "summary_en": "Warning from Chief of Staff of Armed Forces regarding assistance to US invading army. General Ali Abdollahi wrote on X: Southern Persian Gulf rim countries that announce through various statements they do not permit US use of their territories against Iran should know that nothing escapes our sight. The volume of military aircraft, especially tanker aircraft, at regional bases without the knowledge of host countries seems unlikely. We warn: any assistance and facilitation to the US invading army amounts to participation with US military forces.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfzkpai6x2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T05:43:16.479000Z",
+      "title": "US, South Korea will shorten their annual military drill from 11 days to five, as Seoul's foreign minister linked the move to US pressure…",
+      "url": "https://www.jpost.com/international/article-905960",
+      "summary": "US, South Korea will shorten their annual military drill from 11 days to five, as Seoul's foreign minister linked the move to US pressure over Iran and other issues. \nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65785",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:36:14Z",
+      "title": "💢 هرمز؛ جایی که ایران قدرت خود را به آمریکا نشان داد 🔸 تنگه هرمز دیگر یک آبراه راهبردی نیست؛ به صحنه‌ای تبدیل…",
+      "url": "https://t.me/defapress_ir/65785",
+      "summary": "💢 هرمز؛ جایی که ایران قدرت خود را به آمریکا نشان داد 🔸 تنگه هرمز دیگر یک آبراه راهبردی نیست؛ به صحنه‌ای تبدیل شده که در آن، ایران توانسته یکی از مهم‌ترین اهرم‌های قدرت خود را در برابر آمریکا به نمایش بگذارد. 🔸 توییت اخیر دبیر شورای عالی امنیت ملی دقیقاً بر همین واقعیت دست گذاشته است. محسن رضایی با اشاره به فاصله ۷۰۰۰ مایلی واشنگتن تا تنگه هرمز، تأکید کرده است که شکاف میان ناتوانی آمریکا در بازگشایی تنگه و ادعای مالکیت آن، حتی از این فاصله جغرافیایی نیز بیشتر است. او در پایان از «نظم پساآمریکایی در خلیج فارس» سخن گفته است؛ عبارتی که در شرایط کنونی بیش از یک شعار سیاسی، حامل یک پیام راهبردی است.",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65785"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hormuz; where Iran displayed its power to America",
+      "summary_en": "Hormuz; where Iran displayed its power to America. The Strait of Hormuz is no longer just a strategic waterway; it has become a scene where Iran has been able to display one of its most important levers of power against America. The recent tweet of the secretary of the Supreme National Security Council touched precisely on this reality. Mohsen Rezaei, referring to the 7,000-mile distance from Washington to the Strait of Hormuz, emphasised that the gap between America's inability to reopen the strait and its claim of ownership is even greater than this geographical distance. He concluded by speaking of a 'post-American order in the Persian Gulf'; a phrase that in current circumstances carries a strategic message beyond mere political slogan.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357070",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:30:01Z",
+      "title": "🎦 رقابت بیش از یک میلیون داوطلب در آزمون سراسری ۱۴۰۵ محمدی رئیس سازمان سنجش و آموزش کشور: 🔹 آزمون سراسری…",
+      "url": "https://t.me/iribnews/357070",
+      "summary": "🎦 رقابت بیش از یک میلیون داوطلب در آزمون سراسری ۱۴۰۵ محمدی رئیس سازمان سنجش و آموزش کشور: 🔹 آزمون سراسری امسال در روزهای پنجشنبه و جمعه برگزار می‌شود و بیش از یک میلیون داوطلب برای قبولی در دانشگاه‌ها با یکدیگر رقابت می‌کنند. 🔹 رشته‌های تحصیلی و میزان جذب دانشجو در سال ۱۴۰۵ به تفکیک اعلام شد. 🔹 ۶۵ درصد شرکت‌کنندگان را خانم‌ها و ۳۵ درصد را آقایان تشکیل می‌دهند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357070"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Competition of over one million candidates in the 1405 national exam",
+      "summary_en": "Competition of over one million candidates in the 1405 national exam. Mohammadi, head of the National Organization for Educational Testing and Assessment: This year's national exam will be held on Thursday and Friday and over one million candidates will compete with each other for university admission. Educational fields and the rate of student intake in 1405 were announced by category. Women comprise 65 per cent of participants and men 35 per cent.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357069",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:21:44Z",
+      "title": "🔺 امروز آخرین مهلت دریافت کارت کنکور 🔹 مهلت دریافت کارت‌ شرکت در آزمون‌ سراسری و آزمون اختصاصی پذیرش…",
+      "url": "https://t.me/iribnews/357069",
+      "summary": "🔺 امروز آخرین مهلت دریافت کارت کنکور 🔹 مهلت دریافت کارت‌ شرکت در آزمون‌ سراسری و آزمون اختصاصی پذیرش دانشجو-معلم سال ۱۴۰۵ امروز پایان می‌یابد. 🔹 آزمون اختصاصی گروه آزمایشی علوم تجربی صبح روز فردا پنجشنبه و گروه‌های آزمایشی هنر و زبان های خارجی بعدازظهر روز پنجشنبه ۲۹ مرداد و آزمون گروه‌های آزمایشی علوم ریاضی و فنی و علوم انسانی صبح روز جمعه ۳۰ مردادماه در ۴۱۵ شهرستان سراسر کشور برگزار خواهد شد. @irinews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357069"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Today is the final deadline for obtaining the exam admission card",
+      "summary_en": "Today is the final deadline for obtaining the exam admission card. The deadline for obtaining admission cards for the national exam and the specialist exam for student-teacher recruitment for 1405 ends today. The specialist exam for the experimental science group will be held tomorrow morning, Thursday, and the art and foreign language experimental groups in the afternoon on Thursday, 29 Mordad, and the exam for the mathematics, technical and humanities experimental groups will be held tomorrow morning, Friday, 30 Mordad in 415 cities across the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65784",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T05:06:28Z",
+      "title": "💢 قالیباف: گام‌های بلندی برای تحکیم امنیت مشترک ایران و عراق برمی‌داریم 🔸 رئیس مجلس شورای اسلامی نوشت:…",
+      "url": "https://t.me/defapress_ir/65784",
+      "summary": "💢 قالیباف: گام‌های بلندی برای تحکیم امنیت مشترک ایران و عراق برمی‌داریم 🔸 رئیس مجلس شورای اسلامی نوشت: همسایگی ایران و عراق بر پایه برادری در سخت‌ترین‌ روزها، مقاومت در برابر دخالت بیگانگان و باور به سرنوشت مشترک دو کشور بنا شده است. 🔸 در این سفر، گام‌های عملی و بلندی برای تحکیم امنیت درون‌زا و مشترک دو کشور و رفاه دو ملت برخواهیم داشت. dnws.ir/003agd @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65784"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: we are taking major steps to strengthen Iran-Iraq common security",
+      "summary_en": "Qalibaf: we are taking major steps to strengthen Iran-Iraq common security. The Speaker of the Islamic Consultative Assembly wrote: Iran and Iraq's neighbourship is founded on brotherhood in the most difficult days, resistance against foreign interference and belief in the shared destiny of the two countries. In this visit, we will take practical and major steps to strengthen the endogenous and shared security of the two countries and the welfare of both nations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357068",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:53:55Z",
+      "title": "🔺 قالیباف عازم بغداد شد 🔹 رئیس مجلس امروز با هدف گفت‌وگو درباره تحولات منطقه، تقویت همکاری‌های راهبردی تهران…",
+      "url": "https://t.me/iribnews/357068",
+      "summary": "🔺 قالیباف عازم بغداد شد 🔹 رئیس مجلس امروز با هدف گفت‌وگو درباره تحولات منطقه، تقویت همکاری‌های راهبردی تهران و بغداد و بررسی راهکارهای مشترک برای کمک به برقراری ثبات و امنیت در غرب آسیا، در رأس یک هیأت بلندپایه پارلمانی، تهران را به مقصد بغداد، پایتخت عراق…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357068"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf departed for Baghdad",
+      "summary_en": "Qalibaf departed for Baghdad. The Parliament Speaker today, at the head of a high-ranking parliamentary delegation, departed Tehran for Baghdad, the capital of Iraq, with the aim of discussing regional developments, strengthening strategic cooperation between Tehran and Baghdad and examining joint solutions to help establish stability and security in West Asia.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65783",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:52:03Z",
+      "title": "💢 سردار نقدی: تهاجمی‌شدن دکترین نظامی ایران/ تاب‌آوری ایران آمریکا را از ادامه  جنگ پشیمان کرده است 🔸 مشاور…",
+      "url": "https://t.me/defapress_ir/65783",
+      "summary": "💢 سردار نقدی: تهاجمی‌شدن دکترین نظامی ایران/ تاب‌آوری ایران آمریکا را از ادامه  جنگ پشیمان کرده است 🔸 مشاور عالی فرمانده کل سپاه در گفت‌وگو با خبرگزاری اسپوتنیک روسیه با اشاره به اهمیت همکاری تهران ـ مسکو برای مقابله با آمریکا، گفت: شیشه عمر آمریکا را با…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65783"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Naqdi: Iran's military doctrine becomes offensive / Iran's resilience has made America regret continuing the war",
+      "summary_en": "Naqdi: Iran's military doctrine becomes offensive / Iran's resilience has made America regret continuing the war. The senior adviser to the commander-in-chief of the IRGC in an interview with Russian Sputnik news agency, referring to the importance of Tehran-Moscow cooperation to confront America, said: with cooperation with Russia we can break America's glass lifespan.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65782",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:42:09Z",
+      "title": "💢 سردار نقدی: تهاجمی‌شدن دکترین نظامی ایران/ تاب‌آوری ایران آمریکا را از ادامه جنگ پشیمان کرده است 🔸 مشاور…",
+      "url": "https://t.me/defapress_ir/65782",
+      "summary": "💢 سردار نقدی: تهاجمی‌شدن دکترین نظامی ایران/ تاب‌آوری ایران آمریکا را از ادامه جنگ پشیمان کرده است 🔸 مشاور عالی فرمانده کل سپاه در گفت‌وگو با خبرگزاری اسپوتنیک روسیه با اشاره به اهمیت همکاری تهران ـ مسکو برای مقابله با آمریکا، گفت: شیشه عمر آمریکا را با همکاری روسیه می‌توانیم بشکنیم. 🔸 ما در گذشته تصور دیگری از دشمن آمریکایی داشتیم و حساب دیگری روی آن باز می‌کردیم، اما امروز تصور ما درباره ارتش این کشور با بودجه نظامی هنگفت، تغییر کرده است. قدرت نظامی آمریکا در جهان سرآمد است و ارتش آن صد‌ها برابر ارتش ما بودجه و تجهیزات نظامی دارد. 🔸 انتظار زیادی از روسیه نداریم؛ زیرا روسیه درگیر جنگ است و ای",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65782"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Naqdi: Iran's military doctrine becomes offensive / Iran's resilience has made America regret continuing the war",
+      "summary_en": "Naqdi: Iran's military doctrine becomes offensive / Iran's resilience has made America regret continuing the war. The senior adviser to the commander-in-chief of the IRGC in an interview with Russian Sputnik news agency, referring to the importance of Tehran-Moscow cooperation to confront America, said: with cooperation with Russia we can break America's glass lifespan. In the past we had a different conception of the American enemy and made different calculations about it, but today our conception of the army of this country with huge military budget has changed. America's military power is foremost in the world and its army has hundreds of times the budget and military equipment of ours. We do not expect much from Russia; because Russia is engaged in war and it.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357067",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:40:44Z",
+      "title": "🎦 آمریکای امروز در هدف با دیروز تفاوتی ندارد؛ فقط روش‌ها عوض شده‌اند عسگری، کارشناس تاریخ؛ 🔹 رفتار آمریکا با…",
+      "url": "https://t.me/iribnews/357067",
+      "summary": "🎦 آمریکای امروز در هدف با دیروز تفاوتی ندارد؛ فقط روش‌ها عوض شده‌اند عسگری، کارشناس تاریخ؛ 🔹 رفتار آمریکا با غرب مشارکتی و با غیرغرب استعماری است. 🔹 کودتای ۲۸ مرداد و کشتار مردم ارومیه در سال ۱۲۹۵، نمونه‌های ثابت این الگو هستند. 🔹 بیشتر بحران‌های ایران ناشی از اعتماد به وعده‌های پوشالی آمریکا بوده. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357067"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "America today has no different goal than yesterday; only the methods have changed. Asgari, history expert.",
+      "summary_en": "America today has no different goal than yesterday; only the methods have changed. Asgari, history expert. America's behaviour towards the West is participatory and towards the non-West is colonial. The 1949 coup and the massacre of people in Urumiyah in 1916 are fixed examples of this pattern. Most of Iran's crises have resulted from trusting hollow American promises.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65772",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:35:29Z",
+      "title": "📸 صفحه نخست روزنامه‌های امروز چهارشنبه ۲۸ مرداد ۱۴۰۵ @Defapress_ir",
+      "url": "https://t.me/defapress_ir/65772",
+      "summary": "📸 صفحه نخست روزنامه‌های امروز چهارشنبه ۲۸ مرداد ۱۴۰۵ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65772"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Front pages of newspapers today, Wednesday 28 Mordad 1405",
+      "summary_en": "Front pages of newspapers today, Wednesday 28 Mordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65771",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:32:03Z",
+      "title": "💢 تقویم روز شهید حسين اسلامی: شهادت بزرگترين و بالاترين آرزوی يک مومن است؛ يعنی آن را می توان نهايت درجه…",
+      "url": "https://t.me/defapress_ir/65771",
+      "summary": "💢 تقویم روز شهید حسين اسلامی: شهادت بزرگترين و بالاترين آرزوی يک مومن است؛ يعنی آن را می توان نهايت درجه تکامل يک مومن خالص قرار داد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65771"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Calendar of Martyrs' Day. Husein Islami: Martyrdom is the greatest and highest aspiration of a believer; that is, it can be considered the ultimate degree of perfection of a pure believer.",
+      "summary_en": "Calendar of Martyrs' Day. Husein Islami: Martyrdom is the greatest and highest aspiration of a believer; that is, it can be considered the ultimate degree of perfection of a pure believer.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357066",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:28:06Z",
+      "title": "🔺 امکان ترمیم سابقه تحصیلی از امروز وزارت آموزش و پرورش: 🔹 متقاضیان ترمیم سابقه تحصیلی سال ۱۴۰۵ می‌توانند از…",
+      "url": "https://t.me/iribnews/357066",
+      "summary": "🔺 امکان ترمیم سابقه تحصیلی از امروز وزارت آموزش و پرورش: 🔹 متقاضیان ترمیم سابقه تحصیلی سال ۱۴۰۵ می‌توانند از امروز (۲۸ تا ۳۰ مردادماه)، پیش از اعلام نتایج آزمون‌های نهایی، انصراف خود را در سامانه ثبت کنند. 🔹 ثبت انصراف در همان سامانه ثبت‌نام ایجاد و ترمیم سابقه تحصیلی و از طریق درگاه my.sanjesh.org انجام می‌شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357066"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Possibility of amending academic record from today, Ministry of Education:",
+      "summary_en": "Possibility of amending academic record from today, Ministry of Education: Those seeking to amend their 1405 academic record can register their withdrawal from today (28 to 30 Mordad), before the announcement of final exam results. Registration of withdrawal in the same registration system and amendment of academic record and through the gateway my.sanjesh.org is carried out.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357065",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:14:03Z",
+      "title": "🔺 قالیباف: پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است  رئیس مجلس شورای اسلامی در آستانه سفر…",
+      "url": "https://t.me/iribnews/357065",
+      "summary": "🔺 قالیباف: پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است  رئیس مجلس شورای اسلامی در آستانه سفر راهبردی خود به عراق: 🔹 پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است. 🔹 همسایگی ما بر پایه برادری در سخت‌‌ترین‌ روزها، مقاومت در برابر دخالت…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357065"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: the bond between the two peoples of Iran and Iraq is a historical and inseparable bond",
+      "summary_en": "Qalibaf: the bond between the two peoples of Iran and Iraq is a historical and inseparable bond. The Speaker of the Islamic Consultative Assembly on the eve of his strategic visit to Iraq: The bond between the two peoples of Iran and Iraq is a historical and inseparable bond. Our neighbourship is founded on brotherhood in the most difficult days, resistance against foreign interference.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357062",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T04:09:55Z",
+      "title": "🎦 آتش‌سوزی گسترده در مرکز بازیافت زباله لندن 🔹 آتش‌سوزی گسترده‌ای شامگاه سه‌شنبه در یک مرکز  بازیافت پسماند…",
+      "url": "https://t.me/iribnews/357062",
+      "summary": "🎦 آتش‌سوزی گسترده در مرکز بازیافت زباله لندن 🔹 آتش‌سوزی گسترده‌ای شامگاه سه‌شنبه در یک مرکز  بازیافت پسماند در منطقه دپتفورد در جنوب شرق لندن رخ داد و دود غلیظ ناشی از آن بخش‌هایی از آسمان شهر را فرا گرفت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357062"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Extensive fire at recycling centre in London",
+      "summary_en": "Extensive fire at recycling centre in London. An extensive fire broke out Tuesday evening at a waste recycling centre in the Deptford area in southeast London and thick smoke from it covered parts of the city's sky.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtftheogrs2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T03:54:02.257000Z",
+      "title": "Shipping through the Strait of Hormuz slowed as most shipowners avoided the key waterway due to unclear signals regarding its reopening.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905955",
+      "summary": "Shipping through the Strait of Hormuz slowed as most shipowners avoided the key waterway due to unclear signals regarding its reopening.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357061",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T03:41:11Z",
+      "title": "🔺 قالیباف: پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است رئیس مجلس شورای اسلامی در آستانه سفر…",
+      "url": "https://t.me/iribnews/357061",
+      "summary": "🔺 قالیباف: پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است رئیس مجلس شورای اسلامی در آستانه سفر راهبردی خود به عراق: 🔹 پیوند دو ملت ایران و عراق، پیوندی تاریخی و ناگسستنی است. 🔹 همسایگی ما بر پایه برادری در سخت‌‌ترین‌ روزها، مقاومت در برابر دخالت بیگانگان و باور به سرنوشت مشترک دو کشور بنا شده و این گذشتهٔ درس‌آموز، راهنمای آینده خواهد بود. 🔹 در این سفر، گام‌های عملی و بلندی برای تحکیم امنیت درون‌زا و مشترک دو کشور و رفاه دو ملت برخواهیم داشت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357061"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: the bond between the two peoples of Iran and Iraq is a historical and inseparable bond",
+      "summary_en": "Qalibaf: the bond between the two peoples of Iran and Iraq is a historical and inseparable bond. The Speaker of the Islamic Consultative Assembly on the eve of his strategic visit to Iraq: The bond between the two peoples of Iran and Iraq is a historical and inseparable bond. Our neighbourship is founded on brotherhood in the most difficult days, resistance against foreign interference and belief in the shared destiny of the two countries and this instructive past will be a guide to the future. In this visit, we will take practical and major steps to strengthen the endogenous and shared security of the two countries and the welfare of both nations.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfsjrow6u2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T03:37:29.058000Z",
+      "title": "The US Justice Department (DOJ) updated charges against 17 individuals working with the Mabna Institute, which the DOJ says carried out…",
+      "url": "https://www.jpost.com/international/article-905954",
+      "summary": "The US Justice Department (DOJ) updated charges against 17 individuals working with the Mabna Institute, which the DOJ says carried out hacking campaigns on behalf of Iran’s Islamic Revolutionary Guard Corps and other Iranian government and university clients. \nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357060",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T03:35:41Z",
+      "title": "🔺 پیش‌بینی بارش پراکنده در ارتفاعات شمال سازمان هواشناسی: 🔹 بارش پراکنده امروز و فردا در ارتفاعات گیلان،…",
+      "url": "https://t.me/iribnews/357060",
+      "summary": "🔺 پیش‌بینی بارش پراکنده در ارتفاعات شمال سازمان هواشناسی: 🔹 بارش پراکنده امروز و فردا در ارتفاعات گیلان، مازندران و گلستان پیش‌بینی می‌شود. 🔹 همزمان، در ساعات بعدازظهر و شب، جنوب سیستان‌وبلوچستان، کرمان و ارتفاعات هرمزگان شاهد رگبار، رعدوبرق و وزش باد شدید موقت خواهند بود. 🔹 در برخی مناطق جنوب‌غرب، شرق و شمال‌شرق کشور نیز وزش باد شدید موقت، گردوخاک و کاهش کیفیت هوا انتظار می‌رود. 🔹 دریای خزر، خلیج فارس، تنگه هرمز و دریای عمان هم تا روز جمعه مواج است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357060"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Forecast of scattered rainfall in northern highlands by Meteorological Organisation:",
+      "summary_en": "Forecast of scattered rainfall in northern highlands by Meteorological Organisation: Scattered rainfall is forecast today and tomorrow in the highlands of Gilan, Mazandran and Golestan. Concurrently, in the afternoon and evening hours, southern Sistan and Baluchistan, Kerman and Hormozgan highlands will witness heavy showers, thunderstorms and strong temporary winds. In some areas of the southwest, east and northeast of the country, strong temporary winds, dust and reduced air quality are expected. The Caspian Sea, Persian Gulf, Strait of Hormuz and Oman Sea will be rough until Friday.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/357050",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-19T02:58:09Z",
+      "title": "🔺 صفحه نخست روزنامه های چهارشنبه ۲۸ مرداد ۱۴۰۵ @iribnews",
+      "url": "https://t.me/iribnews/357050",
+      "summary": "🔺 صفحه نخست روزنامه های چهارشنبه ۲۸ مرداد ۱۴۰۵ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/357050"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Front pages of newspapers Wednesday 28 Mordad 1405",
+      "summary_en": "Front pages of newspapers Wednesday 28 Mordad 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608184357",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-19T01:56:34Z",
+      "title": "The 60-day deadline is over. Now what does Trump do with Iran?",
+      "url": "https://www.iranintl.com/en/202608184357",
+      "summary": "With the 60-day period set by the June US-Iran memorandum now over and no final agreement in place, Washington faces a choice between intensifying pressure, renewing major strikes or settling into a prolonged and unstable holding pattern.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfm5fwvvq2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T01:43:12.591000Z",
+      "title": "The US may consider downscaling its military presence in the Middle East following damage from Iranian attacks during the conflict.",
+      "url": "https://www.jpost.com/international/article-905945",
+      "summary": "The US may consider downscaling its military presence in the Middle East following damage from Iranian attacks during the conflict.\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfkukqmls25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T01:20:21.060000Z",
+      "title": "Trump's actions in the Iran conflict may have implications reaching as far as South Korea.",
+      "url": "https://www.jpost.com/international/article-905944",
+      "summary": "Trump's actions in the Iran conflict may have implications reaching as far as South Korea.\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtfk4gjubi2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-19T01:06:51.338000Z",
+      "title": "Iran may have used an attack on the Kurdistan Regional Government to show off its new drone.",
+      "url": "https://www.jpost.com/middle-east/article-905943",
+      "summary": "Iran may have used an attack on the Kurdistan Regional Government to show off its new drone.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "state:https://www.state.gov/releases/preview/700621/",
+      "source": "US State Department",
+      "source_detail": "press-releases",
+      "source_tier": 2,
+      "category": "state-press",
+      "published_at": "2026-08-19T00:29:36Z",
+      "title": "Secretary Rubio’s Call with UAE National Security Advisor Sheikh Tahnoon bin Zayed Al Nahyan",
+      "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/08/secretary-rubios-call-with-uae-national-security-advisor-sheikh-tahnoon-bin-zayed-al-nahyan/",
+      "summary": "Secretary Rubio&#8217;s Call with UAE National Security Advisor Sheikh Tahnoon bin Zayed Al Nahyan Readout August 18, 2026 The below is attributable to Principal Deputy Spokesperson Tommy Pigott: Secretary of State Marco Rubio spoke today with UAE National Security Advisor Sheikh Tahnoon bin Zayed Al Nahyan. The two discussed a number of regional security issues, including Lebanon, as well as continued U.S.-UAE coordination to hold Iran and its terrorist proxies accountable for ongoing attacks. ",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-16868",
+      "source": "US Federal Register",
+      "source_detail": "Homeland Security Department",
+      "source_tier": 1,
+      "category": "agency-rule",
+      "published_at": "2026-08-19T00:00:00Z",
+      "title": "Notification of the Removal of Conditions of Entry on Vessels Arriving From Nigeria",
+      "url": "https://www.federalregister.gov/documents/2026/08/19/2026-16868/notification-of-the-removal-of-conditions-of-entry-on-vessels-arriving-from-nigeria",
+      "summary": "The U.S. Coast Guard announces that it is removing the Federal Republic of Nigeria from the Port Security Advisory.",
+      "details": {
+        "document_type": "Notice",
+        "agencies": "Homeland Security Department, Coast Guard",
+        "document_number": "2026-16868"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf7npbzrz2l",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T21:59:39.794000Z",
+      "title": "After Israel struck a Syrian airbase, Tom Barrack said efforts to create a deconfliction mechanism between Israel, Syria, and Turkey are…",
+      "url": "https://www.jpost.com/middle-east/article-905935",
+      "summary": "After Israel struck a Syrian airbase, Tom Barrack said efforts to create a deconfliction mechanism between Israel, Syria, and Turkey are underway.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65770",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T21:43:01Z",
+      "title": "💢 اندیشکده بروکینگز: آمریکا بازنده بزرگ شوک هرمز 🔸 شوک تنگه هرمز به دنبال حمله آمریکا و اسرائیل به ایران در…",
+      "url": "https://t.me/defapress_ir/65770",
+      "summary": "💢 اندیشکده بروکینگز: آمریکا بازنده بزرگ شوک هرمز 🔸 شوک تنگه هرمز به دنبال حمله آمریکا و اسرائیل به ایران در فوریه ۲۰۲۶ ، بزرگترین اختلال در عرضه نفت و گاز جهان را ایجاد کرد. 🔸 آمریکا تولید نفت و گاز خود را افزایش داد، در حالی که چین واردات نفت را به شدت کاهش و صادرات فناوری پاک را افزایش داد. 🔸 چین با تکیه بر زغال‌سنگ، ذخایر راهبردی نفت، افزایش واردات از روسیه و خودروهای برقی، از این بحران عبور کرد. 🔸 آمریکا تنها از افزایش کوتاه‌مدت تقاضا برای سوخت‌های فسیلی سود می‌برد، اما چین از هر دو بخش (بحران فعلی و گذار تدریجی به انرژی پاک) منتفع می‌شود. 🔸 تسلط چین در تولید فناوری‌های پاک (پنل‌های خورشید",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65770"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brookings Institution: America the big loser in Hormuz shock",
+      "summary_en": "Brookings Institution: America the big loser in Hormuz shock. The Hormuz Strait shock following the US and Israeli attack on Iran in February 2026 created the largest disruption in global oil and gas supply. America increased its oil and gas production, while China sharply reduced oil imports and increased clean technology exports. China overcame this crisis by relying on coal, strategic oil reserves, increased imports from Russia and electric vehicles. America only profits from short-term increase in demand for fossil fuels, but China benefits from both the current crisis and the gradual transition to clean energy. China's dominance in clean technology production (solar panels).",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf5al6sqh25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T21:16:31.870000Z",
+      "title": "Iran denied being behind Tuesday's missile attack on Dubai, with Tehran suggesting it may have been a 'false-flag' attack by the US and…",
+      "url": "https://www.jpost.com/middle-east/article-905908",
+      "summary": "Iran denied being behind Tuesday's missile attack on Dubai, with Tehran suggesting it may have been a 'false-flag' attack by the US and Israel.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608187920",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T20:45:00Z",
+      "title": "Trump calls off Iran talks as Tehran doubles down on Hormuz leverage",
+      "url": "https://www.iranintl.com/en/202608187920",
+      "summary": "President Donald Trump has halted diplomatic engagement with Iran until further notice, the White House said on Tuesday, as Tehran hardens its position over the Strait of Hormuz and presses Washington to meet its demands.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtf3g6czwh23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T20:43:52.047000Z",
+      "title": "The Prime Minister's Office confirmed that Israel struck a Syrian airbase Monday night, after US Envoy to Iraq and Syria Tom Barrack said…",
+      "url": "https://www.jpost.com/middle-east/article-905862",
+      "summary": "The Prime Minister's Office confirmed that Israel struck a Syrian airbase Monday night, after US Envoy to Iraq and Syria Tom Barrack said the White House was \"deeply concerned\" over the attack.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:20492df5dafd659f3538a9f1c7b29cb2",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T20:30:00Z",
+      "title": "Israel confirms it was behind overnight airstrikes against a Syrian military airport, where it claims Turkey was planning to deploy forces. \"Israel and Syria agreed to a status quo in security matters, which Syria was on the verge of breaching by permitting Turkish troops to deploy at an airbase near Aleppo,\" says Prime Minister Benjamin Netanyahu's office in an English-language statement. The Prime Minister's Office says Israel \"repeatedly warned Syria that such a deployment would pose a threat to Israel's security.\" \"Syria chose to ignore these warnings,\" the PMO says, adding a that Israel \"will not tolerate threats to its security, and would welcome a return to the status quo.\"",
+      "url": "https://x.com/manniefabian/status/2089812172335407433",
+      "summary": "Israel confirms it was behind overnight airstrikes against a Syrian military airport, where it claims Turkey was planning to deploy forces.\n\n\"Israel and Syria agreed to a status quo in security matters, which Syria was on the verge of breaching by permitting Turkish troops to deploy at an airbase near Aleppo,\" says Prime Minister Benjamin Netanyahu's office in an English-language statement.\n\nThe Prime Minister's Office says Israel \"repeatedly warned Syria that such a deployment would pose a threat to Israel's security.\"\n\n\"Syria chose to ignore these warnings,\" the PMO says, adding a that Israe",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65769",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T20:28:58Z",
+      "title": "💢 برتری سوخو ۳۵  اس روسیه در حریم هوایی اوکراین 🔸 یک سوخو35اس نیروی هوایی روسیه یک میگ29 اوکراینی را سرنگون…",
+      "url": "https://t.me/defapress_ir/65769",
+      "summary": "💢 برتری سوخو ۳۵  اس روسیه در حریم هوایی اوکراین 🔸 یک سوخو35اس نیروی هوایی روسیه یک میگ29 اوکراینی را سرنگون کرد. 🔸 حین گشت‌زنی، یک سوخو35  دیگر وارد حریم هوایی تحت کنترل اوکراین شد تا پدافند موشکی پاتریوت را آزمایش کند. 🔸 سوخو35 در حال حاضر بالاترین تعداد ساقط کردن‌های هوا به هوای قرن ۲۱ را در اختیار دارد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65769"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Superiority of Russian Sukhoi 35 S in Ukrainian airspace",
+      "summary_en": "Superiority of Russian Sukhoi 35 S in Ukrainian airspace. A Sukhoi 35 S of the Russian Air Force shot down a Ukrainian MiG-29. During patrol, another Sukhoi 35 entered Ukrainian-controlled airspace to test Patriot air defence systems. The Sukhoi 35 currently holds the highest number of air-to-air kills in the 21st century.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/65768",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T19:31:36Z",
+      "title": "💢 عقده‌گشایی فرانسه و اخراج بی‌دلیل دو دیپلمات ایرانی 🔸 وزیر امور خارجه فرانسه ژان نوئل بارو به‌جای پاسخگویی…",
+      "url": "https://t.me/defapress_ir/65768",
+      "summary": "💢 عقده‌گشایی فرانسه و اخراج بی‌دلیل دو دیپلمات ایرانی 🔸 وزیر امور خارجه فرانسه ژان نوئل بارو به‌جای پاسخگویی در قبال اقدامات دیپلمات‌های خود، روز سه‌شنبه اعلام کرد که دو دیپلمات ایرانی را از فرانسه اخراج خواهد کرد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/65768"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "France's grievance and unjustified expulsion of two Iranian diplomats",
+      "summary_en": "France's grievance and unjustified expulsion of two Iranian diplomats. French Foreign Minister Jean-Noël Barrot, instead of answering for the actions of his own diplomats, announced on Tuesday that he would expel two Iranian diplomats from France.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/951",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T19:02:30Z",
+      "title": "🖼 جایی در آن ندارند مگر در قعرِ آب‌هایش ✏️ بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس…",
+      "url": "https://t.me/rahbar_ir/951",
+      "summary": "🖼 جایی در آن ندارند مگر در قعرِ آب‌هایش ✏️ بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ آب‌هایش. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت روز ملّی خلیج فارس |  ۱۰/اردیبهشت/۱۴۰۵ 🖨 نسخه کیفیت اصلی 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/951"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "They have no place in it except in the depths of its waters. Foreigners thousands of kilometres away, mischievously scheming in the Persian Gulf, have no place in it except in the depths of its waters.",
+      "summary_en": "They have no place in it except in the depths of its waters. Foreigners thousands of kilometres away, mischievously scheming in the Persian Gulf, have no place in it except in the depths of its waters. An excerpt from the message of the Leader of the Revolution on the occasion of National Persian Gulf Day | 10 Ordibehesht 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mtevnatfb72y",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-08-18T19:00:28.164000Z",
+      "title": "The remains of Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War’s battle of Sultan Yacoub in 1982, have been…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mtevnatfb72y",
+      "summary": "The remains of Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War’s battle of Sultan Yacoub in 1982, have been returned to Israel, the military announced on Tuesday.\n\nRead more on The Times of Israel.\n\nwww.timesofisrael.com/liveblog_ent...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:f23911cf4e2ef68d78cc32c9af556506",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-18T18:41:00Z",
+      "title": "After 44 years, the remains of SFC Yehuda Yekutiel Katz have been brought to Israel In an operation led by the Intelligence Directorate and through a joint intelligence effort with the Mossad, the remains of Yehuda were located and brought to Israel. This marks a long-awaited conclusion of the search efforts and follows previous operations in which SFC Zachary Baumel was returned to Israel in 2019 and SFC Tzvika Feldman was returned in 2025, thereby completing the mission to return all of the missing soldiers from the Battle of Sultan Yacoub.",
+      "url": "https://x.com/IDF/status/2089784723396866437",
+      "summary": "After 44 years, the remains of SFC Yehuda Yekutiel Katz have been brought to Israel\n\nIn an operation led by the Intelligence Directorate and through a joint intelligence effort with the Mossad, the remains of Yehuda were located and brought to Israel.\n\nThis marks a long-awaited conclusion of the search efforts and follows previous operations in which SFC Zachary Baumel was returned to Israel in 2019 and SFC Tzvika Feldman was returned in 2025, thereby completing the mission to return all of the missing soldiers from the Battle of Sultan Yacoub.— Israel Defense Forces (@IDF) Aug 18, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:0a5ad53cfea1210acf6a0f0050397b69",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-18T18:09:00Z",
+      "title": "🎯STRUCK: Nukhba commanders and a terrorist who infiltrated Israel and participated in the October 7 Massacre. The terrorists advanced terror attacks against IDF troops operating in Gaza.",
+      "url": "https://x.com/IDF/status/2089776811555033333",
+      "summary": "🎯STRUCK: Nukhba commanders and a terrorist who infiltrated Israel and participated in the October 7 Massacre.\n\nThe terrorists advanced terror attacks against IDF troops operating in Gaza.— Israel Defense Forces (@IDF) Aug 18, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:8ad7b447fe72209a97016cced0b3df8b",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T17:37:00Z",
+      "title": "The military says its strike earlier today near the port of Gaza City targeted commanders and operatives in Hamas's elite Nukhba force while they were meeting. One of the terrorists had invaded Israel during the October 7, 2023, onslaught, according to the IDF. The military says that the targets included a Nukhba force company commander, three platoon commanders, and several more terror operatives. The results of the strike will be released once verified, the IDF says. According to Palestinian media, the strike hit a cafe and killed six and wounded 10 others. The army says that it took steps to minimize the harm to civilians in the strike.",
+      "url": "https://x.com/manniefabian/status/2089768657593291136",
+      "summary": "The military says its strike earlier today near the port of Gaza City targeted commanders and operatives in Hamas's elite Nukhba force while they were meeting.\n\nOne of the terrorists had invaded Israel during the October 7, 2023, onslaught, according to the IDF.\n\nThe military says that the targets included a Nukhba force company commander, three platoon commanders, and several more terror operatives. \n\nThe results of the strike will be released once verified, the IDF says.\n\nAccording to Palestinian media, the strike hit a cafe and killed six and wounded 10 others.\n\nThe army says that it took s",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteqw3fs3i2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T17:35:54.359450Z",
+      "title": "A kite bearing Arabic writing was found in Simhoni Forest in the Gaza border area, according to reports, prompting security personnel to…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905914",
+      "summary": "A kite bearing Arabic writing was found in Simhoni Forest in the Gaza border area, according to reports, prompting security personnel to the scene to investigate the incident.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteqi7kddp2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T17:28:08.681099Z",
+      "title": "Several Hamas terrorists were targeted in an airstrike in northern Gaza City.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-905915",
+      "summary": "Several Hamas terrorists were targeted in an airstrike in northern Gaza City.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/950",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T17:09:15Z",
+      "title": "(media post — open in Telegram to view)",
+      "url": "https://t.me/rahbar_ir/950",
+      "summary": "(media post — open in Telegram to view)",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/950"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "(media post — open in Telegram to view)",
+      "summary_en": "(media post — open in Telegram to view)",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:287a820a72dc6db183c2943c4fa74d09",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-18T17:04:00Z",
+      "title": "🇮🇱🤝🇨🇴Personnel from the “Alliance of Brothers” delegation, together with local and international search and rescue teams in Colombia, continue to operate at several major disaster sites in Cali. The personnel have contributed to the locating and rescue of 17 missing persons and continue to work to locate and rescue additional people.",
+      "url": "https://x.com/IDF/status/2089760280372818305",
+      "summary": "🇮🇱🤝🇨🇴Personnel from the “Alliance of Brothers” delegation, together with local and international search and rescue teams in Colombia, continue to operate at several major disaster sites in Cali.\n\nThe personnel have contributed to the locating and rescue of 17 missing persons and continue to work to locate and rescue additional people.— Israel Defense Forces (@IDF) Aug 18, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608189099",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T16:50:05Z",
+      "title": "For Iranian journalists, exile can last a lifetime",
+      "url": "https://www.iranintl.com/en/202608189099",
+      "summary": "Journalists are not supposed to become the story. We are usually on the other side of it. Someone lives through an event and we write about it. Someone is gone and we report their passing. A crisis unfolds and we try to find the right words to tell its story.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtenzpwxj22i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T16:44:15.359650Z",
+      "title": "The UAE was attacked by Iran, which fired two ballistic missiles at the Gulf Nation.",
+      "url": "https://www.jpost.com/middle-east/article-905908",
+      "summary": "The UAE was attacked by Iran, which fired two ballistic missiles at the Gulf Nation.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:7a53ec009408a18380b898bbe120674c",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T16:38:00Z",
+      "title": "The remains of Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War's battle of Sultan Yacoub in 1982, have been returned to Israel, the military announces. The battle, 44 years ago, was a skirmish between the IDF and the Syrian army in Lebanon's Beqaa Valley. It claimed the lives of 21 Israeli servicemen, and more than 30 were injured during it. Katz, a tank soldier, went missing during the battle along with Sgt. First Class Zachary Baumel and Sgt. First Class Zvi Feldman. Baumel's remains were recovered with Russian assistance and returned to Israel in 2019, and Feldman's remains were recovered by Mossad agents in May 2025. In a statement, the IDF says that in an operati",
+      "url": "https://x.com/manniefabian/status/2089753816950288785",
+      "summary": "The remains of Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War's battle of Sultan Yacoub in 1982, have been returned to Israel, the military announces.\n\nThe battle, 44 years ago, was a skirmish between the IDF and the Syrian army in Lebanon's Beqaa Valley. It claimed the lives of 21 Israeli servicemen, and more than 30 were injured during it.\n\nKatz, a tank soldier, went missing during the battle along with Sgt. First Class Zachary Baumel and Sgt. First Class Zvi Feldman. \n\nBaumel's remains were recovered with Russian assistance and returned to Israel in 2019, and Feldma",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a68edc012a4d6fc1617f32ebf916e018",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T15:52:00Z",
+      "title": "The Israeli military says its strike near the port of Gaza City a short while ago targeted Hamas commanders who were planning attacks. According to Palestinian media, the strike hit a cafe and killed six and wounded 10 others. In a statement, the IDF says the strike targeted Hamas commanders who planned attacks against Israeli troops operating in the Strip. \"The terrorists were struck in a precise aerial strike to remove the threat,\" the army adds.",
+      "url": "https://x.com/manniefabian/status/2089742155476529594",
+      "summary": "The Israeli military says its strike near the port of Gaza City a short while ago targeted Hamas commanders who were planning attacks.\n\nAccording to Palestinian media, the strike hit a cafe and killed six and wounded 10 others.\n\nIn a statement, the IDF says the strike targeted Hamas commanders who planned attacks against Israeli troops operating in the Strip.\n\n\"The terrorists were struck in a precise aerial strike to remove the threat,\" the army adds.— Emanuel (Mannie) Fabian (@manniefabian) Aug 18, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtel34yflg23",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T15:51:21.175889Z",
+      "title": "Opinion: This moment is larger than Hamas, Gaza, or any single diplomatic meeting.",
+      "url": "https://www.jpost.com/opinion/article-905857",
+      "summary": "Opinion: This moment is larger than Hamas, Gaza, or any single diplomatic meeting.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtekfsqljj25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T15:39:26.374000Z",
+      "title": "The Pentagon ordered 30 US universities to audit research ties with institutions in China, Russia and Iran, warning that foreign…",
+      "url": "https://www.jpost.com/american-politics/article-905894",
+      "summary": "The Pentagon ordered 30 US universities to audit research ties with institutions in China, Russia and Iran, warning that foreign partnerships could expose sensitive US research. An official said the list included Harvard, MIT, and UC Berkeley.\nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:c172c5640bdbc766d3d44ed9738fd495",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T15:21:00Z",
+      "title": "Palestinian media reports one dead and several wounded in an Israeli strike targeting a cafe near the Gaza City port a short while ago. The military says the strike targeted a terror operative, with no further details at this stage.",
+      "url": "https://x.com/manniefabian/status/2089734328628433259",
+      "summary": "Palestinian media reports one dead and several wounded in an Israeli strike targeting a cafe near the Gaza City port a short while ago.\n\nThe military says the strike targeted a terror operative, with no further details at this stage. \nVideo\n  — Emanuel (Mannie) Fabian (@manniefabian) Aug 18, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/949",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T15:13:52Z",
+      "title": "💬 بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ…",
+      "url": "https://t.me/rahbar_ir/949",
+      "summary": "💬 بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ آب‌هایش. ✍ بخشی از پیام رهبر معظّم انقلاب به‌مناسبت روز ملّی خلیج فارس |  ۱۰/اردیبهشت/۱۴۰۵ 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/949"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Foreigners thousands of kilometres away, mischievously scheming in the Persian Gulf, have no place in it except in the depths of its waters.",
+      "summary_en": "Foreigners thousands of kilometres away, mischievously scheming in the Persian Gulf, have no place in it except in the depths of its waters. An excerpt from the message of the Leader of the Revolution on the occasion of National Persian Gulf Day | 10 Ordibehesht 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608185310",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T14:53:45Z",
+      "title": "French source rejects Iran espionage allegations against diplomats",
+      "url": "https://www.iranintl.com/en/202608185310",
+      "summary": "Allegations by Iran’s Intelligence Ministry that two French diplomats briefly detained in Tehran last month were involved in espionage are “completely false,” a French diplomatic source told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtege67uzz2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T14:26:55.656337Z",
+      "title": "Report: Nuclear material in Syria was discovered and collected by the IAEA, Al-Hadath reported on Tuesday, with Syrian FM al-Shaibani…",
+      "url": "https://www.jpost.com/middle-east/article-905903",
+      "summary": "Report: Nuclear material in Syria was discovered and collected by the IAEA, Al-Hadath reported on Tuesday, with Syrian FM al-Shaibani saying it will remain under Damascus's control.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteeoamvwe2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T13:56:46.274384Z",
+      "title": "US President Donald Trump said that there are \"no talks or conversations going on, or scheduled, with the Islamic Republic of Iran.\"",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905890",
+      "summary": "US President Donald Trump said that there are \"no talks or conversations going on, or scheduled, with the Islamic Republic of Iran.\"",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mteebw3ia42n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T13:49:51.652381Z",
+      "title": "Lebanon’s “first option” is to extend the mandate of UNIFIL, which is due to expire at the end of the year, Lebanese President Joseph Aoun…",
+      "url": "https://www.jpost.com/middle-east/article-905901",
+      "summary": "Lebanon’s “first option” is to extend the mandate of UNIFIL, which is due to expire at the end of the year, Lebanese President Joseph Aoun told a delegation of 20 lawmakers, Lebanese media reported on Monday.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:5df1ba05fab5587ad7d56924b011479e",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-08-18T13:08:00Z",
+      "title": "A U.S. Army CH-47 Chinook helicopter crew loads cargo at an airfield in the Middle East.— U.S. Central…",
+      "url": "https://x.com/CENTCOM/status/2089701071664959761",
+      "summary": "A U.S. Army CH-47 Chinook helicopter crew loads cargo at an airfield in the Middle East.— U.S. Central Command (@CENTCOM) Aug 18, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte7y6aid72l",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T12:32:50.657582Z",
+      "title": "US President Donald Trump announced in a Truth Social post that he was declaring the Strait of Hormuz a new US territory.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905890",
+      "summary": "US President Donald Trump announced in a Truth Social post that he was declaring the Strait of Hormuz a new US territory.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte7nvop272w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T12:27:05.724811Z",
+      "title": "Tehran has already begun positioning itself to suppress potential domestic unrest and return to more active conflict with the US, according…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905892",
+      "summary": "Tehran has already begun positioning itself to suppress potential domestic unrest and return to more active conflict with the US, according to international experts.",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608187302",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T12:18:16Z",
+      "title": "Canada deports former Iranian official linked to 2019 protest crackdown",
+      "url": "https://www.iranintl.com/en/202608187302",
+      "summary": "Canada has deported a former Iranian Interior Ministry spokesman who served during the deadly crackdown on nationwide protests in November 2019, Global News reported.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608189959",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T11:49:41Z",
+      "title": "Iran forces detain relatives of child killed in 2022 protests",
+      "url": "https://www.iranintl.com/en/202608189959",
+      "summary": "Iranian security forces detained three relatives of the family of Kian Pirfalak, a nine-year-old killed during the 2022 protests, after raiding a village in the southern city of Izeh on Sunday evening, informed sources told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte5i7tjli25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T11:48:08.253000Z",
+      "title": "Opinion: Hamas has traditionally sought to subordinate and destroy rival factions, but a number of anti-Hamas militias are still working to…",
+      "url": "https://www.jpost.com/opinion/article-905761",
+      "summary": "Opinion: Hamas has traditionally sought to subordinate and destroy rival factions, but a number of anti-Hamas militias are still working to challenge the current power structure.\n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608184899",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T11:31:53Z",
+      "title": "Seven months on, January protests still shape Iranians’ lives",
+      "url": "https://www.iranintl.com/en/202608184899",
+      "summary": "Seven months after the January massacre, Iranians answering an Iran International call-out describe lives still bent around it: sleep and nerves that never recovered, friendships remade or broken, politics hardened, and a future they struggle to picture.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte3e2ll6j2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T11:10:01.102000Z",
+      "title": "Iran pushed to continue the war with the United States in order to force a ceasefire on its own terms, Iranian Foreign Minister Abbas…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905863",
+      "summary": "Iran pushed to continue the war with the United States in order to force a ceasefire on its own terms, Iranian Foreign Minister Abbas Araghchi said during a conference with Iranian educators.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte3366xd52m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T11:05:02.861000Z",
+      "title": "Analysis: Without arrangements, the Middle East risks entering a recurring pattern in which Iran rebuilds, the United States or Israel…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905848",
+      "summary": "Analysis: Without arrangements, the Middle East risks entering a recurring pattern in which Iran rebuilds, the United States or Israel strikes again, and every round becomes more destructive than the last.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte2jamy7n2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T10:55:01.887000Z",
+      "title": "After 44 years, Israel has located the remains of fallen IDF soldier Yehuda Katz during a covert operation in Lebanon overnight, based on…",
+      "url": "https://www.jpost.com/israel-news/article-905850",
+      "summary": "After 44 years, Israel has located the remains of fallen IDF soldier Yehuda Katz during a covert operation in Lebanon overnight, based on joint Mossad and IDF intelligence collected over several years, the military confirmed.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mte2acc7cj2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T10:50:01.356000Z",
+      "title": "The Strait of Hormuz will remain shut until the US meets the conditions of an interim deal signed with Iran in June, the top Iranian…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905876",
+      "summary": "The Strait of Hormuz will remain shut until the US meets the conditions of an interim deal signed with Iran in June, the top Iranian negotiator Mohammad Bagher Ghalibaf said in comments published by state media.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608154867",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T10:47:39Z",
+      "title": "Leaked audio: Iran's Basij brace for new protests and fear being named online",
+      "url": "https://www.iranintl.com/en/202608154867",
+      "summary": "Officials of Iran's Basij militia can be heard on a leaked recording weighing the risk of a new round of protests and the danger that members will be identified online, a rare glimpse of the anxiety inside the force the state sends against demonstrators.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdzdbcl7h25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T10:33:47.472000Z",
+      "title": "Jared Kushner warned Hamas to honor its disarmament commitments or risk renewed IDF action, saying the US could back Israel to \"finish the…",
+      "url": "https://www.jpost.com/middle-east/article-905880",
+      "summary": "Jared Kushner warned Hamas to honor its disarmament commitments or risk renewed IDF action, saying the US could back Israel to \"finish the job\" if the terror group fails to comply.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdyjn6fq22z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T10:19:27.141000Z",
+      "title": "Saudi Arabia has placed financial transfers to the United Arab Emirates under extra layers of regulatory oversight reserved for countries…",
+      "url": "https://www.jpost.com/middle-east/article-905881",
+      "summary": "Saudi Arabia has placed financial transfers to the United Arab Emirates under extra layers of regulatory oversight reserved for countries considered high-risk for illicit money flows, the latest sign of a widening rift between the wealthy Gulf monarchies.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/948",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-18T09:51:14Z",
+      "title": "📢 از سوی رهبر معظم انقلاب برگزار می‌شود مراسم بزرگداشت چهلم «آقای شهید ایران» در تهران، قم و مشهد ▪️ «…",
+      "url": "https://t.me/rahbar_ir/948",
+      "summary": "📢 از سوی رهبر معظم انقلاب برگزار می‌شود مراسم بزرگداشت چهلم «آقای شهید ایران» در تهران، قم و مشهد ▪️ « #با_تو_در_عهدیم_تا_صبح_ظهور »؛ شعار ویژه مراسم‌های چهلم امام مجاهد شهید 🗓 سه‌شنبه ۲۷ مرداد، ساعت ۱۷ تا ۱۹ ▫️ تهران - مصلی امام خمینی رحمت‌الله‌علیه 🗓 چهارشنبه ۲۸ مرداد، بعد از نماز مغرب و عشا ▫️ قم - حرم حضرت معصومه سلام‌الله‌علیها 🗓 پنجشنبه ۲۹ مرداد، همزمان با شب شهادت امام حسن عسکری علیه‌السلام بعد از نماز مغرب و عشا ▫️ مشهد - حرم مطهر حضرت رضا علیه‌السلام ➕ دریافت هویت بصری Farsi.Khamenei.ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/948"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "On behalf of the Supreme Leader of the Revolution, the fortieth commemoration ceremony of 'the Martyred Leader of Iran' will be held in Tehran, Qom and Mashhad. With you until the dawn of the reappearance — special slogan of the fortieth commemoration ceremonies of the striving Martyred Imam. Tuesday, 27 Mordad, 5 p.m. to 7 p.m. Tehran — Imam Khomeini Prayer Ground, may God's mercy be upon him. Wednesday, 28 Mordad, after evening and night prayers. Qom — Holy Shrine of Hazrat Ma'soumeh, peace be upon her. Thursday, 29 Mordad, coinciding with the night of the martyrdom of Imam Hassan al-Askari, peace be upon him, after evening and night prayers. Mashhad — Sacred Shrine of Imam Reza, peace be upon him.",
+      "summary_en": "On behalf of the Supreme Leader of the Revolution, the fortieth commemoration ceremony of 'the Martyred Leader of Iran' will be held in Tehran, Qom and Mashhad. With you until the dawn of the reappearance — special slogan of the fortieth commemoration ceremonies of the striving Martyred Imam. Tuesday, 27 Mordad, 5 p.m. to 7 p.m. Tehran — Imam Khomeini Prayer Ground, may God's mercy be upon him. Wednesday, 28 Mordad, after evening and night prayers. Qom — Holy Shrine of Hazrat Ma'soumeh, peace be upon her. Thursday, 29 Mordad, coinciding with the night of the martyrdom of Imam Hassan al-Askari, peace be upon him, after evening and night prayers. Mashhad — Sacred Shrine of Imam Reza, peace be upon him.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608170757",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T09:31:56Z",
+      "title": "Forced to serve in the IRGC, now fighting to stay in Canada",
+      "url": "https://www.iranintl.com/en/202608170757",
+      "summary": "Iranian men conscripted into the Revolutionary Guards for their compulsory military service fear they and their families could lose the right to remain in Canada, after letters warned the mandatory stint may amount to membership in a terrorist organization.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdvdqllv32i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T09:22:28.595000Z",
+      "title": "The Strait of Hormuz will remain closed until the United States meets the conditions of the interim deal with Iran, including lifting the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905876",
+      "summary": "The Strait of Hormuz will remain closed until the United States meets the conditions of the interim deal with Iran, including lifting the marine blockade and sanctions, as well as freeing Iran's frozen assets, Iran's top negotiator Mohammad Bagher Ghalibaf said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608184388",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-18T09:12:06Z",
+      "title": "Chinese state tankers avoid Strait of Hormuz, Bab al-Mandab – Reuters",
+      "url": "https://www.iranintl.com/en/202608184388",
+      "summary": "Two Chinese state-controlled shipping companies have stopped sending oil tankers through the Strait of Hormuz and Bab al-Mandab, instead loading crude outside the Persian Gulf amid heightened security risks, Reuters reported on Tuesday, citing industry sources and shipping data.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:cd7366bbd4d75bfa37701097e42d2e36",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-18T08:10:00Z",
+      "title": "🔴ELIMINATED: Tareq Anwar Khamis Ra’i, an Islamic Jihad company commander, who infiltrated Kibbutz Be’eri during the October 7 Massacre and took part in the abduction of an Israeli civilian. He recently advanced terror attacks against IDF troops and Israeli civilians.",
+      "url": "https://x.com/IDF/status/2089625871350944074",
+      "summary": "🔴ELIMINATED: Tareq Anwar Khamis Ra’i, an Islamic Jihad company commander, who infiltrated Kibbutz Be’eri during the October 7 Massacre and took part in the abduction of an Israeli civilian.\n\nHe recently advanced terror attacks against IDF troops and Israeli civilians.— Israel Defense Forces (@IDF) Aug 18, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:5229da55fdbe3c86c102bab9a56e41f4",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T07:35:00Z",
+      "title": "A Palestinian Islamic Jihad terrorist who invaded Israel during the October 7, 2023, onslaught and abducted an Israeli hostage was killed in a strike in the southern Gaza Strip earlier this week, the military announces. The strike in Khan Younis on Sunday killed Tareq Anwar Khamis Ra'i, identified by the army as a company commander in Islamic Jihad's supply unit. On October 7, Ra'i invaded Kibbutz Be'eri \"and took part in the abduction of an Israeli civilian,\" the IDF says, without detailing who the hostage was. The military justifies the strike amid the ceasefire by saying that Ra'i had recently been advancing attacks on troops and civilians. He was \"eliminated to remove a threat,\" the IDF",
+      "url": "https://x.com/manniefabian/status/2089617138088636592",
+      "summary": "A Palestinian Islamic Jihad terrorist who invaded Israel during the October 7, 2023, onslaught and abducted an Israeli hostage was killed in a strike in the southern Gaza Strip earlier this week, the military announces.\n\nThe strike in Khan Younis on Sunday killed Tareq Anwar Khamis Ra'i, identified by the army as a company commander in Islamic Jihad's supply unit.\n\nOn October 7, Ra'i invaded Kibbutz Be'eri \"and took part in the abduction of an Israeli civilian,\" the IDF says, without detailing who the hostage was.\n\nThe military justifies the strike amid the ceasefire by saying that Ra'i had re",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mtdowkta6a2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-18T07:27:43.754000Z",
+      "title": "Iran pushed to continue the war with the United States in order to force a ceasefire on its own terms, Iranian Foreign Minister Abbas…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-905863",
+      "summary": "Iran pushed to continue the war with the United States in order to force a ceasefire on its own terms, Iranian Foreign Minister Abbas Araghchi said during a conference on Tuesday.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b0c7d432ef55fd562e2b606433f9e93d",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-18T07:04:00Z",
+      "title": "New \"findings\" thought to be related to Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War's battle of Sultan Yacoub in 1982, have been found, the military announces. The battle, 44 years ago, was a skirmish between the IDF and the Syrian army in Lebanon's Beqaa Valley. It claimed the lives of 21 Israeli servicemen, and more than 30 were injured during it. Katz, a tank soldier, went missing during the battle along with Sgt. First Class Zachary Baumel and Sgt. First Class Zvi Feldman. Baumel's remains were recovered with Russian assistance and returned to Israel in 2019, and Feldman's remains were recovered by Mossad agents in May 2025. Overnight, a special operation was",
+      "url": "https://x.com/manniefabian/status/2089609334057566501",
+      "summary": "New \"findings\" thought to be related to Sgt. First Class Yehuda Katz, who went missing in the First Lebanon War's battle of Sultan Yacoub in 1982, have been found, the military announces.\n\nThe battle, 44 years ago, was a skirmish between the IDF and the Syrian army in Lebanon's Beqaa Valley. It claimed the lives of 21 Israeli servicemen, and more than 30 were injured during it.\n\nKatz, a tank soldier, went missing during the battle along with Sgt. First Class Zachary Baumel and Sgt. First Class Zvi Feldman. \n\nBaumel's remains were recovered with Russian assistance and returned to Israel in 2019",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    }
+  ]
+}
