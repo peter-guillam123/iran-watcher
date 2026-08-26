@@ -1,0 +1,1137 @@
+{
+  "generated_at": "2026-08-26T15:59:32.915917Z",
+  "window_since": "2026-08-26T05:00:00Z",
+  "window_until": "2026-08-26T15:57:36.659003Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 3,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 3,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 21,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 6,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 31,
+      "kept": 31,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 6,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 3,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "44 items: OFAC indefinitely suspends five Iran general licences, IDF claims 400+ south Lebanon sites dismantled, UN Security Council Palestine briefing, Iran International reports fuel reserves near depletion, heavy IRGC/IRIB messaging on Strait of Hormuz and 'hostile media' targeting.",
+  "threads": [
+    {
+      "label": "OFAC tightens Iran sanctions regime",
+      "summary": "The US Treasury's Office of Foreign Assets Control indefinitely suspended five general licences issued under the Iranian Transactions and Sanctions Regulations. IRIB reposted a Telegraph piece arguing Trump's economic campaign against Iran is 'doomed to fail'.",
+      "event_ids": [
+        "fedreg:2026-17426",
+        "telegram:iribnews/358218"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IDF operations in Lebanon and Gaza",
+      "summary": "The IDF said it had dismantled over 400 terror infrastructure sites and seized anti-tank and surface-to-air missiles in southern Lebanon's Security Zone, and struck a Hamas ambush position in Jabalia near Kamal Adwan Hospital and a school. Palestinian media reported one dead in an Israeli strike on a tent in Khan Younis; the UN Security Council held its 10214th meeting on the Middle East/Palestine.",
+      "event_ids": [
+        "x_via_rssapp:ba4c23f67a7cd2614107ff4e504ef517",
+        "x_via_rssapp:bb95d81869477b63079ae24eb4874a64",
+        "x_via_rssapp:2238f4a39ee192174bfd9516fbc8cf66",
+        "x_via_rssapp:03a3f57d1d985075d35fd2b4e9ce0bab",
+        "unpress:https://press.un.org/en/blog/sc16440"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "IRGC messaging on Hormuz and hostile media",
+      "summary": "IRGC spokesperson Brigadier Mohebbian claimed on Defa Press that America 'dropped to its knees' seeking to reopen the Strait of Hormuz and had requested NATO and European help. Armed forces spokesperson Brigadier Shokarcheh told a Sacred Defence News Agency event that BBC Persian, Iran International and Radio Farda are in Iran's 'military target bank'.",
+      "event_ids": [
+        "telegram:defapress_ir/66218",
+        "telegram:iribnews/358222",
+        "telegram:defapress_ir/66217",
+        "telegram:defapress_ir/66212",
+        "telegram:defapress_ir/66216"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IAEA access and nuclear-site inspections",
+      "summary": "The head of Iran's Atomic Energy Organisation said on IRIB that the IAEA cannot inspect nuclear sites until an inspection protocol is drawn up for attacked facilities, accusing the Agency of undermining its own authority by not condemning the strikes. Defa Press separately argued a legal framework on countering foreign interference is a necessity.",
+      "event_ids": [
+        "telegram:iribnews/358234",
+        "telegram:defapress_ir/66214"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic pressure and detentions",
+      "summary": "Iran International reported Iranian authorities flogged two women detained during January's protests 31 times each, that strategic fuel reserves are at 'red alert' and could be exhausted within weeks amid Pezeshkian–IRGC disagreement, and that Newsmax cited a US law enforcement source alleging an Iranian plot to kill Yair Netanyahu in Florida. The family of a detained British couple urged the UK to arrange an urgent consular visit following the embassy's return to Tehran.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608263896",
+        "iranintl:https://www.iranintl.com/en/202608262106",
+        "iranintl:https://www.iranintl.com/en/202608262254",
+        "iranintl:https://www.iranintl.com/en/202608261997"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/358235",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:57:02Z",
+      "title": "🎦 حال‌و‌هوای امروز حرم رضوی و مزار رهبر شهید انقلاب @iribnews",
+      "url": "https://t.me/iribnews/358235",
+      "summary": "🎦 حال‌و‌هوای امروز حرم رضوی و مزار رهبر شهید انقلاب @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358235"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: Today's atmosphere at the Razavi Shrine and the mausoleum of the revolution's martyred leader",
+      "summary_en": "View: Today's atmosphere at the Razavi Shrine and the mausoleum of the revolution's martyred leader",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358234",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:45:41Z",
+      "title": "▫️ رئیس سازمان انرژی اتمی: تا تدوین پروتکل بازرسی از سایت‌های موردحمله قرارگرفته، آژانس نمی‌تواند از سایت‌های…",
+      "url": "https://t.me/iribnews/358234",
+      "summary": "▫️ رئیس سازمان انرژی اتمی: تا تدوین پروتکل بازرسی از سایت‌های موردحمله قرارگرفته، آژانس نمی‌تواند از سایت‌های هسته‌ای بازرسی کند 🔹 آژانس با محکوم‌نکردن حمله به سایت‌های هسته‌ای ما صلاحیت خود را زیر سوال می‌برد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358234"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of Atomic Energy Organisation: Until an inspection protocol is drawn up for attacked sites, the Agency cannot inspect nuclear sites",
+      "summary_en": "Head of Atomic Energy Organisation: Until an inspection protocol is drawn up for attacked sites, the Agency cannot inspect nuclear sites. The Agency, by not condemning attacks on our nuclear sites, calls its own authority into question.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358233",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:43:20Z",
+      "title": "🎦 رئیس‌جمهور: ما قادریم همه مشکلات‌مان را حل کنیم 🔹 ما قادریم به سرعت تمام مشکلات خودمان را با همدلی و همراهی…",
+      "url": "https://t.me/iribnews/358233",
+      "summary": "🎦 رئیس‌جمهور: ما قادریم همه مشکلات‌مان را حل کنیم 🔹 ما قادریم به سرعت تمام مشکلات خودمان را با همدلی و همراهی مردم عزیزمان، مسئولیت‌پذیری مدیران و حضور بخش خصوصی و سرمایه‌گذاران حل کنیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358233"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "President: We are capable of resolving all our problems. We are capable of swiftly resolving all our problems through compassion and the support of our dear people, the responsibility of managers and the participation of the private sector and investors.",
+      "summary_en": "President: We are capable of resolving all our problems. We are capable of swiftly resolving all our problems through compassion and the support of our dear people, the responsibility of managers and the participation of the private sector and investors.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66232",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:41:41Z",
+      "title": "🎥 رونمایی از صفحات خارجی خبرگزاری دفاع مقدس  dnws.ir/003bEo  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/66232",
+      "summary": "🎥 رونمایی از صفحات خارجی خبرگزاری دفاع مقدس  dnws.ir/003bEo  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66232"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Unveiling of foreign-language pages of Sacred Defence News Agency",
+      "summary_en": "Video: Unveiling of foreign-language pages of Sacred Defence News Agency",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358232",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:25:35Z",
+      "title": "🎦 وحدت شیعه و سنی سرّ اقتداره ... 🔹 نماهنگ «اتحاد مقدس» با صدای ابوذر روحی به مناسبت هفته وحدت @iribnews",
+      "url": "https://t.me/iribnews/358232",
+      "summary": "🎦 وحدت شیعه و سنی سرّ اقتداره ... 🔹 نماهنگ «اتحاد مقدس» با صدای ابوذر روحی به مناسبت هفته وحدت @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358232"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: The secret of Shia-Sunni unity's might. Video documentary 'Holy Union' narrated by Abuzar Rohi on the occasion of Unity Week",
+      "summary_en": "View: The secret of Shia-Sunni unity's might. Video documentary 'Holy Union' narrated by Abuzar Rohi on the occasion of Unity Week",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608263896",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T15:12:21Z",
+      "title": "Iran flogs two women detained in January protests",
+      "url": "https://www.iranintl.com/en/202608263896",
+      "summary": "Iranian authorities flogged two women detained during January’s protests 31 times each before transferring them to prison to serve custodial sentences, according to rights groups.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66231",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T15:03:34Z",
+      "title": "📸 گزارش تصویری/ رونمایی از صفحات خارجی خبرگزاری دفاع مقدس  dnws.ir/003bEe  @Defapress_ir",
+      "url": "https://t.me/defapress_ir/66231",
+      "summary": "📸 گزارش تصویری/ رونمایی از صفحات خارجی خبرگزاری دفاع مقدس  dnws.ir/003bEe  @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66231"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photo report: Unveiling of foreign-language pages of Sacred Defence News Agency",
+      "summary_en": "Photo report: Unveiling of foreign-language pages of Sacred Defence News Agency",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358231",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T14:58:41Z",
+      "title": "🎦 آتشفشان کیلاویا در هاوایی برای پنجاه و چهارمین بار فوران کرد @iribnews",
+      "url": "https://t.me/iribnews/358231",
+      "summary": "🎦 آتشفشان کیلاویا در هاوایی برای پنجاه و چهارمین بار فوران کرد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358231"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: Kilauea volcano in Hawaii erupted for the fifty-fourth time",
+      "summary_en": "View: Kilauea volcano in Hawaii erupted for the fifty-fourth time",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ba4c23f67a7cd2614107ff4e504ef517",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-26T14:38:00Z",
+      "title": "🎯DISMANTLED: 400+ terror infrastructure sites & numerous weapons located in the Security Zone in southern Lebanon. The weapons included anti-tank missiles, surface-to-air missiles, explosive devices, Kalashnikov rifles & mortars.",
+      "url": "https://x.com/IDF/status/2092622828453437707",
+      "summary": "🎯DISMANTLED: 400+ terror infrastructure sites & numerous weapons located in the Security Zone in southern Lebanon.\n\nThe weapons included anti-tank missiles, surface-to-air missiles, explosive devices, Kalashnikov rifles & mortars.— Israel Defense Forces (@IDF) Aug 26, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358230",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T14:28:35Z",
+      "title": "🎦 رایگانی، سخنگوی سازمان تعزیرات: مردم حتماً از فروشنده‌ها فاکتور خرید دریافت بکنند تا عدم درج قیمت‌ها که…",
+      "url": "https://t.me/iribnews/358230",
+      "summary": "🎦 رایگانی، سخنگوی سازمان تعزیرات: مردم حتماً از فروشنده‌ها فاکتور خرید دریافت بکنند تا عدم درج قیمت‌ها که مهمترین تخلف اصناف است، قابل پیگیری باشد 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358230"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: Raigani, spokesperson for the Organisation of Compliance with Business Ethics: People must definitely obtain a receipt from sellers so that the non-listing of prices, which is the most important violation by shopkeepers, can be followed up",
+      "summary_en": "View: Raigani, spokesperson for the Organisation of Compliance with Business Ethics: People must definitely obtain a receipt from sellers so that the non-listing of prices, which is the most important violation by shopkeepers, can be followed up",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66230",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T14:27:48Z",
+      "title": "💢 سفر قریب الوقوع وزیر خارجه قطر به تهران 🔸 یک منبع دیپلماتیک در گفت‌وگو با شبکه المیادین اعلام کرد که شیخ…",
+      "url": "https://t.me/defapress_ir/66230",
+      "summary": "💢 سفر قریب الوقوع وزیر خارجه قطر به تهران 🔸 یک منبع دیپلماتیک در گفت‌وگو با شبکه المیادین اعلام کرد که شیخ «محمد بن عبدالرحمن آل ثانی» نخست‌وزیر و وزیر امور خارجه قطر، به‌زودی راهی تهران خواهد شد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66230"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Imminent visit of Qatari Foreign Minister to Tehran. A diplomatic source told Al-Mayadeen network that Sheikh Muhammad bin Abdulrahman Al Thani, Prime Minister and Foreign Minister of Qatar, will soon travel to Tehran.",
+      "summary_en": "Imminent visit of Qatari Foreign Minister to Tehran. A diplomatic source told Al-Mayadeen network that Sheikh Muhammad bin Abdulrahman Al Thani, Prime Minister and Foreign Minister of Qatar, will soon travel to Tehran.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358229",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T14:23:50Z",
+      "title": "🎦 رایگانی، سخنگوی سازمان تعزیرات: مردم طلایی را که به صورت دیجیتال می‌خرند حتماً فیزیکی تحویل بگیرند تا با…",
+      "url": "https://t.me/iribnews/358229",
+      "summary": "🎦 رایگانی، سخنگوی سازمان تعزیرات: مردم طلایی را که به صورت دیجیتال می‌خرند حتماً فیزیکی تحویل بگیرند تا با خالی فروشی و عدم عرضه مواجه نشوند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358229"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: Raigani, spokesperson for the Organisation of Compliance with Business Ethics: People who buy gold digitally must definitely receive it physically so they do not face empty sales and non-delivery",
+      "summary_en": "View: Raigani, spokesperson for the Organisation of Compliance with Business Ethics: People who buy gold digitally must definitely receive it physically so they do not face empty sales and non-delivery",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:9a730f76d3457a4b9d1c41fc6bf20ae5",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-08-26T14:18:00Z",
+      "title": "RT by @CENTCOM: RT by @CENTCOM: Five years ago, an Islamic terrorist carried out a suicide bombing at Abbey Gate in Kabul, Afghanistan. Thirteen brave Americans paid the ultimate price for our country. We will forever honor their memory and keep their families in our prayers.",
+      "url": "https://x.com/DeptofWar/status/2092617775235690850",
+      "summary": "Five years ago, an Islamic terrorist carried out a suicide bombing at Abbey Gate in Kabul, Afghanistan.\n\nThirteen brave Americans paid the ultimate price for our country.\n\nWe will forever honor their memory and keep their families in our prayers.— @DeptofWar Aug 26, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358228",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T14:09:08Z",
+      "title": "🔺 لغو روادید مقام صهیونیستی توسط کانادا روزنامه صهیونیستی هاآرتص: 🔹 کانادا روادید معاون شهرداری قدس اشغالی را…",
+      "url": "https://t.me/iribnews/358228",
+      "summary": "🔺 لغو روادید مقام صهیونیستی توسط کانادا روزنامه صهیونیستی هاآرتص: 🔹 کانادا روادید معاون شهرداری قدس اشغالی را لغو کرد. 🔹 این تصمیم به علت فعالیت‌های «آریه کینگ» (Aryeh King) در زمینه تصرف منازل فلسطینیان و همچنین کارزار او علیه آژانس امداد و کاریابی سازمان ملل برای آوارگان فلسطینی اتخاذ شده است. 🔹 کینگ مستقیماً در کارزار سلب مالکیت فلسطینیان از خانه‌ها و زمین‌هایشان در قدس اشغالی دست داشته و برای بیرون راندن خانواده‌های فلسطینی از محله‌های­ خود و جایگزینی آن ها با شهرک‌نشینان تلاش کرده است. 🔹 برخی مقام های صهیونیست پیشتر هم به علت اظهارات و اقدام هایشان علیه فلسطینی ها از ورود به برخی کشورها م",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358228"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Cancellation of Zionist official's visa by Canada. The Zionist newspaper Haaretz reports: Canada has cancelled the visa of the deputy mayor of occupied Jerusalem. This decision was taken due to Aryeh King's activities in seizing Palestinians' homes and his campaign against the UN relief and employment agency for Palestinian refugees. King has directly participated in a campaign to dispossess Palestinians of their homes and lands in occupied Jerusalem and has worked to expel Palestinian families from their neighbourhoods and replace them with settlers. Some Zionist officials previously also had entry to certain countries prohibited due to their statements and actions against Palestinians",
+      "summary_en": "Cancellation of Zionist official's visa by Canada. The Zionist newspaper Haaretz reports: Canada has cancelled the visa of the deputy mayor of occupied Jerusalem. This decision was taken due to Aryeh King's activities in seizing Palestinians' homes and his campaign against the UN relief and employment agency for Palestinian refugees. King has directly participated in a campaign to dispossess Palestinians of their homes and lands in occupied Jerusalem and has worked to expel Palestinian families from their neighbourhoods and replace them with settlers. Some Zionist officials previously also had entry to certain countries prohibited due to their statements and actions against Palestinians",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66220",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:59:58Z",
+      "title": "🎥 سردار شکارچی: باید با مردم جهان سخن گفت 🔸 سخنگوی ارشد نیرو‌های مسلح در مراسم رونمایی از صفحات خارجی…",
+      "url": "https://t.me/defapress_ir/66220",
+      "summary": "🎥 سردار شکارچی: باید با مردم جهان سخن گفت 🔸 سخنگوی ارشد نیرو‌های مسلح در مراسم رونمایی از صفحات خارجی خبرگزاری دفاع مقدس به زبان‌های انگلیسی، عربی، روسی، اردو، فرانسوی و ترکی گفت: نمی‌توانیم فقط با زبان فارسی با دشمنی که اهداف آن شیطانی و غیربشری است درگیر…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66220"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier Shokarcheh: We must speak to the people of the world. The senior spokesperson of the armed forces, at the ceremony unveiling the foreign-language pages of Sacred Defence News Agency in English, Arabic, Russian, Urdu, French and Turkish, said: We cannot engage with an enemy whose objectives are demonic and inhumane using only the Persian language",
+      "summary_en": "Brigadier Shokarcheh: We must speak to the people of the world. The senior spokesperson of the armed forces, at the ceremony unveiling the foreign-language pages of Sacred Defence News Agency in English, Arabic, Russian, Urdu, French and Turkish, said: We cannot engage with an enemy whose objectives are demonic and inhumane using only the Persian language",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358227",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:58:25Z",
+      "title": "🔺 خبری که در میانه جنگ گم شد؛ ورود یک داروی ایرانی به بازار اروپا 🔹 روز داروساز امسال شاید بیش از هر زمان…",
+      "url": "https://t.me/iribnews/358227",
+      "summary": "🔺 خبری که در میانه جنگ گم شد؛ ورود یک داروی ایرانی به بازار اروپا 🔹 روز داروساز امسال شاید بیش از هر زمان دیگری فرصتی باشد برای دیدن بخشی از واقعیت صنعت دارویی ایران که در میان اخبار جنگ، تحریم و دغدغه تأمین دارو کمتر دیده شد؛ صنعتی که در کنار مشکلات و محدودیت‌ها، همچنان مسیر توسعه فناوری، تولید و صادرات را دنبال می‌کند. جزئیات بیشتر این خبر در نشانی زیر: www.irib-news.ir/00OjDu @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358227"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A story lost amid war: An Iranian medicine enters the European market. Pharmacy Day this year may be a better opportunity than ever to see a part of the reality of Iran's pharmaceutical industry that has been less visible amid reports of war, sanctions and concerns about medicine supply; an industry that, alongside its problems and limitations, continues to pursue the path of technology development, production and exports. More details at: www.irib-news.ir/00OjDu",
+      "summary_en": "A story lost amid war: An Iranian medicine enters the European market. Pharmacy Day this year may be a better opportunity than ever to see a part of the reality of Iran's pharmaceutical industry that has been less visible amid reports of war, sanctions and concerns about medicine supply; an industry that, alongside its problems and limitations, continues to pursue the path of technology development, production and exports. More details at: www.irib-news.ir/00OjDu",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358226",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:37:43Z",
+      "title": "🔺 پیام تبریک زهران ممدانی، شهردار نیویورک به مناسبت سالروز ولادت پیامبر اسلام ممدانی: 🔹 میلاد پیامبر اکرم بر…",
+      "url": "https://t.me/iribnews/358226",
+      "summary": "🔺 پیام تبریک زهران ممدانی، شهردار نیویورک به مناسبت سالروز ولادت پیامبر اسلام ممدانی: 🔹 میلاد پیامبر اکرم بر مسلمانان شهر نیویورک و سراسر جهان مبارک باد. 🔹 امروز، ما زندگی و میراث ماندگار حضرت محمد را گرامی می‌داریم، کسی که آموزه‌هایش در مورد شفقت، سخاوت، عدالت، ایمان و خدمت، بیش از ۱۴۰۰ سال الهام‌بخش جوامع بوده است. 🔹 اینجا در شهر نیویورک، الگوی او به ما یادآوری می‌کند که مراقبت از یکدیگر، پذیرش تنوع و خدمت به جوامعمان، ما را در تلاش برای ساختن شهری بهتر برای همه، قوی‌تر می‌کند. 🔹 برای همه کسانی که این روز را جشن می‌گیرند، شادی، صلح و برکت آرزو می‌کنیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358226"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Congratulatory message from Zohran Mamdani, Mayor of New York, on the occasion of the birthday of the Prophet of Islam. Mamdani: May the birth of the Prophet Muhammad be blessed to the Muslims of New York City and around the world. Today, we honour the life and lasting legacy of Prophet Muhammad, whose teachings of compassion, generosity, justice, faith and service have inspired communities for more than 1,400 years. Here in New York City, his example reminds us that caring for one another, embracing diversity and serving our communities make us stronger in our efforts to build a better city for all. To all those celebrating this day, we wish joy, peace and blessings.",
+      "summary_en": "Congratulatory message from Zohran Mamdani, Mayor of New York, on the occasion of the birthday of the Prophet of Islam. Mamdani: May the birth of the Prophet Muhammad be blessed to the Muslims of New York City and around the world. Today, we honour the life and lasting legacy of Prophet Muhammad, whose teachings of compassion, generosity, justice, faith and service have inspired communities for more than 1,400 years. Here in New York City, his example reminds us that caring for one another, embracing diversity and serving our communities make us stronger in our efforts to build a better city for all. To all those celebrating this day, we wish joy, peace and blessings.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66219",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:37:22Z",
+      "title": "خبرگزاری دفاع مقدس pinned a video",
+      "url": "https://t.me/defapress_ir/66219",
+      "summary": "خبرگزاری دفاع مقدس pinned a video",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66219"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sacred Defence News Agency pinned a video",
+      "summary_en": "Sacred Defence News Agency pinned a video",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358225",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:31:08Z",
+      "title": "🔺 نامه محمدباقر قالیباف در پاسخ به نامه آقای حسین شریعتمداری مدیر مسئول روزنامه کیهان   بسم الله الرحمن…",
+      "url": "https://t.me/iribnews/358225",
+      "summary": "🔺 نامه محمدباقر قالیباف در پاسخ به نامه آقای حسین شریعتمداری مدیر مسئول روزنامه کیهان   بسم الله الرحمن الرحیم  برادر ارزشمند عرصه قلم و رسانه، جناب آقای حاج حسین شریعتمداری سلام علیکم 🔹 نخست لازم می‌دانم از خیرخواهی، دغدغه‌مندی و تذکر برادرانه جنابعالی سپاسگزاری…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358225"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Letter from Mohammad Baqer Qalibaf in response to the letter of Hossein Shariatmadari, editor-in-chief of Kayhan newspaper. In the name of God, the Compassionate, the Merciful. Esteemed and respected champion of the pen and media, His Excellency Hajj Hossein Shariatmadari, peace be upon you. First, I must thank you for the well-wishing, concern and brotherly advice of Your Excellency",
+      "summary_en": "Letter from Mohammad Baqer Qalibaf in response to the letter of Hossein Shariatmadari, editor-in-chief of Kayhan newspaper. In the name of God, the Compassionate, the Merciful. Esteemed and respected champion of the pen and media, His Excellency Hajj Hossein Shariatmadari, peace be upon you. First, I must thank you for the well-wishing, concern and brotherly advice of Your Excellency",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358223",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:30:55Z",
+      "title": "🔺 نامه محمدباقر قالیباف در پاسخ به نامه آقای حسین شریعتمداری مدیر مسئول روزنامه کیهان بسم الله الرحمن الرحیم…",
+      "url": "https://t.me/iribnews/358223",
+      "summary": "🔺 نامه محمدباقر قالیباف در پاسخ به نامه آقای حسین شریعتمداری مدیر مسئول روزنامه کیهان بسم الله الرحمن الرحیم برادر ارزشمند عرصه قلم و رسانه، جناب آقای حاج حسین شریعتمداری سلام علیکم 🔹 نخست لازم می‌دانم از خیرخواهی، دغدغه‌مندی و تذکر برادرانه جنابعالی سپاسگزاری کنم. سالیان متمادی است که شما را از فرماندهان جنگ نرم و در صف پیشتازان دفاع از انقلاب اسلامی، شناخته‌ام. در مکتب قرآن، تذکر مؤمنانه نه مایه رنجش، که نشانه برادری است؛ که خداوند متعال فرموده: وَذَكِّرْ فَإِنَّ الذِّكْرَى تَنْفَعُ الْمُؤْمِنِينَ. از این رو، تذکر شما را نه از سر تقابل، بلکه از جانب برادری دینی و انقلابی و کارآزموده در عرصه ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358223"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Letter from Mohammad Baqer Qalibaf in response to the letter of Hossein Shariatmadari, editor-in-chief of Kayhan newspaper. In the name of God, the Compassionate, the Merciful. Esteemed and respected champion of the pen and media, His Excellency Hajj Hossein Shariatmadari, peace be upon you. First, I must thank you for the well-wishing, concern and brotherly advice of Your Excellency. For many years I have known you as one of the commanders of soft war and among the pioneers in defending the Islamic Revolution. In the school of the Qur'an, a faithful reminder is not a cause of hurt, but a sign of brotherhood, as Almighty God has said: 'And remind, for the reminder benefits the believers.' Therefore, I receive your reminder not as confrontation, but from the standpoint of a religious, revolutionary and tested brotherhood in the field",
+      "summary_en": "Letter from Mohammad Baqer Qalibaf in response to the letter of Hossein Shariatmadari, editor-in-chief of Kayhan newspaper. In the name of God, the Compassionate, the Merciful. Esteemed and respected champion of the pen and media, His Excellency Hajj Hossein Shariatmadari, peace be upon you. First, I must thank you for the well-wishing, concern and brotherly advice of Your Excellency. For many years I have known you as one of the commanders of soft war and among the pioneers in defending the Islamic Revolution. In the school of the Qur'an, a faithful reminder is not a cause of hurt, but a sign of brotherhood, as Almighty God has said: 'And remind, for the reminder benefits the believers.' Therefore, I receive your reminder not as confrontation, but from the standpoint of a religious, revolutionary and tested brotherhood in the field",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66218",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:29:58Z",
+      "title": "💢 سردار محبی: آمریکا برای بازکردن تنگه باز به زانو درآمد 🔸 سخنگوی سپاه پاسداران انقلاب اسلامی گفت: آمریکا…",
+      "url": "https://t.me/defapress_ir/66218",
+      "summary": "💢 سردار محبی: آمریکا برای بازکردن تنگه باز به زانو درآمد 🔸 سخنگوی سپاه پاسداران انقلاب اسلامی گفت: آمریکا برای بازگشایی تنگه هرمز که پیش از آن باز بود، از زمین، دریا و هوا پشتیبانی کرد و با وجود صرف هزینه سنگین و درخواست کمک از ناتو و کشورهای اروپایی، نتوانست این هدف را محقق کند. 🔸 آمریکا پس از آن از ناتو و کشور‌های اروپایی درخواست کمک کرد تا اجماعی برای کمک به آن شکل بگیرد، اما این اقدام نیز به نتیجه نرسید. 🔸 پیروزی در برابر دشمنی با این توانمندی و سابقه باید در تاریخ ثبت شود و مردم باید این پیروزی را باور کنند؛ زیرا این موضوع یک امر واقعی است و قرار نیست واقعیتی غیرواقعی ترویج شود. 🔸 رسانه‌ه",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66218"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier Mohebbian: America dropped to its knees to open the Strait. The spokesperson of the Islamic Revolutionary Guards Corps said: America, in order to reopen the Strait of Hormuz which was previously open, received support from land, sea and air, and despite heavy expenditure and requests for help from NATO and European countries, was unable to achieve this goal. After that, America requested help from NATO and European countries to form a consensus to help it, but this measure also did not succeed. A victory against an enemy with this capability and history must be recorded in history and the people must believe in this victory, because this is a real matter and it is not supposed to promote an unreal reality.",
+      "summary_en": "Brigadier Mohebbian: America dropped to its knees to open the Strait. The spokesperson of the Islamic Revolutionary Guards Corps said: America, in order to reopen the Strait of Hormuz which was previously open, received support from land, sea and air, and despite heavy expenditure and requests for help from NATO and European countries, was unable to achieve this goal. After that, America requested help from NATO and European countries to form a consensus to help it, but this measure also did not succeed. A victory against an enemy with this capability and history must be recorded in history and the people must believe in this victory, because this is a real matter and it is not supposed to promote an unreal reality.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608266234",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T13:19:59Z",
+      "title": "Will Mojtaba Khamenei's absence help the Islamic Republic survive?",
+      "url": "https://www.iranintl.com/en/202608266234",
+      "summary": "Since Mojtaba Khamenei was named the Islamic Republic's third supreme leader, no one has seen him or heard his voice. That looks like weakness. It is worth asking whether it might instead be postponing the system's political death.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358222",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:08:10Z",
+      "title": "🔺 سردار شکارچی: رسانه‌های معاند در بانک اهداف نظامی ما جای می‌گیرند سخنگوی ارشد نیرو‌های مسلح: 🔹 شبکه هایی…",
+      "url": "https://t.me/iribnews/358222",
+      "summary": "🔺 سردار شکارچی: رسانه‌های معاند در بانک اهداف نظامی ما جای می‌گیرند سخنگوی ارشد نیرو‌های مسلح: 🔹 شبکه هایی مانند «بی‌بی‌سی فارسی»، «‌اینترنشنال» و «رادیو فردا» مستقیماً به «موساد»، «سیا» و سازمان‌های اطلاعاتی دشمن متصل هستند و از آن‌ها خط کاری و پشتیبانی دریافت می‌کنند. 🔹 نیرو‌های مسلح ایران به این بنگاه‌های خبرپراکنی به‌عنوان رسانه نگاه نمی‌کنند. 🔹 هر خون‌ریزی و خشونتی در عالم با پشتیبانی این شبه رسانه‌ها انجام می‌شود؛ در حالی که رسانه باید امنیت‌ساز باشد و نخستین اولویت آن، امنیت روانی مردم و جامعه بشری باشد. 🔹 این شبه رسانه‌ها نه‌تنها به دنبال امنیت روانی جامعه بشری نیستند، بلکه منشأ ترویج،",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358222"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier Shokarcheh: Hostile media have a place in our military target bank. Senior spokesperson of the armed forces: Networks such as BBC Persian, International and Radio Farda are directly connected to Mossad, the CIA and enemy intelligence organisations and receive directives and support from them. Iran's armed forces do not view these news agencies as media. Every bloodshed and violence in the world is carried out with the support of these pseudo-media, while media should create security and its first priority should be the psychological security of people and human society. These pseudo-media not only do not pursue the psychological security of human society, but are the source of the promotion",
+      "summary_en": "Brigadier Shokarcheh: Hostile media have a place in our military target bank. Senior spokesperson of the armed forces: Networks such as BBC Persian, International and Radio Farda are directly connected to Mossad, the CIA and enemy intelligence organisations and receive directives and support from them. Iran's armed forces do not view these news agencies as media. Every bloodshed and violence in the world is carried out with the support of these pseudo-media, while media should create security and its first priority should be the psychological security of people and human society. These pseudo-media not only do not pursue the psychological security of human society, but are the source of the promotion",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66217",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T13:00:52Z",
+      "title": "🎥 سردار شکارچی: رسانه‌های معاند در بانک اهداف نظامی ما جای می‌گیرند 🔸 سخنگوی ارشد نیرو‌های مسلح در مراسم…",
+      "url": "https://t.me/defapress_ir/66217",
+      "summary": "🎥 سردار شکارچی: رسانه‌های معاند در بانک اهداف نظامی ما جای می‌گیرند 🔸 سخنگوی ارشد نیرو‌های مسلح در مراسم رونمایی از صفحات خارجی خبرگزاری دفاع مقدس به زبان‌های انگلیسی، عربی، روسی، اردو، فرانسوی و ترکی گفت: رسانه‌های معاند سربازان صهیونیست و آمریکا هستند و در…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66217"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Brigadier Shokarcheh: Hostile media have a place in our military target bank. The senior spokesperson of the armed forces at the ceremony unveiling the foreign-language pages of Sacred Defence News Agency in English, Arabic, Russian, Urdu, French and Turkish said: Hostile media are the soldiers of the Zionists and Americans and",
+      "summary_en": "Video: Brigadier Shokarcheh: Hostile media have a place in our military target bank. The senior spokesperson of the armed forces at the ceremony unveiling the foreign-language pages of Sacred Defence News Agency in English, Arabic, Russian, Urdu, French and Turkish said: Hostile media are the soldiers of the Zionists and Americans and",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358221",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:55:01Z",
+      "title": "🔺 دفترچه انتخاب رشته ارشد منتشر شد 🔹 دفترچه انتخاب رشته پذیرفته شدگان آزمون کارشناسی ارشد ۱۴۰۵ از سوی سازمان…",
+      "url": "https://t.me/iribnews/358221",
+      "summary": "🔺 دفترچه انتخاب رشته ارشد منتشر شد 🔹 دفترچه انتخاب رشته پذیرفته شدگان آزمون کارشناسی ارشد ۱۴۰۵ از سوی سازمان سنجش آموزش کشور منتشر شد. https://www.irib-news.ir/00OjH7 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358221"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Master's degree field-of-study selection booklet published. The field-of-study selection booklet for successful candidates in the 1405 Master's examination has been published by the National Organisation for Educational Assessment. https://www.irib-news.ir/00OjH7",
+      "summary_en": "Master's degree field-of-study selection booklet published. The field-of-study selection booklet for successful candidates in the 1405 Master's examination has been published by the National Organisation for Educational Assessment. https://www.irib-news.ir/00OjH7",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66216",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:54:05Z",
+      "title": "💢 سردار شکارچی از صفحات خارجی دفاع‌پرس رونمایی کرد 🔸 سخنگوی ارشد نیرو‌های مسلح جمهوری اسلامی ایران با حضور در…",
+      "url": "https://t.me/defapress_ir/66216",
+      "summary": "💢 سردار شکارچی از صفحات خارجی دفاع‌پرس رونمایی کرد 🔸 سخنگوی ارشد نیرو‌های مسلح جمهوری اسلامی ایران با حضور در خبرگزاری دفاع مقدس از صفحات جدید این رسانه به زبان‌های انگلیسی، عربی، روسی، اردو، فرانسوی و ترکی رونمایی کرد. 🔸 این صفحات اخبار و تحولات ایران را با…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66216"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier Shokarcheh unveiled the foreign-language pages of DefaPress. The senior spokesperson of the armed forces of the Islamic Republic of Iran, during a visit to Sacred Defence News Agency, unveiled new pages of this media outlet in English, Arabic, Russian, Urdu, French and Turkish. These pages cover news and developments of Iran",
+      "summary_en": "Brigadier Shokarcheh unveiled the foreign-language pages of DefaPress. The senior spokesperson of the armed forces of the Islamic Republic of Iran, during a visit to Sacred Defence News Agency, unveiled new pages of this media outlet in English, Arabic, Russian, Urdu, French and Turkish. These pages cover news and developments of Iran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358220",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:49:32Z",
+      "title": "🔺 بانک مرکزی: دستورالعمل تأمین ارز واردکنندگان تجهیزات مرتبط با ناوگان جاده‌ای، ریلی و هوایی از طریق اوراق…",
+      "url": "https://t.me/iribnews/358220",
+      "summary": "🔺 بانک مرکزی: دستورالعمل تأمین ارز واردکنندگان تجهیزات مرتبط با ناوگان جاده‌ای، ریلی و هوایی از طریق اوراق گام ویژه در بستر مرکز مبادله ارز و طلای ایران به شبکه بانکی ابلاغ شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358220"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Central Bank: Instructions for providing foreign currency to importers of equipment related to road, rail and air fleets through special GAMM papers within the framework of the Iranian Foreign Exchange and Gold Centre have been conveyed to the banking network.",
+      "summary_en": "Central Bank: Instructions for providing foreign currency to importers of equipment related to road, rail and air fleets through special GAMM papers within the framework of the Iranian Foreign Exchange and Gold Centre have been conveyed to the banking network.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358219",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:36:14Z",
+      "title": "🎦 روایتی از کار و تلاش در روز کارمند 🔹 کارمندان قشری زحمتکش اند که در هر شرایطی پای کار خدمت به مردم هستند تا…",
+      "url": "https://t.me/iribnews/358219",
+      "summary": "🎦 روایتی از کار و تلاش در روز کارمند 🔹 کارمندان قشری زحمتکش اند که در هر شرایطی پای کار خدمت به مردم هستند تا زنجیره خدمات رسانی متوقف نشود.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358219"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: A narrative of work and effort on Civil Service Day. Civil servants are hardworking and at any circumstances remain at the work of serving the people so that the chain of service delivery does not stop.",
+      "summary_en": "View: A narrative of work and effort on Civil Service Day. Civil servants are hardworking and at any circumstances remain at the work of serving the people so that the chain of service delivery does not stop.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358218",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:30:01Z",
+      "title": "🔺 تلگراف: کارزار اقتصادی ترامپ علیه ایران محکوم به شکست است روزنامه تلگراف در گزارشی با انتقاد از سیاست دولت…",
+      "url": "https://t.me/iribnews/358218",
+      "summary": "🔺 تلگراف: کارزار اقتصادی ترامپ علیه ایران محکوم به شکست است روزنامه تلگراف در گزارشی با انتقاد از سیاست دولت دونالد ترامپ در قبال ایران، نوشته: 🔹 کارزار موسوم به «روز دی اقتصادی» برای وادار کردن تهران به تسلیم، پیش از آنکه ایران را به عقب‌نشینی وادار کند، می‌تواند حمایت سیاسی در داخل آمریکا از جنگ را از بین ببرد. 🔹 این گزارش در نهایت می‌نویسد ترامپ در برابر دو گزینه دشوار قرار گرفته است: پذیرش شکست و توافق با شرایط ایران یا ورود به جنگی طولانی، پرهزینه و خونین که می‌تواند ریاست‌جمهوری او را تحت تأثیر قرار دهد و حتی در نهایت به شکست دیگری منجر شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358218"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Telegraph: Trump's economic campaign against Iran is doomed to fail. The Telegraph newspaper, in a report criticising the policy of the Donald Trump administration towards Iran, wrote: The campaign called 'Day of Economic Day' to force Tehran to surrender, before compelling Iran to back down, could undermine political support within America for war. This report ultimately writes that Trump faces two difficult options: accepting defeat and reaching an agreement on Iran's terms, or entering a long, costly and bloody war that could affect his presidency and even ultimately lead to another defeat.",
+      "summary_en": "Telegraph: Trump's economic campaign against Iran is doomed to fail. The Telegraph newspaper, in a report criticising the policy of the Donald Trump administration towards Iran, wrote: The campaign called 'Day of Economic Day' to force Tehran to surrender, before compelling Iran to back down, could undermine political support within America for war. This report ultimately writes that Trump faces two difficult options: accepting defeat and reaching an agreement on Iran's terms, or entering a long, costly and bloody war that could affect his presidency and even ultimately lead to another defeat.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66214",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:29:58Z",
+      "title": "💢 چرا قانون مقابله با نفوذ بیگانگان یک ضرورت است؟ 🔸 در شرایطی که نفوذ و مداخله خارجی می‌تواند از مسیر‌های…",
+      "url": "https://t.me/defapress_ir/66214",
+      "summary": "💢 چرا قانون مقابله با نفوذ بیگانگان یک ضرورت است؟ 🔸 در شرایطی که نفوذ و مداخله خارجی می‌تواند از مسیر‌های سیاسی، اقتصادی، رسانه‌ای و اطلاعاتی منافع ملی کشور‌ها را تحت تأثیر قرار دهد، برخورداری از یک چارچوب قانونی روشن برای مقابله با نفوذ بیگانگان، یک ضرورت است. 🔸 اصل وجود قانونی برای مقابله با نفوذ بیگانگان قابل دفاع است. هیچ کشوری نمی‌تواند نسبت به تلاش بازیگران خارجی برای اثرگذاری بر ساختار‌های سیاسی، اقتصادی، امنیتی یا اجتماعی خود بی‌تفاوت باشد. همان‌گونه که بسیاری از کشور‌ها برای مقابله با مداخله خارجی، انتقال غیرمجاز اطلاعات حساس یا تأمین مالی فعالیت‌های سیاسی از سوی دولت‌های خارجی، سازوک",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66214"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Why is the law on countering foreign interference a necessity? At a time when foreign interference and intervention can affect the national interests of countries through political, economic, media and intelligence channels, having a clear legal framework to counter foreign interference is a necessity. The principle of having a legal framework to counter foreign interference is defensible. No country can remain indifferent to the efforts of foreign actors to influence its political, economic, security or social structures. Just as many countries have mechanisms to counter foreign interference, unauthorised transfer of sensitive information or financing of political activities by foreign governments",
+      "summary_en": "Why is the law on countering foreign interference a necessity? At a time when foreign interference and intervention can affect the national interests of countries through political, economic, media and intelligence channels, having a clear legal framework to counter foreign interference is a necessity. The principle of having a legal framework to counter foreign interference is defensible. No country can remain indifferent to the efforts of foreign actors to influence its political, economic, security or social structures. Just as many countries have mechanisms to counter foreign interference, unauthorised transfer of sensitive information or financing of political activities by foreign governments",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608262106",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T12:28:08Z",
+      "title": "Iran fuel reserves may run dry within weeks, sources say",
+      "url": "https://www.iranintl.com/en/202608262106",
+      "summary": "Iran's drawdown of strategic fuel reserves has reached a “red alert” level and could exhaust remaining stocks within weeks, fueling disagreement between President Masoud Pezeshkian and the Revolutionary Guards, informed sources told Iran International on Wednesday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358217",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:25:18Z",
+      "title": "🎦 حملات سنگین توپخانه‌ای رژیم صهیونیستی به اطراف منطقه «الدبشه» در جنوب لبنان @iribnews",
+      "url": "https://t.me/iribnews/358217",
+      "summary": "🎦 حملات سنگین توپخانه‌ای رژیم صهیونیستی به اطراف منطقه «الدبشه» در جنوب لبنان @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358217"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: Heavy artillery attacks by the Zionist regime on the vicinity of the al-Dabbasha area in southern Lebanon",
+      "summary_en": "View: Heavy artillery attacks by the Zionist regime on the vicinity of the al-Dabbasha area in southern Lebanon",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358216",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:20:01Z",
+      "title": "🎦 روایتی از کار و تلاش در روز کارمند 🔹 کارمندان قشری زحمتکش اند که در هر شرایطی پای کار خدمت به مردم هستند تا…",
+      "url": "https://t.me/iribnews/358216",
+      "summary": "🎦 روایتی از کار و تلاش در روز کارمند 🔹 کارمندان قشری زحمتکش اند که در هر شرایطی پای کار خدمت به مردم هستند تا زنجیره خدمات رسانی متوقف نشود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358216"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "View: A narrative of work and effort on Civil Service Day. Civil servants are hardworking and at any circumstances remain at the work of serving the people so that the chain of service delivery does not stop.",
+      "summary_en": "View: A narrative of work and effort on Civil Service Day. Civil servants are hardworking and at any circumstances remain at the work of serving the people so that the chain of service delivery does not stop.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358215",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:15:01Z",
+      "title": "🔺 ابلاغ پذیرش بدون کنکور برگزیدگان المپیاد‌های جغرافیا و علوم زمین 🔹 رئیس شورای عالی انقلاب فرهنگی، ماده…",
+      "url": "https://t.me/iribnews/358215",
+      "summary": "🔺 ابلاغ پذیرش بدون کنکور برگزیدگان المپیاد‌های جغرافیا و علوم زمین 🔹 رئیس شورای عالی انقلاب فرهنگی، ماده واحده «پذیرش دانش‌آموزان برگزیده المپیاد‌های جغرافیا و علوم زمین بدون شرکت در آزمون سراسری» را برای اجرا ابلاغ کرد. https://www.irib-news.ir/00OjFv @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358215"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Notification of examination-free admission for winners of geography and earth science olympiads. The chairman of the Supreme Cultural Revolution Council notified the single clause 'admission of students who won geography and earth science olympiad competitions without taking part in the national examination' for implementation. https://www.irib-news.ir/00OjFv",
+      "summary_en": "Notification of examination-free admission for winners of geography and earth science olympiads. The chairman of the Supreme Cultural Revolution Council notified the single clause 'admission of students who won geography and earth science olympiad competitions without taking part in the national examination' for implementation. https://www.irib-news.ir/00OjFv",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66213",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T12:09:58Z",
+      "title": "💢 امیر الهامی: آغاز خدمات‌دهی بیمارستان «ایران‌بان» به مردم/ ارتش در حوزه درمانی هم به مردم خدمت می‌کند 🔸…",
+      "url": "https://t.me/defapress_ir/66213",
+      "summary": "💢 امیر الهامی: آغاز خدمات‌دهی بیمارستان «ایران‌بان» به مردم/ ارتش در حوزه درمانی هم به مردم خدمت می‌کند 🔸 فرمانده قرارگاه مشترک پدافند هوایی کشور گفت: ارتش جمهوری اسلامی ایران در کنار مأموریت‌های رزمی و دفاعی خود در خط مقدم، در حوزه بهداشت و درمان نیز با یک…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66213"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Admiral Elahami: Hospital Iran-Pas begins service provision to the people. The military provides medical services to the people. The commander of the country's joint air defence headquarters said: The Islamic Republic of Iran's army, alongside its combat and defensive missions on the front lines, also serves in the field of health and medicine with",
+      "summary_en": "Admiral Elahami: Hospital Iran-Pas begins service provision to the people. The military provides medical services to the people. The commander of the country's joint air defence headquarters said: The Islamic Republic of Iran's army, alongside its combat and defensive missions on the front lines, also serves in the field of health and medicine with",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:bb95d81869477b63079ae24eb4874a64",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-26T11:51:00Z",
+      "title": "❗️Hamas ambush position established ~70 meters from the Kamal Adwan Hospital and ~170 meters from a school From this ambush position in the Jabalia area, Hamas terrorists recently planned to advance attacks against IDF troops and rehabilitate the military capability of the terrorist organization. Yesterday, the IDF struck & dismantled this Hamas ambush position that was also used for storing various types of weapons. Several terrorists were eliminated in the strike in order to remove the threat.",
+      "url": "https://x.com/IDF/status/2092580615279268320",
+      "summary": "❗️Hamas ambush position established ~70 meters from the Kamal Adwan Hospital and ~170 meters from a school\n\nFrom this ambush position in the Jabalia area, Hamas terrorists recently planned to advance attacks against IDF troops and rehabilitate the military capability of the terrorist organization.\n\nYesterday, the IDF struck & dismantled this Hamas ambush position that was also used for storing various types of weapons. Several terrorists were eliminated in the strike in order to remove the threat.— Israel Defense Forces (@IDF) Aug 26, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66212",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-26T11:48:58Z",
+      "title": "♨️ بسته خبری استان‌ها 💢 قربانیان تروریسم در سایه استاندارد‌های دوگانه dnws.ir/003bBe 💢 یادواره‌های خانگی…",
+      "url": "https://t.me/defapress_ir/66212",
+      "summary": "♨️ بسته خبری استان‌ها 💢 قربانیان تروریسم در سایه استاندارد‌های دوگانه dnws.ir/003bBe 💢 یادواره‌های خانگی احیاگر فرهنگ ایثار و شهادت هستند dnws.ir/003bCQ 💢 دفاع مقدس جلوه‌ای روشن از مکتب عاشورا بود dnws.ir/003bCg 💢 فیلم/ استقبال مردم اردبیل از شهید تازه تفحص شده دوران دفاع مقدس dnws.ir/003bCF 💢 اختتامیه چهارمین سوگواره ملی «سرو سرخ، خاک مقدس» در کرمان برگزار شد+ تصاویر dnws.ir/003bCv 💢 وعده‌ای در امتداد تاریخ dnws.ir/003bDd 💢 حجت الاسلام آزاد: حاملان قرآن کسانی‌اند که قرآن سرلوحه زندگی آنهاست dnws.ir/003bDo @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66212"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Provincial news package. Victims of terrorism in the shadow of double standards. Domestic memorials are revivers of the culture of sacrifice and martyrdom. Sacred Defence was a bright manifestation of the School of Ashura. Video: Reception by people of Ardabil for a newly identified martyr from the Sacred Defence period. The closing ceremony of the fourth national festival 'Red Cypress, Sacred Soil' was held in Kerman with photos. A promise in the course of history. Ayatollah Azad: The bearers of the Qur'an are those for whom the Qur'an is the guiding principle of their lives",
+      "summary_en": "Provincial news package. Victims of terrorism in the shadow of double standards. Domestic memorials are revivers of the culture of sacrifice and martyrdom. Sacred Defence was a bright manifestation of the School of Ashura. Video: Reception by people of Ardabil for a newly identified martyr from the Sacred Defence period. The closing ceremony of the fourth national festival 'Red Cypress, Sacred Soil' was held in Kerman with photos. A promise in the course of history. Ayatollah Azad: The bearers of the Qur'an are those for whom the Qur'an is the guiding principle of their lives",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2238f4a39ee192174bfd9516fbc8cf66",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-26T11:20:00Z",
+      "title": "The Israeli Air Force bombed a Hamas site in the northern Gaza Strip yesterday, which the IDF says was located next to a hospital and school. The facility in Jabalia had served Hamas as an \"ambush position,\" as well as to store weapons, according to the military. The IDF says that recently, Hamas planned attacks and worked to restore the terror group's capabilities from the building. The strike killed several Hamas operatives, according to the army. The military says the \"ambush position\" was located some 50 meters from the military's \"Yellow Line\" in the area, and therefore it had \"posed a threat to IDF troops operating in the area.\" It was also located some 70 meters from Kamal Adwan Hospi",
+      "url": "https://x.com/manniefabian/status/2092572900414955807",
+      "summary": "The Israeli Air Force bombed a Hamas site in the northern Gaza Strip yesterday, which the IDF says was located next to a hospital and school.\n\nThe facility in Jabalia had served Hamas as an \"ambush position,\" as well as to store weapons, according to the military. The IDF says that recently, Hamas planned attacks and worked to restore the terror group's capabilities from the building.\n\nThe strike killed several Hamas operatives, according to the army.\n\nThe military says the \"ambush position\" was located some 50 meters from the military's \"Yellow Line\" in the area, and therefore it had \"posed a",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/blog/sc16440",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-08-26T10:38:23Z",
+      "title": "Security Council, 10214th Meeting (AM) Middle East/Palestine",
+      "url": "https://press.un.org/en/blog/sc16440",
+      "summary": "At 10 a.m., the Security Council will hold an open briefing on “the situation in the Middle East, including the Palestinian question”. Deputy Special Coordinator and Resident Coordinator at the Office of the UN Special Coordinator for the Middle East Peace Process Ramiz Alakbarov, and Board of Peace High Representative for Gaza Nickolay Mladenov, are expected to brief, as is a civil society representative. Mr. Alakbarov is expected to update Council members on recent developments in the occupied",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608262254",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T10:24:15Z",
+      "title": "Iran plotted to assassinate Netanyahu’s son in Florida – Newsmax",
+      "url": "https://www.iranintl.com/en/202608262254",
+      "summary": "Iran allegedly plotted to assassinate Israeli Prime Minister Benjamin Netanyahu’s eldest son, Yair, while he was living in South Florida, Newsmax reported on Wednesday, citing a US law enforcement source familiar with the matter.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608261997",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T08:49:13Z",
+      "title": "Family of detained British couple in Iran urges UK action after embassy return",
+      "url": "https://www.iranintl.com/en/202608261997",
+      "summary": "The family of a British couple detained in Iran called on the UK government on Wednesday to arrange an urgent consular visit and medical checks, saying British diplomats had yet to see them since the embassy returned to the country last week.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:03a3f57d1d985075d35fd2b4e9ce0bab",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-26T08:24:00Z",
+      "title": "Palestinian media reports one dead and several injured in an Israeli strike targeting a tent in the Khan Younis area of southern Gaza. There is no immediate comment from the military.",
+      "url": "https://x.com/manniefabian/status/2092528662595645663",
+      "summary": "Palestinian media reports one dead and several injured in an Israeli strike targeting a tent in the Khan Younis area of southern Gaza.\n\nThere is no immediate comment from the military.— Emanuel (Mannie) Fabian (@manniefabian) Aug 26, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608263343",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-26T05:18:41Z",
+      "title": "Pakistan, Oman mediation visits are White House deception operation – Kayhan",
+      "url": "https://www.iranintl.com/en/202608263343",
+      "summary": "Recent visits to Tehran by regional mediators were part of a White House “deception operation,” the hardline Kayhan newspaper said on Wednesday, following separate visits by Pakistani Army Chief Asim Munir and Omani Foreign Minister Badr Albusaidi.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-17426",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-08-26T00:00:00Z",
+      "title": "Iranian Transactions and Sanctions Regulations",
+      "url": "https://www.federalregister.gov/documents/2026/08/26/2026-17426/iranian-transactions-and-sanctions-regulations",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is indefinitely suspending five general licenses issued pursuant to the Iranian Transactions and Sanctions Regulations to align with changes in the foreign policy of the United States towards Iran.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-17426"
+      },
+      "tags": [
+        "sanctions"
+      ],
+      "has_figures": false
+    }
+  ]
+}
