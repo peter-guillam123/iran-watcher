@@ -1,0 +1,1877 @@
+{
+  "generated_at": "2026-08-27T23:52:12.361761Z",
+  "window_since": "2026-08-27T05:00:00Z",
+  "window_until": "2026-08-27T23:50:34.000563Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 10,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 37,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 8,
+      "kept": 8,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 36,
+      "kept": 36,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 15,
+      "kept": 15,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 71,
+      "kept": 16,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "78 items: OFAC publishes Iran GLs AA/BB and an E.O. 13902 sector determination, CENTCOM says 75 vessels redirected under Iran blockade, IDF strikes Nabatieh after Hezbollah drone attack, Rezaei threatens Netanyahu and 'US economic interests', three mediators shuttle to Tehran.",
+  "threads": [
+    {
+      "label": "OFAC actions and US blockade enforcement",
+      "summary": "OFAC published two Iran-related general licenses (AA and BB) in the Federal Register and a sector determination under Executive Order 13902. CENTCOM said as of 27 August it had redirected 75 commercial vessels, disabled three and boarded two enforcing the Iran blockade.",
+      "event_ids": [
+        "fedreg:2026-17491",
+        "fedreg:2026-17487",
+        "x_via_rssapp:5fddd7cd4ac44abc8184a6fc727bd141"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Mediation push and Iran-US standoff",
+      "summary": "Iran International reported three regional mediators visited Tehran in three days seeking to revive Iran-US talks, with Qatar's PM meeting Araghchi, Qalibaf and Rezaei. Trump said he was in no hurry to resume talks; Araghchi wrote to Guterres asking the UN to demand Washington halt 'economic terrorism'.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608273238",
+        "iranintl:https://www.iranintl.com/en/202608264179",
+        "telegram:iribnews/358446",
+        "telegram:defapress_ir/66300",
+        "telegram:iribnews/358432",
+        "telegram:defapress_ir/66297",
+        "telegram:defapress_ir/66287"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Rezaei threats and Iranian regime rhetoric",
+      "summary": "Supreme National Security Council secretary Mohsen Rezaei told Al-Manar Iran would 'send Netanyahu to hell' and threatened to target '100 percent of American economic interests' if the blockade continues, claiming 80 million barrels of oil were exported during the ceasefire. Rezaei separately denied Iranian state TV reports of a plot against Barron Trump.",
+      "event_ids": [
+        "telegram:defapress_ir/66299",
+        "telegram:iribnews/358441",
+        "telegram:iribnews/358439",
+        "telegram:iribnews/358438",
+        "telegram:defapress_ir/66288",
+        "telegram:defapress_ir/66294",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu3mxfq3hn2w",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mu2bm4owow2f"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Hezbollah drones and IDF strikes in south Lebanon",
+      "summary": "The IDF said Hezbollah launched two explosive drones overnight at troops at the Ali-Taher Ridge inside the south Lebanon security zone, downing one; no injuries were reported. Israel then struck Hezbollah weapons storage sites in the Nabatieh area, with regime channels reporting further strikes on al-Mansouri and Barashit.",
+      "event_ids": [
+        "x_via_rssapp:b54b8fd1fc88204c8c1db5d2edc1e81e",
+        "x_via_rssapp:a71bc29229b4f7b7b8256a9448cfdd63",
+        "x_via_rssapp:f3a9cf8e5aec5fe5c535804b63117ff1",
+        "x_via_rssapp:a6e3958f065fa9f5ef45051dc860226b",
+        "x_via_rssapp:3296db62d2e3e424c3334e3f6a924c44",
+        "x_via_rssapp:ff73fbe88152c854c0babcad87102897",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2ufao2ao2h",
+        "telegram:iribnews/358431",
+        "telegram:iribnews/358433"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Gaza strikes and ceasefire disputes",
+      "summary": "The IDF announced strikes killing Hamas commanders Ismail Barim in Khan Younis (who it says held hostages Alexander, Zangauker and Mengistu), Bilal Raqi'i in Shati camp, Azzam Abadala in Khan Younis, and two Nukhba operatives from the 7 October attack. Netanyahu and Katz said there was 'no instruction' to open Erez Crossing before Hamas is disarmed; IDF chief Zamir ordered a bolstering of West Bank forces.",
+      "event_ids": [
+        "x_via_rssapp:292405c6cdbb9883e893ca388df009ef",
+        "x_via_rssapp:2fb0155e2c839eab808510c75452b6a4",
+        "x_via_rssapp:3fdfebb2a5963ecac1a4ab03f29ea69f",
+        "x_via_rssapp:1f19c5f3a0394651ff06a9c8448e6139",
+        "x_via_rssapp:0da7c4cde5f4ae666d58747dbdd231c1",
+        "x_via_rssapp:26b5b49790ccb4a2a48ae8f0455758a6",
+        "x_via_rssapp:85e77cd2406dcacdf896bb0a87192798",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2wyixji725",
+        "x_via_rssapp:58360b529b23a8f46e459e53cd507d1c"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "SDF dissolution and Syria diplomacy",
+      "summary": "Ambassador Kate Foster delivered a UK statement at the UN Security Council welcoming the announced dissolution of the Syrian Democratic Forces into central government structures. Regime channels and Jerusalem Post reported Mazlum Abdi is to become an advisor to al-Julani; Defa Press also reported Israeli shelling in Damascus's western outskirts.",
+      "event_ids": [
+        "govuk:https://www.gov.uk/government/speeches/we-welcome-the-recent-announcement-on-the-dissolution-of-the-syrian-democratic-forces-into-central-government-structures-uk-statement-at-the-un-securi#2026-08-27T15:56:30Z",
+        "telegram:iribnews/358449",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2yrspfeq2h",
+        "telegram:defapress_ir/66301",
+        "telegram:iribnews/358447"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran domestic repression and sanctions pressure",
+      "summary": "Iran International reported a court sentenced Leila Abolhassani, detained during January protests, to death for 'waging war against God', and the Bahá'í International Community's UN representative called rising raids and seizures 'state-sponsored theft'. Separate reports covered Bank Melli's Hamburg branch remaining open despite EU sanctions and Canadian documents describing a former Iranian official in Toronto as 'critical' to revenue funding Iran's military.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202608277345",
+        "iranintl:https://www.iranintl.com/en/202608268591",
+        "iranintl:https://www.iranintl.com/en/202608272523",
+        "iranintl:https://www.iranintl.com/en/202608279118",
+        "iranintl:https://www.iranintl.com/en/202608275755",
+        "iranintl:https://www.iranintl.com/en/202608273589"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/358450",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T23:33:49Z",
+      "title": "🔺 شمار قربانیان سیل در نپال از مرز ۲۷۰ نفر گذشت 🔹 منابع خبری گزارش دادند که شمار قربانیان سیل ویرانگر روز…",
+      "url": "https://t.me/iribnews/358450",
+      "summary": "🔺 شمار قربانیان سیل در نپال از مرز ۲۷۰ نفر گذشت 🔹 منابع خبری گزارش دادند که شمار قربانیان سیل ویرانگر روز گذشته در نپال از مرز ۲۷۰ نفر گذشته است و بیش از ۶۰۰ نفر نیز بر اثر این حادثه مفقود شده‌اند.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358450"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Death toll from floods in Nepal exceeds 270",
+      "summary_en": "Death toll from floods in Nepal exceeds 270 News sources reported that the death toll from devastating floods yesterday in Nepal has exceeded 270 people, with over 600 people also missing as a result of the disaster.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66303",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T23:07:01Z",
+      "title": "💢 مطالبه نظامیان روس از کرملین برای حمله مستقیم به انگلیس 🔸 نظامیان روس، انگلیس را شریک عملیاتی اوکراین…",
+      "url": "https://t.me/defapress_ir/66303",
+      "summary": "💢 مطالبه نظامیان روس از کرملین برای حمله مستقیم به انگلیس 🔸 نظامیان روس، انگلیس را شریک عملیاتی اوکراین قلمداد کرده و خواستار پاسخ مستقیم کرملین به آتش‌افروزی‌های لندن شدند. dnws.ir/003b8p @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66303"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Russian military figures demand Kremlin conduct direct strikes on Britain",
+      "summary_en": "Russian military figures demand Kremlin conduct direct strikes on Britain Russian military officers have described Britain as an operational partner of Ukraine and called for a direct response from the Kremlin to London's incitement.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358449",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T22:34:21Z",
+      "title": "قسد، منحل و فرمانده آن مشاور جولانی می‌شود 🔹 منابع خبری گزارش دادند که طبق توافق، انحلال شبه نظامیان کُرد…",
+      "url": "https://t.me/iribnews/358449",
+      "summary": "قسد، منحل و فرمانده آن مشاور جولانی می‌شود 🔹 منابع خبری گزارش دادند که طبق توافق، انحلال شبه نظامیان کُرد سوریه (قسد) رسما اعلام و مظلوم عبدی فرمانده این گروه به عنوان مشاور جولانی تعیین خواهد شد.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358449"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "SDF to be dissolved and its commander to become Julani's advisor",
+      "summary_en": "SDF to be dissolved and its commander to become Julani's advisor News sources reported that according to an agreement, the formal dissolution of the Kurdish Syrian armed group (SDF) has been announced and Mazlum Abdi, commander of this group, is to be appointed as an advisor to Julani.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66302",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T22:06:01Z",
+      "title": "💢 ۴۰ مورد رهگیری هواپیما‌های مشکوک در آسمان لیتوانی 🔸 جنگنده‌های رافال فرانسوی مستقر در لیتوانی بین ماه‌های…",
+      "url": "https://t.me/defapress_ir/66302",
+      "summary": "💢 ۴۰ مورد رهگیری هواپیما‌های مشکوک در آسمان لیتوانی 🔸 جنگنده‌های رافال فرانسوی مستقر در لیتوانی بین ماه‌های فروردین تا مرداد ۴۰ مورد رهگیری هواپیما‌های مشکوک را انجام دادند. dnws.ir/003asr @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66302"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "40 interceptions of suspicious aircraft in Lithuanian airspace",
+      "summary_en": "40 interceptions of suspicious aircraft in Lithuanian airspace French Rafale fighters stationed in Lithuania conducted 40 interceptions of suspicious aircraft between the months of Farvardin and Mordad.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358448",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T21:52:04Z",
+      "title": "رویترز: زلزله‌ای به بزرگی ۶.۲ ریشتر شرق خلیج عدن را لرزاند @iribnews",
+      "url": "https://t.me/iribnews/358448",
+      "summary": "رویترز: زلزله‌ای به بزرگی ۶.۲ ریشتر شرق خلیج عدن را لرزاند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358448"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reuters: 6.2 magnitude earthquake strikes east of the Gulf of Aden",
+      "summary_en": "Reuters: 6.2 magnitude earthquake strikes east of the Gulf of Aden",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66301",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T21:14:01Z",
+      "title": "💢 حملۀ اسرائیل به حومۀ دمشق 🔸 برخي منابع از حملۀ رژیم صهیونیستی به مناطقی از غرب حومۀ دمشق گزارش دادند.…",
+      "url": "https://t.me/defapress_ir/66301",
+      "summary": "💢 حملۀ اسرائیل به حومۀ دمشق 🔸 برخي منابع از حملۀ رژیم صهیونیستی به مناطقی از غرب حومۀ دمشق گزارش دادند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66301"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Israel strikes outskirts of Damascus",
+      "summary_en": "Israel strikes outskirts of Damascus Some sources reported strikes by the Zionist regime on areas in the western outskirts of Damascus.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358447",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T21:05:55Z",
+      "title": "رسانه‌های سوری: ارتش اشغالگر اسرائیلی با دو خمپاره منطقه واقع بین «بیت جن» و «تپه‌های سرخ» در حومه غربی دمشق…",
+      "url": "https://t.me/iribnews/358447",
+      "summary": "رسانه‌های سوری: ارتش اشغالگر اسرائیلی با دو خمپاره منطقه واقع بین «بیت جن» و «تپه‌های سرخ» در حومه غربی دمشق را هدف قرار داده است @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358447"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Syrian media: Israeli occupying army targets area between 'Bayt Jan' and 'Red Hills' in western Damascus outskirts with two shells",
+      "summary_en": "Syrian media: Israeli occupying army targets area between 'Bayt Jan' and 'Red Hills' in western Damascus outskirts with two shells",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66300",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T21:04:21Z",
+      "title": "💢 سازمان ملل، نامه عراقچی درباره «عملیات تروریسم اقتصادی» آمریکا را دریافت کرد 🔸 دوجاریک، سخنگوی سازمان ملل:…",
+      "url": "https://t.me/defapress_ir/66300",
+      "summary": "💢 سازمان ملل، نامه عراقچی درباره «عملیات تروریسم اقتصادی» آمریکا را دریافت کرد 🔸 دوجاریک، سخنگوی سازمان ملل: بنا بر درخواست مقام‌های مربوطه، برای شورای امنیت و مجمع عمومی توزیع شده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66300"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "UN receives letter from Araghchi regarding US 'economic terrorism operations'",
+      "summary_en": "UN receives letter from Araghchi regarding US 'economic terrorism operations' Dujarric, UN spokesperson: At the request of relevant officials, it has been distributed to the Security Council and General Assembly.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608273238",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T21:01:57Z",
+      "title": "Three mediators in three days seek path back to Iran-US talks",
+      "url": "https://www.iranintl.com/en/202608273238",
+      "summary": "Three regional mediators have visited Tehran in three days in an intensifying diplomatic push to revive Iran-US talks, even as the two sides remain deeply divided over the Strait of Hormuz and Washington’s economic pressure campaign.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358446",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T20:48:35Z",
+      "title": "🔺 عراقچی خطاب به گوترش: تروریسم اقتصادی آمریکا را متوقف کنید 🔹 در پی کارزار تروریسم اقتصادی آمریکا علیه…",
+      "url": "https://t.me/iribnews/358446",
+      "summary": "🔺 عراقچی خطاب به گوترش: تروریسم اقتصادی آمریکا را متوقف کنید 🔹 در پی کارزار تروریسم اقتصادی آمریکا علیه ایران، عراقچی در نامه‌ای به دبیرکل سازمان ملل و شورای امنیت و اعضای این سازمان، از آنها خواست که از آمریکا بخواهند فوراً تهدیدات و اقدامات قهرآمیز خود را…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358446"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Araghchi to Guterres: Stop US economic terrorism",
+      "summary_en": "Araghchi to Guterres: Stop US economic terrorism Following the US economic terrorism campaign against Iran, Araghchi in a letter to the UN Secretary-General, the Security Council and member states, called on them to demand that the United States immediately cease its threats and coercive measures.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358445",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T20:15:01Z",
+      "title": "🎦 حضور پرشور مردم در تجمعات مردمی، میدان شهدای تهران @iribnews",
+      "url": "https://t.me/iribnews/358445",
+      "summary": "🎦 حضور پرشور مردم در تجمعات مردمی، میدان شهدای تهران @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358445"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Enthusiastic turnout of people at public gatherings in Shahids Square, Tehran",
+      "summary_en": "Video: Enthusiastic turnout of people at public gatherings in Shahids Square, Tehran",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358444",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T20:09:07Z",
+      "title": "🔺 اخراج ۴۰۰ نفر دیگر از کارمندان دفتر مدیر اطلاعات ملی آمریکا المیادین: 🔹 براساس یک گزارش محرمانه که به ‌دست…",
+      "url": "https://t.me/iribnews/358444",
+      "summary": "🔺 اخراج ۴۰۰ نفر دیگر از کارمندان دفتر مدیر اطلاعات ملی آمریکا المیادین: 🔹 براساس یک گزارش محرمانه که به ‌دست کمیته‌های امنیت داخلی و امنیت ملی مجلس نمایندگان آمریکا تهیه شده است، شمار زیادی از مدیران و کارشناسان این دفتر، از جمله متخصصان امور روسیه، چین و اتحادیه اروپا برکنار شده‌اند. 🔹 گزارش‌ها و تحلیل‌های اطلاعاتی درباره جنگ با ایران نیز مطابق خواسته‌های رئیس‌جمهور تغییر یافته‌اند. 🔹 شمار کارکنان دفتر مدیر اطلاعات ملی آمریکا در دوره تولسی گابارد، پیش‌تر از حدود ۲ هزار نفر به یک‌هزار و ۳۰۰ نفر کاهش یافته است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358444"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "400 more staff members dismissed from US Director of National Intelligence office",
+      "summary_en": "400 more staff members dismissed from US Director of National Intelligence office According to a classified report obtained by the US House committees on internal security and national security, a large number of managers and experts from this office, including specialists on Russia, China and the European Union, have been removed. Intelligence reports and analyses regarding war with Iran have also been altered in accordance with the president's wishes. Staff numbers at the US Director of National Intelligence office under Tulsi Gabbard have previously been reduced from approximately 2,000 to 1,300 personnel.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358443",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T20:04:48Z",
+      "title": "🔺 رئیس جمهور در آیین بدرقه ۵ سفیر جدید کشورمان: منافع هیچ کشوری با زیاده‌خواهی تامین نخواهد شد 🔹 رویکرد ایران…",
+      "url": "https://t.me/iribnews/358443",
+      "summary": "🔺 رئیس جمهور در آیین بدرقه ۵ سفیر جدید کشورمان: منافع هیچ کشوری با زیاده‌خواهی تامین نخواهد شد 🔹 رویکرد ایران در عرصه بین‌الملل همواره صلح‌طلبانه بوده است. 🔹 گسترش تعاملات و توسعه روابط سیاسی با همه کشورها از اولویت‌های اساسی و ماموریت‌های مهم سفرای ایران در خارج از کشور است. 🔹 مهم‌ترین وظیفه سفرای جمهوری اسلامی ایران در کشورهای خارجی، ایجاد بستر مناسب برای ارتقای سطح همکاری‌های فیمابین و ارتباط موثر جهت توسعه روابط، برقراری امنیت و ایجاد صلح پایدار است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358443"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "President at farewell ceremony for 5 new ambassadors: No nation's interests will be secured through greed",
+      "summary_en": "President at farewell ceremony for 5 new ambassadors: No nation's interests will be secured through greed Iran's approach on the international stage has always been peace-seeking. Expanding interactions and developing political relations with all countries is among Iran's fundamental priorities and important missions for ambassadors abroad. The most important responsibility of the Islamic Republic of Iran's ambassadors in foreign countries is to create an appropriate environment to enhance the level of cooperation between our nations, establish effective communication to develop relations, ensure security and create lasting peace.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu3mxfq3hn2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T19:56:18.143000Z",
+      "title": "Iran’s Supreme National Security Council head Mohsen Rezaee denied reports of a plot to assassinate Barron Trump, calling them a lie after…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-906850",
+      "summary": "Iran’s Supreme National Security Council head Mohsen Rezaee denied reports of a plot to assassinate Barron Trump, calling them a lie after the US Secret Service said it was aware of an Iranian state TV video discussing the threat. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66299",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:47:28Z",
+      "title": "💢 دبیر شورای‌عالی امنیت ملی: ما نتانیاهو را روانهٔ جهنم می‌کنیم 🔸 سرلشکر رضایی در مصاحبه با المنار: ایران…",
+      "url": "https://t.me/defapress_ir/66299",
+      "summary": "💢 دبیر شورای‌عالی امنیت ملی: ما نتانیاهو را روانهٔ جهنم می‌کنیم 🔸 سرلشکر رضایی در مصاحبه با المنار: ایران بنیامین نتانیاهو را به جهنم خواهد فرستاد. ما ثابت خواهیم کرد اشتباهات بزرگ نتانیاهو باعث شده پایان موجودیت رژیم صهیونیستی نزدیک شود. ‌ 🔸 در صورت ازسرگیری درگیری، خودمان را برای مرحلهٔ جدیدی آماده می‌کنیم؛ هر جنگی در آینده متفاوت از جنگ‌های پیشین خواهد بود 🔸 تغییر رویکرد آمریکا به‌سمت فشار اقتصادی، نشان‌دهندهٔ بی‌ثمری حملات نظامی بود و ما به هرگونه تشدید تنش اقتصادی با اقدامات متقابلی که منافع اقتصادی آمریکا در منطقه را هدف قرار می‌دهد، پاسخ خواهیم داد. dnws.ir/003bJB @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66299"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Secretary of Supreme National Security Council: We will send Netanyahu to hell",
+      "summary_en": "Secretary of Supreme National Security Council: We will send Netanyahu to hell Major General Rezaei in an interview with Al-Manar: Iran will send Benjamin Netanyahu to hell. We will prove that Netanyahu's grave mistakes have brought the end of the Zionist regime's existence closer. If fighting resumes, we are preparing ourselves for a new phase; any future war will be different from previous wars. The shift in US approach towards economic pressure demonstrated the fruitlessness of military strikes, and we will respond to any escalation of economic tensions with reciprocal measures that target US economic interests in the region.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358442",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:47:16Z",
+      "title": "🎦 روز پرکار رئیس جمهور با افتتاح ۵ پروژه، از کارخانه و نیروگاه ۴۲ مگاواتی تا ورزشگاه ده‌هزار نفری 🌐…",
+      "url": "https://t.me/iribnews/358442",
+      "summary": "🎦 روز پرکار رئیس جمهور با افتتاح ۵ پروژه، از کارخانه و نیروگاه ۴۲ مگاواتی تا ورزشگاه ده‌هزار نفری 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358442"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: President's busy day inaugurating 5 projects, from factories and 42-megawatt power plants to 10,000-capacity stadium",
+      "summary_en": "Video: President's busy day inaugurating 5 projects, from factories and 42-megawatt power plants to 10,000-capacity stadium",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358441",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:34:56Z",
+      "title": "🔺 سرلشکر رضایی: نتانیاهو را روانه جهنم می‌کنیم 🔹 دبیر شورای عالی امنیت ملی: بنیامین نتانیاهو نخست‌وزیر رژیم…",
+      "url": "https://t.me/iribnews/358441",
+      "summary": "🔺 سرلشکر رضایی: نتانیاهو را روانه جهنم می‌کنیم 🔹 دبیر شورای عالی امنیت ملی: بنیامین نتانیاهو نخست‌وزیر رژیم صهیونیستی را به جهنم خواهیم فرستاد. 🔹 ما ثابت خواهیم کرد اشتباهات بزرگ نتانیاهو باعث شده پایان موجودیت رژیم صهیونیستی، نزدیک شود.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358441"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Rezaei: We will send Netanyahu to hell",
+      "summary_en": "Major General Rezaei: We will send Netanyahu to hell Secretary of Supreme National Security Council: We will send Benjamin Netanyahu, Prime Minister of the Zionist regime, to hell. We will prove that Netanyahu's grave mistakes have brought the end of the Zionist regime's existence closer.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358440",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:27:14Z",
+      "title": "🔺 سرلشکر رضایی: نتانیاهو را روانه جهنم می‌کنیم 🔹 دبیر شورای عالی امنیت ملی: بنیامین نتانیاهو نخست‌وزیر رژیم…",
+      "url": "https://t.me/iribnews/358440",
+      "summary": "🔺 سرلشکر رضایی: نتانیاهو را روانه جهنم می‌کنیم 🔹 دبیر شورای عالی امنیت ملی: بنیامین نتانیاهو نخست‌وزیر رژیم صهیونیستی را به جهنم خواهیم فرستاد. 🔹 ما ثابت خواهیم کرد اشتباهات بزرگ نتانیاهو باعث شده پایان موجودیت رژیم صهیونیستی، نزدیک شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358440"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Rezaei: We will send Netanyahu to hell",
+      "summary_en": "Major General Rezaei: We will send Netanyahu to hell Secretary of Supreme National Security Council: We will send Benjamin Netanyahu, Prime Minister of the Zionist regime, to hell. We will prove that Netanyahu's grave mistakes have brought the end of the Zionist regime's existence closer.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358439",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:27:06Z",
+      "title": "سرلشکر محسن رضایی: ادامه محاصره یعنی برخورد شدید با دشمن آمریکایی، ۸۰ میلیون بشکه نفت در دوره آتش‌بس صادر…",
+      "url": "https://t.me/iribnews/358439",
+      "summary": "سرلشکر محسن رضایی: ادامه محاصره یعنی برخورد شدید با دشمن آمریکایی، ۸۰ میلیون بشکه نفت در دوره آتش‌بس صادر کردیم  دبیر شورای عالی امنیت ملی: 🔹 اگر محاصره ادامه پیدا کند، ما منافع اقتصادی آمریکا را صد در صد و با شدت و قدرت هدف قرار خواهیم داد. 🔹 در دوران آتش‌بس،…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358439"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Mohsen Rezaei: Continuing the blockade means fierce confrontation with the American enemy; we exported 80 million barrels of oil during the ceasefire period",
+      "summary_en": "Major General Mohsen Rezaei: Continuing the blockade means fierce confrontation with the American enemy; we exported 80 million barrels of oil during the ceasefire period Secretary of Supreme National Security Council: If the blockade continues, we will target 100 per cent of American economic interests with intensity and force. During the ceasefire, we broke the naval blockade and successfully exported approximately 70 to 80 million barrels of oil. Oil sales have returned to pre-sanctions levels; in addition to emptying floating reserves, we have established new export routes which are gradually increasing. We have achieved an unprecedent level of cooperation with our friends.",
+      "has_figures": true,
+      "figures_examples": [
+        "80 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/358438",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:17:04Z",
+      "title": "سرلشکر محسن رضایی: ادامه محاصره یعنی برخورد شدید با دشمن آمریکایی، ۸۰ میلیون بشکه نفت در دوره آتش‌بس صادر…",
+      "url": "https://t.me/iribnews/358438",
+      "summary": "سرلشکر محسن رضایی: ادامه محاصره یعنی برخورد شدید با دشمن آمریکایی، ۸۰ میلیون بشکه نفت در دوره آتش‌بس صادر کردیم دبیر شورای عالی امنیت ملی: 🔹 اگر محاصره ادامه پیدا کند، ما منافع اقتصادی آمریکا را صد در صد و با شدت و قدرت هدف قرار خواهیم داد. 🔹 در دوران آتش‌بس، محاصره دریایی را شکستیم و موفق به صادرات حدود ۷۰ تا ۸۰ میلیون بشکه نفت شدیم. 🔹 میزان فروش نفت به سطح پیش از تحریم بازگشته است؛ علاوه بر تخلیه ذخایر شناور، مسیرهای جدیدی برای صادرات ایجاد کرده‌ایم که به تدریج در حال افزایش است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358438"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Mohsen Rezaei: Continuing the blockade means fierce confrontation with the American enemy; we exported 80 million barrels of oil during the ceasefire period",
+      "summary_en": "Major General Mohsen Rezaei: Continuing the blockade means fierce confrontation with the American enemy; we exported 80 million barrels of oil during the ceasefire period Secretary of Supreme National Security Council: If the blockade continues, we will target 100 per cent of American economic interests with intensity and force. During the ceasefire, we broke the naval blockade and successfully exported approximately 70 to 80 million barrels of oil. Oil sales have returned to pre-sanctions levels; in addition to emptying floating reserves, we have established new export routes which are gradually increasing.",
+      "has_figures": true,
+      "figures_examples": [
+        "80 million"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/66298",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:16:10Z",
+      "title": "💢 کاهش شدید ذخایر موشکی ناتو در اروپا در پی جنگ علیه ایران 🔸 آسوشیتدپرس به نقل از مقامات دفاعی آمریکا و ناتو:…",
+      "url": "https://t.me/defapress_ir/66298",
+      "summary": "💢 کاهش شدید ذخایر موشکی ناتو در اروپا در پی جنگ علیه ایران 🔸 آسوشیتدپرس به نقل از مقامات دفاعی آمریکا و ناتو: استفاده گسترده از سامانه‌های پدافندی در جریان جنگ علیه ایران، ذخایر موشک‌های رهگیر «پاتریوت» را به سطح بحرانی رسانده است. 🔸 ذخایر موشک‌های رهگیر «پاتریوت» (MIM-۱۰۴) میان نیروهای آمریکایی و ناتو در اروپا به دلیل مصرف بی‌سابقه در جنگ علیه ایران، با کمبود شدید مواجه شده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66298"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sharp decline in NATO missile reserves in Europe following war against Iran",
+      "summary_en": "Sharp decline in NATO missile reserves in Europe following war against Iran According to the Associated Press citing US and NATO defence officials: The widespread use of air defence systems during the war against Iran has brought Patriot air defence missile reserves to critical levels. Patriot air defence missile (MIM-104) reserves among US and NATO forces in Europe have faced severe shortages due to unprecedented consumption in the war against Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:3fdfebb2a5963ecac1a4ab03f29ea69f",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T19:16:00Z",
+      "title": "🔴ELIMINATED: Bilal Ibrahim Saleh Raqi‘i, a commander in Hamas’ military wing’s anti-tank array and Azzam Rifaat Abd Abadala, an operative in Hamas’ Khan Younis Brigade. Recently, the terrorists continued to advance terror attacks against Israeli civilians and IDF troops, in violation of the ceasefire agreement. They were struck in order to remove the threat they posed.",
+      "url": "https://x.com/IDF/status/2093055163422453806",
+      "summary": "🔴ELIMINATED: Bilal Ibrahim Saleh Raqi‘i, a commander in Hamas’ military wing’s anti-tank array and Azzam Rifaat Abd Abadala, an operative in Hamas’ Khan Younis Brigade.\n\nRecently, the terrorists continued to advance terror attacks against Israeli civilians and IDF troops, in violation of the ceasefire agreement. They were struck in order to remove the threat they posed.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358437",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:10:48Z",
+      "title": "🎦 پزشکیان :ما مصمم هستیم با تمام وجود برای حل مشکلات مردم تلاش کنیم و نگذاریم و نخواهیم گذاشت نقشه های شوم…",
+      "url": "https://t.me/iribnews/358437",
+      "summary": "🎦 پزشکیان :ما مصمم هستیم با تمام وجود برای حل مشکلات مردم تلاش کنیم و نگذاریم و نخواهیم گذاشت نقشه های شوم دشمن به نتیجه برسد 🔹 از همه قومیت ها قدردانی می کنم 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358437"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Pezeshkian: We are determined to exert all our efforts to resolve people's problems and will not allow the enemy's sinister plans to succeed",
+      "summary_en": "Video: Pezeshkian: We are determined to exert all our efforts to resolve people's problems and will not allow the enemy's sinister plans to succeed I thank all ethnic groups.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358436",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:08:50Z",
+      "title": "🎦 پزشکیان: مردم ما در مقابل قلدری و تجاوز جانانه ایستادند 🔹 به همه مردم دستمریزاد می‌گویم. 🌐 iribnews.ir 🆔…",
+      "url": "https://t.me/iribnews/358436",
+      "summary": "🎦 پزشکیان: مردم ما در مقابل قلدری و تجاوز جانانه ایستادند 🔹 به همه مردم دستمریزاد می‌گویم. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358436"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Pezeshkian: Our people stood against bullying and aggression",
+      "summary_en": "Video: Pezeshkian: Our people stood against bullying and aggression I salute all the people.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:1f19c5f3a0394651ff06a9c8448e6139",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T19:06:00Z",
+      "title": "Two Hamas commanders were killed in Israeli strikes in the Gaza Strip today, the military announces. One strike in Gaza City's Shati camp killed Bilal Ibrahim Saleh Raqi‘i, identified by the IDF as a commander in Hamas's anti-tank unit. A second strike in Khan Younis killed Azzam Rifaat Abd Abadala, who the military says served in Hamas's Khan Younis Brigade. The IDF justifies the strikes amid the ceasefire by saying that both terror operatives had recently advanced attacks on troops and Israeli civilians, as well as acted to restore Hamas capabilities, \"while systematically violating the ceasefire.\" The strikes were \"carried out to remove the threat,\" the army adds.",
+      "url": "https://x.com/manniefabian/status/2093052468171055524",
+      "summary": "Two Hamas commanders were killed in Israeli strikes in the Gaza Strip today, the military announces.\n\nOne strike in Gaza City's Shati camp killed Bilal Ibrahim Saleh Raqi‘i, identified by the IDF as a commander in Hamas's anti-tank unit.\n\nA second strike in Khan Younis killed Azzam Rifaat Abd Abadala, who the military says served in Hamas's Khan Younis Brigade.\n\nThe IDF justifies the strikes amid the ceasefire by saying that both terror operatives had recently advanced attacks on troops and Israeli civilians, as well as acted to restore Hamas capabilities, \"while systematically violating the c",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358435",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T19:04:01Z",
+      "title": "🔺 کلاهبردار ۱۰ هزار میلیارد تومانی در ارومیه دستگیر شد فرمانده انتظامی آذربایجان‌غربی: 🔹 در پی گزارشات متعدد…",
+      "url": "https://t.me/iribnews/358435",
+      "summary": "🔺 کلاهبردار ۱۰ هزار میلیارد تومانی در ارومیه دستگیر شد فرمانده انتظامی آذربایجان‌غربی: 🔹 در پی گزارشات متعدد مبنی بر کلاهبرداری از شهروندان به شيوهٔ خريد کالا و صدور چک‌های بلامحل، موضوع در دستور کار مأموران قرار گرفت و متهم فراری را شناسایی و دستگیر کردند. 🔹 متهم در مراحل بازجویی به ۹۰ کلاهبرداری سریالی از شهروندان در استان‌های مختلف به‌ارزش ۱۰۰ هزار میلیارد ریال اعتراف کرد و تحویل مراجع قضایی شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358435"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Fraudster who defrauded 10 trillion tomans arrested in Urmia",
+      "summary_en": "Fraudster who defrauded 10 trillion tomans arrested in Urmia Commander of police in West Azerbaijan: Following numerous reports of fraud against citizens through purchasing goods and issuing bounced cheques, the matter was placed on the agenda of officers who identified and arrested the fugitive defendant. The defendant during questioning confessed to 90 serial frauds against citizens in various provinces worth 100 trillion rials and was handed over to judicial authorities.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358434",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:57:18Z",
+      "title": "🔺 توزیع یارانه‌ای بذر برای کشاورزان 🔹 به گفته معاون وزیر جهاد کشاورزی، طرح هدفمند کردن یارانه‌ای بذر و تعیین…",
+      "url": "https://t.me/iribnews/358434",
+      "summary": "🔺 توزیع یارانه‌ای بذر برای کشاورزان 🔹 به گفته معاون وزیر جهاد کشاورزی، طرح هدفمند کردن یارانه‌ای بذر و تعیین مبلغ برای اولین بار در سطح کشور اجرایی می‌شود. https://www.irib-news.ir/00Ojad @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358434"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Distribution of seed subsidies to farmers",
+      "summary_en": "Distribution of seed subsidies to farmers According to the Deputy Minister of Agriculture, the scheme to target seed subsidies and determine amounts is being implemented for the first time nationwide.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358433",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:51:43Z",
+      "title": "🔺 بهانه جدید صهیونیست‌ها برای عدم خروج از جنوب لبنان 🔹 وب‌سایت اسرائیلی «واللا» به نقل از یک منبع امنیتی خبر…",
+      "url": "https://t.me/iribnews/358433",
+      "summary": "🔺 بهانه جدید صهیونیست‌ها برای عدم خروج از جنوب لبنان 🔹 وب‌سایت اسرائیلی «واللا» به نقل از یک منبع امنیتی خبر داد رژیم صهیونیستی از طریق کانال‌های امنیتی به آمریکا گفته طرح «مناطق آزمایشی» در جنوب لبنان شکست خورده است. 🔹 در توافق دولت غربگرای لبنان با نمایندگان رژیم صهیونیستی، قرار بود مناطقی به صورت آزمایشی در جنوب لبنان انتخاب شود تا پس از عقب‌نشینی نظامیان اسرائیلی، ارتش لبنان در آن مستقر شود. 🔹 این منبع اسرائیلی مدعی شد ارتش لبنان زیرساخت‌های متعلق به حزب‌الله را بر اساس مختصات ارائه شده توسط ارتش اسرائیل از بین نمی‌برد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358433"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "New pretext by Zionists for not withdrawing from southern Lebanon",
+      "summary_en": "New pretext by Zionists for not withdrawing from southern Lebanon Israeli website Walla reported citing a security source that the Zionist regime has told the United States through security channels that the plan for 'experimental zones' in southern Lebanon has failed. According to the agreement between Lebanon's pro-Western government and Zionist regime representatives, certain areas were to be selected experimentally in southern Lebanon so that the Lebanese army would be stationed there after Israeli forces withdrew. This Israeli source claimed that the Lebanese army is not destroying infrastructure belonging to Hezbollah based on coordinates provided by the Israeli army.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66297",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:39:21Z",
+      "title": "💢 سرلشکر  رضایی: آمریکا شرارت کند بلایی سرشان می‌آوریم که در تاریخ ثبت شود 🔸 دبیر شورای عالی امنیت ملی در…",
+      "url": "https://t.me/defapress_ir/66297",
+      "summary": "💢 سرلشکر  رضایی: آمریکا شرارت کند بلایی سرشان می‌آوریم که در تاریخ ثبت شود 🔸 دبیر شورای عالی امنیت ملی در دیدار شیخ محمد بن عبدالرحمن آل ثانی نخست وزیر و وزیر امور خارجه دولت قطر: ایران به قطر در روزها و شرایط سخت کمک کرده است و بر دوستی و برادری بین دو کشور…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66297"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Rezaei: If America acts mischievously we will bring upon them a calamity recorded in history",
+      "summary_en": "Major General Rezaei: If America acts mischievously we will bring upon them a calamity recorded in history Secretary of Supreme National Security Council in meeting with Sheikh Mohammed bin Abdulrahman Al Thani, Prime Minister and Foreign Minister of Qatar: Iran has assisted Qatar during difficult days and conditions and emphasises friendship and brotherhood between the two countries.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358432",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:35:19Z",
+      "title": "🔺 عراقچی در دیدار با همتای قطری: کشورهای منطقه نباید اجازه استفاده آمریکا از خاک خود علیه ایران را بدهند وزیر…",
+      "url": "https://t.me/iribnews/358432",
+      "summary": "🔺 عراقچی در دیدار با همتای قطری: کشورهای منطقه نباید اجازه استفاده آمریکا از خاک خود علیه ایران را بدهند وزیر خارجه کشورمان در دیدار با همتای قطری خود: 🔹 وضعیت کنونی منحصرا نتیجه تجاوز نظامی آمریکا و رژیم صهیونیستی و نیز استمرار اقدامات مداخله‌جویانه و غیرقانونی آمریکا به‌ویژه محاصره دریایی و تروریسم اقتصادی آن علیه ایران است. 🔹 همه کشورهای منطقه باید به اصل حسن همجواری و ممانعت از استفاده آمریکا از قلمرو و امکانات آنها برای تدارک و اجرای اقدامات تجاوزکارانه و نیز جنگ اقتصادی علیه ایران پایبند باشند. 🔹 نمی‌توان بدون در نظر گرفتن واقعیات موجود و نیز جنایات و خسارات وارده به ایران، صحبت از بازگش",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358432"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Araghchi in meeting with Qatari counterpart: Regional countries should not allow America to use their territory against Iran",
+      "summary_en": "Araghchi in meeting with Qatari counterpart: Regional countries should not allow America to use their territory against Iran Our Foreign Minister in meeting with his Qatari counterpart: The current situation is solely the result of military aggression by America and the Zionist regime and also the continuation of America's interventionist and illegal actions, particularly naval blockade and economic terrorism against Iran. All regional countries should adhere to the principle of good neighbourliness and prevent America from using their territory and capabilities to prepare and execute aggressive actions and also economic war against Iran. One cannot speak of a return without considering existing realities and also the crimes and damage inflicted on Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608268591",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T18:24:47Z",
+      "title": "‘State-sponsored theft’: UN representative calls out rising seizures from Iran’s Bahá’ís",
+      "url": "https://www.iranintl.com/en/202608268591",
+      "summary": "Iran’s rising wave of raids, arrests and property seizures against Bahá’ís amounts to “state-sponsored theft,” the Bahá’í International Community’s representative to the United Nations in Geneva said, citing hundreds of incidents since the January crackdown.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/358431",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:21:24Z",
+      "title": "🎦 حمله جنگنده‌های اسرائیلی به جنوب لبنان شهرک «المنصوری» 🔹 صهیونیست‌ها شهرک برعشیت در جنوب لبنان را هم هدف…",
+      "url": "https://t.me/iribnews/358431",
+      "summary": "🎦 حمله جنگنده‌های اسرائیلی به جنوب لبنان شهرک «المنصوری» 🔹 صهیونیست‌ها شهرک برعشیت در جنوب لبنان را هم هدف حملات هوایی قرار دادند.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/358431"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Israeli fighter jets strike al-Mansouri locality in southern Lebanon",
+      "summary_en": "Video: Israeli fighter jets strike al-Mansouri locality in southern Lebanon The Zionists also targeted Barashit locality in southern Lebanon with air strikes.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66296",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:08:29Z",
+      "title": "🎥 لحظاتی منتشر نشده از دیدارهای صمیمانه خانواده‌های معظم شهدا با رهبر شهید انقلاب 🔸 رهبر شهید انقلاب: ما فکر…",
+      "url": "https://t.me/defapress_ir/66296",
+      "summary": "🎥 لحظاتی منتشر نشده از دیدارهای صمیمانه خانواده‌های معظم شهدا با رهبر شهید انقلاب 🔸 رهبر شهید انقلاب: ما فکر میکنیم که حفظ یاد شهدا، حفظ انقلاب است، حفظ کشور است. لذاست که ان‌شاءالله نمیگذاریم؛ یعنی خدای متعال نمیگذارد که فراموش بشوند. ۱۳۹۴/۱۰/۰۷ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66296"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video: Previously unreleased footage of intimate meetings between families of the great martyrs and the Martyred Leader of the Revolution",
+      "summary_en": "Video: Previously unreleased footage of intimate meetings between families of the great martyrs and the Martyred Leader of the Revolution Martyred Leader of the Revolution: We believe that preserving the memory of the martyrs is preserving the revolution, preserving the country. That is why, God willing, we will not allow it; that is, God Almighty will not allow them to be forgotten.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66295",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T18:05:39Z",
+      "title": "💢 قالیباف: امپراتوری آمریکا روبه‌زوال است 🔸 رئیس مجلس در پاسخ به گزافه‌گویی اسکات بسنت مقاله‌ای از…",
+      "url": "https://t.me/defapress_ir/66295",
+      "summary": "💢 قالیباف: امپراتوری آمریکا روبه‌زوال است 🔸 رئیس مجلس در پاسخ به گزافه‌گویی اسکات بسنت مقاله‌ای از نیویورک‌تایمز که در آن به ناتوانی بسنت در کنترل شاخص‌های مهم اقتصادی اشاره شده به‌اشتراک‌گذاشت. 🔸 قالیباف نوشت: این امپراتوری روبه‌زوال به‌جای اینکه میلیاردها دلار را به تروریست نیابتی خود یعنی اسرائیل و ۷۵۰ پایگاه نظامی در دنیا سرازیر کند، می‌توانست آن پول را صرف مردم آمریکا کند؛ اما نه، این کار برای رژیم آمریکا زیادی منطقی است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66295"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: The American empire is in decline",
+      "summary_en": "Qalibaf: The American empire is in decline The Speaker of Parliament responded to Scott Bassent's nonsense by sharing an article from the New York Times in which Bassent's inability to control important economic indicators was highlighted. Qalibaf wrote: Rather than this declining empire pouring billions of dollars into its terrorist proxy Israel and 750 military bases around the world, it could have spent that money on the American people; but no, that is far too logical for the American regime.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu3fxtmqwv2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T17:51:16.599000Z",
+      "title": "SPECIAL PROFILE: Bennett’s alternative to Netanyahu: keep security zones, but put Egypt at the heart of a regional plan to disarm Hamas. He…",
+      "url": "https://www.jpost.com/israel-news/article-906838",
+      "summary": "SPECIAL PROFILE: Bennett’s alternative to Netanyahu: keep security zones, but put Egypt at the heart of a regional plan to disarm Hamas. He argues Israel must pair military force with diplomacy to regain legitimacy and reshape Gaza.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66294",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T17:15:51Z",
+      "title": "💢 سردار ابن‌الرضا: معادلات قدرت منطقه را تغییر دادیم؛ با احترام با ملت ایران سخن بگویید 🔸 سرپرست وزارت دفاع و…",
+      "url": "https://t.me/defapress_ir/66294",
+      "summary": "💢 سردار ابن‌الرضا: معادلات قدرت منطقه را تغییر دادیم؛ با احترام با ملت ایران سخن بگویید 🔸 سرپرست وزارت دفاع و پشتیبانی نیروهای مسلح: ایران در میدان عمل معادلات قدرت منطقه را تغییرداد و ثابت کرد دوران بزن درو، لشکرکشی از پشت اقیانوس‌ها و تهدید تمام شده است. 🔸 نمایش مضحک رسانه‌ای، واقعیت میدان و طرف پیروز را تغییر نمی‌دهد. 🔸 تاریخ چند هزار ساله ایران را بخوانید؛ تا بفهمید باید با ملت ایران با زبان احترام سخن گفت‌. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66294"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Ibn al-Rida: We have changed the power dynamics of the region; speak to the Iranian nation with respect",
+      "summary_en": "Commander Ibn al-Rida: We have changed the power dynamics of the region; speak to the Iranian nation with respect Acting Defence Minister: Iran changed the power dynamics of the region through action on the ground and proved that the era of hit-and-run tactics, military expeditions from beyond the oceans and threats has ended. Theatrical media spectacles do not change the reality on the ground and the victor. Read the thousands of years of history of Iran; so you understand that the Iranian nation must be spoken to with a language of respect.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66289",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T17:11:51Z",
+      "title": "💢 بیانیه سازمان اطلاعات سپاه در خصوص ترسیم صحنه سرنوشت ساز مبارزه با دشمن شرور خطاب به ملت شریف ایران 🔸…",
+      "url": "https://t.me/defapress_ir/66289",
+      "summary": "💢 بیانیه سازمان اطلاعات سپاه در خصوص ترسیم صحنه سرنوشت ساز مبارزه با دشمن شرور خطاب به ملت شریف ایران 🔸 سازمان اطلاعات سپاه پاسداران انقلاب اسلامی ضمن تبریک میلاد با سعادت پیامبر وحدت و مهربانی و گرامیداشت یاد و خاطره تمامی شهیدان نبردهای قهرمانانه ملت ایران با امریکای جنایت پیشه بالأخص سیدالشهدای جهان اسلام حضرت امام خامنه‌ای(قدس سره)، بیانیه خود در خصوص ترسیم صحنه سرنوشت ساز مبارزه با دشمن شرور را خطاب به ملت شریف ایران صادر کرد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66289"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "IRGC Intelligence Organisation statement regarding depiction of fateful struggle against the evil enemy addressed to the noble Iranian nation",
+      "summary_en": "IRGC Intelligence Organisation statement regarding depiction of fateful struggle against the evil enemy addressed to the noble Iranian nation The Intelligence Organisation of the Islamic Revolutionary Guard Corps, whilst congratulating the blessed birth of the Prophet of unity and compassion and commemorating the memory of all martyrs in the heroic struggles of the Iranian nation against criminal America, particularly the Master of Martyrs of the Islamic world, Imam Khamenei (may his soul rest in peace), has issued its statement regarding the depiction of the fateful struggle against the evil enemy addressed to the noble Iranian nation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66288",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T17:02:19Z",
+      "title": "💢 سرلشکر  رضایی: آمریکا شرارت کند بلایی سرشان می‌آوریم که در تاریخ ثبت شود 🔸 دبیر شورای عالی امنیت ملی در…",
+      "url": "https://t.me/defapress_ir/66288",
+      "summary": "💢 سرلشکر  رضایی: آمریکا شرارت کند بلایی سرشان می‌آوریم که در تاریخ ثبت شود 🔸 دبیر شورای عالی امنیت ملی در دیدار شیخ محمد بن عبدالرحمن آل ثانی نخست وزیر و وزیر امور خارجه دولت قطر: ایران به قطر در روزها و شرایط سخت کمک کرده است و بر دوستی و برادری بین دو کشور تاکید دارد. 🔸 ما به آمریکا بی اعتمادیم و آن‌ها بارها به دیپلماسی و مذاکره خیانت کرده‌اند. 🔸 هشدار می‌دهیم اگر آمریکا شرارتی علیه ایران آغاز کند بلایی بر سر منافع نظامی و اقتصادی آن‌ها خواهیم آورد که در تاریخ ثبت شود. 🔸 آمریکا باید ابتدا اقدامات عملی در جهت انجام شروط ایران انجام دهد و پس از آن ایران اقدام به بازگشایی تنگه هرمز خواهد کرد. @",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66288"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Major General Rezaei: If America acts mischievously we will bring upon them a calamity recorded in history",
+      "summary_en": "Major General Rezaei: If America acts mischievously we will bring upon them a calamity recorded in history Secretary of Supreme National Security Council in meeting with Sheikh Mohammed bin Abdulrahman Al Thani, Prime Minister and Foreign Minister of Qatar: Iran has assisted Qatar during difficult days and conditions and emphasises friendship and brotherhood between the two countries. We distrust America and they have repeatedly betrayed diplomacy and negotiations. We warn that if America initiates mischief against Iran we will inflict upon their military and economic interests a calamity that will be recorded in history. America must first take practical steps to fulfil Iran's conditions and then Iran will proceed to reopen the Strait of Hormuz.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu3cc4daza2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T16:45:26.093000Z",
+      "title": "In his first speech since leaving the Mossad, David Barnea said Iran’s regime will fall through a mix of operations, economic pressure, and…",
+      "url": "https://www.jpost.com/israel-news/article-906836",
+      "summary": "In his first speech since leaving the Mossad, David Barnea said Iran’s regime will fall through a mix of operations, economic pressure, and public unrest, while highlighting the weakening of Hezbollah and Hamas. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/we-welcome-the-recent-announcement-on-the-dissolution-of-the-syrian-democratic-forces-into-central-government-structures-uk-statement-at-the-un-securi#2026-08-27T15:56:30Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-08-27T15:56:30Z",
+      "title": "We welcome the recent announcement on the dissolution of the Syrian Democratic Forces into central government structures: UK statement at the UN Security Council",
+      "url": "https://www.gov.uk/government/speeches/we-welcome-the-recent-announcement-on-the-dissolution-of-the-syrian-democratic-forces-into-central-government-structures-uk-statement-at-the-un-securi",
+      "summary": "Statement by Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, at the UN Security Council meeting on Syria.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:292405c6cdbb9883e893ca388df009ef",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T15:48:00Z",
+      "title": "🔴ELIMINATED: Ismail Mohammed Ibrahim Barim, a commander in Hamas’ military wing, in the Khan Yunis area. The terrorist held hostages Edan Alexander, Matan Zangauker, and Avera Mengistu in a tunnel in southern Gaza and recently had been advancing attacks targeting IDF troops and Israeli civilians, while systematically violating the ceasefire.",
+      "url": "https://x.com/IDF/status/2093002840872554924",
+      "summary": "🔴ELIMINATED: Ismail Mohammed Ibrahim Barim, a commander in Hamas’ military wing, in the Khan Yunis area.\n\nThe terrorist held hostages Edan Alexander, Matan Zangauker, and Avera Mengistu in a tunnel in southern Gaza and recently had been advancing attacks targeting IDF troops and Israeli civilians, while systematically violating the ceasefire.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66287",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T15:19:23Z",
+      "title": "💢 جزئیات گفت‌وگوی دیدار نخست‌وزیر قطر با قالیباف 🔸 رئیس مجلس با اشاره به موارد نقض عهد امریکا در اجرای…",
+      "url": "https://t.me/defapress_ir/66287",
+      "summary": "💢 جزئیات گفت‌وگوی دیدار نخست‌وزیر قطر با قالیباف 🔸 رئیس مجلس با اشاره به موارد نقض عهد امریکا در اجرای یادداشت تفاهم اسلام اباد، که قطر هم از میانجی های آن بوده است، گفت: دولت ترامپ با اطلاعات غلط ، تصمیمات غلط می گیرد و با چنین محاسبات خطایی، نه تنها منابع مالی، نظامی و انسانی خود آمریکا و آینده منطقه را نیز بر باد می‌دهد بلکه منافع ملت ایران را هدف قرار می‌دهد و باعث ایجاد ناامنی دامنه‌دار در منطقه می‌شود‌. 🔸 طرح محاصره اقتصادی ایران هم بی نتیجه خواهد بود و مردم ایران عزت‌مندانه حقوق‌شان را پس خواهند گرفت و این آمریکا است که می بایست شروطی که بر اساس یادداشت تفاهم متعهد شده است، را اجرایی کن",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66287"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Details of Qatar's Prime Minister's meeting with Qalibaf",
+      "summary_en": "Details of Qatar's Prime Minister's meeting with Qalibaf. The Speaker of Parliament, referring to instances of America's breach of its commitments in implementing the Islamabad Memorandum of Understanding, which Qatar has also been involved in mediating, said: The Trump administration makes wrong decisions based on wrong information, and with such miscalculations, it not only squanders its own financial, military and human resources and the future of the region, but also targets the interests of the Iranian people and causes widespread insecurity in the region. The plan for economic blockade of Iran will also be futile, and the Iranian people will honourably recover their rights, and it is America that must implement the conditions to which it has committed itself under the Memorandum of Understanding.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608277345",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T15:19:14Z",
+      "title": "Iran sentences woman detained during January protests to death",
+      "url": "https://www.iranintl.com/en/202608277345",
+      "summary": "A court in Iran has sentenced Leila Abolhassani, a 43-year-old mother of two teenage daughters detained during the January protests in the central city of Shahin Shahr, to death on charges of “waging war against God,” a source familiar with her case told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu35e572pj2w",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T15:17:05.606000Z",
+      "title": "Interview: Iran is losing control of the Strait of Hormuz in both directions, one energy expert told the Post.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-906824",
+      "summary": "Interview: Iran is losing control of the Strait of Hormuz in both directions, one energy expert told the Post. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2fb0155e2c839eab808510c75452b6a4",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T14:54:00Z",
+      "title": "A Hamas commander who held three Israelis hostage in Gaza during the war was killed in a strike in the Strip's south yesterday, the IDF announces. The strike in Khan Younis killed Ismail Mohammed Ibrahim Barim, who, according to the IDF, took part in holding Edan Alexander, Matan Zangauker, and Avera Mengistu hostage in southern Gaza. The IDF justifies the strike amid the ceasefire by saying that Barim had recently advanced attacks on troops and Israeli civilians, as well as acted to restore Hamas capabilities, \"while systematically violating the ceasefire.\" \"The strike was carried out to remove the threat,\" the army adds.",
+      "url": "https://x.com/manniefabian/status/2092989204741455953",
+      "summary": "A Hamas commander who held three Israelis hostage in Gaza during the war was killed in a strike in the Strip's south yesterday, the IDF announces.\n\nThe strike in Khan Younis killed Ismail Mohammed Ibrahim Barim, who, according to the IDF, took part in holding Edan Alexander, Matan Zangauker, and Avera Mengistu hostage in southern Gaza.\n\nThe IDF justifies the strike amid the ceasefire by saying that Barim had recently advanced attacks on troops and Israeli civilians, as well as acted to restore Hamas capabilities, \"while systematically violating the ceasefire.\"\n\n\"The strike was carried out to r",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66286",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T14:26:12Z",
+      "title": "💢 نایب‌رئیس مجلس: ساخت سکو‌های دریایی از انحصار خارجی خارج شد 🔸 نایب‌رئیس مجلس شورای اسلامی گفت: ساخت سکوی…",
+      "url": "https://t.me/defapress_ir/66286",
+      "summary": "💢 نایب‌رئیس مجلس: ساخت سکو‌های دریایی از انحصار خارجی خارج شد 🔸 نایب‌رئیس مجلس شورای اسلامی گفت: ساخت سکوی مسکونی ۲۵۰۰ تنی میدان نفتی رشادت در بوشهر، نشان‌دهنده توانمندی متخصصان ایرانی در اجرای پروژه‌های بزرگ دریایی و نفتی است. 🔸 اقدامات انجام‌شده در صدرا بوشهر نشان می‌دهد ظرفیت قابل‌توجهی برای اجرای پروژه‌های بزرگ دریایی و نفتی در داخل کشور وجود دارد و باید از این توان در مسیر توسعه اقتصادی و تقویت تولید ملی بهره‌برداری شود. dnws.ir/003bIR @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66286"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Deputy Speaker of Parliament: Construction of offshore platforms has been removed from foreign monopoly",
+      "summary_en": "Deputy Speaker of Parliament: Construction of offshore platforms has been removed from foreign monopoly. The Deputy Speaker of the Islamic Consultative Assembly said: The construction of the 2,500-tonne residential platform in the Reshad oil field in Bushehr demonstrates the capability of Iranian experts in implementing large marine and oil projects. The measures undertaken in Sadra, Bushehr show that there is considerable capacity for implementing large marine and oil projects within the country, and this capability should be utilised in the path of economic development and strengthening domestic production.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:85e77cd2406dcacdf896bb0a87192798",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T14:14:00Z",
+      "title": "Palestinian media reports one dead and several wounded in an Israeli drone strike in Gaza City a short while ago. The military says it targeted a terror operative, with further details to be provided later.",
+      "url": "https://x.com/manniefabian/status/2092979054790033706",
+      "summary": "Palestinian media reports one dead and several wounded in an Israeli drone strike in Gaza City a short while ago.\n\nThe military says it targeted a terror operative, with further details to be provided later.— Emanuel (Mannie) Fabian (@manniefabian) Aug 27, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66285",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T14:13:59Z",
+      "title": "💢 رویترز: ۶ ماه پس از حملات هوایی آمریکا و اسرائیل به ایران، جنگی که ترامپ آن را «سفری کوتاه» توصیف کرد، به…",
+      "url": "https://t.me/defapress_ir/66285",
+      "summary": "💢 رویترز: ۶ ماه پس از حملات هوایی آمریکا و اسرائیل به ایران، جنگی که ترامپ آن را «سفری کوتاه» توصیف کرد، به باتلاقی پر سر و صدا تبدیل شده است @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66285"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reuters: Six months after US and Israeli air strikes on Iran, the war Trump described as a 'short trip' has turned into a messy quagmire",
+      "summary_en": "Reuters: Six months after US and Israeli air strikes on Iran, the war Trump described as a 'short trip' has turned into a messy quagmire.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/66284",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-08-27T14:04:38Z",
+      "title": "💢 بقائی: تقلیل سیاست ضد ایرانی آمریکا به طنزی تلخ تقلیل یافته است 🔸 سخنگوی وزارت امور خارجه در شبکه ایکس با…",
+      "url": "https://t.me/defapress_ir/66284",
+      "summary": "💢 بقائی: تقلیل سیاست ضد ایرانی آمریکا به طنزی تلخ تقلیل یافته است 🔸 سخنگوی وزارت امور خارجه در شبکه ایکس با انتقاد از سیاست‌های آمریکا نوشت: سیاست ضد ایرانی آمریکا به طنزی تلخ تقلیل یافته است. 🔸 سیاست واشنگتن در قبال ایران، شبیه یک طنز واقعی شده است؛ از یکسو با حکومتی مثل بحرین که عملاً هیچ مراوده اقتصادی معناداری با ایران ندارد، تماس می‌گیرند تا القاء کنند که نوعی «ائتلاف» ضد ایران در حال شکل‌گیری است. dnws.ir/003bIJ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/66284"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Baghaei: America's anti-Iran policy has been reduced to dark satire",
+      "summary_en": "Baghaei: America's anti-Iran policy has been reduced to dark satire. The Foreign Ministry spokesman wrote on X network, criticising American policies: America's anti-Iran policy has been reduced to dark satire. Washington's policy towards Iran has become like a dark comedy; on one hand they contact a government like Bahrain which has virtually no meaningful economic dealings with Iran, to convey the impression that some sort of 'anti-Iran coalition' is being formed.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2zcgyxxq2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T14:04:33.746000Z",
+      "title": "Religious soldiers in the IDF’s Givati Brigade refused to board a Namer APC with a female paramedic during an operational mission in Gaza,…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-906769",
+      "summary": "Religious soldiers in the IDF’s Givati Brigade refused to board a Namer APC with a female paramedic during an operational mission in Gaza, prompting warnings of a broader crisis involving yeshiva student units. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:5fddd7cd4ac44abc8184a6fc727bd141",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-08-27T14:04:00Z",
+      "title": "U.S. Navy E/A 18G electronic-warfare aircraft patrol the skies over the Middle East while the U.S. continues…",
+      "url": "https://x.com/CENTCOM/status/2092976546260681095",
+      "summary": "U.S. Navy E/A 18G electronic-warfare aircraft patrol the skies over the Middle East while the U.S. continues to enforce the blockade against Iran. As of Aug. 27, CENTCOM forces have redirected 75 commercial vessels, disabled 3 and boarded 2 to ensure compliance.— U.S. Central Command (@CENTCOM) Aug 27, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2yrspfeq2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T13:55:15.535000Z",
+      "title": "Analysis: Countries throughout the region have praised the decision by the Syrian Democratic Forces to dissolve itself and integrate into…",
+      "url": "https://www.jpost.com/middle-east/article-906803",
+      "summary": "Analysis: Countries throughout the region have praised the decision by the Syrian Democratic Forces to dissolve itself and integrate into the new Syrian security forces, but what comes next for Syria and the region?\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2xyk3nwf2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T13:41:07.603000Z",
+      "title": "In an interview with CNN, former Gaza hostage Evyatar David said that he had to start a crowdfunding campaign to pay for his rehabilitation…",
+      "url": "https://www.jpost.com/israel-news/article-906787",
+      "summary": "In an interview with CNN, former Gaza hostage Evyatar David said that he had to start a crowdfunding campaign to pay for his rehabilitation treatments. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2xkfjrgb2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T13:33:13.085000Z",
+      "title": "The US State Department recommended that three members of UNRWA's staff be disbarred after they were found to have ties to Hamas and PIJ.",
+      "url": "https://www.jpost.com/middle-east/article-906799",
+      "summary": "The US State Department recommended that three members of UNRWA's staff be disbarred after they were found to have ties to Hamas and PIJ. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608273589",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T13:30:49Z",
+      "title": "Man from Supreme Leader's empire takes the helm of Iran’s biggest online retailer",
+      "url": "https://www.iranintl.com/en/202608273589",
+      "summary": "Two years ago the editor of Iran's most hardline newspaper said management of the country's biggest online retailer would \"fortunately\" pass to those who serve the state. It is now chaired by a former spokesman for the supreme leader's business empire.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2wyixji725",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T13:23:12.713000Z",
+      "title": "Netanyahu and Katz said there's “no instruction” to open Erez Crossing for goods into Gaza, stressing that reconstruction will not begin…",
+      "url": "https://www.jpost.com/israel-news/article-906793",
+      "summary": "Netanyahu and Katz said there's “no instruction” to open Erez Crossing for goods into Gaza, stressing that reconstruction will not begin before Hamas is disarmed, while COGAT told the 'Post' that preparations for a Sept. 1 opening are pending approval.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a6e3958f065fa9f5ef45051dc860226b",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T13:11:00Z",
+      "title": "🎯STRUCK: Hezbollah weapon storage facilities in the Nabatieh area that were established in order to harm Israeli civilians and IDF soldiers. The strikes were carried out in response to Hezbollah’s actions against IDF soldiers operating in the Ali-Taher Ridge, within the Security Zone, in which they launched two explosive drones toward IDF soldiers. No IDF injuries were reported.",
+      "url": "https://x.com/IDF/status/2092963187817615697",
+      "summary": "🎯STRUCK: Hezbollah weapon storage facilities in the Nabatieh area that were established in order to harm Israeli civilians and IDF soldiers.\n\nThe strikes were carried out in response to Hezbollah’s actions against IDF soldiers operating in the Ali-Taher Ridge, within the Security Zone, in which they launched two explosive drones toward IDF soldiers. No IDF injuries were reported.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:3296db62d2e3e424c3334e3f6a924c44",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T13:00:00Z",
+      "title": "The IDF says it carried out a series of strikes on Hezbollah infrastructure in the Nabatieh area of southern Lebanon, following last night's drone attack by the terror group on troops. The targets included sites used to store weapons that Hezbollah intended to use in attacks on troops and Israeli civilians, the military says. The strikes came after Hezbollah launched two drones at troops operating at the Ali Taher Ridge, beneath which Hezbollah has a major underground facility IDF troops shot down one of the drones, while losing contact with the second, according to the army. No soldiers were hurt in the incident.",
+      "url": "https://x.com/manniefabian/status/2092960482890063883",
+      "summary": "The IDF says it carried out a series of strikes on Hezbollah infrastructure in the Nabatieh area of southern Lebanon, following last night's drone attack by the terror group on troops. \n\nThe targets included sites used to store weapons that Hezbollah intended to use in attacks on troops and Israeli civilians, the military says.\n\nThe strikes came after Hezbollah launched two drones at troops operating at the Ali Taher Ridge, beneath which Hezbollah has a major underground facility\n\nIDF troops shot down one of the drones, while losing contact with the second, according to the army. No soldiers w",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2ufao2ao2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T12:36:39.053000Z",
+      "title": "The IDF launched a wave of strikes against Hezbollah in southern Lebanon on Thursday after the terror group launched two explosive drones…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-906783",
+      "summary": "The IDF launched a wave of strikes against Hezbollah in southern Lebanon on Thursday after the terror group launched two explosive drones toward IDF soldiers operating in southern Lebanon, the military stated. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2sqtcl7c2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T12:07:20.117000Z",
+      "title": "Source to Post: An Israeli official denied a report that Israel was considering removing German and Italian representatives from the…",
+      "url": "https://www.jpost.com/israel-news/article-906720",
+      "summary": "Source to Post: An Israeli official denied a report that Israel was considering removing German and Italian representatives from the international coordination center for Gaza in Kiryat Gat. \n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608272523",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T11:55:15Z",
+      "title": "Iran's Bank Melli remains open in Germany despite sanctions",
+      "url": "https://www.iranintl.com/en/202608272523",
+      "summary": "Bank Melli Iran's branch in Hamburg remains open despite EU sanctions that Germany says apply to the Iranian state-owned bank's German operation, as Washington steps up pressure for its foreign branches to be closed.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ff73fbe88152c854c0babcad87102897",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T11:29:00Z",
+      "title": "Lebanese media reports a series of Israeli airstrikes in southern Lebanon a short while ago. The strikes come after the IDF said that Hezbollah launched two explosive drones at troops in southern Lebanon last night.",
+      "url": "https://x.com/manniefabian/status/2092937591003693109",
+      "summary": "Lebanese media reports a series of Israeli airstrikes in southern Lebanon a short while ago.\n\nThe strikes come after the IDF said that Hezbollah launched two explosive drones at troops in southern Lebanon last night.— Emanuel (Mannie) Fabian (@manniefabian) Aug 27, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a71bc29229b4f7b7b8256a9448cfdd63",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T11:23:00Z",
+      "title": "❗️Overnight, Hezbollah launched two explosive drones toward IDF soldiers operating in the area of the Ali-Taher Ridge within the Security Zone in southern Lebanon. IDF soldiers opened fire and downed one of the drones, while contact was lost with the second drone. No IDF injuries were reported. The IDF will not allow the Hezbollah terrorist organization to operate against IDF soldiers in the Security Zone. The IDF is currently operating and will continue to act with determination against Hezbollah’s repeated attempts to harm IDF soldiers.",
+      "url": "https://x.com/IDF/status/2092936127044833429",
+      "summary": "❗️Overnight, Hezbollah launched two explosive drones toward IDF soldiers operating in the area of the Ali-Taher Ridge within the Security Zone in southern Lebanon. \n\nIDF soldiers opened fire and downed one of the drones, while contact was lost with the second drone. No IDF injuries were reported. \n\nThe IDF will not allow the Hezbollah terrorist organization to operate against IDF soldiers in the Security Zone. The IDF is currently operating and will continue to act with determination against Hezbollah’s repeated attempts to harm IDF soldiers.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b54b8fd1fc88204c8c1db5d2edc1e81e",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T11:13:00Z",
+      "title": "❌ CEASEFIRE VIOLATION: Hezbollah launched 2 explosive drones toward IDF soldiers operating in the area of the Ali-Taher Ridge within the Security Zone in southern Lebanon. IDF soldiers opened fire and downed one of the drones, while contact was lost with the 2nd drone. No IDF injuries were reported.",
+      "url": "https://x.com/IDF/status/2092933433316003859",
+      "summary": "❌ CEASEFIRE VIOLATION: Hezbollah launched 2 explosive drones toward IDF soldiers operating in the area of the Ali-Taher Ridge within the Security Zone in southern Lebanon. \n\nIDF soldiers opened fire and downed one of the drones, while contact was lost with the 2nd drone. No IDF injuries were reported.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:f3a9cf8e5aec5fe5c535804b63117ff1",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T11:01:00Z",
+      "title": "Hezbollah launched two explosive drones at Israeli troops operating at the Ali Taher Ridge in southern Lebanon overnight, the military says. IDF troops shot down one of the drones, while losing contact with the second, according to the army. No soldiers were hurt in the incident, which took place inside the military's south Lebanon buffer zone. \"The IDF will not allow the Hezbollah terror organization to operate against IDF troops in the security zone. The IDF is currently operating and will continue to operate forcefully against its repeated attempts to harm IDF troops,\" the military adds. Hezbollah has a major underground facility beneath the ridge in the Nabatieh area, and several operati",
+      "url": "https://x.com/manniefabian/status/2092930531528708579",
+      "summary": "Hezbollah launched two explosive drones at Israeli troops operating at the Ali Taher Ridge in southern Lebanon overnight, the military says.\n\nIDF troops shot down one of the drones, while losing contact with the second, according to the army.\n\nNo soldiers were hurt in the incident, which took place inside the military's south Lebanon buffer zone.\n\n\"The IDF will not allow the Hezbollah terror organization to operate against IDF troops in the security zone. The IDF is currently operating and will continue to operate forcefully against its repeated attempts to harm IDF troops,\" the military adds.",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608275755",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T10:42:04Z",
+      "title": "Who is Abolfazl Shekarchi, the Iranian general calling journalists military targets?",
+      "url": "https://www.iranintl.com/en/202608275755",
+      "summary": "The Iranian general who has threatened Persian-language journalists abroad as potential military targets has a history of incendiary attacks on critics and was among officials who initially dismissed reports that Iran had shot down Flight PS752.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2kol6apq2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T09:42:54.561000Z",
+      "title": "Prime Minister Benjamin Netanyahu's Office has issued a statement denying a publication claiming he had held direct contact and…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-906717",
+      "summary": "Prime Minister Benjamin Netanyahu's Office has issued a statement denying a publication claiming he had held direct contact and negotiations with Hamas behind the security establishment's back during Operation Protective Edge in 2014.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2jjmxlnx2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T09:22:15.005000Z",
+      "title": "US authorities have recommended disbarring three former UNRWA staff members after an investigation found evidence of alleged Hamas and…",
+      "url": "https://www.jpost.com/middle-east/article-906749",
+      "summary": "US authorities have recommended disbarring three former UNRWA staff members after an investigation found evidence of alleged Hamas and Palestinian Islamic Jihad ties, as well as involvement in holding hostages or participating in the October 7 massacre. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2hqreyrl2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T08:50:26.882000Z",
+      "title": "A Syrian national attempting to smuggle multiple rocket shells into Lebanon was detained on the Lebanese-Syrian border.",
+      "url": "https://www.jpost.com/middle-east/article-906745",
+      "summary": "A Syrian national attempting to smuggle multiple rocket shells into Lebanon was detained on the Lebanese-Syrian border.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608279118",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T08:50:14Z",
+      "title": "Canada says ex-Iranian official 'critical' to revenue tied to terror funding",
+      "url": "https://www.iranintl.com/en/202608279118",
+      "summary": "A former senior Iranian official living in Toronto played a “critical” role in generating government revenue that helped fund Iran's military, weapons production and armed groups in the Middle East, Global News reported, citing Canadian government documents.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:58360b529b23a8f46e459e53cd507d1c",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T08:46:00Z",
+      "title": "IDF Chief of Staff Lt. Gen. Eyal Zamir says he has ordered a major bolstering of troops in the West Bank in light of recent tensions in the territory. \"Many challenges lie ahead of us. We are advancing battle procedures on all fronts, from Iran and Lebanon to Gaza, and are on high alert in the face of multi-front volatility,\" he says during an assessment this morning with the IDF's top brass. Zamir says that because of the tensions in the West Bank and the upcoming Jewish holiday period, he is ordering that a standing army division headquarters be put on standby to reinforce troops in the area if required. Normally, the West Bank has two divisions -- the Judea and Samaria Division responsibl",
+      "url": "https://x.com/manniefabian/status/2092896498325344325",
+      "summary": "IDF Chief of Staff Lt. Gen. Eyal Zamir says he has ordered a major bolstering of troops in the West Bank in light of recent tensions in the territory.\n\n\"Many challenges lie ahead of us. We are advancing battle procedures on all fronts, from Iran and Lebanon to Gaza, and are on high alert in the face of multi-front volatility,\" he says during an assessment this morning with the IDF's top brass.\n\nZamir says that because of the tensions in the West Bank and the upcoming Jewish holiday period, he is ordering that a standing army division headquarters be put on standby to reinforce troops in the ar",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:0da7c4cde5f4ae666d58747dbdd231c1",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-08-27T08:17:00Z",
+      "title": "🔴ELIMINATED: Hazem Mousa and Razek Sahil Suleiman Abu Shahma, Nukhba terrorists who infiltrated the Re’im camp during the October 7 Massacre. Recently, the terrorists continued to advance terror attacks against Israeli civilians and IDF troops while also attempting to rebuild Hamas’ capabilities, in violation of the ceasefire agreement. They were struck in order to remove the threat they posed.",
+      "url": "https://x.com/IDF/status/2092889289629569339",
+      "summary": "🔴ELIMINATED: Hazem Mousa and Razek Sahil Suleiman Abu Shahma, Nukhba terrorists who infiltrated the Re’im camp during the October 7 Massacre.\n\nRecently, the terrorists continued to advance terror attacks against Israeli civilians and IDF troops while also attempting to rebuild Hamas’ capabilities, in violation of the ceasefire agreement. They were struck in order to remove the threat they posed.— Israel Defense Forces (@IDF) Aug 27, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:26b5b49790ccb4a2a48ae8f0455758a6",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-08-27T07:59:00Z",
+      "title": "The bodyguard of late Hamas leader Yahya Sinwar and another terrorist who invaded Israel during the October 7, 2023, onslaught were killed in separate strikes in the southern Gaza Strip this week, the military announces. A strike on Sunday in Khan Younis killed Hazem Musa, who the IDF says was a member of Hamas's elite Nukhba Force. On October 7, Musa raided the IDF's Re'im Base on the border with the Strip, the military says. Another strike in Khan Younis, on Monday, killed Razek Sahil Suleiman Abu Shahma, also a Nukhba Force terrorist who invaded the Re'im Base on October 7, according to the IDF. Abu Shahma also previously served as the bodyguard of Sinwar, the military says. The IDF justi",
+      "url": "https://x.com/manniefabian/status/2092884723542413567",
+      "summary": "The bodyguard of late Hamas leader Yahya Sinwar and another terrorist who invaded Israel during the October 7, 2023, onslaught were killed in separate strikes in the southern Gaza Strip this week, the military announces.\n\nA strike on Sunday in Khan Younis killed Hazem Musa, who the IDF says was a member of Hamas's elite Nukhba Force. On October 7, Musa raided the IDF's Re'im Base on the border with the Strip, the military says.\n\nAnother strike in Khan Younis, on Monday, killed Razek Sahil Suleiman Abu Shahma, also a Nukhba Force terrorist who invaded the Re'im Base on October 7, according to t",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202608264179",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-08-27T07:25:42Z",
+      "title": "Trump says he is in no hurry for talks as Iran admits the strain",
+      "url": "https://www.iranintl.com/en/202608264179",
+      "summary": "Iranian officials acknowledged mounting economic strain on Wednesday, and in the same breath restated their conditions for reopening the Strait of Hormuz, as Donald Trump said he was in no hurry to resume talks.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mu2brygnug2z",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-08-27T07:03:45.143000Z",
+      "title": "Israel is considering expelling British, and possibly other European, officials from the US-led coordination center for post-war Gaza,…",
+      "url": "https://www.jpost.com/israel-news/article-906720",
+      "summary": "Israel is considering expelling British, and possibly other European, officials from the US-led coordination center for post-war Gaza, officials familiar with the details confirmed to The Jerusalem Post.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mu2bm4owow2f",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-08-27T07:00:28.924000Z",
+      "title": "Prime Minister Benjamin Netanyahu’s 35-year-old son Yair was the target of an Iranian assassination plot while he was living in Florida, US…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mu2bm4owow2f",
+      "summary": "Prime Minister Benjamin Netanyahu’s 35-year-old son Yair was the target of an Iranian assassination plot while he was living in Florida, US outlet Newsmax reported Wednesday, citing a US law enforcement source.\n\nRead more: www.timesofisrael.com/yair-netanya...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-17491",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-08-27T00:00:00Z",
+      "title": "Publication of Iran-Related Web General Licenses AA and BB",
+      "url": "https://www.federalregister.gov/documents/2026/08/27/2026-17491/publication-of-iran-related-web-general-licenses-aa-and-bb",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing two Iran-related general licenses (GLs): GLs AA and BB, which were previously made available on OFAC's website upon issuance.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-17491"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-17487",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-08-27T00:00:00Z",
+      "title": "Publication of a Determination Issued Pursuant to Executive Order 13902.",
+      "url": "https://www.federalregister.gov/documents/2026/08/27/2026-17487/publication-of-a-determination-issued-pursuant-to-executive-order-13902",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing a sector determination pursuant to a January 10, 2020 Executive Order. The determination was previously issued on OFAC's website.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-17487"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    }
+  ]
+}
