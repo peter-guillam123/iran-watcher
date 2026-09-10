@@ -1,0 +1,2121 @@
+{
+  "generated_at": "2026-09-10T17:47:59.866786Z",
+  "window_since": "2026-09-10T05:00:00Z",
+  "window_until": "2026-09-10T17:45:40.180328Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 4,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 33,
+      "kept": 4,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 12,
+      "kept": 12,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 40,
+      "kept": 40,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 9,
+      "kept": 8,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 71,
+      "kept": 21,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 2,
+      "kept": 2,
+      "ok": true
+    }
+  ],
+  "day_shape": "Houthi seizure of Yemen's Mocha port and advance on Bab al-Mandab dominates, IRGC claims strike on US Saildrone in Hormuz, UK/Quad table IAEA Iran resolution at UNSC with Russia and China objecting, two arrested in London over suspected Iran-linked intelligence activity.",
+  "threads": [
+    {
+      "label": "Houthi advance on Yemen's western coast",
+      "summary": "Houthis seized the Red Sea port of Mocha and pushed toward Bab al-Mandab, with Iran International, Jerusalem Post and Defa Press reporting takeover of Hais, Khokha and the Hanish islands. Defa Press claimed complete control of Bab al-Mandab and the al-Omari base; Jerusalem Post cited Yemeni sources alleging Quds Force involvement and IRGC-drafted phased plans.",
+      "event_ids": [
+        "telegram:defapress_ir/67244",
+        "telegram:defapress_ir/67236",
+        "telegram:defapress_ir/67233",
+        "telegram:defapress_ir/67234",
+        "telegram:defapress_ir/67231",
+        "telegram:defapress_ir/67232",
+        "telegram:iribnews/360686",
+        "telegram:iribnews/360676",
+        "iranintl:https://www.iranintl.com/en/202609105610",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv67ohryct2f",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5ynv3gqu2f",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6jljdtw42r",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5ne5dydw2m",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6caaoy3u25",
+        "govuk:https://www.gov.uk/government/news/fcdo-statement-on-the-situation-in-yemen-10-september#2026-09-10T09:38:00Z",
+        "telegram:defapress_ir/67229",
+        "telegram:defapress_ir/67240",
+        "telegram:iribnews/360684"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Strait of Hormuz Saildrone claim",
+      "summary": "IRGC Navy commander Azamayee said Sepah Navy struck a US Saildrone unmanned vessel (hull 5838) at the entrance to the Strait of Hormuz, declaring the strait 'closed' and under Iranian control. CENTCOM separately said US forces had redirected 96 commercial vessels enforcing a blockade against Iran, and the Jerusalem Post reported Trump proposed renaming the strait after himself.",
+      "event_ids": [
+        "telegram:defapress_ir/67246",
+        "telegram:defapress_ir/67242",
+        "telegram:defapress_ir/67241",
+        "telegram:iribnews/360692",
+        "telegram:iribnews/360689",
+        "telegram:iribnews/360688",
+        "x_via_rssapp:39cd963497579faa6e97ad0f8dbc8020",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6i5fajtx2j"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran nuclear file at UNSC and IAEA",
+      "summary": "The UK, France, Germany and US tabled a Quad resolution at the IAEA Board on Iran's NPT safeguards, and Ambassador Sarah MacIntosh delivered a UK statement at the UN Security Council 1737 Committee briefing. Russia and China objected to the session; Jerusalem Post cited IAEA chief Grossi on satellite imagery of construction at Iran's Pickaxe Mountain site and reported Iran had resumed ballistic missile production from existing components.",
+      "event_ids": [
+        "govuk:https://www.gov.uk/government/speeches/implementation-of-the-npt-safeguards-agreement-in-iran-quad-statement-to-the-iaea-board-of-governors-september-2026#2026-09-10T15:37:01Z",
+        "govuk:https://www.gov.uk/government/speeches/a-negotiated-settlement-is-the-only-long-term-solution-to-the-threat-posed-by-irans-nuclear-programme-uk-statement-at-the-un-security-council#2026-09-10T15:27:53Z",
+        "govuk:https://www.gov.uk/government/speeches/npt-safeguards-agreement-with-iran-resolution-to-the-iaea-board-of-governors-september-2026#2026-09-10T15:05:00Z",
+        "unpress:https://press.un.org/en/blog/sc16448",
+        "telegram:iribnews/360679",
+        "telegram:iribnews/360675",
+        "telegram:defapress_ir/67239",
+        "telegram:defapress_ir/67237",
+        "telegram:defapress_ir/67228",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6clgulsf26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6jrquwdj2g",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5vlmbjmv2v"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "UK arrests over suspected Iran intelligence links",
+      "summary": "UK counter-terrorism police arrested two people in London on suspicion of assisting a foreign intelligence service in a case linked to Iran, under the National Security Act. Iran International also reported Singapore's ISD said an Iraqi Iran-backed militia commander applied three times to visit the city-state.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202609103107",
+        "iranintl:https://www.iranintl.com/en/202609105876",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv65e4gbl62g",
+        "iranintl:https://www.iranintl.com/en/202609109071"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "IDF strikes on Hamas operatives in Gaza",
+      "summary": "The IDF and Israeli security bodies confirmed the killing of Hamas West Bank military council member Farah Hamed in a Gaza City strike, and Nukhba operative Ismail Ibrahim Darwish Qandil in a Khan Younis strike. The IDF also announced the apprehension of Ismail Ankaio in Beitunia and a strike in Beit Lahia that Palestinian media said killed four family members.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6lueuycp2m",
+        "x_via_rssapp:bd8c460cfd49662f8f4ac4a20efe6f87",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv62jbg26g2g",
+        "x_via_rssapp:74a4ca455786528900fdff8201fa1cea",
+        "x_via_rssapp:4d233375ab62e50ca2ff0afd13112fd6",
+        "x_via_rssapp:713666e757b3b940629c5daecbbb2bde",
+        "x_via_rssapp:e39ff3e79674107a6f91359837d129ba"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran domestic pressures and infiltration bill row",
+      "summary": "Iran International reported a clash between Pezeshkian's cabinet and parliament over a foreign 'infiltration' bill, alongside rising food prices, protester injuries, and Tehran's governor seeking return of schools used by military forces. Regime channels carried Central Bank governor Hemati calling US pressure a 'miscalculation' and parliament speaker Qalibaf pointing to Brent above $105.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202609104804",
+        "iranintl:https://www.iranintl.com/en/202609108221",
+        "iranintl:https://www.iranintl.com/en/202609103619",
+        "iranintl:https://www.iranintl.com/en/202609082931",
+        "iranintl:https://www.iranintl.com/en/202609107614",
+        "iranintl:https://www.iranintl.com/en/202609103135",
+        "telegram:iribnews/360682",
+        "telegram:iribnews/360687",
+        "telegram:iribnews/360677",
+        "telegram:defapress_ir/67227",
+        "telegram:rahbar_ir/1031"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Regional humanitarian and civilian toll",
+      "summary": "UNHCR's Emergency Update #23 said hostilities in Iran and Lebanon since late February 2026 have generated humanitarian consequences and refugee returns to Afghanistan and Syria. Iran International reported US warplanes were damaged by Iranian missiles at a base in Jordan, and Human Rights Watch said Hezbollah's cluster munitions use in northern Israel may have constituted a war crime.",
+      "event_ids": [
+        "reliefweb:4229273",
+        "iranintl:https://www.iranintl.com/en/202609103135",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5oisstw42e",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5xr6eg742f"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6lueuycp2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T17:39:53.707000Z",
+      "title": "Israeli security forces eliminated Hamas terrorist Farah Hamed, who was responsible for attacks against Israeli civilians and IDF soldiers…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-908332",
+      "summary": "Israeli security forces eliminated Hamas terrorist Farah Hamed, who was responsible for attacks against Israeli civilians and IDF soldiers and later helped direct terrorism in the West Bank.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360696",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:37:15Z",
+      "title": "🎦 قیمت‌های عجیب برنج از کجا آب می‌خوره؟ 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/360696",
+      "summary": "🎦 قیمت‌های عجیب برنج از کجا آب می‌خوره؟ 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360696"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Where do these strange rice prices come from?",
+      "summary_en": "Where do these strange rice prices come from?",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:bd8c460cfd49662f8f4ac4a20efe6f87",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-10T17:33:00Z",
+      "title": "Israeli security bodies confirm the killing of a top member of the Hamas terror group, responsible for numerous deadly terror attacks, in a strike in Gaza City yesterday. Yesterday, Hamas said Farah Hamed, a \"commander and fighter\" in the terror group's military wing, and a member of the \"Military Council of the al-Qassam Brigades in the West Bank\" was killed in a strike in Gaza City's Sheikh Ijlin neighborhood. The strike killing Hamed was carried out by the Israel Police's elite Gideonim unit (Unit 33, in a joint operation with the Shin Bet and IDF, the three bodies say. Hamed was a member of the \"Silwad cell,\" which operated during the Second Intifada and carried out a series of deadly sh",
+      "url": "https://x.com/manniefabian/status/2098102549542830550",
+      "summary": "Israeli security bodies confirm the killing of a top member of the Hamas terror group, responsible for numerous deadly terror attacks, in a strike in Gaza City yesterday.\n\nYesterday, Hamas said Farah Hamed, a \"commander and fighter\" in the terror group's military wing, and a member of the \"Military Council of the al-Qassam Brigades in the West Bank\" was killed in a strike in Gaza City's Sheikh Ijlin neighborhood.\n\nThe strike killing Hamed was carried out by the Israel Police's elite Gideonim unit (Unit 33, in a joint operation with the Shin Bet and IDF, the three bodies say.\n\nHamed was a membe",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360695",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:31:10Z",
+      "title": "🎦 استقلال با گل آسانی، ۱ بر صفر از پیکان پیش افتاد  @iribnews",
+      "url": "https://t.me/iribnews/360695",
+      "summary": "🎦 استقلال با گل آسانی، ۱ بر صفر از پیکان پیش افتاد  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360695"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Esteghlal with an easy goal, ahead 1-0 against Peykan",
+      "summary_en": "Esteghlal with an easy goal, ahead 1-0 against Peykan",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360694",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:26:50Z",
+      "title": "🎦 واکنش مردم به شکار جدید نیروی دریایی سپاه 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/360694",
+      "summary": "🎦 واکنش مردم به شکار جدید نیروی دریایی سپاه 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360694"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Public reaction to the new catch by the Sepah Navy",
+      "summary_en": "Public reaction to the new catch by the Sepah Navy",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67246",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:24:44Z",
+      "title": "💢 سردار عظمایی: نیروی دریایی سپاه یک فروند از شناورهای بدون‌سرنشین (شمپاد) دشمن، را در ورودی تنگه راهبردی…",
+      "url": "https://t.me/defapress_ir/67246",
+      "summary": "💢 سردار عظمایی: نیروی دریایی سپاه یک فروند از شناورهای بدون‌سرنشین (شمپاد) دشمن، را در ورودی تنگه راهبردی هرمز مورد اصابت قرار داد 🔸 فرمانده نیروی دریایی سپاه پاسداران انقلاب اسلامی: شناور بدون سرنشین جاسوسی ارتش تروریست آمریکایی با نام  سیل‌درون و با شماره بدنه 5838 در تنگه هرمز مورد اصابت قرار گرفت. 🔸 تنگه هرمز مسدود و تحت اشراف اطلاعاتی و کنترل هوشمند ماست، هرگونه تحرک خصمانه مورد هدف قرار میگیرد. dnws.ir/003c64 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67246"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Azamayee: Sepah Navy strikes one enemy unmanned surface vessel (Shamppad) at the entrance to the strategic Strait of Hormuz",
+      "summary_en": "Commander Azamayee: Sepah Navy strikes one enemy unmanned surface vessel (Shamppad) at the entrance to the strategic Strait of Hormuz. Commander of the Sepah Navy of the Islamic Revolution: an unmanned reconnaissance vessel of the terrorist US Army named Saildrone with hull number 5838 was struck in the Strait of Hormuz. The Strait of Hormuz is closed and under our intelligence supervision and smart control. Any hostile movement will be targeted.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67245",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:19:57Z",
+      "title": "💢 اقلیم کردستان عراق: خروج نیروهای ائتلاف آمریکایی از اربیل آغاز شد 🔸 ریبر احمد، وزیر کشور اقلیم کردستان…",
+      "url": "https://t.me/defapress_ir/67245",
+      "summary": "💢 اقلیم کردستان عراق: خروج نیروهای ائتلاف آمریکایی از اربیل آغاز شد 🔸 ریبر احمد، وزیر کشور اقلیم کردستان عراق: نیروهای ائتلاف بین‌المللی تحت فرماندهی واشنگتن خروج رسمی خود از منطقه اقلیم کردستان عراق را آغاز کرده‌اند. 🔸 بر اساس برنامه‌ریزی‌های صورت‌گرفته، انتظار می‌رود خروج کامل نیروهای ائتلاف از اقلیم تا پایان ماه سپتامبر نهایی شود. 🔸 در حال حاضر حضور نیروهای ائتلاف در منطقه کردستان تنها به محوطه فرودگاه بین‌المللی اربیل محدود شده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67245"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iraqi Kurdistan Region: withdrawal of US-led coalition forces from Erbil has begun",
+      "summary_en": "Iraqi Kurdistan Region: withdrawal of US-led coalition forces from Erbil has begun. Rebar Ahmad, Interior Minister of the Iraqi Kurdistan Region: forces of the international coalition led by Washington have begun their official withdrawal from the Iraqi Kurdistan Region. Based on planning, it is expected that the complete withdrawal of coalition forces from the region will be finalised by the end of September. Currently, the presence of coalition forces in the Kurdistan region is limited to Erbil International Airport.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:74a4ca455786528900fdff8201fa1cea",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-09-10T17:15:00Z",
+      "title": "⭕️APPREHENDED: Ismail Ankaio in the Beitunia area in Judea and Samaria, along with an additional wanted individual. Ankaio was planning to carry out an imminent shooting attack and was apprehended following a week-long pursuit of him.",
+      "url": "https://x.com/IDF/status/2098098111554245043",
+      "summary": "⭕️APPREHENDED: Ismail Ankaio in the Beitunia area in Judea and Samaria, along with an additional wanted individual.\n\nAnkaio was planning to carry out an imminent shooting attack and was apprehended following a week-long pursuit of him.— Israel Defense Forces (@IDF) Sep 10, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360692",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:12:56Z",
+      "title": "سردار عظمایی: هرگونه تحرک خصمانه مورد هدف قرار میگیرد فرمانده نیروی دریایی سپاه پاسداران انقلاب اسلامی: 🔹…",
+      "url": "https://t.me/iribnews/360692",
+      "summary": "سردار عظمایی: هرگونه تحرک خصمانه مورد هدف قرار میگیرد فرمانده نیروی دریایی سپاه پاسداران انقلاب اسلامی: 🔹 شناور بدون سرنشین جاسوسی ارتش تروریست آمریکایی با نام  سیل‌درون و با شماره بدنه ۵۸۳۸ در تنگه هرمز مورد اصابت قرار گرفت. 🔹 تنگه هرمز مسدود و تحت اشراف اطلاعاتی و کنترل هوشمند ماست، هرگونه تحرک خصمانه مورد هدف قرار میگیرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360692"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Azamayee: any hostile movement will be targeted. Commander of the Sepah Navy of the Islamic Revolution",
+      "summary_en": "Commander Azamayee: any hostile movement will be targeted. Commander of the Sepah Navy of the Islamic Revolution: an unmanned reconnaissance vessel of the terrorist US Army named Saildrone with hull number 5838 was struck in the Strait of Hormuz. The Strait of Hormuz is closed and under intelligence supervision and smart control. Any hostile movement will be targeted.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67244",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:09:21Z",
+      "title": "💢 فتح کامل باب‌المندب توسط انصارالله یمن 🔸 در پی پیشروی‌های سریع انصارالله در ساحل غربی یمن، منابع میدانی از…",
+      "url": "https://t.me/defapress_ir/67244",
+      "summary": "💢 فتح کامل باب‌المندب توسط انصارالله یمن 🔸 در پی پیشروی‌های سریع انصارالله در ساحل غربی یمن، منابع میدانی از آزادسازی کامل تنگه راهبردی باب‌المندب و تسلط کامل بر کل نوار ساحلی غرب یمن خبر می‌دهند. 🔸 از شامگاه گذشته، مناطق حیس، خوقه، بُخا و جزایر حَنیش و زوقَر به کنترل نیرو‌های انصارالله درآمد. 🔸 امروز نیز مناطق ذُباب، تنگه باب‌المندب و جزیره میون پاکسازی و تحت تسلط کامل انصارالله قرار گرفت. 🔸 نیرو‌های وابسته به طارق عفاش در این محور یا هلاک شده‌اند یا متفرق و عقب‌نشینی کرده‌اند. 🔸 گزارش منابع میدانی حاکی از آن است که مجموع مناطق تصرف‌شده توسط انصارالله در این عملیات به ۴۵۰۰ کیلومتر مربع رسیده ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67244"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Complete takeover of Bab al-Mandab by Ansarallah Yemen",
+      "summary_en": "Complete takeover of Bab al-Mandab by Ansarallah Yemen. Following the rapid advances of Ansarallah on Yemen's western coast, field sources report the complete liberation of the strategic Strait of Bab al-Mandab and full control over the entire western coastal strip of Yemen. Since yesterday evening, the areas of Hais, Khokha, Bukha and the islands of Hanish and Zouqar came under the control of Ansarallah forces. Today, the areas of Dhubab, the Strait of Bab al-Mandab and Mayoun Island were cleared and brought under complete Ansarallah control. Forces affiliated with Tariq Asfahan in this sector have either been killed or scattered and withdrawn. Field sources report that the total area captured by Ansarallah in this operation has reached 4,500 square kilometres.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360691",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:08:48Z",
+      "title": "🎦 استقلال با گل آسانی، ۱ بر صفر از پیکان پیش افتاد @iribnews",
+      "url": "https://t.me/iribnews/360691",
+      "summary": "🎦 استقلال با گل آسانی، ۱ بر صفر از پیکان پیش افتاد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360691"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Esteghlal with an easy goal, ahead 1-0 against Peykan",
+      "summary_en": "Esteghlal with an easy goal, ahead 1-0 against Peykan",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67242",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T17:07:43Z",
+      "title": "🎥 تصاویری از انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز @Defapress_ir",
+      "url": "https://t.me/defapress_ir/67242",
+      "summary": "🎥 تصاویری از انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67242"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Images of the destruction of the US terrorist army's Shamppad in the Strait of Hormuz",
+      "summary_en": "Images of the destruction of the US terrorist army's Shamppad in the Strait of Hormuz",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609103135",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T17:04:43Z",
+      "title": "US warplanes damaged in Iran strikes on Jordan base",
+      "url": "https://www.iranintl.com/en/202609103135",
+      "summary": "Iranian missiles damaged several American military aircraft at a base in Jordan this week, a US official told Reuters, underscoring the continuing ability of Iranian strikes to penetrate US defenses after more than six months of war.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6jrquwdj2g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T17:02:38.214000Z",
+      "title": "Report: Iran has resumed producing ballistic missiles from existing components while working in underground facilities.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-908329",
+      "summary": "Report: Iran has resumed producing ballistic missiles from existing components while working in underground facilities. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6jljdtw42r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T16:59:08.965000Z",
+      "title": "Iran's Quds Force helped the Houthis take over Yemen's Mocha Port.",
+      "url": "https://www.jpost.com/middle-east/article-908327",
+      "summary": "Iran's Quds Force helped the Houthis take over Yemen's Mocha Port.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360689",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:52:56Z",
+      "title": "اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔹 ملت رشید و به‌پاخاسته ایران…",
+      "url": "https://t.me/iribnews/360689",
+      "summary": "اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔹 ملت رشید و به‌پاخاسته ایران اسلامی؛ ارتش تروریست و متجاوز آمریکایی طی روزهای گذشته، از ترس نزدیک شدن و رویارویی با رزمندگان مجاهد اسلام، اقدام به اعزام شناورهای بدون‌سرنشین خود به…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360689"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz",
+      "summary_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz. Noble and uprising people of Islamic Iran; the terrorist and invading US Army, in recent days, out of fear of approaching and confronting Islamic mujahideen fighters, has proceeded to send its unmanned vessels to...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67241",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:51:09Z",
+      "title": "💢 اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔸 ملت رشید و به‌پاخاسته ایران…",
+      "url": "https://t.me/defapress_ir/67241",
+      "summary": "💢 اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔸 ملت رشید و به‌پاخاسته ایران اسلامی؛ ارتش تروریست و متجاوز آمریکایی طی روزهای گذشته، از ترس نزدیک شدن و رویارویی با رزمندگان مجاهد اسلام، اقدام به اعزام شناورهای بدون‌سرنشین خود به تنگه هرمز نموده است. 🔸 نیروی دریایی سپاه، به مدد خداوند متعال، یک فروند از شناورهای بدون‌سرنشین (شمپاد) دشمن، با شماره بدنه ۵۸۳۸ و از نوع «سیل‌درون»، را در ورودی تنگه راهبردی هرمز مورد اصابت قرار داد و در اجرای مأموریت تجاوزکارانه خود ناکام گذاشت. 🔸 نیروی دریایی سپاه با قاطعیت اعلام می‌کند: تنگه هرمز مسدود و تحت کنترل هوشمند و اشراف اطلاع",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67241"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz",
+      "summary_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz. Noble and uprising people of Islamic Iran; the terrorist and invading US Army, in recent days, out of fear of approaching and confronting Islamic mujahideen fighters, has proceeded to send its unmanned vessels to the Strait of Hormuz. The Sepah Navy, with God's assistance, struck one enemy unmanned surface vessel (Shamppad) with hull number 5838 and of the Saildrone type at the entrance to the strategic Strait of Hormuz, thwarting its aggressive mission. The Sepah Navy firmly declares: the Strait of Hormuz is closed and under smart control and intelligence supervision.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360688",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:50:28Z",
+      "title": "اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔹 ملت رشید و به‌پاخاسته ایران…",
+      "url": "https://t.me/iribnews/360688",
+      "summary": "اطلاعیه نیروی دریایی سپاه در انهدام شمپاد ارتش تروریستی آمریکا در تنگه هرمز 🔹 ملت رشید و به‌پاخاسته ایران اسلامی؛ ارتش تروریست و متجاوز آمریکایی طی روزهای گذشته، از ترس نزدیک شدن و رویارویی با رزمندگان مجاهد اسلام، اقدام به اعزام شناورهای بدون‌سرنشین خود به تنگه هرمز نموده است. 🔹 نیروی دریایی سپاه، به مدد خداوند متعال، یک فروند از شناورهای بدون‌سرنشین (شمپاد) دشمن، با شماره بدنه ۵۸۳۸ و از نوع «سیل‌درون»، را در ورودی تنگه راهبردی هرمز مورد اصابت قرار داد و در اجرای مأموریت تجاوزکارانه خود ناکام گذاشت. 🔹 نیروی دریایی سپاه با قاطعیت اعلام می‌کند: تنگه هرمز مسدود و تحت کنترل هوشمند و اشراف اطلاعات",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360688"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz",
+      "summary_en": "Sepah Navy statement on the destruction of the US terrorist army's Shamppad in the Strait of Hormuz. Noble and uprising people of Islamic Iran; the terrorist and invading US Army, in recent days, out of fear of approaching and confronting Islamic mujahideen fighters, has proceeded to send its unmanned vessels to the Strait of Hormuz. The Sepah Navy, with God's assistance, struck one enemy unmanned surface vessel (Shamppad) with hull number 5838 and of the Saildrone type at the entrance to the strategic Strait of Hormuz, thwarting its aggressive mission. The Sepah Navy firmly declares: the Strait of Hormuz is closed and under smart control and intelligence supervision.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360687",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:46:32Z",
+      "title": "قالیباف: مداخله‌های مالی و یا حتی دروغ‌های خزانه‌داری آمریکا دیگر تاثیری در مهار قیمت نفت ندارد 🔹 رئیس مجلس…",
+      "url": "https://t.me/iribnews/360687",
+      "summary": "قالیباف: مداخله‌های مالی و یا حتی دروغ‌های خزانه‌داری آمریکا دیگر تاثیری در مهار قیمت نفت ندارد 🔹 رئیس مجلس در واکنش به عبور کردن قیمت نفت برنت از ۱۰۵ دلار با انتشار نموداری که نشان‌دهندهٔ بی‌اثر بودن اقدامات خزانه‌داری آمریکا برای مهار قیمت و افزایشی بودن قمیت نفت در آینده است در حساب کاربری خود در شبکهٔ ایکس نوشت: 🔹 اگر دنبال یک راهنمایی برای آیندهٔ بازار نفت می‌گردید و مقامات اقتصادی دولت آمریکا چیزی نمی‌گویند، بیایید به آینده نگاهی بیندازیم: وزارت خزانه داری برای کنترل قیمت نفت زرادخانهٔ ابزارهای بی‌اثر خودش را (از قبیل دروغ‌پردازی با آکسیوس، مداخله در بازار، آزاد سازی ذخایر و…)خالی خواهد ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360687"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: US Treasury financial interventions or even lies no longer have any effect on containing oil prices",
+      "summary_en": "Qalibaf: US Treasury financial interventions or even lies no longer have any effect on containing oil prices. The speaker of parliament, in response to Brent oil exceeding 105 dollars, posted on his X account a chart showing the ineffectiveness of US Treasury measures to contain prices and the rising nature of oil prices in the future: if you are looking for guidance on the future of the oil market and US government economic officials are not saying anything, let's look ahead: the Treasury Department will exhaust its arsenal of ineffective tools to control oil prices (such as lying to Axios, market intervention, releasing reserves, etc.).",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67240",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:42:57Z",
+      "title": "💢 یحیی سریع: یمن یک تشکیلات رزمی سعودی را در تعز هدف قرار داد 🔸 «یحیی سریع»سخنگوی نیروهای مسلح یمن:…",
+      "url": "https://t.me/defapress_ir/67240",
+      "summary": "💢 یحیی سریع: یمن یک تشکیلات رزمی سعودی را در تعز هدف قرار داد 🔸 «یحیی سریع»سخنگوی نیروهای مسلح یمن: جنگنده‌های سعودی (اف-۱۵ و تایفون) طی ۲۴ ساعت گذشته ۶۴ بار استان‌های تعز، الحدیده، مأرب و الجوف را بمباران کردند. 🔸 این حملات از مبدأ پایگاه‌های «ملک فهد» در طائف و «ملک خالد» در خمیس مشیط هدایت شده‌اند. 🔸 یمن با استفاده از موشک‌های زمین‌به‌هوای بومی، یک تشکیلات رزمی متجاوز را در استان تعز هدف قرار داده و آن را مجبور به عقب‌نشینی کرد. dnws.ir/003c60 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67240"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yahya Saree: Yemen targets a Saudi military formation in Taiz",
+      "summary_en": "Yahya Saree: Yemen targets a Saudi military formation in Taiz. Yahya Saree, spokesman for Yemen's Armed Forces: Saudi fighters (F-15 and Typhoon) bombed the provinces of Taiz, al-Hudayda, Marib and al-Jouf 64 times over the past 24 hours. These strikes were directed from the bases of King Fahd in Taif and King Khalid in Khamis Mushayt. Yemen, using indigenous ground-to-air missiles, targeted an invading military formation in Taiz province and forced it to withdraw.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/67239",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:40:57Z",
+      "title": "💢 روسیه برگزاری نشست اشاعه با موضوع ایران را محکوم کرد 🔸 نماینده روسیه در سازمان ملل متحد برگزاری  نشست شورای…",
+      "url": "https://t.me/defapress_ir/67239",
+      "summary": "💢 روسیه برگزاری نشست اشاعه با موضوع ایران را محکوم کرد 🔸 نماینده روسیه در سازمان ملل متحد برگزاری  نشست شورای امنیت تحت دستور کار «عدم اشاعه و ایران» را به باد انتقاد گرفت. 🔸 او گفت که نشست امروز شورای امنیت یک جلسه توجیهی بر سر موضوعی است که به پایان رسیده و وجود ندارد. 🔸 چین، روسیه و ایران معتقدند که با عدم فعال‌سازی اسنپ‌بک تا تاریخ ۲۶ مهرماه ۱۴۰۴ شورا به بررسی پرونده هسته‌ای ایران پایان داده و موضوع «عدم اشاعه» باید از فهرست موضوعات تحت بررسی شورا حذف شود. 🔸 واسیلی نبنزیا برگزاری جلسه امروز را علاوه بر آنکه نقض رویه‌های سازمان ملل دانست آن را اتلاف وقت و منابع شورای امنیت دانست. @Defapress",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67239"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Russia condemns Security Council meeting on Iran non-proliferation",
+      "summary_en": "Russia condemns Security Council meeting on Iran non-proliferation. Russia's representative to the United Nations condemned the holding of a Security Council meeting under the agenda item on non-proliferation and Iran. He said today's Security Council meeting is a justification session on a subject that has ended and does not exist. China, Russia and Iran believe that with the non-activation of snapback by 26 October 2025, the Council has concluded its examination of Iran's nuclear file and the non-proliferation issue should be removed from the Council's list of discussion topics. Vasily Nebenzya considered today's meeting not only a violation of UN procedures but also a waste of time and resources of the Security Council.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360686",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:36:38Z",
+      "title": "🎦 استقبال اهالی بندر المخا از رزمندگان نیروهای مسلح یمن پس از آزادسازی این منطقه راهبردی  @iribnews",
+      "url": "https://t.me/iribnews/360686",
+      "summary": "🎦 استقبال اهالی بندر المخا از رزمندگان نیروهای مسلح یمن پس از آزادسازی این منطقه راهبردی  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360686"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Reception of residents of al-Mokha port for Yemen's Armed Forces fighters after the liberation of this strategic area",
+      "summary_en": "Reception of residents of al-Mokha port for Yemen's Armed Forces fighters after the liberation of this strategic area",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6i5fajtx2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T16:33:21.081000Z",
+      "title": "US President Donald Trump heckled the leaders of Iran at the first-ever Republican midterm convention on Wednesday, while promoting the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-908325",
+      "summary": "US President Donald Trump heckled the leaders of Iran at the first-ever Republican midterm convention on Wednesday, while promoting the idea of renaming the Strait of Hormuz after himself. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360685",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:27:20Z",
+      "title": "🎦 وزیر نیرو: مالکان نیروگاه‌های خورشیدی برق تضمینی دریافت می‌کنند و به اندازه مشارکت در تولید برقشان، از قطع…",
+      "url": "https://t.me/iribnews/360685",
+      "summary": "🎦 وزیر نیرو: مالکان نیروگاه‌های خورشیدی برق تضمینی دریافت می‌کنند و به اندازه مشارکت در تولید برقشان، از قطع برق معاف خواهند بود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360685"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Minister of Power: solar power plant owners receive guaranteed electricity and are exempt from power cuts to the extent of their contribution to power generation",
+      "summary_en": "Minister of Power: solar power plant owners receive guaranteed electricity and are exempt from power cuts to the extent of their contribution to power generation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360684",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:24:34Z",
+      "title": "یحیی سریع: یمن یک تشکیلات رزمی سعودی را در تعز هدف قرار داد 🔹 سخنگوی نیروهای مسلح یمن: جنگنده‌های سعودی…",
+      "url": "https://t.me/iribnews/360684",
+      "summary": "یحیی سریع: یمن یک تشکیلات رزمی سعودی را در تعز هدف قرار داد 🔹 سخنگوی نیروهای مسلح یمن: جنگنده‌های سعودی (اف-۱۵ و تایفون) طی ۲۴ ساعت گذشته ۶۴ بار استان‌های تعز، الحدیده، مأرب و الجوف را بمباران کردند. 🔹 این حملات از مبدأ پایگاه‌های «ملک فهد» در طائف و «ملک خالد» در خمیس مشیط هدایت شده‌اند. 🔹 یمن با استفاده از موشک‌های زمین‌به‌هوای بومی، یک تشکیلات رزمی متجاوز را در استان تعز هدف قرار داده و آن را مجبور به عقب‌نشینی کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360684"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yahya Saree: Yemen targets a Saudi military formation in Taiz",
+      "summary_en": "Yahya Saree: Yemen targets a Saudi military formation in Taiz. Spokesman for Yemen's Armed Forces: Saudi fighters (F-15 and Typhoon) bombed the provinces of Taiz, al-Hudayda, Marib and al-Jouf 64 times over the past 24 hours. These strikes were directed from the bases of King Fahd in Taif and King Khalid in Khamis Mushayt. Yemen, using indigenous ground-to-air missiles, targeted an invading military formation in Taiz province and forced it to withdraw.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/360683",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:13:16Z",
+      "title": "بلومبرگ: قطر در حال مذاکره برای خرید گاز مایع است 🔹 از آنجایی که جنگ علیه ایران توانایی قطر در تأمین گاز…",
+      "url": "https://t.me/iribnews/360683",
+      "summary": "بلومبرگ: قطر در حال مذاکره برای خرید گاز مایع است 🔹 از آنجایی که جنگ علیه ایران توانایی قطر در تأمین گاز مشتریانش را به شدت محدود کرده، دوحه در حال مذاکره برای عقد قراردادهای بلندمدت خرید گاز طبیعی مایع از آمریکایی‌ها است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360683"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bloomberg: Qatar is negotiating to buy liquefied gas",
+      "summary_en": "Bloomberg: Qatar is negotiating to buy liquefied gas. As war against Iran has severely limited Qatar's ability to supply its customers with gas, Doha is negotiating to conclude long-term contracts to purchase liquefied natural gas from Americans.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:39cd963497579faa6e97ad0f8dbc8020",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-09-10T16:12:00Z",
+      "title": "A U.S. Navy MH-60R Sea Hawk helicopter launches from the flight deck of USS Rafael Peralta (DDG 115) while…",
+      "url": "https://x.com/CENTCOM/status/2098082077354733855",
+      "summary": "A U.S. Navy MH-60R Sea Hawk helicopter launches from the flight deck of USS Rafael Peralta (DDG 115) while enforcing the U.S. blockade against Iran. As of Sept. 10, U.S. forces have redirected 96 commercial vessels to ensure total compliance. More than 50 vessels supporting humanitarian aid have been allowed to pass.— U.S. Central Command (@CENTCOM) Sep 10, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "50 vessels"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/360682",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T16:02:28Z",
+      "title": "همتی: فشار اقتصادی یک سیاست نیست بلکه یک خطای محاسباتی است و هزینه محاسباتی آمریکایی‌ها را افزایش می‌دهد. 🔹…",
+      "url": "https://t.me/iribnews/360682",
+      "summary": "همتی: فشار اقتصادی یک سیاست نیست بلکه یک خطای محاسباتی است و هزینه محاسباتی آمریکایی‌ها را افزایش می‌دهد. 🔹 رئیس‌کل بانک مرکزی با اشاره به مجموعه تحریم‌ها و فشار حداکثری اقتصادی آمریکا اعلام کرد آنچه تاکنون توسط آمریکا انجام شده است در کنار ایجاد برخی محدودیتهای درآمدی و تجاری، تلاش برای تشدید انتظارات و تاثیرگذاری مقطعی بر فضای بازارها بوده است. 🔹 قول پرداخت ۵ هزار دلار به هر آمریکایی در صورت پیروزی جمهوری‌خواهان در انتخابات کنگره بخشی از همان هزینه خطای محاسباتی است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360682"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hemati: economic pressure is not a policy but a miscalculation, increasing the cost of American miscalculation",
+      "summary_en": "Hemati: economic pressure is not a policy but a miscalculation, increasing the cost of American miscalculation. The Governor of the Central Bank, referring to the set of sanctions and maximum economic pressure from America, stated that what has been done so far by America, alongside creating some income and trade limitations, has been an attempt to intensify expectations and to have a momentary impact on market conditions. The promise to pay 5,000 dollars to each American if Republicans win congressional elections is part of that cost of miscalculation.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609082931",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T15:53:28Z",
+      "title": "Meat, cream, rice: Food becomes loot as prices soar in Iran",
+      "url": "https://www.iranintl.com/en/202609082931",
+      "summary": "Soaring food prices in Iran are increasingly reflected in reports of theft, with groceries appearing in cases ranging from first-time shoplifting to warehouse raids and armed robbery.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360681",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:52:33Z",
+      "title": "🎦 اتصال شبکه برق به ۷ کشور همسایه 🔹 وزیر نیرو: در حال حاضر اتصال شبکه برق ایران به کشور‌های پاکستان،…",
+      "url": "https://t.me/iribnews/360681",
+      "summary": "🎦 اتصال شبکه برق به ۷ کشور همسایه 🔹 وزیر نیرو: در حال حاضر اتصال شبکه برق ایران به کشور‌های پاکستان، افغانستان، ترکمنستان، آذربایجان، ارمنستان، ترکیه و عراق با موفقیت برقرار شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360681"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Connection of electricity grid to 7 neighbouring countries",
+      "summary_en": "Connection of electricity grid to 7 neighbouring countries. Minister of Power: at present, the connection of Iran's electricity grid to Pakistan, Afghanistan, Turkmenistan, Azerbaijan, Armenia, Turkey and Iraq has been successfully established.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67238",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:45:26Z",
+      "title": "🎥 یکی از نیروی انصارالله که دو روز پیش فیلم اسارتش پخش شده بود که به دشمن میگفت \"اگر تیرهام تموم نشده بود…",
+      "url": "https://t.me/defapress_ir/67238",
+      "summary": "🎥 یکی از نیروی انصارالله که دو روز پیش فیلم اسارتش پخش شده بود که به دشمن میگفت \"اگر تیرهام تموم نشده بود نمی‌تونستید من رو اسیر کنید\" حالا به دست نیروهای انصارالله آزاد شده است 🔸 نیروهای مسلح یمن همه اسیران را از زندان‌های مزدوران سعودی در ساحل غربی آزاد کردند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67238"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "One of Ansarallah's fighters who had his capture video broadcast two days ago telling the enemy 'if my ammunition had not run out you would not have been able to capture me' has now been freed by Ansarallah forces",
+      "summary_en": "One of Ansarallah's fighters who had his capture video broadcast two days ago telling the enemy 'if my ammunition had not run out you would not have been able to capture me' has now been freed by Ansarallah forces. Yemen's Armed Forces freed all prisoners from Saudi mercenary prisons on the western coast.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360680",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:42:02Z",
+      "title": "🎦 مادر بزهکاران ایران را بشناسید 🔹 بانویی که قرار بود استاد شود اما راهی زندان شد @iribnews",
+      "url": "https://t.me/iribnews/360680",
+      "summary": "🎦 مادر بزهکاران ایران را بشناسید 🔹 بانویی که قرار بود استاد شود اما راهی زندان شد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360680"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meet the mother of Iran's criminals. A woman who was supposed to become a professor but ended up in prison",
+      "summary_en": "Meet the mother of Iran's criminals. A woman who was supposed to become a professor but ended up in prison",
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/implementation-of-the-npt-safeguards-agreement-in-iran-quad-statement-to-the-iaea-board-of-governors-september-2026#2026-09-10T15:37:01Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-09-10T15:37:01Z",
+      "title": "Implementation of the NPT Safeguards Agreement in Iran: Quad statement to the IAEA Board of Governors, September 2026",
+      "url": "https://www.gov.uk/government/speeches/implementation-of-the-npt-safeguards-agreement-in-iran-quad-statement-to-the-iaea-board-of-governors-september-2026",
+      "summary": "Statement by France, Germany, the United Kingdom and the United States on the implementation of the NPT safeguards agreement in Iran.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/a-negotiated-settlement-is-the-only-long-term-solution-to-the-threat-posed-by-irans-nuclear-programme-uk-statement-at-the-un-security-council#2026-09-10T15:27:53Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-09-10T15:27:53Z",
+      "title": "A negotiated settlement is the only long-term solution to the threat posed by Iran’s nuclear programme: UK statement at the UN Security Council",
+      "url": "https://www.gov.uk/government/speeches/a-negotiated-settlement-is-the-only-long-term-solution-to-the-threat-posed-by-irans-nuclear-programme-uk-statement-at-the-un-security-council",
+      "summary": "Statement by Ambassador Sarah MacIntosh, UK Permanent Representative to the UN, at the UN Security Council meeting on Iran.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360679",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:25:46Z",
+      "title": "چین: تلاش برای بازگرداندن تحریم‌های ایران، تفرقه‌افکنانه و غیرقانونی است 🔹 نماینده چین در شورای امنیت: شورای…",
+      "url": "https://t.me/iribnews/360679",
+      "summary": "چین: تلاش برای بازگرداندن تحریم‌های ایران، تفرقه‌افکنانه و غیرقانونی است 🔹 نماینده چین در شورای امنیت: شورای امنیت سال گذشته به بررسی پرونده هسته‌ای ایران پایان داده و رئیس فعلی شورا هیچ مجوزی برای تهیه گزارش ۹۰ روزه یا تشکیل جلسه در این خصوص ندارد. 🔹 پکن…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360679"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "China: efforts to restore Iran sanctions are divisive and unlawful",
+      "summary_en": "China: efforts to restore Iran sanctions are divisive and unlawful. China's representative to the Security Council: the Security Council last year concluded its examination of Iran's nuclear file and the current president of the Council has no authority to prepare a 90-day report or hold a session on this matter. Beijing...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67237",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:15:21Z",
+      "title": "💢 مخالفت قاطع روسیه و چین با تشکیل جلسه شورای امنیت درباره تحریم‌های ایران 🔸 نشست شورای امنیت سازمان ملل متحد…",
+      "url": "https://t.me/defapress_ir/67237",
+      "summary": "💢 مخالفت قاطع روسیه و چین با تشکیل جلسه شورای امنیت درباره تحریم‌های ایران 🔸 نشست شورای امنیت سازمان ملل متحد برای بررسی موضوع تحریم‌های مربوط به ایران با مخالفت صریح و مشترک نمایندگان دائم روسیه و چین مواجه شد. 🔸 نماینده روسیه در شورای امنیت ضمن اعلام اعتراض رسمی خود، تأکید کرد مسکو با برگزاری این جلسه برای بررسی موضوع تحریم‌های ایران کاملاً مخالف است. 🔸 پکن و مسکو با اتخاذ موضعی هماهنگ، هرگونه بحث و اقدام جدید در شورای امنیت سازمان ملل پیرامون پرونده تحریم‌های ایران را مردود و غیرقانونی اعلام کردند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67237"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Firm opposition from Russia and China to Security Council meeting on Iran sanctions",
+      "summary_en": "Firm opposition from Russia and China to Security Council meeting on Iran sanctions. The UN Security Council meeting to review the issue of Iran-related sanctions met with explicit and joint opposition from the permanent representatives of Russia and China. Russia's representative to the Security Council, while lodging a formal protest, emphasised that Moscow is completely opposed to holding this meeting to review Iran sanctions. Beijing and Moscow, adopting a coordinated position, declared any discussion and new action in the UN Security Council regarding Iran's sanctions file to be null and unlawful.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360677",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:14:07Z",
+      "title": "جنگ در خلیج فارس و کمترین تولید نفت عربستان در ۳۶ سال گذشته بر اساس گزارشی که عربستان به اوپک ارائه کرده،…",
+      "url": "https://t.me/iribnews/360677",
+      "summary": "جنگ در خلیج فارس و کمترین تولید نفت عربستان در ۳۶ سال گذشته بر اساس گزارشی که عربستان به اوپک ارائه کرده، تولید نفت خام این کشور در ماه گذشته میلادی با کاهش روزانه یک میلیون و ۹۰۰ هزار بشکه‌ای، به ۶ میلیون و ۲۳۸ هزار بشکه در روز رسیده؛ رقمی که از سال ۱۹۹۰ تاکنون سابقه نداشته است. 🔹 همزمان، داده‌های شرکت کپلر نشان می‌دهد صادرات نفت خام عربستان نیز در ماه گذشته میلادی  به حدود ۳ میلیون و ۲۰۰ هزار بشکه در روز کاهش یافته که کمترین میزان در ۱۳ سال گذشته است. 🔹 عربستان برای دور زدن تنگه هرمز، بخشی از نفت خود را از طریق خط لوله شرق به غرب به بندر ینبع منتقل می‌کند؛ اما حملات اخیر در دریای سرخ، این مس",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360677"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "War in the Persian Gulf and Saudi Arabia's lowest oil production in 36 years",
+      "summary_en": "War in the Persian Gulf and Saudi Arabia's lowest oil production in 36 years. According to a report that Saudi Arabia submitted to OPEC, the Kingdom's crude oil production last month, with a decrease of 1.9 million barrels per day, reached 6.238 million barrels per day; a figure unprecedented since 1990. At the same time, data from Kepler shows that Saudi Arabia's crude oil exports also fell to around 3.2 million barrels per day last month, the lowest level in 13 years. To bypass the Strait of Hormuz, Saudi Arabia transfers some of its oil via the East-West Pipeline to Yanbu port; however, recent attacks in the Red Sea have complicated this...",
+      "has_figures": true,
+      "figures_examples": [
+        "1.9 million",
+        "6.238 million",
+        "3.2 million"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6dhrjnqd2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T15:09:40.694000Z",
+      "title": "“NAZA,” a documentary by Israeli journalists Yuval Abraham and Rachel Szor, examines allegations from anonymous officers who say civilian…",
+      "url": "https://www.jpost.com/israel-news/article-908309",
+      "summary": "“NAZA,” a documentary by Israeli journalists Yuval Abraham and Rachel Szor, examines allegations from anonymous officers who say civilian casualties were part of Gaza war targeting decisions. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67236",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:09:00Z",
+      "title": "💢 نیروهای مسلح یمن پایگاه استراتژیک «العمری» را به کنترل خود درآوردند 🔸 مبارزان انصارالله و نیروهای مسلح یمن…",
+      "url": "https://t.me/defapress_ir/67236",
+      "summary": "💢 نیروهای مسلح یمن پایگاه استراتژیک «العمری» را به کنترل خود درآوردند 🔸 مبارزان انصارالله و نیروهای مسلح یمن در ادامه پیشروی‌های گسترده در مقابله با مزدوران تحت حمایت عربستان تسلط کامل بر پایگاه نظامی و استراتژیک «العمری» که بر تنگه حیاتی باب‌المندب مشرف است را تثبیت کردند. 🔸 منابع خبری پیش از این نیز گزارش داده بودند که نیروهای مسلح یمن و انصارالله پس از آزادسازی بند المخا، مواضع مزدوران تحت امر سعودی در جزایر زقر، حنیش کوچک و بزرگ واقع در دهانه باب‌المندب را هدف حملات موشکی و پهپادی قرار داده و در نهایت با پیش‌روی این جزایر را نیز آزاد کردند. dnws.ir/003c5q @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67236"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yemen's Armed Forces bring strategic 'al-Omari' base under their control",
+      "summary_en": "Yemen's Armed Forces bring strategic 'al-Omari' base under their control. Ansarallah fighters and Yemen's Armed Forces, continuing broad advances against Saudi-backed mercenaries, have consolidated complete control of the 'al-Omari' military and strategic base overlooking the vital Strait of Bab al-Mandab. Earlier, news sources had also reported that Yemen's Armed Forces and Ansarallah, after liberating al-Mokha, targeted the positions of Saudi-backed mercenaries on the islands of Zaqer, Large and Small Hanish at the mouth of Bab al-Mandab with missile and drone strikes and ultimately liberated these islands as well through advances.",
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/npt-safeguards-agreement-with-iran-resolution-to-the-iaea-board-of-governors-september-2026#2026-09-10T15:05:00Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-09-10T15:05:00Z",
+      "title": "NPT Safeguards Agreement with Iran: Resolution to the IAEA Board of Governors, September 2026",
+      "url": "https://www.gov.uk/government/speeches/npt-safeguards-agreement-with-iran-resolution-to-the-iaea-board-of-governors-september-2026",
+      "summary": "Joint statement on behalf of France, Germany, the UK, and United States (the Quad) to the International Atomic Energy Agency (IAEA) Board meeting introducing a resolution on Iran's implementation of its obligations under its Nuclear Non-Proliferation Treaty (NPT) Safeguards Agreement.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360676",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T15:03:01Z",
+      "title": "🔺 آزادسازی بندر راهبردی المخا توسط یمن 🔹 رسانه‌های عربی: نیروهای مسلح یمن پس از عقب راندن مزدوران سعودی،…",
+      "url": "https://t.me/iribnews/360676",
+      "summary": "🔺 آزادسازی بندر راهبردی المخا توسط یمن 🔹 رسانه‌های عربی: نیروهای مسلح یمن پس از عقب راندن مزدوران سعودی، کنترل بندر راهبردی المخا مشرف بر دریای سرخ را به دست گرفتند.  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360676"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Liberation of strategic al-Mokha port by Yemen",
+      "summary_en": "Liberation of strategic al-Mokha port by Yemen. Arab media: Yemen's Armed Forces, after driving back Saudi mercenaries, took control of the strategic al-Mokha port overlooking the Red Sea.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6clgulsf26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T14:53:50.097000Z",
+      "title": "Report: Satellite imagery has picked up construction activity at Iran's Pickaxe Mountain nuclear facility, IAEA Director-General Grossi…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-908299",
+      "summary": "Report: Satellite imagery has picked up construction activity at Iran's Pickaxe Mountain nuclear facility, IAEA Director-General Grossi said in an interview with Bloomberg on Thursday. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/360675",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T14:47:55Z",
+      "title": "چین: تلاش برای بازگرداندن تحریم‌های ایران، تفرقه‌افکنانه و غیرقانونی است 🔹 نماینده چین در شورای امنیت: شورای…",
+      "url": "https://t.me/iribnews/360675",
+      "summary": "چین: تلاش برای بازگرداندن تحریم‌های ایران، تفرقه‌افکنانه و غیرقانونی است 🔹 نماینده چین در شورای امنیت: شورای امنیت سال گذشته به بررسی پرونده هسته‌ای ایران پایان داده و رئیس فعلی شورا هیچ مجوزی برای تهیه گزارش ۹۰ روزه یا تشکیل جلسه در این خصوص ندارد. 🔹 پکن نسبت به اصرار برخی اعضا برای بازگرداندن اجباری تحریم‌های سازمان ملل علیه ایران عمیقاً ابراز تأسف کرده و آن را عامل تعمیق شکاف‌ها و مانعی جدی در مسیر حل‌وفصل سیاسی این پرونده می‌داند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/360675"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "China: efforts to restore Iran sanctions are divisive and unlawful",
+      "summary_en": "China: efforts to restore Iran sanctions are divisive and unlawful. China's representative to the Security Council: the Security Council last year concluded its examination of Iran's nuclear file and the current president of the Council has no authority to prepare a 90-day report or hold a session on this matter. Beijing has expressed deep regret over the insistence of some members to forcibly restore UN sanctions against Iran and considers it a factor in deepening divisions and a serious obstacle to the political settlement of this matter.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv6caaoy3u25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T14:47:34.496000Z",
+      "title": "Houthi spokesperson Mohammed Abdulsalam said shipping and international trade in the Red Sea and Bab el-Mandeb remain safe, claiming Yemen…",
+      "url": "https://www.jpost.com/middle-east/article-908223",
+      "summary": "Houthi spokesperson Mohammed Abdulsalam said shipping and international trade in the Red Sea and Bab el-Mandeb remain safe, claiming Yemen poses no threat to vessels as fighting intensifies. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609104804",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T14:43:34Z",
+      "title": "Iran cabinet, parliament clash over sweeping ‘infiltration’ measures",
+      "url": "https://www.iranintl.com/en/202609104804",
+      "summary": "A dispute over Iran’s proposed measures to combat foreign infiltration escalated Thursday, with a senior lawmaker accusing President Masoud Pezeshkian’s government of acting illegally after the cabinet opposed a parliamentary committee report on the controversial legislation.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67235",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T14:34:32Z",
+      "title": "🎥 عیادت نمایندگان رهبر انقلاب از موسوی گرمارودی 🔸 آقایان حداد عادل و حسین محمدی به نمایندگی از رهبر معظم…",
+      "url": "https://t.me/defapress_ir/67235",
+      "summary": "🎥 عیادت نمایندگان رهبر انقلاب از موسوی گرمارودی 🔸 آقایان حداد عادل و حسین محمدی به نمایندگی از رهبر معظم انقلاب، آیت‌الله سید مجتبی موسوی خامنه‌ای، به عیادت موسوی گرمارودی هنرمند انقلابی و چهره ماندگار کشور در عرصه شعر و ادبیات رفتند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67235"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Visit of representatives of the Leader of the Revolution to Mousavi Garmarudi",
+      "summary_en": "Visit of representatives of the Leader of the Revolution to Mousavi Garmarudi. Messrs Hadad Adel and Hossein Mohammadi, representing the Supreme Leader of the Revolution, Ayatollah Sayed Mojtaba Mousavi Khamenei, visited Mousavi Garmarudi, a revolutionary artist and enduring figure in poetry and literature of the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1032",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T14:30:57Z",
+      "title": "📹 عیادت نمایندگان رهبر معظم انقلاب از سیدعلی موسوی گرمارودی چهره ماندگار شعر و ادبیات 🔹 آقایان غلامعلی…",
+      "url": "https://t.me/rahbar_ir/1032",
+      "summary": "📹 عیادت نمایندگان رهبر معظم انقلاب از سیدعلی موسوی گرمارودی چهره ماندگار شعر و ادبیات 🔹 آقایان غلامعلی حدادعادل و حسین محمدی به نمایندگی از رهبر معظم انقلاب، با حضور در محل بستری سیدعلی موسوی گرمارودی، هنرمند انقلابی و چهره ماندگار شعر و ادبیات کشور، از وی عیادت کردند. 🔻 در این دیدار، نمایندگان رهبر معظم انقلاب ضمن ابلاغ سلام حضرت آیت‌الله خامنه‌ای، در جریان آخرین وضعیت درمانی این شاعر و ادیب برجسته قرار گرفته و برای وی آرزوی سلامتی و بهبودی کردند. 📲 @neshan_resane",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1032"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Visit of representatives of the Supreme Leader of the Revolution to Sayed Ali Mousavi Garmarudi, enduring figure of poetry and literature",
+      "summary_en": "Visit of representatives of the Supreme Leader of the Revolution to Sayed Ali Mousavi Garmarudi, enduring figure of poetry and literature. Messrs Gholamali HadadAdel and Hossein Mohammadi, on behalf of the Supreme Leader of the Revolution, visited Sayed Ali Mousavi Garmarudi, a revolutionary artist and enduring figure in the country's poetry and literature, at his place of hospitalisation. In this meeting, the Supreme Leader's representatives, while conveying the greetings of Ayatollah Khamenei, were briefed on the latest state of treatment of this prominent poet and littérateur and wished him health and recovery.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67234",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T14:15:18Z",
+      "title": "💢 چرا کنترل بندر المخا در یمن اهمیت راهبردی دارد؟ 🔸 هدف اصلی انصارالله و نیرو‌های مسلح یمن در عملیات اخیر…",
+      "url": "https://t.me/defapress_ir/67234",
+      "summary": "💢 چرا کنترل بندر المخا در یمن اهمیت راهبردی دارد؟ 🔸 هدف اصلی انصارالله و نیرو‌های مسلح یمن در عملیات اخیر علیه دولت خودخوانده تحت حمایت عربستان و مزدوران سعودی، تصرف شهر راهبردی المخا بوده است؛ شهری که در صورت کنترل آن، یمن می‌تواند نفوذ خود را در امتداد باب‌المندب، یکی از مسیر‌های حیاتی کشتیرانی و تجارت بین‌المللی، به شکل چشمگیری افزایش دهد. 🔸 مبارزان انصارالله و نیرو‌های مسلح یمن همچنین به دنبال قطع مسیر‌های تدارکاتی مزدوران تحت حمایت عربستان هستند؛ از جمله جاده میان المخا و تعز، مسیر‌های جنوب المخا که این نیرو‌ها را تأمین می‌کنند و خطوط تدارکاتی از طریق بندر المخا که یکی از مراکز مهم لجستیک",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67234"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Why does controlling al-Mokha port in Yemen have strategic importance?",
+      "summary_en": "Why does controlling al-Mokha port in Yemen have strategic importance? The main objective of Ansarallah and Yemen's Armed Forces in recent operations against the self-styled Saudi-backed government and Saudi mercenaries has been to capture the strategic city of al-Mokha; a city that, if controlled, would enable Yemen to significantly increase its influence along Bab al-Mandab, one of vital shipping and international trade routes. Ansarallah fighters and Yemen's Armed Forces are also seeking to cut off the supply lines of Saudi-backed mercenaries, including the road between al-Mokha and Taiz, southern routes to al-Mokha that supply these forces, and supply lines through al-Mokha port, which is one of the important logistics centres...",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:4d233375ab62e50ca2ff0afd13112fd6",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-09-10T14:09:00Z",
+      "title": "🔴ELIMINATED: Ismail Ibrahim Darwish Kandil, a Nukhba terrorist in Hamas’ military wing. The terrorist infiltrated Israel & took part in the killing of the Nahal Brigade Commander, Colonel Yonatan Steinberg, during the October 7 Massacre. Recently, the terrorist advanced attacks against IDF troops and Israeli civilians and operated to restore Hamas’ capabilities. He was eliminated in order to remove the threat he posed.",
+      "url": "https://x.com/IDF/status/2098051123902926974",
+      "summary": "🔴ELIMINATED: Ismail Ibrahim Darwish Kandil, a Nukhba terrorist in Hamas’ military wing.\n\nThe terrorist infiltrated Israel & took part in the killing of the Nahal Brigade Commander, Colonel Yonatan Steinberg, during the October 7 Massacre.\n\nRecently, the terrorist advanced attacks against IDF troops and Israeli civilians and operated to restore Hamas’ capabilities. He was eliminated in order to remove the threat he posed.— Israel Defense Forces (@IDF) Sep 10, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:713666e757b3b940629c5daecbbb2bde",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-10T14:07:00Z",
+      "title": "A Hamas terrorist who invaded Israel during the October 7, 2023, onslaught and was involved in the killing of then-Nahal Brigade commander Col. Jonathan Steinberg was killed in an airstrike in the Gaza Strip earlier this week, the military announces. The strike in southern Gaza's Khan Younis on Monday killed Ismail Ibrahim Darwish Qandil, a member of Hamas's elite Nukhba Force, according to the IDF. The IDF says Qandil invaded Israel on October 7 and took part in killing Steinberg near the border community of Kerem Shalom. Recently, Qandil had been advancing attacks on troops and civilians, as well as attempting to restore Hamas capabilities, \"in systematic violation of the ceasefire,\" the m",
+      "url": "https://x.com/manniefabian/status/2098050850769842248",
+      "summary": "A Hamas terrorist who invaded Israel during the October 7, 2023, onslaught and was involved in the killing of then-Nahal Brigade commander Col. Jonathan Steinberg was killed in an airstrike in the Gaza Strip earlier this week, the military announces.\n\nThe strike in southern Gaza's Khan Younis on Monday killed Ismail Ibrahim Darwish Qandil, a member of Hamas's elite Nukhba Force, according to the IDF.\n\nThe IDF says Qandil invaded Israel on October 7 and took part in killing Steinberg near the border community of Kerem Shalom.\n\nRecently, Qandil had been advancing attacks on troops and civilians,",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv67ohryct2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T14:01:50.289000Z",
+      "title": "Iranian-backed Houthi terrorists have reached the Hanish Islands in the Red Sea, according to two Yemeni military sources.",
+      "url": "https://www.jpost.com/middle-east/article-908223",
+      "summary": "Iranian-backed Houthi terrorists have reached the Hanish Islands in the Red Sea, according to two Yemeni military sources. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67233",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T13:40:16Z",
+      "title": "🎥 ویدئوی شبکه الجزیره نشان می‌دهد که بندر مخا محل دپوی بی‌سابقه سلاح و تجهیزات مزدوران وابسته به آل‌سعود بوده…",
+      "url": "https://t.me/defapress_ir/67233",
+      "summary": "🎥 ویدئوی شبکه الجزیره نشان می‌دهد که بندر مخا محل دپوی بی‌سابقه سلاح و تجهیزات مزدوران وابسته به آل‌سعود بوده که امروز به دست انصارالله افتاده است. 🔸 اکنون بخشی از سلاح های انبوه آنها که از آمریکا و غرب خریداری کرده بودند بدست مجاهدین جبهه حق افتاده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67233"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Video by Al Jazeera network showing that Mokha port was a site of unprecedented arms and equipment depots for Saudi-affiliated mercenaries, now fallen into Ansarallah's hands",
+      "summary_en": "Video by Al Jazeera network showing that Mokha port was a site of unprecedented arms and equipment depots for Saudi-affiliated mercenaries, now fallen into Ansarallah's hands. Now part of the massive weapons they had purchased from America and the West have fallen into the hands of the mujahideen of the righteous front.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv65s4ed4y2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T13:28:05.190000Z",
+      "title": "President Isaac Herzog said that his dream was to have the president of Lebanon, Joseph Aoun, join a meeting he held with Cypriot President…",
+      "url": "https://www.jpost.com/israel-news/article-908290",
+      "summary": "President Isaac Herzog said that his dream was to have the president of Lebanon, Joseph Aoun, join a meeting he held with Cypriot President Nikos Christodoulides. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67232",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T13:28:01Z",
+      "title": "💢 تصاویر منتشر شده از حضور رزمندگان یمنی در ساحل غربی پس از فرار مزدوران سعودی   @Defapress_ir",
+      "url": "https://t.me/defapress_ir/67232",
+      "summary": "💢 تصاویر منتشر شده از حضور رزمندگان یمنی در ساحل غربی پس از فرار مزدوران سعودی   @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67232"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Images released showing the presence of Yemeni fighters on the western coast after the flight of Saudi mercenaries",
+      "summary_en": "Images released showing the presence of Yemeni fighters on the western coast after the flight of Saudi mercenaries",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv65e4gbl62g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T13:20:15.444000Z",
+      "title": "Two people have been arrested in London as part of an investigation into suspected National Security Act offenses linked to Iran, accoridng…",
+      "url": "https://www.jpost.com/international/article-908288",
+      "summary": "Two people have been arrested in London as part of an investigation into suspected National Security Act offenses linked to Iran, accoridng to British police.\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:e39ff3e79674107a6f91359837d129ba",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-10T13:14:00Z",
+      "title": "The Israeli military says a terror operative was killed in an airstrike on a building in the northern Gaza Strip overnight, after Palestinian media said that four members of a family, including two children, were killed in the attack. According to the IDF, the building near the \"Yellow Line\" in the Beit Lahia area had been used in the past by terror operatives. Before carrying out the strike overnight, the IDF says that it issued a warning \"to allow civilians to evacuate the structure.\" \"Only after the warning was issued was the strike carried out, while additional measures were taken to reduce the risk of harming uninvolved [civilians], including the use of precise munitions and aerial surv",
+      "url": "https://x.com/manniefabian/status/2098037296805171221",
+      "summary": "The Israeli military says a terror operative was killed in an airstrike on a building in the northern Gaza Strip overnight, after Palestinian media said that four members of a family, including two children, were killed in the attack.\n\nAccording to the IDF, the building near the \"Yellow Line\" in the Beit Lahia area had been used in the past by terror operatives.\n\nBefore carrying out the strike overnight, the IDF says that it issued a warning \"to allow civilians to evacuate the structure.\"\n\n\"Only after the warning was issued was the strike carried out, while additional measures were taken to re",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67231",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T13:12:51Z",
+      "title": "💢 تصاویر منتشر شده از حضور رزمندگان یمنی در ساحل غربی پس از فرار مزدوران سعودی @Defapress_ir",
+      "url": "https://t.me/defapress_ir/67231",
+      "summary": "💢 تصاویر منتشر شده از حضور رزمندگان یمنی در ساحل غربی پس از فرار مزدوران سعودی @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67231"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Images released showing the presence of Yemeni fighters on the western coast after the flight of Saudi mercenaries",
+      "summary_en": "Images released showing the presence of Yemeni fighters on the western coast after the flight of Saudi mercenaries",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609109071",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T13:07:32Z",
+      "title": "Two arrested in UK over suspected Iran-linked foreign intelligence activity",
+      "url": "https://www.iranintl.com/en/202609109071",
+      "summary": "British counter-terrorism police arrested two people in London on suspicion of assisting a foreign intelligence service in a case linked to Iran, police said on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609108221",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T13:00:45Z",
+      "title": "Iran lawmaker calls cabinet opposition to 'infiltration' report illegal",
+      "url": "https://www.iranintl.com/en/202609108221",
+      "summary": "A senior Iranian lawmaker on Thursday called the cabinet's opposition to a parliamentary committee report on a controversial foreign infiltration bill illegal, saying the government had exceeded its authority.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv62jbg26g2g",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T12:29:27.397000Z",
+      "title": "The IDF killed Farah Hamed, the Hamas terrorist who killed MK Limor Son Har-Melech's late husband, Shalom.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-908211",
+      "summary": "The IDF killed Farah Hamed, the Hamas terrorist who killed MK Limor Son Har-Melech's late husband, Shalom.\n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67230",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T12:29:01Z",
+      "title": "💢 حزب‌الله: ایران؛ تنها کشوری که به آمریکا «نه» گفته است 🔸 حسن عزالدین با بیان اینکه ایران؛ تنها کشوری است که…",
+      "url": "https://t.me/defapress_ir/67230",
+      "summary": "💢 حزب‌الله: ایران؛ تنها کشوری که به آمریکا «نه» گفته است 🔸 حسن عزالدین با بیان اینکه ایران؛ تنها کشوری است که به آمریکا «نه» گفته است، گفت: با کمک ایران معادلات پیروزی را علیه دشمن اعمال می‌کنیم. 🔸 تروریسم و ارعاب که از ویژگی‌های برجسته آمریکاست، در برابر صخره بزرگ مقاومت ایران فرو ریخت و خرد شد. این موضوع کوچکی نیست، بلکه ناشی از تحولاتی است که ایران از طریق آنها از دو جهت به مهمترین، بزرگترین و توانمندترین کشور تبدیل خواهد شد. 🔸 مقاومت اسلامی در لبنان، همراه با ایران، قادر به ایجاد معادلات جدیدی هستند که اسرائیل را به وضعیت قبل از سال ۲۰۲۳ خود باز می‌گرداند؛ بنابراین باید صبور باشیم و بدانیم",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67230"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Hezbollah: Iran; the only country that said 'no' to America",
+      "summary_en": "Hezbollah: Iran; the only country that said 'no' to America. Hassan Nasrallah, stating that Iran is the only country that said 'no' to America, said: with Iran's assistance, we implement equations of victory against the enemy. Terrorism and intimidation, which are hallmarks of America, shattered and crumbled against the great rock of Iranian resistance. This is not a small matter, but stems from developments through which Iran will be transformed from two perspectives into the most important, greatest and most capable country. Islamic resistance in Lebanon, alongside Iran, is capable of creating new equations that would return Israel to its pre-2023 state; therefore we must be patient and know...",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609107614",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T12:25:30Z",
+      "title": "Tehran governor seeks return of schools used by military forces",
+      "url": "https://www.iranintl.com/en/202609107614",
+      "summary": "Tehran’s governor has called for schools used by other state bodies to be returned before students begin the new academic year, months after military and security forces deployed at schools during the US-Israeli war.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1031",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T12:19:59Z",
+      "title": "📝 #مسطور | نقشه دشمن برای جبران شکست‌ها در میدان نظامی چیست؟ 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی…",
+      "url": "https://t.me/rahbar_ir/1031",
+      "summary": "📝 #مسطور | نقشه دشمن برای جبران شکست‌ها در میدان نظامی چیست؟ 🗒 گزیده‌ای از پیام حضرت آیت‌الله سیدمجتبی خامنه‌ای رهبر معظّم انقلاب : طرح و نقشه‌ی کور دشمن پس از جنگ تحمیلی و #فشار_اقتصادی و محاصره‌ی تبلیغاتی و سیاسی، ایجاد تفرقه و تجزیه‌ی اجتماعی برای جبران شکست‌های میدان نظامی و به زانو درآوردن ملّت است و لازم است تک‌تک جان‌فدایانی که دلشان برای اسلام و انقلاب یا استقلال و سربلندی ایران می‌تپد، از این پس، بیش از پیش برای پاسداری از وحدت صفوف منسجم و به‌هم‌پیوسته ملّت اهتمام ورزند و اختلافات غیرموجّه و حتی موجّه را به تنازع و تفرقه تبدیل نکنند و قولاً و عملاً مظهر #انسجام و یکپارچگی ملّت باشند،",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1031"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What is the enemy's plan to compensate for military defeats?",
+      "summary_en": "What is the enemy's plan to compensate for military defeats? An excerpt from a message by Ayatollah Sayed Mojtaba Khamenei, Supreme Leader of the Revolution: the enemy's blind plan after the imposed war and economic pressure and information blackade and political siege is to create discord and social fragmentation to compensate for military field defeats and bring the nation to its knees. It is necessary that each devoted individual whose heart beats for Islam and the Revolution or for Iran's independence and dignity henceforth strives to safeguard the united, cohesive front of the nation and does not turn unjustified and even justified differences into conflict and discord, and in word and deed embodies national unity and cohesion.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67229",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T12:09:37Z",
+      "title": "💢 حادثه دریایی در سواحل یمن 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۹۸ مایلی دریایی در جنوب غربی…",
+      "url": "https://t.me/defapress_ir/67229",
+      "summary": "💢 حادثه دریایی در سواحل یمن 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع حادثه در ۹۸ مایلی دریایی در جنوب غربی «المکلا» در سواحل یمن خبر داد. 🔸 هنوز جزئیات بیشتری درباره این حادثه و مالکیت کشتی منتشر نشده و هیچ طرفی هم مسئولیت آن را به عهده نگرفته است. dnws.ir/003c5O @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67229"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Maritime incident off Yemen's coast",
+      "summary_en": "Maritime incident off Yemen's coast. The British Maritime Trade Operations Organisation reported an incident 98 nautical miles southwest of al-Mukalla off Yemen's coast. No further details about the incident and the ownership of the vessel have yet been released, nor has any party claimed responsibility for it.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609105610",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T12:08:10Z",
+      "title": "Houthis seize key Red Sea city as US prepares for prolonged Iran war",
+      "url": "https://www.iranintl.com/en/202609105610",
+      "summary": "Yemen’s Iran-backed Houthis seized the Red Sea port city of Mocha on Thursday as the US-Iran conflict widened across the region, while senior White House advisers reportedly warned President Donald Trump that the war could continue beyond the end of his term in January 2029.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609105876",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T12:02:46Z",
+      "title": "Iran-backed militia commander sought to visit Singapore three times, security agency says",
+      "url": "https://www.iranintl.com/en/202609105876",
+      "summary": "An Iraqi commander of an Iran-backed militia who allegedly plotted attacks against Jewish targets in Europe and North America applied three times to visit Singapore, the city-state’s Internal Security Department said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67228",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T11:59:01Z",
+      "title": "💢 ایران: از حق برخورداری از برنامه هسته‌ای صلح‌آمیز دست نمی‌کشیم 🔸 سفارت ایران در اتریش تاکید کرد که ایران از…",
+      "url": "https://t.me/defapress_ir/67228",
+      "summary": "💢 ایران: از حق برخورداری از برنامه هسته‌ای صلح‌آمیز دست نمی‌کشیم 🔸 سفارت ایران در اتریش تاکید کرد که ایران از حق خود برای برخورداری از انرژی صلح آمیز هسته‌ای دست نمی‌کشد. dnws.ir/003c59 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67228"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran: we will not renounce our right to peaceful nuclear programme",
+      "summary_en": "Iran: we will not renounce our right to peaceful nuclear programme. Iran's embassy in Austria emphasised that Iran will not renounce its right to peaceful nuclear energy.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5ynv3gqu2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T11:56:14.087000Z",
+      "title": "Report: Yemeni forces claim they uncovered IRGC plans for a phased Houthi advance toward the strategic Bab al-Mandab Strait.",
+      "url": "https://www.jpost.com/middle-east/article-908275",
+      "summary": "Report: Yemeni forces claim they uncovered IRGC plans for a phased Houthi advance toward the strategic Bab al-Mandab Strait. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5xvrzhfu2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T11:42:46.338000Z",
+      "title": "Diaspora Affairs and Combating Antisemitism Minister Amichai Chikli (Likud) refused to apologize to Israeli residents of the Gaza border…",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-908238",
+      "summary": "Diaspora Affairs and Combating Antisemitism Minister Amichai Chikli (Likud) refused to apologize to Israeli residents of the Gaza border communities for the October 7 massacre, instead pointing an accusatory finger at the Oslo Accords and the disengagement. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5xr6eg742f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T11:40:11.387000Z",
+      "title": "Defense Minister Israel Katz wished Iranian civilians a new year in which their country would be free of oppression and tyranny in a Rosh…",
+      "url": "https://www.jpost.com/israel-news/article-908258",
+      "summary": "Defense Minister Israel Katz wished Iranian civilians a new year in which their country would be free of oppression and tyranny in a Rosh Hashanah message. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/67227",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-10T11:29:16Z",
+      "title": "💢 پزشکیان: رفع مشکلات مردم با جدیت و فوریت در دستور کار باشد 🔸 رئیس‌جمهور در تماس با استانداران استان‌های…",
+      "url": "https://t.me/defapress_ir/67227",
+      "summary": "💢 پزشکیان: رفع مشکلات مردم با جدیت و فوریت در دستور کار باشد 🔸 رئیس‌جمهور در تماس با استانداران استان‌های شمالی درگیر سیلاب، از آخرین وضعیت مناطق آسیب‌دیده، میزان خسارات و روند امدادرسانی و خدمات‌رسانی به مردم مطلع شد. 🔸 در این تماس‌های تلفنی، استانداران نیز گزارشی از آخرین وضعیت مناطق تحت تأثیر، اقدامات انجام‌شده، روند امدادرسانی و نیازمندی‌های موجود ارائه کردند. dnws.ir/003c5A @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/67227"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: addressing people's problems with seriousness and urgency should be on the agenda",
+      "summary_en": "Pezeshkian: addressing people's problems with seriousness and urgency should be on the agenda. The president, in contact with governors of northern provinces affected by flooding, was informed of the latest situation in affected areas, extent of damage and progress of relief and service delivery to people. In these telephone contacts, governors also provided reports on the latest situation in affected areas, measures taken, progress of relief operations and existing needs.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609103619",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T11:17:33Z",
+      "title": "Iran cabinet opposes parliamentary report on controversial 'infiltration' bill",
+      "url": "https://www.iranintl.com/en/202609103619",
+      "summary": "Iran's cabinet has opposed a report by parliament's National Security and Foreign Policy Committee concerning a controversial bill aimed at countering infiltration by foreign intelligence services, governments and organizations, state news agency IRNA reported on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5vlmbjmv2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T11:01:17.971000Z",
+      "title": "Exclusive: IDF intelligence chief Maj.-Gen. Shlomi Binder has overseen an unprecedented campaign against Iran’s nuclear program, leaving…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-908221",
+      "summary": "Exclusive: IDF intelligence chief Maj.-Gen. Shlomi Binder has overseen an unprecedented campaign against Iran’s nuclear program, leaving enrichment at zero. But surviving centrifuges, buried uranium, and weapons rebuilding remain concerns.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/blog/sc16448",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-09-10T10:56:59Z",
+      "title": "Security Council, 10218th Meeting (AM) Iran",
+      "url": "https://press.un.org/en/blog/sc16448",
+      "summary": "At 10 a.m., the Security Council will hold a briefing on the work of the 1737 Sanctions Committee concerning Iran, to be convened by France, Council President for September, under the \"Non-Proliferation\" agenda item. The 1737 Sanctions Committee was established by resolution 1737 (2006), with a requirement to report to the Council every 90 days. Prior to the 2015 Joint Comprehensive Plan of Action (JCPOA) on Iran’s nuclear programme, which the Council endorsed through resolution 2231 (2015), the",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "1737 Sanctions"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5sslg44s2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T10:11:29.516000Z",
+      "title": "Democrats faction head Yair Golan filed a NIS 2.55 million lawsuit against Sara Netanyahu, accusing the prime minister’s wife of defaming…",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-908253",
+      "summary": "Democrats faction head Yair Golan filed a NIS 2.55 million lawsuit against Sara Netanyahu, accusing the prime minister’s wife of defaming him by implying that he knew about the October 7 Hamas attack in advance.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "2.55 million"
+      ]
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/news/fcdo-statement-on-the-situation-in-yemen-10-september#2026-09-10T09:38:00Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-09-10T09:38:00Z",
+      "title": "FCDO statement on the situation in Yemen: 10 September",
+      "url": "https://www.gov.uk/government/news/fcdo-statement-on-the-situation-in-yemen-10-september",
+      "summary": "Statement regarding the situation in Yemen and in response to recent Houthi actions.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4229273",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-09-10T09:03:09+00:00",
+      "title": "UNHCR Middle East Situation: Emergency Update #23 as of 9 September 2026",
+      "url": "https://reliefweb.int/node/4229273",
+      "summary": "SITUATION OVERVIEW REGIONAL CONTEXT Since late February 2026, hostilities in Iran and Lebanon have caused significant harm for civilians directly affected, while generating humanitarian consequences and elevated protection risks across the region, including refugee returns in adverse circumstances to Afghanistan and Syria. While diplomatic efforts have contributed to periods of reduced military ac…",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5oisstw42e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T08:54:27.183000Z",
+      "title": "Hezbollah’s use of cluster munitions in attacks on northern Israel may have constituted a war crime, Human Rights Watch said in a rare…",
+      "url": "https://www.jpost.com/middle-east/article-908236",
+      "summary": "Hezbollah’s use of cluster munitions in attacks on northern Israel may have constituted a war crime, Human Rights Watch said in a rare condemnation of the terror group.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5ne5dydw2m",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T08:33:56.658000Z",
+      "title": "Analysis: The Houthis seizure of Yemen’s Mocha port city raises fears that Iran-backed forces could gain leverage over the strategic Bab…",
+      "url": "https://www.jpost.com/middle-east/article-908231",
+      "summary": "Analysis: The Houthis seizure of Yemen’s Mocha port city raises fears that Iran-backed forces could gain leverage over the strategic Bab al-Mandab Strait. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609101311",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T08:32:44Z",
+      "title": "Iranian protester still unable to walk despite 23 operations for gunshot wound",
+      "url": "https://www.iranintl.com/en/202609101311",
+      "summary": "An Iranian protester shot in the leg during January’s demonstrations remains unable to walk after 23 operations, with further treatment ahead, medical bills mounting and concerns for his safety persisting months after the shooting.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609105151",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T08:25:20Z",
+      "title": "Iranian engineer detained after protests presents camera feature at Apple launch",
+      "url": "https://www.iranintl.com/en/202609105151",
+      "summary": "Maryam Azimi, who has written of being driven blindfolded to court in Mashhad in an intelligence vehicle, thinking those were the last minutes of her life, introduced the new iPhone's camera technology at Apple's global launch on Tuesday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5mqhaoh22y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T08:22:55.873000Z",
+      "title": "Houthi terrorists took control of the Red Sea port of Mocha, anti-Houthi Yemeni government sources said.",
+      "url": "https://www.jpost.com/middle-east/article-908223",
+      "summary": "Houthi terrorists took control of the Red Sea port of Mocha, anti-Houthi Yemeni government sources said.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4229262",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-09-10T08:03:09+00:00",
+      "title": "WFP welcomes Japan's USD 2 million emergency contribution for families affected by conflict in Iran",
+      "url": "https://reliefweb.int/node/4229262",
+      "summary": "TEHRAN, Iran – The United Nations World Food Programme (WFP) welcomes a USD 2 million emergency contribution from the Government of Japan to provide life-saving food assistance to vulnerable families affected by the recent conflict in Iran. The contribution will enable WFP to support 147,000 people, equivalent to 36,750 households, with emergency food assistance covering 30 days of basic food need…",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "2 million"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609103236",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-10T08:00:54Z",
+      "title": "Iran routed up to $2.5 billion via China sanctions workaround in past year - Reuters",
+      "url": "https://www.iranintl.com/en/202609103236",
+      "summary": "Iran routed an estimated $2 billion to $2.5 billion through a China-based trade mechanism over the past year, using proceeds from oil sales to pay for Chinese goods and, at least once, contracts for military equipment, Reuters reported on Thursday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "$2.5 billion",
+        "$2 billion",
+        "2.5 billion",
+        "2 billion"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5jlev33h2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T07:26:24.343000Z",
+      "title": "Yemen’s government forces launch a new offensive against the Houthis, saying the goal is to retake Sana’a after years of stalemate.",
+      "url": "https://www.jpost.com/middle-east/article-908218",
+      "summary": "Yemen’s government forces launch a new offensive against the Houthis, saying the goal is to retake Sana’a after years of stalemate. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:7b4ca5e4ace554bfd779e86bd0156669",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-09-10T06:45:00Z",
+      "title": "🎯DISMANTLED: 3 Hamas weapons storage facilities across Gaza, storing weapons, explosive devices, anti-tank missiles & additional military equipment. Prior to the strikes, steps were taken to mitigate harm to civilians.",
+      "url": "https://x.com/IDF/status/2097939607497146418",
+      "summary": "🎯DISMANTLED: 3 Hamas weapons storage facilities across Gaza, storing weapons, explosive devices, anti-tank missiles & additional military equipment.\n\nPrior to the strikes, steps were  taken to mitigate harm to civilians.— Israel Defense Forces (@IDF) Sep 10, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:61d7633969dbea98a1ce61dad57db199",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-10T06:31:00Z",
+      "title": "Three Hamas weapon depots were destroyed in Israeli strikes in the Gaza Strip yesterday, the IDF and Shin Bet announce. The military says the sites were used by Hamas to store firearms, explosive devices, anti-tank rockets, and other equipment.",
+      "url": "https://x.com/manniefabian/status/2097936029323784515",
+      "summary": "Three Hamas weapon depots were destroyed in Israeli strikes in the Gaza Strip yesterday, the IDF and Shin Bet announce.\n\nThe military says the sites were used by Hamas to store firearms, explosive devices, anti-tank rockets, and other equipment. \nVideo\n  — Emanuel (Mannie) Fabian (@manniefabian) Sep 10, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mv5eiwdml623",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-10T05:55:33.398000Z",
+      "title": "Analysis: As the 9/11 anniversary approaches, Trump’s Iran war draws comparisons to the long conflicts in Iraq and Afghanistan.",
+      "url": "https://www.jpost.com/international/article-908198",
+      "summary": "Analysis: As the 9/11 anniversary approaches, Trump’s Iran war draws comparisons to the long conflicts in Iraq and Afghanistan. \nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-18461",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-09-10T00:00:00Z",
+      "title": "Iranian Transactions and Sanctions Regulations",
+      "url": "https://www.federalregister.gov/documents/2026/09/10/2026-18461/iranian-transactions-and-sanctions-regulations",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is indefinitely suspending three general licenses and one licensing policy issued pursuant to the Iranian Transactions and Sanctions Regulations to align with changes in the foreign policy of the United States towards Iran.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-18461"
+      },
+      "tags": [
+        "sanctions"
+      ],
+      "has_figures": false
+    }
+  ]
+}
