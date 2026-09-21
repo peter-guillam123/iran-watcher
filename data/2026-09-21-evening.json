@@ -1,0 +1,1350 @@
+{
+  "generated_at": "2026-09-21T19:39:31.181796Z",
+  "window_since": "2026-09-21T05:00:00Z",
+  "window_until": "2026-09-21T19:37:14.684458Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-09-21&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 5,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 30,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 4,
+      "kept": 4,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 35,
+      "kept": 35,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 6,
+      "kept": 5,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 19,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "53 items: US Treasury sets Wednesday deadline for secondary sanctions on foreign firms serving Iranian airlines with Turkish Airlines suspending Iran flights until March 2027, CENTCOM reports 110 vessels redirected under Iran blockade, LPG tanker struck in Strait of Hormuz, IDF strikes Gaza after roadside bomb hits engineering vehicle, UK delivers Iran statement at UNHRC63.",
+  "threads": [
+    {
+      "label": "Iran airline sanctions and aviation isolation",
+      "summary": "US Treasury Secretary Scott Bessent announced foreign companies servicing Iranian airlines face US secondary sanctions from Wednesday. Turkish Airlines told Iran International it has suspended all Iran flights until at least March 2027, with Iraq also moving to halt Iranian carriers.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2ewdz2re2f",
+        "iranintl:https://www.iranintl.com/en/202609212495"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Strait of Hormuz blockade and tanker incident",
+      "summary": "CENTCOM said USS Rafael Peralta continues enforcing the US blockade against Iran, with 110 commercial vessels redirected as of 21 September. UKMTO reported an LPG carrier struck by 'unknown projectiles' in the Strait of Hormuz with no crew injuries, per a Defa Press post.",
+      "event_ids": [
+        "x_via_rssapp:89764410573dd15de6e718c8b60abf71",
+        "telegram:defapress_ir/68045",
+        "iranintl:https://www.iranintl.com/en/202609218925",
+        "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mvzdyo4tnd2h"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Gaza ceasefire-line incident and IDF response",
+      "summary": "The IDF said an unmanned engineering vehicle was hit by a Hamas explosive device on the Israeli side of the Yellow Line in northern Gaza, causing no injuries, and it struck Hamas infrastructure in response. IRIB and Jerusalem Post also carried reports of the vehicle explosion and subsequent strikes.",
+      "event_ids": [
+        "x_via_rssapp:f28210f3af5dd07c5451415560e764da",
+        "x_via_rssapp:2b5c3c36f74e787992c1fd78d6caa8aa",
+        "x_via_rssapp:87cf3257cddf712f0421b60be6bf4a97",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2fytiah32v",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2f5g2mxg26",
+        "telegram:iribnews/362521"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran-US mediation signals and IRGC threats",
+      "summary": "Qatar's foreign ministry spokesman said Doha is working to facilitate even a short-term agreement between Tehran and Washington, per a Defa Press post. IRGC spokesperson Hossein Mohibi told Fars News the Guards were ready to change the 'weaponry and geography of the war' if the US launches new attacks.",
+      "event_ids": [
+        "telegram:defapress_ir/68057",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2abozkn523",
+        "iranintl:https://www.iranintl.com/en/202609218925"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Sacred Defence Week messaging cycle",
+      "summary": "IRIB and Defa Press ran a heavy cycle of Sacred Defence Week content, including an IRGC statement that America and Israel 'must yield to a region free of their filthy presence' and remarks by Deputy Commander Izadi on 'strategic patience'. Defa Press announced a motorcyclist special units parade of IRGC ground forces for the following afternoon.",
+      "event_ids": [
+        "telegram:iribnews/362531",
+        "telegram:iribnews/362530",
+        "telegram:defapress_ir/68060",
+        "telegram:defapress_ir/68058",
+        "telegram:defapress_ir/68056",
+        "telegram:iribnews/362515",
+        "telegram:defapress_ir/68050",
+        "telegram:defapress_ir/68054"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/362531",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:31:44Z",
+      "title": "🎦 این که ما آمریکا را می‌خواهیم شکست بدهیم چه معنی دارد؟ @iribnews",
+      "url": "https://t.me/iribnews/362531",
+      "summary": "🎦 این که ما آمریکا را می‌خواهیم شکست بدهیم چه معنی دارد؟ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362531"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What does it mean for us to want to defeat America?",
+      "summary_en": "What does it mean for us to want to defeat America?",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68060",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:29:58Z",
+      "title": "💢 سرلشکر ایزدی: استمرار حضور مردم در صحنه، بسیاری از توطئه‌های دشمن را نقش بر آب می‌کند 🔸 جانشین فرمانده کل…",
+      "url": "https://t.me/defapress_ir/68060",
+      "summary": "💢 سرلشکر ایزدی: استمرار حضور مردم در صحنه، بسیاری از توطئه‌های دشمن را نقش بر آب می‌کند 🔸 جانشین فرمانده کل سپاه در آیین اختتامیه دومین کنگره ملی ۲ هزار و ۷۵۰ شهید چهارمحال و بختیاری: 🔸 ملت ایران با تکیه بر ایمان، هویت تاریخی و رهبری دینی، در برابر فشارها و جنگ‌های تحمیلی ایستاده و در نبردهای اخیر نیز «صبر راهبردی» و استقامت مردم، معادلات جدیدی را در میدان رقم زده است. 🔸 امام خمینی(ره) شهادت را با پیروزی و شکست در میدان نبرد مقایسه نمی‌کرد و شهادت را اوج بندگی و سیر و سلوک در عالم معنویت می‌دانست؛ از همین رو شهدا ذخایر عالم بقا هستند. 🔸 سردار شهید حاج غلامرضا سلیمانی در سخت‌ترین شرایط، آنچه را",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68060"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Izadi: The people's continued presence in the arena washes away many of the enemy's conspiracies. Deputy Commander-in-Chief...",
+      "summary_en": "Commander Izadi: The people's continued presence in the arena washes away many of the enemy's conspiracies. Deputy Commander-in-Chief of the Sepah at the closing ceremony of the Second National Congress of 2,750 martyrs of Chaharmahal and Bakhtiari: The Iranian nation, relying on faith, historical identity and religious leadership, has stood against pressures and imposed wars, and in recent battles too, the people's 'strategic patience' and steadfastness have created new equations in the field. Imam Khomeini did not compare martyrdom with victory and defeat in battle, and considered martyrdom the pinnacle of servitude and spiritual journey; therefore martyrs are the treasures of the eternal world. Martyr Commander Hajj Gholamreza Soleimani, in the most difficult circumstances, achieved what",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362530",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:24:01Z",
+      "title": "🔺 سرلشکر ایزدی: حضور مردم در صحنه، بسیاری از توطئه‌های دشمن را نقش بر آب می‌کند جانشین فرمانده کل سپاه: 🔹️ در…",
+      "url": "https://t.me/iribnews/362530",
+      "summary": "🔺 سرلشکر ایزدی: حضور مردم در صحنه، بسیاری از توطئه‌های دشمن را نقش بر آب می‌کند جانشین فرمانده کل سپاه: 🔹️ در جنگ اخیر ملت ایران با تکیه بر همان مؤلفه‌هایی که در دوران دفاع مقدس وجود داشت، در برابر دشمن ایستاد و «صبر راهبردی» به یکی از عوامل مهم این ایستادگی تبدیل شد. 🔹️ جمهوری اسلامی ایران امروز در حوزه موشکی، پهپادی، موشک‌های کروز، سامانه‌های سایبری، جنگ الکترونیک و پدافند هوایی در حال تقویت توانمندی‌های خود است. 🔹️ جبهه مقاومت اسلامی نیز در میدان حضور دارد و رزمندگان یمنی در مسیر مقابله با دشمن حرکت می‌کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362530"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Izadi: The people's presence in the arena washes away many of the enemy's conspiracies. Deputy Commander-in-Chief of the Sepah: In the recent war, the Iranian nation, relying on the same elements that existed during the sacred defence, stood against the enemy and 'strategic patience' became one of the important factors in this resistance. The Islamic Republic of Iran is currently strengthening its capabilities in the field of missiles, drones, cruise missiles, cyber systems, electronic warfare and air defence. The Islamic Resistance Front is also present in the field and Yemeni fighters are moving to confront the enemy.",
+      "summary_en": "Commander Izadi: The people's presence in the arena washes away many of the enemy's conspiracies. Deputy Commander-in-Chief of the Sepah: In the recent war, the Iranian nation, relying on the same elements that existed during the sacred defence, stood against the enemy and 'strategic patience' became one of the important factors in this resistance. The Islamic Republic of Iran is currently strengthening its capabilities in the field of missiles, drones, cruise missiles, cyber systems, electronic warfare and air defence. The Islamic Resistance Front is also present in the field and Yemeni fighters are moving to confront the enemy.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68059",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:23:16Z",
+      "title": "💢 رکورد حزب پوتین در انتخابات روسیه 🔸 حزب «روسیه متحد»، حزب ولادیمیر پوتین، رئیس‌جمهوری روسیه، با کسب ۳۵۵…",
+      "url": "https://t.me/defapress_ir/68059",
+      "summary": "💢 رکورد حزب پوتین در انتخابات روسیه 🔸 حزب «روسیه متحد»، حزب ولادیمیر پوتین، رئیس‌جمهوری روسیه، با کسب ۳۵۵ کرسی از مجموع ۴۵۰ کرسی دومای دولتی روسیه، رکورد جدیدی برای خود ثبت کرد. 🔸 این نتایج اولیه مربوط به انتخابات ۱۸ تا ۲۰ سپتامبر است که «الا پامفیلووا»، رئیس کمیسیون مرکزی انتخابات روسیه اعلام کرد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68059"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Record for Putin's party in Russian elections. United Russia party, Vladimir Putin's party, the President of Russia, set a new record for itself by winning 355 seats out of a total of 450 seats in the Russian State Duma.",
+      "summary_en": "Record for Putin's party in Russian elections. United Russia party, Vladimir Putin's party, the President of Russia, set a new record for itself by winning 355 seats out of a total of 450 seats in the Russian State Duma. These preliminary results are related to the elections of 18 to 20 September, which Ella Pamfilova, the head of Russia's Central Electoral Commission, announced.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362529",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:16:14Z",
+      "title": "🎦 کاظمی قمی: خنثی شدن طرح تهاجمی به صنعا و توطئه جداسازی سومالی‌لند سفیر اسبق ایران در عراق: 🔹 با در اختیار…",
+      "url": "https://t.me/iribnews/362529",
+      "summary": "🎦 کاظمی قمی: خنثی شدن طرح تهاجمی به صنعا و توطئه جداسازی سومالی‌لند سفیر اسبق ایران در عراق: 🔹 با در اختیار گرفتن ساحل دریای سرخ سیطره اطلاعاتی یمن بر پایگاه‌های آمریکا در جیبوتی، اریتره و سومالی محقق شد. 🔹 عربستان در اقتصاد و امنیت، تاب‌آوری برابر انصارالله را ندارد؛ یمنی‌ها می‌توانند ظرف ۲۴ ساعت بحران ایجاد کنند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362529"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kazemi Qomi: The aggressive plan against Sanaa and the Somaliland separation plot were thwarted. Iran's former ambassador to Iraq: By controlling the Red Sea coast, Yemen's intelligence dominance over American bases in Djibouti, Eritrea and Somalia was achieved. Saudi Arabia does not have the resilience to match Ansarallah in economics and security; Yemenis can create a crisis within 24 hours.",
+      "summary_en": "Kazemi Qomi: The aggressive plan against Sanaa and the Somaliland separation plot were thwarted. Iran's former ambassador to Iraq: By controlling the Red Sea coast, Yemen's intelligence dominance over American bases in Djibouti, Eritrea and Somalia was achieved. Saudi Arabia does not have the resilience to match Ansarallah in economics and security; Yemenis can create a crisis within 24 hours.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/362528",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:11:39Z",
+      "title": "🎦 ما مرد این نبردیم، پرچم دار ظهوریم 🔹 شب ۲۰۵ام از تجمعات مردمی، فلکه دوم صادقیه تهران @iribnews",
+      "url": "https://t.me/iribnews/362528",
+      "summary": "🎦 ما مرد این نبردیم، پرچم دار ظهوریم 🔹 شب ۲۰۵ام از تجمعات مردمی، فلکه دوم صادقیه تهران @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362528"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "We have stood firm in this battle, we are the standard-bearers of the Awaited One. Night 205 of popular gatherings, Sadeghieh Circle Two, Tehran.",
+      "summary_en": "We have stood firm in this battle, we are the standard-bearers of the Awaited One. Night 205 of popular gatherings, Sadeghieh Circle Two, Tehran.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2fytiah32v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-21T19:09:33.046510Z",
+      "title": "IDF strikes Hamas targets in Gaza following attack on Israeli military vehicle",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mw2fytiah32v",
+      "summary": "IDF strikes Hamas targets in Gaza following attack on Israeli military vehicle",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362524",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T19:02:01Z",
+      "title": "🔺 زنگ شکوفه‌ها در مدارس هرمزگان؛ با رنگ و بوی میناب 🔹 عکاس: نجمه‌باقرزاده تصاویر بیشتر در پیوند زیر 👇…",
+      "url": "https://t.me/iribnews/362524",
+      "summary": "🔺 زنگ شکوفه‌ها در مدارس هرمزگان؛ با رنگ و بوی میناب 🔹 عکاس: نجمه‌باقرزاده تصاویر بیشتر در پیوند زیر 👇 https://www.irib-news.ir/00OpSB @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362524"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The bell of blossoms rings in Hormozgan schools; with the colours and scent of Minab. Photographer: Najmeh Baqerzadeh. More images in the link below.",
+      "summary_en": "The bell of blossoms rings in Hormozgan schools; with the colours and scent of Minab. Photographer: Najmeh Baqerzadeh. More images in the link below.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mw2fkmsgbi2m",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-09-21T19:01:37.700000Z",
+      "title": "What Matters Now: Ahmed Fouad Alkhatib, the head of Realign for Palestine, speaks with host Amanda Borschel-Dan about his philosophy of…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mw2fkmsgbi2m",
+      "summary": "What Matters Now: Ahmed Fouad Alkhatib, the head of Realign for Palestine, speaks with host Amanda Borschel-Dan about his philosophy of \"radical pragmatism\" and how being an anti-Hamas Gazan means he’s not in lockstep with the zeitgeist.\n\nStream now everywhere you get your podcasts.",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2b5c3c36f74e787992c1fd78d6caa8aa",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-21T19:01:00Z",
+      "title": "The IDF confirms carrying out strikes against Hamas infrastructure sites in the Gaza Strip this evening in response to a bomb that struck an engineering chenille earlier today. During routine operations on the Israeli side of the \"Yellow Line\" in northern Gaza, an unmanned engineering vehicle was hit by a roadside bomb, the army says. No injuries were caused in the incident, which the IDF says is a \"blatant violation of the ceasefire agreement by the Hamas terror group.\" In response, several Hamas sites used by the terror group to advance attacks on troops and Israeli civilians were struck this evening, the military says.",
+      "url": "https://x.com/manniefabian/status/2102110945438744877",
+      "summary": "The IDF confirms carrying out strikes against Hamas infrastructure sites in the Gaza Strip this evening in response to a bomb that struck an engineering chenille earlier today.\n\nDuring routine operations on the Israeli side of the \"Yellow Line\" in northern Gaza, an unmanned engineering vehicle was hit by a roadside bomb, the army says.\n\nNo injuries were caused in the incident, which the IDF says is a \"blatant violation of the ceasefire agreement by the Hamas terror group.\"\n\nIn response, several Hamas sites used by the terror group to advance attacks on troops and Israeli civilians were struck ",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:f28210f3af5dd07c5451415560e764da",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-09-21T18:58:00Z",
+      "title": "❌BLATANT HAMAS CEASEFIRE VIOLATION: An IDF engineering vehicle drove over a Hamas explosive device during routine activity in the Yellow Line area in Gaza. In response, the IDF struck Hamas infrastructure that was used by the terrorist organization to advance attacks against Israeli civilians and IDF troops.",
+      "url": "https://x.com/IDF/status/2102110306616914005",
+      "summary": "❌BLATANT HAMAS CEASEFIRE VIOLATION: An IDF engineering vehicle drove over a Hamas explosive device during routine activity in the Yellow Line area in Gaza.\n\nIn response, the IDF struck Hamas infrastructure that was used by the terrorist organization to advance attacks against Israeli civilians and IDF troops.— Israel Defense Forces (@IDF) Sep 21, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68058",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:57:31Z",
+      "title": "💢 سردار کارگر: به ساخت موشک و پهپاد ادامه می‌دهیم/ ملت ایران با مقاومت خود ابرقدرتی آمریکا را به سخره گرفت 🔸…",
+      "url": "https://t.me/defapress_ir/68058",
+      "summary": "💢 سردار کارگر: به ساخت موشک و پهپاد ادامه می‌دهیم/ ملت ایران با مقاومت خود ابرقدرتی آمریکا را به سخره گرفت 🔸 رییس بنیاد حفظ آثار و نشر ارزش‌های دفاع مقدس و مقاومت در گفت‌وگو با سپاه‌نیوز گفت: تنها کشوری که در مقابل ابرقدرتی آمریکا ایستاد و دفاع کرد و ضربات سختی بر پیکره دشمن وارد آورد، ایران بود؛ در حالی که هیچ کشوری نتوانسته حتی یک سنگ به سمت آمریکا پرتاب کند. 🔸 ما هرچه داریم از دفاع مقدس داریم؛ انقلاب اسلامی را دفاع مقدس تثبیت کرد و اگر دفاع مقدس نبود، معلوم نبود چه بر سر انقلاب می‌آمد. 🔸 دفاع مقدس حق حیات را به کشور داد و مانند اکسیژن برای این کشور بود. این دوران قابلیت‌ها و ظرفیت‌های کشور ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68058"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Kargar: We will continue building missiles and drones. The Iranian nation, through its resistance, has mocked American superpower. The head of the Foundation for Preserving and Publishing the Values of Sacred Defence and Resistance, in an interview with Sepahnews, said: The only country that stood against and defended against the American superpower and inflicted severe blows on the enemy was Iran; while no other country has even been able to throw a stone towards America. We have everything from sacred defence; the Islamic Revolution was consolidated by sacred defence and if sacred defence had not occurred, it was unclear what would have befallen the revolution. Sacred defence gave the right to life to the country and was like oxygen for this nation. This era created capabilities and capacities of the country.",
+      "summary_en": "Commander Kargar: We will continue building missiles and drones. The Iranian nation, through its resistance, has mocked American superpower. The head of the Foundation for Preserving and Publishing the Values of Sacred Defence and Resistance, in an interview with Sepahnews, said: The only country that stood against and defended against the American superpower and inflicted severe blows on the enemy was Iran; while no other country has even been able to throw a stone towards America. We have everything from sacred defence; the Islamic Revolution was consolidated by sacred defence and if sacred defence had not occurred, it was unclear what would have befallen the revolution. Sacred defence gave the right to life to the country and was like oxygen for this nation. This era created capabilities and capacities of the country.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362523",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:55:01Z",
+      "title": "🎦 در صورت شکست جمهوری خواهان در انتخابات پیش‌رو، چه چالش‌هایی برای ترامپ ایجاد می‌شود؟ @iribnews",
+      "url": "https://t.me/iribnews/362523",
+      "summary": "🎦 در صورت شکست جمهوری خواهان در انتخابات پیش‌رو، چه چالش‌هایی برای ترامپ ایجاد می‌شود؟ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362523"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What challenges would be created for Trump if Republicans lose in the forthcoming elections?",
+      "summary_en": "What challenges would be created for Trump if Republicans lose in the forthcoming elections?",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2f5g2mxg26",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-21T18:54:12.642914Z",
+      "title": "Hamas attacks IDF vehicle in Gaza with explosive device, causing no casualties - report",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mw2f5g2mxg26",
+      "summary": "Hamas attacks IDF vehicle in Gaza with explosive device, causing no casualties - report",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68057",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:51:42Z",
+      "title": "💢 قطر: به دنبال تسهیل توافق میان تهران و واشنگتن هستیم 🔸 سخنگوی وزارت امور خارجه قطر: دوحه برای میانجی‌گری و…",
+      "url": "https://t.me/defapress_ir/68057",
+      "summary": "💢 قطر: به دنبال تسهیل توافق میان تهران و واشنگتن هستیم 🔸 سخنگوی وزارت امور خارجه قطر: دوحه برای میانجی‌گری و گشودن مسیر گفتگوها میان ایران و آمریکا درحال تلاش است. 🔸 قطر در تلاش است تا زمینه دستیابی به توافقی حتی کوتاه‌مدت میان واشنگتن و تهران را تسهیل کند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68057"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qatar: We are seeking to facilitate an agreement between Tehran and Washington. Spokesman of Qatar's Ministry of Foreign Affairs: Doha is making efforts to mediate and open the way for talks between Iran and America. Qatar is attempting to facilitate the conditions for reaching even a short-term agreement between Washington and Tehran.",
+      "summary_en": "Qatar: We are seeking to facilitate an agreement between Tehran and Washington. Spokesman of Qatar's Ministry of Foreign Affairs: Doha is making efforts to mediate and open the way for talks between Iran and America. Qatar is attempting to facilitate the conditions for reaching even a short-term agreement between Washington and Tehran.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2ewdz2re2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-21T18:50:16.460000Z",
+      "title": "Foreign companies that continue to provide services to Iranian airlines risk facing US secondary sanctions starting Wednesday, US Treasury…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-909210",
+      "summary": "Foreign companies that continue to provide services to Iranian airlines risk facing US secondary sanctions starting Wednesday, US Treasury Secretary Scott Bessent announced Monday. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362522",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:50:01Z",
+      "title": "🎦 از وعده پیروزی دو هفته‌ای؛ ۱۱ سال گذشت کاظمی قمی، سفیر اسبق ایران در عراق: 🔹 سفیر عربستان در آمریکا گفته…",
+      "url": "https://t.me/iribnews/362522",
+      "summary": "🎦 از وعده پیروزی دو هفته‌ای؛ ۱۱ سال گذشت کاظمی قمی، سفیر اسبق ایران در عراق: 🔹 سفیر عربستان در آمریکا گفته بود جنگ علیه یمن را در دو هفته پیروز می‌شوند؛ اما ۱۱ سال از آن وعده گذشته است. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362522"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "From the promise of two-week victory; 11 years have passed. Kazemi Qomi, Iran's former ambassador to Iraq: Saudi Arabia's ambassador to America had said the war against Yemen would be won in two weeks; but 11 years have passed since that promise.",
+      "summary_en": "From the promise of two-week victory; 11 years have passed. Kazemi Qomi, Iran's former ambassador to Iraq: Saudi Arabia's ambassador to America had said the war against Yemen would be won in two weeks; but 11 years have passed since that promise.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362521",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:45:49Z",
+      "title": "‌ 🔺️ انفجار یک خودروی ارتش صهیونیستی در شمال نوار غزه رسانه‌های عبری: 🔹️ یک بستۀ انفجاری در خودروی متعلق به…",
+      "url": "https://t.me/iribnews/362521",
+      "summary": "‌ 🔺️ انفجار یک خودروی ارتش صهیونیستی در شمال نوار غزه رسانه‌های عبری: 🔹️ یک بستۀ انفجاری در خودروی متعلق به ارتش اسرائیل در شمال نوار غزه منفجر شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362521"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion of an Israeli military vehicle in northern Gaza Strip. Hebrew media: An explosive package in a vehicle belonging to the Israeli army in northern Gaza Strip has been detonated.",
+      "summary_en": "Explosion of an Israeli military vehicle in northern Gaza Strip. Hebrew media: An explosive package in a vehicle belonging to the Israeli army in northern Gaza Strip has been detonated.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68056",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:44:46Z",
+      "title": "💢 سپاه: دفاع مقدس؛ مکتب راهبردی تولید قدرت ملی و وحدت بود 🔸 سپاه پاسداران انقلاب اسلامی به مناسبت فرا رسیدن…",
+      "url": "https://t.me/defapress_ir/68056",
+      "summary": "💢 سپاه: دفاع مقدس؛ مکتب راهبردی تولید قدرت ملی و وحدت بود 🔸 سپاه پاسداران انقلاب اسلامی به مناسبت فرا رسیدن هفته دفاع مقدس در بیانیه‌ای با تاکید براینکه دفاع مقدس؛ مکتب راهبردی تولید قدرت ملی و وحدت بود، تصریح کرد: آمریکا و رژیم صهیونیستی باید این حقیقت را درک کنند که بایستی دیر یا زود به منطقه عاری از وجود پلید و جنایتکارانه خود تن دهند که به فضل الهی گریزی از این سرنوشت نخواهند داشت. 🔸 در بخشی از این بیانیه آمده است: دفاع مقدس هشت‌ساله فراتر از یک رویداد نظامی، کارگاه تولید سرمایه اجتماعی، انسجام ملی و خودباوری راهبردی بود و به ملت ایران آموخت که قدرت واقعی در عمق ایمان، وحدت کلمه و پیوند ره",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68056"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah: Sacred Defence; a strategic school of producing national power and unity. Islamic Revolutionary Guards Corps on the occasion of Sacred Defence Week, in a statement emphasizing that sacred defence was a strategic school for producing national power and unity, stated: America and the Zionist regime must understand that they must eventually yield to a region free from their filthy and criminal presence, and by divine grace, they will have no escape from this fate. In part of this statement: Sacred defence, as an eight-year period, went beyond a military event and was a workshop for producing social capital, national cohesion and strategic self-confidence, and taught the Iranian nation that true power lies in the depth of faith, unity of word and ties to the way.",
+      "summary_en": "Sepah: Sacred Defence; a strategic school of producing national power and unity. Islamic Revolutionary Guards Corps on the occasion of Sacred Defence Week, in a statement emphasizing that sacred defence was a strategic school for producing national power and unity, stated: America and the Zionist regime must understand that they must eventually yield to a region free from their filthy and criminal presence, and by divine grace, they will have no escape from this fate. In part of this statement: Sacred defence, as an eight-year period, went beyond a military event and was a workshop for producing social capital, national cohesion and strategic self-confidence, and taught the Iranian nation that true power lies in the depth of faith, unity of word and ties to the way.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362520",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:39:01Z",
+      "title": "🎦 داغ شهدای میناب در دل دانش‌آموزان ایران هنوز زنده است 🔹 اهدای نوشت‌افزار به دانش آموزان کم‌برخوردار به یاد…",
+      "url": "https://t.me/iribnews/362520",
+      "summary": "🎦 داغ شهدای میناب در دل دانش‌آموزان ایران هنوز زنده است 🔹 اهدای نوشت‌افزار به دانش آموزان کم‌برخوردار به یاد شهدای دانش‌آموز میناب @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362520"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The pain of the martyrs of Minab still lives in the hearts of Iranian students. Distribution of stationery to underprivileged students in memory of student martyrs of Minab.",
+      "summary_en": "The pain of the martyrs of Minab still lives in the hearts of Iranian students. Distribution of stationery to underprivileged students in memory of student martyrs of Minab.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362519",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:34:01Z",
+      "title": "🔺 حمله رژیم صهیونیستی به جنوب لبنان با بمب‌های ممنوعه فسفری خبرگزاری ملی لبنان: 🔹 ارتش رژیم صهیونیستی با نقض…",
+      "url": "https://t.me/iribnews/362519",
+      "summary": "🔺 حمله رژیم صهیونیستی به جنوب لبنان با بمب‌های ممنوعه فسفری خبرگزاری ملی لبنان: 🔹 ارتش رژیم صهیونیستی با نقض مجدد قوانین بین‌المللی، منطقه «وادی السلوقی» را هدف بمب‌های ممنوعه فسفری قرار داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362519"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Attack by the Zionist regime on southern Lebanon with banned phosphorus bombs. National News Agency of Lebanon: The Zionist regime's army, in a further violation of international law, targeted the 'Wadi al-Saluki' area with banned phosphorus bombs.",
+      "summary_en": "Attack by the Zionist regime on southern Lebanon with banned phosphorus bombs. National News Agency of Lebanon: The Zionist regime's army, in a further violation of international law, targeted the 'Wadi al-Saluki' area with banned phosphorus bombs.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:87cf3257cddf712f0421b60be6bf4a97",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-21T18:34:00Z",
+      "title": "An unmanned IDF engineering vehicle was hit by an explosive device a short while ago in the northern Gaza Strip. No injuries were caused in the incident, according to the military. Palestinian media reports Israeli strikes in Gaza City a short while ago, apparently in response to the bomb.",
+      "url": "https://x.com/manniefabian/status/2102104211966095672",
+      "summary": "An unmanned IDF engineering vehicle was hit by an explosive device a short while ago in the northern Gaza Strip.\n\nNo injuries were caused in the incident, according to the military.\n\nPalestinian media reports Israeli strikes in Gaza City a short while ago, apparently in response to the bomb.— Emanuel (Mannie) Fabian (@manniefabian) Sep 21, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362518",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:29:44Z",
+      "title": "🎦 حضور استوار در میادین و خیابان‌ها، به تاسی از بانوی کرامت 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/362518",
+      "summary": "🎦 حضور استوار در میادین و خیابان‌ها، به تاسی از بانوی کرامت 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362518"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Steadfast presence in squares and streets, following in the footsteps of the Lady of Dignity.",
+      "summary_en": "Steadfast presence in squares and streets, following in the footsteps of the Lady of Dignity.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362517",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:21:26Z",
+      "title": "🎦 پیام تسلیت رئیس مجلس خبرگان رهبری در پی درگذشت آیت الله العظمی شبیری زنجانی @iribnews",
+      "url": "https://t.me/iribnews/362517",
+      "summary": "🎦 پیام تسلیت رئیس مجلس خبرگان رهبری در پی درگذشت آیت الله العظمی شبیری زنجانی @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362517"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Condolence message from the head of the Assembly of Experts of the Leadership following the passing of Grand Ayatollah Shabiri Zanjani.",
+      "summary_en": "Condolence message from the head of the Assembly of Experts of the Leadership following the passing of Grand Ayatollah Shabiri Zanjani.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362516",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:07:01Z",
+      "title": "🎦 ترامپ، گرفتار در گرداب جنگ؛ شمار پهپادهای سرنگون‌شده آمریکا به ۲۷۹ رسید 🔹 نیروهای مسلح ایران: طعم تلخ…",
+      "url": "https://t.me/iribnews/362516",
+      "summary": "🎦 ترامپ، گرفتار در گرداب جنگ؛ شمار پهپادهای سرنگون‌شده آمریکا به ۲۷۹ رسید 🔹 نیروهای مسلح ایران: طعم تلخ شکست‌های بیشتر را به دشمن می‌چشانیم 🔹 مقدمه تحلیلی خبر ۲۱ 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362516"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Trump, caught in the whirlwind of war; the number of American drones shot down has reached 279. Armed Forces of Iran: We will make the enemy taste the bitter flavour of further defeats. Analytical prelude to News 21.",
+      "summary_en": "Trump, caught in the whirlwind of war; the number of American drones shot down has reached 279. Armed Forces of Iran: We will make the enemy taste the bitter flavour of further defeats. Analytical prelude to News 21.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68055",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:01:37Z",
+      "title": "💢 سازمان ملل خواستار ازسرگیری تعامل میان آمریکا و ایران شد! 🔸 «استفان دوجاریک»، سخنگوی دبیرکل سازمان ملل…",
+      "url": "https://t.me/defapress_ir/68055",
+      "summary": "💢 سازمان ملل خواستار ازسرگیری تعامل میان آمریکا و ایران شد! 🔸 «استفان دوجاریک»، سخنگوی دبیرکل سازمان ملل امروز دوشنبه در واکنشی منفعلانه و صرفا لفظی به ادامه تجاوز عربستان به مردم مظلوم یمن اعلام کرد: عمیقا نگران خطر تشدید درگیری‌ ها و آسیب‌ های بیشتر به یمن و مردم آن هستیم! 🔸 سخنگوی دبیرکل سازمان ملل در این خصوص ادامه داد: هرگونه تشدید تنش های بیشتر در یمن، پیامدهای فزاینده منطقه‌ ای و جهانی در پی خواهد داشت. همچنین، سازمان ملل تمام تلاش خود را برای کمک به ساکنان غزه به کار می‌گیرد و با وجود فشارها، این باریکه را ترک نکرده است. ما فوراً به بودجه بیشتری برای کمک‌های بشردوستانه نیاز داریم، و ای",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68055"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The United Nations called for resuming interaction between America and Iran! Stefan Dujarric, spokesman for the UN Secretary-General, passively and merely verbally reacted today, Monday, to the continuation of Saudi aggression against the oppressed people of Yemen, saying: We are deeply concerned about the danger of escalating clashes and further damage to Yemen and its people! The UN Secretary-General's spokesman continued in this regard: Any further escalation of tensions in Yemen will have increasing regional and global consequences. Also, the United Nations is using all its efforts to help the inhabitants of Gaza, and despite pressures, has not abandoned this strip. We urgently need more funding for humanitarian assistance, and",
+      "summary_en": "The United Nations called for resuming interaction between America and Iran! Stefan Dujarric, spokesman for the UN Secretary-General, passively and merely verbally reacted today, Monday, to the continuation of Saudi aggression against the oppressed people of Yemen, saying: We are deeply concerned about the danger of escalating clashes and further damage to Yemen and its people! The UN Secretary-General's spokesman continued in this regard: Any further escalation of tensions in Yemen will have increasing regional and global consequences. Also, the United Nations is using all its efforts to help the inhabitants of Gaza, and despite pressures, has not abandoned this strip. We urgently need more funding for humanitarian assistance, and",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362515",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T18:01:12Z",
+      "title": "🔺 سپاه: آمریکا و رژیم صهیونی باید به منطقه عاری از وجود پلیدشان تن دهند بیانیه سپاه پاسداران انقلاب اسلامی به…",
+      "url": "https://t.me/iribnews/362515",
+      "summary": "🔺 سپاه: آمریکا و رژیم صهیونی باید به منطقه عاری از وجود پلیدشان تن دهند بیانیه سپاه پاسداران انقلاب اسلامی به مناسبت فرا رسیدن هفته دفاع مقدس: 🔹 آمریکا و رژیم صهیونیستی باید این حقیقت را درک کنند که بایستی دیر یا زود به منطقه عاری از وجود پلید و جنایتکارانه خود تن دهند که به فضل الهی گریزی از این سرنوشت نخواهند داشت. 🔹 نیروهای مسلح به ویژه پاسداران رشید انقلاب اسلامی در این نبرد همه‌جانبه، دست بر ماشه، آماده پاسخ‌های قاطع و ویرانگر به هر تجاوزی هستند. 🔹 پاسداران انقلاب، بسیجیان دلاور و آحاد جان‌فدایان ایران قوی و مبعوث‌شدگان خونخواه قائد شهید، با آمادگی کامل و هوشیاری همه جانبه، در صورت خطای م",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362515"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sepah: America and the Zionist regime must yield to a region free of their filthy presence. Statement by the Islamic Revolutionary Guards Corps on the occasion of Sacred Defence Week: America and the Zionist regime must understand that they must eventually yield to a region free from their filthy and criminal presence, and by divine grace, they will have no escape from this fate. The armed forces, particularly the Guards of the Revolution, in this comprehensive battle stand with fingers on the trigger, ready to give decisive and devastating responses to any aggression. The Guards of the Revolution, the brave mobilised forces and all the self-sacrificing members of Iran, the strong ones sent by the blood-seeking Leader of the Martyrs, with complete readiness and comprehensive vigilance, in the event of the slightest mistake by",
+      "summary_en": "Sepah: America and the Zionist regime must yield to a region free of their filthy presence. Statement by the Islamic Revolutionary Guards Corps on the occasion of Sacred Defence Week: America and the Zionist regime must understand that they must eventually yield to a region free from their filthy and criminal presence, and by divine grace, they will have no escape from this fate. The armed forces, particularly the Guards of the Revolution, in this comprehensive battle stand with fingers on the trigger, ready to give decisive and devastating responses to any aggression. The Guards of the Revolution, the brave mobilised forces and all the self-sacrificing members of Iran, the strong ones sent by the blood-seeking Leader of the Martyrs, with complete readiness and comprehensive vigilance, in the event of the slightest mistake by",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362514",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T17:47:01Z",
+      "title": "🎦 مدادی که آرزوهای دانش آموزان را برآورده می‌کند 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/362514",
+      "summary": "🎦 مدادی که آرزوهای دانش آموزان را برآورده می‌کند 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362514"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A pencil that fulfils the dreams of students.",
+      "summary_en": "A pencil that fulfils the dreams of students.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362513",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T17:35:24Z",
+      "title": "🎦 پلیس خوبه بالاخره یا بد؟ 🔺 بستگی داره کجای نقشه باشی! #باخبرنگار @iribnews",
+      "url": "https://t.me/iribnews/362513",
+      "summary": "🎦 پلیس خوبه بالاخره یا بد؟ 🔺 بستگی داره کجای نقشه باشی! #باخبرنگار @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362513"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Is police good after all or bad? It depends on where you are on the map!",
+      "summary_en": "Is police good after all or bad? It depends on where you are on the map!",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2aofkowd2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-21T17:34:14.735000Z",
+      "title": "Syrian authorities are investigating an explosion near Aleppo that occurred on Sunday. It is the latest mysterious explosion in Syria that…",
+      "url": "https://www.jpost.com/middle-east/article-909204",
+      "summary": "Syrian authorities are investigating an explosion near Aleppo that occurred on Sunday. It is the latest mysterious explosion in Syria that appears to have occurred at an arms depot. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68054",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T17:30:07Z",
+      "title": "💢 رژه یگان‌های ویژه موتوری نیروی زمینی سپاه فردا برگزار می‌شود 🔸 به مناسبت هفته دفاع مقدس رژه یگان‌های ویژه…",
+      "url": "https://t.me/defapress_ir/68054",
+      "summary": "💢 رژه یگان‌های ویژه موتوری نیروی زمینی سپاه فردا برگزار می‌شود 🔸 به مناسبت هفته دفاع مقدس رژه یگان‌های ویژه موتوری نیروی زمینی سپاه پاسداران انقلاب اسلامی عصر فردا در ستاد فرماندهی این نیرو برگزار می‌شود. 🔸 همچنین عصر فردا نمایشگاه دستاورد‌های انقلاب اسلامی پس از رژه یگان‌های موتوری نیروی زمینی سپاه در مجتمع فرهنگی فتح المبین آغاز به کار خواهد کرد. 🔸 افتتاحیه این نمایشگاه با حضور سردار «احمد اخوان» معاون هماهنگ کننده سپاه پاسداران انقلاب اسلامی همراه خواهد بود. dnws.ir/003cnQ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68054"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Motorcyclist special units parade of Sepah ground forces will be held tomorrow. On the occasion of Sacred Defence Week, a motorcyclist special units parade of the Islamic Revolutionary Guards Corps ground forces will be held tomorrow afternoon at the headquarters of this force. Also, tomorrow afternoon, an exhibition of the achievements of the Islamic Revolution will begin after the motorcyclist special units parade of the Sepah ground forces at the Fath al-Mobin Cultural Complex. The opening ceremony of this exhibition will be attended by Commander Ahmad Akhavan, Deputy Coordinator of the Islamic Revolutionary Guards Corps.",
+      "summary_en": "Motorcyclist special units parade of Sepah ground forces will be held tomorrow. On the occasion of Sacred Defence Week, a motorcyclist special units parade of the Islamic Revolutionary Guards Corps ground forces will be held tomorrow afternoon at the headquarters of this force. Also, tomorrow afternoon, an exhibition of the achievements of the Islamic Revolution will begin after the motorcyclist special units parade of the Sepah ground forces at the Fath al-Mobin Cultural Complex. The opening ceremony of this exhibition will be attended by Commander Ahmad Akhavan, Deputy Coordinator of the Islamic Revolutionary Guards Corps.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/362512",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T17:28:44Z",
+      "title": "🔺 تاکید بر تقویت تجارت، انرژی و گردشگری میان دو کشور، در دیدار وزیر کشور پاکستان با رئیس جمهور رئیس جمهور: 🔹…",
+      "url": "https://t.me/iribnews/362512",
+      "summary": "🔺 تاکید بر تقویت تجارت، انرژی و گردشگری میان دو کشور، در دیدار وزیر کشور پاکستان با رئیس جمهور رئیس جمهور: 🔹 ایران و پاکستان می‌توانند نیازهای خود را با اتکا به ظرفیت‌های منطقه‌ای تأمین کنند. 🔹 خوشحالیم که به‌صورت مستمر روند همکاری‌های دوجانبه را پیگیری می‌کنید و امیدواریم این تعاملات در تمامی زمینه‌ها با جدیت بیشتری ادامه یابد. 🔹 بر این باوریم که اقدامات و فشارهای آمریکا، زمینه‌ساز افزایش همگرایی و تعامل مستمر میان کشورهای اسلامی شده است و دیدارها و رایزنی‌های متعدد میان هیئت‌های ایرانی و پاکستانی، نمونه‌ای روشن از این روند به شمار می‌رود. 🔹 ایران و پاکستان از کشورهای قدرتمند منطقه هستند و از",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/362512"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Emphasis on strengthening trade, energy and tourism between the two countries, in the meeting of Pakistan's Interior Minister with the President. The President: Iran and Pakistan can meet their needs by relying on regional capacities. We are pleased that you are continuously pursuing the process of bilateral cooperation, and we hope that these interactions will continue with greater seriousness in all fields. We believe that American measures and pressures have created grounds for increased alignment and continuous cooperation among Islamic countries, and the numerous meetings and consultations between Iranian and Pakistani delegations are a clear example of this process. Iran and Pakistan are powerful countries in the region and",
+      "summary_en": "Emphasis on strengthening trade, energy and tourism between the two countries, in the meeting of Pakistan's Interior Minister with the President. The President: Iran and Pakistan can meet their needs by relying on regional capacities. We are pleased that you are continuously pursuing the process of bilateral cooperation, and we hope that these interactions will continue with greater seriousness in all fields. We believe that American measures and pressures have created grounds for increased alignment and continuous cooperation among Islamic countries, and the numerous meetings and consultations between Iranian and Pakistani delegations are a clear example of this process. Iran and Pakistan are powerful countries in the region and",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mw2abozkn523",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-09-21T17:27:08.324000Z",
+      "title": "IRGC spokesperson Hossein Mohibi told Iran's Fars News Agency that they were ready to change the \"weaponry and geography of the war\" if the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-909203",
+      "summary": "IRGC spokesperson Hossein Mohibi told Iran's Fars News Agency that they were ready to change the \"weaponry and geography of the war\" if the US launches new attacks.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68053",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T17:17:58Z",
+      "title": "💢 بقایی: آمریکا اکنون گرفتار پرده‌ای آهنین شده است 🔸 سخنگوی وزارت خارجه: وقتی هیات حاکمه‌ای حتی مانع از…",
+      "url": "https://t.me/defapress_ir/68053",
+      "summary": "💢 بقایی: آمریکا اکنون گرفتار پرده‌ای آهنین شده است 🔸 سخنگوی وزارت خارجه: وقتی هیات حاکمه‌ای حتی مانع از دسترسی رسانه‌های خود آمریکا به اطلاعات می‌شود و همزمان راه را بر خبرنگاران خارجی‌ از جمله تیم رسانه‌ای رییس‌جمهور ایران -که نمی‌خواهد صدایشان شنیده شود- می‌بندد. 🔸 این کار مدیریت دسترسی نیست بلکه به معنای تلاش برای مخفی کردن حقیقت و ادامه کارزار اطلاعات نادرست جعلی از طریق نقض حق دسترسی به اطلاعات است. 🔸 کشوری که روزگاری ادعای برانداختن «پرده آهنین» را مایه فخر فروشی می‌کرد اکنون خود گرفتار پرده‌ای آهنین در درون خود شده است. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68053"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Baghaei: America is now caught in an iron curtain. Foreign Ministry spokesman: When a ruling body even prevents access by its own American media to information and at the same time blocks the way for foreign journalists, including the media team of the President of Iran – who do not want their voice to be heard. This is not information management, but rather an attempt to hide the truth and continue a campaign of false misinformation by violating the right to access information. A country that once boasted of bringing down the 'iron curtain' is now itself caught in an iron curtain within itself.",
+      "summary_en": "Baghaei: America is now caught in an iron curtain. Foreign Ministry spokesman: When a ruling body even prevents access by its own American media to information and at the same time blocks the way for foreign journalists, including the media team of the President of Iran – who do not want their voice to be heard. This is not information management, but rather an attempt to hide the truth and continue a campaign of false misinformation by violating the right to access information. A country that once boasted of bringing down the 'iron curtain' is now itself caught in an iron curtain within itself.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68052",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:52:00Z",
+      "title": "💢 یحیی سریع: حملات وحشیانه سعودی بی‌پاسخ نخواهد ماند 🔸 جنگنده‌های سعودی به ویژه هواپیما‌های اف-۱۵ و تایفون که…",
+      "url": "https://t.me/defapress_ir/68052",
+      "summary": "💢 یحیی سریع: حملات وحشیانه سعودی بی‌پاسخ نخواهد ماند 🔸 جنگنده‌های سعودی به ویژه هواپیما‌های اف-۱۵ و تایفون که از پایگاه‌های «خمیس مشیط» و «طائف» برخاسته‌اند، در ۲۴ ساعت گذشته ۵۲ حمله هوایی انجام دادند. 🔸 حملات هوایی دشمن سعودی، مدارس، پل‌ها و جاده‌ها در «تعز» و همچنین دیگر اماکن غیرنظامی در «الجوف»، «البیضاء»، «صعده» و «عمران» را هدف قرار داد. 🔸 این حملات وحشیانه سعودی بی‌پاسخ نخواهد ماند. dnws.ir/003cnF @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68052"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yahya Saree: Saudi barbaric attacks will not go unanswered. Saudi fighter jets, particularly F-15 and Typhoon aircraft that have taken off from 'Khamis Mushait' and 'Taif' bases, have carried out 52 air strikes in the past 24 hours. Enemy Saudi air attacks targeted schools, bridges and roads in 'Taiz' as well as other civilian sites in 'Al-Jawf', 'Al-Bayda', 'Saada' and 'Amran'. These barbaric Saudi attacks will not go unanswered.",
+      "summary_en": "Yahya Saree: Saudi barbaric attacks will not go unanswered. Saudi fighter jets, particularly F-15 and Typhoon aircraft that have taken off from 'Khamis Mushait' and 'Taif' bases, have carried out 52 air strikes in the past 24 hours. Enemy Saudi air attacks targeted schools, bridges and roads in 'Taiz' as well as other civilian sites in 'Al-Jawf', 'Al-Bayda', 'Saada' and 'Amran'. These barbaric Saudi attacks will not go unanswered.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/68050",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:47:29Z",
+      "title": "خبرگزاری دفاع مقدس pinned a photo",
+      "url": "https://t.me/defapress_ir/68050",
+      "summary": "خبرگزاری دفاع مقدس pinned a photo",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68050"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sacred Defence News Agency pinned a photo",
+      "summary_en": "Sacred Defence News Agency pinned a photo",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1053",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:47:05Z",
+      "title": "🔎 #قاب_زندگی | روایت‌هایی از زندگی‌ رهبر معظم انقلاب 📖 خرسندی رهبر شهید از شاگردی فرزندشان نزد آیت‌الله شبیری…",
+      "url": "https://t.me/rahbar_ir/1053",
+      "summary": "🔎 #قاب_زندگی | روایت‌هایی از زندگی‌ رهبر معظم انقلاب 📖 خرسندی رهبر شهید از شاگردی فرزندشان نزد آیت‌الله شبیری 💬 آیت‌الله سیدجعفر شبیری زنجانی برادر مرحوم آیت‌الله سیدموسی شبیری زنجانی نقل می‌کنند: ▪️ «یک بار که ناهار خدمت آقای شهید بودیم و آقاسیدموسی نیز آن‌جا بودند، آقازاده‌هایشان هم سر سفره بودند. آقا به اخوی فرمودند: پسرهای من که طلبه شدند، خودشان انتخاب کردند و من به آن‌ها نگفته بودم طلبه بشوند؛ البته من از انتخابشان خوشحال شدم. ▪️ زمانی که یکی از آن‌ها به قم آمد، من نگفتم بیاید درس شما؛ خودش درس شما را انتخاب کرد و من از این انتخاب هم خوشحال شدم.» 🖨 نسخه کیفیت اصلی 💻 Rahbar.ir | 📲 @Rahbar",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1053"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Frame of Life: Narratives from the life of the Supreme Leader of the Revolution. The late Leader's approval of his son's discipleship under Ayatollah Shabiri. Ayatollah Seyed Jafar Shabiri Zanjani, brother of the late Ayatollah Seyed Musa Shabiri Zanjani, recounts: When we were having lunch with the late Master and Aqaseyyed Musa was also there, and their children were also at the table. The Master said to his brother: My sons became seminarians by their own choice and I did not tell them to become seminarians; of course I was pleased with their choice. When one of them came to Qom, I did not say come take lessons with you; he chose your lessons himself and I was also pleased with this choice.",
+      "summary_en": "Frame of Life: Narratives from the life of the Supreme Leader of the Revolution. The late Leader's approval of his son's discipleship under Ayatollah Shabiri. Ayatollah Seyed Jafar Shabiri Zanjani, brother of the late Ayatollah Seyed Musa Shabiri Zanjani, recounts: When we were having lunch with the late Master and Aqaseyyed Musa was also there, and their children were also at the table. The Master said to his brother: My sons became seminarians by their own choice and I did not tell them to become seminarians; of course I was pleased with their choice. When one of them came to Qom, I did not say come take lessons with you; he chose your lessons himself and I was also pleased with this choice.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609212495",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-21T16:42:26Z",
+      "title": "Turkish Airlines says all Iran flights suspended until March 2027",
+      "url": "https://www.iranintl.com/en/202609212495",
+      "summary": "Turkish Airlines has suspended all flights to Iran until at least March 2027, a company representative told Iran International, as Iraq also moves to halt Iranian carriers following a US Treasury warning of a worldwide shutdown of their operations.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:dcbc4904587332c0d015a6e7edb031c6",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-09-21T16:39:00Z",
+      "title": "The Israeli government’s official public mapping site, govmap, recently uncensored previously blurred sections of the Gaza Strip, revealing the locations of military positions in high definition. The findings were first made on Monday by @Stinky915846091, a social media account dedicated to open-source intelligence, especially geo-locating incidents in the Gaza Strip. Previously,  would censor and blur all portions of the Gaza Strip in its aerial imagery, right up until the Israeli security fence. Israeli military bases and other sensitive sites inside Israel and the West Bank are also blurred. However, 2025 imagery recently published by govmap now reveals unblurred secti",
+      "url": "https://x.com/manniefabian/status/2102075318588580046",
+      "summary": "The Israeli government’s official public mapping site, govmap, recently uncensored previously blurred sections of the Gaza Strip, revealing the locations of military positions in high definition.\n\nThe findings were first made on Monday by  @Stinky915846091, a social media account dedicated to open-source intelligence, especially geo-locating incidents in the Gaza Strip.\n\nPreviously,  govmap.gov.il would censor and blur all portions of the Gaza Strip in its aerial imagery, right up until the Israeli security fence. Israeli military bases and other sensitive sites inside Israel and the West Bank",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68049",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:35:28Z",
+      "title": "💢 گوترش: شورای امنیت فلج شده است 🔸 آنتونیو گوترش، دبیرکل سازمان ملل متحد ضمن ابراز تاسف از تلاش ناکام شورای…",
+      "url": "https://t.me/defapress_ir/68049",
+      "summary": "💢 گوترش: شورای امنیت فلج شده است 🔸 آنتونیو گوترش، دبیرکل سازمان ملل متحد ضمن ابراز تاسف از تلاش ناکام شورای امنیت در برقراری آتش‌بس در نوار غزه، تفرقه‌ها و شکاف‌های موجود که این نهاد جهانی را فلج کرده است را محکوم کرد. 🔸 گوترش که در مجمع دوحه سخنرانی می‌کرد، گفت که «تفرقه‌های جغرافیایی-راهبردی شورای امنیت را فلج کرده است و این تفرقه‌ها راه‌حل‌ها برای حل و فصل جنگ اسراییل و حماس را تحت‌الشعاع قرار داده است.» 🔸 اظهارات گوترش دو روز پس از آن مطرح شده است که آمریکا قطعنامه شورای امنیت برای برقراری آتش‌بس در نوار غزه را وتو کرد. dnws.ir/003cnB @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68049"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Guterres: The Security Council is paralysed. Antonio Guterres, Secretary-General of the United Nations, whilst expressing regret at the failed efforts of the Security Council to establish a ceasefire in Gaza, condemned the divisions and rifts that have paralysed this global body. Guterres, speaking at the Doha Assembly, said that 'the geographical-strategic divisions of the Security Council have paralysed it and these divisions have overshadowed solutions for resolving the war between Israel and Hamas.' Guterres' remarks came two days after the United States vetoed a UN Security Council resolution calling for a ceasefire in Gaza.",
+      "summary_en": "Guterres: The Security Council is paralysed. Antonio Guterres, Secretary-General of the United Nations, whilst expressing regret at the failed efforts of the Security Council to establish a ceasefire in Gaza, condemned the divisions and rifts that have paralysed this global body. Guterres, speaking at the Doha Assembly, said that 'the geographical-strategic divisions of the Security Council have paralysed it and these divisions have overshadowed solutions for resolving the war between Israel and Hamas.' Guterres' remarks came two days after the United States vetoed a UN Security Council resolution calling for a ceasefire in Gaza.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68048",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:27:05Z",
+      "title": "💢 عضو دفتر حفظ‌ونشر آثار رهبر شهید انقلاب: رهبر شهید ترجمۀ آقای موسوی گرمارودی را از قوی‌ترین و صحیح‌ترین…",
+      "url": "https://t.me/defapress_ir/68048",
+      "summary": "💢 عضو دفتر حفظ‌ونشر آثار رهبر شهید انقلاب: رهبر شهید ترجمۀ آقای موسوی گرمارودی را از قوی‌ترین و صحیح‌ترین ترجمه‌های فارسی قرآن می‌دانستند و آن را به بسیاری از ترجمه‌ها ترجیح می‌دادند @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68048"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Member of the office for preserving and publishing the works of the late Leader of the Revolution: The late Leader considered Mr Mousavi Garmaroudi's translation as one of the strongest and most correct Persian translations of the Quran and preferred it to many other translations.",
+      "summary_en": "Member of the office for preserving and publishing the works of the late Leader of the Revolution: The late Leader considered Mr Mousavi Garmaroudi's translation as one of the strongest and most correct Persian translations of the Quran and preferred it to many other translations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68047",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T16:13:06Z",
+      "title": "🎥 مدرسه شجره طیبه میناب آماده سال تحصیلی 🔸 امسال ۲۴۰ دانش آموز بازمانده از مدرسه شجره طیبه میناب، به یاد…",
+      "url": "https://t.me/defapress_ir/68047",
+      "summary": "🎥 مدرسه شجره طیبه میناب آماده سال تحصیلی 🔸 امسال ۲۴۰ دانش آموز بازمانده از مدرسه شجره طیبه میناب، به یاد همکلاسی‌ها و معلمان شهیدشان، در مدرسه جدید درس می‌خوانند. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68047"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Shajara Tayyiba School in Minab ready for the academic year. This year, 240 students who were left behind from Shajara Tayyiba School in Minab, in memory of their slain classmates and teachers, are studying in the new school.",
+      "summary_en": "Shajara Tayyiba School in Minab ready for the academic year. This year, 240 students who were left behind from Shajara Tayyiba School in Minab, in memory of their slain classmates and teachers, are studying in the new school.",
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/2026/sc16458.doc.htm",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-09-21T15:50:48Z",
+      "title": "Security Council Press Statement on Escalation in Yemen, Attacks against Kingdom of Saudi Arabia",
+      "url": "https://press.un.org/en/2026/sc16458.doc.htm",
+      "summary": "The following Security Council press statement was issued today by Council President Jérôme Bonnafont (France):",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:89764410573dd15de6e718c8b60abf71",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-09-21T15:31:00Z",
+      "title": "USS Rafael Peralta (DDG 115) sails in regional waters as the guided-missile destroyer continues strict…",
+      "url": "https://x.com/CENTCOM/status/2102058017625723237",
+      "summary": "USS Rafael Peralta (DDG 115) sails in regional waters as the guided-missile destroyer continues strict enforcement of the U.S. blockade against Iran, preventing commerce from entering or departing Iranian ports and coastal areas. As of Sept. 21, U.S. forces have redirected 110 commercial vessels to ensure compliance.— U.S. Central Command (@CENTCOM) Sep 21, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68046",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T15:29:57Z",
+      "title": "💢 نریمانی: امسال چهار رویداد ملی نوآوری و فناوری ویژه نخبگان شاهد و ایثارگر برگزار می‌شود 🔸 «رحیم نریمانی»…",
+      "url": "https://t.me/defapress_ir/68046",
+      "summary": "💢 نریمانی: امسال چهار رویداد ملی نوآوری و فناوری ویژه نخبگان شاهد و ایثارگر برگزار می‌شود 🔸 «رحیم نریمانی» مدیرکل دفتر دانش‌پژوهان و تشکل‌های شاهد و ایثارگر گفت: رویداد‌های ملی نوآوری و فناوری ویژه نخبگان شاهد و ایثارگر با تمرکز بر چهار حوزه راهبردی راه و شهرسازی و هوا و فضا گردشگری و هتلداری صنعت و کشاورزی و سلامت و تجهیزات پزشکی در چهار استان کشور برگزار می‌شود. 🔸 هدف از برگزاری آنها را شناسایی ظرفیت‌های علمی و فناورانه نخبگان و ایجاد زمینه تجاری‌سازی ایده‌ها است و «بنیاد شهید و امور ایثارگران استان قزوین میزبان رویداد ملی با محوریت راه و شهرسازی حمل و نقل و هوا و فضا خواهد بود.» 🔸 «نخبگان و",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68046"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Narimani: This year four national innovation and technology events for the elite among martyrs' families and self-sacrificers will be held. Rahim Narimani, Director-General of the Office of Scholars and Organisations of Martyrs' Families and Self-Sacrificers, said: National innovation and technology events for the elite among martyrs' families and self-sacrificers, focusing on four strategic sectors – roads, urban development, air and space; tourism and hospitality; industry and agriculture; and health and medical equipment – will be held in four provinces of the country. The purpose of holding them is to identify the scientific and technological capacities of the elite and create conditions for commercialising ideas, and 'the Shahid and Self-Sacrificers Foundation of Qazvin Province will host the national event centred on roads, urban development, transport, air and space'. The elite and",
+      "summary_en": "Narimani: This year four national innovation and technology events for the elite among martyrs' families and self-sacrificers will be held. Rahim Narimani, Director-General of the Office of Scholars and Organisations of Martyrs' Families and Self-Sacrificers, said: National innovation and technology events for the elite among martyrs' families and self-sacrificers, focusing on four strategic sectors – roads, urban development, air and space; tourism and hospitality; industry and agriculture; and health and medical equipment – will be held in four provinces of the country. The purpose of holding them is to identify the scientific and technological capacities of the elite and create conditions for commercialising ideas, and 'the Shahid and Self-Sacrificers Foundation of Qazvin Province will host the national event centred on roads, urban development, transport, air and space'. The elite and",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68045",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T15:09:57Z",
+      "title": "💢 اصابت پرتابه ناشناس به یک کشتی در تنگه هرمز 🔸 سازمان عملیات تجارت دریایی انگلیس در گزارشی از وقوع یک حادثه…",
+      "url": "https://t.me/defapress_ir/68045",
+      "summary": "💢 اصابت پرتابه ناشناس به یک کشتی در تنگه هرمز 🔸 سازمان عملیات تجارت دریایی انگلیس در گزارشی از وقوع یک حادثه امنیتی برای یک کشتی حامل گاز مایع (LPG) در هنگام عبور از تنگه هرمز خبر داد. 🔸 سازمان مذکور به نقل از کاپیتان این کشتی گزارش داد که این شناور مورد اصابت «پرتابه‌های ناشناس» قرار گرفته است. 🔸 در این گزارش آمده است که خدمه کشتی در این حادثه آسیب ندیده‌اند. dnws.ir/003cmn @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68045"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Impact of unknown projectile on a vessel in the Strait of Hormuz. The UK Maritime Trade Operations organisation reported an incident of a security incident for a liquefied gas carrier (LPG) passing through the Strait of Hormuz. The organisation reported, quoting the captain of the vessel, that this ship has been hit by 'unknown projectiles'. The report states that the ship's crew suffered no injuries in this incident.",
+      "summary_en": "Impact of unknown projectile on a vessel in the Strait of Hormuz. The UK Maritime Trade Operations organisation reported an incident of a security incident for a liquefied gas carrier (LPG) passing through the Strait of Hormuz. The organisation reported, quoting the captain of the vessel, that this ship has been hit by 'unknown projectiles'. The report states that the ship's crew suffered no injuries in this incident.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68044",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T14:49:57Z",
+      "title": "💢 تسلیت رئیس سازمان بسیج مستضعفین در پی ارتحال آیت‌الله‌العظمی شبیری زنجانی 🔸 حجت الاسلام والمسلیمن «حسین…",
+      "url": "https://t.me/defapress_ir/68044",
+      "summary": "💢 تسلیت رئیس سازمان بسیج مستضعفین در پی ارتحال آیت‌الله‌العظمی شبیری زنجانی 🔸 حجت الاسلام والمسلیمن «حسین طائب» رئیس سازمان بسیج مستضعفین با صدور پیامی ارتحال مرجع عالی قدر تشیع آیت‌الله‌العظمی شبیری زنجانی را تسلیت گفت. 🔸 خبر ارتحال فقیه وارسته و مرجع عالی‌قدر جهان تشیع، حضرت آیت‌الله‌العظمی شبیری زنجانی (رضوان‌الله‌تعالی‌علیه)، عموم جامعه و متدینین، جامعه علمی و دینی را در سوگ فرو برد؛ بی‌تردید ارتحال این عالمِ فاضل، ضایعه‌ای سنگین برای حوزه‌ی علمیه و ملت شریف ایران خواهد بود. dnws.ir/003cml @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68044"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Condolence from the head of the Basij Organisation of the Oppressed following the passing of Grand Ayatollah Shabiri Zanjani. Hujjat al-Islam wal-Muslimin Hossein Taib, head of the Basij Organisation of the Oppressed, issued a message of condolence on the passing of the esteemed source of emulation in Shiism, Grand Ayatollah Shabiri Zanjani. The news of the passing of the accomplished jurist and esteemed source of emulation of the Shia world, His Eminence Grand Ayatollah Shabiri Zanjani (may God have mercy upon him), has brought mourning to society at large and the faithful, the scholarly and religious community and the Iranian nation; undoubtedly the passing of this learned scholar will be a grave loss for the seminary and the noble nation of Iran.",
+      "summary_en": "Condolence from the head of the Basij Organisation of the Oppressed following the passing of Grand Ayatollah Shabiri Zanjani. Hujjat al-Islam wal-Muslimin Hossein Taib, head of the Basij Organisation of the Oppressed, issued a message of condolence on the passing of the esteemed source of emulation in Shiism, Grand Ayatollah Shabiri Zanjani. The news of the passing of the accomplished jurist and esteemed source of emulation of the Shia world, His Eminence Grand Ayatollah Shabiri Zanjani (may God have mercy upon him), has brought mourning to society at large and the faithful, the scholarly and religious community and the Iranian nation; undoubtedly the passing of this learned scholar will be a grave loss for the seminary and the noble nation of Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "govuk:https://www.gov.uk/government/speeches/un-human-rights-council-63-uk-statement-for-the-interactive-dialogue-on-iran#2026-09-21T14:32:02Z",
+      "source": "UK Government",
+      "source_detail": "Foreign, Commonwealth and Development Office",
+      "source_tier": 2,
+      "category": "uk-govt",
+      "published_at": "2026-09-21T14:32:02Z",
+      "title": "UN Human Rights Council 63: UK Statement for the Interactive Dialogue on Iran",
+      "url": "https://www.gov.uk/government/speeches/un-human-rights-council-63-uk-statement-for-the-interactive-dialogue-on-iran",
+      "summary": "UK Statement for the Interactive Dialogue on Iran. Delivered by the UK's Permanent Representative to the WTO and UN, Kumar Iyer.",
+      "details": {},
+      "tags": [
+        "uk-government"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/68040",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-09-21T14:20:36Z",
+      "title": "💢 برگزاری نمایشگاه کودکان میناب مقابل سازمان ملل متحد در ژنو 🔸 نمایشگاه کودکان میناب، به همت دو تن از فعالان…",
+      "url": "https://t.me/defapress_ir/68040",
+      "summary": "💢 برگزاری نمایشگاه کودکان میناب مقابل سازمان ملل متحد در ژنو 🔸 نمایشگاه کودکان میناب، به همت دو تن از فعالان مدنی ایرانی مقیم ژنو، مقابل مقر سازمان ملل متحد در ژنو برپا شد. 🔸 این نمایشگاه از روز شنبه در میدان ملل (Place des Nations)، مقابل ورودی اصلی مقر سازمان ملل متحد و در مجاورت «صندلی شکسته» معروف ژنو - نمادی شناخته‌شده از پیامد‌های جنگ و خشونت علیه غیرنظامیان - راه اندازی شده است و تا روز سه‌شنبه ۳۱ شهریور ادامه خواهد داشت. 🔸 در این نمایشگاه، تصاویری از ابعاد این فاجعه انسانی، نقاشی‌های کودکان شهید میناب و همچنین چند کیف مدرسه و شماری از اشیای به‌جامانده از آنان در معرض دید دیپلمات‌ها، کا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/68040"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Exhibition of Minab children held opposite the United Nations headquarters in Geneva. The Minab Children's Exhibition, thanks to the efforts of two Iranian civil activists residing in Geneva, was set up opposite the headquarters of the United Nations in Geneva. This exhibition started on Saturday in Nations Square (Place des Nations), opposite the main entrance of the UN headquarters and adjacent to the famous 'broken chair' of Geneva – a recognisable symbol of the consequences of war and violence against civilians – and will continue until Tuesday, 31 Shahrivar. In this exhibition, images of the dimensions of this human tragedy, paintings by the martyred children of Minab, as well as several school bags and a number of objects left behind by them are on display for diplomats, civilian activists and visitors from all over the world. A number of Iranian civil activists and human rights defenders who are residents of Geneva and Switzerland participated in the opening of this exhibition.",
+      "summary_en": "Exhibition of Minab children held opposite the United Nations headquarters in Geneva. The Minab Children's Exhibition, thanks to the efforts of two Iranian civil activists residing in Geneva, was set up opposite the headquarters of the United Nations in Geneva. This exhibition started on Saturday in Nations Square (Place des Nations), opposite the main entrance of the UN headquarters and adjacent to the famous 'broken chair' of Geneva – a recognisable symbol of the consequences of war and violence against civilians – and will continue until Tuesday, 31 Shahrivar. In this exhibition, images of the dimensions of this human tragedy, paintings by the martyred children of Minab, as well as several school bags and a number of objects left behind by them are on display for diplomats, civilian activists and visitors from all over the world. A number of Iranian civil activists and human rights defenders who are residents of Geneva and Switzerland participated in the opening of this exhibition.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609218925",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-21T11:44:58Z",
+      "title": "Iran threatens wider war as tanker attacks test mediation efforts",
+      "url": "https://www.iranintl.com/en/202609218925",
+      "summary": "Iran threatened to expand the battlefield and deploy new weapons if fighting resumes, while two tankers were hit in the Strait of Hormuz and regional mediators stepped up efforts Monday to revive talks between Tehran and Washington.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609212693",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-21T09:53:42Z",
+      "title": "Frozen embryos advertised for sale online in Iran",
+      "url": "https://www.iranintl.com/en/202609212693",
+      "summary": "An informal market for frozen embryos appears to be emerging on Iranian social media and online marketplaces, where sellers are advertising them for cash outside the country’s donation system, local media reported on Monday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202609218799",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-09-21T09:29:20Z",
+      "title": "Economic crisis puts Iran’s coal miners at greater risk",
+      "url": "https://www.iranintl.com/en/202609218799",
+      "summary": "Iran’s economic crisis and rising currency costs are making essential safety equipment harder for coal mines to obtain, increasing risks for workers already operating in dangerous conditions, labor news agency ILNA reported on Monday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:pcqzb7h2f5f3hyxvjuphjvdm/app.bsky.feed.post/3mvzdyo4tnd2h",
+      "source": "Times of Israel",
+      "source_detail": "Times of Israel · Bluesky",
+      "source_tier": 2,
+      "category": "toi-bsky",
+      "published_at": "2026-09-21T09:01:01.628000Z",
+      "title": "Saudi leader’s old and new military alliances are offering little protection, and his previous engagement with Tehran didn’t help either;…",
+      "url": "https://bsky.app/profile/timesofisrael.com/post/3mvzdyo4tnd2h",
+      "summary": "Saudi leader’s old and new military alliances are offering little protection, and his previous engagement with Tehran didn’t help either; blocked in Hormuz and Red Sea, Riyadh needs new security partners.\n\nRead more: www.timesofisrael.com/as-iran-and-...",
+      "details": {
+        "handle": "timesofisrael.com"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    }
+  ]
+}
