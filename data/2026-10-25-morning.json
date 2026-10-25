@@ -1,0 +1,1615 @@
+{
+  "generated_at": "2026-10-25T10:01:12.366696Z",
+  "window_since": "2026-10-24T09:59:25.554172Z",
+  "window_until": "2026-10-25T09:59:25.554172Z",
+  "edition": "morning",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 7,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 28,
+      "kept": 28,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 11,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 101,
+      "kept": 24,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "66 items: Iran claims downing of US MQ-4C Triton over Bandar Abbas, Araghchi says Strait of Hormuz management will not revert, Houthi missile/drone salvoes intercepted over Riyadh and Mecca/Medina, IDF kills two Hamas/PIJ financiers in Gaza, nothing from UK Parliament or OFAC.",
+  "threads": [
+    {
+      "label": "Bandar Abbas drone and US posture",
+      "summary": "Defa Press and Tasnim claimed Iranian army air defence downed a US MQ-4C Triton drone over Bandar Abbas, while CENTCOM posted imagery of A-10 patrol flights over the Middle East. The Jerusalem Post relayed the Iranian army claim via Tasnim.",
+      "event_ids": [
+        "telegram:defapress_ir/70613",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoojydv7u2t",
+        "x_via_rssapp:a39c4badb01d0efd4f61d430179391ce"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Strait of Hormuz and US pressure",
+      "summary": "Foreign Minister Araghchi said per Defa Press that Strait of Hormuz management will not revert to its prior state, while Iran International reported Tehran's envoy to Pakistan offered reopening if Washington lifted a naval blockade as Trump raised prospect of strikes. Defa Press also published commentaries on oil at $117 and the US 'Mother of All Bombs'.",
+      "event_ids": [
+        "telegram:defapress_ir/70615",
+        "iranintl:https://www.iranintl.com/en/202610252197",
+        "telegram:defapress_ir/70609",
+        "telegram:defapress_ir/70611",
+        "telegram:iribnews/368568",
+        "telegram:defapress_ir/70612"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran retaliation threats and plots",
+      "summary": "The Jerusalem Post reported Tehran is threatening strikes on an expanded target list including civilian infrastructure, and cited two Iranian officials describing plots to target US diplomats. Parliament speaker Qalibaf told Defa Press Iran would deliver a response 'beyond imagination' to any encroachment.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myocypt7xv2s",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myokd64mkv2h",
+        "telegram:defapress_ir/70617",
+        "telegram:defapress_ir/70618"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Houthi–Saudi missile exchanges",
+      "summary": "The Saudi-led coalition said it intercepted drones and missiles over Riyadh and the south, and two Houthi ballistic missiles aimed at Mecca and Medina were intercepted as the Houthis claimed attacks on Saudi oil facilities and airports. IRIB cited Al-Masira reporting Saudi airstrikes on Taiz and Amran provinces, and Houthi media reported Saudi strikes in Sanaa.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoufudem62c",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoem5w5ll25",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn7b53uxm2e",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn65qsgak2d",
+        "telegram:iribnews/368559",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymrn5gzpn2x",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mympwnebek22",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymp7jvpaj2k"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IDF Gaza and West Bank operations",
+      "summary": "The IDF said it killed Hamas cell commander Alaa Ibrahim Nimer Arshi and PIJ operative Karam Riyad Hassan Abu Butaihan, accused of transferring millions of shekels from Iran and Turkey to Hamas, and reported troops killed two further operatives crossing the Yellow Line. Over the weekend forces operated in ~40 areas and 400 locations in Judea and Samaria, arresting ~40 suspects, with three Hebron residents detained for online support of Friday's attack.",
+      "event_ids": [
+        "x_via_rssapp:c8b4c84d16d14ffb7544edb24ab51a93",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoum2fykv25",
+        "x_via_rssapp:2e41363fb994f2114e106df5a67c6dad",
+        "x_via_rssapp:a9bfe158c4d4437ca5d1ff71e6d6a5ac",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymh2li2ce2n",
+        "x_via_rssapp:7360ec41688729c4cde15eac93c9b166",
+        "x_via_rssapp:96cb00e6203cf2e62dca248460c5e9e0",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myovpdrcmo2e",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mynddhk2652r",
+        "x_via_rssapp:c49037d1a4118e9186cb97e97a797ef8"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iraq spillover and Syria concerns",
+      "summary": "Iran International and the Jerusalem Post reported Baghdad believes Israel was behind recent strikes on Iran-backed militia weapons stockpiles in Iraq, with militias accusing the US of airspace violations amid disarmament tensions. A security source told Walla that Israel is concerned Syrian regime–linked operatives intend to renew attacks on Druze in southern Syria.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202610242914",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mynh7537qc2d",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymztqr4tu2s",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoqobvrsi22",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn3qzkdki2k"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran domestic pressures and judiciary",
+      "summary": "President Pezeshkian said many Iranians are struggling with US economic pressure and blamed Washington for interim-deal failure, while Iran International reported mobile data prices up to 40% higher and an uptick in Baluch attacks (18 in 18 days to 10 October). IRIB reported the Supreme Court upheld a 12-year sentence against Sadegh Saadi-Nia, and parliament obligated publication of a 'hostile media' list.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myo76gnvvx2v",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymutqntiv2e",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn3xf2i752s",
+        "iranintl:https://www.iranintl.com/en/202610244351",
+        "iranintl:https://www.iranintl.com/en/202610230487",
+        "telegram:iribnews/368556",
+        "telegram:iribnews/368548",
+        "telegram:rahbar_ir/1199"
+      ],
+      "tier4_present": true
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/368568",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:58:15Z",
+      "title": "آکسیوس: بحران در هوانوردی آمریکا؛ جهش قیمت سوخت و بلیت در پی جنگ با ایران 🔹 پایگاه خبری آکسیوس از تشدید…",
+      "url": "https://t.me/iribnews/368568",
+      "summary": "آکسیوس: بحران در هوانوردی آمریکا؛ جهش قیمت سوخت و بلیت در پی جنگ با ایران 🔹 پایگاه خبری آکسیوس از تشدید فشارهای مالی بر شرکت‌های هواپیمایی آمریکا به دلیل افزایش سرسام‌آور قیمت سوخت خبر داد. 🔹 جهش نرخ سوخت موجب افزایش چشمگیر قیمت بلیت‌ها و حذف پروازهای اقتصادی و ارزان‌قیمت برای مسافران شده است. 🔹 شرکت «امریکن ایرلاینز» از افزایش ۷۰ درصدی هزینه‌های سوخت در سه‌ماهه سوم ۲۰۲۶ خبر داده که نزدیک به ۲ میلیارد دلار بار مالی جدید به همراه داشته است. 🔹 شرکت «یونایتد ایرلاینز» پیش‌بینی سود سالانه خود را کاهش داده و «دلتا ایرلاینز» نیز اعلام کرده هزینه سوخت امسال آن ۶ میلیارد دلار سنگین‌تر از سال گذشته خوا",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368568"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Axios: Crisis in US aviation; fuel and ticket price surge following war with Iran",
+      "summary_en": "Axios: Crisis in US aviation; fuel and ticket price surge following war with Iran. The Axios news agency reported intensifying financial pressures on US airline companies due to the astronomical increase in fuel prices. The surge in fuel rates has caused a marked increase in ticket prices and the elimination of economy and budget flights for passengers. American Airlines reported a 70 per cent increase in fuel costs in the third quarter of 2026, bringing a new financial burden of nearly 2 billion dollars. United Airlines has reduced its annual profit forecast and Delta Airlines announced that this year's fuel costs are 6 billion dollars heavier than last year.",
+      "has_figures": true,
+      "figures_examples": [
+        "2 billion",
+        "6 billion"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/70619",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:52:15Z",
+      "title": "💢 کاظمی: رأی پرونده بیماران پروانه‌ای اجرا شد/ قدرت سیاسی و نظامی دشمنان مانع اجرای عدالت نیست 🔸 سخنگوی…",
+      "url": "https://t.me/defapress_ir/70619",
+      "summary": "💢 کاظمی: رأی پرونده بیماران پروانه‌ای اجرا شد/ قدرت سیاسی و نظامی دشمنان مانع اجرای عدالت نیست 🔸 سخنگوی دستگاه قضا با تأکید بر اهمیت اجرای احکام قضایی در پرونده بیماران پروانه‌ای گفت: حق صرفاً آن نیست که در قانون ذکر یا در حکم قید شود؛ بلکه حق زمانی محقق می‌شود…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70619"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kazemi: Ruling in butterfly patients case executed; enemies' political and military power cannot prevent justice",
+      "summary_en": "Kazemi: Ruling in butterfly patients case executed; enemies' political and military power cannot prevent justice. The judiciary spokesperson, emphasising the importance of executing judicial rulings in the butterfly patients case, said: right is not merely something mentioned in law or stipulated in a ruling; rather, right is realised when it connects directly with the lives and families of individuals who have sought justice.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368567",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:45:56Z",
+      "title": "🎦 رئیس مرکز ارتباطات و امور بین الملل شهرداری تهران: از طرح تورم صفر تاکنون استقبال خوبی شکل گرفته و مردم هر…",
+      "url": "https://t.me/iribnews/368567",
+      "summary": "🎦 رئیس مرکز ارتباطات و امور بین الملل شهرداری تهران: از طرح تورم صفر تاکنون استقبال خوبی شکل گرفته و مردم هر کالایی را که نیاز داشتند؛ تهیه کردند  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368567"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of Tehran Municipality's communications and international affairs centre: Zero inflation plan has been well received and people have procured whatever goods they needed",
+      "summary_en": "Head of Tehran Municipality's communications and international affairs centre: Zero inflation plan has been well received and people have procured whatever goods they needed.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368561",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:37:02Z",
+      "title": "📸 نصب کتیبه‌های شهادت حضرت زهرا سلام‌الله علیها در حرم مطهر رضوی @iribnews",
+      "url": "https://t.me/iribnews/368561",
+      "summary": "📸 نصب کتیبه‌های شهادت حضرت زهرا سلام‌الله علیها در حرم مطهر رضوی @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368561"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Installation of plaques commemorating the martyrdom of Fatima at the holy Razavi shrine",
+      "summary_en": "Installation of plaques commemorating the martyrdom of Fatima at the holy Razavi shrine.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368560",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:34:57Z",
+      "title": "در بحبوحه اعتراضات؛ فرانسه دسترسی به شبکه‌های اجتماعی را محدود می‌کند 🔹 سباستین لوکورنو نخست وزیر فرانسه از…",
+      "url": "https://t.me/iribnews/368560",
+      "summary": "در بحبوحه اعتراضات؛ فرانسه دسترسی به شبکه‌های اجتماعی را محدود می‌کند 🔹 سباستین لوکورنو نخست وزیر فرانسه از چهار اپراتور بزرگ مخابراتی این کشور خواست برای تعلیق موقت دسترسی مردم به شبکه های اجتماعی آماده باشند. این اقدام پس از اعتراضات ۱۷ و ۱۸ اکتبر و ناآرامی های بعد از آن ارائه شده است. 🔹 مقامات فرانسوی مدعی هستند که در جریان این اعتراضات از پلتفرم های فضای مجازی برای هماهنگی اقدامات خشونت آمیز، تبادل اطلاعات درباره اهداف و اطلاع رسانی درباره تحرکات نیروهای امنیتی استفاده شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368560"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Amid protests, France restricts access to social media networks",
+      "summary_en": "Amid protests, France restricts access to social media networks. French Prime Minister Sébastien Lecornu requested that four major telecommunications operators in the country be prepared for temporary suspension of public access to social media networks. This measure was presented following the 17 and 18 October protests and the unrest that followed. French officials claim that during these protests, virtual space platforms were used to coordinate violent actions, exchange information about targets and disseminate information about the movements of security forces.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myovpdrcmo2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T09:34:12.839000Z",
+      "title": "Three Hebron residents were arrested overnight on Sunday on suspicion of expressing support on social media for the terrorist attack in the…",
+      "url": "https://www.jpost.com/israel-news/crime-in-israel/article-912760",
+      "summary": "Three Hebron residents were arrested overnight on Sunday on suspicion of expressing support on social media for the terrorist attack in the West Bank on Friday, as well as for Hamas.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368559",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:24:01Z",
+      "title": "تجاوز هوایی عربستان سعودی به دو استان یمن 🔹 به گزارش المسیره عربستان منطقه «عزلة الأثاور» در شهرستان حَیفان…",
+      "url": "https://t.me/iribnews/368559",
+      "summary": "تجاوز هوایی عربستان سعودی به دو استان یمن 🔹 به گزارش المسیره عربستان منطقه «عزلة الأثاور» در شهرستان حَیفان در استان تعز را هدف قرار داد. 🔹 در حمله دوم، جنگنده‌های عربستان سعودی شهرستان «حَرف سفیان» در استان عمران را بمباران کردند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368559"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Saudi aerial incursion into two Yemeni provinces",
+      "summary_en": "Saudi aerial incursion into two Yemeni provinces. According to Al-Masira, Saudi Arabia targeted the area of 'Azlat al-Athawir' in Hayfan district in Taiz province. In a second strike, Saudi fighter jets bombed 'Harf Sufyan' district in Amran province.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70618",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:20:19Z",
+      "title": "💢 کاظمی: رأی پرونده بیماران پروانه‌ای اجرا شد/ قدرت سیاسی و نظامی دشمنان مانع اجرای عدالت نیست 🔸 سخنگوی…",
+      "url": "https://t.me/defapress_ir/70618",
+      "summary": "💢 کاظمی: رأی پرونده بیماران پروانه‌ای اجرا شد/ قدرت سیاسی و نظامی دشمنان مانع اجرای عدالت نیست 🔸 سخنگوی دستگاه قضا با تأکید بر اهمیت اجرای احکام قضایی در پرونده بیماران پروانه‌ای گفت: حق صرفاً آن نیست که در قانون ذکر یا در حکم قید شود؛ بلکه حق زمانی محقق می‌شود که با زندگی و خانواده افرادی که دادخواهی کرده‌اند، پیوند مستقیم پیدا کند. 🔸 می‌دانیم مبالغی که در این پرونده به نتیجه رسیده، پاسخگوی تمام رنج‌ها و آلامی نیست که این خانواده‌های عزیز تحمل کرده‌اند؛ اما این اقدام یک پیام روشن دارد و آن اینکه دادبانان جمهوری اسلامی ایران با تمام توان ایستاده‌اند، صدای مظلومان را می‌شنوند، بررسی‌های لازم را",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70618"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kazemi: Ruling in butterfly patients case executed; enemies' political and military power cannot prevent justice",
+      "summary_en": "Kazemi: Ruling in butterfly patients case executed; enemies' political and military power cannot prevent justice. The judiciary spokesperson, emphasising the importance of executing judicial rulings in the butterfly patients case, said: right is not merely something mentioned in law or stipulated in a ruling; rather, right is realised when it connects directly with the lives and families of individuals who have sought justice. We know that the sums achieved in this case do not answer all the suffering and pain that these dear families have endured; however, this action has a clear message, and that is that the guardians of justice of the Islamic Republic of Iran stand with all their might, listen to the voice of the oppressed, conduct necessary investigations.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368558",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:19:56Z",
+      "title": "کشتی فرنگی قهرمانی جهان؛  نماینده وزن ۱۳۰ کیلوگرم ایران راهی مرحله یک چهارم نهایی شد 🔹 فردین هدایتی نماینده…",
+      "url": "https://t.me/iribnews/368558",
+      "summary": "کشتی فرنگی قهرمانی جهان؛  نماینده وزن ۱۳۰ کیلوگرم ایران راهی مرحله یک چهارم نهایی شد 🔹 فردین هدایتی نماینده وزن ۱۳۰ کیلوگرم ایران در دور دوم با نتیجه ۸ بر صفر سیرلیبای از قزاقستان را شکست داد و راهی مرحله یک چهارم نهایی مسابقات کشتی فرنگی قهرمانی جهان شد.…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368558"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Greco-Roman wrestling world championship; Iran's 130 kilogramme weight representative advanced to the quarter-final stage",
+      "summary_en": "Greco-Roman wrestling world championship; Iran's 130 kilogramme weight representative advanced to the quarter-final stage. Ferdin Hedayati, Iran's representative in the 130 kilogramme weight category, defeated Seirbai from Kazakhstan 8-0 in the second round and advanced to the quarter-final stage of the Greco-Roman wrestling world championship.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368557",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:18:01Z",
+      "title": "عارف: وزارتخانه‌های بهداشت و آموزش‌وپرورش و دانشگاه آزاد برای ادامه تحصیل دختران محجبه جمهوری آذربایجان اقدام…",
+      "url": "https://t.me/iribnews/368557",
+      "summary": "عارف: وزارتخانه‌های بهداشت و آموزش‌وپرورش و دانشگاه آزاد برای ادامه تحصیل دختران محجبه جمهوری آذربایجان اقدام کنند محمدرضا عارف در شبکه اجتماعی ایکس نوشت: 🔹 ضمن قدردانی از رویکرد هوشمندانه وزارت علوم در استقبال از پذیرش دختران محجبه محروم از تحصیل جمهوری آذربایجان، از وزرای محترم بهداشت و آموزش و پرورش و رئیس محترم دانشگاه آزاد اسلامی نیز می‌خواهم برای پذیرش و ادامه تحصیل دانش‌آموزان و دانشجویان آذربایجانی اقدامات لازم را انجام دهند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368557"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Aref: Ministries of health, education and Azad University should take measures to continue education for veiled girls from the Republic of Azerbaijan",
+      "summary_en": "Aref: Ministries of health, education and Azad University should take measures to continue education for veiled girls from the Republic of Azerbaijan. Mohammad Reza Aref wrote on the X social network: While expressing gratitude for the intelligent approach of the Ministry of Science in welcoming the admission of veiled girls deprived of education from the Republic of Azerbaijan, I request the esteemed ministers of health and education and the respected president of Azad Islamic University to take necessary measures for the admission and continuation of education for students from Azerbaijan.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoum2fykv25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T09:14:28.333068Z",
+      "title": "IDF kills two terrorists in Gaza involved in funneling millions to Hamas",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myoum2fykv25",
+      "summary": "IDF kills two terrorists in Gaza involved in funneling millions to Hamas",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368556",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:13:14Z",
+      "title": "🔺 دیوان عالی حکم ۱۲ سال حبس و مصادره اموال ساعدی‌نیا را تایید کرد 🔹 مرکز رسانه قوه‌قضاییه: حکم پرونده «صادق…",
+      "url": "https://t.me/iribnews/368556",
+      "summary": "🔺 دیوان عالی حکم ۱۲ سال حبس و مصادره اموال ساعدی‌نیا را تایید کرد 🔹 مرکز رسانه قوه‌قضاییه: حکم پرونده «صادق ساعدی‌نیا» در دیوان عالی کشور تایید و او به حبس و مصادره کلیه اموال منقول و غیرمنقول محکوم شد. 🔹 همزمان با کودتای ۱۸ و ۱۹ دی سال گذشته که از سوی دشمن…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368556"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Supreme Court upholds 12-year prison sentence and asset seizure for Saadi-Nia",
+      "summary_en": "Supreme Court upholds 12-year prison sentence and asset seizure for Saadi-Nia. Judiciary media centre: The ruling in the 'Sadegh Saadi-Nia' case at the Supreme Court of the country has been upheld and he has been sentenced to imprisonment and confiscation of all movable and immovable property. Concurrent with the coup of 18 and 19 Dey last year staged by the enemy.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoufudem62c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T09:11:00.873000Z",
+      "title": "Saudi Arabia intercepted drones and missiles over its capital, Riyadh, and southern areas on Sunday, the Saudi-led coalition in Yemen said,…",
+      "url": "https://www.jpost.com/middle-east/article-912766",
+      "summary": "Saudi Arabia intercepted drones and missiles over its capital, Riyadh, and southern areas on Sunday, the Saudi-led coalition in Yemen said, as fighting with the Houthis persisted.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368554",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:06:34Z",
+      "title": "🔺 امحای مهمات غیر قابل استفاده در پارچین فرمانده سپاه ثامن الحجج پاکدشت: 🔹 علت شنیده شدن ۴ مرتبه صدای انفجار…",
+      "url": "https://t.me/iribnews/368554",
+      "summary": "🔺 امحای مهمات غیر قابل استفاده در پارچین فرمانده سپاه ثامن الحجج پاکدشت: 🔹 علت شنیده شدن ۴ مرتبه صدای انفجار از منطقه نظامی پارچین امحای کنترل شده مهمات غیر قابل استفاده بوده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368554"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Destruction of unusable ammunition in Parchin by commander of Sepah Thaamen al-Hujaj Pakdasht",
+      "summary_en": "Destruction of unusable ammunition in Parchin by commander of Sepah Thaamen al-Hujaj Pakdasht: The reason for hearing four explosions from the Parchin military area was the controlled destruction of unusable ammunition.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:c8b4c84d16d14ffb7544edb24ab51a93",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-10-25T09:04:00Z",
+      "title": "🔴ELIMINATED: Alaa Ibrahim Nimer Arshi, a Hamas cell commander & Karam Riyad Hassan Abu Butaihan, an Islamic Jihad terrorist. Throughout the war, both terrorists were involved in facilitating the transfer of millions of shekels from the Iranian regime and Turkey to Hamas' military wing. They were eliminated in order to remove the threat they posed. Additionally, the IDF struck a weapons storage facility in central Gaza and dismantled it. The facility was used by Hamas' military wing to store various types of weapons, including Kalashnikov rifles, a launcher & rockets.",
+      "url": "https://x.com/IDF/status/2114282055118753799",
+      "summary": "🔴ELIMINATED: Alaa Ibrahim Nimer Arshi, a Hamas cell commander & Karam Riyad Hassan Abu Butaihan, an Islamic Jihad terrorist.\n\nThroughout the war, both terrorists were involved in facilitating the transfer of millions of shekels from the Iranian regime and Turkey to Hamas' military wing. They were eliminated in order to remove the threat they posed.\n\nAdditionally, the IDF struck a weapons storage facility in central Gaza and dismantled it. \n\nThe facility was used by Hamas' military wing to store various types of weapons, including Kalashnikov rifles, a launcher & rockets.— Israel Defense Forces",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368553",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:03:02Z",
+      "title": "صدای انفجار شنیده شده در اهواز، خنثی سازی مهمات عمل نکرده از جنگ اخیر است ولی الله حیاتی معاون امنیتی و…",
+      "url": "https://t.me/iribnews/368553",
+      "summary": "صدای انفجار شنیده شده در اهواز، خنثی سازی مهمات عمل نکرده از جنگ اخیر است ولی الله حیاتی معاون امنیتی و انتظامی استانداری خوزستان: 🔹 صدای انفجار شنیده شده در اهواز ناشی از عملیات خنثی سازی مهمات عمل نکرده از جنگ اخیر است و جای هیچگونه نگرانی برای شهروندان وجود ندارد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368553"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion sound heard in Ahvaz is from defusing unexploded ordnance from recent war",
+      "summary_en": "Explosion sound heard in Ahvaz is from defusing unexploded ordnance from recent war. Vali Allah Hayati, security and police deputy of Khuzestan province governorate: The sound of explosion heard in Ahvaz resulted from operations to defuse unexploded ordnance from the recent war and there is no cause for concern for citizens.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368552",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T09:00:26Z",
+      "title": "اعلام آخرین جزئیات جدید برای معلمان متعهد خدمت سخنگوی وزارت آموزش و پرورش: 🔹 معلمان مشمول طرح متعهدین خدمت،…",
+      "url": "https://t.me/iribnews/368552",
+      "summary": "اعلام آخرین جزئیات جدید برای معلمان متعهد خدمت سخنگوی وزارت آموزش و پرورش: 🔹 معلمان مشمول طرح متعهدین خدمت، پس از پایان تعهد و گذراندن دوره رزم مقدماتی، کارت پایان خدمت دریافت می‌کنند. 🔹 مدت دوره رزم مقدماتی با هماهنگی‌های انجام‌شده، از دو ماه به یک هفته کاهش یافته است. www.irib-news.ir/00OxKd @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368552"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Announcement of latest new details for committed service teachers",
+      "summary_en": "Announcement of latest new details for committed service teachers. Spokesperson for the Ministry of Education: Teachers covered by the committed service scheme, after completion of their commitment and completion of preliminary combat training, receive a service termination certificate. The duration of preliminary combat training has been reduced from two months to one week following coordination.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368551",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:56:39Z",
+      "title": "🎦 ناصر عتباتی‌ رئیس کل دادگستری استان تهران در جلسه دادگاه رسیدگی به پرونده بیماران پروانه‌ای: اموال یک کشتی…",
+      "url": "https://t.me/iribnews/368551",
+      "summary": "🎦 ناصر عتباتی‌ رئیس کل دادگستری استان تهران در جلسه دادگاه رسیدگی به پرونده بیماران پروانه‌ای: اموال یک کشتی آمریکایی که توسط نیروی های مسلح ما توقیف شده و طی یک روند شفاف قضایی، صرف هزینه درمان بیماران پروانه‌ای شده است @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368551"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Nasser Attabati, chief judge of Tehran province court, at the hearing of the butterfly patients case: assets of an American ship seized by our armed forces have been used to pay for treatment of butterfly patients",
+      "summary_en": "Nasser Attabati, chief judge of Tehran province court, at the hearing of the butterfly patients case: assets of an American ship seized by our armed forces and through a transparent judicial process have been used to pay for treatment of butterfly patients.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368550",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:53:58Z",
+      "title": "مسابقات کشتی فرنگی قهرمانی جهان؛  ساروی راهی نیمه نهایی شد 🔹 محمدهادی ساروی نماینده وزن ۹۷ کیلوگرم کشتی فرنگی…",
+      "url": "https://t.me/iribnews/368550",
+      "summary": "مسابقات کشتی فرنگی قهرمانی جهان؛  ساروی راهی نیمه نهایی شد 🔹 محمدهادی ساروی نماینده وزن ۹۷ کیلوگرم کشتی فرنگی کشورمان  با نتیجه ۵ بر صفر از سد ویوگ از آلمان گذشت و به دیدار نیمه نهایی مسابقات قهرمانی جهان راه یافت. 🔹 وی پیش از این حریفی از ارمنستان را شکست…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368550"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Greco-Roman wrestling world championship; Saravi advanced to the semi-final",
+      "summary_en": "Greco-Roman wrestling world championship; Saravi advanced to the semi-final. Mohammad Hadi Saravi, Iran's representative in the 97 kilogramme weight category in Greco-Roman wrestling, defeated Wivog from Germany 5-0 and qualified for the semi-final match of the world championship. He had previously defeated an opponent from Armenia.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368549",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:50:01Z",
+      "title": "اعلام نتایج نهایی آزمون کاردانی به کارشناسی ناپیوسته سال ۱۴۰۵ سازمان سنجش آموزش کشور: 🔹 اسامی پذیرفته‌شدگان…",
+      "url": "https://t.me/iribnews/368549",
+      "summary": "اعلام نتایج نهایی آزمون کاردانی به کارشناسی ناپیوسته سال ۱۴۰۵ سازمان سنجش آموزش کشور: 🔹 اسامی پذیرفته‌شدگان رشته‌های متمرکز و معرفی‌شدگان چند برابر ظرفیت فوریت‌های پزشکی پیش‌بیمارستانی اعلام شد. 🔹 پذیرفته‌شدگان از دوشنبه ۴ آبان برای اطلاع از زمان و نحوه ثبت‌نام به درگاه دانشگاه محل قبولی مراجعه کنند. 🔹 معرفی‌شدگان رشته فوریت‌های پزشکی پیش‌بیمارستانی نیز باید برای انجام مصاحبه اقدام کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368549"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Announcement of final results of 2026 associate's to non-continuous bachelor's degree examination by the National Organisation for Educational Assessment",
+      "summary_en": "Announcement of final results of 2026 associate's to non-consecutive bachelor's degree examination by the National Organisation for Educational Assessment: Names of accepted applicants from centralised fields and nominees several times the capacity of emergency paramedical fields have been announced. Accepted applicants should refer to their admission university's portal from Monday 4 Aban to find out the time and method of registration. Nominees in the paramedical emergency field must also proceed with interviews.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70617",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:48:01Z",
+      "title": "🎥 قالیباف: در مقابل هرگونه جسارت به تمامیت ارضی ایران، پاسخی خارج از تصور می‌دهیم 🔸 رئیس مجلس در نطق پیش از…",
+      "url": "https://t.me/defapress_ir/70617",
+      "summary": "🎥 قالیباف: در مقابل هرگونه جسارت به تمامیت ارضی ایران، پاسخی خارج از تصور می‌دهیم 🔸 رئیس مجلس در نطق پیش از دستور: ما حرف جدیدی نداریم، آمریکایی‌ها با محاسبات غلط وارد باتلاق شدند و باید اقدامات لازم برای نجات خود را انجام دهند. 🔸 تهدید به جنگ گسترده یا ترور…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70617"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: In response to any encroachment on Iran's territorial integrity, we will deliver a response beyond imagination",
+      "summary_en": "Qalibaf: In response to any encroachment on Iran's territorial integrity, we will deliver a response beyond imagination. The speaker of parliament in his remarks before the order of the day: We have nothing new to say; Americans entered a quagmire with wrong calculations and must take necessary action to save themselves. Threats of widespread war or assassination will not prevent the Iranian people from pursuing their rights.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/368548",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:46:01Z",
+      "title": "🔺 با تصویب مجلس؛ لیست رسانه‌های «معاند» منتشر می‌شود 🔹 نمایندگان مجلس، وزارت اطلاعات و سازمان اطلاعات سپاه را…",
+      "url": "https://t.me/iribnews/368548",
+      "summary": "🔺 با تصویب مجلس؛ لیست رسانه‌های «معاند» منتشر می‌شود 🔹 نمایندگان مجلس، وزارت اطلاعات و سازمان اطلاعات سپاه را مکلف کردند که فهرست رسانه‌های معاند را جهت اطلاع عموم به صورت علنی منتشر کنند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/368548"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "With parliament approval, list of 'hostile' media will be published",
+      "summary_en": "With parliament approval, list of 'hostile' media will be published. Members of parliament have obligated the Ministry of Information and the Sepah information organisation to publicly release the list of hostile media for public information.",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2e41363fb994f2114e106df5a67c6dad",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-10-25T08:39:00Z",
+      "title": "Two terror operatives involved in funneling millions of shekels to Hamas were killed in strikes in the Gaza Strip last week, the military says. The IDF says one strike on Wednesday in Gaza City killed Alaa Ibrahim Nimer Arshi, a cell commander in Hamas's military wing, and a strike on Tuesday in Nuseirat killed Karam Riyad Hassan Abu Butaihan, a Palestinian Islamic Jihad operative. Both operatives were involved in transferring millions of shekels from Iran and Turkey to Hamas's military wing, according to the military. \"Recently, these funds helped the organization in its attempts to rebuild its military capabilities and advance terror attacks against IDF troops and Israeli civilians, in sys",
+      "url": "https://x.com/manniefabian/status/2114275580933800244",
+      "summary": "Two terror operatives involved in funneling millions of shekels to Hamas were killed in strikes in the Gaza Strip last week, the military says.\n\nThe IDF says one strike on Wednesday in Gaza City killed Alaa Ibrahim Nimer Arshi, a cell commander in Hamas's military wing, and a strike on Tuesday in Nuseirat killed Karam Riyad Hassan Abu Butaihan, a Palestinian Islamic Jihad operative.\n\nBoth operatives were involved in transferring millions of shekels from Iran and Turkey to Hamas's military wing, according to the military.\n\n\"Recently, these funds helped the organization in its attempts to rebuil",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70616",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T08:18:52Z",
+      "title": "🎥 قالیباف: در مقابل هرگونه جسارت به تمامیت ارضی ایران، پاسخی خارج از تصور می‌دهیم 🔸 رئیس مجلس در نطق پیش از…",
+      "url": "https://t.me/defapress_ir/70616",
+      "summary": "🎥 قالیباف: در مقابل هرگونه جسارت به تمامیت ارضی ایران، پاسخی خارج از تصور می‌دهیم 🔸 رئیس مجلس در نطق پیش از دستور: ما حرف جدیدی نداریم، آمریکایی‌ها با محاسبات غلط وارد باتلاق شدند و باید اقدامات لازم برای نجات خود را انجام دهند. 🔸 تهدید به جنگ گسترده یا ترور باعث کوتاه‌آمدن ملت ایران از حقوق خود نمی‌شود. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70616"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qalibaf: In response to any encroachment on Iran's territorial integrity, we will deliver a response beyond imagination",
+      "summary_en": "Qalibaf: In response to any encroachment on Iran's territorial integrity, we will deliver a response beyond imagination. The speaker of parliament in his remarks before the order of the day: We have nothing new to say; Americans entered a quagmire with wrong calculations and must take necessary action to save themselves. Threats of widespread war or assassination will not prevent the Iranian people from pursuing their rights.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoqobvrsi22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T08:04:08.750000Z",
+      "title": "Israel is concerned that operatives acting on behalf of the Syrian regime intend to renew attacks against the Druze population in southern…",
+      "url": "https://jpost.com/middle-east/article-912755",
+      "summary": "Israel is concerned that operatives acting on behalf of the Syrian regime intend to renew attacks against the Druze population in southern Syria, a security source told Walla on Sunday. \njpost.com/middle-east/article-912755",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70615",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T07:53:01Z",
+      "title": "💢 عراقچی: مدیریت تنگه هرمز مانند گذشته نخواهد بود/ پایان جنگ باید همه جبهه‌ها را دربرگیرد 🔸 وزیر امور خارجه…",
+      "url": "https://t.me/defapress_ir/70615",
+      "summary": "💢 عراقچی: مدیریت تنگه هرمز مانند گذشته نخواهد بود/ پایان جنگ باید همه جبهه‌ها را دربرگیرد 🔸 وزیر امور خارجه گفت: در منطقه تغییرات بنیادین و راهبردی صورت گرفته است و دیگر هیچ‌ چیز مانند قبل از جنگ رمضان نخواهد بود. 🔸 جنگ‌های یک سال و نیم گذشته، به‌ویژه جنگ رمضان و جنگ ۴۰روزه، نقطه عطفی در تاریخ منطقه به شمار می‌روند. این جنگ‌ها ساختارهای امنیتی موجود را به هم ریختند و شرایط منطقه را تغییر دادند. 🔸 این جنگ‌ها نشان دادند که ساختارهای امنیتی برخی کشورهای منطقه که بر حضور و دخالت خارجی متکی بودند، کارآمدی لازم را نداشته‌اند. پایگاه‌های آمریکایی در منطقه برای کشورهایی که میزبان آن‌ها بودند، صلح و ام",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70615"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Araghchi: Management of the Strait of Hormuz will not be as it was in the past; ending the war must include all fronts",
+      "summary_en": "Araghchi: Management of the Strait of Hormuz will not be as it was in the past; ending the war must include all fronts. The foreign minister said: fundamental and strategic changes have taken place in the region and nothing will be as it was before the Ramadan war. The one-and-a-half-year wars, particularly the Ramadan war and the 40-day war, are considered a turning point in the region's history. These wars dismantled existing security structures and changed the region's conditions. These wars showed that the security structures of some countries in the region that relied on foreign presence and interference lacked the necessary effectiveness. American bases in the region have brought neither peace nor security to the countries hosting them.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610257246",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-25T07:44:17Z",
+      "title": "From six-day victory to wars of attrition: How has Israel ended its wars?",
+      "url": "https://www.iranintl.com/en/202610257246",
+      "summary": "The war with Iran raises a familiar question for Israel: Can battlefield gains produce lasting peace? Its military history offers mixed answers, from unresolved victories to withdrawals and ceasefires that left adversaries armed.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoojydv7u2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T07:25:56.584337Z",
+      "title": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myoojydv7u2t",
+      "summary": "Iranian army says it shot down US drone over Bandar Abbas, Tasnim reports",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70614",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T07:20:10Z",
+      "title": "💢 پزشکیان: زنان از ارکان اصلی پیشرفت کشورند 🔸 رئیس‌ جمهور با تأکید بر نقش‌آفرینی زنان کرد در عرصه‌های فرهنگی،…",
+      "url": "https://t.me/defapress_ir/70614",
+      "summary": "💢 پزشکیان: زنان از ارکان اصلی پیشرفت کشورند 🔸 رئیس‌ جمهور با تأکید بر نقش‌آفرینی زنان کرد در عرصه‌های فرهنگی، اجتماعی و دفاع از میهن، گفت: تحقق توسعه پایدار مستلزم توجه به توانمندی‌های زنان است. 🔸 برای من که خود زاده شهر کردنشین مهاباد هستم و در دوران دفاع مقدس، از نزدیک شاهد فداکاری و استقامت زنان این خطه بوده‌ام، بازشناسی نقش آنان، صرفاً بازخوانی بخشی از تاریخ نیست، بلکه یادآور جلوه‌هایی ماندگار از ایثار و پایداری زنانی است که در دشوارترین روزهای جنگ تحمیلی، در کنار مسئولیت خطیر حفظ بنیان خانواده و پرورش فرزندان، در دفاع از میهن نیز نقشی مؤثر و شجاعانه ایفا کردند. 🔸 باور دارم که تحقق توسعه پ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70614"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: Women are among the main pillars of the country's development",
+      "summary_en": "Pezeshkian: Women are among the main pillars of the country's development. The president, emphasising women's role-playing in cultural, social and defence spheres, said: achieving sustainable development requires attention to women's capacities. For me, who is myself from the Kurdish city of Mahabad and during the sacred defence was a close witness to the sacrifices and steadfastness of women in this region, recognising their role is not merely a re-reading of history, but a reminder of lasting manifestations of sacrifice and resilience of women who, in the most difficult days of the imposed war, alongside the grave responsibility of maintaining the family foundation and raising children, also played an effective and courageous role in defending the homeland. I believe that achieving sustainable development.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70613",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T07:05:59Z",
+      "title": "💢 انهدام پهپاد لوکاس آمریکا توسط پدافند هوایی ارتش در بندرعباس 🔸 یک فروند پهپاد لوکاس ارتش تروریستی آمریکا با…",
+      "url": "https://t.me/defapress_ir/70613",
+      "summary": "💢 انهدام پهپاد لوکاس آمریکا توسط پدافند هوایی ارتش در بندرعباس 🔸 یک فروند پهپاد لوکاس ارتش تروریستی آمریکا با آتش سامانه‌های نیروی پدافند هوایی ارتش، تحت شبکه یکپارچه پدافند هوایی کشور، در آسمان بندرعباس مورد اصابت قرار گرفت و منهدم شد. dnws.ir/003euW @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70613"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Destruction of American MQ-4C Triton drone by army air defence in Bandar Abbas",
+      "summary_en": "Destruction of American MQ-4C Triton drone by army air defence in Bandar Abbas. One MQ-4C Triton drone of the terrorist American military was hit and destroyed by fire from the air defence systems of the armed forces under the unified air defence network of the country in the airspace of Bandar Abbas.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70612",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T06:27:20Z",
+      "title": "💢 کابل‌های اینترنت؛ هدفی نامتقارن و آسیب‌پذیر در قلب منافع دیجیتال 🔸 کابل‌های زیردریایی ستون فقرات ارتباطات…",
+      "url": "https://t.me/defapress_ir/70612",
+      "summary": "💢 کابل‌های اینترنت؛ هدفی نامتقارن و آسیب‌پذیر در قلب منافع دیجیتال 🔸 کابل‌های زیردریایی ستون فقرات ارتباطات مالی جهان هستند و داده‌هایی که از این کابل‌ها عبور می‌کند متعلق به بانک‌ها، شرکت‌های انرژی، پلتفرم‌های تجاری و خدمات دولتی است. اختلال در آن‌ها تراکنش‌های مالی، تجارت الکترونیک و رایانش ابری را مختل خواهد کرد. 🔸 تنگه هرمز از گذشته تاکنون به عنوان شریان حیاتی انتقال نفت شناخته شده است؛ اما لایه‌ای کمتر دیده‌شده از این آبراه، نقش آن به عنوان یکی از گره‌های مهم زیرساخت دیجیتال جهان است. در بستر این تنگه، دست‌کم هفت کابل اصلی مخابراتی قرار دارد که داده‌های اینترنت، تراکنش‌های مالی، خدمات ابر",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70612"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Internet cables: an asymmetric and vulnerable target at the heart of digital interests",
+      "summary_en": "Internet cables: an asymmetric and vulnerable target at the heart of digital interests. Submarine cables are the backbone of global financial communications and the data passing through these cables belongs to banks, energy companies, commercial platforms and government services. Disruption to them will disrupt financial transactions, e-commerce and cloud computing. The Strait of Hormuz has long been recognised as a vital artery for oil transmission; however, a less visible layer of this waterway is its role as one of the important nodes of global digital infrastructure. In the bed of this strait, at least seven main telecommunications cables are located carrying internet data, financial transactions and cloud services.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myokd64mkv2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T06:10:33.072000Z",
+      "title": "Report: Iran is planning to target United States diplomats and other officials in new assassination plots, according to two Iranian…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-912739",
+      "summary": "Report: Iran is planning to target United States diplomats and other officials in new assassination plots, according to two Iranian officials, including a member of the Iranian Revolutionary Guard Corps (IRGC).\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myojmxgz4a2c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T05:58:08.063000Z",
+      "title": "Opinion: Israel needs a government that fights Hamas, Hezbollah, and Iran with determination and restores Israel’s credibility, legitimacy,…",
+      "url": "https://www.jpost.com/opinion/article-912738",
+      "summary": "Opinion: Israel needs a government that fights Hamas, Hezbollah, and Iran with determination and restores Israel’s credibility, legitimacy, and support across the democratic world.\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70611",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T05:51:01Z",
+      "title": "💢 «مادر بمب‌ها» در امتداد جنگ روانی آمریکا علیه ایران 🔸 «مادر بمب‌ها» را باید هم به‌عنوان یک سلاح با…",
+      "url": "https://t.me/defapress_ir/70611",
+      "summary": "💢 «مادر بمب‌ها» در امتداد جنگ روانی آمریکا علیه ایران 🔸 «مادر بمب‌ها» را باید هم به‌عنوان یک سلاح با قابلیت‌های مشخص نظامی و هم به‌عنوان موضوعی در عرصه ارتباطات راهبردی بررسی کرد. 🔸 اهمیت موضوع تنها به احتمال استفاده از این بمب محدود نمی‌شود. نام‌گذاری رسانه‌ای این سلاح، نمایش تصاویر انفجار‌های عظیم و تکرار تهدید‌های مربوط به استفاده از آن، می‌تواند تصویری از قدرت تخریب گسترده و توانایی نامحدود نظامی ایجاد کند. در چنین فضایی، مخاطب ممکن است بیش از آنکه درباره قابلیت واقعی سلاح، نوع هدف و محدودیت‌های عملیاتی آن اطلاعات کسب کند، تحت تأثیر تصویری قرار گیرد که از قدرت آن ساخته شده است. 🔸 این همان ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70611"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "The 'Mother of All Bombs' in the continuation of America's psychological war against Iran",
+      "summary_en": "The 'Mother of All Bombs' in the continuation of America's psychological war against Iran. The 'Mother of All Bombs' should be examined both as a weapon with specific military capabilities and as a subject in the field of strategic communications. The importance of the subject is not limited to the possibility of using this bomb. Media naming of this weapon, display of images of massive explosions and repetition of threats related to its use can create an image of widespread destructive power and unlimited military capability. In such an environment, the audience may, more than gaining information about the actual capability of the weapon, the type of target and operational limitations, be affected by the image that has been created of its power.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70610",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T05:26:01Z",
+      "title": "💢 تظاهرات علیه نتانیاهو در سرزمین‌های اشغالی 🔸 هزاران صهیونیست با برگزاری تظاهراتی در تل‌آویو اعتراض خود را…",
+      "url": "https://t.me/defapress_ir/70610",
+      "summary": "💢 تظاهرات علیه نتانیاهو در سرزمین‌های اشغالی 🔸 هزاران صهیونیست با برگزاری تظاهراتی در تل‌آویو اعتراض خود را علیه کابینه نتانیاهو نشان دادند. 🔸 این تظاهرات از سوی خانواده‌های اسرای صهیونیست و کشته شدگان در جریان عملیات طوفان الاقصی برگزار شد و شرکت کنندگان خواهان بازخواست مسئولان رژیم به دلیل شکست در برابر این عملیات شدند. 🔸 در این تظاهرات سران جریان معارض از جمله گادی آیزنکوت رقیب اصلی نتانیاهو نیز شرکت کردند. dnws.ir/003etv @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70610"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Protests against Netanyahu in occupied territories",
+      "summary_en": "Protests against Netanyahu in occupied territories. Thousands of Zionists held a protest in Tel Aviv to express their opposition to Netanyahu's cabinet. These protests were organised by families of Zionist captives and those killed in the Al-Aqsa Flood operation, and participants demanded accountability of regime leaders for their failure in the face of this operation. Leading figures from the opposition camp, including Gadi Eisenkot, Netanyahu's main rival, also participated in these protests.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70609",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T04:54:57Z",
+      "title": "💢 خفگی وال‌استریت در تنگنای هرمز 🔸 جهش بی‌سابقه قیمت نفت به ۱۱۷ دلار، بورس آمریکا را برای دومین هفته متوالی…",
+      "url": "https://t.me/defapress_ir/70609",
+      "summary": "💢 خفگی وال‌استریت در تنگنای هرمز 🔸 جهش بی‌سابقه قیمت نفت به ۱۱۷ دلار، بورس آمریکا را برای دومین هفته متوالی زیان‌ده کرد. 🔸 جهش بی‌سابقه قیمت نفت در آستانه دور دوم جنگ منطقه‌ای ایران و رسیدن آن به بالاترین سطح چهار سال اخیر، بازار‌های مالی آمریکا را تحت فشاری سنگین قرار داد. این رویداد به افت گسترده شاخص‌ها در وال‌استریت و ثبت دومین هفته متوالی زیان برای شاخص اصلی بازار انجامید. 🔸 تحولات اخیر نشان می‌دهد که اقتصاد جهانی در نقطه‌ای بحرانی و چندلایه گرفتار شده است؛ جایی که تلاقی تنش‌های ژئوپلیتیک غرب‌آسیا، شوک عرضه نفت و ابهامات پیرامون بازدهی کلان‌سرمایه‌گذاری در هوش مصنوعی، تعادل وال‌استریت را ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70609"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Wall Street choking in the Strait of Hormuz strait",
+      "summary_en": "Wall Street choking in the Strait of Hormuz. An unprecedented surge in oil prices to 117 dollars marked the second consecutive week of losses for the US stock exchange. The unprecedented surge in oil prices on the eve of a second round of regional war between Iran and reaching its highest level in four years, placed global financial markets under severe pressure. This event led to widespread decline in indices on Wall Street and marked a second consecutive week of losses for the market's main index. Recent developments show that the global economy is caught at a critical and multi-layered point; where the intersection of geopolitical tensions in West Asia, shock of oil supply, and uncertainties surrounding returns on large-scale investment in artificial intelligence have unsettled Wall Street.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoev57pyz2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T04:33:13.864000Z",
+      "title": "Ten days out from the elections that will determine control of the closely divided Congress, Barack Obama took to the campaign trail to…",
+      "url": "https://www.jpost.com/us-elections/article-912734",
+      "summary": "Ten days out from the elections that will determine control of the closely divided Congress, Barack Obama took to the campaign trail to accuse the Republican president of corruption, and deride his strategy for Iran.\nwww.jpost.com/us-elections...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/70599",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-25T04:32:22Z",
+      "title": "📸 صفحه نخست روزنامه‌های یکشنبه ۳ آبان ۱۴۰۵ @Defapress_ir",
+      "url": "https://t.me/defapress_ir/70599",
+      "summary": "📸 صفحه نخست روزنامه‌های یکشنبه ۳ آبان ۱۴۰۵ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/70599"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Front pages of newspapers on Sunday 3 Aban 1405",
+      "summary_en": "Front pages of newspapers on Sunday 3 Aban 1405.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myoem5w5ll25",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T04:28:11.780731Z",
+      "title": "Houthi missile intercepted en-route to Riyadh",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myoem5w5ll25",
+      "summary": "Houthi missile intercepted en-route to Riyadh",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myocypt7xv2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T03:59:26.537000Z",
+      "title": "Tehran is threatening to respond to a renewed US and Israeli air campaign with strikes on an expanded list of targets, including civilian…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-912728",
+      "summary": "Tehran is threatening to respond to a renewed US and Israeli air campaign with strikes on an expanded list of targets, including civilian infrastructure - with a new array of weapons, including nuclear bombs.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myo76gnvvx2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-25T02:51:02.676128Z",
+      "title": "Iran's president says many Iranians struggling to cope with US economic pressure",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myo76gnvvx2v",
+      "summary": "Iran's president says many Iranians struggling to cope with US economic pressure",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610252197",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-25T01:35:00Z",
+      "title": "Iran sends conflicting signals on US deal as Trump raises prospect of strikes",
+      "url": "https://www.iranintl.com/en/202610252197",
+      "summary": "Tehran has offered to reopen the Strait of Hormuz if Washington lifted its naval blockade, Iran’s envoy to Pakistan said Saturday, while an IRGC-affiliated outlet rejected such an exchange and President Donald Trump raised the possibility of strikes as soon as “tomorrow.”",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610242914",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-25T00:05:00Z",
+      "title": "Iraq faces renewed Iran war spillover despite pledge to stay out",
+      "url": "https://www.iranintl.com/en/202610242914",
+      "summary": "Baghdad’s pledge to stay out of renewed fighting is being tested by reported Israeli jet flights toward Iran through Iraqi airspace, suspected strikes on militia stores reportedly holding Chinese-made air defenses, and drone attacks on Iranian Kurdish opposition bases.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610244351",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-24T22:22:55Z",
+      "title": "Iranians vent anger over rising costs of slow, restricted internet",
+      "url": "https://www.iranintl.com/en/202610244351",
+      "summary": "Iranians say they are paying more for slow, unreliable and heavily restricted internet after mobile operators raised data prices by up to 40%, with some reporting that their allowances run out unusually quickly.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "40%"
+      ]
+    },
+    {
+      "id": "x_via_rssapp:7360ec41688729c4cde15eac93c9b166",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-10-24T22:12:00Z",
+      "title": "⭕️ Following the terror attack on Friday, in which 2 IDF soldiers fell and additional soldiers were wounded, security forces launched a targeted operation in the area of Hebron from which the terrorists emerged, with the aim of dismantling terrorist infrastructure and preventing future attacks. To reduce the risk to civilians, civilians were permitted to temporarily leave the area through designated screening points. No civilians were forced to evacuate. In a separate activity, illegal structures were demolished at the site in Hebron where the attack took place. During the attack, the terrorists concealed themselves behind these structures and fired toward IDF soldiers. The demolition of the",
+      "url": "https://x.com/IDF/status/2114117767980884097",
+      "summary": "⭕️ Following the terror attack on Friday, in which 2 IDF soldiers fell and additional soldiers were wounded, security forces launched a targeted operation in the area of Hebron from which the terrorists emerged, with the aim of dismantling terrorist infrastructure and preventing future attacks. To reduce the risk to civilians, civilians were permitted to temporarily leave the area through designated screening points. No civilians were forced to evacuate. \n\nIn a separate activity, illegal structures were demolished at the site in Hebron where the attack took place. During the attack, the terror",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mynh7537qc2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T19:41:57.642000Z",
+      "title": "Report: Baghdad believes that Israel was behind recent strikes on Iranian weapons stockpiled by Iran-backed militias in Iraq, Asharq…",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mynh7537qc2d",
+      "summary": "Report: Baghdad believes that Israel was behind recent strikes on Iranian weapons stockpiled by Iran-backed militias in Iraq, Asharq Al-Awsat reported on Saturday.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mynddhk2652r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T18:32:46.986000Z",
+      "title": "IDF troops evacuated 2,000 Palestinians near Hebron after a deadly Hamas attack, raising questions about collective punishment and the…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-912714",
+      "summary": "IDF troops evacuated 2,000 Palestinians near Hebron after a deadly Hamas attack, raising questions about collective punishment and the operation's legal basis. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:96cb00e6203cf2e62dca248460c5e9e0",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-10-24T18:26:00Z",
+      "title": "⭕️OPERATIONAL UPDATE - JUDEA & SAMARIA: Over the weekend, IDF soldiers, Israel Border Police, and the ISA operated in ~40 areas and 400 locations as part of counterterrorism activities, focusing on areas identified with Hamas. ~40 suspects were apprehended, including terrorists affiliated with Hamas and Islamic Jihad, as well as suspects involved in incitement, public disorder, and rock-hurling. The security forces will continue to operate with determination to prevent the entrenchment of terrorism in the area and thwart any threat to Israeli civilians.",
+      "url": "https://x.com/IDF/status/2114060927456756053",
+      "summary": "⭕️OPERATIONAL UPDATE - JUDEA & SAMARIA: Over the weekend, IDF soldiers, Israel Border Police, and the ISA operated in ~40 areas and 400 locations as part of counterterrorism activities, focusing on areas identified with Hamas.\n\n~40 suspects were apprehended, including terrorists affiliated with Hamas and Islamic Jihad, as well as suspects involved in incitement, public disorder, and rock-hurling.\n\nThe security forces will continue to operate with determination to prevent the entrenchment of terrorism in the area and thwart any threat to Israeli civilians.— Israel Defense Forces (@IDF) Oct 24, ",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:c49037d1a4118e9186cb97e97a797ef8",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-10-24T18:11:00Z",
+      "title": "🇮🇱🤝🇬🇷 JOINT NAVAL EXERCISE: The Israeli Navy and Hellenic Navy conducted a joint exercise in the Mediterranean Sea, led by the commanders of both navies. During the exercise, forces practiced identifying and neutralizing maritime threats, sailing as a joint task force, and sinking a hostile vessel using missile fire. The exercise strengthens operational cooperation between Israel and Greece, enhancing joint capabilities to address emerging threats and maintain security and freedom of navigation in the Mediterranean Sea.",
+      "url": "https://x.com/IDF/status/2114057121398444467",
+      "summary": "🇮🇱🤝🇬🇷 JOINT NAVAL EXERCISE: The Israeli Navy and Hellenic Navy conducted a joint exercise in the Mediterranean Sea, led by the commanders of both navies.\n\nDuring the exercise, forces practiced identifying and neutralizing maritime threats, sailing as a joint task force, and sinking a hostile vessel using missile fire.\n\nThe exercise strengthens operational cooperation between Israel and Greece, enhancing joint capabilities to address emerging threats and maintain security and freedom of navigation in the Mediterranean Sea.— Israel Defense Forces (@IDF) Oct 24, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn7b53uxm2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T17:19:54.113000Z",
+      "title": "Saudi Arabia intercepted two Houthi ballistic missiles targeting Mecca and Medina as the Yemen-based terror group claimed attacks on Saudi…",
+      "url": "https://www.jpost.com/middle-east/article-912716",
+      "summary": "Saudi Arabia intercepted two Houthi ballistic missiles targeting Mecca and Medina as the Yemen-based terror group claimed attacks on Saudi oil facilities and airports across the kingdom.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn65qsgak2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T17:00:06.339701Z",
+      "title": "Yemen's Houthis say they attacked Saudi oil facilities, airports",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myn65qsgak2d",
+      "summary": "Yemen's Houthis say they attacked Saudi oil facilities, airports",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610246039",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-24T16:58:05Z",
+      "title": "Iran-born former Mossad officer running for Knesset urges end of Islamic Republic",
+      "url": "https://www.iranintl.com/en/202610246039",
+      "summary": "Nazanin Sharifian, an Iran-born former Mossad officer running for Israel’s parliament with Gadi Eisenkot’s Yashar party, told Iran International that Israel should step up military and economic pressure on the Islamic Republic’s leaders and work to end their rule.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1199",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-10-24T16:28:52Z",
+      "title": "📢 دیدار رئیس قوه قضاییه با رهبر معظم انقلاب ▪️ حجت‌الاسلام والمسلمین محسنی اژه‌ای، رئیس قوه قضاییه با حضرت…",
+      "url": "https://t.me/rahbar_ir/1199",
+      "summary": "📢 دیدار رئیس قوه قضاییه با رهبر معظم انقلاب ▪️ حجت‌الاسلام والمسلمین محسنی اژه‌ای، رئیس قوه قضاییه با حضرت آیت‌الله سیدمجتبی حسینی خامنه‌ای، رهبر معظم انقلاب اسلامی، دیدار و گفت‌وگو کرد. ▪️ در این دیدار بر افزایش سرمایه اجتماعی نظام از طریق گسترش عدالت و تأمین حقوق عامه و مبارزه اثرگذار با فساد و گلوگاه‌های آن، رسیدگی سریع و توأم با دقت و قاطعیت و اجرای به‌موقع و بازدارنده احکام، تحول همه‌جانبه و ملموس در دستگاه قضایی، استفاده حداکثری از فناوری‌های نوین در مسائل مهم، به‌ویژه نظارت بر حسن اجرای قوانین و انجام بازرسی‌های مستمر و یاری‌رسان به مدیریت سازمان‌ها و نهادها، رسیدگی به ترک فعل‌های منتهی",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1199"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Meeting of the Head of the Judiciary with the Supreme Leader of the Revolution. Hojjat al-Islam wal-Muslimin Mohseni Ejehi, Head of the Judiciary, met and conferred with His Eminence Ayatollah Seyyed Mojtaba Hosseini Khamenei, Supreme Leader of the Islamic Revolution. In this meeting, emphasis was placed on increasing the social capital of the system through expanding justice and securing public rights and effective fighting against corruption and its sources, swift resolution coupled with precision and decisiveness and timely and deterrent enforcement of sentences, comprehensive and tangible transformation in the judicial apparatus, maximum use of modern technologies in important matters, particularly supervision of proper enforcement of laws and conducting continuous inspections and assisting the management of organisations and institutions, addressing negligence leading",
+      "summary_en": "Meeting of the Head of the Judiciary with the Supreme Leader of the Revolution. Hojjat al-Islam wal-Muslimin Mohseni Ejehi, Head of the Judiciary, met and conferred with His Eminence Ayatollah Seyyed Mojtaba Hosseini Khamenei, Supreme Leader of the Islamic Revolution. In this meeting, emphasis was placed on increasing the social capital of the system through expanding justice and securing public rights and effective fighting against corruption and its sources, swift resolution coupled with precision and decisiveness and timely and deterrent enforcement of sentences, comprehensive and tangible transformation in the judicial apparatus, maximum use of modern technologies in important matters, particularly supervision of proper enforcement of laws and conducting continuous inspections and assisting the management of organisations and institutions, addressing negligence leading",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn3xf2i752s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T16:20:45.124646Z",
+      "title": "Iran's president says many Iranians struggling to cope with US economic pressure",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3myn3xf2i752s",
+      "summary": "Iran's president says many Iranians struggling to cope with US economic pressure",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3myn3qzkdki2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T16:17:12.408000Z",
+      "title": "Exclusive: Traveling to the border, The Jerusalem Post interviews the female field intel soldiers spying on Syria as Iran boils over.",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-912622",
+      "summary": "Exclusive: Traveling to the border, The Jerusalem Post interviews the female field intel soldiers spying on Syria as Iran boils over.\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymztqr4tu2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T15:42:56.305000Z",
+      "title": "Analysis: Iran-backed militias in Iraq accused the US of violating Iraqi airspace amid the militias' tensions with the Iraqi government…",
+      "url": "https://www.jpost.com/middle-east/article-912713",
+      "summary": "Analysis: Iran-backed militias in Iraq accused the US of violating Iraqi airspace amid the militias' tensions with the Iraqi government over disarmament efforts, Rudaw reported.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymzl5faeo2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T15:38:07.412000Z",
+      "title": "Two-thirds of Lebanese Shi'ites want Hezbollah to surrender its arsenal to the national army, according to a recent survey reported by KAN…",
+      "url": "https://www.jpost.com/middle-east/article-912712",
+      "summary": "Two-thirds of Lebanese Shi'ites want Hezbollah to surrender its arsenal to the national army, according to a recent survey reported by KAN on Saturday.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a39c4badb01d0efd4f61d430179391ce",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-10-24T15:00:00Z",
+      "title": "Two U.S. Air Force A-10 aircraft patrol the skies over the Middle East during scheduled daytime flight…",
+      "url": "https://x.com/CENTCOM/status/2114009032365412431",
+      "summary": "Two U.S. Air Force A-10 aircraft patrol the skies over the Middle East during scheduled daytime flight operations.— U.S. Central Command (@CENTCOM) Oct 24, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "10 aircraft"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymutqntiv2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T14:13:26.759741Z",
+      "title": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mymutqntiv2e",
+      "summary": "Iran's Pezeshkian blames US for interim deal failure, urges new try",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymrn5gzpn2x",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T13:16:04.027603Z",
+      "title": "Houthi media reports Saudi strikes in Sanaa against neighborhood, cement factory",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mymrn5gzpn2x",
+      "summary": "Houthi media reports Saudi strikes in Sanaa against neighborhood, cement factory",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mympwnebek22",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T12:45:36.020000Z",
+      "title": "The US State Department issued a travel advisory notice for Israel on Friday, warning of an increased threat of Houthi attacks and the…",
+      "url": "https://www.jpost.com/israel-news/article-912701",
+      "summary": "The US State Department issued a travel advisory notice for Israel on Friday, warning of an increased threat of Houthi attacks and the potential for a rapid escalation of regional hostilities. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymp7jvpaj2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T12:32:39.682843Z",
+      "title": "US updates Israel travel warning, cites growing threat from Iran-backed Houthis",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mymp7jvpaj2k",
+      "summary": "US updates Israel travel warning, cites growing threat from Iran-backed Houthis",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610243567",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-24T11:49:33Z",
+      "title": "Israel’s leaders have long wanted Iran’s rulers gone. They differ only on how",
+      "url": "https://www.iranintl.com/en/202610243567",
+      "summary": "In 1987, with Khomeini still calling for Israel’s destruction, Israel’s defense minister called Iran its best friend. Today every candidate for prime minister wants the Islamic Republic gone. Israel’s leaders have changed their minds about Iran’s rulers, but seldom disagreed.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mymh2li2ce2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-10-24T10:06:43.836288Z",
+      "title": "IDF eliminates two terrorists in the Gaza Strip",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mymh2li2ce2n",
+      "summary": "IDF eliminates two terrorists in the Gaza Strip",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202610230487",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-10-24T10:03:21Z",
+      "title": "Baluch insurgency tests the limits of a war-weakened Islamic Republic",
+      "url": "https://www.iranintl.com/en/202610230487",
+      "summary": "Armed Baluch groups in Iran’s southeast are adding one more strain on the Islamic Republic’s security forces just as war has stretched them thinnest, with 18 attacks in the 18 days to October 10, more than in any full month this year.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "18 attacks"
+      ]
+    },
+    {
+      "id": "x_via_rssapp:a9bfe158c4d4437ca5d1ff71e6d6a5ac",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-10-24T10:01:00Z",
+      "title": "The military says troops killed two Palestinian terror operatives who crossed the \"Yellow Line\" in the Gaza Strip in separate incidents yesterday. \"in two separate incidents, IDF troops identified two terrorists who crossed the Yellow Line in the northern and southern Gaza Strip,\" the military says, adding that \"immediately following the identification, the troops eliminated the terrorists.\"",
+      "url": "https://x.com/manniefabian/status/2113934004470567154",
+      "summary": "The military says troops killed two Palestinian terror operatives who crossed the \"Yellow Line\" in the Gaza Strip in separate incidents yesterday.\n\n\"in two separate incidents, IDF troops identified two terrorists who crossed the Yellow Line in the northern and southern Gaza Strip,\" the military says, adding that \"immediately following the identification, the troops eliminated the terrorists.\"— Emanuel (Mannie) Fabian (@manniefabian) Oct 24, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    }
+  ]
+}
