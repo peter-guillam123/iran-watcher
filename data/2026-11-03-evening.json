@@ -1,0 +1,1770 @@
+{
+  "generated_at": "2026-11-03T20:34:52.393345Z",
+  "window_since": "2026-11-03T05:00:00Z",
+  "window_until": "2026-11-03T20:32:35.052984Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "ok": false,
+      "error": "Server error '500 Internal Server Error' for url 'https://questions-statements-api.parliament.uk/api/writtenquestions/questions?searchTerm=Iran&tabledWhenFrom=2026-11-03&take=100'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    },
+    {
+      "source": "un_press",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 2,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 4,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 21,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 9,
+      "kept": 9,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 43,
+      "kept": 43,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 3,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 84,
+      "kept": 16,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    }
+  ],
+  "day_shape": "71 items: Qatar says US-Iran reviewing mediation proposals while Jerusalem Post sources call talks stalled, Khamenei warns foreign powers belong 'at the bottom' of the Persian Gulf, two more Isfahan protesters hanged, heavy IRIB/Defa Press 13 Aban mobilisation; nothing from UK Parliament, State Department or OFAC.",
+  "threads": [
+    {
+      "label": "US-Iran mediation track and war footing",
+      "summary": "Qatar said Washington and Tehran are reviewing mediation proposals, while Jerusalem Post sources described talks as stalled and a senior Iranian official told Reuters the sides remained far from a deal. SNSC Secretary Rezaei said America's response on Iran's seven conditions was 'not convincing' and tied any Strait of Hormuz opening to full compliance.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfobjqzxv2f",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgmfvuxqc2n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfbcniddr2v",
+        "iranintl:https://www.iranintl.com/en/202611035924",
+        "telegram:defapress_ir/71315",
+        "telegram:defapress_ir/71312"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Threat signalling and chemical-weapons warning",
+      "summary": "Jerusalem Post reported Israel told Washington its intelligence suggests Iran may use chemical weapons, though some US officials doubt the reporting, while CENTCOM posted M777 live-fire imagery from the Middle East. Khamenei's office posted that foreign powers interfering in the Persian Gulf belong 'at the bottom of its waters' and that threats must be met 'without geographical limitation'; Basij deputy commander Qureishi claimed US soldiers will no longer be safe anywhere.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgmoxtpbj2e",
+        "telegram:rahbar_ir/1276",
+        "telegram:rahbar_ir/1277",
+        "telegram:iribnews/370208",
+        "x_via_rssapp:a1993d9285e5f942e9a2a9b2c99ccecc",
+        "iranintl:https://www.iranintl.com/en/202611036564"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "13 Aban mobilisation cycle",
+      "summary": "IRGC, Army, Expediency Council chairman Amoli Larijani and Education Minister Kazemi issued statements marking 13 Aban as 'National Day of Struggle Against Global Arrogance', with Tehran's Islamic Propaganda Organization announcing a 9 a.m. march from Palestine Square to the former US embassy. IRIB and Defa Press carried conference remarks from Foreign Ministry spokesperson Baghaeian, Red Crescent head Kolivand (citing 80,000 Palestinians killed) and President Pezeshkian blaming US and Israeli actions for regional instability.",
+      "event_ids": [
+        "telegram:defapress_ir/71319",
+        "telegram:defapress_ir/71311",
+        "telegram:defapress_ir/71320",
+        "telegram:defapress_ir/71317",
+        "telegram:defapress_ir/71324",
+        "telegram:defapress_ir/71320",
+        "telegram:defapress_ir/71315",
+        "telegram:defapress_ir/71316",
+        "telegram:defapress_ir/71314",
+        "telegram:defapress_ir/71320",
+        "telegram:defapress_ir/71326",
+        "telegram:iribnews/370210",
+        "telegram:iribnews/370201",
+        "telegram:iribnews/370199"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran-Egypt diplomatic contact",
+      "summary": "Defa Press and IRIB reported a phone call between Iranian Foreign Minister Araghchi and Egyptian counterpart Badr Abdelatty discussing regional developments and concerns over renewed military action. Egypt's foreign ministry spokesman Nader Zaki was cited via Al-Youm Al-Sabea as confirming the call.",
+      "event_ids": [
+        "telegram:defapress_ir/71330",
+        "telegram:iribnews/370211"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Executions and domestic repression",
+      "summary": "Iran International reported that Amirhossein Maleki and Amirhossein Ebrahimi were hanged in Isfahan over January 2026 protests, with a source saying Maleki, 20, was subjected to a mock execution after retracting a confession he said was extracted under torture. Exiled prince Reza Pahlavi, arriving in Brussels, urged European governments to end 'appeasement' of Tehran.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202611030117",
+        "iranintl:https://www.iranintl.com/en/202611033955",
+        "iranintl:https://www.iranintl.com/en/202611032232",
+        "iranintl:https://www.iranintl.com/en/202611036683",
+        "iranintl:https://www.iranintl.com/en/202611032649"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Hezbollah, Syria and Lebanon realignments",
+      "summary": "Jerusalem Post reported Hezbollah-appointed Labor Minister Mohammad Haidar visited Damascus with three other Lebanese ministers — the first such formal reception since Assad's fall — while separate analysis described Syria's new government targeting Hezbollah networks and sectarian tensions over Hezbollah's arms. Defa Press carried a Hezbollah statement denying any role in destabilising Syria.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfpggrqa42n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzglf5ugs22n",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzg4qmzeha2r",
+        "telegram:defapress_ir/71327"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Oil routes and Strait of Hormuz",
+      "summary": "Jerusalem Post reported Aramco CEO Amin Nasser said the company is exploring expansion of a crude pipeline that bypasses the Strait of Hormuz, and carried analysis that Turkish ports are handling increased oil flows. A separate explainer examined the IRGC's use of Qeshm Island and repeated US strikes there.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfe6pbipx2t",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgaatpamw2s",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgfkmvu3s2k"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "telegram:iribnews/370214",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T20:26:44Z",
+      "title": "۱۵۱ اثر تاریخی پس از دو ساله از چین به ایران بازگردانده شدند مدیرکل میراث فرهنگی، گردشگری و صنایع دستی استان…",
+      "url": "https://t.me/iribnews/370214",
+      "summary": "۱۵۱ اثر تاریخی پس از دو ساله از چین به ایران بازگردانده شدند مدیرکل میراث فرهنگی، گردشگری و صنایع دستی استان تهران: 🔹 هم‌زمان با پایان تور بین‌المللی نمایشگاه «سرزمین مهر» در چین، ۱۵۱ اثر تاریخی‌ فرهنگی متعلق به موزه‌های استان تهران، پس از برگزاری نمایشگاه در پنج شهر مهم فرهنگی و تاریخی این کشور، روز سه شنبه ۱۲ آبان‌ در سلامت کامل به ایران بازگشت و با رعایت کامل ضوابط حفاظتی و امنیتی، به مخزن منتقل شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370214"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "151 historical artefacts returned to Iran from China after two years",
+      "summary_en": "151 historical and cultural artefacts belonging to Tehran Province museums have been returned to Iran in full condition after the international tour of the 'Land of Compassion' exhibition concluded in five major cultural and historical cities in China. The artefacts were transferred to storage on Tuesday, 12 Aban, with full adherence to protective and security protocols.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370213",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T20:16:01Z",
+      "title": "🎦 حمله سایبری به زنجیره تأمین فولاد و آهن رژیم صهیونیستی 🔹 جبهه پشتیبانی سایبری از آغاز عملیات ۷ اکتبر، اهداف…",
+      "url": "https://t.me/iribnews/370213",
+      "summary": "🎦 حمله سایبری به زنجیره تأمین فولاد و آهن رژیم صهیونیستی 🔹 جبهه پشتیبانی سایبری از آغاز عملیات ۷ اکتبر، اهداف متعددی را در رژیم صهیونیستی و همچنین نهادها و شرکت‌های وابسته به این رژیم در خارج از آن، مورد حملات سایبری قرار داده است. 🔹 این بار نیز این جبهه به سراغ زنجیره تأمین فولاد و آهن رژیم صهیونیستی رفته و بیانیه زیر را در خصوص حمله به یکی از کارخانه‌های این حوزه منتشر کرده است: جبهه پشتیبانی سایبری از انجام عملیات جدید خود علیه زنجیره صنایع آهن و فولاد اسرائیل خبر می‌دهد. 🔹 در این عملیات، شرکت اسرائیلی «A.pladot» واقع در شهر صنعتی «گیل‌بوع» هدف حمله قرار گرفته است. این شرکت در زمینه تولید آ",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370213"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Cyber attack on the Zionist regime's steel and iron supply chain",
+      "summary_en": "The Cyber Support Front has announced a new operation against Israel's steel and iron industries supply chain. In this operation, the Israeli company A.pladot, located in the Gilboa industrial zone, was targeted. The company operates in the field of metal and iron production.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611032649",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T20:10:00Z",
+      "title": "Iranians say they cannot afford emergency kits as fears of renewed war grow",
+      "url": "https://www.iranintl.com/en/202611032649",
+      "summary": "Iranians say they cannot afford emergency supplies or have nowhere safe to go amid fears of renewed hostilities with the United States and Israel, as soaring living costs leave many struggling to prepare for another round of fighting.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71330",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T20:07:26Z",
+      "title": "💢 گفت وگوی وزیران امور خارجه مصر و ایران درباره کاهش تنش و آخرین تحولات منطقه 🔸 وزیران خارجه ایران و مصر…",
+      "url": "https://t.me/defapress_ir/71330",
+      "summary": "💢 گفت وگوی وزیران امور خارجه مصر و ایران درباره کاهش تنش و آخرین تحولات منطقه 🔸 وزیران خارجه ایران و مصر درباره آخرین تحولات منطقه و نگرانی‌ها مبنی بر اینکه این تحولات می‌تواند منجر به تشدید مجدد تنش‌ها و اقدام نظامی شود، گفت وگو کردند. 🔸 به گزارش پایگاه خبری الیوم السابع مصر،  تماس تلفنی بین «بدر عبدالعاطی» وزیر امور خارجه مصر و «‌سید عباس عراقچی» وزیر امور خارجه جمهوری اسلامی ایران برقرار شد. 🔸 «نادر زکی» سخنگوی وزارت امور خارجه مصر گفت که این تماس تلفنی بخشی از رایزنی‌های منظم بین دو وزیر بوده است. dnws.ir/003fZo @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71330"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dialogue between Egyptian and Iranian foreign ministers on tension reduction and latest regional developments",
+      "summary_en": "The foreign ministers of Iran and Egypt discussed the latest regional developments and concerns that these developments could lead to renewed tensions and military action. According to Egypt's Al-Youm Al-Sabea news agency, a telephone call was held between Badr Abdelatty, Egyptian Foreign Minister, and Seyyed Abbas Araghchi, Iranian Foreign Minister. Nader Zaki, spokesman for Egypt's Foreign Ministry, stated that this telephone call was part of regular consultations between the two ministers.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370212",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T20:03:01Z",
+      "title": "یک سوالی متفاوت در ازدواج دانشجویی 🔹 تسخیر لانه جاسوسی آمریکا سخت‌تر بود یا تسخیر قلب همسرت @iribnews",
+      "url": "https://t.me/iribnews/370212",
+      "summary": "یک سوالی متفاوت در ازدواج دانشجویی 🔹 تسخیر لانه جاسوسی آمریکا سخت‌تر بود یا تسخیر قلب همسرت @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370212"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A different question in student matrimony: which was harder to seize—America's espionage nest or your spouse's heart?",
+      "summary_en": "A different question in student matrimony: which was harder to seize—America's espionage nest or your spouse's heart?",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370211",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T20:01:12Z",
+      "title": "گفت وگوی وزیران امور خارجه مصر و ایران درباره کاهش تنش و آخرین تحولات منطقه 🔹 وزیران خارجه ایران و مصر درباره…",
+      "url": "https://t.me/iribnews/370211",
+      "summary": "گفت وگوی وزیران امور خارجه مصر و ایران درباره کاهش تنش و آخرین تحولات منطقه 🔹 وزیران خارجه ایران و مصر درباره آخرین تحولات منطقه و نگرانی‌ها مبنی بر اینکه این تحولات می‌تواند منجر به تشدید مجدد تنش‌ها و اقدام نظامی شود، گفت وگو کردند. 🔹 به گزارش پایگاه خبری الیوم السابع مصر، عصر امروز(سه شنبه) تماس تلفنی بین «بدر عبدالعاطی» وزیر امور خارجه مصر و «‌سید عباس عراقچی» وزیر امور خارجه جمهوری اسلامی ایران برقرار شد. 🔹 «نادر زکی» سخنگوی وزارت امور خارجه مصر گفت که این تماس تلفنی بخشی از رایزنی‌های منظم بین دو وزیر بوده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370211"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Dialogue between Egyptian and Iranian foreign ministers on tension reduction and latest regional developments",
+      "summary_en": "The foreign ministers of Iran and Egypt discussed the latest regional developments and concerns that these developments could lead to renewed tensions and military action. According to Egypt's Al-Youm Al-Sabea news agency, a telephone call took place this afternoon, Tuesday, between Badr Abdelatty, Egyptian Foreign Minister, and Seyyed Abbas Araghchi, Iranian Foreign Minister. Nader Zaki, spokesman for Egypt's Foreign Ministry, stated that this telephone call was part of regular consultations between the two ministers.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370210",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:57:01Z",
+      "title": "‌ سازمان تبلیغات اسلامی تهران بزرگ: راهپیمایی ۱۳ آبان فردا ۹ صبح از میدان فلسطین به سمت لانۀ جاسوسی برگزار…",
+      "url": "https://t.me/iribnews/370210",
+      "summary": "‌ سازمان تبلیغات اسلامی تهران بزرگ: راهپیمایی ۱۳ آبان فردا ۹ صبح از میدان فلسطین به سمت لانۀ جاسوسی برگزار می‌شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370210"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Organization for Islamic Propaganda in Greater Tehran: the 13 Aban demonstration will take place tomorrow at 9 a.m. from Palestine Square towards the espionage nest",
+      "summary_en": "Organization for Islamic Propaganda in Greater Tehran: the 13 Aban demonstration will take place tomorrow at 9 a.m. from Palestine Square towards the espionage nest.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgmoxtpbj2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T19:56:50.311000Z",
+      "title": "Israel warned the US that its intelligence suggests Iran may use chemical weapons against its enemies, the New York Time reported, however,…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913753",
+      "summary": "Israel warned the US that its intelligence suggests Iran may use chemical weapons against its enemies, the New York Time reported, however, some officials in Washington doubt the veracity of the intelligence.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370209",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:54:58Z",
+      "title": "مسمومیت ۳۰ دانش آموز در میاندوآب 🔹 این دانش آموزان که با علایم مسمومیت به بیمارستان مراجعه کرده بودند بستری…",
+      "url": "https://t.me/iribnews/370209",
+      "summary": "مسمومیت ۳۰ دانش آموز در میاندوآب 🔹 این دانش آموزان که با علایم مسمومیت به بیمارستان مراجعه کرده بودند بستری شدند. 🔹 موضوع در دست بررسی است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370209"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Poisoning of 30 students in Miandoab",
+      "summary_en": "These students, who presented with symptoms of poisoning at the hospital, were admitted. The matter is under investigation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370208",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:52:27Z",
+      "title": "سردار قریشی: سربازان تروریست آمریکایی و صهیونیستی دیگر ‌در امان نخواهند بود جانشین رئیس سازمان بسیج: 🔹 از…",
+      "url": "https://t.me/iribnews/370208",
+      "summary": "سردار قریشی: سربازان تروریست آمریکایی و صهیونیستی دیگر ‌در امان نخواهند بود جانشین رئیس سازمان بسیج: 🔹 از امروز به بعد، سربازان مزدور آمریکایی در هیچ نقطه از جهان در امان نخواهند بود و در انتخاب هدف، برد، اندازه، کمیت و کیفیت هیچ محدودیتی نخواهیم داشت، مگر ملاحظات تاکتیکی و راهبردی نظامی. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370208"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander Qureishi: American and Zionist terrorist soldiers will no longer be safe",
+      "summary_en": "Deputy Commander of Basij Organization: From today onwards, American mercenary soldiers will not be safe anywhere in the world, and we will have no restrictions in choosing targets, range, size, quantity and quality, except for tactical and strategic military considerations.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgmfvuxqc2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T19:51:46.078000Z",
+      "title": "US-Iran talks stalled despite mediation efforts as Washington reinforced its regional forces, two sources told The Jerusalem Post.",
+      "url": "https://www.jpost.com/middle-east/article-913751",
+      "summary": "US-Iran talks stalled despite mediation efforts as Washington reinforced its regional forces, two sources told The Jerusalem Post. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370207",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:50:01Z",
+      "title": "رهبر معظم انقلاب: وقتی به شیطان می‌رسید، سینه را ستبر کنید @iribnews",
+      "url": "https://t.me/iribnews/370207",
+      "summary": "رهبر معظم انقلاب: وقتی به شیطان می‌رسید، سینه را ستبر کنید @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370207"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Supreme Leader: when you reach Satan, stand firm",
+      "summary_en": "Supreme Leader: when you reach Satan, stand firm",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370206",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:46:01Z",
+      "title": "تداوم مشکلات دستگاه‌های رای‌گیری در آمریکا شبکه ان‌بی‌سی: 🔹 کن جنکینز، مقام ارشد اجرایی شهر وست‌چستر در اطراف…",
+      "url": "https://t.me/iribnews/370206",
+      "summary": "تداوم مشکلات دستگاه‌های رای‌گیری در آمریکا شبکه ان‌بی‌سی: 🔹 کن جنکینز، مقام ارشد اجرایی شهر وست‌چستر در اطراف نیویورک ادامه مشکلات دستگاه‌های رای‌گیری در حومه شهر نیویورک را محکوم کرد. 🔹 این وضعیت به‌هیچ‌وجه قابل‌قبول نیست. وظیفه من دفاع از حقوق رأی‌دهندگان در وست‌چستر است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370206"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Continued problems with voting machines in America",
+      "summary_en": "NBC Network: Ken Jenkins, senior executive officer of Westchester city near New York, condemned the continued problems with voting machines in the suburbs of New York. This situation is by no means acceptable. My duty is to defend the rights of voters in Westchester.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1278",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:45:29Z",
+      "title": "(media post — open in Telegram to view)",
+      "url": "https://t.me/rahbar_ir/1278",
+      "summary": "(media post — open in Telegram to view)",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1278"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "(media post — open in Telegram to view)",
+      "summary_en": "(media post — open in Telegram to view)",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71329",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:38:42Z",
+      "title": "💢 حزب‌الله عراق: مشارکت در محاصره ایران همچون همراهی با کفار قریش است 🔸 مسئول امنیتی کتائب (گردانهای)…",
+      "url": "https://t.me/defapress_ir/71329",
+      "summary": "💢 حزب‌الله عراق: مشارکت در محاصره ایران همچون همراهی با کفار قریش است 🔸 مسئول امنیتی کتائب (گردانهای) حزب‌الله عراق گفت: کسانی که در محاصره ملت برادر، ایران مشارکت دارند، هیچ تفاوتی با أبولهب و کفار قریش در محاصره پیامبر (ص) ندارند. 🔸 مقاومت اسلامی عراق درباره پیامد‌های خطرناک این رویکرد تحمیلی و همسویی با توطئه‌های ضدایرانی هشدار جدی می‌دهد. dnws.ir/003fZd @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71329"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iraqi Hezbollah: Participation in the blockade of Iran is like siding with the disbelievers of Quraysh",
+      "summary_en": "A security official of Kataib (battalions) of Iraqi Hezbollah stated: Those who participate in the blockade of the brotherly people of Iran have no difference from Abu Lahab and the disbelievers of Quraysh in their blockade of the Prophet (PBUH). Islamic Resistance in Iraq seriously warns of the dangerous consequences of this forced approach and alignment with anti-Iran conspiracies.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzglf5ugs22n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T19:33:27.431000Z",
+      "title": "Analysis: Syria’s new government has increasingly targeted Hezbollah-linked networks since the fall of the Assad regime in December 2024.",
+      "url": "https://www.jpost.com/middle-east/article-913748",
+      "summary": "Analysis: Syria’s new government has increasingly targeted Hezbollah-linked networks since the fall of the Assad regime in December 2024. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370205",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:32:57Z",
+      "title": "🎦 آصفی؛ سخنگوی اسبق وزارت خارجه: در جنگ اخیر مسئولان، مردم و نظامیان گل کاشتند 🔹 عملکرد ما در جنگ باعث شد…",
+      "url": "https://t.me/iribnews/370205",
+      "summary": "🎦 آصفی؛ سخنگوی اسبق وزارت خارجه: در جنگ اخیر مسئولان، مردم و نظامیان گل کاشتند 🔹 عملکرد ما در جنگ باعث شد ایران امروز از ایران ۸ ماه پیش قوی‌تر باشد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370205"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Asafi, former Foreign Ministry spokesperson: in the recent war, officials, people and military personnel bore flowers",
+      "summary_en": "Our performance in the war has resulted in Iran today being stronger than Iran eight months ago.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370204",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:27:01Z",
+      "title": "🎦 واکنش جالب علم‌الهدی، امام جمعه مشهد به گزارش‌های خبرنگار صداوسیما @iribnews",
+      "url": "https://t.me/iribnews/370204",
+      "summary": "🎦 واکنش جالب علم‌الهدی، امام جمعه مشهد به گزارش‌های خبرنگار صداوسیما @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370204"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Amusing reaction by Alamolhoda, Friday Prayer leader of Mashhad, to reports by state media correspondents",
+      "summary_en": "Amusing reaction by Alamolhoda, Friday Prayer leader of Mashhad, to reports by state media correspondents",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71328",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:25:59Z",
+      "title": "💢 حمله به یمن طی ۲۴ ساعت/ حمله وحشیانه سعودی به یک مرکز آموزشی 🔸 سخنگوی نیرو‌های مسلح یمن گفت: متجاوزان سعودی…",
+      "url": "https://t.me/defapress_ir/71328",
+      "summary": "💢 حمله به یمن طی ۲۴ ساعت/ حمله وحشیانه سعودی به یک مرکز آموزشی 🔸 سخنگوی نیرو‌های مسلح یمن گفت: متجاوزان سعودی طی ۲۴ ساعت گذشته ۹۳ حمله به اهداف غیرنظامی در صنعاء و استان‌های الجوف، تعز، صعده، مأرب، عمران، لحج و حجه انجام دادند. 🔸 این حملات شمار زیادی شهید و زخمی از میان غیرنظامیان، از جمله زنان و کودکان برجای گذاشت. 🔸 مجموع تجاوزات هوایی و موشکی سعودی علیه یمن از آغاز دور جدید تشدید تجاوزات تاکنون به ۴۰۳۲ مورد رسیده است. dnws.ir/003fZ3 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71328"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Attack on Yemen in 24 hours / Saudi brutal attack on an educational centre",
+      "summary_en": "Spokesman for Yemen's armed forces stated: Saudi aggressors carried out 93 attacks on civilian targets in Sanaa and the provinces of Al-Jouf, Taiz, Saada, Marib, Amran, Lahij and Hajja over the past 24 hours. These attacks resulted in a large number of casualties and injuries among civilians, including women and children. The total number of Saudi air and missile aggression against Yemen since the beginning of the new round of intensified aggression has reached 4,032 incidents.",
+      "has_figures": true,
+      "figures_examples": [
+        "93 attacks",
+        "032 incidents",
+        "in 24 hours",
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370203",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:15:18Z",
+      "title": "دیگه چخبر؟!!!| از اجلاس خواهر شوهرا در گروه ۲۰ تا افتتاح بانک زمان در تهران! 🔹 بررسی پنج خبر متفاوت! 🔹 ما…",
+      "url": "https://t.me/iribnews/370203",
+      "summary": "دیگه چخبر؟!!!| از اجلاس خواهر شوهرا در گروه ۲۰ تا افتتاح بانک زمان در تهران! 🔹 بررسی پنج خبر متفاوت! 🔹 ما اینجا خبرها رو با نگاهی متفاوت بررسی می‌کنیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370203"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What else is new?!!! From sisters-in-law's meeting in the G20 to the opening of a time bank in Tehran!",
+      "summary_en": "What else is new?!!! From sisters-in-law's meeting in the G20 to the opening of a time bank in Tehran! Examining five different news stories! We examine news here with a different perspective.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370202",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:10:01Z",
+      "title": "پارلمان گرینلند توافق‌نامه امنیتی با آمریکا را تصویب کرد و اکنون پیش از لازم‌الاجرا شدن، این توافق در انتظار…",
+      "url": "https://t.me/iribnews/370202",
+      "summary": "پارلمان گرینلند توافق‌نامه امنیتی با آمریکا را تصویب کرد و اکنون پیش از لازم‌الاجرا شدن، این توافق در انتظار تصویب پارلمان دانمارک است خبرگزاری دانمارکی DR: 🔹 پارلمان گرینلند امروز سه‌شنبه توافق‌نامه امنیتی با ایالات متحده و دانمارک را تصویب کرد که راه را برای گسترش حضور نظامی آمریکا در این جزیره قطبی هموار می‌کند. 🔹 به گفته این خبرگزاری، این توافق‌نامه پس از بحث و تبادل نظر پارلمانی، ۱۶ رأی موافق بدون رأی مخالف و ۷ رأی ممتنع کسب کرد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370202"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Greenland's parliament approved a security agreement with the United States and now, before it enters into force, this agreement awaits approval by Denmark's parliament",
+      "summary_en": "Greenland's parliament approved on Tuesday a security agreement with the United States and Denmark that paves the way for expanded American military presence on this Arctic island. According to the Danish news agency DR, the agreement received 16 votes in favour with no votes against and 7 abstentions following parliamentary discussion and debate.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370201",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T19:04:40Z",
+      "title": "🎦 دعوت مردم از مردم برای حضور مردمی 🔹 مردم مبعوث در اجتماعات شبانه با دعوت از اقشار مختلف برای حضور پرشور در…",
+      "url": "https://t.me/iribnews/370201",
+      "summary": "🎦 دعوت مردم از مردم برای حضور مردمی 🔹 مردم مبعوث در اجتماعات شبانه با دعوت از اقشار مختلف برای حضور پرشور در راهپیمایی یوم الله ۱۳ آبان تاکید کردند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370201"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "People calling on people for popular participation",
+      "summary_en": "Delegated people in evening gatherings, by calling on various sectors, emphasised the need for enthusiastic participation in the Day of God 13 Aban procession.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71327",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:52:44Z",
+      "title": "💢 حزب الله لبنان: ارتباطی با فعالیت‌های بی‌ثبات کننده در سوریه نداریم 🔸 حزب الله ضمن رد ادعای واهی رژیم…",
+      "url": "https://t.me/defapress_ir/71327",
+      "summary": "💢 حزب الله لبنان: ارتباطی با فعالیت‌های بی‌ثبات کننده در سوریه نداریم 🔸 حزب الله ضمن رد ادعای واهی رژیم جولانی، گفت: جهت گیری حزب الله مقابله با دشمن اسرائیلی متجاوز به سوریه و لبنان است. هیچ حضور یا ارتباطی با فعالیت‌های بی ثبات کننده در سوریه نداریم. 🔸 هیچگونه حضور یا ارتباطی در خاک سوریه و هیچ ارتباطی با فعالیت‌هایی که امنیت و ثبات سوریه را مختل می‌کند، ندارد. 🔸 جهت گیری اصلی حزب الله، مقابله با دشمن اسرائیلی است که به تجاوزات خود علیه لبنان و سوریه و اشغال بخش‌هایی از خاک این دو کشور ادامه می‌دهد. مقابله با این دشمن و طرح‌های توسعه طلبانه آن، باید اولویت اصلی باشد و تلاش‌ها و مواضع در این ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71327"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Lebanese Hezbollah: we have no connection with destabilising activities in Syria",
+      "summary_en": "Hezbollah, whilst rejecting the false claims of the Julani regime, stated: Hezbollah's direction is to confront the aggressive Israeli enemy in Syria and Lebanon. We have no presence or connection with destabilising activities in Syria. There is no presence or connection in Syrian territory and no connection with activities that disrupt Syria's security and stability. Hezbollah's primary direction is to confront the Israeli enemy, which continues its aggression against Lebanon and Syria and the occupation of parts of the territory of these two countries. Confronting this enemy and its expansionist schemes must be the primary priority.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370200",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:51:42Z",
+      "title": "یمن: ۹۷ درصد از سودهای تقسیمی آرامکو، به سهامداران نمی‌رسد 🔹 منبع نظامی یمن خطاب به سرمایه‌گذاران در عربستان…",
+      "url": "https://t.me/iribnews/370200",
+      "summary": "یمن: ۹۷ درصد از سودهای تقسیمی آرامکو، به سهامداران نمی‌رسد 🔹 منبع نظامی یمن خطاب به سرمایه‌گذاران در عربستان سعودی: مراقب تله سرمایه‌گذاری در آرامکو باشید. 🔹 آرامکو در تیررس نیروهای مسلح یمن قرار دارد، سودهای تقسیمی بالا، در صورتی که ریسک‌ها را پوشش دهد یا القاکننده ثبات واهی در بلندمدت باشد، ممکن است دامی برای سرمایه‌گذاران باشد. 🔹 ۹۷ درصد از سود تقسیمی آرامکو واقعی نیست، این سود تقسیمی متعلق به دولت عربستان است و میان سهام‌داران توزیع نمی‌شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370200"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yemen: 97 per cent of Aramco's dividend profits do not reach shareholders",
+      "summary_en": "A Yemeni military source addressing investors in Saudi Arabia: Be wary of the trap of investing in Aramco. Aramco is within the range of Yemen's armed forces; high dividend profits, if they do not offset risks or are conducive to false long-term stability, may be a snare for investors. 97 per cent of Aramco's dividend profit is not real; this profit belongs to the Saudi government and is not distributed among shareholders.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611030962",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T18:39:00Z",
+      "title": "Iran International's Negar Mojtahedi receives prestigious Canadian journalism award",
+      "url": "https://www.iranintl.com/en/202611030962",
+      "summary": "Iran International journalist Negar Mojtahedi received the 2026 Bill Good Award at the 40th annual Webster Awards in Vancouver on Monday, in recognition of her reporting on war, state violence and human rights violations in Iran, often at great risk to her personal safety.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370199",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:36:04Z",
+      "title": "🎦 فریاد ما در ۱۳ آبان بیشتر از قبل به گوش جهانیان می‌رسد 🔹 مقدمه تحلیلی خبر ۲۱ 🔹 نویسنده: سجاد وهابی @iribnews",
+      "url": "https://t.me/iribnews/370199",
+      "summary": "🎦 فریاد ما در ۱۳ آبان بیشتر از قبل به گوش جهانیان می‌رسد 🔹 مقدمه تحلیلی خبر ۲۱ 🔹 نویسنده: سجاد وهابی @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370199"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Our cry on 13 Aban will reach the ears of the world more than before",
+      "summary_en": "Our cry on 13 Aban will reach the ears of the world more than before. News 21 analytical introduction. Author: Sajad Vahabi",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71326",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:31:56Z",
+      "title": "💢 پزشکیان: اقدامات آمریکا و رژیم صهیونیستی موجب برهم خوردن ثبات منطقه شده است 🔸 رئیس‌جمهور در آیین رسمی…",
+      "url": "https://t.me/defapress_ir/71326",
+      "summary": "💢 پزشکیان: اقدامات آمریکا و رژیم صهیونیستی موجب برهم خوردن ثبات منطقه شده است 🔸 رئیس‌جمهور در آیین رسمی دریافت استوارنامه گئورک اشتاینر، سفیر جدید سوئیس در جمهوری اسلامی ایران، با اشاره به مواضع و رویکرد‌های این کشور در عرصه بین‌المللی، به‌ویژه در حوزه مسائل بشردوستانه و حمایت از صلح جهانی، گفت: مواضع سوئیس در این زمینه‌ها قابل احترام است و امیدواریم با بهره‌گیری از ظرفیت‌های موجود، زمینه توسعه مناسبات و همکاری‌های مشترک میان دو کشور در تمامی حوزه‌ها فراهم شود 🔸 متأسفانه برخی دیدگاه‌ها و تصورات درباره کشور و ملت ایران، با واقعیت‌های موجود انطباق ندارد و متأثر از رویکرد‌های یک‌جانبه است. امیدوا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71326"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Pezeshkian: actions of the United States and the Zionist regime have disrupted the stability of the region",
+      "summary_en": "The President, at the official ceremony for receiving the credentials of George Steinberg, Switzerland's new ambassador to the Islamic Republic of Iran, referring to this country's positions and approaches in the international arena, particularly in the field of humanitarian issues and support for global peace, stated: Switzerland's positions in these areas are commendable and we hope that by utilising existing capacities, the ground will be prepared for developing appropriate relations and joint cooperation between the two countries in all fields. Unfortunately, some views and perceptions about Iran and the Iranian nation do not accord with existing realities and are influenced by one-sided approaches.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370198",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:25:24Z",
+      "title": "🎦 نظر شما چیه؟ کالابرگ برای همه یا فقط دهک‌های پایین درآمدی؟ 🔹 طرحی ملی با ۷۸ میلیون جامعه هدف، که خبرنگاران…",
+      "url": "https://t.me/iribnews/370198",
+      "summary": "🎦 نظر شما چیه؟ کالابرگ برای همه یا فقط دهک‌های پایین درآمدی؟ 🔹 طرحی ملی با ۷۸ میلیون جامعه هدف، که خبرنگاران ما به آن پرداخته اند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370198"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What's your opinion? Ration card for everyone or only low-income deciles?",
+      "summary_en": "What's your opinion? Ration card for everyone or only low-income deciles? A national scheme with a target population of 78 million, which our correspondents have covered.",
+      "has_figures": true,
+      "figures_examples": [
+        "78 million"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370197",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:21:01Z",
+      "title": "🎦 جنگ ایران پنجه در پنجه‌ی ترامپ در روز انتخابات 🔹 مردم آمریکا دنبال تعیین تکلیف آینده‌ی کنگره در دو سال آخر…",
+      "url": "https://t.me/iribnews/370197",
+      "summary": "🎦 جنگ ایران پنجه در پنجه‌ی ترامپ در روز انتخابات 🔹 مردم آمریکا دنبال تعیین تکلیف آینده‌ی کنگره در دو سال آخر ریاست جمهوری ترامپ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370197"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran wrestling hand-to-hand with Trump on election day",
+      "summary_en": "Americans are looking to determine the future of Congress in the final two years of Trump's presidency.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370196",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:16:01Z",
+      "title": "🎦 چه دلیلی دارد که ایران هنوز از Npt خارج نشده است؟ @iribnews",
+      "url": "https://t.me/iribnews/370196",
+      "summary": "🎦 چه دلیلی دارد که ایران هنوز از Npt خارج نشده است؟ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370196"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What reason does Iran have for not yet withdrawing from the NPT?",
+      "summary_en": "What reason does Iran have for not yet withdrawing from the NPT?",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370195",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:12:01Z",
+      "title": "درخشش سینمای بومی ایران در لبنان 🔹 فیلم کوتاه «ده»، ساخته فریاد خسرویانی در پنجمین دوره جشنواره بین‌المللی…",
+      "url": "https://t.me/iribnews/370195",
+      "summary": "درخشش سینمای بومی ایران در لبنان 🔹 فیلم کوتاه «ده»، ساخته فریاد خسرویانی در پنجمین دوره جشنواره بین‌المللی فیلم کوتاه تِرِدلبنان، موفق به کسب جایزه ویژه اول و تندیس بهترین فیلم کوتاه ۱۰۰ ثانیه‌ای شد. irib-news.ir/00OzcL @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370195"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Flourishing of Iran's indigenous cinema in Lebanon",
+      "summary_en": "The short film 'Ten', directed by Faryad Khosroiyani, won the special first prize and the trophy for best 100-second short film at the fifth edition of Tardi Lebanon International Short Film Festival.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71325",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T18:06:02Z",
+      "title": "💢 رمزگشایی از انتخابات کنگره آمریکا 🔸 در جریان انتخابات میان‌دوره‌ای کنگره، حزب دموکرات امیدوار است که با کسب…",
+      "url": "https://t.me/defapress_ir/71325",
+      "summary": "💢 رمزگشایی از انتخابات کنگره آمریکا 🔸 در جریان انتخابات میان‌دوره‌ای کنگره، حزب دموکرات امیدوار است که با کسب اکثریت در کنگره، تبدیل به مانعی جدی برای پیش‌برد سیاست‌های داخلی و بین‌المللی ترامپ شود. 🔸 مجلس نمایندگان ۴۳۵ کرسی دارد و همه آنها در انتخابات ۱۲ آبان به رقابت گذاشته می‌شوند. نمایندگان برای دو سال انتخاب می‌شوند، بنابراین هر انتخابات میان‌دوره‌ای در واقع ترکیب جدید مجلس نمایندگان را تعیین می‌کند. مجلس سنا نیز به ازای هر ایالت دو قانون‌گذار دارد که در مجموع ۱۰۰ نماینده را شامل می‌شود، دوره مسئولیت آنها شش سال است و در چرخه انتخاباتی کنونی، رأی‌گیری شامل ۳۵ کرسی سنا می‌شود. 🔸 در ترکیب ف",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71325"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Decoding the American Congressional elections",
+      "summary_en": "During the mid-term Congressional elections, the Democratic Party hopes that by obtaining a majority in Congress, it will become a serious obstacle to Trump's domestic and international policies. The House of Representatives has 435 seats, all of which are contested in the 12 Aban elections. Representatives are elected for two years, so each mid-term election effectively determines the new composition of the House of Representatives. The Senate also has two legislators per state, totalling 100 representatives, with a six-year term of office, and in the current election cycle, the vote includes 35 Senate seats.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgfkmvu3s2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T17:49:08.494000Z",
+      "title": "Explainer: What is the significance of Qeshm Island to the Islamic Revolutionary Guard Corps (IRGC), and why does the US keep returning to…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913739",
+      "summary": "Explainer: What is the significance of Qeshm Island to the Islamic Revolutionary Guard Corps (IRGC), and why does the US keep returning to strikes targeting it?\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71324",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T17:31:27Z",
+      "title": "💢 کولیوند: درماندگی سیستم درمانی رژیم صهیونی در پی حملات موشکی ایران/ ۸۰ هزار فلسطینی در حملات صهیونیست‌ها به…",
+      "url": "https://t.me/defapress_ir/71324",
+      "summary": "💢 کولیوند: درماندگی سیستم درمانی رژیم صهیونی در پی حملات موشکی ایران/ ۸۰ هزار فلسطینی در حملات صهیونیست‌ها به شهادت رسیدند 🔸 رئیس سازمان جمعیت هلال احمر در همایش ملی «زنگ بیداری از ایران تا فلسطین»،  با اشاره به شهادت ۸۰ هزار فلسطینی در حملات جنایتکاران صهیونیست…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71324"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kolivand: helplessness of the Zionist regime's healthcare system following Iran's missile strikes / 80,000 Palestinians killed in Zionist attacks",
+      "summary_en": "The head of the Red Crescent Society, at the national 'Wake-up call from Iran to Palestine' conference, referring to the martyrdom of 80,000 Palestinians in the attacks of Zionist criminals...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71323",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T17:20:33Z",
+      "title": "💢 بقائی: مسئله فلسطین بزرگ‌ترین رسواکننده ادعاهای حقوق بشری غرب است 🔸 سخنگوی وزارت امور خارجه در همایش ملی…",
+      "url": "https://t.me/defapress_ir/71323",
+      "summary": "💢 بقائی: مسئله فلسطین بزرگ‌ترین رسواکننده ادعاهای حقوق بشری غرب است 🔸 سخنگوی وزارت امور خارجه در همایش ملی «زنگ بیداری از ایران تا فلسطین»، گفت: فلسطین مادامی که به این شکل وجود داشته باشد، خودش بزرگ‌ترین رسواکننده‌ی ادعا‌های قرن با آمریکاست. 🔸 موضع ایران در…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71323"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Baghaeian: the Palestinian issue is the greatest exposer of the West's human rights claims",
+      "summary_en": "The Foreign Ministry spokesperson at the national 'Wake-up call from Iran to Palestine' conference stated: Palestine, so long as it exists in this form, is itself the greatest exposer of hundred-year claims alongside America.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71322",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T17:11:59Z",
+      "title": "💢 ارتش: شناخت ماهیت تهدید و حفظ هوشیاری ملی، ضرورتی دائمی است 🔸 ارتش جمهوری اسلامی ایران به مناسبت سیزدهم…",
+      "url": "https://t.me/defapress_ir/71322",
+      "summary": "💢 ارتش: شناخت ماهیت تهدید و حفظ هوشیاری ملی، ضرورتی دائمی است 🔸 ارتش جمهوری اسلامی ایران به مناسبت سیزدهم آبان‌ماه، سالروز تسخیر لانه‌ی جاسوسی، در بیانیه‌ای با گرامیداشت یاد و خاطره‌ی شهیدان و پیشگامان مبارزه با استکبار جهانی تأکید کرد: شناخت ماهیت تهدید و حفظ هوشیاری ملی، ضرورتی دائمی برای صیانت از استقلال، امنیت و منافع ملت ایران است. بسم‌الله الرحمن الرحیم 🔸 سیزدهم آبان، نمادی ماندگار از اراده‌ی ملتی است که تحت هدایت‌های امام راحل تصمیم گرفت سرنوشت خود را به دست گیرد و در مسیر استقلال، عزت و آزادی، هیچ قدرتی را فراتر از اراده‌ی ملی خویش نپذیرد. 🔸 این روز، تجلی پیوند آگاهی، ایمان و شجاعت نسل",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71322"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Army: understanding the nature of threats and preserving national alertness is a permanent necessity",
+      "summary_en": "The Army of the Islamic Republic of Iran, on the occasion of 13 Aban, the anniversary of the seizure of the espionage nest, in a statement honouring the memory of martyrs and pioneers of struggle against global arrogance, emphasised: understanding the nature of threats and preserving national alertness is a permanent necessity for safeguarding the independence, security and interests of the Iranian nation. 13 Aban is an enduring symbol of the Iranian nation's resistance against global arrogance; a day on which Imam Khomeini's (RA) exile on 1343, the massacre of students in 1357 and the seizure of America's espionage nest in 1358 were recorded in the history of this land and proved that the believing and revolutionary nation of Iran will never submit to the dominance and deception of the arrogant front.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71321",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T16:53:58Z",
+      "title": "💢 فروپاشی قرارداد اجتماعی در فرانسه 🔸 طولانی‌شدن جنگ روسیه و اوکراین در کنار راهبرد واشنگتن مبنی بر عدم حمایت…",
+      "url": "https://t.me/defapress_ir/71321",
+      "summary": "💢 فروپاشی قرارداد اجتماعی در فرانسه 🔸 طولانی‌شدن جنگ روسیه و اوکراین در کنار راهبرد واشنگتن مبنی بر عدم حمایت مالی از اروپا، ضعف‌های ساختاری این قاره را آشکار و آتش اعتراضات را در یکی از اصلی‌ترین کشور‌های این قاره روشن کرده است. 🔸 اعتراضات سراسری اخیر در فرانسه که با حضور گسترده جوانان و بحران بیکاری همراه شده است، پرده از شکاف عمیق میان شهروندان و دولتمردان این کشور برمی‌دارد. تحلیلگران این ناآرامی‌ها را نه یک اتفاق مقطعی، بلکه نشانه‌ای آشکار از فروپاشی بنیادین قرارداد اجتماعی در فرانسه می‌دانند که در کنار فشار‌های فزاینده اقتصادی، چالش‌های ژئوپلیتیکی و تغییر رویکرد آمریکا در قبال جنگ اوکرای",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71321"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Collapse of the social contract in France",
+      "summary_en": "The prolongation of the Russia-Ukraine war, coupled with Washington's strategy of non-financial support for Europe, has exposed the structural weaknesses of this continent and ignited the flames of protest in one of its principal countries. Recent nationwide protests in France, accompanied by widespread youth participation and an unemployment crisis, reveal a deep rift between citizens and the authorities of this country. Analysts view these disturbances not as a temporary incident, but as a clear sign of fundamental collapse of the social contract in France, which, alongside mounting economic pressures, geopolitical challenges and a shift in America's approach to the Ukraine war...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71320",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T16:32:05Z",
+      "title": "💢 آیت‌الله آملی لاریجانی: ملت ایران در برابر دشمنان تسلیم نخواهد شد 🔸 رئیس مجمع تشخیص مصلحت نظام ضمن دعوت از…",
+      "url": "https://t.me/defapress_ir/71320",
+      "summary": "💢 آیت‌الله آملی لاریجانی: ملت ایران در برابر دشمنان تسلیم نخواهد شد 🔸 رئیس مجمع تشخیص مصلحت نظام ضمن دعوت از ملت مبعوث شده ایران برای حضور در مراسم روز ۱۳ آبان تاکید کرد: مسئولان جمهوری اسلامی، ملت مبعوث‌شده ایران و نیرو‌های مسلح کشور، هیچ‌یک اهل تسلیم نیستند. 🔸 دشمنان به دنبال تجزیه ایران، نابودی قدرت نظامی کشور و از بین بردن ساختار حکومتی جمهوری اسلامی ایران بودند، اما در دستیابی به هیچ‌یک از این اهداف توفیقی نداشتند. این پیروزی برای ملت بزرگ ایران، دستاورد کوچکی نیست. 🔸 ملت ایران از همان آغاز انقلاب با مشکلات و دشواری‌های فراوانی از جمله جنگ و تحریم‌ها روبه‌رو بوده است. اما ملت در گذر از ای",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71320"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ayatollah Amoli Larijani: the Iranian nation will not surrender to enemies",
+      "summary_en": "The chairman of the Expediency Discernment Council, whilst inviting the delegated Iranian nation to participate in the 13 Aban ceremonies, emphasised: officials of the Islamic Republic, the delegated Iranian nation and the country's armed forces are not inclined to surrender. Enemies sought to partition Iran, destroy the country's military power and eliminate the governmental structure of the Islamic Republic of Iran, but they failed to achieve any of these objectives. This victory for the great nation of Iran is no small achievement. The Iranian nation has faced numerous problems and difficulties since the revolution's inception, including war and sanctions. However, the nation has overcome...",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzgaatpamw2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T16:14:11.281000Z",
+      "title": "Analysis: Turkey is emerging as a major winner in the Iran war, as oil exports increasingly pass through its ports.",
+      "url": "https://www.jpost.com/middle-east/article-913728",
+      "summary": "Analysis: Turkey is emerging as a major winner in the Iran war, as oil exports increasingly pass through its ports.  \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71319",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T16:04:35Z",
+      "title": "💢 بیانیه سپاه پاسداران انقلاب اسلامی به مناسبت یوم‌الله ۱۳ آبان، روز ملی مبارزه با استکبار بسم‌الله الرحمن…",
+      "url": "https://t.me/defapress_ir/71319",
+      "summary": "💢 بیانیه سپاه پاسداران انقلاب اسلامی به مناسبت یوم‌الله ۱۳ آبان، روز ملی مبارزه با استکبار بسم‌الله الرحمن الرحیم 🔸 سیزدهم آبان، نماد ماندگار مقاومت ملت ایران در برابر استکبار جهانی است؛ روزی که در آن تبعید امام خمینی (ره) در ۱۳۴۳، کشتار دانش‌آموزان و دانشجویان در ۱۳۵۷ و تسخیر لانه جاسوسی آمریکا در ۱۳۵۸ در تاریخ این سرزمین به ثبت رسید و ثابت کرد که ملت مؤمن و انقلابی ایران هیچ‌گاه تسلیم سلطه و فریب جبهه استکبار نخواهد شد؛ روزی که در تقویم تاریخی کشور به درستی \" روز ملی مبارزه با استکبار جهانی \" نام گرفت. 🔸 دشمنی رژیم آمریکا با ملت ایران، نه اختلافی مقطعی و نه سوءتفاهمی سیاسی، بلکه ریشه در تضاد",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71319"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Statement by the Islamic Revolutionary Guards Corps on the occasion of Day of God 13 Aban, National Day of Struggle Against Arrogance",
+      "summary_en": "Statement by the Islamic Revolutionary Guards Corps on the occasion of Day of God 13 Aban, National Day of Struggle Against Arrogance. 13 Aban is an enduring symbol of the Iranian nation's resistance against global arrogance; a day on which Imam Khomeini's (RA) exile in 1343, the massacre of students and pupils in 1357 and the seizure of America's espionage nest in 1358 were recorded in the history of this land and proved that the believing and revolutionary nation of Iran will never submit to the dominance and deception of the arrogant front; a day that rightly earned the name 'National Day of Struggle Against Global Arrogance' in the country's historical calendar. The enmity of the American regime towards the Iranian nation is not a temporary disagreement or a political misunderstanding, but rooted in...",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:1adb061253cb66dfe73b574cb76e7d89",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-11-03T15:59:00Z",
+      "title": "An army Humvee stolen from a base in southern Israel last week was located by police officers this evening in a community near the Gaza Strip. The vehicle had been identified as missing from the Julis base near Ashkelon on Thursday, prompting an investigation. Police say officers from the Segev Shalom station located the Humvee hidden in a packing factory in the community of Ami'oz, following intelligence information on the vehicle's location. No suspects have been detained yet in the case.",
+      "url": "https://x.com/manniefabian/status/2117647962943664351",
+      "summary": "An army Humvee stolen from a base in southern Israel last week was located by police officers this evening in a community near the Gaza Strip.\n\nThe vehicle had been identified as missing from the Julis base near Ashkelon on Thursday, prompting an investigation.\n\nPolice say officers from the Segev Shalom station located the Humvee hidden in a packing factory in the community of Ami'oz, following intelligence information on the vehicle's location. \n\nNo suspects have been detained yet in the case.— Emanuel (Mannie) Fabian (@manniefabian) Nov 3, 2026",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71318",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:32:49Z",
+      "title": "💢 کاظمی: تربیت دانش‌آموزان عدالت‌خواه، سنگین‌ترین مسئولیت است 🔸 وزیر آموزش و پرورش، در همایش «زنگ بیداری از…",
+      "url": "https://t.me/defapress_ir/71318",
+      "summary": "💢 کاظمی: تربیت دانش‌آموزان عدالت‌خواه، سنگین‌ترین مسئولیت است 🔸 وزیر آموزش و پرورش، در همایش «زنگ بیداری از ایران تا فلسطین»، از برگزاری مراسم زنگ استکبارستیزی در مدارس سراسر کشور در ساعت ۸ صبح روز ۱۳ آبان خبر داد و گفت: تربیت دانش‌آموزان عدالت‌خواه، سنگین‌ترین…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71318"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kazemi: educating justice-seeking students is the weightiest responsibility",
+      "summary_en": "The Education Minister, at the 'Wake-up call from Iran to Palestine' conference, announced the holding of anti-arrogance bell ceremonies in schools across the country at 8 a.m. on 13 Aban and stated: educating justice-seeking students is the weightiest...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1277",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:26:32Z",
+      "title": "🖼 بدون محدودیت جغرافیایی ✏️ هر سطح و نوعی از تهدید باید با پاسخ فوری و اثرگذار و بدون محدودیت جغرافیایی…",
+      "url": "https://t.me/rahbar_ir/1277",
+      "summary": "🖼 بدون محدودیت جغرافیایی ✏️ هر سطح و نوعی از تهدید باید با پاسخ فوری و اثرگذار و بدون محدودیت جغرافیایی روبه‌رو شود. ✍ فرمانده معظم کل قوا | ۹/آبان/۱۴۰۵ ▪️ #لوح 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1277"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Without geographical limitation",
+      "summary_en": "Every level and type of threat must be met with an immediate, effective response without geographical limitation. Supreme Commander of the Armed Forces | 9 Aban 1405",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71317",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:21:40Z",
+      "title": "💢 کولیوند: درماندگی سیستم درمانی رژیم صهیونی در پی حملات موشکی ایران/ ۸۰ هزار فلسطینی در حملات صهیونیست‌ها به…",
+      "url": "https://t.me/defapress_ir/71317",
+      "summary": "💢 کولیوند: درماندگی سیستم درمانی رژیم صهیونی در پی حملات موشکی ایران/ ۸۰ هزار فلسطینی در حملات صهیونیست‌ها به شهادت رسیدند 🔸 رئیس سازمان جمعیت هلال احمر در همایش ملی «زنگ بیداری از ایران تا فلسطین»،  با اشاره به شهادت ۸۰ هزار فلسطینی در حملات جنایتکاران صهیونیست…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71317"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Kolivand: helplessness of the Zionist regime's healthcare system following Iran's missile strikes / 80,000 Palestinians killed in Zionist attacks",
+      "summary_en": "The head of the Red Crescent Society, at the national 'Wake-up call from Iran to Palestine' conference, referring to the martyrdom of 80,000 Palestinians in the attacks of Zionist criminals...",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71316",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:12:18Z",
+      "title": "💢 رحیمیان: ایران امروز به‌عنوان ابرقدرت در برابر آمریکا و رژیم صهیونی ایستاده است 🔸 دبیرکل جمعیت دفاع از ملت…",
+      "url": "https://t.me/defapress_ir/71316",
+      "summary": "💢 رحیمیان: ایران امروز به‌عنوان ابرقدرت در برابر آمریکا و رژیم صهیونی ایستاده است 🔸 دبیرکل جمعیت دفاع از ملت فلسطین در همایش ملی «زنگ بیداری از ایران تا فلسطین»، گفت: امروز جمهوری اسلامی ایران به‌عنوان یک ابرقدرت در مقابل آمریکا و اسرائیل و همه قدرت‌های استکباری…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71316"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Rahimian: Iran today stands as a superpower against America and the Zionist regime",
+      "summary_en": "The Secretary-General of the Society for Defence of the Palestinian Nation at the national 'Wake-up call from Iran to Palestine' conference stated: Today the Islamic Republic of Iran stands as a superpower against America, Israel and all arrogant powers...",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzg4qmzeha2r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T15:11:25.876000Z",
+      "title": "Cemetery vandalism and unsubstantiated claims about a priest’s murder reignite sectarian tensions in Lebanon amid disputes over Hezbollah’s…",
+      "url": "https://www.jpost.com/middle-east/article-913722",
+      "summary": "Cemetery vandalism and unsubstantiated claims about a priest’s murder reignite sectarian tensions in Lebanon amid disputes over Hezbollah’s arms. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71315",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:07:20Z",
+      "title": "💢 سرلشکر رضایی: پاسخ آمریکا قانع‌کننده نبود 🔸 دبیر شورای عالی امنیت ملی در توئیتی در واکنش به پذیرش لفظی شروط…",
+      "url": "https://t.me/defapress_ir/71315",
+      "summary": "💢 سرلشکر رضایی: پاسخ آمریکا قانع‌کننده نبود 🔸 دبیر شورای عالی امنیت ملی در توئیتی در واکنش به پذیرش لفظی شروط ایران اظهار داشت: پاسخ آمریکا به حقوق و مطالبات ایران قانع‌کننده نبود و آن‌ها باید کامل و صریح هفت شرط ایران را پاسخ داده و به آن عمل کنند؛ تنها در این صورت تنگه‌ی هرمز باز خواهد شد. dnws.ir/003fYO @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71315"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "General Rezaei: America's response was not convincing",
+      "summary_en": "The Secretary of the Supreme National Security Council, in a tweet in response to the verbal acceptance of Iran's conditions, stated: America's response to Iran's rights and demands was not convincing and they must fully and explicitly respond to Iran's seven conditions and act upon them; only then will the Strait of Hormuz be opened.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71314",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T15:02:02Z",
+      "title": "💢 رحیمیان: ایران امروز به‌عنوان ابرقدرت در برابر آمریکا و رژیم صهیونی ایستاده است 🔸 دبیرکل جمعیت دفاع از ملت…",
+      "url": "https://t.me/defapress_ir/71314",
+      "summary": "💢 رحیمیان: ایران امروز به‌عنوان ابرقدرت در برابر آمریکا و رژیم صهیونی ایستاده است 🔸 دبیرکل جمعیت دفاع از ملت فلسطین در همایش ملی «زنگ بیداری از ایران تا فلسطین»، گفت: امروز جمهوری اسلامی ایران به‌عنوان یک ابرقدرت در مقابل آمریکا و اسرائیل و همه قدرت‌های استکباری عالم ایستاده است. 🔸 سخنرانی تاریخی حضرت امام خمینی (ره) در ۴ آبان ۱۳۴۳ علیه کاپیتولاسیون، سرآغاز تحولی سرنوشت‌ساز در نهضت اسلامی ایران بود. امام (ره) ۶۲ سال پیش در فضای ذهن و کلمات خود، ماهیت آمریکا و اسرائیل و آنچه را در طول این سال‌ها اتفاق افتاد، ترسیم کرد و در همان حال، نوید قاطع پیروزی نهایی اسلام و جمهوری اسلامی ایران را داد. 🔸 ب",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71314"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Rahimian: Iran today stands as a superpower against America and the Zionist regime",
+      "summary_en": "The Secretary-General of the Society for Defence of the Palestinian Nation at the national 'Wake-up call from Iran to Palestine' conference stated: Today the Islamic Republic of Iran stands as a superpower against America, Israel and all arrogant powers in the world. The historic speech of Imam Khomeini (RA) on 4 Aban 1343 against capitulation was the beginning of a momentous transformation in Iran's Islamic movement. Imam (RA), 62 years ago in the realm of thought and words, depicted the nature of America and Israel and what has happened throughout these years, and at the same time, gave the definitive promise of the ultimate victory of Islam and the Islamic Republic of Iran.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71313",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T14:50:42Z",
+      "title": "💢 یحیی سریع: حمله موشکی به تجمعات مزدوران سعودی در استان جوف با موفقیت انجام شد 🔸 سخنگوی نیروهای مسلح یمن…",
+      "url": "https://t.me/defapress_ir/71313",
+      "summary": "💢 یحیی سریع: حمله موشکی به تجمعات مزدوران سعودی در استان جوف با موفقیت انجام شد 🔸 سخنگوی نیروهای مسلح یمن گفت: در حمله موشکی موفق به تجمع مزدوران سعودی، شمار زیادی از آنان کشته و مجروح شدند و چندین دستگاه از ادوات نظامی آن‌ها منهدم شد. 🔸 نیروهای مسلح ما به لطف الهی توانستند با چند فروند موشک بالستیک، تجمعات ارتش متجاوز سعودی وابسته به افسر سعودی «بدر الحربی» را در مناطق رأس العاره و المضاربه هدف قرار دهند. این حملات موشکی با دقت بالا اصابت کرد و ده‌ها کشته و مجروح، از جمله چند فرمانده، بر جای گذاشت. dnws.ir/003fY3 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71313"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Yahya Saree: missile strike on Saudi mercenary gatherings in Al-Jouf province conducted successfully",
+      "summary_en": "Spokesman for Yemen's armed forces stated: In a successful missile strike on Saudi mercenary gatherings, a large number of them were killed and wounded and several of their military equipment was destroyed. Our armed forces, by God's grace, were able to target gatherings of the invading Saudi army affiliated with Saudi officer Badr Al-Harbi in the areas of Ras Al-Ara and Al-Mudarba with several ballistic missiles. These missile strikes were highly accurate and resulted in dozens of deaths and injuries, including several commanders.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71312",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T14:40:35Z",
+      "title": "💢 بقایی: در شرایط جنگی، کوچک‌ترین سستی در مواضع و رفتار دیپلماتیک پذیرفتنی نیست 🔸 سخنگوی وزارت امور خارجه با…",
+      "url": "https://t.me/defapress_ir/71312",
+      "summary": "💢 بقایی: در شرایط جنگی، کوچک‌ترین سستی در مواضع و رفتار دیپلماتیک پذیرفتنی نیست 🔸 سخنگوی وزارت امور خارجه با بیان اینکه دشمنان به دنبال تضعیف و فروپاشی ایران هستند، گفت: در مواجهه با دشمنانی که با تمام ظرفیت در برابر ایران قرار گرفته‌اند، کوچک‌ترین سستی در بیان مواضع و رفتار دیپلماتیک پذیرفتنی نیست. 🔸 ما در مقطع بسیار خطیر و حساسی از تاریخ ایران قرار داریم و شاید سال‌ها یا حتی دهه‌ها زمان لازم باشد تا نسل‌های آینده بتوانند ابعاد و پیامد‌های این دوره را به‌درستی ارزیابی کنند. 🔸 مرور این حوادث در کنار احساس مظلومیت، باید احساس بزرگی، توانمندی و اعتمادبه‌نفس ملی را نیز در ما تقویت کند. 🔸 بزرگی یک",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71312"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Baghaeian: in wartime conditions, the slightest weakness in diplomatic positions and conduct is unacceptable",
+      "summary_en": "The Foreign Ministry spokesperson, stating that enemies seek to weaken and destabilise Iran, said: In confrontation with enemies who stand against Iran with full capacity, the slightest weakness in the expression of positions and diplomatic conduct is unacceptable. We are at a very critical and sensitive point in Iran's history and it may take years or even decades before future generations can properly assess the dimensions and consequences of this period. Reviewing these events alongside a sense of victimhood should also strengthen in us a sense of greatness, capability and national self-confidence.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzg2awmncg2c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T14:26:51.972000Z",
+      "title": "'Paging Hezbollah' brings the story of Mossad’s 2024 pager operation against Hezbollah to US theaters through firsthand accounts,…",
+      "url": "https://www.jpost.com/israel-news/culture/article-913714",
+      "summary": "'Paging Hezbollah' brings the story of Mossad’s 2024 pager operation against Hezbollah to US theaters through firsthand accounts, interviews, and reenactments. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71311",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T13:56:24Z",
+      "title": "📸 سند ابلاغ قانون «روز ملی مبارزه با استکبار جهانی» به امضای امام شهید 🔸 مجلس شورای اسلامی در ۸ آبان ۱۳۶۷، با…",
+      "url": "https://t.me/defapress_ir/71311",
+      "summary": "📸 سند ابلاغ قانون «روز ملی مبارزه با استکبار جهانی» به امضای امام شهید 🔸 مجلس شورای اسلامی در ۸ آبان ۱۳۶۷، با تصویب ماده‌واحده‌ای، روز سیزدهم آبان را به‌طور رسمی به‌عنوان «روز ملی مبارزه با استکبار جهانی و در رأس آن آمریکای جهانخوار» نام‌گذاری کرد. این قانون پس از طی مراحل قانونی، با امضای حضرت آیت‌الله سیدعلی حسینی خامنه‌ای (ره)، رئیس‌جمهور وقت و امام مجاهد شهید انقلاب اسلامی اعلی‌الله مقامه برای اجرا به نخست‌وزیر وقت ابلاغ شد. dnws.ir/003fY8 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71311"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Document of promulgation of the law 'National Day of Struggle Against Global Arrogance' signed by the Martyred Imam",
+      "summary_en": "The Islamic Consultative Assembly on 8 Aban 1367, by approving a single-article clause, formally designated 13 Aban as the 'National Day of Struggle Against Global Arrogance and at its head America, the devourer of nations'. After going through legal procedures, this law was promulgated by the signature of His Eminence Ayatollah Seyyed Ali Hosseini Khamenei (RA), then President and martyred leader of the Islamic Revolution, may God elevate his station, to the then Prime Minister for implementation.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611036683",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T13:55:34Z",
+      "title": "Iranian protester was put through a mock hanging before his execution, source says",
+      "url": "https://www.iranintl.com/en/202611036683",
+      "summary": "Amirhossein Maleki, a 20-year-old protester hanged in Isfahan on Tuesday, was blindfolded, given a noose and had a chair kicked from under him in a mock execution after he retracted a confession he said was extracted by torture, a source told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:a1993d9285e5f942e9a2a9b2c99ccecc",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-03T13:55:00Z",
+      "title": "U.S. Army paratroopers load a 155 millimeter artillery round into an M777 howitzer during a field artillery…",
+      "url": "https://x.com/CENTCOM/status/2117616779778547790",
+      "summary": "U.S. Army paratroopers load a 155 millimeter artillery round into an M777 howitzer during a field artillery live-fire exercise in the Middle East.— U.S. Central Command (@CENTCOM) Nov 3, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611035924",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T13:45:44Z",
+      "title": "Tehran’s factions weigh Doha talks as hardliners prepare the public for war",
+      "url": "https://www.iranintl.com/en/202611035924",
+      "summary": "Tehran’s newspapers agree across factions that negotiating with the United States is legitimate, but are deeply divided over whether diplomacy can still prevent war, as Qatar said on Tuesday that both sides were reviewing its proposals.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfuup5f4m2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T12:50:32.972000Z",
+      "title": "At least seven members of the Fatemiyoun, an IRGC-funded and trained Shi'ite militia composed primarily of Afghans, and one gunman were…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913703",
+      "summary": "At least seven members of the Fatemiyoun, an IRGC-funded and trained Shi'ite militia composed primarily of Afghans, and one gunman were killed in clashes at a school reportedly used as a base by the terror group in Iran.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfua4jxbk2c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T12:39:02.398000Z",
+      "title": "Opinion: For now, it is unknown whether Trump will choose to escalate against Iran after the midterm elections, or whether the Iranians…",
+      "url": "https://www.jpost.com/opinion/article-913700",
+      "summary": "Opinion: For now, it is unknown whether Trump will choose to escalate against Iran after the midterm elections, or whether the Iranians will take a desperate preemptive step that forces him to decide.\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1276",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-03T12:24:15Z",
+      "title": "🖼 بیگانگان ِ قعرنشین ✏️ بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در…",
+      "url": "https://t.me/rahbar_ir/1276",
+      "summary": "🖼 بیگانگان ِ قعرنشین ✏️ بیگانگانی که از هزاران کیلومتر دورتر، طمع‌کارانه در خلیج فارس شرارت می‌کنند، جایی در آن ندارند مگر در قعرِ آب‌هایش. ✍ رهبر معظم انقلاب | ۱۰/اردیبهشت/۱۴۰۵ 💻 Rahbar.ir | 📲 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1276"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Foreigners at the bottom Foreigners who, from thousands of kilometres away, mischievously interfere in the Persian Gulf, have no place there except at the bottom of its waters. Leader of the Revolution, 30 April 2026",
+      "summary_en": "Foreigners at the bottom. Foreigners who, from thousands of kilometres away, mischievously interfere in the Persian Gulf, have no place there except at the bottom of its waters. Leader of the Revolution, 30 April 2026",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzft4hqhnx2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T12:19:05.862000Z",
+      "title": "US intelligence sharing on Iran and other global threats with Congress and across the federal government has slowed and, in some cases,…",
+      "url": "https://www.jpost.com/american-politics/article-913699",
+      "summary": "US intelligence sharing on Iran and other global threats with Congress and across the federal government has slowed and, in some cases, temporarily stopped during Trump's second term, according to current and former officials and people briefed on the matter. \nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611030796",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T12:12:42Z",
+      "title": "US intelligence sharing on Iran and other threats disrupted under Trump - Reuters",
+      "url": "https://www.iranintl.com/en/202611030796",
+      "summary": "US intelligence sharing on Iran and other global threats has slowed or temporarily stopped in some cases during President Donald Trump's second term, Reuters reported on Tuesday, citing eight current and former officials and people familiar with the matter.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfpzm3deq2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T11:23:48.658000Z",
+      "title": "IDF Military Advocate General Maj.-Gen. Itay Offir revealed for the first time that the legal division has filed \"a fair number of…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-913694",
+      "summary": "IDF Military Advocate General Maj.-Gen. Itay Offir revealed for the first time that the legal division has filed \"a fair number of indictments\" against IDF soldiers relating to their conduct in Gaza. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfpggrqa42n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T11:13:05.450000Z",
+      "title": "Hezbollah-appointed Labor Minister Mohammad Haidar visited Syria alongside three other Lebanese ministers, marking the first time a…",
+      "url": "https://www.jpost.com/middle-east/article-913693",
+      "summary": "Hezbollah-appointed Labor Minister Mohammad Haidar visited Syria alongside three other Lebanese ministers, marking the first time a Hezbollah official has been formally welcomed in Damascus since the fall of the Assad regime. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfobjqzxv2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T10:52:27.280000Z",
+      "title": "The United States and Iran are committed to mediation efforts and are reviewing proposals aimed at bridging their differences, Qatar said.",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913691",
+      "summary": "The United States and Iran are committed to mediation efforts and are reviewing proposals aimed at bridging their differences, Qatar said. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611032232",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T10:43:25Z",
+      "title": "Pahlavi tells Europe to stop appeasing Tehran after two more protesters hanged",
+      "url": "https://www.iranintl.com/en/202611032232",
+      "summary": "Iran's exiled prince Reza Pahlavi called on European governments to end what he described as appeasement of Tehran as he arrived in Brussels on Tuesday, after two men arrested during January protests in Isfahan were executed.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611028465",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T10:15:18Z",
+      "title": "How far would Russia and China go to save the Islamic Republic?",
+      "url": "https://www.iranintl.com/en/202611028465",
+      "summary": "Putin’s rare call to Iran’s security chief and a state TV commentator’s account of Chinese preparations for the Islamic Republic’s possible collapse raise a question about Tehran’s most powerful partners: how far would Moscow and Beijing go to ensure its survival?",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611036564",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T09:56:49Z",
+      "title": "Iran’s war threats now reach Europe, from Cyprus to Britain",
+      "url": "https://www.iranintl.com/en/202611036564",
+      "summary": "Iranian military officials and hardline lawmakers have warned that a new confrontation with the United States could extend beyond the Middle East, while conservative media have begun identifying American military facilities in Europe as potential targets.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "reliefweb:4236701",
+      "source": "ReliefWeb",
+      "source_detail": "UN OCHA",
+      "source_tier": 1,
+      "category": "reliefweb",
+      "published_at": "2026-11-03T09:03:24+00:00",
+      "title": "UNHCR Iran Protection Concerns Among Afghan Refugees in Iran - Helpline and Field Insights #3 May-August 2026",
+      "url": "https://reliefweb.int/node/4236701",
+      "summary": "Helpline &amp; Field Insights #3 examines the protection concerns and priority needs reported by Afghan refugees in Iran between May and August 2026. Drawing on Helpline data and corroborating inputs from field colleagues, lawyers and psychosocial counsellors, it explores recurring concerns, emerging trends and their implications for UNHCR's response. Many of the concerns identified in Helpline &a…",
+      "details": {},
+      "tags": [
+        "humanitarian"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfe6pbipx2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T07:51:54.964000Z",
+      "title": "Saudi state oil giant Aramco is exploring the expansion of a crude pipeline that circumvents the Strait of Hormuz as the world continues to…",
+      "url": "https://www.jpost.com/middle-east/article-913665",
+      "summary": "Saudi state oil giant Aramco is exploring the expansion of a crude pipeline that circumvents the Strait of Hormuz as the world continues to experience the biggest energy supply shock in history, CEO Amin Nasser said. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfcdwrat52r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T07:19:02.979000Z",
+      "title": "A delegation of diplomats at the United Nations attended a screening of the documentary UNravelling UNRWA, which reportedly exposed…",
+      "url": "https://www.jpost.com/israel-news/article-913659",
+      "summary": "A delegation of diplomats at the United Nations attended a screening of the documentary UNravelling UNRWA, which reportedly exposed corruption and Hamas infiltration of UNRWA. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzfbcniddr2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-03T07:00:26.002000Z",
+      "title": "Iran and the United States are far from reaching a deal to end the war, a senior Iranian official told Reuters, adding that Tehran would…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913661",
+      "summary": "Iran and the United States are far from reaching a deal to end the war, a senior Iranian official told Reuters, adding that Tehran would not accept Washington's \"excessive demands.\" \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611030117",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-03T05:46:05Z",
+      "title": "Two more men hanged in protest case in Iran",
+      "url": "https://www.iranintl.com/en/202611030117",
+      "summary": "Amirhossein Maleki and Amirhossein Ebrahimi were hanged in connection with January protests in Isfahan, Iranian authorities said on Tuesday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    }
+  ]
+}
