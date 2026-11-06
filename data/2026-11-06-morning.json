@@ -1,0 +1,1830 @@
+{
+  "generated_at": "2026-11-06T13:08:51.330383Z",
+  "window_since": "2026-11-05T13:07:06.676648Z",
+  "window_until": "2026-11-06T13:07:06.676648Z",
+  "edition": "morning",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 1,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 8,
+      "kept": 1,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 4,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 32,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 11,
+      "kept": 11,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 42,
+      "kept": 42,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 8,
+      "kept": 6,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 85,
+      "kept": 13,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "White House renews Iran national emergency; Iran sends nuclear proposal to US via Qatar tied to seven demands; BMTO reports tanker explosion near Khasab in Strait of Hormuz; IRGC claims two smuggler tankers struck mines; US sanctions three over MANPADS procurement; IDF reports 340+ Hezbollah weapons found in south Lebanon.",
+  "threads": [
+    {
+      "label": "Strait of Hormuz tanker incident",
+      "summary": "The UK's Maritime Trade Operations reported an explosion on a tanker near Khasab, Oman, in the Strait of Hormuz. IRGC-affiliated Defa Press claimed two 'smuggling tankers' with navigation systems switched off struck mines, while an army spokesman said opening the strait requires US acceptance of Iran's seven conditions.",
+      "event_ids": [
+        "telegram:defapress_ir/71615",
+        "telegram:iribnews/370749",
+        "telegram:defapress_ir/71605",
+        "telegram:iribnews/370734",
+        "telegram:defapress_ir/71601"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran nuclear proposal via Qatar",
+      "summary": "Jerusalem Post reported Iran sent the US a nuclear proposal through Qatar, to be discussed only after Washington meets Tehran's seven demands, with the NYT citing 'concrete proposals' under review in Doha. Iran International reported Tehran stepped up diplomacy after Trump's midterm defeat, with hardliners urging continued pressure.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzltzqkb6q2s",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzllcladoc2v",
+        "iranintl:https://www.iranintl.com/en/202611053453",
+        "iranintl:https://www.iranintl.com/en/202611051413",
+        "iranintl:https://www.iranintl.com/en/202611057512",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzmxfwhve52q"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "US Iran emergency renewal and sanctions",
+      "summary": "The White House published a continuation of the national emergency with respect to Iran in the Federal Register. The US sanctioned three individuals linked to Iran's procurement of man-portable air-defense systems, as Jerusalem Post reported on a Moscow-Tehran weapons deal.",
+      "event_ids": [
+        "fedreg:2026-22685",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzl2pyh2ic2t"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Iran-Russia leader-level message",
+      "summary": "Khamenei's office said General Mohsen Reza'i conveyed the Supreme Leader's message to President Putin in a roughly three-hour meeting. Deputy SNSC Secretary Ali Bagheri said the message set out elements for bilateral relations and cited Russian gas transfers and the North-South corridor as strategic plans.",
+      "event_ids": [
+        "telegram:rahbar_ir/1300",
+        "telegram:rahbar_ir/1301",
+        "telegram:iribnews/370743",
+        "telegram:iribnews/370744",
+        "telegram:defapress_ir/71612",
+        "telegram:iribnews/370742"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Khamenei messaging on US decline",
+      "summary": "Khamenei's office posted a 'Irreversible collapse' message asserting America's hard and soft power have suffered irreversible decline, alongside a strategic orders chart from his meeting with armed forces commanders. Tehran Friday prayer leader Khatami said Iran's armed forces are ready to respond to any threat.",
+      "event_ids": [
+        "telegram:rahbar_ir/1299",
+        "telegram:rahbar_ir/1298",
+        "telegram:defapress_ir/71609",
+        "telegram:defapress_ir/71600",
+        "telegram:iribnews/370741",
+        "telegram:iribnews/370740"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IDF Lebanon operations and Gaza",
+      "summary": "The IDF said troops operating in the Beaufort Ridge and Litani River areas located over 340 Hezbollah weapons and a 7m underground shaft inside a civilian home. Defa Press claimed Israeli shelling continued in east Gaza, Deir al-Balah and Khan Yunis, while the IDF posted on Gaza winter preparations.",
+      "event_ids": [
+        "x_via_rssapp:b8f55512ed67cf3b7aa5de26cf7a929c",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzla3gudbk2v",
+        "telegram:defapress_ir/71602",
+        "x_via_rssapp:5255d8c2d054c09af5f5dc54f4761ec1",
+        "telegram:defapress_ir/71614"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "Iran executions and exile diplomacy",
+      "summary": "Iran International reported an Iranian court sentenced two more January protesters to death in Mashhad; the US State Department condemned the execution of three young men from the same protests. Belgium's defense minister said Iran threatened Brussels over Reza Pahlavi's speech, which went ahead, and Pahlavi told the Jerusalem Post of a shift in Europe's approach.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202611053297",
+        "iranintl:https://www.iranintl.com/en/202611055583",
+        "iranintl:https://www.iranintl.com/en/202611066548",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzlemun4pg2h",
+        "iranintl:https://www.iranintl.com/en/202611032762"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "x_via_rssapp:5255d8c2d054c09af5f5dc54f4761ec1",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-06T13:01:00Z",
+      "title": "Winter preparations in Gaza: Here’s the breakdown.— Israel Defense Forces (@IDF) Nov 6, 2026",
+      "url": "https://x.com/IDF/status/2118690351288561858",
+      "summary": "Winter preparations in Gaza: Here’s the breakdown.— Israel Defense Forces (@IDF) Nov 6, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71616",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:59:22Z",
+      "title": "💢 منصور انوری؛ نویسنده بلندترین رمان دفاع مقدس درگذشت 🔸 منصور انوری نویسنده مجموعه ۱۲ جلدی «جاده جنگ»، یکی از…",
+      "url": "https://t.me/defapress_ir/71616",
+      "summary": "💢 منصور انوری؛ نویسنده بلندترین رمان دفاع مقدس درگذشت 🔸 منصور انوری نویسنده مجموعه ۱۲ جلدی «جاده جنگ»، یکی از بلندترین رمان‌های جنگ و انقلاب که بیش از ۳۰ سال عمرش را به نگارش تاریخ انقلاب و دفاع مقدس اختصاص داده بود، درگذشت. 🔸 رمان «جاده جنگ» نوشته منصور انوری از جمله آثار بلند ادبیات داستانی ایران است که با نگاهی تاریخی، سرگذشت مردم و تحولات سیاسی و اجتماعی کشور را در بستر جنگ و بحران‌های تاریخی روایت می‌کند. این مجموعه با عبور از چند مقطع مهم تاریخ معاصر، تلاش دارد تأثیر جنگ بر زندگی مردم، سرنوشت سرزمین و تحولات اجتماعی ایران را در قالب داستان به تصویر بکشد. dnws.ir/003fkF @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71616"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Mansour Anwari, author of the longest novel of sacred defence, has passed away",
+      "summary_en": "Mansour Anwari, author of the 12-volume series 'War Road', one of the longest novels of war and revolution, who spent more than 30 years of his life writing the history of the revolution and sacred defence, has passed away. The novel 'War Road' by Mansour Anwari is among the major works of Iranian fictional literature that, with a historical perspective, narrates the fate of people and political and social developments of the country in the context of war and historical crises. This series, passing through several important periods of contemporary history, attempts to depict the impact of war on people's lives, the fate of the land, and social developments in Iran in narrative form.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370751",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:43:55Z",
+      "title": "ادامه هشدارهای بمب‌گذاری در هواپیماها در اروپا 🔹 در پی دریافت تهدیدهایی علیه تردد هوایی، نیروهای امنیتی…",
+      "url": "https://t.me/iribnews/370751",
+      "summary": "ادامه هشدارهای بمب‌گذاری در هواپیماها در اروپا 🔹 در پی دریافت تهدیدهایی علیه تردد هوایی، نیروهای امنیتی بیشتری در فرودگاه کپنهاگِ دانمارک مستقر شده‌اند. 🔹 پلیس جمهوری چک پس از دریافت گزارش‌هایی درباره تهدید به کار گذاشتن بمب در هواپیماهای ورودی به فرودگاه…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370751"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Continued bomb threats on aircraft in Europe",
+      "summary_en": "Following receipt of threats against air traffic, more security forces have been stationed at Copenhagen airport in Denmark. Czech police, after receiving reports of threats to use bombs on aircraft arriving at the airport, have taken measures.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1301",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:30:57Z",
+      "title": "👤 علی باقری: در پیام رهبر انقلاب به پوتین مؤلفه‌های روابط دو کشور در دوره جدید مطرح شد معاون دبیر شورای‌عالی…",
+      "url": "https://t.me/rahbar_ir/1301",
+      "summary": "👤 علی باقری: در پیام رهبر انقلاب به پوتین مؤلفه‌های روابط دو کشور در دوره جدید مطرح شد معاون دبیر شورای‌عالی امنیت ملی: ▪️ دبیر شورای عالی امنیت ملی یک ملاقات تفصیلی با جناب آقای پوتین، رئیس جمهور فدراسیون روسیه داشت که حدود ۳ ساعت طول کشید. ▪️ هدف اصلی از این سفر، ارائه پیام رهبری به رئیس جمهور روسیه بود. ▪️ در این پیام، هم مولفه‌های مد نظر جمهوری اسلامی ایران برای همکاری‌های دوجانبه مطرح شد و هم چشم‌انداز این همکاری‌ها و تعاملات ترسیم شده بود تا برای روس‌ها، موضوع همکاری با جمهوری اسلامی ایران در دوره رهبری حضرت آیت‌الله سیدمجتبی خامنه‌ای روشن‌تر شود. 📲 @neshan_resane",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1301"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ali Bagheri: Elements of relations between the two countries in the new era were raised in the leader's message to Putin",
+      "summary_en": "Deputy Secretary of the Supreme National Security Council: The Secretary of the Supreme National Security Council had a detailed meeting with Mr Putin, President of the Russian Federation, which lasted around 3 hours. The main purpose of this visit was to present the leader's message to the President of Russia. In this message, both the elements envisioned by the Islamic Republic of Iran for bilateral cooperation were raised and the prospects for these cooperations and interactions were outlined, so that for the Russians, the issue of cooperation with the Islamic Republic of Iran in the era of leadership of Ayatollah Seyyed Mostafa Khamenei would become clearer.",
+      "has_figures": true,
+      "figures_examples": [
+        "3 hours"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/71615",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:29:22Z",
+      "title": "💢 انفجار در یک نفتکش در نزدیکی سواحل عمان 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع انفجار در یک نفتکش در…",
+      "url": "https://t.me/defapress_ir/71615",
+      "summary": "💢 انفجار در یک نفتکش در نزدیکی سواحل عمان 🔸 سازمان عملیات تجارت دریایی انگلیس از وقوع انفجار در یک نفتکش در نزدیکی خصب عمان در تنگه هرمز خبر داد. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71615"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion on a tanker near Oman's shores",
+      "summary_en": "The British Maritime Trade Operations organisation reported an explosion on a tanker near Khasab, Oman, in the Strait of Hormuz.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370750",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:29:01Z",
+      "title": "🔺 الجزیره: ۱۵ هواپیما به مقصد شهرهای اروپایی پس از دریافت هشدار بمب‌گذاری، بدون حادثه فرود اضطراری کردند …",
+      "url": "https://t.me/iribnews/370750",
+      "summary": "🔺 الجزیره: ۱۵ هواپیما به مقصد شهرهای اروپایی پس از دریافت هشدار بمب‌گذاری، بدون حادثه فرود اضطراری کردند  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370750"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Al Jazeera: 15 aircraft bound for European cities made emergency landings without incident after receiving bomb warnings",
+      "summary_en": "Al Jazeera: 15 aircraft bound for European cities made emergency landings without incident after receiving bomb warnings.",
+      "has_figures": true,
+      "figures_examples": [
+        "15 aircraft"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370749",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:21:55Z",
+      "title": "سازمان تجارت دریایی انگلیس از وقوع انفجار در یک نفتکش در نزدیکی خصب عمان در تنگه هرمز خبر داد. @iribnews",
+      "url": "https://t.me/iribnews/370749",
+      "summary": "سازمان تجارت دریایی انگلیس از وقوع انفجار در یک نفتکش در نزدیکی خصب عمان در تنگه هرمز خبر داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370749"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "British Maritime Trade Operations organisation reports explosion on a tanker near Khasab, Oman, in the Strait of Hormuz",
+      "summary_en": "British Maritime Trade Operations organisation reports explosion on a tanker near Khasab, Oman, in the Strait of Hormuz.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370748",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:13:55Z",
+      "title": "🎦 مردم در اجتماعات شبانه چند زندانی را آزاد کردند @iribnews",
+      "url": "https://t.me/iribnews/370748",
+      "summary": "🎦 مردم در اجتماعات شبانه چند زندانی را آزاد کردند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370748"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "People freed several prisoners in night gatherings",
+      "summary_en": "People freed several prisoners in night gatherings.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611066548",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T12:03:33Z",
+      "title": "Iran threatened Belgium over Pahlavi’s Brussels speech, defense minister says",
+      "url": "https://www.iranintl.com/en/202611066548",
+      "summary": "Belgium’s defense minister said on Friday that Tehran had warned his country of dire consequences if it allowed Reza Pahlavi, Iran’s exiled crown prince, to speak in Brussels, and that the event had gone ahead anyway.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370747",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T12:02:58Z",
+      "title": "🎦 برف پاییزی ارتفاعات لرستان را سفیدپوش کرد @iribnews",
+      "url": "https://t.me/iribnews/370747",
+      "summary": "🎦 برف پاییزی ارتفاعات لرستان را سفیدپوش کرد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370747"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Autumn snow blankets the highlands of Lorestan",
+      "summary_en": "Autumn snow blankets the highlands of Lorestan.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71614",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T11:56:59Z",
+      "title": "💢 هشدار آنروا درباره وخامت شرایط اسکان و بهداشت در غزه 🔸 آژانس امدادرسانی و کاریابی سازمان ملل برای آوارگان…",
+      "url": "https://t.me/defapress_ir/71614",
+      "summary": "💢 هشدار آنروا درباره وخامت شرایط اسکان و بهداشت در غزه 🔸 آژانس امدادرسانی و کاریابی سازمان ملل برای آوارگان فلسطینی (آنروا) با انتشار بیانیه‌ای اعلام کرد حدود یک میلیون و ۹۸۰ هزار نفر از ساکنان این منطقه، معادل ۹۴ درصد جمعیت آن، برای دسترسی به سرپناه و اقلام ضروری غیرغذایی نیازمند دریافت کمک فوری هستند. 🔸 بر اساس ارزیابی این نهاد، شرایط اسکان برای بخش بزرگی از جمعیت غزه به مرحله بحرانی رسیده است؛ به‌گونه‌ای که ۵۸ درصد ساکنان با نیاز‌های بحرانی یا فاجعه‌بار در زمینه تأمین محل سکونت مواجه‌اند. 🔸 آنروا همچنین با اشاره به نتایج بررسی وضعیت مراکز اسکان در آستانه فصل زمستان اعلام کرد از میان ۱۱۳ محل",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71614"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "UNRWA warning over severity of shelter and health conditions in Gaza",
+      "summary_en": "The United Nations Relief and Works Agency for Palestine Refugees (UNRWA), through a statement, announced that approximately 1 million 980 thousand residents of the region, equivalent to 94 per cent of its population, require immediate humanitarian assistance to access shelter and essential non-food items. According to this body's assessment, shelter conditions for a large segment of Gaza's population have reached a critical stage, with 58 per cent of residents facing critical or catastrophic needs in securing housing. UNRWA also, referring to the results of an assessment of shelter centres on the eve of winter, reported that among 113 shelters.",
+      "has_figures": true,
+      "figures_examples": [
+        "1 million",
+        "980 thousand"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370746",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T11:24:47Z",
+      "title": "استعفای رئیس‌جمهور پاراگوئه و متحد ترامپ 🔹 سانتیاگو پنیا، رئیس‌جمهور پاراگوئه در پی افزایش فشارها برای…",
+      "url": "https://t.me/iribnews/370746",
+      "summary": "استعفای رئیس‌جمهور پاراگوئه و متحد ترامپ 🔹 سانتیاگو پنیا، رئیس‌جمهور پاراگوئه در پی افزایش فشارها برای برکناری‌اش، استعفا داد. 🔹 بحران بانکی در پاراگوئه و مسدود شدن سپرده‌های نیمی از جمعیت این کشور، موجی از اعتراضات را ایجاد کرده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370746"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Resignation of Paraguay's president and Trump ally",
+      "summary_en": "Santiago Peña, President of Paraguay, resigned following mounting pressure for his removal. A banking crisis in Paraguay and the freezing of deposits of half the country's population has sparked a wave of protests.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71613",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T11:14:22Z",
+      "title": "💢 جنبش نجباء: حشد الشعبی ستون فقرات عراق است 🔸 جنبش نجباء، حشد الشعبی را ستون فقرات عراق و سوپاپ اطمینان این…",
+      "url": "https://t.me/defapress_ir/71613",
+      "summary": "💢 جنبش نجباء: حشد الشعبی ستون فقرات عراق است 🔸 جنبش نجباء، حشد الشعبی را ستون فقرات عراق و سوپاپ اطمینان این کشور توصیف و بر اهمیت حفظ آن به عنوان عامل خنثی سازی هرگونه توطئه دشمنان علیه این کشور تاکید کرد. 🔸 در بیانیه جنبش نجباء‌ تاکید شده است که حشد شعبی، قلب تپنده عراق و تجلی راستین باور به مقاومت است. 🔸 این بیانیه افزود که حشد الشعبی، خاری در چشم جریان‌های وابسته (مزدور) است. 🔸 در این بیانیه آمده است که تغییراتی که به چند دستگی حشد الشعبی و تضعیف آن می‌انجامد نباید تصویب شود. 🔸 جنبش نجباء تاکید کرد که ایستادگی در برابر این توطئه ادای دین به خون پاک ابومهدی است. dnws.ir/003fkX @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71613"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Nujaba Movement: Popular Mobilisation is the backbone of Iraq",
+      "summary_en": "The Nujaba Movement described the Popular Mobilisation as the backbone of Iraq and the safety valve of the country, emphasising the importance of preserving it as a factor to neutralise any conspiracy by enemies against the country. The Nujaba Movement's statement stressed that the Popular Mobilisation is the beating heart of Iraq and the true manifestation of belief in resistance. The statement added that the Popular Mobilisation is a thorn in the eye of dependent (mercenary) currents. The statement said that changes that lead to the fragmentation and weakening of the Popular Mobilisation should not be endorsed. The Nujaba Movement stressed that standing against this conspiracy is repaying the debt to the pure blood of Abu Mahdi.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370745",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:50:25Z",
+      "title": "🎦 اهداف راهبردی‌تر آمریکا در جهان چطور بدون محدودیت زیر برد موشک‌های بالستیک ایرانی قرار خواهد گرفت؟ 🔹 سعیده…",
+      "url": "https://t.me/iribnews/370745",
+      "summary": "🎦 اهداف راهبردی‌تر آمریکا در جهان چطور بدون محدودیت زیر برد موشک‌های بالستیک ایرانی قرار خواهد گرفت؟ 🔹 سعیده زنگنه گزارش می‌دهد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370745"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "How will America's more strategic targets in the world be placed within the range of Iranian ballistic missiles without limitation?",
+      "summary_en": "How will America's more strategic targets in the world be placed within the range of Iranian ballistic missiles without limitation? Saeida Zanganeh reports.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71612",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:46:43Z",
+      "title": "🎥 علی باقری: دیگر به تعهدات کاغذی آمریکا اکتفا نمی‌کنیم 🔸 معاون دبیر شورای عالی امنیت ملی گفت: آمریکایی‌ها در…",
+      "url": "https://t.me/defapress_ir/71612",
+      "summary": "🎥 علی باقری: دیگر به تعهدات کاغذی آمریکا اکتفا نمی‌کنیم 🔸 معاون دبیر شورای عالی امنیت ملی گفت: آمریکایی‌ها در یک سال و نیم گذشته هر ۴ دور مذاکره را با نقض عهد برهم زدند. 🔸 حق جمهوری اسلامی ایران است تا پیش از ورود به عرصه جدیدی از دیپلماسی به تعهدات کاغذی آمریکایی‌ها اکتفا نکند. 🔸 ایران باید به چشم خودش اقدامات عملی آمریکا را ببیند و هرگاه این اقدامات مشاهده شد، زمینه برای گشایش سرفصل جدید امکان‌پذیر خواهد بود. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71612"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ali Bagheri: We will no longer settle for America's paper commitments",
+      "summary_en": "The Deputy Secretary of the Supreme National Security Council said: Americans, in the past year and a half, broke every four rounds of negotiations through covenant violation. It is the right of the Islamic Republic of Iran not to settle for America's paper commitments before entering a new phase of diplomacy. Iran must see America's practical measures with its own eyes and whenever these measures are observed, the ground for opening a new chapter will be possible.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzn746lhqi2o",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-06T10:42:19.222000Z",
+      "title": "Report: The Trump administration was in contact with the Islamic regime about deporting asylum seekers detained by ICE during the middle of…",
+      "url": "https://www.jpost.com/international/article-914044",
+      "summary": "Report: The Trump administration was in contact with the Islamic regime about deporting asylum seekers detained by ICE during the middle of the war with Iran. \n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370744",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:41:19Z",
+      "title": "🎦 باقری: خیال خام برخی قدرت‌ها با همکاری ایران و روسیه از بین خواهد رفت 🔹 معاون دبیر شورای عالی امنیت ملی:…",
+      "url": "https://t.me/iribnews/370744",
+      "summary": "🎦 باقری: خیال خام برخی قدرت‌ها با همکاری ایران و روسیه از بین خواهد رفت 🔹 معاون دبیر شورای عالی امنیت ملی: انتقال گاز روسیه به ایران و راه‌گذر شمال-جنوب، طرح‌های راهبردی است که خیال خام برخی قدرت‌ها از جمله آمریکا را برای تحت فشار قرار دادن جمهوری اسلامی ایران از بین می‌برد. 🔹 این دو طرح ظرفیت‌های اقتصادی هستند که جمهوری اسلامی ایران در اختیار دارد و می‌تواند هم برای پیشرفت کشور و منطقه و هم برای امنیت‌سازی از آن‌ها استفاده مطلوب داشته باشد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370744"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Bagheri: The naive aspirations of some powers will be eliminated with Iran-Russia cooperation",
+      "summary_en": "Deputy Secretary of the Supreme National Security Council: The transfer of Russian gas to Iran and the North-South corridor are strategic plans that will eliminate the naive aspirations of some powers, including America, to put pressure on the Islamic Republic of Iran. These two plans are economic capacities that the Islamic Republic of Iran possesses and can use advantageously both for the progress of the country and region and for creating security.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370743",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:39:51Z",
+      "title": "🎦 هدف اصلی جلسه سه ساعته دیروز سرلشکر رضایی و آقای پوتین چه بود؟ 🔹 معاون دبیر شورای عالی امنیت ملی: دبیر…",
+      "url": "https://t.me/iribnews/370743",
+      "summary": "🎦 هدف اصلی جلسه سه ساعته دیروز سرلشکر رضایی و آقای پوتین چه بود؟ 🔹 معاون دبیر شورای عالی امنیت ملی: دبیر شورای عالی امنیت ملی یک ملاقات تفصیلی با جناب آقای پوتین، رئیس جمهور فدراسیون روسیه داشت که حدود ۳ ساعت طول کشید. 🔹 هدف اصلی از این سفر، ارائه پیام مقام معظم رهبری به رئیس جمهور روسیه بود. 🔹 در این پیام، هم مولفه‌های مد نظر جمهوری اسلامی ایران برای همکاری‌های دوجانبه مطرح شد و هم چشم‌انداز این همکاری‌ها و تعاملات ترسیم شده بود تا برای روس‌ها، موضوع همکاری با جمهوری اسلامی ایران در دوره رهبری حضرت آیت‌الله سید مجتبی خامنه‌ای روشن‌تر شود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370743"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What was the main objective of yesterday's three-hour meeting between General Reza'i and Mr Putin?",
+      "summary_en": "Deputy Secretary of the Supreme National Security Council: The Secretary of the Supreme National Security Council had a detailed meeting with Mr Putin, President of the Russian Federation, which lasted around 3 hours. The main purpose of this visit was to present the message of the Supreme Leader to the President of Russia. In this message, both the elements envisioned by the Islamic Republic of Iran for bilateral cooperation were raised and the prospects for these cooperations and interactions were outlined, so that for the Russians, the issue of cooperation with the Islamic Republic of Iran in the era of leadership of Ayatollah Seyyed Mostafa Khamenei would become clearer.",
+      "has_figures": true,
+      "figures_examples": [
+        "3 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370742",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:32:06Z",
+      "title": "علی باقری: دیگر به تعهدات کاغذی آمریکا اکتفا نمی‌کنیم 🔹 معاون دبیر شورای عالی امنیت ملی: آمریکایی‌ها در یک…",
+      "url": "https://t.me/iribnews/370742",
+      "summary": "علی باقری: دیگر به تعهدات کاغذی آمریکا اکتفا نمی‌کنیم 🔹 معاون دبیر شورای عالی امنیت ملی: آمریکایی‌ها در یک سال و نیم گذشته هر چهار دور مذاکره را با نقض عهد برهم زدند. 🔹 حق جمهوری اسلامی ایران است تا پیش از ورود به عرصه جدیدی از دیپلماسی به تعهدات کاغذی آمریکایی‌ها اکتفا نکند. 🔹 ایران باید به چشم خودش اقدامات عملی آمریکا را ببیند و هرگاه این اقدامات مشاهده شد، زمینه برای گشایش سرفصل جدید امکان‌پذیر خواهد بود. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370742"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ali Bagheri: We will no longer settle for America's paper commitments",
+      "summary_en": "Deputy Secretary of the Supreme National Security Council: Americans in the past year and a half broke every four rounds of negotiations through covenant violation. It is the right of the Islamic Republic of Iran not to settle for America's paper commitments before entering a new phase of diplomacy. Iran must see America's practical measures with its own eyes and whenever these measures are observed, the ground for opening a new chapter will be possible.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71611",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:26:36Z",
+      "title": "💢 حمایت بی‌قید و شرط آمریکا از نتانیاهو به پایان می‌رسد؟ 🔸 با پیروزی منتقدان در انتخابات میان‌دوره‌ای کنگره،…",
+      "url": "https://t.me/defapress_ir/71611",
+      "summary": "💢 حمایت بی‌قید و شرط آمریکا از نتانیاهو به پایان می‌رسد؟ 🔸 با پیروزی منتقدان در انتخابات میان‌دوره‌ای کنگره، گویا دوره حمایت‌های بی‌چون‌وچرا به پایان رسیده و واشنگتن مصمم است با تشدید ابزار‌های نظارتی، مهار سیاسی کابینه نتانیاهو را در پیش بگیرد. 🔸 نتایج تازه از انتخابات میان‌دوره‌ای کنگره آمریکا ابعاد جدیدی از فشار‌های سیاسی و تغییر موازنه قدرت را آشکار کرده است که نشان می‌دهد به چالش کشیدن حمایت‌های بی‌چون‌وچرا از اسرائیل، دیگر یک ریسک سیاسی محسوب نمی‌شود بلکه به عاملی تعیین‌کننده و محبوب برای جلب آرای عمومی تبدیل شده است. dnws.ir/003fjJ @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71611"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Is America's unconditional support for Netanyahu coming to an end?",
+      "summary_en": "With critics victorious in congressional midterm elections, it appears the era of unconditional support has ended and Washington is determined to step up oversight tools and impose political restraint on Netanyahu's cabinet. Recent results from America's congressional midterm elections reveal new dimensions of political pressures and shifts in the balance of power, showing that challenging unconditional support for Israel is no longer considered a political risk but has become a determining and popular factor for garnering public votes.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://exclusive.iranintl.com/kaballo-presstv-sovereign-media-tehran",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T10:24:48Z",
+      "title": "One man’s road from Westminster to the machine that carries Iran’s story abroad",
+      "url": "https://exclusive.iranintl.com/kaballo-presstv-sovereign-media-tehran",
+      "summary": "An Iran International investigation has uncovered financial records and professional ties that shed light on how Tehran’s influence operations extend beyond its state broadcasters into ostensibly independent media outlets around the world.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370741",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:23:09Z",
+      "title": "🎦 خطیب جمعه تهران: دموکرات‌ها و جمهوری‌خواه‌ها سر و ته یه کرباس‌اند و سگ زرد برادر شغال است. 🔹 برای ما هیچ…",
+      "url": "https://t.me/iribnews/370741",
+      "summary": "🎦 خطیب جمعه تهران: دموکرات‌ها و جمهوری‌خواه‌ها سر و ته یه کرباس‌اند و سگ زرد برادر شغال است. 🔹 برای ما هیچ فرقی نمی کند که در آمریکا چه کسی سرکار باشد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370741"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Friday prayer leader of Tehran: Democrats and Republicans are two ends of the same rope and the yellow dog is the brother of the jackal",
+      "summary_en": "Friday prayer leader of Tehran: Democrats and Republicans are two ends of the same rope and the yellow dog is the brother of the jackal. For us, it makes no difference who is in power in America.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370740",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T10:13:28Z",
+      "title": "🎦 گنجی، کارشناس مسائل آمریکا: قدرت نرم آمریکا به شدت افول کرده است و ایران در جنگ رمضان ثابت کرد قدرت سخت…",
+      "url": "https://t.me/iribnews/370740",
+      "summary": "🎦 گنجی، کارشناس مسائل آمریکا: قدرت نرم آمریکا به شدت افول کرده است و ایران در جنگ رمضان ثابت کرد قدرت سخت آمریکا نیز با سلاح‌های بومی یک کشور در حال توسعه آسیب‌پذیر است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370740"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ganji, expert on American affairs: America's soft power has severely declined and Iran proved in the Ramadan war that America's hard power is also vulnerable to indigenous weapons of a developing country",
+      "summary_en": "Ganji, expert on American affairs: America's soft power has severely declined and Iran proved in the Ramadan war that America's hard power is also vulnerable to indigenous weapons of a developing country.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611068872",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T10:09:11Z",
+      "title": "Iran strike remains possible as IDF awaits Washington’s next move - Ynet",
+      "url": "https://www.iranintl.com/en/202611068872",
+      "summary": "An Israeli strike on Iran remains possible, but Israeli defense officials have detected no major US military buildup in the region, Ynet reported on Friday, citing unnamed defense officials.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71610",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T09:51:34Z",
+      "title": "💢 رایزنی وزرای خارجه ایران و امارات درباره تحولات منطقه 🔸 سید عباس عراقچی و شیخ عبدالله بن زاید آل نهیان…",
+      "url": "https://t.me/defapress_ir/71610",
+      "summary": "💢 رایزنی وزرای خارجه ایران و امارات درباره تحولات منطقه 🔸 سید عباس عراقچی و شیخ عبدالله بن زاید آل نهیان وزرای امور خارجه ایران و امارات، در گفت‌وگوی تلفنی آخرین رویداد‌های منطقه‌ای در پرتو تلاش‌های دیپلماتیک در جهت حفظ ثبات در منطقه مورد بحث و تبادل نظر قرار گرفت. dnws.ir/003fk6 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71610"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Consultations between Iran and UAE foreign ministers over regional developments",
+      "summary_en": "Seyyed Abbas Araghchi and Sheikh Abdullah bin Zayed Al Nahyan, foreign ministers of Iran and the UAE, discussed the latest regional developments in a telephone conversation in light of diplomatic efforts aimed at preserving stability in the region.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370739",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T09:28:43Z",
+      "title": "نخستین برنز اسکواش تیمی دختران ایران در آسیا 🔹 تیم ملی اسکواش بانوان ایران با پیروزی ۲ بر یک مقابل پاکستانِ…",
+      "url": "https://t.me/iribnews/370739",
+      "summary": "نخستین برنز اسکواش تیمی دختران ایران در آسیا 🔹 تیم ملی اسکواش بانوان ایران با پیروزی ۲ بر یک مقابل پاکستانِ میزبان، نشان برنز رقابت‌های تیمی قهرمانی آسیا را به دست آورد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370739"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Iran women's squash team's first bronze in Asia",
+      "summary_en": "Iran's national women's squash team, with a 2-1 victory over hosts Pakistan, won the bronze medal in the Asia Cup team squash championships.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370738",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T09:19:42Z",
+      "title": "منصور انوری (نویسنده دفاع مقدس) درگذشت 🔹 وی متولد ۱۳۳۴ بود و بیش از ۳۰ سال عمرش را به نگارش تاریخ انقلاب و…",
+      "url": "https://t.me/iribnews/370738",
+      "summary": "منصور انوری (نویسنده دفاع مقدس) درگذشت 🔹 وی متولد ۱۳۳۴ بود و بیش از ۳۰ سال عمرش را به نگارش تاریخ انقلاب و دفاع مقدس اختصاص داد. 🔹 او نویسنده مجموعه ۱۲ جلدی «جاده جنگ»، یکی از بلندترین رمان‌های جنگ و انقلاب است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370738"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Mansour Anwari, writer of sacred defence, has passed away",
+      "summary_en": "He was born in 1334 and spent more than 30 years of his life writing the history of the revolution and sacred defence. He was the author of the 12-volume series 'War Road', one of the longest novels of war and revolution.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71609",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T09:14:41Z",
+      "title": "💢 آیت‌الله خاتمی: رزمندگان ایران آماده پاسخ به هرگونه تهدید هستند 🔸 خطیب نمازجمعه تهران گفت: رزمندگان نیروهای…",
+      "url": "https://t.me/defapress_ir/71609",
+      "summary": "💢 آیت‌الله خاتمی: رزمندگان ایران آماده پاسخ به هرگونه تهدید هستند 🔸 خطیب نمازجمعه تهران گفت: رزمندگان نیروهای مسلح ایران با ایمان و توکل به خدا آماده پاسخ به هرگونه تهدید هستند. 🔸 به شما ملت ایران بشارت می‌دهم که رزمندگان شما از همین جنس هستند. نیرو‌های مسلح جمهوری اسلامی ایران، اعم از ارتش، سپاه، بسیج و نیروی انتظامی، به چنین باوری مسلح هستند. 🔸 اگر دشمن کوچک‌ترین خطایی مرتکب شود، نیرو‌های مسلح باورمند و مقتدر کشور سیلی جانانه‌ای به او خواهند زد. 🔸 وی از درگاه خداوند متعال پیروزی جبهه اسلام بر جبهه کفر، خنثی شدن توطئه‌های دشمنان علیه نظام اسلامی و نابودی آنان را مسئلت کرد. dnws.ir/003fk9 @Def",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71609"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Ayatollah Khatami: Iran's fighters are ready to respond to any threat",
+      "summary_en": "The Friday prayer leader of Tehran said: The fighters of Iran's armed forces, with faith and trust in God, are ready to respond to any threat. I bring you the people of Iran the good news that your fighters are of this kind. The armed forces of the Islamic Republic of Iran, including the army, the Guards, the Basij and the police, are armed with such conviction. If the enemy makes the slightest mistake, the nation's armed forces, believing and powerful, will deliver a resounding blow to it. He implored the Almighty God for the victory of the Islamic front over the front of disbelief, the neutralisation of enemies' conspiracies against the Islamic system and their annihilation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71608",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T09:09:06Z",
+      "title": "💢 فاجعه سیستماتیک در ژاپن هشتاد سال پس از تجاوز آمریکا 🔸 سونامی روسپی‌گری در خیابان‌های توکیو، بار دیگر بحران…",
+      "url": "https://t.me/defapress_ir/71608",
+      "summary": "💢 فاجعه سیستماتیک در ژاپن هشتاد سال پس از تجاوز آمریکا 🔸 سونامی روسپی‌گری در خیابان‌های توکیو، بار دیگر بحران استثمار زنان را در سایه‌ی ریشه‌های تاریخی اشغال و نفوذ آمریکا در ژاپن برجسته کرده و تصویر جهانی ژاپن را تغییر داده است. 🔸 تولد دوباره‌ی فحشای خیابانی در قلب پایتخت ژاپن، بار دیگر ابعاد تاریک محله‌ی شبانه‌روزی و معروف «کابوکیچو» در توکیو را به مرکز بحران‌های اجتماعی این کشور کشانده است. با فروکش کردن محدودیت‌های پاندمی کرونا طی سه سال گذشته و رونق چشمگیر گردشگری بین‌المللی که زیرساخت‌های آن بر مبنای الگو‌های اقتصادی و گردشگری غرب و آمریکا شکل گرفته است، پدیده‌ای که در زبان عامیانه ژاپنی",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71608"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Systematic catastrophe in Japan eighty years after American aggression",
+      "summary_en": "A tsunami of prostitution in Tokyo's streets has once again highlighted the crisis of women's exploitation in the shadow of the historical roots of American occupation and infiltration in Japan and changed Japan's international image. The resurgence of street prostitution in the heart of Japan's capital has once again dragged the notorious 24-hour district known as 'Kabukicho' in Tokyo into the centre of the country's social crises. With the easing of coronavirus pandemic restrictions over the past three years and the dramatic surge in international tourism, whose infrastructure has been shaped on the basis of Western and American economic and tourism models, a phenomenon that in colloquial Japanese.",
+      "has_figures": true,
+      "figures_examples": [
+        "24-hour"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/370737",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:58:21Z",
+      "title": "قطر از صادرکننده به واردکننده گاز تبدیل شد 🔹 حمله آمریکا به ایران، قطر را که دومین صادرکننده بزرگ گاز طبیعی…",
+      "url": "https://t.me/iribnews/370737",
+      "summary": "قطر از صادرکننده به واردکننده گاز تبدیل شد 🔹 حمله آمریکا به ایران، قطر را که دومین صادرکننده بزرگ گاز طبیعی در جهان بود، به یکی از واردکنندگان عمده آن تبدیل کرده است. 🔹 به دنبال از بین رفتن ۱۷ درصد از ظرفیت صادرات گاز قطر، این کشور به اجبار به واردات گاز از آمریکا روی آورده است. 🔹 پالایشگاه راس لفان قطر در پی جنگ علیه ایران آسیب دید و گفته شده به علت آسیب دیدن این تاسیسات، قطر سالانه بیست میلیارد دلار زیان می‌بیند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370737"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Qatar transformed from gas exporter to importer",
+      "summary_en": "America's attack on Iran has transformed Qatar, which was the world's second largest exporter of natural gas, into one of its major importers. Following the loss of 17 per cent of Qatar's gas export capacity, the country has been forced to resort to importing gas from America. Qatar's Ras Laffan refinery was damaged following the war against Iran, and it has been said that due to damage to these facilities, Qatar loses twenty billion dollars annually.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370736",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:56:19Z",
+      "title": "🎦 هشدار بارش‌های شدید در خوزستان 🔹 مدیر کل مدیریت بحران استان خوزستان: تمام دستگاه‌های خدمات‌رسان از جمله…",
+      "url": "https://t.me/iribnews/370736",
+      "summary": "🎦 هشدار بارش‌های شدید در خوزستان 🔹 مدیر کل مدیریت بحران استان خوزستان: تمام دستگاه‌های خدمات‌رسان از جمله راهداری، اورژانس و هلال احمر در حالت آماده‌باش کامل هستند. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370736"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Warning of heavy rainfall in Khuzestan",
+      "summary_en": "Director General of Crisis Management of Khuzestan Province: All service-providing organisations, including roads, emergency and the Red Crescent, are on full alert.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370735",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:41:52Z",
+      "title": "ولایتی: یا امنیت جمعی محقق می‌شود یا همه ناامنی جمعی را تجربه می‌کنند @iribnews",
+      "url": "https://t.me/iribnews/370735",
+      "summary": "ولایتی: یا امنیت جمعی محقق می‌شود یا همه ناامنی جمعی را تجربه می‌کنند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370735"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Velayati: Either collective security is achieved or everyone will experience collective insecurity",
+      "summary_en": "Velayati: Either collective security is achieved or everyone will experience collective insecurity.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370734",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:36:30Z",
+      "title": "سخنگوی ارتش به آمریکا: برای باز شدن تنگه هرمز باید به شروط هفتگانه ایران تن بدهید 🔹 امیر سرتیپ اکرمی‌نیا:…",
+      "url": "https://t.me/iribnews/370734",
+      "summary": "سخنگوی ارتش به آمریکا: برای باز شدن تنگه هرمز باید به شروط هفتگانه ایران تن بدهید 🔹 امیر سرتیپ اکرمی‌نیا: قطعا هرگونه تجاوز، ماجراجویی مجدد یا شرارت در منطقه نخواهد توانست تنگه هرمز را باز کند. 🔹 تنها راه باز شدن آن، تن دادن آمریکا به شروط هفت‌گانه‌ای است که از طریق مقامات سیاسی و امنیتی به طرف آمریکایی اعلام شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370734"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Army spokesman to America: To open the Strait of Hormuz you must accept Iran's seven conditions",
+      "summary_en": "Brigadier General Akrimi-Nia: Certainly, any transgression, renewed adventurism or mischief in the region will not be able to open the Strait of Hormuz. The only way to open it is for America to accept the seven conditions that have been announced through political and security officials to the American side.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370733",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:31:39Z",
+      "title": "🎦 آغاز تماس تلفنی مرکز آمار با مشمولان سرشماری از فردا 🔹 مدیرکل دفتر جمعیت مرکز آمار: با توجه به پیشرفت…",
+      "url": "https://t.me/iribnews/370733",
+      "summary": "🎦 آغاز تماس تلفنی مرکز آمار با مشمولان سرشماری از فردا 🔹 مدیرکل دفتر جمعیت مرکز آمار: با توجه به پیشرفت سرشماری در دو حوزه مجازی و مراجعات میدانی، از روز شنبه ۱۶ آبان نیز تماس‌های تلفنی برخی مراکز با مشمولان سرشماری آغاز خواهد شد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370733"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Census centre begins telephone contact with census respondents from tomorrow",
+      "summary_en": "Director General of the Population Office of the Statistics Centre: Given progress in the census in both the virtual and field visit domains, from Saturday, 16 Aban, telephone contacts by some centres with census respondents will also begin.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71607",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:29:47Z",
+      "title": "💢 ولایتی: یا امنیت جمعی محقق می‌شود یا همه ناامنی جمعی را تجربه می‌کنند 🔸 «علی‌اکبر ولایتی» مشاور رهبر انقلاب…",
+      "url": "https://t.me/defapress_ir/71607",
+      "summary": "💢 ولایتی: یا امنیت جمعی محقق می‌شود یا همه ناامنی جمعی را تجربه می‌کنند 🔸 «علی‌اکبر ولایتی» مشاور رهبر انقلاب در امور بین‌الملل در صفحه خود در فضای مجازی نوشت: حالا که همه درباره نظم جدید غرب آسیا صحبت می‌کنند باید توجه داشت که: ایران پلی میان خلیج فارس، آسیای مرکزی، قفقاز و دریای عمان است. هر کریدور انرژی یا ترانزیتی که بخواهد ما را دور بزند؛ یا گران تمام می‌شود یا ناپایدار. 🔸 دومینوی بحران‌ها از غزه تا دریای سرخ و از لبنان تا عراق نشان داد امنیت منطقه تقسیم پذیر نیست. یا امنیت جمعی محقق میشود یا همه ناامنی جمعی را تجربه می‌کنند. 🔸 سونامی تغییرات ژئوپولتیک غرب آسیا، انتخابات اسراییل و آمریکا ",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71607"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Velayati: Either collective security is achieved or everyone will experience collective insecurity",
+      "summary_en": "'Ali-Akbar Velayati', adviser to the leader on international affairs, wrote on his social media page: Now that everyone is talking about the new order in West Asia, it should be noted that: Iran is a bridge between the Persian Gulf, Central Asia, the Caucasus and the Sea of Oman. Any energy corridor or transit route that seeks to bypass us either becomes costly or unstable. The domino of crises from Gaza to the Red Sea and from Lebanon to Iraq showed that regional security is not divisible. Either collective security is achieved or everyone will experience collective insecurity. The tsunami of geopolitical changes in West Asia, Israeli and American elections.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzmxfwhve52q",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-06T08:24:36.457000Z",
+      "title": "US President Donald Trump, when asked about his plans regarding the resumption of military action in Iran on Thursday, said that the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914040",
+      "summary": "US President Donald Trump, when asked about his plans regarding the resumption of military action in Iran on Thursday, said that the country was largely destroyed and that it would take more than two decades to rebuild.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/370732",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:21:02Z",
+      "title": "حمله هوایی سعودی‌ها به تاسیسات آب الشمایتین یمن 🔹 المسیره گزارش داد جنگنده‌های سعودی، طرح آبرسانی در منطقه…",
+      "url": "https://t.me/iribnews/370732",
+      "summary": "حمله هوایی سعودی‌ها به تاسیسات آب الشمایتین یمن 🔹 المسیره گزارش داد جنگنده‌های سعودی، طرح آبرسانی در منطقه «الصنعه» شهرستان الشمایتین استان تعز را هدف حمله قرار دادند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/370732"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Saudi air strikes on Ash-Shamaitah water facilities in Yemen",
+      "summary_en": "Al-Masira reported that Saudi fighter jets targeted the water supply project in the 'Sanaa' area of Ash-Shamaitah district in Taiz province.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71606",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T08:16:02Z",
+      "title": "💢 شیخ نعیم قاسم چهارشنبه به مناسبت روز شهید سخنرانی می‌کند 🔸 حزب‌الله لبنان به پاس بزرگداشت و تکریم شهدا و به…",
+      "url": "https://t.me/defapress_ir/71606",
+      "summary": "💢 شیخ نعیم قاسم چهارشنبه به مناسبت روز شهید سخنرانی می‌کند 🔸 حزب‌الله لبنان به پاس بزرگداشت و تکریم شهدا و به مناسبت روز شهید حزب‌الله، مراسمی روز چهارشنبه ساعت ۱۸ به وقت محلی در حسینه شهرک دیرقانون النهر برگزار می‌کند. 🔸 در این مراسم شیخ نعیم قاسم دبیرکل حزب‌الله لبنان سخنرانی می‌کند. dnws.ir/003fk0 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71606"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Sheikh Nayim Qassem will deliver a speech on Wednesday on the occasion of Martyrs' Day",
+      "summary_en": "Hezbollah Lebanon, in commemoration and honour of martyrs and on the occasion of Hezbollah's Martyrs' Day, will hold a ceremony on Wednesday at 18:00 local time in the Husseiniyah of the Deerqanon Al-Nahr neighbourhood. In this ceremony, Sheikh Nayim Qassem, Secretary-General of Hezbollah Lebanon, will deliver a speech.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71605",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T07:43:44Z",
+      "title": "💢 آتش سوزی دو فروند نفتکش در تنگه هرمز 🔸 روابط عمومی نیروی دریایی سپاه پاسداران انقلاب اسلامی: دو فروند نفتکش…",
+      "url": "https://t.me/defapress_ir/71605",
+      "summary": "💢 آتش سوزی دو فروند نفتکش در تنگه هرمز 🔸 روابط عمومی نیروی دریایی سپاه پاسداران انقلاب اسلامی: دو فروند نفتکش متخلف، یکی در محدوده شرق تنگه هرمز و دیگری در تنگه هرمز که قصد عبور از مسیر غیرمجاز را داشتند، با مین برخورد کرده و در آب‌های تنگه هرمز متوقف شدند. 🔸 این دو نفتکش تمامی سامانه‌های ناوبری و شناسایی خود را خاموش نموده و تلاش داشتند با حمایت ارتش متجاوز و تروریست آمریکا از مسیر غیرمجاز تنگه هرمز خارج شوند که پس از برخورد با مین دچار آتش‌سوزی شدند و متوقف گردیدند. 🔸 تنگه هرمز به فضل الهی و همت دریادلان نیروی دریایی سپاه مسدود است و تا احقاق شروط هفت‌گانه تغییری ایجاد نخواهد شد و تلاش‌های ن",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71605"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Fire on two tankers in the Strait of Hormuz",
+      "summary_en": "The public relations office of the Naval Force of the Islamic Revolutionary Guard Corps: Two smuggling tankers, one within the eastern bounds of the Strait of Hormuz and another in the Strait of Hormuz attempting to traverse an unauthorised route, struck mines and were halted in the Strait of Hormuz waters. These two tankers had switched off all their navigation and identification systems and were attempting, with the backing of the transgressive and terrorist American army, to exit the Strait of Hormuz through an unauthorised route. After striking the mines, they caught fire and were halted. By God's grace and through the efforts of the sailors of the Naval Force of the Guards, the Strait of Hormuz is closed, and until the seven conditions are fulfilled, no change will occur and the efforts of.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71604",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T07:29:46Z",
+      "title": "💢 پروازی که تاریخ هوانوردی نظامی جهان را تغییر داد 🔸 اواخر اسفندماه سال گذشته که آسمان مهرآباد رنگ دود و…",
+      "url": "https://t.me/defapress_ir/71604",
+      "summary": "💢 پروازی که تاریخ هوانوردی نظامی جهان را تغییر داد 🔸 اواخر اسفندماه سال گذشته که آسمان مهرآباد رنگ دود و دلهره داشت، در آشیانه مرکز تعمیرات نیروی هوایی ارتش، یک فروند «میگ-۲۹» با بدنه‌ای تازه‌رنگ از خط بازآماد بیرون آمد. این جنگنده باید بدون هیچ تستی به نبردی واقعی می‌رفت. 🔸 روایت پیشرو بر اساس یک رویداد واقعی شکل گرفته است؛ اتفاقی که در خلال جنگ تحمیلی سوم در پایگاه هوایی شهید لشگری مهرآباد رخ داد. یک فروند جنگنده میگ-۲۹ پس از بازآماد سنگین، در اوج حساسیت نبرد، بدون سپری‌کردن هیچ‌یک از تست‌های زمینی و هوایی مرسوم، مستقیم به عملیات رزمی رفت و تا امروز هیچ ایرادی بر آن ثبت نشده است. این اتفاق ن",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71604"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "A flight that changed the history of military aviation in the world",
+      "summary_en": "In the late months of last year, when the sky over Mehrabad was the colour of smoke and anxiety, a 'Mig-29' with a freshly painted fuselage came out of the assembly line at the Air Force Repair Centre facility. This fighter jet was supposed to go directly into actual combat without any testing. The following narrative is based on an actual event; an incident that occurred during the third imposed war at Shahid Lashkari Mehrabad Air Base. A Mig-29 fighter jet, after heavy overhaul, at the height of battle sensitivity, without undergoing any of the customary ground and aerial tests, went directly into combat operations and to this day no defect has been recorded on it. This event.",
+      "has_figures": true,
+      "figures_examples": [
+        "29 fighter"
+      ]
+    },
+    {
+      "id": "telegram:defapress_ir/71602",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T06:44:22Z",
+      "title": "💢 تداوم حملات رژیم صهیونیستی به نوار غزه 🔸 منابع فلسطینی از تداوم نقض آتش‌بس و حملات رژیم صهیونیستی به مناطق…",
+      "url": "https://t.me/defapress_ir/71602",
+      "summary": "💢 تداوم حملات رژیم صهیونیستی به نوار غزه 🔸 منابع فلسطینی از تداوم نقض آتش‌بس و حملات رژیم صهیونیستی به مناطق مختلف غزه خبر دادند. 🔸 حملات ارتش رژیم صهیونیستی بامداد امروز به مناطق مختلف نوار غزه ادامه یافت و شرق شهر غزه، دیرالبلح و خان یونس هدف گلوله باران، تیراندازی گسترده و عملیات انفجاری قرار گرفتند. 🔸 توپخانه ارتش رژیم صهیونیستی اطراف تقاطع شجاعیه در شرق غزه را گلوله باران کرد. 🔸 همزمان، خودرو‌های نظامی رژیم صهیونیستی به طور گسترده به سوی مناطق شرقی دیر البلح در مرکز نوار غزه تیراندازی کردند. dnws.ir/003fjY @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71602"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Continuation of Zionist regime attacks on Gaza Strip",
+      "summary_en": "Palestinian sources reported the continued violation of ceasefire and attacks by the Zionist regime on various areas of Gaza. The attacks by the Zionist regime's army continued this morning on various areas of the Gaza Strip, with the east of Gaza city, Deir al-Balah and Khan Yunis coming under shelling, widespread shooting and explosive operations. The Zionist regime's army artillery shelled the area around the Shujayea junction in east Gaza. Simultaneously, Zionist regime military vehicles extensively opened fire towards the eastern areas of Deir al-Balah in the central Gaza Strip.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71601",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T06:14:22Z",
+      "title": "💢 امیر اکرمی‌نیا: تنها راه باز شدن تنگه هرمز تن دادن آمریکا به شروط هفت‌گانه است/ پاسخ نیرو‌های مسلح به هر…",
+      "url": "https://t.me/defapress_ir/71601",
+      "summary": "💢 امیر اکرمی‌نیا: تنها راه باز شدن تنگه هرمز تن دادن آمریکا به شروط هفت‌گانه است/ پاسخ نیرو‌های مسلح به هر تجاوزی بدون محدودیت جغرافیایی خواهد بود 🔸 سخنگوی ارتش در گفت‌وگو با دفاع‌پرس با تأکید بر اینکه تنها راه باز شدن تنگه هرمز، تن دادن آمریکا به شروط هفت‌گانه جمهوری اسلامی ایران است، گفت: هیچ تجاوز یا ماجراجویی در منطقه نخواهد توانست این تنگه را باز کند. 🔸 آمادگی رزمی هوشمندانه ناظر بر برخورداری از همه مؤلفه‌های سخت و نرم قدرت و توانایی تلفیق اینها بر اساس اقتضائات زمان و مکان است که به ما هوشمندی در توان رزمی می‌دهد. 🔸 پاسخگویی سریع به هرگونه تجاوز دشمن را محور دیگر فرمایشات رهبر معظم انقلا",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71601"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Brigadier General Akrimi-Nia: The only way to open the Strait of Hormuz is America's acceptance of Iran's seven conditions / Armed forces' response to any transgression will be without geographical limitation",
+      "summary_en": "The army spokesman, in an interview with Defapress, emphasising that the only way to open the Strait of Hormuz is America's acceptance of the seven conditions of the Islamic Republic of Iran, said: No transgression or adventurism in the region will be able to open this strait. Intelligent military preparedness is characterised by possessing all components of hard and soft power and the ability to synthesise them based on the exigencies of time and place, which gives us intelligence in our military capability. Rapid response to any enemy transgression forms another axis of the Supreme Leader's directives.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71600",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T05:44:22Z",
+      "title": "💢 شکست افسانه قدرت آمریکا در برابر اراده ملت ایران 🔸 تجربه چند دهه تقابل ایران و آمریکا نشان داده است که قدرت…",
+      "url": "https://t.me/defapress_ir/71600",
+      "summary": "💢 شکست افسانه قدرت آمریکا در برابر اراده ملت ایران 🔸 تجربه چند دهه تقابل ایران و آمریکا نشان داده است که قدرت نظامی و اقتصادی به‌تنهایی ضامن پیروزی نیست؛ بلکه اراده، ایمان و حمایت مردمی از مهم‌ترین مؤلفه‌های قدرت ملت‌هاست. ایستادگی ملت ایران در برابر تحریم‌ها، تهدیدها و فشارهای خارجی، تصویری متفاوت از قدرت آمریکا ترسیم کرده و افسانه شکست‌ناپذیری این کشور را به چالش کشیده است. 🔸 تاریخ جهان همواره شاهد برخورد میان قدرت‌های مستکبر و ملت‌های آزاده بوده است، اما در جغرافیای سیاسی امروز تقابل میان آمریکا به‌عنوان نماد استکبار جهانی و نظام استکباری با مردم ایران فراتر از یک درگیری معمول، به یک نبرد م",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71600"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Defeat of the myth of American power before the will of the Iranian nation",
+      "summary_en": "Decades of Iran-America confrontation have shown that military and economic power alone is not a guarantee of victory; rather, will, faith and popular support are the most important components of a nation's power. The Iranian nation's steadfastness in the face of sanctions, threats and foreign pressures has painted a different picture of American power and challenged the myth of this country's invincibility. The history of the world has always witnessed clashes between domineering powers and free nations, but in the political geography of today, the confrontation between America as a symbol of global arrogance and the Islamic system with the Iranian people goes beyond a conventional clash, becoming a struggle.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/71590",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-06T05:15:06Z",
+      "title": "🎥 پخش زنده/ همگرایی دوربین‌های سینما برای نمایش جنایت آمریکا و اسرائیل و مظلومیت مقاومت 🔸 رئیس سازمان بسیج…",
+      "url": "https://t.me/defapress_ir/71590",
+      "summary": "🎥 پخش زنده/ همگرایی دوربین‌های سینما برای نمایش جنایت آمریکا و اسرائیل و مظلومیت مقاومت 🔸 رئیس سازمان بسیج مستضعفین، با تشبیه اصول دفاعی جنگ نظامی به عرصه سینما و هنر گفت: اگر دوربین‌ها همگرا باشند و سوژه‌های مؤثر انتخاب شوند، می‌توان جنایت آمریکا و اسرائیل…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/71590"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Live broadcast / Convergence of cinema cameras to show the crimes of America and Israel and the oppression of resistance",
+      "summary_en": "The head of the Mobilisation of the Oppressed organisation, comparing the principles of defence in military war to the realm of cinema and art, said: If cameras converge and effective subjects are chosen, the crimes of America and Israel and the oppression of resistance can be shown.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611032762",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T04:14:28Z",
+      "title": "Free prisoners first: Jalali's wife challenges Tehran's call for expats to return",
+      "url": "https://www.iranintl.com/en/202611032762",
+      "summary": "The wife of imprisoned Swedish-Iranian researcher Ahmadreza Jalali has challenged Tehran's calls for expatriates to return home, urging authorities to first release those jailed after visiting Iran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzmitbv2nc2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-06T04:03:38.783000Z",
+      "title": "Editorial: Vance must acknowledge US responsibility for decisions on the Iran war. US officials determined American objectives and directed…",
+      "url": "https://www.jpost.com/opinion/article-913999",
+      "summary": "Editorial: Vance must acknowledge US responsibility for decisions on the Iran war. US officials determined American objectives and directed American operations. Israeli influence, advice, or pressure does not erase that chain of responsibility. \n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611063118",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T02:25:12Z",
+      "title": "Turkey's Mecca pact ratification paves way for military support to Saudi Arabia",
+      "url": "https://www.iranintl.com/en/202611063118",
+      "summary": "Turkey's approval of a defense pact with Saudi Arabia and Pakistan has paved the way for military support to Riyadh amid attacks by Iran-backed Houthis, though deploying Turkish troops would still require separate parliamentary approval.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611057512",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-06T00:11:29Z",
+      "title": "Trump's election defeat fuels debate in Tehran over US deal",
+      "url": "https://www.iranintl.com/en/202611057512",
+      "summary": "President Donald Trump's sweeping midterm defeat has sparked a debate in Tehran over whether Iran should seize the opportunity to negotiate a deal with Washington or maintain pressure through its control of the Strait of Hormuz.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzm2u42f2k2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T23:53:33.684000Z",
+      "title": "Sixty percent of young US Jewish voters describe Israel’s war in Gaza as genocide, while a plurality support conditioning military aid,…",
+      "url": "https://www.jpost.com/diaspora/article-914029",
+      "summary": "Sixty percent of young US Jewish voters describe Israel’s war in Gaza as genocide, while a plurality support conditioning military aid, according to a post-election survey by J Street.\n\nwww.jpost.com/diaspora/art...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/2026/sc16501.doc.htm",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-11-05T22:00:28Z",
+      "title": "Security Council Hears Update on Yemen Sanctions Committee’s Work, Including Panel Recommendations",
+      "url": "https://press.un.org/en/2026/sc16501.doc.htm",
+      "summary": "The Security Council today heard an update on the work of the Committee overseeing sanctions on Yemen, including its consideration of reports addressing dual-use items, precursor chemicals, information-sharing and vessel flag State capacity, as well as recommendations submitted by its Panel of Experts.",
+      "details": {},
+      "tags": [
+        "sanctions"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzltzqkb6q2s",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T21:51:26.844000Z",
+      "title": "Iran has sent the United States a nuclear proposal via Qatar, to be discussed only after Washington meets Tehran’s seven demands, according…",
+      "url": "https://www.jpost.com/middle-east/article-914025",
+      "summary": "Iran has sent the United States a nuclear proposal via Qatar, to be discussed only after Washington meets Tehran’s seven demands, according to a senior Iranian official. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611051413",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-05T21:48:00Z",
+      "title": "Iran hardliners warn against compromise after US election shakeup",
+      "url": "https://www.iranintl.com/en/202611051413",
+      "summary": "Iranian hardliners are calling for continued pressure on Washington following the US midterm elections, arguing that the war has exacted a political price on Republicans but that Democratic gains offer little prospect of a change in US policy toward Tehran.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:2249d0e7db1917807d77dc744a1a32fb",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-05T21:01:00Z",
+      "title": "A U.S. Sailor directs an MH-60R Sea Hawk helicopter on the flight deck of USS Ross (DDG 71) as the…",
+      "url": "https://x.com/CENTCOM/status/2118448608974430300",
+      "summary": "A U.S. Sailor directs an MH-60R Sea Hawk helicopter on the flight deck of USS Ross (DDG 71) as the guided-missile destroyer sails in the Arabian Sea.— U.S. Central Command (@CENTCOM) Nov 5, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611053453",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-05T20:32:00Z",
+      "title": "Iran steps up diplomacy as Trump reels from midterm defeat",
+      "url": "https://www.iranintl.com/en/202611053453",
+      "summary": "Iran stepped up diplomatic efforts on Thursday, submitting a new nuclear proposal to Washington, seeking Russian support and reaching out to regional powers a day after President Donald Trump's party suffered a sweeping defeat in the US midterm elections.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:ed1d2653b754dd72e2b0be951229dc35",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-05T19:56:00Z",
+      "title": "\"It's called service for a reason. You're going to give more than you're going to get. But if you find…",
+      "url": "https://x.com/CENTCOM/status/2118432307069772285",
+      "summary": "\"It's called service for a reason. You're going to give more than you're going to get. But if you find satisfaction in giving, you'll have no greater satisfaction than serving in the United States military in particular.\" - Adm. Brad Cooper, CENTCOM Commander \nVideo\n  U.S. Central Command (@CENTCOM)Listen to the first full episode of CENTCOM's new podcast \"Inside CENTCOM\" — out now on podcast platforms or on YouTube:  youtube.com/@centcom \nVideo\n  —  https://x.com/CENTCOM/status/2118386489692152040— U.S. Central Command (@CENTCOM) Nov 5, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzln7m5nvs2c",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T19:49:27.270000Z",
+      "title": "A Turkish soldier was killed by gunfire from Iran while stopping an illegal border crossing, Ankara said, as Tehran investigates the…",
+      "url": "https://www.jpost.com/middle-east/article-914015",
+      "summary": "A Turkish soldier was killed by gunfire from Iran while stopping an illegal border crossing, Ankara said, as Tehran investigates the incident. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:24f02c97cab531f813edc1c3552b000a",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-05T19:37:00Z",
+      "title": "U.S. Air Force F-35A stealth fighter jets receive fuel from a KC-135 Stratotanker while patrolling the skies…",
+      "url": "https://x.com/CENTCOM/status/2118427513919549647",
+      "summary": "U.S. Air Force F-35A stealth fighter jets receive fuel from a KC-135 Stratotanker while patrolling the skies over the Middle East. \nVideo\n  — U.S. Central Command (@CENTCOM) Nov 5, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzllcladoc2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T19:15:19.491000Z",
+      "title": "Report: Iran is reviewing \"concrete proposals\" from mediators on the future of its nuclear program amid talks with the United States in…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914000",
+      "summary": "Report: Iran is reviewing \"concrete proposals\" from mediators on the future of its nuclear program amid talks with the United States in Doha, Qatar, The New York Times reported on Thursday.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611053297",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-05T19:01:02Z",
+      "title": "Iran sentences two more protesters to death, rights group says",
+      "url": "https://www.iranintl.com/en/202611053297",
+      "summary": "An Iranian court has sentenced two men arrested during January's anti-government protests to death, a rights group reported Thursday, adding to a growing number of protesters facing execution in the northeastern city of Mashhad.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzljst32m72r",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T18:48:37.080000Z",
+      "title": "Analysis: There is a lack of clarity about why Iran's nuclear program has not been eviscerated, despite the time provided for the conflict.…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914010",
+      "summary": "Analysis: There is a lack of clarity about why Iran's nuclear program has not been eviscerated, despite the time provided for the conflict. This leaves many questions ahead, and the options may be narrowing.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1300",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-05T18:15:50Z",
+      "title": "📢 سرلشکر محسن رضایی پیام رهبر معظم انقلاب را به پوتین منتقل کرد 💻 @Rahbar_ir",
+      "url": "https://t.me/rahbar_ir/1300",
+      "summary": "📢 سرلشکر محسن رضایی پیام رهبر معظم انقلاب را به پوتین منتقل کرد 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1300"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "General Mohsen Reza'i conveyed the Supreme Leader's message to Putin",
+      "summary_en": "General Mohsen Reza'i conveyed the Supreme Leader's message to Putin",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1299",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-05T17:40:03Z",
+      "title": "🖼 سقوط برگشت‌ناپذیر ✏️ امروز، قدرت و سلطۀ رو به زوال امریکا در هر دو بُعد قدرت سخت نظامی و قدرت نرم…",
+      "url": "https://t.me/rahbar_ir/1299",
+      "summary": "🖼 سقوط برگشت‌ناپذیر ✏️ امروز، قدرت و سلطۀ رو به زوال امریکا در هر دو بُعد قدرت سخت نظامی و قدرت نرم بین‌المللی دچار سقوطی برگشت‌ناپذیر شده و روند فروپاشی آن تسریع گردیده است. ✍ رهبر معظم انقلاب | ۱۳/آبان/۱۴۰۵ 💻 @Rahbar_ir | #لوح",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1299"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Irreversible collapse",
+      "summary_en": "Irreversible collapse: Today, the declining power and dominance of America in both dimensions of hard military power and soft international power has suffered an irreversible collapse, and the pace of its disintegration has accelerated. Supreme Leader | 13 Aban 1405",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611055583",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-05T17:29:00Z",
+      "title": "US condemns Iran protest executions, highlights families’ suffering",
+      "url": "https://www.iranintl.com/en/202611055583",
+      "summary": "The US State Department on Thursday condemned Iran’s execution of three young men detained over January protests, highlighting their families’ suffering amid a broader campaign of executions that rights monitors say extends far beyond political cases.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzlemun4pg2h",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T17:15:48.522000Z",
+      "title": "“Our fight will go on until victory,” Crown Prince Reza Pahlavi told the 'Post' ahead of accepting a German freedom prize on behalf of the…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913998",
+      "summary": "“Our fight will go on until victory,” Crown Prince Reza Pahlavi told the 'Post' ahead of accepting a German freedom prize on behalf of the Iranian people, as he sees a shift in Europe's approach to Tehran. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:cee91b0d7cc694ecc64eff79aacfc0d6",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-05T16:54:00Z",
+      "title": "Listen to the first full episode of CENTCOM's new podcast \"Inside CENTCOM\" — out now on podcast platforms or…",
+      "url": "https://x.com/CENTCOM/status/2118386489692152040",
+      "summary": "Listen to the first full episode of CENTCOM's new podcast \"Inside CENTCOM\" — out now on podcast platforms or on YouTube:  youtube.com/@centcom \nVideo\n  — U.S. Central Command (@CENTCOM) Nov 5, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1298",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-05T16:40:48Z",
+      "title": "📊 #نمودار_درختی | نمودار دستورات راهبردی فرمانده معظم کل قوا در دیدار با فرماندهان ارشد نیروهای مسلح…",
+      "url": "https://t.me/rahbar_ir/1298",
+      "summary": "📊 #نمودار_درختی | نمودار دستورات راهبردی فرمانده معظم کل قوا در دیدار با فرماندهان ارشد نیروهای مسلح ۹/آبان/۱۴۰۵ 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1298"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Strategic orders tree chart from the Supreme Commander of the Armed Forces' meeting with senior commanders of the armed forces",
+      "summary_en": "Strategic orders tree chart from the Supreme Commander of the Armed Forces' meeting with senior commanders of the armed forces 9 Aban 1405",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzla3gudbk2v",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T15:54:28.822000Z",
+      "title": "The IDF uncovered over 340 weapons belonging to the Iran-backed Hezbollah terrorist organization during recent operations in southern…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-913976",
+      "summary": "The IDF uncovered over 340 weapons belonging to the Iran-backed Hezbollah terrorist organization during recent operations in southern Lebanon, the military announced on Thursday. \nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "340 weapons"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_ir/1295",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-05T15:00:01Z",
+      "title": "📢 عیادت نمایندگان رهبر معظم انقلاب از حضرت آیت‌الله وحید خراسانی 🔻 هیأتی از طرف رهبر معظم انقلاب اسلامی، عصر…",
+      "url": "https://t.me/rahbar_ir/1295",
+      "summary": "📢 عیادت نمایندگان رهبر معظم انقلاب از حضرت آیت‌الله وحید خراسانی 🔻 هیأتی از طرف رهبر معظم انقلاب اسلامی، عصر امروز از حضرت آیت‌الله وحید خراسانی در بیمارستان عیادت کردند. 💬 حجج اسلام والمسلمین رحیمیان، محمدی عراقی و حاج‌علی‌اکبری، عصر امروز با حضور در یکی از بیمارستان‌های تهران، ضمن ابلاغ سلام و دعای رهبر معظم انقلاب اسلامی، در جریان وضعیت درمانی حضرت آیت‌الله وحید خراسانی از مراجع عظام تقلید قرار گرفتند. ⏺️ حضرت آیت‌الله وحید خراسانی در پی بیماری به بیمارستان منتقل شده و در بخش مراقبت‌های ویژه بستری است. 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1295"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Supreme Leader's representatives visit Grand Ayatollah Vahid Khorasani",
+      "summary_en": "Supreme Leader's representatives visit Grand Ayatollah Vahid Khorasani: A delegation on behalf of the Supreme Leader visited Grand Ayatollah Vahid Khorasani this afternoon in hospital. Hojjatoleslam Mohammad Reza Rohani, Mohammad Reza Mohammadi Araqi and Haj Ali Akbar, this afternoon, while visiting one of Tehran's hospitals, conveyed the greetings and prayers of the Supreme Leader and were informed of the treatment status of Grand Ayatollah Vahid Khorasani, one of the sources of emulation. Grand Ayatollah Vahid Khorasani has been admitted to hospital due to illness and is currently in intensive care.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611058795",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-05T14:54:14Z",
+      "title": "Why social control remains central to Tehran's survival",
+      "url": "https://www.iranintl.com/en/202611058795",
+      "summary": "Even as Iran grapples with war, economic crisis and the threat of renewed US and Israeli attacks, its security forces are breaking up Halloween celebrations, closing cafes and detaining people for gathering in public.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzl3ahvf2q2d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T14:27:48.870000Z",
+      "title": "Yemen is tightening financial controls on imports entering Houthi-controlled ports, requiring advance payment of customs duties and taxes…",
+      "url": "https://www.jpost.com/middle-east/article-913970",
+      "summary": "Yemen is tightening financial controls on imports entering Houthi-controlled ports, requiring advance payment of customs duties and taxes before international transfers can proceed. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzl2pyh2ic2t",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T14:18:36.795000Z",
+      "title": "The US sanctioned three for their involvement in Iran's efforts to procure man-portable air-defense systems amid reports of a weapons deal…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-913935",
+      "summary": "The US sanctioned three for their involvement in Iran's efforts to procure man-portable air-defense systems amid reports of a weapons deal signed between Moscow and Tehran.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:b8f55512ed67cf3b7aa5de26cf7a929c",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-05T14:15:00Z",
+      "title": "⭕️OPERATIONAL UPDATE: IDF troops are operating in the Beaufort Ridge & Litani River areas in order to remove threats to Israeli civilians. During the operations, the troops located 340+ weapons, including RPG rockets, anti-tank missiles, mortar shells, small arms, explosive devices, grenades & ammunition. Additionally, a ~7m deep underground shaft was located inside a civilian home. The IDF will not allow the Hezbollah terrorist organization to harm Israeli civilians or IDF troops.",
+      "url": "https://x.com/IDF/status/2118346549923131760",
+      "summary": "⭕️OPERATIONAL UPDATE: IDF troops are operating in the Beaufort Ridge & Litani River areas in order to remove threats to Israeli civilians.\n\nDuring the operations, the troops located 340+ weapons, including RPG rockets, anti-tank missiles, mortar shells, small arms, explosive devices, grenades & ammunition. Additionally, a ~7m deep underground shaft was located inside a civilian home. \n\nThe IDF will not allow the Hezbollah terrorist organization to harm Israeli civilians or IDF troops.— Israel Defense Forces (@IDF) Nov 5, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "340+ weapons"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3mzkzdla6hx2n",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-05T13:53:45.135211Z",
+      "title": "Netanyahu slams Abbas over Hamas remarks, warns Eisenkot depends on Arab parties",
+      "url": "https://bsky.app/profile/thejerusalempost.bsky.social/post/3mzkzdla6hx2n",
+      "summary": "Netanyahu slams Abbas over Hamas remarks, warns Eisenkot depends on Arab parties",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-22685",
+      "source": "US Federal Register",
+      "source_detail": "White House — Presidential Document",
+      "source_tier": 1,
+      "category": "executive-order",
+      "published_at": "2026-11-05T00:00:00Z",
+      "title": "Continuation of the National Emergency With Respect to Iran",
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran",
+      "summary": "",
+      "details": {
+        "document_type": "Presidential Document",
+        "agencies": "Executive Office of the President",
+        "document_number": "2026-22685"
+      },
+      "tags": [
+        "executive-order"
+      ],
+      "has_figures": false
+    }
+  ]
+}
