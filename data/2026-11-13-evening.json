@@ -1,0 +1,1815 @@
+{
+  "generated_at": "2026-11-13T20:58:06.238269Z",
+  "window_since": "2026-11-13T05:00:00Z",
+  "window_until": "2026-11-13T20:56:13.997913Z",
+  "edition": "evening",
+  "diagnostics": [
+    {
+      "source": "federal_register",
+      "fetched": 3,
+      "kept": 3,
+      "ok": true
+    },
+    {
+      "source": "uk_parliament",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "un_press",
+      "fetched": 4,
+      "kept": 2,
+      "ok": true
+    },
+    {
+      "source": "iaea",
+      "fetched": 1,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "state_dept",
+      "fetched": 3,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "gov_uk",
+      "fetched": 6,
+      "kept": 0,
+      "ok": true
+    },
+    {
+      "source": "iran_international",
+      "fetched": 11,
+      "kept": 11,
+      "ok": true
+    },
+    {
+      "source": "telegram",
+      "fetched": 39,
+      "kept": 39,
+      "ok": true
+    },
+    {
+      "source": "x_via_rssapp",
+      "fetched": 8,
+      "kept": 7,
+      "ok": true
+    },
+    {
+      "source": "bluesky",
+      "fetched": 55,
+      "kept": 13,
+      "ok": true
+    },
+    {
+      "source": "reliefweb",
+      "fetched": 0,
+      "kept": 0,
+      "ok": true
+    }
+  ],
+  "day_shape": "75 items: IRGC drones toward Bahrain shot down by US forces, tanker explosions in Strait of Hormuz claimed by IRGC Navy, IAEA flags uninspected Isfahan enrichment plant, three OFAC/White House Iran actions, heavy Khamenei Fatima mourning cycle.",
+  "threads": [
+    {
+      "label": "IRGC drones intercepted over Bahrain",
+      "summary": "CENTCOM said US forces shot down two IRGC one-way attack drones launched toward Bahrain, with no damage or injuries, rejecting an IRGC claim of hitting a US early-warning radar. Treasury Secretary Scott Bessent said he had moved to a military base and would not be cowed by Iranian death threats.",
+      "event_ids": [
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n277abgujh2i",
+        "x_via_rssapp:e1460682458e32b37a03cc7538359361",
+        "iranintl:https://www.iranintl.com/en/202611137770",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27cqzuzh52d"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Strait of Hormuz tanker explosions",
+      "summary": "The IRGC Navy said two tankers that had switched off tracking struck a naval mine and caught fire south of the Strait of Hormuz, with Jerusalem Post reporting an LNG carrier among them. Hormozgan provincial authorities said no strikes had been reported in the province by 22:25 local time, and the UN Security Council met at Bahrain's request on Gulf maritime security.",
+      "event_ids": [
+        "telegram:iribnews/372124",
+        "telegram:defapress_ir/72360",
+        "telegram:defapress_ir/72357",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n26mbvctc42d",
+        "unpress:https://press.un.org/en/blog/sc16509"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IAEA concern over Isfahan enrichment plant",
+      "summary": "A report seen by Reuters said the IAEA does not know the exact location of Iran's newest declared enrichment plant near Isfahan or whether it contains nuclear material, more than a year after Tehran declared it. The Jerusalem Post reported the watchdog as \"increasingly concerned\" that Iran has not allowed inspection of the underground facility.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202611133720",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n26kxfip7k2f"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "US sanctions and NDAA determination",
+      "summary": "OFAC published Iran-related General Licenses EE, FF and W in the Federal Register, and the White House issued a Presidential Determination under Section 1245(d)(4)(B) and (C) of the FY2012 NDAA on Iranian oil-trade sanctions. All four documents were dated 13 November.",
+      "event_ids": [
+        "fedreg:2026-23233",
+        "fedreg:2026-23197",
+        "fedreg:2026-23193"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "UK Iran International spying convictions fallout",
+      "summary": "UK counterterrorism police said the men convicted of spying on Iran International journalists in London worked from files sent from Iran listing targets' photos, workplaces, cars and pets, some gathered via ChatGPT. The Committee to Protect Journalists and Nobel laureate Shirin Ebadi said the verdicts do not end the threat to exiled Iranian journalists.",
+      "event_ids": [
+        "iranintl:https://www.iranintl.com/en/202611132513",
+        "iranintl:https://www.iranintl.com/en/202611131705",
+        "iranintl:https://www.iranintl.com/en/202611132513"
+      ],
+      "tier4_present": false
+    },
+    {
+      "label": "Khamenei Fatima al-Zahra mourning cycle",
+      "summary": "Khamenei's office posted repeatedly from the evening mourning ceremony for Lady Fatima al-Zahra at Zainabiyyah, including recitations by Mahmoud Karimi, Javad Haidari and Mithaq Moatei. One post said \"America suffered a great defeat from the Resistance front\" and IRIB echoed with commentary that America is a \"paper tiger.\"",
+      "event_ids": [
+        "telegram:rahbar_ir/1388",
+        "telegram:rahbar_ir/1394",
+        "telegram:rahbar_ir/1392",
+        "telegram:rahbar_ir/1391",
+        "telegram:rahbar_ir/1390",
+        "telegram:rahbar_ir/1389",
+        "telegram:rahbar_ir/1387",
+        "telegram:rahbar_ir/1386",
+        "telegram:rahbar_ir/1385",
+        "telegram:iribnews/372117",
+        "telegram:iribnews/372125"
+      ],
+      "tier4_present": true
+    },
+    {
+      "label": "IDF Gaza strikes and US Navy visit",
+      "summary": "The IDF and Shin Bet said more than 10 operatives were killed in Gaza strikes over the past week, including two Hamas members who crossed into Israel on 7 October 2023, and that a weapons workshop was dismantled. US 5th Fleet commander Vice Adm. Curt Renshaw concluded a visit to Israeli Navy chief Vice Adm. Eyal Harel, and Mossad chief Roman Gofman travelled to Washington to meet CIA Director John Ratcliffe.",
+      "event_ids": [
+        "x_via_rssapp:6c5530b9c48e4c3ddcde5e78933614cf",
+        "x_via_rssapp:cd36e6b31de1ccee8eb7766d685026f9",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27diotyan2j",
+        "x_via_rssapp:bf67045cf3f462ee88e4feb4f13435f5",
+        "x_via_rssapp:730aaf1e7f0419bfa4fc73b0f7467c26",
+        "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n276zygwaz2x"
+      ],
+      "tier4_present": false
+    }
+  ],
+  "events": [
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27umexpkk2e",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T20:55:06.864000Z",
+      "title": "Unauthorized drone activity at RAF Lakenheath base in the UK forced US military personnel to seek shelter. The USAF moved at least two…",
+      "url": "https://www.jpost.com/international/article-914834",
+      "summary": "Unauthorized drone activity at RAF Lakenheath base in the UK forced US military personnel to seek shelter. The USAF moved at least two aircraft to the base following a reported Iranian threat to RAF bases in Fairfield and Mildenhall, where they were previously located.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72361",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T20:51:12Z",
+      "title": "💢 انهدام انبارهای تسلیحاتی و دو یگان نظامی سعودی در عدن، لحج و الجوف توسط یمن 🔸 نیروهای مسلح یمن اعلام کردند…",
+      "url": "https://t.me/defapress_ir/72361",
+      "summary": "💢 انهدام انبارهای تسلیحاتی و دو یگان نظامی سعودی در عدن، لحج و الجوف توسط یمن 🔸 نیروهای مسلح یمن اعلام کردند انبارهای تسلیحاتی سعودی‌ها را در استان عدن با چند موشک بالستیک و پهپاد منهدم کردند. 🔸 همچنین تجمع‌های نیروهای سعودی تحت فرماندهی «بدر الحربی» در لحج…",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72361"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Destruction of Saudi ammunition warehouses and two Saudi military units in Aden, Lahj and Al-Jouf by Yemen",
+      "summary_en": "Destruction of Saudi ammunition warehouses and two Saudi military units in Aden, Lahj and Al-Jouf by Yemen. Yemen's Armed Forces announced that they destroyed Saudi ammunition warehouses in Aden province with several ballistic missiles and drones. Saudi forces under the command of 'Badr al-Harbi' in Lahj were also targeted.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372124",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T20:37:26Z",
+      "title": "انفجار و آتش‌سوزی دو نفتکش متخلف در جنوب تنگه هرمز نیروی دریایی سپاه پاسداران: 🔹 ساعتی پیش دو فروند نفتکش که…",
+      "url": "https://t.me/iribnews/372124",
+      "summary": "انفجار و آتش‌سوزی دو نفتکش متخلف در جنوب تنگه هرمز نیروی دریایی سپاه پاسداران: 🔹 ساعتی پیش دو فروند نفتکش که با سامانه های راداری و موقعیت یاب خاموش، بطور مخفیانه سعی در تردد از مسیر غیر مجاز تنگه هرمز را داشتند، با اصابت به مین دریایی منفجر و دچار آتش سوزی شدند. 🔹 زبانه های آتش یکی از این دو کشتی، که از نوع سوپر نفتکش بوده، شب سواحل جنوبی تنگه هرمز را روشن کرده است. 🔹 نیروی دریایی سپاه به مالکان و شرکت های کشتیرانی هشدار می دهد تردد از تنگه هرمز بدون هماهنگی با مرکز کنترل تردد نیروی دریایی سپاه در تنگه هرمز و نادیده گرفتن ترتیبات ایرانی این تنگه، عاقبتی این چنین خواهد داشت. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372124"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion and fire aboard two illegal tankers south of the Strait of Hormuz, Islamic Revolutionary Guard Corps Navy",
+      "summary_en": "Explosion and fire aboard two illegal tankers south of the Strait of Hormuz. Hours ago, two tankers that had switched off their radar and positioning systems and were attempting to pass through an unauthorised route in the Strait of Hormuz struck a naval mine, exploded and caught fire. The flames from one of the two vessels, which was a supertanker, lit up the southern shores of the Strait of Hormuz at night. The IRGC Navy warns ship owners and shipping companies that passage through the Strait of Hormuz without coordination with the IRGC Navy's traffic control centre in the Strait of Hormuz and disregarding Iranian arrangements for this strait will have such consequences.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72360",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T20:31:10Z",
+      "title": "💢 انفجار و آتش سوزی دو نفتکش متخلف در جنوب تنگه هرمز روابط عمومی نیروی دریایی سپاه پاسداران انقلاب اسلامی: 🔸…",
+      "url": "https://t.me/defapress_ir/72360",
+      "summary": "💢 انفجار و آتش سوزی دو نفتکش متخلف در جنوب تنگه هرمز روابط عمومی نیروی دریایی سپاه پاسداران انقلاب اسلامی: 🔸 ساعتی پیش دو فروند نفتکش که با سامانه های راداری و موقعیت یاب خاموش، بطور مخفیانه سعی در تردد از مسیر غیر مجاز تنگه هرمز را داشتند، با اصابت به مین دریایی منفجر و دچار آتش سوزی شدند. 🔸 زبانه های آتش یکی از این دو کشتی، که از نوع سوپر نفتکش بوده، شب سواحل جنوبی تنگه هرمز را روشن کرده است. 🔸 نیروی دریایی سپاه به مالکان و شرکت های کشتیرانی هشدار می دهد تردد از تنگه هرمز بدون هماهنگی با مرکز کنترل تردد نیروی دریایی سپاه در تنگه هرمز و نادیده گرفتن ترتیبات ایرانی این تنگه، عاقبتی این چنین خو",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72360"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Explosion and fire aboard two illegal tankers south of the Strait of Hormuz, Public Relations of the Islamic Revolutionary Guard Corps Navy",
+      "summary_en": "Explosion and fire aboard two illegal tankers south of the Strait of Hormuz, Public Relations of the Islamic Revolutionary Guard Corps Navy. Hours ago, two tankers that had switched off their radar and positioning systems and were attempting to pass through an unauthorised route in the Strait of Hormuz struck a naval mine, exploded and caught fire. The flames from one of the two vessels, which was a supertanker, lit up the southern shores of the Strait of Hormuz at night. The IRGC Navy warns ship owners and shipping companies that passage through the Strait of Hormuz without coordination with the IRGC Navy's traffic control centre in the Strait of Hormuz and disregarding Iranian arrangements for this strait will have such consequences.",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611132752",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T20:23:58Z",
+      "title": "Who is Motamedian, the man tipped to become Iran's spy chief?",
+      "url": "https://www.iranintl.com/en/202611132752",
+      "summary": "Tehran Governor Mohammad Sadegh Motamedian, a former intelligence official accused of overseeing deadly repression of protesters, has emerged as a potential intelligence minister as Iran considers opening the position to non-clerics.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/2026/gaspd855.doc.htm",
+      "source": "UN Press",
+      "source_detail": "General Assembly",
+      "source_tier": 2,
+      "category": "un-general-assembly",
+      "published_at": "2026-11-13T20:18:23Z",
+      "title": "Spotlighting UNWRA's Role Providing Vital Services in Gaza, Fourth Committee Stresses Agency's Need for Dependable Funding, Refugee Relief",
+      "url": "https://press.un.org/en/2026/gaspd855.doc.htm",
+      "summary": "Ensuring predictable, long-term funding for the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA) is not only about international solidarity but a lasting investment in regional peace, the Fourth Committee (Special Political and Decolonization) heard today, as it concluded its consideration of that Agency.",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72359",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T20:13:24Z",
+      "title": "💢 انهدام انبارهای تسلیحاتی و دو یگان نظامی سعودی در عدن، لحج و الجوف توسط یمن 🔸 نیروهای مسلح یمن اعلام کردند…",
+      "url": "https://t.me/defapress_ir/72359",
+      "summary": "💢 انهدام انبارهای تسلیحاتی و دو یگان نظامی سعودی در عدن، لحج و الجوف توسط یمن 🔸 نیروهای مسلح یمن اعلام کردند انبارهای تسلیحاتی سعودی‌ها را در استان عدن با چند موشک بالستیک و پهپاد منهدم کردند. 🔸 همچنین تجمع‌های نیروهای سعودی تحت فرماندهی «بدر الحربی» در لحج و نیروهای تحت فرماندهی «فارس الشمری» در الجوف با موشک‌های بالستیک هدف قرار گرفتند. 🔸 بر اساس این گزارش، اصابت موشک‌ها دقیق بود و تلفات و زخمی‌های زیادی به جا گذاشت. dnws.ir/003gJP @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72359"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Destruction of Saudi ammunition warehouses and two Saudi military units in Aden, Lahj and Al-Jouf by Yemen",
+      "summary_en": "Destruction of Saudi ammunition warehouses and two Saudi military units in Aden, Lahj and Al-Jouf by Yemen. Yemen's Armed Forces announced they destroyed Saudi ammunition warehouses in Aden province with several ballistic missiles and drones. Saudi forces under the command of 'Badr al-Harbi' in Lahj and forces under the command of 'Faris al-Shammari' in Al-Jouf were also targeted with ballistic missiles. According to this report, the missile strikes were precise and caused numerous casualties and injuries.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372123",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T20:08:59Z",
+      "title": "سخنگوی نیروهای مسلح یمن: انبارهای تسلیحاتی عربستان سعودی در عدن را با موشک‌های بالستیک و پهپاد هدف قرار…",
+      "url": "https://t.me/iribnews/372123",
+      "summary": "سخنگوی نیروهای مسلح یمن: انبارهای تسلیحاتی عربستان سعودی در عدن را با موشک‌های بالستیک و پهپاد هدف قرار دادیم. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372123"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Spokesman for Yemen's Armed Forces: we targeted Saudi Arabia's ammunition warehouses in Aden with ballistic missiles and drones",
+      "summary_en": "Spokesman for Yemen's Armed Forces: we targeted Saudi Arabia's ammunition warehouses in Aden with ballistic missiles and drones.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372122",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:54:33Z",
+      "title": "وزیر راه و شهرسازی از توافق ایران و ازبکستان برای رفع موانع ترانزیتی، تسهیل جابه‌جایی کالا و توسعه همکاری‌های…",
+      "url": "https://t.me/iribnews/372122",
+      "summary": "وزیر راه و شهرسازی از توافق ایران و ازبکستان برای رفع موانع ترانزیتی، تسهیل جابه‌جایی کالا و توسعه همکاری‌های ریلی، جاده‌ای و هوایی خبر داد. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372122"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Minister of Roads and Urban Development announces Iran-Uzbekistan agreement to remove transit barriers, facilitate goods movement and develop rail, road and air cooperation",
+      "summary_en": "Minister of Roads and Urban Development announces Iran-Uzbekistan agreement to remove transit barriers, facilitate goods movement and develop rail, road and air cooperation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72358",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:32:24Z",
+      "title": "💢 ۸۵ حمله هوایی و موشکی عربستان به یمن طی ۲۴ ساعت گذشته 🔸 سخنگوی نیرو‌های مسلح یمن روز جمعه اعلام کرد که…",
+      "url": "https://t.me/defapress_ir/72358",
+      "summary": "💢 ۸۵ حمله هوایی و موشکی عربستان به یمن طی ۲۴ ساعت گذشته 🔸 سخنگوی نیرو‌های مسلح یمن روز جمعه اعلام کرد که جنگنده‌های عربستان سعودی طی ۲۴ ساعت گذشته، با انجام ۸۵ حمله هوایی و موشکی، مناطق غیرنظامی در استان‌های لحج، تعز، صعده، جوف، مأرب و عمران را هدف قرار داده‌اند. 🔸 این حملات با استفاده از جنگنده‌های «اف-۱۵» و «تایفون» انجام شده که از پایگاه‌های خمیس مشیط و طائف به پرواز درآمده‌اند. همچنین حملات موشکی از منطقه نجران صورت گرفته است. 🔸 مجموع حملات هوایی و موشکی عربستان از زمان آغاز تشدید تنش‌ها علیه یمن، به ۴ هزار و ۹۴۸ مورد رسیده است. dnws.ir/003gJ2 @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72358"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "85 Saudi airstrikes and missile strikes on Yemen in the past 24 hours",
+      "summary_en": "85 Saudi airstrikes and missile strikes on Yemen in the past 24 hours. Yemen's Armed Forces spokesman announced on Friday that Saudi fighter jets have carried out 85 airstrikes and missile strikes in the past 24 hours, targeting civilian areas in Lahj, Taiz, Saada, Jouf, Marib and Amran provinces. These strikes were carried out using F-15 and Typhoon fighters that took off from Khamis Mushait and Taif bases. Missile strikes were also launched from the Najran region. The total number of Saudi airstrikes and missile strikes since the escalation of tensions against Yemen has reached 4,948.",
+      "has_figures": true,
+      "figures_examples": [
+        "24 hours"
+      ]
+    },
+    {
+      "id": "telegram:iribnews/372121",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:30:38Z",
+      "title": "🎦 وقتی ادعای ترامپ درباره تنگه هرمز مایه تمسخر الجزیره شد @iribnews",
+      "url": "https://t.me/iribnews/372121",
+      "summary": "🎦 وقتی ادعای ترامپ درباره تنگه هرمز مایه تمسخر الجزیره شد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372121"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "When Trump's claim about the Strait of Hormuz became a subject of ridicule for Al Jazeera",
+      "summary_en": "When Trump's claim about the Strait of Hormuz became a subject of ridicule for Al Jazeera.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27poswcos2i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T19:27:00.095000Z",
+      "title": "Opinion: Trump still holds a rock-solid policymaking record on the issues most important to Israel. Therefore, working with Trump over the…",
+      "url": "https://www.jpost.com/opinion/article-914713",
+      "summary": "Opinion: Trump still holds a rock-solid policymaking record on the issues most important to Israel. Therefore, working with Trump over the next three months to finish the campaign more decisively against Iran remains the right path. \n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72357",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:20:54Z",
+      "title": "💢 تا ساعت ۲۲:۲۵ هیچ‌گونه انفجار یا اصابتی در هرمزگان گزارش نشده است روابط عمومی استانداری هرمزگان: 🔸 با وجود…",
+      "url": "https://t.me/defapress_ir/72357",
+      "summary": "💢 تا ساعت ۲۲:۲۵ هیچ‌گونه انفجار یا اصابتی در هرمزگان گزارش نشده است روابط عمومی استانداری هرمزگان: 🔸 با وجود شنیده‌شدن برخی صداها در نقاطی از استان هرمزگان، تا این لحظه(۲۲:۲۵) هیچ‌گونه اصابت یا وقوع انفجاری در سطح استان گزارش نشده است. 🔸 بر اساس اطلاعات دریافتی، در شهرستان جاسک نیز با وجود شنیده‌شدن صداهایی، هیچ‌گونه اصابتی تا ساعت ۲۲:۲۵ گزارش نشده و احتمال می‌رود این صداها مرتبط با مقابله نیروهای مسلح با شناورهای متخلف باشد. 🔸 همچنین تاکنون هیچ گزارشی از اصابت یا حادثه مشابه در جزیره قشم دریافت نشده است. 🔸 این وضعیت بر اساس اطلاعات موجود تا این لحظه اعلام می‌شود. @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72357"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "No explosions or strikes reported in Hormozgan province until 22:25",
+      "summary_en": "No explosions or strikes reported in Hormozgan province until 22:25. Public Relations of Hormozgan Province: Despite some sounds being heard in parts of Hormozgan province, up to this time (22:25) no strikes or explosions have been reported across the province. Based on information received, despite sounds being heard in Jask city, no strikes have been reported until 22:25 and it is likely these sounds are related to the Armed Forces confronting illegal vessels. No reports of strikes or similar incidents on Qeshm Island have been received so far. This situation is reported based on available information at this time.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27oqgupok2u",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T19:10:00.742000Z",
+      "title": "Gaza-born writer and Democratic Socialists of America member Ahmed Moor is the first candidate to announce a 2028 campaign for Sen. John…",
+      "url": "https://www.jpost.com/american-politics/article-914831",
+      "summary": "Gaza-born writer and Democratic Socialists of America member Ahmed Moor is the first candidate to announce a 2028 campaign for Sen. John Fetterman’s seat, calling for economic sanctions on Israel and a single \"Palestine-Israel\" state.\n\nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372120",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:08:28Z",
+      "title": "🎦 گنجی، کارشناس رسانه: خودشیفتگی و دیده شدن در توییت‌های ترامپ موج می‌زند 🔹 رسانه‌های آمریکا با ترامپ همراه…",
+      "url": "https://t.me/iribnews/372120",
+      "summary": "🎦 گنجی، کارشناس رسانه: خودشیفتگی و دیده شدن در توییت‌های ترامپ موج می‌زند 🔹 رسانه‌های آمریکا با ترامپ همراه نیستند، بنابراین او شخصی کار می‌کند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372120"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Media expert Ganji: narcissism and being seen permeates Trump's tweets. American media are not with Trump, so he operates alone",
+      "summary_en": "Media expert Ganji: narcissism and being seen permeates Trump's tweets. American media are not with Trump, so he operates alone.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72347",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:06:27Z",
+      "title": "📸 گزارش تصویری/ تشیع نمادین حضرت زهرا (س) در حرم شاهچراغ(ع) dnws.ir/003gJA @Defapress_ir",
+      "url": "https://t.me/defapress_ir/72347",
+      "summary": "📸 گزارش تصویری/ تشیع نمادین حضرت زهرا (س) در حرم شاهچراغ(ع) dnws.ir/003gJA @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72347"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photo report: symbolic funeral procession of Lady Fatima (peace be upon her) at the Shahcheragh Shrine",
+      "summary_en": "Photo report: symbolic funeral procession of Lady Fatima (peace be upon her) at the Shahcheragh Shrine.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372119",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T19:00:14Z",
+      "title": "🎦 شب ۲۵۸ | مشت‌های برافراشته‌ای که با هیچ طوفانی گشوده نمی‌شود. 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/372119",
+      "summary": "🎦 شب ۲۵۸ | مشت‌های برافراشته‌ای که با هیچ طوفانی گشوده نمی‌شود. 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372119"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Night 258: fists raised that no storm can open.",
+      "summary_en": "Night 258: fists raised that no storm can open.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72346",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T18:50:35Z",
+      "title": "💢 شهادت یکی از کارکنان انتظامی در حمله مسلحانه تروریستی در خاش 🔸 مرکز اطلاع‌رسانی پلیس سیستان و بلوچستان…",
+      "url": "https://t.me/defapress_ir/72346",
+      "summary": "💢 شهادت یکی از کارکنان انتظامی در حمله مسلحانه تروریستی در خاش 🔸 مرکز اطلاع‌رسانی پلیس سیستان و بلوچستان اعلام کرد: در پی حمله مسلحانه افراد ناشناس به خودروی یکی از کارکنان انتظامی شهرستان خاش، استواردوم محمدامین کندی به شهادت رسید. 🔸 این مأمور انتظامی پس از پایان شیفت خدمتی در حال عزیمت به منزل بود که هدف تیراندازی مهاجمان قرار گرفت و بر اثر این حمله جان خود را از دست داد. 🔸 عاملان حمله پس از تیراندازی از محل متواری شدند و تلاش مأموران انتظامی و امنیتی برای شناسایی و دستگیری آنان ادامه دارد. dnws.ir/003gIt @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72346"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Death of a law enforcement officer in armed terrorist attack in Khash",
+      "summary_en": "Death of a law enforcement officer in armed terrorist attack in Khash. Sistan and Baluchestan Police Information Centre announced: Following an armed attack by unidentified individuals on the vehicle of a law enforcement officer in Khash city, Steward Mohammad Amin Kandi was martyred. This police officer was heading home after completing his shift when he was shot by the attackers and died as a result. The perpetrators fled the scene following the shooting and efforts by law enforcement and security forces to identify and apprehend them are ongoing.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372118",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T18:42:45Z",
+      "title": "🎦 ۶۰۰ میلیارد دلار زنده شود چه می‌شود؟ @iribnews",
+      "url": "https://t.me/iribnews/372118",
+      "summary": "🎦 ۶۰۰ میلیارد دلار زنده شود چه می‌شود؟ @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372118"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "What happens if 600 billion dollars comes to life?",
+      "summary_en": "What happens if 600 billion dollars comes to life?",
+      "has_figures": true,
+      "figures_examples": [
+        "600 billion"
+      ]
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611130278",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T18:29:29Z",
+      "title": "Cash-strapped Iranians put multiple organs up for sale",
+      "url": "https://www.iranintl.com/en/202611130278",
+      "summary": "Iranians struggling with mounting debts and soaring living costs are offering multiple organs and body tissues for sale, including testicles and corneas, in an online market where even finding a prospective buyer can come at a price.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:defapress_ir/72336",
+      "source": "Regime channels",
+      "source_detail": "Defa Press — IRGC-affiliated defence press · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T18:28:41Z",
+      "title": "📸 گزارش تصویری/ تشییع و تدفین پیکر شهید گمنام - روستای شیرین‌سو dnws.ir/003gIk @Defapress_ir",
+      "url": "https://t.me/defapress_ir/72336",
+      "summary": "📸 گزارش تصویری/ تشییع و تدفین پیکر شهید گمنام - روستای شیرین‌سو dnws.ir/003gIk @Defapress_ir",
+      "details": {
+        "channel_handle": "defapress_ir",
+        "channel_display": "Defa Press",
+        "language": "fa",
+        "post_id": "defapress_ir/72336"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Photo report: funeral procession and burial of an unknown martyr - Shirinsu village",
+      "summary_en": "Photo report: funeral procession and burial of an unknown martyr - Shirinsu village.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372117",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T18:25:25Z",
+      "title": "🎦 آمریکا چیزی جز یه ببر کاغذی نیست 🔹 مقدمه تحلیلی خبر ۲۱ 🔹 نویسنده: طیبه سادات حسینی 🌐 iribnews.ir 🆔 @iribnews",
+      "url": "https://t.me/iribnews/372117",
+      "summary": "🎦 آمریکا چیزی جز یه ببر کاغذی نیست 🔹 مقدمه تحلیلی خبر ۲۱ 🔹 نویسنده: طیبه سادات حسینی 🌐 iribnews.ir 🆔 @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372117"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "America is nothing but a paper tiger. Analytical preamble to news 21. Author: Tayebeh Sadat Hosseini",
+      "summary_en": "America is nothing but a paper tiger. Analytical preamble to news 21. Author: Tayebeh Sadat Hosseini.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372116",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T18:03:01Z",
+      "title": "رئیس شورای پزشکی باشگاه استقلال: 🔹 شرایط کوشکی خوب است و پایان فوتبال او صحت ندارد. 🔹 کوشکی در تمرین استقلال…",
+      "url": "https://t.me/iribnews/372116",
+      "summary": "رئیس شورای پزشکی باشگاه استقلال: 🔹 شرایط کوشکی خوب است و پایان فوتبال او صحت ندارد. 🔹 کوشکی در تمرین استقلال پس از یک ضربه، دچار مشکل شد اما ریه او حدود نود درصد باز شده است. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372116"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Head of Esteghlal Club Medical Board: Koushki's condition is good and the end of his football career is not true",
+      "summary_en": "Head of Esteghlal Club Medical Board: Koushki's condition is good and the end of his football career is not true. Koushki had a problem during Esteghlal training after a blow, but his lungs have opened approximately ninety percent.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372115",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:53:08Z",
+      "title": "🎦 هر کاری کردم بمونه باز ولی نشد... 🔹 نماهنگ احساسی به مناسبت شهادت حضرت زهرا(س) @iribnews",
+      "url": "https://t.me/iribnews/372115",
+      "summary": "🎦 هر کاری کردم بمونه باز ولی نشد... 🔹 نماهنگ احساسی به مناسبت شهادت حضرت زهرا(س) @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372115"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "I tried everything to keep her but it didn't work... Emotional music video on the occasion of the martyrdom of Lady Fatima (peace be upon her)",
+      "summary_en": "I tried everything to keep her but it didn't work... Emotional music video on the occasion of the martyrdom of Lady Fatima (peace be upon her).",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27kecsn2y2k",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T17:51:38.959000Z",
+      "title": "Opinion: While Hamas, Hezbollah, and Iran built entire doctrines around subterranean warfare, Israel’s critical infrastructure remains…",
+      "url": "https://www.jpost.com/opinion/article-914829",
+      "summary": "Opinion: While Hamas, Hezbollah, and Iran built entire doctrines around subterranean warfare, Israel’s critical infrastructure remains exposed above ground due to bureaucratic neglect and budget cuts. \n\nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372114",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:44:35Z",
+      "title": "🎦 حداقل به خانواده‌های نجیب ایرانی رحم کنید! 🔹 سیاست‌ها و ضوابط تولید در شبکه نمایش خانگی، مدت‌هاست در شورای…",
+      "url": "https://t.me/iribnews/372114",
+      "summary": "🎦 حداقل به خانواده‌های نجیب ایرانی رحم کنید! 🔹 سیاست‌ها و ضوابط تولید در شبکه نمایش خانگی، مدت‌هاست در شورای عالی انقلاب فرهنگی به تصویب رسیده اما هنوز در انتظار ابلاغه @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372114"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "At least have mercy on noble Iranian families! Policies and production regulations for the state broadcasting network have been approved by the Supreme Council of the Cultural Revolution for some time but are still awaiting proclamation",
+      "summary_en": "At least have mercy on noble Iranian families! Policies and production regulations for the state broadcasting network have been approved by the Supreme Council of the Cultural Revolution for some time but are still awaiting proclamation.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372113",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:30:41Z",
+      "title": "🎦 رمزگشایی از اقتدار موشکی ایران در تجمعات شبانه @iribnews",
+      "url": "https://t.me/iribnews/372113",
+      "summary": "🎦 رمزگشایی از اقتدار موشکی ایران در تجمعات شبانه @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372113"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Decoding Iran's missile capability in night-time gatherings",
+      "summary_en": "Decoding Iran's missile capability in night-time gatherings.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372112",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:21:22Z",
+      "title": "🎦 امروز ایرانی‌ها با هر تیپ و سلیقه‌ای مهمان سفره ۱۱۰ شهید گمنام دفاع مقدس بودند @iribnews",
+      "url": "https://t.me/iribnews/372112",
+      "summary": "🎦 امروز ایرانی‌ها با هر تیپ و سلیقه‌ای مهمان سفره ۱۱۰ شهید گمنام دفاع مقدس بودند @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372112"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Today Iranians of every style and taste were guests at the table of 110 unknown martyrs of the Sacred Defence",
+      "summary_en": "Today Iranians of every style and taste were guests at the table of 110 unknown martyrs of the Sacred Defence.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372111",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:17:00Z",
+      "title": "🎦 فرمانده کل سپاه: دشمن را در اعماق مواضعش هدف می‌گیریم 🔹 ملت ایران در جهان به قدرت و پایداری شناخته شده و…",
+      "url": "https://t.me/iribnews/372111",
+      "summary": "🎦 فرمانده کل سپاه: دشمن را در اعماق مواضعش هدف می‌گیریم 🔹 ملت ایران در جهان به قدرت و پایداری شناخته شده و همین رمز ماندگاری ایران و انقلاب اسلامی است. 🔹 تهدیدهای دشمن همان آرزوهای بر باد رفته آنان درباره ایران است. 🔹 نیروهای مسلح در عالی‌ترین وضعیت هستند…",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372111"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Commander-in-Chief of the IRGC: we target the enemy in the depths of their positions. The Iranian nation is recognised in the world for its power and steadfastness, and this is the secret of Iran's and the Islamic Revolution's endurance",
+      "summary_en": "Commander-in-Chief of the IRGC: we target the enemy in the depths of their positions. The Iranian nation is recognised in the world for its power and steadfastness, and this is the secret of Iran's and the Islamic Revolution's endurance. Enemy threats are merely their unfulfilled wishes about Iran. The Armed Forces are in the finest condition.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1395",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:16:25Z",
+      "title": "با حضور دلدادگان فاطمی و از سوی رهبر معظم انقلاب برگزار شد؛ 📢 عزاداری شام شهادت حضرت فاطمةالزهرا…",
+      "url": "https://t.me/rahbar_ir/1395",
+      "summary": "با حضور دلدادگان فاطمی و از سوی رهبر معظم انقلاب برگزار شد؛ 📢 عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها در زینبیه ▪️ مراسم سوگواری و عزاداری شام غریبان شهادت حضرت فاطمۀ زهرا سلام‌الله‌علیها، امشب (جمعه ۲۲ آبان ۱۴۰۵) پس از اقامۀ نماز مغرب و عشاء با حضور اقشار مختلف مردم و خانواده‌های معزّز شهدا در جوار محل عروج ملکوتی آقای شهید ایران برگزار شد. ▪️ در ابتدای این مراسم که از سوی حضرت آیت‌الله سیّدمجتبی خامنه‌ای رهبر معظم انقلاب اقامه می‌شود، آقای جواد حیدری ضمن توسل به ساحت مقدس حضرت ولی ‌عصر عجل‌الله‌تعالی‌فرجه‌الشریف، در رثای مادر سادات سلام‌الله‌علیها نوحه‌سرایی کرد و سپس حجت‌الاسلام ",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1395"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Held with the presence of those devoted to Fatima and on behalf of the Leader of the Islamic Revolution; Evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her, at Zainabiyyah",
+      "summary_en": "Held with the presence of those devoted to Fatima and on behalf of the Leader of the Islamic Revolution; Evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her, at Zainabiyyah. The mourning and lamentation ceremony for the evening of the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her, this evening (Friday, 22 Aban 1405) was held after the Maghrib and Isha prayers with the presence of various segments of the people and honoured families of the martyrs near the place of the celestial ascension of the great martyr of Iran. At the beginning of this ceremony, which is presided over by His Eminence Ayatollah Seyyed Mojtaba Khamenei, the Leader of the Islamic Revolution, Javad Haidari, while seeking intercession through the sacred shrine of the Master of the Age, may God hasten his return, recited elegiac poetry in mourning for the Mother of the Righteous, may God's peace and blessings be upon her, and then Hujjat al-Islam.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27id6lltq2y",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T17:15:13.381000Z",
+      "title": "UN human rights chief calls on the Houthis to return the body of a Yemeni UN worker who died in custody under unknown circumstances over a…",
+      "url": "https://www.jpost.com/middle-east/article-914827",
+      "summary": "UN human rights chief calls on the Houthis to return the body of a Yemeni UN worker who died in custody under unknown circumstances over a month ago.\n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372110",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:11:52Z",
+      "title": "🎦 یا برگرد، یا آن دل را برگردان 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت زهرا(س) …",
+      "url": "https://t.me/iribnews/372110",
+      "summary": "🎦 یا برگرد، یا آن دل را برگردان 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت زهرا(س)  @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372110"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Return, or return that heart... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her)",
+      "summary_en": "Return, or return that heart... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her).",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1394",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:10:56Z",
+      "title": "📹 ما ملت غدیریم... زهراست مادر ما شکست ناپذیریم... زهراست رهبر ما ▶️ دودمۀ‌ آقای محمود کریمی در مراسم عزاداری…",
+      "url": "https://t.me/rahbar_ir/1394",
+      "summary": "📹 ما ملت غدیریم... زهراست مادر ما شکست ناپذیریم... زهراست رهبر ما ▶️ دودمۀ‌ آقای محمود کریمی در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1394"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "We are the nation of Ghadir... Fatima is our mother, we are undefeated... Fatima is our leader. Family lineage of Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "We are the nation of Ghadir... Fatima is our mother, we are undefeated... Fatima is our leader. Family lineage of Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372109",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:04:48Z",
+      "title": "۶ طلای المپیاد نجوم به ایران رسید 🔹 تیم ملی نجوم ایران در پنجمین دوره المپیاد بین‌المللی آزاد نجوم در روسیه،…",
+      "url": "https://t.me/iribnews/372109",
+      "summary": "۶ طلای المپیاد نجوم به ایران رسید 🔹 تیم ملی نجوم ایران در پنجمین دوره المپیاد بین‌المللی آزاد نجوم در روسیه، ۶ نشان طلا کسب کرد. 🔹 هر ۶ نماینده ایران (سارینا علم‌پور، پارسیا حسن‌زاده، الشن روحانی، محمدرضا محمدی، بردیا قیلاوی‌زاده و مهدی آریافر) نشان طلا گرفتند. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372109"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Six gold medals from the Astronomy Olympiad reached Iran. Iran's national astronomy team won six gold medals at the fifth International Open Astronomy Olympiad in Russia",
+      "summary_en": "Six gold medals from the Astronomy Olympiad reached Iran. Iran's national astronomy team won six gold medals at the fifth International Open Astronomy Olympiad in Russia. All six Iranian representatives (Sarina Alampoor, Parsia Hasanzadeh, Alshan Rohani, Mohammad Reza Mohammadi, Bardia Ghilawizadeh and Mehdi Ariafar) won gold medals.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1393",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T17:01:52Z",
+      "title": "📹 روز قیامت، هرکسی در دست دارد نامه‌ای من نیز وارد می‌شوم، تصویر حیدر در بغل ▶️ لحظاتی از نوحه‌سرایی آقای…",
+      "url": "https://t.me/rahbar_ir/1393",
+      "summary": "📹 روز قیامت، هرکسی در دست دارد نامه‌ای من نیز وارد می‌شوم، تصویر حیدر در بغل ▶️ لحظاتی از نوحه‌سرایی آقای محمود کریمی در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1393"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "On the Day of Judgment, everyone holds a letter, I too shall enter holding the image of the Lion... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "On the Day of Judgment, everyone holds a letter, I too shall enter holding the image of the Lion... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372108",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:55:55Z",
+      "title": "شهادت مامور پلیس در خاش 🔹 مرکز اطلاع‌رسانی پلیس سیستان و بلوچستان: در پی حمله مسلحانه افراد ناشناس به خودروی…",
+      "url": "https://t.me/iribnews/372108",
+      "summary": "شهادت مامور پلیس در خاش 🔹 مرکز اطلاع‌رسانی پلیس سیستان و بلوچستان: در پی حمله مسلحانه افراد ناشناس به خودروی یکی از کارکنان انتظامی شهرستان خاش استوار دوم «محمدامین کندی»، پس از پایان شیفت خدمتی در حال عزیمت به منزل، به شهادت رسید. @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372108"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Death of police officer in Khash. Police Information Centre of Sistan and Baluchestan: Following an armed attack by unidentified individuals on the vehicle of a law enforcement officer in Khash city, Steward Mohammad Amin Kandi, after completing his shift and heading home, was martyred",
+      "summary_en": "Death of police officer in Khash. Police Information Centre of Sistan and Baluchestan: Following an armed attack by unidentified individuals on the vehicle of a law enforcement officer in Khash city, Steward Mohammad Kandi, after completing his shift and heading home, was martyred.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372107",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:52:17Z",
+      "title": "📷 برف پاییزی بلدۀ مازندران را سفیدپوش کرد @iribnews",
+      "url": "https://t.me/iribnews/372107",
+      "summary": "📷 برف پاییزی بلدۀ مازندران را سفیدپوش کرد @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372107"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Autumn snow blankets a village in Mazandaran",
+      "summary_en": "Autumn snow blankets a village in Mazandaran.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372106",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:50:26Z",
+      "title": "🎦 یا برگرد، یا آن دل را برگردان 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت زهرا(س)…",
+      "url": "https://t.me/iribnews/372106",
+      "summary": "🎦 یا برگرد، یا آن دل را برگردان 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت زهرا(س) @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372106"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Return, or return that heart... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her)",
+      "summary_en": "Return, or return that heart... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her).",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1392",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:49:25Z",
+      "title": "📹 یا برگرد، یا آن دل را برگردان... ▶️ لحظاتی از روضه‌خوانی آقای محمود کریمی در مراسم عزاداری شام شهادت حضرت…",
+      "url": "https://t.me/rahbar_ir/1392",
+      "summary": "📹 یا برگرد، یا آن دل را برگردان... ▶️ لحظاتی از روضه‌خوانی آقای محمود کریمی در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1392"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Return, or return that heart... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "Return, or return that heart... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "unpress:https://press.un.org/en/blog/sc16509",
+      "source": "UN Press",
+      "source_detail": "Security Council",
+      "source_tier": 2,
+      "category": "un-security-council",
+      "published_at": "2026-11-13T16:46:19Z",
+      "title": "Security Council, 10271st Meeting (PM) Middle East/Iran",
+      "url": "https://press.un.org/en/blog/sc16509",
+      "summary": "The Security Council will meet this afternoon at Bahrain’s request to discuss escalating tensions in the Gulf region and growing threats to maritime security. The briefing, to be delivered by Gulf Cooperation Council (GCC) Secretary-General Jasem Mohamed Albudaiwi and United Nations Assistant Secretary-General Mohamed Khaled Khiari, comes nearly nine months into the conflict sparked by Israeli and United States strikes on Iran, followed by Iranian attacks across the Gulf and moves to disrupt shi",
+      "details": {},
+      "tags": [
+        "diplomatic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:iribnews/372105",
+      "source": "Regime channels",
+      "source_detail": "IRIB — Iranian state broadcaster · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:42:55Z",
+      "title": "🎦 عزیزم رفته چند ماهه، دل ایران پر از درده 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت…",
+      "url": "https://t.me/iribnews/372105",
+      "summary": "🎦 عزیزم رفته چند ماهه، دل ایران پر از درده 🔹 لحظاتی از روضه‌خوانی محمود کریمی در مراسم عزاداری شام شهادت حضرت زهرا(س) @iribnews",
+      "details": {
+        "channel_handle": "iribnews",
+        "channel_display": "IRIB",
+        "language": "fa",
+        "post_id": "iribnews/372105"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "My dear has gone for months now, Iran's heart is full of sorrow... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her)",
+      "summary_en": "My dear has gone for months now, Iran's heart is full of sorrow... Moments from Mahmoud Karimi's mourning recitation at the evening mourning ceremony marking the martyrdom of Lady Fatima (peace be upon her).",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1391",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:41:53Z",
+      "title": "📹 عزیزم رفته چند ماهه، دل ایران پر از درده ▶️ لحظاتی از روضه‌خوانی آقای محمود کریمی در مراسم عزاداری شام…",
+      "url": "https://t.me/rahbar_ir/1391",
+      "summary": "📹 عزیزم رفته چند ماهه، دل ایران پر از درده ▶️ لحظاتی از روضه‌خوانی آقای محمود کریمی در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1391"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "My dear has gone for months now, Iran's heart is full of sorrow... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "My dear has gone for months now, Iran's heart is full of sorrow... Moments from mourning recitation by Mahmoud Karimi at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1390",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T16:29:25Z",
+      "title": "📹 آمریکا شکست بزرگی از جبهه مقاومت خورد 👤 براساس آیات قرآن کریم، «ضعف انگیزه و اراده»، «اختلاف و درگیری» و…",
+      "url": "https://t.me/rahbar_ir/1390",
+      "summary": "📹 آمریکا شکست بزرگی از جبهه مقاومت خورد 👤 براساس آیات قرآن کریم، «ضعف انگیزه و اراده»، «اختلاف و درگیری» و «دنیاطلبی» سه عامل اصلی شکست مسلمانان در جنگ اُحُد بود. این سه ویژگی الان در جبهه حق وجود ندارد و به همین دلیل آمریکا شکست بزرگی از جبهه مقاومت خورد. ▶️ لحظاتی از سخنرانی حجت‌الاسلام والمسلمین سید محمدباقر طباطبائی‌نژاد در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1390"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "America suffered a great defeat from the Resistance front. According to the verses of the Qur'an, 'weakness of motivation and will', 'discord and conflict' and 'worldliness' were three main factors in the Muslims' defeat at the Battle of Uhud. These three characteristics do not exist in the Resistance front today, and that is why America suffered a great defeat from the Resistance front. Moments from the speech of Hujjat al-Islam wal-Muslimin Seyyed Mohammad Baqir Tabatabai Nejad at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "America suffered a great defeat from the Resistance front. According to the verses of the Qur'an, 'weakness of motivation and will', 'discord and conflict' and 'worldliness' were three main factors in the Muslims' defeat at the Battle of Uhud. These three characteristics do not exist in the Resistance front today, and that is why America suffered a great defeat from the Resistance front. Moments from the speech of Hujjat al-Islam wal-Muslimin Seyyed Mohammad Baqir Tabatabai Nejad at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27diotyan2j",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T15:48:49.315000Z",
+      "title": "The IDF and Shin Bet released a joint statement saying they killed \"more than 10 terrorists\" this week in Gaza. Among those killed were…",
+      "url": "https://www.jpost.com/israel-news/defense-news/article-914822",
+      "summary": "The IDF and Shin Bet released a joint statement saying they killed \"more than 10 terrorists\" this week in Gaza. Among those killed were terrorists who infiltrated Israel on October 7, 2023.\n\nwww.jpost.com/israel-news/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "10 terrorists"
+      ]
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27cqzuzh52d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T15:35:35.969000Z",
+      "title": "US Treasury Secretary Scott Bessent says he will not \"be cowered by the death threats [Iran] has made.\" He also confirmed that he had moved…",
+      "url": "https://www.jpost.com/american-politics/article-914821",
+      "summary": "US Treasury Secretary Scott Bessent says he will not \"be cowered by the death threats [Iran] has made.\" He also confirmed that he had moved to a military base, and added \"F the Iranian leadership.\"\n\nwww.jpost.com/american-pol...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1389",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T15:25:39Z",
+      "title": "📹 لحظاتی از روضه‌خوانی آقای جواد حیدری در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣…",
+      "url": "https://t.me/rahbar_ir/1389",
+      "summary": "📹 لحظاتی از روضه‌خوانی آقای جواد حیدری در مراسم عزاداری شام شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها #️⃣ #جامعه_فاطمی 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1389"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Moments from mourning recitation by Javad Haidari at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her",
+      "summary_en": "Moments from mourning recitation by Javad Haidari at the evening mourning ceremony marking the martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her.",
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1388",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T14:51:15Z",
+      "title": "📢 آغاز مراسم عزاداری شام غریبان شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها در زینبیه ▪️ این مراسم که از سوی حضرت…",
+      "url": "https://t.me/rahbar_ir/1388",
+      "summary": "📢 آغاز مراسم عزاداری شام غریبان شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها در زینبیه ▪️ این مراسم که از سوی حضرت آیت‌الله سیّدمجتبی حسینی خامنه‌ای رهبر معظم انقلاب اسلامی در جوار محل عروج ملکوتی آقای شهید ایران برگزار می‌شود، با اقامۀ نماز مغرب و عشاء آغاز شده و تا پیش از ساعت برگزاری تجمعات شبانه امت مبعوث برقرار می‌باشد. 🗄️ مشروح خبر و تصاویر تکمیلی متعاقباً منتشر می‌شود. 💻 @Rahbar_ir",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1388"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Beginning of the evening mourning ceremony marking the extraordinary martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her, at Zainabiyyah. This ceremony, which is held on behalf of His Eminence Ayatollah Seyyed Mojtaba Hosseini Khamenei, the Leader of the Islamic Revolution, near the place of the celestial ascension of the great martyr of Iran, has begun with the Maghrib and Isha prayers and will continue until just before the night-time gatherings of the resurrected nation",
+      "summary_en": "Beginning of the evening mourning ceremony marking the extraordinary martyrdom of Lady Fatima al-Zahra, may God's peace and blessings be upon her, at Zainabiyyah. This ceremony, which is held on behalf of His Eminence Ayatollah Seyyed Mojtaba Hosseini Khamenei, the Leader of the Islamic Revolution, near the place of the celestial ascension of the great martyr of Iran, has begun with the Maghrib and Isha prayers and will continue until just before the night-time gatherings of the resurrected nation. A detailed report and supplementary images will be released subsequently.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n27a37hy7y2i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T14:47:35.904000Z",
+      "title": "Assaf Moghadam of Reichman University's International Institute for Counterterrorism told The Jerusalem Post that deradicalizing Gaza…",
+      "url": "https://www.jpost.com/international/islamic-terrorism/article-914769",
+      "summary": "Assaf Moghadam of Reichman University's International Institute for Counterterrorism told The Jerusalem Post that deradicalizing Gaza should remain an aspiration for Israel, but warned it could take decades to accomplish.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:6c5530b9c48e4c3ddcde5e78933614cf",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-13T14:46:00Z",
+      "title": "🔴 ELIMINATED: 10+ terrorists in several strikes across Gaza over the past week. Additionally, a weapons manufacturing workshop was dismantled. Among those eliminated were 2 Hamas terrorists who infiltrated Israel during the October 7 Massacre and a terrorist involved in manufacturing weapons at the dismantled workshop. The terrorists advanced terror attacks against Israeli civilians & IDF troops and operated to restore Hamas’ capabilities, in systematic violation of the ceasefire. The terrorists were eliminated in order to remove the threat they posed.",
+      "url": "https://x.com/IDF/status/2121253370358800406",
+      "summary": "🔴 ELIMINATED: 10+ terrorists in several strikes across Gaza over the past week. Additionally, a weapons manufacturing workshop was dismantled.\n\nAmong those eliminated were 2 Hamas terrorists who infiltrated Israel during the October 7 Massacre and a terrorist involved in manufacturing weapons at the dismantled workshop.\n\nThe terrorists advanced terror attacks against Israeli civilians & IDF troops and operated to restore Hamas’ capabilities, in systematic violation of the ceasefire.\n\nThe terrorists were eliminated in order to remove the threat they posed.— Israel Defense Forces (@IDF) Nov 13, ",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": true,
+      "figures_examples": [
+        "10+ terrorists"
+      ]
+    },
+    {
+      "id": "telegram:rahbar_ir/1387",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T14:44:08Z",
+      "title": "🎞 بینمون خالیه امسال جای یک روضه‌خون ▪️ ببینید؛ لحظاتی از روضه‌خوانی آقای میثم مطیعی در رثای «آقای شهید…",
+      "url": "https://t.me/rahbar_ir/1387",
+      "summary": "🎞 بینمون خالیه امسال جای یک روضه‌خون ▪️ ببینید؛ لحظاتی از روضه‌خوانی آقای میثم مطیعی در رثای «آقای شهید ایران» 💻 @Rahbar_ir | #جامعه_فاطمی",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1387"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "There is emptiness among us this year, where one lamentation should be... Watch: moments from mourning recitation by Mithaq Moatei in elegy for 'the great martyr of Iran'",
+      "summary_en": "There is emptiness among us this year, where one lamentation should be... Watch: moments from mourning recitation by Mithaq Moatei in elegy for 'the great martyr of Iran'.",
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n277abgujh2i",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T14:32:32.192000Z",
+      "title": "US CENTCOM confirmed on Friday that Iran’s Revolutionary Guards launched two suicide drones toward Bahrain overnight. Both drones were…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914794",
+      "summary": "US CENTCOM confirmed on Friday that Iran’s Revolutionary Guards launched two suicide drones toward Bahrain overnight. Both drones were intercepted by American forces, and there were no casualties or damage. \n\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:cd36e6b31de1ccee8eb7766d685026f9",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-11-13T14:32:00Z",
+      "title": "The Israeli military announces that it struck and killed more than 10 terror operatives in the Gaza Strip over the past week, including some who participated in the October 7 onslaught. Additionally, the IDF says it bombed a weapons production site in Gaza this week. According to the military, among terror operatives killed in strikes this week are: Muhammad Atta Zaki Qishawi, identified by the IDF as a member of Hamas's elite Nukhba Force who invaded Israel on October 7, 2023. Ali Naim Ayesh Abu Osai, a member of the Saif al-Islam terror faction, whom the IDF says was involved in manufacturing weapons for Hamas. The workshop, belonging to Hamas's weapons production headquarters, was destroy",
+      "url": "https://x.com/manniefabian/status/2121249879028564290",
+      "summary": "The Israeli military announces that it struck and killed more than 10 terror operatives in the Gaza Strip over the past week, including some who participated in the October 7 onslaught. \n\nAdditionally, the IDF says it bombed a weapons production site in Gaza this week.\n\nAccording to the military, among terror operatives killed in strikes this week are: \n\nMuhammad Atta Zaki Qishawi, identified by the IDF as a member of Hamas's elite Nukhba Force who invaded Israel on October 7, 2023.\n\nAli Naim Ayesh Abu Osai, a member of the Saif al-Islam terror faction, whom the IDF says was involved in manufa",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n276zygwaz2x",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T14:29:01.323000Z",
+      "title": "Mossad Director Roman Gofman is visiting Washington DC to meet with CIA Director John Ratcliffe and senior officials in the Trump…",
+      "url": "https://www.jpost.com/international/article-914818",
+      "summary": "Mossad Director Roman Gofman is visiting Washington DC to meet with CIA Director John Ratcliffe and senior officials in the Trump administration, to push for a return to conflict with Iran.\n\nwww.jpost.com/internationa...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611135399",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T14:28:45Z",
+      "title": "UK police reveal how men spying for Iran tracked Iran International journalists",
+      "url": "https://www.iranintl.com/en/202611135399",
+      "summary": "The men convicted of spying on Iran International journalists in London worked from files sent from Iran that listed their targets’ photos, workplaces, cars and even the names of their pets, some of it gathered with ChatGPT, British counterterrorism police said.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1386",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T14:18:16Z",
+      "title": "🗒 شخصیتی نمونه در دفاع از ولایت 💬 حضرت صدّیقۀ اطهر، فاطمۀ‌ زهرا صلوات‌ الله و سلامه علیها شخصیتی نمونه در…",
+      "url": "https://t.me/rahbar_ir/1386",
+      "summary": "🗒 شخصیتی نمونه در دفاع از ولایت 💬 حضرت صدّیقۀ اطهر، فاطمۀ‌ زهرا صلوات‌ الله و سلامه علیها شخصیتی نمونه در دفاع جانانه از ولایت امیرالمؤمنین صلوات‌ الله و سلامه علیهما و آلهما و در موقع‌شناسی و قیام برای حق، و ایستادگی و تبیین هستند؛ و در یک کلام اسوه‌ای برای همۀ زنان و مردان باایمان. ✍ رهبر معظم انقلاب | ۴/آبان/۱۴۰۵ 💻 @Rahbar_ir | #جامعه_فاطمی",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1386"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "An exemplary personality in defence of the guardianship. Her Eminence the Truthful One, Fatima al-Zahra, may God's peace and blessings be upon her, is an exemplary personality in the spirited defence of the guardianship of the Commander of the Faithful, may God's peace and blessings be upon him and his family, and in timely action and standing up for truth, and steadfastness and clarification; and in short, an example for all faithful women and men",
+      "summary_en": "An exemplary personality in defence of the guardianship. Her Eminence the Truthful One, Fatima al-Zahra, may God's peace and blessings be upon her, is an exemplary personality in the spirited defence of the guardianship of the Commander of the Faithful, may God's peace and blessings be upon him and his family, and in timely action and standing up for truth, and steadfastness and clarification; and in short, an example for all faithful women and men. - The Leader of the Islamic Revolution, 4 Aban 1405",
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:8f8d5b9bada6ff64f67f82c6f489dbbe",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-13T14:04:00Z",
+      "title": "‼️🔎 EXPOSED: THE TRUTH BEHIND GAZA’S HOSPITALS Intelligence documents seized by IDF troops reveal new details about Hamas and Islamic Jihad’s exploitation of medical facilities. 📄 A 2019 Hamas document, written by the Deputy Commander of Hamas’ Khan Younis Brigade and found near the safe house of the Deputy Commander of Hamas’ Eastern Khan Younis Battalion, outlines a protocol for handling suspects taken for interrogation. It identifies Nasser Hospital, the Red Crescent Hospital & the European Hospital as interrogation locations. 📄 A 2020 document, found near Shifa Hospital, details Islamic Jihad’s exploitation of Shifa, Al-Rantisi & Kamal Adwan hospitals to position mortar shells, docume",
+      "url": "https://x.com/IDF/status/2121242780299087904",
+      "summary": "‼️🔎 EXPOSED: THE TRUTH BEHIND GAZA’S HOSPITALS\n\nIntelligence documents seized by IDF troops reveal new details about Hamas and Islamic Jihad’s exploitation of medical facilities.\n\n📄 A 2019 Hamas document, written by the Deputy Commander of Hamas’ Khan Younis Brigade and found near the safe house of the Deputy Commander of Hamas’ Eastern Khan Younis Battalion, outlines a protocol for handling suspects taken for interrogation. It identifies Nasser Hospital, the Red Crescent Hospital & the European Hospital as interrogation locations.\n\n📄 A 2020 document, found near Shifa Hospital, details Islamic",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611117115",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T13:55:11Z",
+      "title": "Iran’s regime must go for nuclear threat to end, Reagan Institute’s Zakheim says",
+      "url": "https://www.iranintl.com/en/202611117115",
+      "summary": "The Islamic Republic will keep pursuing a nuclear weapon as long as it remains in power, and Washington should keep up military, economic and covert pressure even while it talks to Tehran, Roger Zakheim, director of the Ronald Reagan Institute, told Iran International.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611132513",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T13:34:14Z",
+      "title": "Iran has money to kill journalists but not for bread, Nobel laureate Ebadi says",
+      "url": "https://www.iranintl.com/en/202611132513",
+      "summary": "Nobel Peace Prize laureate Shirin Ebadi accused the Islamic Republic on Friday of funding threats against journalists abroad while failing to provide for people at home, after two Iranian men were convicted in London of assisting Iranian intelligence operations.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:e1460682458e32b37a03cc7538359361",
+      "source": "CENTCOM",
+      "source_detail": "U.S. Central Command · X (via rss.app)",
+      "source_tier": 2,
+      "category": "centcom-x",
+      "published_at": "2026-11-13T12:54:00Z",
+      "title": "🚫 CLAIM: Today, Iran’s Islamic Revolutionary Guard Corps (IRGC) said it attacked a “U.S. early-warning radar” in Bahrain. ✅ FACT: The IRGC launched two one-way attack drones toward Bahrain and both were shot down by U.S. forces. There were no injuries or damage.",
+      "url": "https://x.com/CENTCOM/status/2121225254446018729",
+      "summary": "🚫 CLAIM: Today, Iran’s Islamic Revolutionary Guard Corps (IRGC) said it attacked a “U.S. early-warning radar” in Bahrain.\n\n✅ FACT: The IRGC launched two one-way attack drones toward Bahrain and both were shot down by U.S. forces. There were no injuries or damage.— U.S. Central Command (@CENTCOM) Nov 13, 2026",
+      "details": {
+        "handle": "@CENTCOM"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n26x5edtxk2a",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T12:07:44.694000Z",
+      "title": "Opinion: Israel needs credible guarantees against further attacks by Hamas; Palestinians need protection from Israel’s necessary operations…",
+      "url": "https://www.jpost.com/opinion/article-914201",
+      "summary": "Opinion: Israel needs credible guarantees against further attacks by Hamas; Palestinians need protection from Israel’s necessary operations against Hamas, and a credible prospect of an end to indefinite displacement. That must involve the genuine disarmament of Hamas. \nwww.jpost.com/opinion/arti...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "telegram:rahbar_ir/1385",
+      "source": "Regime channels",
+      "source_detail": "Khamenei’s office — Iran Supreme Leader · Telegram",
+      "source_tier": 4,
+      "category": "telegram-claim",
+      "published_at": "2026-11-13T12:03:48Z",
+      "title": "🎞 گوشه‌هایی از عزاداری شب شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها در زینبیه 💻 @Rahbar_ir | #جامعه_فاطمی",
+      "url": "https://t.me/rahbar_ir/1385",
+      "summary": "🎞 گوشه‌هایی از عزاداری شب شهادت حضرت فاطمةالزهرا سلام‌الله‌علیها در زینبیه 💻 @Rahbar_ir | #جامعه_فاطمی",
+      "details": {
+        "channel_handle": "rahbar_enghelab_ir",
+        "channel_display": "Khamenei’s office",
+        "language": "fa",
+        "post_id": "rahbar_ir/1385"
+      },
+      "tags": [
+        "telegram",
+        "claim",
+        "fa"
+      ],
+      "title_en": "Scenes from the night of mourning for the martyrdom of Hazrat Fatimah al-Zahra (peace be upon her) at Zeinabiyyah",
+      "summary_en": "Scenes from the night of mourning for the martyrdom of Hazrat Fatimah al-Zahra (peace be upon her) at Zeinabiyyah",
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611131705",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T12:00:57Z",
+      "title": "Iran International spy verdicts don’t end threat to exiled Iranian journalists - CPJ",
+      "url": "https://www.iranintl.com/en/202611131705",
+      "summary": "Exiled Iranian journalists remain at risk despite the conviction of two men in London for targeting Iran International staff on behalf of Iranian intelligence, the New York-based Committee to Protect Journalists warned on Friday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:19e32d44b457795997b167543f2064a3",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-13T10:19:00Z",
+      "title": "❄️ WINTER PREPARATIONS IN GAZA: The IDF and COGAT continue coordinating humanitarian efforts alongside the Board of Peace, the UN, international organizations & donor countries. Since winter preparations began: • 93,000+ tents and 8,600+ trucks carrying winter supplies have entered Gaza. • 16 sewage vacuum trucks have entered, alongside repairs to sewage, drainage & water infrastructure. • Hundreds of trucks carrying medical equipment and medications have entered in recent weeks, with supplies delivered directly to hospitals and clinics. Hamas continues to exploit humanitarian infrastructure and incoming aid, including winter supplies. As long as Hamas does not disarm, Gaza’s rehabilitation",
+      "url": "https://x.com/IDF/status/2121186245950783670",
+      "summary": "❄️ WINTER PREPARATIONS IN GAZA: The IDF and COGAT continue coordinating humanitarian efforts alongside the Board of Peace, the UN, international organizations & donor countries.\n\nSince winter preparations began:\n• 93,000+ tents and 8,600+ trucks carrying winter supplies have entered Gaza.\n• 16 sewage vacuum trucks have entered, alongside repairs to sewage, drainage & water infrastructure.\n• Hundreds of trucks carrying medical equipment and medications have entered in recent weeks, with supplies delivered directly to hospitals and clinics.\n\nHamas continues to exploit humanitarian infrastructure",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611135877",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T10:16:48Z",
+      "title": "Iranian comedian sentenced to five years in prison",
+      "url": "https://www.iranintl.com/en/202611135877",
+      "summary": "Iranian comedian Saeed Shakiba was sentenced to five years in prison after publishing a satirical video imitating the voice of former Supreme Leader Ali Khamenei, the human rights website HRANA said on Friday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611137304",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T09:49:12Z",
+      "title": "France probes blood freezer hack after blaming Iran for similar attacks",
+      "url": "https://www.iranintl.com/en/202611137304",
+      "summary": "France is investigating a cyberattack on freezers that store blood for hospital patients, its national blood service told Iran International, weeks after Paris blamed Iran’s Revolutionary Guards for hacking the freezers of hundreds of French supermarkets.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:bf67045cf3f462ee88e4feb4f13435f5",
+      "source": "Manni Fabian",
+      "source_detail": "Times of Israel · military correspondent · X (via rss.app)",
+      "source_tier": 2,
+      "category": "manniefabian-x",
+      "published_at": "2026-11-13T09:47:00Z",
+      "title": "The commander of the US Navy’s 5th Fleet, the naval component in the US Central Command, completed a visit to Israel this week. During the visit, 5th Fleet commander Vice Adm. Curt Renshaw met with Israeli Navy chief Vice Adm. Eyal Harel and other top naval officers, the Israeli military says. \"The commanders discussed the Navy’s actions during operations across the various arenas, strengthening the partnership to maintain regional stability and the security of maritime routes, mutual coordination between the fleets, and technological knowledge-sharing,\" the IDF says in a statement. The 5th Fleet is headquartered in Bahrain and has been involved in low-level fighting against Iran in the Gulf",
+      "url": "https://x.com/manniefabian/status/2121178099224035473",
+      "summary": "The commander of the US Navy’s 5th Fleet, the naval component in the US Central Command, completed a visit to Israel this week.\n\nDuring the visit, 5th Fleet commander Vice Adm. Curt Renshaw met with Israeli Navy chief Vice Adm. Eyal Harel and other top naval officers, the Israeli military says.\n\n\"The commanders discussed the Navy’s actions during operations across the various arenas, strengthening the partnership to maintain regional stability and the security of maritime routes, mutual coordination between the fleets, and technological knowledge-sharing,\" the IDF says in a statement.\n\nThe 5th",
+      "details": {
+        "handle": "@manniefabian"
+      },
+      "tags": [
+        "x-twitter",
+        "journalist"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611129472",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T09:20:26Z",
+      "title": "Iran threatens Armenia as US-run Trump Route clears Yerevan’s parliament",
+      "url": "https://www.iranintl.com/en/202611129472",
+      "summary": "Armenia’s parliamentary approval of the Trump Route, a US-run transit corridor running along Iran’s northern border, has set off alarm in Tehran, with officials and state media warning that it would bring a US presence to the frontier.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "x_via_rssapp:730aaf1e7f0419bfa4fc73b0f7467c26",
+      "source": "IDF",
+      "source_detail": "Israel Defense Forces · X (via rss.app)",
+      "source_tier": 2,
+      "category": "idf-x",
+      "published_at": "2026-11-13T09:12:00Z",
+      "title": "🇮🇱⚓️🇺🇸Strengthening the maritime partnership between Israel and the United States Commander of the United States Fifth Fleet, Vice Admiral Curt A. Renshaw, concluded his visit to Israel today as a guest of the Commander in Chief of the Israeli Navy, Vice Admiral Eyal Harel. The commanders discussed the Navy’s actions during operations across the various arenas, strengthening the partnership to maintain regional stability.",
+      "url": "https://x.com/IDF/status/2121169204279652811",
+      "summary": "🇮🇱⚓️🇺🇸Strengthening the maritime partnership between Israel and the United States\n\nCommander of the United States Fifth Fleet, Vice Admiral Curt A. Renshaw, concluded his visit to Israel today as a guest of the Commander in Chief of the Israeli Navy, Vice Admiral Eyal Harel.\n\nThe commanders discussed the Navy’s actions during operations across the various arenas, strengthening the partnership to maintain regional stability.— Israel Defense Forces (@IDF) Nov 13, 2026",
+      "details": {
+        "handle": "@IDF"
+      },
+      "tags": [
+        "x-twitter",
+        "official-body",
+        "claim"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n26mbvctc42d",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T08:53:25.493000Z",
+      "title": "Iran's Islamic Revolutionary Guards Corps Navy said a tanker carrying liquefied natural gas struck a naval mine and suffered an explosion…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914804",
+      "summary": "Iran's Islamic Revolutionary Guards Corps Navy said a tanker carrying liquefied natural gas struck a naval mine and suffered an explosion in the Strait of Hormuz while using what they described was an \"unauthorized and dangerous route,\" state media reported. \nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "bluesky:at://did:plc:724gpbnyikkk2zsafpdtwgzu/app.bsky.feed.post/3n26kxfip7k2f",
+      "source": "Jerusalem Post",
+      "source_detail": "The Jerusalem Post · Bluesky",
+      "source_tier": 2,
+      "category": "jpost-bsky",
+      "published_at": "2026-11-13T08:29:39.713000Z",
+      "title": "The International Atomic Energy Agency, the UN nuclear watchdog, is \"increasingly concerned\" about an underground uranium-enrichment plant…",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-914802",
+      "summary": "The International Atomic Energy Agency, the UN nuclear watchdog, is \"increasingly concerned\" about an underground uranium-enrichment plant at Isfahan that Iran declared last year but has not allowed the watchdog to inspect.\nwww.jpost.com/middle-east/...",
+      "details": {
+        "handle": "thejerusalempost.bsky.social"
+      },
+      "tags": [
+        "bluesky",
+        "israeli-press",
+        "english"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611137770",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T08:26:09Z",
+      "title": "US rejects Iran's radar claim, says it shot down drones over Bahrain",
+      "url": "https://www.iranintl.com/en/202611137770",
+      "summary": "US forces shot down two drones Iran’s Revolutionary Guards launched toward Bahrain on Friday and nothing was damaged, the US military said, rejecting the Guards’ claim that they had destroyed a US early-warning radar on the island.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "iranintl:https://www.iranintl.com/en/202611133720",
+      "source": "Iran International",
+      "source_detail": "Opposition outlet, London",
+      "source_tier": 3,
+      "category": "iran-news",
+      "published_at": "2026-11-13T08:24:31Z",
+      "title": "IAEA raises alarm over Iranian enrichment plant it has never inspected",
+      "url": "https://www.iranintl.com/en/202611133720",
+      "summary": "The UN nuclear watchdog does not know exactly where Iran’s newest uranium enrichment plant is or whether it holds nuclear material, more than a year after Tehran declared it, according to a report seen by Reuters on Friday.",
+      "details": {},
+      "tags": [
+        "iran-domestic"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-23233",
+      "source": "US Federal Register",
+      "source_detail": "White House — Presidential Document",
+      "source_tier": 1,
+      "category": "executive-order",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Presidential Determination Pursuant to Section 1245(d)(4)(B) and (C) of the National Defense Authorization Act for Fiscal Year 2012",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23233/presidential-determination-pursuant-to-section-1245d4b-and-c-of-the-national-defense-authorization",
+      "summary": "",
+      "details": {
+        "document_type": "Presidential Document",
+        "agencies": "Executive Office of the President",
+        "document_number": "2026-23233"
+      },
+      "tags": [
+        "executive-order"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-23197",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Publication of Iran-Related Web General Licenses EE and FF",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23197/publication-of-iran-related-web-general-licenses-ee-and-ff",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing two Iran-related general licenses (GLs): GLs EE and FF, which were made available on OFAC's website at the time of issuance.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-23197"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    },
+    {
+      "id": "fedreg:2026-23193",
+      "source": "US Federal Register",
+      "source_detail": "US Treasury / OFAC",
+      "source_tier": 1,
+      "category": "ofac-sanctions",
+      "published_at": "2026-11-13T00:00:00Z",
+      "title": "Publication of Iran-Related Web General License W",
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23193/publication-of-iran-related-web-general-license-w",
+      "summary": "The Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing an Iran-related general license (GL): GL W. This GL was previously made available on OFAC's website.",
+      "details": {
+        "document_type": "Rule",
+        "agencies": "Treasury Department, Foreign Assets Control Office",
+        "document_number": "2026-23193"
+      },
+      "tags": [
+        "regulatory"
+      ],
+      "has_figures": false
+    }
+  ]
+}
